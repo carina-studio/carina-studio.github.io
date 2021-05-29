@@ -1,0 +1,1020 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseSettings
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseSettings
+   ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Configuration.BaseSettings">
+  
+  
+  <h1 id="CarinaStudio_Configuration_BaseSettings" data-uid="CarinaStudio.Configuration.BaseSettings" class="text-break">Class BaseSettings
+  </h1>
+  <div class="markdown level0 summary"><p>Base implementation of application settings. This is thread-safe class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseSettings</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Configuration.html">CarinaStudio.Configuration</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Configuration.dll</h6>
+  <h5 id="CarinaStudio_Configuration_BaseSettings_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseSettings</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings__ctor_" data-uid="CarinaStudio.Configuration.BaseSettings.#ctor*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_BaseSettings_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.BaseSettings,CarinaStudio.Configuration.ISettingsSerializer)">BaseSettings(BaseSettings, ISettingsSerializer)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BaseSettings(BaseSettings template, ISettingsSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a></td>
+        <td><span class="parametername">template</span></td>
+        <td><p>Template settings to initialize values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td><p>Settings serializer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings__ctor_" data-uid="CarinaStudio.Configuration.BaseSettings.#ctor*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)">BaseSettings(ISettingsSerializer)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BaseSettings(ISettingsSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td><p>Settings serializer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Keys_" data-uid="CarinaStudio.Configuration.BaseSettings.Keys*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Keys" data-uid="CarinaStudio.Configuration.BaseSettings.Keys">Keys</h4>
+  <div class="markdown level1 summary"><p>Get all setting keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SettingKey&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Version_" data-uid="CarinaStudio.Configuration.BaseSettings.Version*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Version" data-uid="CarinaStudio.Configuration.BaseSettings.Version">Version</h4>
+  <div class="markdown level1 summary"><p>Get version of settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract int Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_GetRawValue_" data-uid="CarinaStudio.Configuration.BaseSettings.GetRawValue*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)">GetRawValue(SettingKey)</h4>
+  <div class="markdown level1 summary"><p>Get raw value stored in settings no matter what type of value specified by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetRawValue(SettingKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>Raw setting value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.BaseSettings.GetValueOrDefault*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)">GetValueOrDefault(SettingKey)</h4>
+  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Try using generic GetValueOrDefault() instead, unless you don't know the type of value.&quot;)]
+public object GetValueOrDefault(SettingKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>Setting value, or default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.BaseSettings.GetValueOrDefault*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_GetValueOrDefault__1_CarinaStudio_Configuration_SettingKey___0__" data-uid="CarinaStudio.Configuration.BaseSettings.GetValueOrDefault``1(CarinaStudio.Configuration.SettingKey{``0})">GetValueOrDefault&lt;T&gt;(SettingKey&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetValueOrDefault&lt;T&gt;(SettingKey&lt;T&gt; key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Setting value, or default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Load_" data-uid="CarinaStudio.Configuration.BaseSettings.Load*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Load_System_IO_Stream_" data-uid="CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)">Load(Stream)</h4>
+  <div class="markdown level1 summary"><p>Load settings from given stream synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> to load settings from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Load_" data-uid="CarinaStudio.Configuration.BaseSettings.Load*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Load_System_String_" data-uid="CarinaStudio.Configuration.BaseSettings.Load(System.String)">Load(String)</h4>
+  <div class="markdown level1 summary"><p>Load settings from file synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Name of file to load settings from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.BaseSettings.LoadAsync*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_LoadAsync_System_IO_Stream_" data-uid="CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)">LoadAsync(Stream)</h4>
+  <div class="markdown level1 summary"><p>Load settings from given stream asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> to load settings from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p><span class="xref">System.Threading.Tasks.Task</span> of asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.BaseSettings.LoadAsync*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_LoadAsync_System_String_" data-uid="CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)">LoadAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Load settings from file asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Name of file to load settings from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p><span class="xref">System.Threading.Tasks.Task</span> of asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_OnUpgrade_" data-uid="CarinaStudio.Configuration.BaseSettings.OnUpgrade*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_OnUpgrade_System_Int32_" data-uid="CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)">OnUpgrade(Int32)</h4>
+  <div class="markdown level1 summary"><p>Called to upgrade settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnUpgrade(int oldVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">oldVersion</span></td>
+        <td><p>Old version to upgrade from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_ResetValue_" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValue*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_ResetValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)">ResetValue(SettingKey)</h4>
+  <div class="markdown level1 summary"><p>Reset setting to default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetValue(SettingKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_ResetValues_" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValues*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_ResetValues" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValues">ResetValues()</h4>
+  <div class="markdown level1 summary"><p>Reset all values to default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetValues()</code></pre>
+  </div>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_ResetValues_" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValues*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_ResetValues_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__" data-uid="CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})">ResetValues(IEnumerable&lt;SettingKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Reset specific set of values to default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetValues(IEnumerable&lt;SettingKey&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Save_" data-uid="CarinaStudio.Configuration.BaseSettings.Save*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Save_System_IO_Stream_" data-uid="CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)">Save(Stream)</h4>
+  <div class="markdown level1 summary"><p>Save settings to given stream synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> to save settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_Save_" data-uid="CarinaStudio.Configuration.BaseSettings.Save*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_Save_System_String_" data-uid="CarinaStudio.Configuration.BaseSettings.Save(System.String)">Save(String)</h4>
+  <div class="markdown level1 summary"><p>Save settings to file synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Name of file to save settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.BaseSettings.SaveAsync*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SaveAsync_System_IO_Stream_" data-uid="CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)">SaveAsync(Stream)</h4>
+  <div class="markdown level1 summary"><p>Save settings to given stream asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> to save settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p><span class="xref">System.Threading.Tasks.Task</span> of asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.BaseSettings.SaveAsync*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SaveAsync_System_String_" data-uid="CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)">SaveAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Save settings to file asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Name of file to save settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p><span class="xref">System.Threading.Tasks.Task</span> of asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_SetValue_" data-uid="CarinaStudio.Configuration.BaseSettings.SetValue*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_" data-uid="CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)">SetValue(SettingKey, Object)</h4>
+  <div class="markdown level1 summary"><p>Set value of setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Try using generic SetValue() instead, unless you don't know the type of value.&quot;)]
+public void SetValue(SettingKey key, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key og setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_SetValue_" data-uid="CarinaStudio.Configuration.BaseSettings.SetValue*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SetValue__1_CarinaStudio_Configuration_SettingKey___0____0_" data-uid="CarinaStudio.Configuration.BaseSettings.SetValue``1(CarinaStudio.Configuration.SettingKey{``0},``0)">SetValue&lt;T&gt;(SettingKey&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Set value of setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue&lt;T&gt;(SettingKey&lt;T&gt; key, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key og setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Configuration_BaseSettings_VerifyValue_" data-uid="CarinaStudio.Configuration.BaseSettings.VerifyValue*"></a>
+  <h4 id="CarinaStudio_Configuration_BaseSettings_VerifyValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)">VerifyValue(SettingKey)</h4>
+  <div class="markdown level1 summary"><p>Check whether type of value of given setting is correct or not. You can get raw value by calling <a class="xref" href="CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_">GetRawValue(SettingKey)</a> if type is incorrect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool VerifyValue(SettingKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if type of value of given setting is correct.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SettingChanged" data-uid="CarinaStudio.Configuration.BaseSettings.SettingChanged">SettingChanged</h4>
+  <div class="markdown level1 summary"><p>Raised after changing setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangedEventArgs&gt; SettingChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_Configuration_BaseSettings_SettingChanging" data-uid="CarinaStudio.Configuration.BaseSettings.SettingChanging">SettingChanging</h4>
+  <div class="markdown level1 summary"><p>Raised before changing setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangingEventArgs&gt; SettingChanging</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangingEventArgs.html">SettingChangingEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

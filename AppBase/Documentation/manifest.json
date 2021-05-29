@@ -1,0 +1,500 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Studio/AppBase/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html",
+          "hash": "ArYrJufAFhDxF4jiBEfn08RGBo8mpOmnPWp5Ur86u3E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.BaseShareableDisposable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.BaseShareableDisposable-1.html",
+          "hash": "gMiNdSqIjGRWNDxLW8fGzazg7l6Aw2NP52ybUjEfJp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.CollectionExtensions.html",
+          "hash": "IstaRzHzr4ZfWEfq+NB1gsg0IrPe7cEaszMLbKeGbvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.EnumerableExtensions.html",
+          "hash": "+J8N596G9CrcnYG9hwwtzIEz7rIhMGHwWlKSf9ciEFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.ListExtensions.html",
+          "hash": "DT4Z5Fu+NWGwj63FaXrTTVd5KTcR+ud6KSdENLSmMig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.html",
+          "hash": "HambO4QsUvviBVyRXp9iqavoF0C+B4UCgjgTMV8dwwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.BaseSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.BaseSettings.html",
+          "hash": "hQS+xPJjeqCaSh9JvHHkPgsSt0NhZF4/xvKFW2vIci4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.ISettingsSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.ISettingsSerializer.html",
+          "hash": "xPdiFWdlY3rE4v4Adti3E6Sf1o5KG8W7JOvJfOLIkMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.JsonSettingsSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.JsonSettingsSerializer.html",
+          "hash": "K7t1tTash7za7FfCR/kl7/2JxyzvVEo8EMn6VZAtV/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingChangedEventArgs.html",
+          "hash": "f7wHJbSQSZ7xqkteYcWZOEdFh+z5x++sc/GYC8gByjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingChangingEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingChangingEventArgs.html",
+          "hash": "jdmjc2rFtm33XZN5pdWJOmCWtlZjlqwyY9ycXkuMRNQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingEventArgs.html",
+          "hash": "/i68ieqIWTIZDNUabQZnc9IiUuqVm9YFIAk1oQbqcx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingKey-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingKey-1.html",
+          "hash": "JahvUJRVnBCoVpVnO55VIykCLEwAIwm204HyXM6/UwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingKey.html",
+          "hash": "JW3dmxpe1MSrXkfXQ/EDJWokCsGpNX8Y/wKZpUqDH5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingsMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingsMetadata.html",
+          "hash": "pBYKM15Z7kpkj3bY7u6dLfK03BfNWbSIJixNXAaH3GM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.html",
+          "hash": "GqeRpoKjePxP5kXN/oOzVHNMzf4zYJ8CGdzgBIZZbPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.DisposableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.DisposableExtensions.html",
+          "hash": "UxmqEB0E1A9qrsOyuKfPogRoryeWAXOXCaoLrnWkJvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IShareableDisposable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IShareableDisposable-1.html",
+          "hash": "jKtRV1XaaC3slzQwV5J1Vz1Rc1PT/MhghzM+q2KdlCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MutableObservableBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MutableObservableBoolean.html",
+          "hash": "71X7k+vy+iI+KoAQ4ImxkIfThpj3OZ+iTbozpcSZ8ZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MutableObservableInt32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MutableObservableInt32.html",
+          "hash": "thcuJ7+oTyqyP7hqiFQowLNdwk+YwqfIa5z6yLoKtPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MutableObservableInt64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MutableObservableInt64.html",
+          "hash": "nJdhm5DR2+a4uHRZsQMDD42F0Mk4imgNoh060FFjE7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MutableObservableString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MutableObservableString.html",
+          "hash": "vmszxE17M+5YMvHEKF/c/5SL8E4cOU33ONISzx/9aP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MutableObservableValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MutableObservableValue-1.html",
+          "hash": "rlki8ZMqNhDNGn1PITcYdvS17gB1FyhUkp2pTf0RZWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.ObjectExtensions.html",
+          "hash": "+Nc2mFGGH2jiW2xOYZZUBwZgHAFWqVpRIhGPBV6QMK8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.ObservableValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.ObservableValue-1.html",
+          "hash": "iIAaypKh3WUBm6s2wZYavKq/sJdapB/8MoMOJK0hlyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ISynchronizable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ISynchronizable.html",
+          "hash": "T7zbA4ApWVp8ZqNV6IZV4316XMIn/QK4toiiIOw9zhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ScheduledAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ScheduledAction.html",
+          "hash": "wHmbELILhY5EMcz9Qwv2Dm6Y69LuLsLPFNgJA/4DcaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.SingleThreadSynchronizationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html",
+          "hash": "pHrLvOQB831vXAjdXgpYi4JEzY4L/zc7+pCxaG05m24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.SynchronizationContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.SynchronizationContextExtensions.html",
+          "hash": "84l7KHBd49eKwWOvpQ3ZDuINkfEC2/HxMgDhVV7T/9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.html",
+          "hash": "0YV6xeRWOd/A2kGlEOM/gF1q/TsaQuAajTnbqsx0b2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.html",
+          "hash": "+Hq4PhMvsMD7pzke0F8HKCkNjdTa5YRQQ5eZOw5mUEc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "KgpjNmccaMIemvTrL/hMxhURoH9AUhEx7KU0z4B+kWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "5aeWxzlP1QNjIfsrdlfZRgYMVO/6UbfNkSnj3dCbjjI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "g+ykCCDuLi/sva4p56YnC8R5R8oJo+Z0YCMK5CD/zl8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Cq4NO2SAhm8eUCY78tuw5mfCzAKcHD8caYqx2qqy2dw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 31,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

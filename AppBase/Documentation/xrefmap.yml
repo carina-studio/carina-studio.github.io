@@ -1,0 +1,2114 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CarinaStudio
+  name: CarinaStudio
+  href: api/CarinaStudio.html
+  commentId: N:CarinaStudio
+  fullName: CarinaStudio
+  nameWithType: CarinaStudio
+- uid: CarinaStudio.BaseShareableDisposable`1
+  name: BaseShareableDisposable<TSelf>
+  href: api/CarinaStudio.BaseShareableDisposable-1.html
+  commentId: T:CarinaStudio.BaseShareableDisposable`1
+  name.vb: BaseShareableDisposable(Of TSelf)
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf)
+  nameWithType: BaseShareableDisposable<TSelf>
+  nameWithType.vb: BaseShareableDisposable(Of TSelf)
+- uid: CarinaStudio.BaseShareableDisposable`1.#ctor(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)
+  name: BaseShareableDisposable(BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1__ctor_CarinaStudio_BaseShareableDisposable__0__BaseResourceHolder_
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.#ctor(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)
+  name.vb: BaseShareableDisposable(BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.BaseShareableDisposable(CarinaStudio.BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseShareableDisposable(CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+  nameWithType: BaseShareableDisposable<TSelf>.BaseShareableDisposable(BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseShareableDisposable(BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+- uid: CarinaStudio.BaseShareableDisposable`1.#ctor*
+  name: BaseShareableDisposable
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1__ctor_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.BaseShareableDisposable
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseShareableDisposable
+  nameWithType: BaseShareableDisposable<TSelf>.BaseShareableDisposable
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseShareableDisposable
+- uid: CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder
+  name: BaseShareableDisposable<TSelf>.BaseResourceHolder
+  href: api/CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html
+  commentId: T:CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder
+  name.vb: BaseShareableDisposable(Of TSelf).BaseResourceHolder
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.BaseResourceHolder
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder
+  nameWithType: BaseShareableDisposable<TSelf>.BaseResourceHolder
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseResourceHolder
+- uid: CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder.Release
+  name: Release()
+  href: api/CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html#CarinaStudio_BaseShareableDisposable_1_BaseResourceHolder_Release
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder.Release
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.BaseResourceHolder.Release()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release()
+  nameWithType: BaseShareableDisposable<TSelf>.BaseResourceHolder.Release()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release()
+- uid: CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder.Release*
+  name: Release
+  href: api/CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html#CarinaStudio_BaseShareableDisposable_1_BaseResourceHolder_Release_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.BaseResourceHolder.Release
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.BaseResourceHolder.Release
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release
+  nameWithType: BaseShareableDisposable<TSelf>.BaseResourceHolder.Release
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release
+- uid: CarinaStudio.BaseShareableDisposable`1.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Dispose
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.Dispose
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Dispose()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Dispose()
+  nameWithType: BaseShareableDisposable<TSelf>.Dispose()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Dispose()
+- uid: CarinaStudio.BaseShareableDisposable`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.Dispose(System.Boolean)
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Dispose(System.Boolean)
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Dispose(System.Boolean)
+  nameWithType: BaseShareableDisposable<TSelf>.Dispose(Boolean)
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Dispose(Boolean)
+- uid: CarinaStudio.BaseShareableDisposable`1.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Dispose_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Dispose
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Dispose
+  nameWithType: BaseShareableDisposable<TSelf>.Dispose
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Dispose
+- uid: CarinaStudio.BaseShareableDisposable`1.Finalize
+  name: Finalize()
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Finalize
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.Finalize
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Finalize()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Finalize()
+  nameWithType: BaseShareableDisposable<TSelf>.Finalize()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Finalize()
+- uid: CarinaStudio.BaseShareableDisposable`1.Finalize*
+  name: Finalize
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Finalize_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.Finalize
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Finalize
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Finalize
+  nameWithType: BaseShareableDisposable<TSelf>.Finalize
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Finalize
+- uid: CarinaStudio.BaseShareableDisposable`1.GetResourceHolder*
+  name: GetResourceHolder
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_GetResourceHolder_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.GetResourceHolder
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.GetResourceHolder
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).GetResourceHolder
+  nameWithType: BaseShareableDisposable<TSelf>.GetResourceHolder
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).GetResourceHolder
+- uid: CarinaStudio.BaseShareableDisposable`1.GetResourceHolder``1
+  name: GetResourceHolder<T>()
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_GetResourceHolder__1
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.GetResourceHolder``1
+  name.vb: GetResourceHolder(Of T)()
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.GetResourceHolder<T>()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).GetResourceHolder(Of T)()
+  nameWithType: BaseShareableDisposable<TSelf>.GetResourceHolder<T>()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).GetResourceHolder(Of T)()
+- uid: CarinaStudio.BaseShareableDisposable`1.IsDisposed
+  name: IsDisposed
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_IsDisposed
+  commentId: P:CarinaStudio.BaseShareableDisposable`1.IsDisposed
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.IsDisposed
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).IsDisposed
+  nameWithType: BaseShareableDisposable<TSelf>.IsDisposed
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).IsDisposed
+- uid: CarinaStudio.BaseShareableDisposable`1.IsDisposed*
+  name: IsDisposed
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_IsDisposed_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.IsDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.IsDisposed
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).IsDisposed
+  nameWithType: BaseShareableDisposable<TSelf>.IsDisposed
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).IsDisposed
+- uid: CarinaStudio.BaseShareableDisposable`1.Share
+  name: Share()
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Share
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.Share
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Share()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Share()
+  nameWithType: BaseShareableDisposable<TSelf>.Share()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Share()
+- uid: CarinaStudio.BaseShareableDisposable`1.Share(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)
+  name: Share(BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Share_CarinaStudio_BaseShareableDisposable__0__BaseResourceHolder_
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.Share(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)
+  name.vb: Share(BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Share(CarinaStudio.BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Share(CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+  nameWithType: BaseShareableDisposable<TSelf>.Share(BaseShareableDisposable<TSelf>.BaseResourceHolder)
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Share(BaseShareableDisposable(Of TSelf).BaseResourceHolder)
+- uid: CarinaStudio.BaseShareableDisposable`1.Share*
+  name: Share
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Share_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.Share
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Share
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Share
+  nameWithType: BaseShareableDisposable<TSelf>.Share
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).Share
+- uid: CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
+  name: ThrowIfDisposed()
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed
+  commentId: M:CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.ThrowIfDisposed()
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).ThrowIfDisposed()
+  nameWithType: BaseShareableDisposable<TSelf>.ThrowIfDisposed()
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).ThrowIfDisposed()
+- uid: CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed*
+  name: ThrowIfDisposed
+  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed_
+  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.ThrowIfDisposed
+  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).ThrowIfDisposed
+  nameWithType: BaseShareableDisposable<TSelf>.ThrowIfDisposed
+  nameWithType.vb: BaseShareableDisposable(Of TSelf).ThrowIfDisposed
+- uid: CarinaStudio.Collections
+  name: CarinaStudio.Collections
+  href: api/CarinaStudio.Collections.html
+  commentId: N:CarinaStudio.Collections
+  fullName: CarinaStudio.Collections
+  nameWithType: CarinaStudio.Collections
+- uid: CarinaStudio.Collections.CollectionExtensions
+  name: CollectionExtensions
+  href: api/CarinaStudio.Collections.CollectionExtensions.html
+  commentId: T:CarinaStudio.Collections.CollectionExtensions
+  fullName: CarinaStudio.Collections.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: CarinaStudio.Collections.CollectionExtensions.IsEmpty*
+  name: IsEmpty
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsEmpty_
+  commentId: Overload:CarinaStudio.Collections.CollectionExtensions.IsEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsEmpty
+  nameWithType: CollectionExtensions.IsEmpty
+- uid: CarinaStudio.Collections.CollectionExtensions.IsEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: IsEmpty<T>(ICollection<T>)
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:CarinaStudio.Collections.CollectionExtensions.IsEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: IsEmpty(Of T)(ICollection(Of T))
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: CarinaStudio.Collections.CollectionExtensions.IsEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.IsEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.IsEmpty(Of T)(ICollection(Of T))
+- uid: CarinaStudio.Collections.CollectionExtensions.IsNotEmpty*
+  name: IsNotEmpty
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNotEmpty_
+  commentId: Overload:CarinaStudio.Collections.CollectionExtensions.IsNotEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsNotEmpty
+  nameWithType: CollectionExtensions.IsNotEmpty
+- uid: CarinaStudio.Collections.CollectionExtensions.IsNotEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: IsNotEmpty<T>(ICollection<T>)
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNotEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:CarinaStudio.Collections.CollectionExtensions.IsNotEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: IsNotEmpty(Of T)(ICollection(Of T))
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsNotEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: CarinaStudio.Collections.CollectionExtensions.IsNotEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.IsNotEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.IsNotEmpty(Of T)(ICollection(Of T))
+- uid: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNullOrEmpty_
+  commentId: Overload:CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty
+  nameWithType: CollectionExtensions.IsNullOrEmpty
+- uid: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: IsNullOrEmpty<T>(ICollection<T>)
+  href: api/CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNullOrEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: IsNullOrEmpty(Of T)(ICollection(Of T))
+  fullName: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.IsNullOrEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.IsNullOrEmpty(Of T)(ICollection(Of T))
+- uid: CarinaStudio.Collections.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/CarinaStudio.Collections.EnumerableExtensions.html
+  commentId: T:CarinaStudio.Collections.EnumerableExtensions
+  fullName: CarinaStudio.Collections.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
+  name: ContentToString(IEnumerable)
+  href: api/CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_
+  commentId: M:CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
+  fullName: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
+  nameWithType: EnumerableExtensions.ContentToString(IEnumerable)
+- uid: CarinaStudio.Collections.EnumerableExtensions.ContentToString*
+  name: ContentToString
+  href: api/CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_
+  commentId: Overload:CarinaStudio.Collections.EnumerableExtensions.ContentToString
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.EnumerableExtensions.ContentToString
+  nameWithType: EnumerableExtensions.ContentToString
+- uid: CarinaStudio.Collections.ListExtensions
+  name: ListExtensions
+  href: api/CarinaStudio.Collections.ListExtensions.html
+  commentId: T:CarinaStudio.Collections.ListExtensions
+  fullName: CarinaStudio.Collections.ListExtensions
+  nameWithType: ListExtensions
+- uid: CarinaStudio.Collections.ListExtensions.BinarySearch*
+  name: BinarySearch
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.BinarySearch
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.BinarySearch
+  nameWithType: ListExtensions.BinarySearch
+- uid: CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0)
+  name: BinarySearch<T>(IList<T>, T)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_
+  commentId: M:CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0)
+  name.vb: BinarySearch(Of T)(IList(Of T), T)
+  fullName: CarinaStudio.Collections.ListExtensions.BinarySearch<T>(System.Collections.Generic.IList<T>, T)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), T)
+  nameWithType: ListExtensions.BinarySearch<T>(IList<T>, T)
+  nameWithType.vb: ListExtensions.BinarySearch(Of T)(IList(Of T), T)
+- uid: CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Collections.Generic.IComparer{``0})
+  name: BinarySearch<T>(IList<T>, T, IComparer<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Collections_Generic_IComparer___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Collections.Generic.IComparer{``0})
+  name.vb: BinarySearch(Of T)(IList(Of T), T, IComparer(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.BinarySearch<T>(System.Collections.Generic.IList<T>, T, System.Collections.Generic.IComparer<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), T, System.Collections.Generic.IComparer(Of T))
+  nameWithType: ListExtensions.BinarySearch<T>(IList<T>, T, IComparer<T>)
+  nameWithType.vb: ListExtensions.BinarySearch(Of T)(IList(Of T), T, IComparer(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Comparison{``0})
+  name: BinarySearch<T>(IList<T>, T, Comparison<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Comparison___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Comparison{``0})
+  name.vb: BinarySearch(Of T)(IList(Of T), T, Comparison(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.BinarySearch<T>(System.Collections.Generic.IList<T>, T, System.Comparison<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), T, System.Comparison(Of T))
+  nameWithType: ListExtensions.BinarySearch<T>(IList<T>, T, Comparison<T>)
+  nameWithType.vb: ListExtensions.BinarySearch(Of T)(IList(Of T), T, Comparison(Of T))
+- uid: CarinaStudio.Configuration
+  name: CarinaStudio.Configuration
+  href: api/CarinaStudio.Configuration.html
+  commentId: N:CarinaStudio.Configuration
+  fullName: CarinaStudio.Configuration
+  nameWithType: CarinaStudio.Configuration
+- uid: CarinaStudio.Configuration.BaseSettings
+  name: BaseSettings
+  href: api/CarinaStudio.Configuration.BaseSettings.html
+  commentId: T:CarinaStudio.Configuration.BaseSettings
+  fullName: CarinaStudio.Configuration.BaseSettings
+  nameWithType: BaseSettings
+- uid: CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.BaseSettings,CarinaStudio.Configuration.ISettingsSerializer)
+  name: BaseSettings(BaseSettings, ISettingsSerializer)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_BaseSettings_CarinaStudio_Configuration_ISettingsSerializer_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.BaseSettings,CarinaStudio.Configuration.ISettingsSerializer)
+  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings(CarinaStudio.Configuration.BaseSettings, CarinaStudio.Configuration.ISettingsSerializer)
+  nameWithType: BaseSettings.BaseSettings(BaseSettings, ISettingsSerializer)
+- uid: CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
+  name: BaseSettings(ISettingsSerializer)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
+  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings(CarinaStudio.Configuration.ISettingsSerializer)
+  nameWithType: BaseSettings.BaseSettings(ISettingsSerializer)
+- uid: CarinaStudio.Configuration.BaseSettings.#ctor*
+  name: BaseSettings
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings
+  nameWithType: BaseSettings.BaseSettings
+- uid: CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  name: GetRawValue(SettingKey)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: BaseSettings.GetRawValue(SettingKey)
+- uid: CarinaStudio.Configuration.BaseSettings.GetRawValue*
+  name: GetRawValue
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetRawValue_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.GetRawValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.GetRawValue
+  nameWithType: BaseSettings.GetRawValue
+- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
+  name: GetValueOrDefault(SettingKey)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
+  nameWithType: BaseSettings.GetValueOrDefault(SettingKey)
+- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault
+  nameWithType: BaseSettings.GetValueOrDefault
+- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault``1(CarinaStudio.Configuration.SettingKey{``0})
+  name: GetValueOrDefault<T>(SettingKey<T>)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault__1_CarinaStudio_Configuration_SettingKey___0__
+  commentId: M:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault``1(CarinaStudio.Configuration.SettingKey{``0})
+  name.vb: GetValueOrDefault(Of T)(SettingKey(Of T))
+  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault<T>(CarinaStudio.Configuration.SettingKey<T>)
+  fullName.vb: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(Of T)(CarinaStudio.Configuration.SettingKey(Of T))
+  nameWithType: BaseSettings.GetValueOrDefault<T>(SettingKey<T>)
+  nameWithType.vb: BaseSettings.GetValueOrDefault(Of T)(SettingKey(Of T))
+- uid: CarinaStudio.Configuration.BaseSettings.Keys
+  name: Keys
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Keys
+  commentId: P:CarinaStudio.Configuration.BaseSettings.Keys
+  fullName: CarinaStudio.Configuration.BaseSettings.Keys
+  nameWithType: BaseSettings.Keys
+- uid: CarinaStudio.Configuration.BaseSettings.Keys*
+  name: Keys
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Keys_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Keys
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.Keys
+  nameWithType: BaseSettings.Keys
+- uid: CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
+  name: Load(Stream)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
+  nameWithType: BaseSettings.Load(Stream)
+- uid: CarinaStudio.Configuration.BaseSettings.Load(System.String)
+  name: Load(String)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_System_String_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.Load(System.String)
+  fullName: CarinaStudio.Configuration.BaseSettings.Load(System.String)
+  nameWithType: BaseSettings.Load(String)
+- uid: CarinaStudio.Configuration.BaseSettings.Load*
+  name: Load
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Load
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.Load
+  nameWithType: BaseSettings.Load
+- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
+  name: LoadAsync(Stream)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
+  nameWithType: BaseSettings.LoadAsync(Stream)
+- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
+  name: LoadAsync(String)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_System_String_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
+  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
+  nameWithType: BaseSettings.LoadAsync(String)
+- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync*
+  name: LoadAsync
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.LoadAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync
+  nameWithType: BaseSettings.LoadAsync
+- uid: CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
+  name: OnUpgrade(Int32)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_OnUpgrade_System_Int32_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
+  fullName: CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
+  nameWithType: BaseSettings.OnUpgrade(Int32)
+- uid: CarinaStudio.Configuration.BaseSettings.OnUpgrade*
+  name: OnUpgrade
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_OnUpgrade_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.OnUpgrade
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.OnUpgrade
+  nameWithType: BaseSettings.OnUpgrade
+- uid: CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  name: ResetValue(SettingKey)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: BaseSettings.ResetValue(SettingKey)
+- uid: CarinaStudio.Configuration.BaseSettings.ResetValue*
+  name: ResetValue
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValue_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.ResetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.ResetValue
+  nameWithType: BaseSettings.ResetValue
+- uid: CarinaStudio.Configuration.BaseSettings.ResetValues
+  name: ResetValues()
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues
+  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValues
+  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues()
+  nameWithType: BaseSettings.ResetValues()
+- uid: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
+  name: ResetValues(IEnumerable<SettingKey>)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__
+  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
+  name.vb: ResetValues(IEnumerable(Of SettingKey))
+  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable<CarinaStudio.Configuration.SettingKey>)
+  fullName.vb: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable(Of CarinaStudio.Configuration.SettingKey))
+  nameWithType: BaseSettings.ResetValues(IEnumerable<SettingKey>)
+  nameWithType.vb: BaseSettings.ResetValues(IEnumerable(Of SettingKey))
+- uid: CarinaStudio.Configuration.BaseSettings.ResetValues*
+  name: ResetValues
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.ResetValues
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues
+  nameWithType: BaseSettings.ResetValues
+- uid: CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
+  name: Save(Stream)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
+  nameWithType: BaseSettings.Save(Stream)
+- uid: CarinaStudio.Configuration.BaseSettings.Save(System.String)
+  name: Save(String)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_System_String_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.Save(System.String)
+  fullName: CarinaStudio.Configuration.BaseSettings.Save(System.String)
+  nameWithType: BaseSettings.Save(String)
+- uid: CarinaStudio.Configuration.BaseSettings.Save*
+  name: Save
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Save
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.Save
+  nameWithType: BaseSettings.Save
+- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
+  name: SaveAsync(Stream)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
+  nameWithType: BaseSettings.SaveAsync(Stream)
+- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
+  name: SaveAsync(String)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_System_String_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
+  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
+  nameWithType: BaseSettings.SaveAsync(String)
+- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync*
+  name: SaveAsync
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.SaveAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync
+  nameWithType: BaseSettings.SaveAsync
+- uid: CarinaStudio.Configuration.BaseSettings.SettingChanged
+  name: SettingChanged
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SettingChanged
+  commentId: E:CarinaStudio.Configuration.BaseSettings.SettingChanged
+  fullName: CarinaStudio.Configuration.BaseSettings.SettingChanged
+  nameWithType: BaseSettings.SettingChanged
+- uid: CarinaStudio.Configuration.BaseSettings.SettingChanging
+  name: SettingChanging
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SettingChanging
+  commentId: E:CarinaStudio.Configuration.BaseSettings.SettingChanging
+  fullName: CarinaStudio.Configuration.BaseSettings.SettingChanging
+  nameWithType: BaseSettings.SettingChanging
+- uid: CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  name: SetValue(SettingKey, Object)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  fullName: CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey, System.Object)
+  nameWithType: BaseSettings.SetValue(SettingKey, Object)
+- uid: CarinaStudio.Configuration.BaseSettings.SetValue*
+  name: SetValue
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.SetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.SetValue
+  nameWithType: BaseSettings.SetValue
+- uid: CarinaStudio.Configuration.BaseSettings.SetValue``1(CarinaStudio.Configuration.SettingKey{``0},``0)
+  name: SetValue<T>(SettingKey<T>, T)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue__1_CarinaStudio_Configuration_SettingKey___0____0_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.SetValue``1(CarinaStudio.Configuration.SettingKey{``0},``0)
+  name.vb: SetValue(Of T)(SettingKey(Of T), T)
+  fullName: CarinaStudio.Configuration.BaseSettings.SetValue<T>(CarinaStudio.Configuration.SettingKey<T>, T)
+  fullName.vb: CarinaStudio.Configuration.BaseSettings.SetValue(Of T)(CarinaStudio.Configuration.SettingKey(Of T), T)
+  nameWithType: BaseSettings.SetValue<T>(SettingKey<T>, T)
+  nameWithType.vb: BaseSettings.SetValue(Of T)(SettingKey(Of T), T)
+- uid: CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
+  name: VerifyValue(SettingKey)
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_VerifyValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: BaseSettings.VerifyValue(SettingKey)
+- uid: CarinaStudio.Configuration.BaseSettings.VerifyValue*
+  name: VerifyValue
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_VerifyValue_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.VerifyValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.VerifyValue
+  nameWithType: BaseSettings.VerifyValue
+- uid: CarinaStudio.Configuration.BaseSettings.Version
+  name: Version
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Version
+  commentId: P:CarinaStudio.Configuration.BaseSettings.Version
+  fullName: CarinaStudio.Configuration.BaseSettings.Version
+  nameWithType: BaseSettings.Version
+- uid: CarinaStudio.Configuration.BaseSettings.Version*
+  name: Version
+  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Version_
+  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Version
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.BaseSettings.Version
+  nameWithType: BaseSettings.Version
+- uid: CarinaStudio.Configuration.ISettingsSerializer
+  name: ISettingsSerializer
+  href: api/CarinaStudio.Configuration.ISettingsSerializer.html
+  commentId: T:CarinaStudio.Configuration.ISettingsSerializer
+  fullName: CarinaStudio.Configuration.ISettingsSerializer
+  nameWithType: ISettingsSerializer
+- uid: CarinaStudio.Configuration.ISettingsSerializer.Deserialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object}@,CarinaStudio.Configuration.SettingsMetadata@)
+  name: Deserialize(Stream, out IDictionary<SettingKey, Object>, out SettingsMetadata)
+  href: api/CarinaStudio.Configuration.ISettingsSerializer.html#CarinaStudio_Configuration_ISettingsSerializer_Deserialize_System_IO_Stream_System_Collections_Generic_IDictionary_CarinaStudio_Configuration_SettingKey_System_Object___CarinaStudio_Configuration_SettingsMetadata__
+  commentId: M:CarinaStudio.Configuration.ISettingsSerializer.Deserialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object}@,CarinaStudio.Configuration.SettingsMetadata@)
+  name.vb: Deserialize(Stream, ByRef IDictionary(Of SettingKey, Object), ByRef SettingsMetadata)
+  fullName: CarinaStudio.Configuration.ISettingsSerializer.Deserialize(System.IO.Stream, out System.Collections.Generic.IDictionary<CarinaStudio.Configuration.SettingKey, System.Object>, out CarinaStudio.Configuration.SettingsMetadata)
+  fullName.vb: CarinaStudio.Configuration.ISettingsSerializer.Deserialize(System.IO.Stream, ByRef System.Collections.Generic.IDictionary(Of CarinaStudio.Configuration.SettingKey, System.Object), ByRef CarinaStudio.Configuration.SettingsMetadata)
+  nameWithType: ISettingsSerializer.Deserialize(Stream, out IDictionary<SettingKey, Object>, out SettingsMetadata)
+  nameWithType.vb: ISettingsSerializer.Deserialize(Stream, ByRef IDictionary(Of SettingKey, Object), ByRef SettingsMetadata)
+- uid: CarinaStudio.Configuration.ISettingsSerializer.Deserialize*
+  name: Deserialize
+  href: api/CarinaStudio.Configuration.ISettingsSerializer.html#CarinaStudio_Configuration_ISettingsSerializer_Deserialize_
+  commentId: Overload:CarinaStudio.Configuration.ISettingsSerializer.Deserialize
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.ISettingsSerializer.Deserialize
+  nameWithType: ISettingsSerializer.Deserialize
+- uid: CarinaStudio.Configuration.ISettingsSerializer.Serialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object},CarinaStudio.Configuration.SettingsMetadata)
+  name: Serialize(Stream, IDictionary<SettingKey, Object>, SettingsMetadata)
+  href: api/CarinaStudio.Configuration.ISettingsSerializer.html#CarinaStudio_Configuration_ISettingsSerializer_Serialize_System_IO_Stream_System_Collections_Generic_IDictionary_CarinaStudio_Configuration_SettingKey_System_Object__CarinaStudio_Configuration_SettingsMetadata_
+  commentId: M:CarinaStudio.Configuration.ISettingsSerializer.Serialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object},CarinaStudio.Configuration.SettingsMetadata)
+  name.vb: Serialize(Stream, IDictionary(Of SettingKey, Object), SettingsMetadata)
+  fullName: CarinaStudio.Configuration.ISettingsSerializer.Serialize(System.IO.Stream, System.Collections.Generic.IDictionary<CarinaStudio.Configuration.SettingKey, System.Object>, CarinaStudio.Configuration.SettingsMetadata)
+  fullName.vb: CarinaStudio.Configuration.ISettingsSerializer.Serialize(System.IO.Stream, System.Collections.Generic.IDictionary(Of CarinaStudio.Configuration.SettingKey, System.Object), CarinaStudio.Configuration.SettingsMetadata)
+  nameWithType: ISettingsSerializer.Serialize(Stream, IDictionary<SettingKey, Object>, SettingsMetadata)
+  nameWithType.vb: ISettingsSerializer.Serialize(Stream, IDictionary(Of SettingKey, Object), SettingsMetadata)
+- uid: CarinaStudio.Configuration.ISettingsSerializer.Serialize*
+  name: Serialize
+  href: api/CarinaStudio.Configuration.ISettingsSerializer.html#CarinaStudio_Configuration_ISettingsSerializer_Serialize_
+  commentId: Overload:CarinaStudio.Configuration.ISettingsSerializer.Serialize
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.ISettingsSerializer.Serialize
+  nameWithType: ISettingsSerializer.Serialize
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer
+  name: JsonSettingsSerializer
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html
+  commentId: T:CarinaStudio.Configuration.JsonSettingsSerializer
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer
+  nameWithType: JsonSettingsSerializer
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.BooleanType
+  name: BooleanType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_BooleanType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.BooleanType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.BooleanType
+  nameWithType: JsonSettingsSerializer.BooleanType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.ByteType
+  name: ByteType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_ByteType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.ByteType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.ByteType
+  nameWithType: JsonSettingsSerializer.ByteType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.DateTimeType
+  name: DateTimeType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_DateTimeType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.DateTimeType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.DateTimeType
+  nameWithType: JsonSettingsSerializer.DateTimeType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Default
+  name: Default
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Default
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.Default
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Default
+  nameWithType: JsonSettingsSerializer.Default
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object}@,CarinaStudio.Configuration.SettingsMetadata@)
+  name: Deserialize(Stream, out IDictionary<SettingKey, Object>, out SettingsMetadata)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Deserialize_System_IO_Stream_System_Collections_Generic_IDictionary_CarinaStudio_Configuration_SettingKey_System_Object___CarinaStudio_Configuration_SettingsMetadata__
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object}@,CarinaStudio.Configuration.SettingsMetadata@)
+  name.vb: Deserialize(Stream, ByRef IDictionary(Of SettingKey, Object), ByRef SettingsMetadata)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize(System.IO.Stream, out System.Collections.Generic.IDictionary<CarinaStudio.Configuration.SettingKey, System.Object>, out CarinaStudio.Configuration.SettingsMetadata)
+  fullName.vb: CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize(System.IO.Stream, ByRef System.Collections.Generic.IDictionary(Of CarinaStudio.Configuration.SettingKey, System.Object), ByRef CarinaStudio.Configuration.SettingsMetadata)
+  nameWithType: JsonSettingsSerializer.Deserialize(Stream, out IDictionary<SettingKey, Object>, out SettingsMetadata)
+  nameWithType.vb: JsonSettingsSerializer.Deserialize(Stream, ByRef IDictionary(Of SettingKey, Object), ByRef SettingsMetadata)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize*
+  name: Deserialize
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Deserialize_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Deserialize
+  nameWithType: JsonSettingsSerializer.Deserialize
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.DoubleType
+  name: DoubleType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_DoubleType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.DoubleType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.DoubleType
+  nameWithType: JsonSettingsSerializer.DoubleType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName(System.Type)
+  name: GetTypeName(Type)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_GetTypeName_System_Type_
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName(System.Type)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName(System.Type)
+  nameWithType: JsonSettingsSerializer.GetTypeName(Type)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName*
+  name: GetTypeName
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_GetTypeName_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.GetTypeName
+  nameWithType: JsonSettingsSerializer.GetTypeName
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Int16Type
+  name: Int16Type
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Int16Type
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.Int16Type
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Int16Type
+  nameWithType: JsonSettingsSerializer.Int16Type
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Int32Type
+  name: Int32Type
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Int32Type
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.Int32Type
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Int32Type
+  nameWithType: JsonSettingsSerializer.Int32Type
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Int64Type
+  name: Int64Type
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Int64Type
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.Int64Type
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Int64Type
+  nameWithType: JsonSettingsSerializer.Int64Type
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue(System.Text.Json.JsonElement,System.String)
+  name: ReadJsonValue(JsonElement, String)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_ReadJsonValue_System_Text_Json_JsonElement_System_String_
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue(System.Text.Json.JsonElement,System.String)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue(System.Text.Json.JsonElement, System.String)
+  nameWithType: JsonSettingsSerializer.ReadJsonValue(JsonElement, String)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue*
+  name: ReadJsonValue
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_ReadJsonValue_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValue
+  nameWithType: JsonSettingsSerializer.ReadJsonValue
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString(System.Text.Json.JsonElement)
+  name: ReadJsonValueAsString(JsonElement)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_ReadJsonValueAsString_System_Text_Json_JsonElement_
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString(System.Text.Json.JsonElement)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString(System.Text.Json.JsonElement)
+  nameWithType: JsonSettingsSerializer.ReadJsonValueAsString(JsonElement)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString*
+  name: ReadJsonValueAsString
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_ReadJsonValueAsString_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.ReadJsonValueAsString
+  nameWithType: JsonSettingsSerializer.ReadJsonValueAsString
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Serialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object},CarinaStudio.Configuration.SettingsMetadata)
+  name: Serialize(Stream, IDictionary<SettingKey, Object>, SettingsMetadata)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Serialize_System_IO_Stream_System_Collections_Generic_IDictionary_CarinaStudio_Configuration_SettingKey_System_Object__CarinaStudio_Configuration_SettingsMetadata_
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.Serialize(System.IO.Stream,System.Collections.Generic.IDictionary{CarinaStudio.Configuration.SettingKey,System.Object},CarinaStudio.Configuration.SettingsMetadata)
+  name.vb: Serialize(Stream, IDictionary(Of SettingKey, Object), SettingsMetadata)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Serialize(System.IO.Stream, System.Collections.Generic.IDictionary<CarinaStudio.Configuration.SettingKey, System.Object>, CarinaStudio.Configuration.SettingsMetadata)
+  fullName.vb: CarinaStudio.Configuration.JsonSettingsSerializer.Serialize(System.IO.Stream, System.Collections.Generic.IDictionary(Of CarinaStudio.Configuration.SettingKey, System.Object), CarinaStudio.Configuration.SettingsMetadata)
+  nameWithType: JsonSettingsSerializer.Serialize(Stream, IDictionary<SettingKey, Object>, SettingsMetadata)
+  nameWithType.vb: JsonSettingsSerializer.Serialize(Stream, IDictionary(Of SettingKey, Object), SettingsMetadata)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.Serialize*
+  name: Serialize
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_Serialize_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.Serialize
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.Serialize
+  nameWithType: JsonSettingsSerializer.Serialize
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.SingleType
+  name: SingleType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_SingleType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.SingleType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.SingleType
+  nameWithType: JsonSettingsSerializer.SingleType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.StringType
+  name: StringType
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_StringType
+  commentId: F:CarinaStudio.Configuration.JsonSettingsSerializer.StringType
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.StringType
+  nameWithType: JsonSettingsSerializer.StringType
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue(System.Text.Json.Utf8JsonWriter,System.String,System.Object)
+  name: WriteJsonValue(Utf8JsonWriter, String, Object)
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_WriteJsonValue_System_Text_Json_Utf8JsonWriter_System_String_System_Object_
+  commentId: M:CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue(System.Text.Json.Utf8JsonWriter,System.String,System.Object)
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue(System.Text.Json.Utf8JsonWriter, System.String, System.Object)
+  nameWithType: JsonSettingsSerializer.WriteJsonValue(Utf8JsonWriter, String, Object)
+- uid: CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue*
+  name: WriteJsonValue
+  href: api/CarinaStudio.Configuration.JsonSettingsSerializer.html#CarinaStudio_Configuration_JsonSettingsSerializer_WriteJsonValue_
+  commentId: Overload:CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue
+  nameWithType: JsonSettingsSerializer.WriteJsonValue
+- uid: CarinaStudio.Configuration.SettingChangedEventArgs
+  name: SettingChangedEventArgs
+  href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html
+  commentId: T:CarinaStudio.Configuration.SettingChangedEventArgs
+  fullName: CarinaStudio.Configuration.SettingChangedEventArgs
+  nameWithType: SettingChangedEventArgs
+- uid: CarinaStudio.Configuration.SettingChangedEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object,System.Object)
+  name: SettingChangedEventArgs(SettingKey, Object, Object)
+  href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html#CarinaStudio_Configuration_SettingChangedEventArgs__ctor_CarinaStudio_Configuration_SettingKey_System_Object_System_Object_
+  commentId: M:CarinaStudio.Configuration.SettingChangedEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object,System.Object)
+  fullName: CarinaStudio.Configuration.SettingChangedEventArgs.SettingChangedEventArgs(CarinaStudio.Configuration.SettingKey, System.Object, System.Object)
+  nameWithType: SettingChangedEventArgs.SettingChangedEventArgs(SettingKey, Object, Object)
+- uid: CarinaStudio.Configuration.SettingChangedEventArgs.#ctor*
+  name: SettingChangedEventArgs
+  href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html#CarinaStudio_Configuration_SettingChangedEventArgs__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingChangedEventArgs.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingChangedEventArgs.SettingChangedEventArgs
+  nameWithType: SettingChangedEventArgs.SettingChangedEventArgs
+- uid: CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue
+  name: PreviousValue
+  href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html#CarinaStudio_Configuration_SettingChangedEventArgs_PreviousValue
+  commentId: P:CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue
+  fullName: CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue
+  nameWithType: SettingChangedEventArgs.PreviousValue
+- uid: CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue*
+  name: PreviousValue
+  href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html#CarinaStudio_Configuration_SettingChangedEventArgs_PreviousValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingChangedEventArgs.PreviousValue
+  nameWithType: SettingChangedEventArgs.PreviousValue
+- uid: CarinaStudio.Configuration.SettingChangingEventArgs
+  name: SettingChangingEventArgs
+  href: api/CarinaStudio.Configuration.SettingChangingEventArgs.html
+  commentId: T:CarinaStudio.Configuration.SettingChangingEventArgs
+  fullName: CarinaStudio.Configuration.SettingChangingEventArgs
+  nameWithType: SettingChangingEventArgs
+- uid: CarinaStudio.Configuration.SettingChangingEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object,System.Object)
+  name: SettingChangingEventArgs(SettingKey, Object, Object)
+  href: api/CarinaStudio.Configuration.SettingChangingEventArgs.html#CarinaStudio_Configuration_SettingChangingEventArgs__ctor_CarinaStudio_Configuration_SettingKey_System_Object_System_Object_
+  commentId: M:CarinaStudio.Configuration.SettingChangingEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object,System.Object)
+  fullName: CarinaStudio.Configuration.SettingChangingEventArgs.SettingChangingEventArgs(CarinaStudio.Configuration.SettingKey, System.Object, System.Object)
+  nameWithType: SettingChangingEventArgs.SettingChangingEventArgs(SettingKey, Object, Object)
+- uid: CarinaStudio.Configuration.SettingChangingEventArgs.#ctor*
+  name: SettingChangingEventArgs
+  href: api/CarinaStudio.Configuration.SettingChangingEventArgs.html#CarinaStudio_Configuration_SettingChangingEventArgs__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingChangingEventArgs.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingChangingEventArgs.SettingChangingEventArgs
+  nameWithType: SettingChangingEventArgs.SettingChangingEventArgs
+- uid: CarinaStudio.Configuration.SettingChangingEventArgs.NewValue
+  name: NewValue
+  href: api/CarinaStudio.Configuration.SettingChangingEventArgs.html#CarinaStudio_Configuration_SettingChangingEventArgs_NewValue
+  commentId: P:CarinaStudio.Configuration.SettingChangingEventArgs.NewValue
+  fullName: CarinaStudio.Configuration.SettingChangingEventArgs.NewValue
+  nameWithType: SettingChangingEventArgs.NewValue
+- uid: CarinaStudio.Configuration.SettingChangingEventArgs.NewValue*
+  name: NewValue
+  href: api/CarinaStudio.Configuration.SettingChangingEventArgs.html#CarinaStudio_Configuration_SettingChangingEventArgs_NewValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingChangingEventArgs.NewValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingChangingEventArgs.NewValue
+  nameWithType: SettingChangingEventArgs.NewValue
+- uid: CarinaStudio.Configuration.SettingEventArgs
+  name: SettingEventArgs
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html
+  commentId: T:CarinaStudio.Configuration.SettingEventArgs
+  fullName: CarinaStudio.Configuration.SettingEventArgs
+  nameWithType: SettingEventArgs
+- uid: CarinaStudio.Configuration.SettingEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object)
+  name: SettingEventArgs(SettingKey, Object)
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs__ctor_CarinaStudio_Configuration_SettingKey_System_Object_
+  commentId: M:CarinaStudio.Configuration.SettingEventArgs.#ctor(CarinaStudio.Configuration.SettingKey,System.Object)
+  fullName: CarinaStudio.Configuration.SettingEventArgs.SettingEventArgs(CarinaStudio.Configuration.SettingKey, System.Object)
+  nameWithType: SettingEventArgs.SettingEventArgs(SettingKey, Object)
+- uid: CarinaStudio.Configuration.SettingEventArgs.#ctor*
+  name: SettingEventArgs
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingEventArgs.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingEventArgs.SettingEventArgs
+  nameWithType: SettingEventArgs.SettingEventArgs
+- uid: CarinaStudio.Configuration.SettingEventArgs.Key
+  name: Key
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs_Key
+  commentId: P:CarinaStudio.Configuration.SettingEventArgs.Key
+  fullName: CarinaStudio.Configuration.SettingEventArgs.Key
+  nameWithType: SettingEventArgs.Key
+- uid: CarinaStudio.Configuration.SettingEventArgs.Key*
+  name: Key
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs_Key_
+  commentId: Overload:CarinaStudio.Configuration.SettingEventArgs.Key
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingEventArgs.Key
+  nameWithType: SettingEventArgs.Key
+- uid: CarinaStudio.Configuration.SettingEventArgs.Value
+  name: Value
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs_Value
+  commentId: P:CarinaStudio.Configuration.SettingEventArgs.Value
+  fullName: CarinaStudio.Configuration.SettingEventArgs.Value
+  nameWithType: SettingEventArgs.Value
+- uid: CarinaStudio.Configuration.SettingEventArgs.Value*
+  name: Value
+  href: api/CarinaStudio.Configuration.SettingEventArgs.html#CarinaStudio_Configuration_SettingEventArgs_Value_
+  commentId: Overload:CarinaStudio.Configuration.SettingEventArgs.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingEventArgs.Value
+  nameWithType: SettingEventArgs.Value
+- uid: CarinaStudio.Configuration.SettingKey
+  name: SettingKey
+  href: api/CarinaStudio.Configuration.SettingKey.html
+  commentId: T:CarinaStudio.Configuration.SettingKey
+  fullName: CarinaStudio.Configuration.SettingKey
+  nameWithType: SettingKey
+- uid: CarinaStudio.Configuration.SettingKey.#ctor(System.String,System.Type,System.Object)
+  name: SettingKey(String, Type, Object)
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey__ctor_System_String_System_Type_System_Object_
+  commentId: M:CarinaStudio.Configuration.SettingKey.#ctor(System.String,System.Type,System.Object)
+  fullName: CarinaStudio.Configuration.SettingKey.SettingKey(System.String, System.Type, System.Object)
+  nameWithType: SettingKey.SettingKey(String, Type, Object)
+- uid: CarinaStudio.Configuration.SettingKey.#ctor*
+  name: SettingKey
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.SettingKey
+  nameWithType: SettingKey.SettingKey
+- uid: CarinaStudio.Configuration.SettingKey.DefaultValue
+  name: DefaultValue
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_DefaultValue
+  commentId: P:CarinaStudio.Configuration.SettingKey.DefaultValue
+  fullName: CarinaStudio.Configuration.SettingKey.DefaultValue
+  nameWithType: SettingKey.DefaultValue
+- uid: CarinaStudio.Configuration.SettingKey.DefaultValue*
+  name: DefaultValue
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_DefaultValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.DefaultValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.DefaultValue
+  nameWithType: SettingKey.DefaultValue
+- uid: CarinaStudio.Configuration.SettingKey.Equals(System.Object)
+  name: Equals(Object)
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_Equals_System_Object_
+  commentId: M:CarinaStudio.Configuration.SettingKey.Equals(System.Object)
+  fullName: CarinaStudio.Configuration.SettingKey.Equals(System.Object)
+  nameWithType: SettingKey.Equals(Object)
+- uid: CarinaStudio.Configuration.SettingKey.Equals*
+  name: Equals
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_Equals_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.Equals
+  nameWithType: SettingKey.Equals
+- uid: CarinaStudio.Configuration.SettingKey.GetHashCode
+  name: GetHashCode()
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_GetHashCode
+  commentId: M:CarinaStudio.Configuration.SettingKey.GetHashCode
+  fullName: CarinaStudio.Configuration.SettingKey.GetHashCode()
+  nameWithType: SettingKey.GetHashCode()
+- uid: CarinaStudio.Configuration.SettingKey.GetHashCode*
+  name: GetHashCode
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_GetHashCode_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.GetHashCode
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.GetHashCode
+  nameWithType: SettingKey.GetHashCode
+- uid: CarinaStudio.Configuration.SettingKey.Name
+  name: Name
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_Name
+  commentId: P:CarinaStudio.Configuration.SettingKey.Name
+  fullName: CarinaStudio.Configuration.SettingKey.Name
+  nameWithType: SettingKey.Name
+- uid: CarinaStudio.Configuration.SettingKey.Name*
+  name: Name
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_Name_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.Name
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.Name
+  nameWithType: SettingKey.Name
+- uid: CarinaStudio.Configuration.SettingKey.ToString
+  name: ToString()
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_ToString
+  commentId: M:CarinaStudio.Configuration.SettingKey.ToString
+  fullName: CarinaStudio.Configuration.SettingKey.ToString()
+  nameWithType: SettingKey.ToString()
+- uid: CarinaStudio.Configuration.SettingKey.ToString*
+  name: ToString
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_ToString_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.ToString
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.ToString
+  nameWithType: SettingKey.ToString
+- uid: CarinaStudio.Configuration.SettingKey.ValueType
+  name: ValueType
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_ValueType
+  commentId: P:CarinaStudio.Configuration.SettingKey.ValueType
+  fullName: CarinaStudio.Configuration.SettingKey.ValueType
+  nameWithType: SettingKey.ValueType
+- uid: CarinaStudio.Configuration.SettingKey.ValueType*
+  name: ValueType
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_ValueType_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.ValueType
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.ValueType
+  nameWithType: SettingKey.ValueType
+- uid: CarinaStudio.Configuration.SettingKey`1
+  name: SettingKey<T>
+  href: api/CarinaStudio.Configuration.SettingKey-1.html
+  commentId: T:CarinaStudio.Configuration.SettingKey`1
+  name.vb: SettingKey(Of T)
+  fullName: CarinaStudio.Configuration.SettingKey<T>
+  fullName.vb: CarinaStudio.Configuration.SettingKey(Of T)
+  nameWithType: SettingKey<T>
+  nameWithType.vb: SettingKey(Of T)
+- uid: CarinaStudio.Configuration.SettingKey`1.#ctor(System.String,`0)
+  name: SettingKey(String, T)
+  href: api/CarinaStudio.Configuration.SettingKey-1.html#CarinaStudio_Configuration_SettingKey_1__ctor_System_String__0_
+  commentId: M:CarinaStudio.Configuration.SettingKey`1.#ctor(System.String,`0)
+  fullName: CarinaStudio.Configuration.SettingKey<T>.SettingKey(System.String, T)
+  fullName.vb: CarinaStudio.Configuration.SettingKey(Of T).SettingKey(System.String, T)
+  nameWithType: SettingKey<T>.SettingKey(String, T)
+  nameWithType.vb: SettingKey(Of T).SettingKey(String, T)
+- uid: CarinaStudio.Configuration.SettingKey`1.#ctor*
+  name: SettingKey
+  href: api/CarinaStudio.Configuration.SettingKey-1.html#CarinaStudio_Configuration_SettingKey_1__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey<T>.SettingKey
+  fullName.vb: CarinaStudio.Configuration.SettingKey(Of T).SettingKey
+  nameWithType: SettingKey<T>.SettingKey
+  nameWithType.vb: SettingKey(Of T).SettingKey
+- uid: CarinaStudio.Configuration.SettingKey`1.DefaultValue
+  name: DefaultValue
+  href: api/CarinaStudio.Configuration.SettingKey-1.html#CarinaStudio_Configuration_SettingKey_1_DefaultValue
+  commentId: P:CarinaStudio.Configuration.SettingKey`1.DefaultValue
+  fullName: CarinaStudio.Configuration.SettingKey<T>.DefaultValue
+  fullName.vb: CarinaStudio.Configuration.SettingKey(Of T).DefaultValue
+  nameWithType: SettingKey<T>.DefaultValue
+  nameWithType.vb: SettingKey(Of T).DefaultValue
+- uid: CarinaStudio.Configuration.SettingKey`1.DefaultValue*
+  name: DefaultValue
+  href: api/CarinaStudio.Configuration.SettingKey-1.html#CarinaStudio_Configuration_SettingKey_1_DefaultValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey`1.DefaultValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey<T>.DefaultValue
+  fullName.vb: CarinaStudio.Configuration.SettingKey(Of T).DefaultValue
+  nameWithType: SettingKey<T>.DefaultValue
+  nameWithType.vb: SettingKey(Of T).DefaultValue
+- uid: CarinaStudio.Configuration.SettingsMetadata
+  name: SettingsMetadata
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html
+  commentId: T:CarinaStudio.Configuration.SettingsMetadata
+  fullName: CarinaStudio.Configuration.SettingsMetadata
+  nameWithType: SettingsMetadata
+- uid: CarinaStudio.Configuration.SettingsMetadata.#ctor(System.Int32,System.DateTime)
+  name: SettingsMetadata(Int32, DateTime)
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata__ctor_System_Int32_System_DateTime_
+  commentId: M:CarinaStudio.Configuration.SettingsMetadata.#ctor(System.Int32,System.DateTime)
+  fullName: CarinaStudio.Configuration.SettingsMetadata.SettingsMetadata(System.Int32, System.DateTime)
+  nameWithType: SettingsMetadata.SettingsMetadata(Int32, DateTime)
+- uid: CarinaStudio.Configuration.SettingsMetadata.#ctor*
+  name: SettingsMetadata
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata__ctor_
+  commentId: Overload:CarinaStudio.Configuration.SettingsMetadata.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsMetadata.SettingsMetadata
+  nameWithType: SettingsMetadata.SettingsMetadata
+- uid: CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime
+  name: LastModifiedTime
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata_LastModifiedTime
+  commentId: P:CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime
+  fullName: CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime
+  nameWithType: SettingsMetadata.LastModifiedTime
+- uid: CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime*
+  name: LastModifiedTime
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata_LastModifiedTime_
+  commentId: Overload:CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsMetadata.LastModifiedTime
+  nameWithType: SettingsMetadata.LastModifiedTime
+- uid: CarinaStudio.Configuration.SettingsMetadata.Version
+  name: Version
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata_Version
+  commentId: P:CarinaStudio.Configuration.SettingsMetadata.Version
+  fullName: CarinaStudio.Configuration.SettingsMetadata.Version
+  nameWithType: SettingsMetadata.Version
+- uid: CarinaStudio.Configuration.SettingsMetadata.Version*
+  name: Version
+  href: api/CarinaStudio.Configuration.SettingsMetadata.html#CarinaStudio_Configuration_SettingsMetadata_Version_
+  commentId: Overload:CarinaStudio.Configuration.SettingsMetadata.Version
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsMetadata.Version
+  nameWithType: SettingsMetadata.Version
+- uid: CarinaStudio.DisposableExtensions
+  name: DisposableExtensions
+  href: api/CarinaStudio.DisposableExtensions.html
+  commentId: T:CarinaStudio.DisposableExtensions
+  fullName: CarinaStudio.DisposableExtensions
+  nameWithType: DisposableExtensions
+- uid: CarinaStudio.DisposableExtensions.DisposeAndReturnNull*
+  name: DisposeAndReturnNull
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull_
+  commentId: Overload:CarinaStudio.DisposableExtensions.DisposeAndReturnNull
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.DisposeAndReturnNull
+  nameWithType: DisposableExtensions.DisposeAndReturnNull
+- uid: CarinaStudio.DisposableExtensions.DisposeAndReturnNull``1(``0)
+  name: DisposeAndReturnNull<T>(T)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAndReturnNull``1(``0)
+  name.vb: DisposeAndReturnNull(Of T)(T)
+  fullName: CarinaStudio.DisposableExtensions.DisposeAndReturnNull<T>(T)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAndReturnNull(Of T)(T)
+  nameWithType: DisposableExtensions.DisposeAndReturnNull<T>(T)
+  nameWithType.vb: DisposableExtensions.DisposeAndReturnNull(Of T)(T)
+- uid: CarinaStudio.DisposableExtensions.Exchange*
+  name: Exchange
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange_
+  commentId: Overload:CarinaStudio.DisposableExtensions.Exchange
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.Exchange
+  nameWithType: DisposableExtensions.Exchange
+- uid: CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``0,``1})
+  name: Exchange<T, R>(T, Func<T, R>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__
+  commentId: M:CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``0,``1})
+  name.vb: Exchange(Of T, R)(T, Func(Of T, R))
+  fullName: CarinaStudio.DisposableExtensions.Exchange<T, R>(T, System.Func<T, R>)
+  fullName.vb: CarinaStudio.DisposableExtensions.Exchange(Of T, R)(T, System.Func(Of T, R))
+  nameWithType: DisposableExtensions.Exchange<T, R>(T, Func<T, R>)
+  nameWithType.vb: DisposableExtensions.Exchange(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``1})
+  name: Exchange<T, R>(T, Func<R>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__
+  commentId: M:CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``1})
+  name.vb: Exchange(Of T, R)(T, Func(Of R))
+  fullName: CarinaStudio.DisposableExtensions.Exchange<T, R>(T, System.Func<R>)
+  fullName.vb: CarinaStudio.DisposableExtensions.Exchange(Of T, R)(T, System.Func(Of R))
+  nameWithType: DisposableExtensions.Exchange<T, R>(T, Func<R>)
+  nameWithType.vb: DisposableExtensions.Exchange(Of T, R)(T, Func(Of R))
+- uid: CarinaStudio.DisposableExtensions.Use*
+  name: Use
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use_
+  commentId: Overload:CarinaStudio.DisposableExtensions.Use
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.Use
+  nameWithType: DisposableExtensions.Use
+- uid: CarinaStudio.DisposableExtensions.Use``2(``0,System.Func{``0,``1})
+  name: Use<T, R>(T, Func<T, R>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__
+  commentId: M:CarinaStudio.DisposableExtensions.Use``2(``0,System.Func{``0,``1})
+  name.vb: Use(Of T, R)(T, Func(Of T, R))
+  fullName: CarinaStudio.DisposableExtensions.Use<T, R>(T, System.Func<T, R>)
+  fullName.vb: CarinaStudio.DisposableExtensions.Use(Of T, R)(T, System.Func(Of T, R))
+  nameWithType: DisposableExtensions.Use<T, R>(T, Func<T, R>)
+  nameWithType.vb: DisposableExtensions.Use(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.IShareableDisposable`1
+  name: IShareableDisposable<TSelf>
+  href: api/CarinaStudio.IShareableDisposable-1.html
+  commentId: T:CarinaStudio.IShareableDisposable`1
+  name.vb: IShareableDisposable(Of TSelf)
+  fullName: CarinaStudio.IShareableDisposable<TSelf>
+  fullName.vb: CarinaStudio.IShareableDisposable(Of TSelf)
+  nameWithType: IShareableDisposable<TSelf>
+  nameWithType.vb: IShareableDisposable(Of TSelf)
+- uid: CarinaStudio.IShareableDisposable`1.Share
+  name: Share()
+  href: api/CarinaStudio.IShareableDisposable-1.html#CarinaStudio_IShareableDisposable_1_Share
+  commentId: M:CarinaStudio.IShareableDisposable`1.Share
+  fullName: CarinaStudio.IShareableDisposable<TSelf>.Share()
+  fullName.vb: CarinaStudio.IShareableDisposable(Of TSelf).Share()
+  nameWithType: IShareableDisposable<TSelf>.Share()
+  nameWithType.vb: IShareableDisposable(Of TSelf).Share()
+- uid: CarinaStudio.IShareableDisposable`1.Share*
+  name: Share
+  href: api/CarinaStudio.IShareableDisposable-1.html#CarinaStudio_IShareableDisposable_1_Share_
+  commentId: Overload:CarinaStudio.IShareableDisposable`1.Share
+  isSpec: "True"
+  fullName: CarinaStudio.IShareableDisposable<TSelf>.Share
+  fullName.vb: CarinaStudio.IShareableDisposable(Of TSelf).Share
+  nameWithType: IShareableDisposable<TSelf>.Share
+  nameWithType.vb: IShareableDisposable(Of TSelf).Share
+- uid: CarinaStudio.MutableObservableBoolean
+  name: MutableObservableBoolean
+  href: api/CarinaStudio.MutableObservableBoolean.html
+  commentId: T:CarinaStudio.MutableObservableBoolean
+  fullName: CarinaStudio.MutableObservableBoolean
+  nameWithType: MutableObservableBoolean
+- uid: CarinaStudio.MutableObservableBoolean.#ctor(System.Boolean)
+  name: MutableObservableBoolean(Boolean)
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean__ctor_System_Boolean_
+  commentId: M:CarinaStudio.MutableObservableBoolean.#ctor(System.Boolean)
+  fullName: CarinaStudio.MutableObservableBoolean.MutableObservableBoolean(System.Boolean)
+  nameWithType: MutableObservableBoolean.MutableObservableBoolean(Boolean)
+- uid: CarinaStudio.MutableObservableBoolean.#ctor*
+  name: MutableObservableBoolean
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableBoolean.MutableObservableBoolean
+  nameWithType: MutableObservableBoolean.MutableObservableBoolean
+- uid: CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
+  name: Equals(Boolean)
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Equals_System_Boolean_
+  commentId: M:CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
+  fullName: CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
+  nameWithType: MutableObservableBoolean.Equals(Boolean)
+- uid: CarinaStudio.MutableObservableBoolean.Equals*
+  name: Equals
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Equals_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableBoolean.Equals
+  nameWithType: MutableObservableBoolean.Equals
+- uid: CarinaStudio.MutableObservableBoolean.op_False(CarinaStudio.MutableObservableBoolean)
+  name: False(MutableObservableBoolean)
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_op_False_CarinaStudio_MutableObservableBoolean_
+  commentId: M:CarinaStudio.MutableObservableBoolean.op_False(CarinaStudio.MutableObservableBoolean)
+  fullName: CarinaStudio.MutableObservableBoolean.False(CarinaStudio.MutableObservableBoolean)
+  nameWithType: MutableObservableBoolean.False(MutableObservableBoolean)
+- uid: CarinaStudio.MutableObservableBoolean.op_False*
+  name: "False"
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_op_False_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.op_False
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableBoolean.False
+  nameWithType: MutableObservableBoolean.False
+- uid: CarinaStudio.MutableObservableBoolean.op_True(CarinaStudio.MutableObservableBoolean)
+  name: True(MutableObservableBoolean)
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_op_True_CarinaStudio_MutableObservableBoolean_
+  commentId: M:CarinaStudio.MutableObservableBoolean.op_True(CarinaStudio.MutableObservableBoolean)
+  fullName: CarinaStudio.MutableObservableBoolean.True(CarinaStudio.MutableObservableBoolean)
+  nameWithType: MutableObservableBoolean.True(MutableObservableBoolean)
+- uid: CarinaStudio.MutableObservableBoolean.op_True*
+  name: "True"
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_op_True_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.op_True
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableBoolean.True
+  nameWithType: MutableObservableBoolean.True
+- uid: CarinaStudio.MutableObservableBoolean.Toggle
+  name: Toggle()
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Toggle
+  commentId: M:CarinaStudio.MutableObservableBoolean.Toggle
+  fullName: CarinaStudio.MutableObservableBoolean.Toggle()
+  nameWithType: MutableObservableBoolean.Toggle()
+- uid: CarinaStudio.MutableObservableBoolean.Toggle*
+  name: Toggle
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Toggle_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.Toggle
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableBoolean.Toggle
+  nameWithType: MutableObservableBoolean.Toggle
+- uid: CarinaStudio.MutableObservableInt32
+  name: MutableObservableInt32
+  href: api/CarinaStudio.MutableObservableInt32.html
+  commentId: T:CarinaStudio.MutableObservableInt32
+  fullName: CarinaStudio.MutableObservableInt32
+  nameWithType: MutableObservableInt32
+- uid: CarinaStudio.MutableObservableInt32.#ctor(System.Int32)
+  name: MutableObservableInt32(Int32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32__ctor_System_Int32_
+  commentId: M:CarinaStudio.MutableObservableInt32.#ctor(System.Int32)
+  fullName: CarinaStudio.MutableObservableInt32.MutableObservableInt32(System.Int32)
+  nameWithType: MutableObservableInt32.MutableObservableInt32(Int32)
+- uid: CarinaStudio.MutableObservableInt32.#ctor*
+  name: MutableObservableInt32
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.MutableObservableInt32
+  nameWithType: MutableObservableInt32.MutableObservableInt32
+- uid: CarinaStudio.MutableObservableInt32.Decrease(System.Int32)
+  name: Decrease(Int32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Decrease_System_Int32_
+  commentId: M:CarinaStudio.MutableObservableInt32.Decrease(System.Int32)
+  fullName: CarinaStudio.MutableObservableInt32.Decrease(System.Int32)
+  nameWithType: MutableObservableInt32.Decrease(Int32)
+- uid: CarinaStudio.MutableObservableInt32.Decrease*
+  name: Decrease
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Decrease_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.Decrease
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.Decrease
+  nameWithType: MutableObservableInt32.Decrease
+- uid: CarinaStudio.MutableObservableInt32.Equals(System.Int32)
+  name: Equals(Int32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Equals_System_Int32_
+  commentId: M:CarinaStudio.MutableObservableInt32.Equals(System.Int32)
+  fullName: CarinaStudio.MutableObservableInt32.Equals(System.Int32)
+  nameWithType: MutableObservableInt32.Equals(Int32)
+- uid: CarinaStudio.MutableObservableInt32.Equals*
+  name: Equals
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Equals_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.Equals
+  nameWithType: MutableObservableInt32.Equals
+- uid: CarinaStudio.MutableObservableInt32.Increase(System.Int32)
+  name: Increase(Int32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Increase_System_Int32_
+  commentId: M:CarinaStudio.MutableObservableInt32.Increase(System.Int32)
+  fullName: CarinaStudio.MutableObservableInt32.Increase(System.Int32)
+  nameWithType: MutableObservableInt32.Increase(Int32)
+- uid: CarinaStudio.MutableObservableInt32.Increase*
+  name: Increase
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Increase_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.Increase
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.Increase
+  nameWithType: MutableObservableInt32.Increase
+- uid: CarinaStudio.MutableObservableInt32.op_Decrement(CarinaStudio.MutableObservableInt32)
+  name: Decrement(MutableObservableInt32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_op_Decrement_CarinaStudio_MutableObservableInt32_
+  commentId: M:CarinaStudio.MutableObservableInt32.op_Decrement(CarinaStudio.MutableObservableInt32)
+  fullName: CarinaStudio.MutableObservableInt32.Decrement(CarinaStudio.MutableObservableInt32)
+  nameWithType: MutableObservableInt32.Decrement(MutableObservableInt32)
+- uid: CarinaStudio.MutableObservableInt32.op_Decrement*
+  name: Decrement
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_op_Decrement_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.op_Decrement
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.Decrement
+  nameWithType: MutableObservableInt32.Decrement
+- uid: CarinaStudio.MutableObservableInt32.op_Increment(CarinaStudio.MutableObservableInt32)
+  name: Increment(MutableObservableInt32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_op_Increment_CarinaStudio_MutableObservableInt32_
+  commentId: M:CarinaStudio.MutableObservableInt32.op_Increment(CarinaStudio.MutableObservableInt32)
+  fullName: CarinaStudio.MutableObservableInt32.Increment(CarinaStudio.MutableObservableInt32)
+  nameWithType: MutableObservableInt32.Increment(MutableObservableInt32)
+- uid: CarinaStudio.MutableObservableInt32.op_Increment*
+  name: Increment
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_op_Increment_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.op_Increment
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.Increment
+  nameWithType: MutableObservableInt32.Increment
+- uid: CarinaStudio.MutableObservableInt64
+  name: MutableObservableInt64
+  href: api/CarinaStudio.MutableObservableInt64.html
+  commentId: T:CarinaStudio.MutableObservableInt64
+  fullName: CarinaStudio.MutableObservableInt64
+  nameWithType: MutableObservableInt64
+- uid: CarinaStudio.MutableObservableInt64.#ctor(System.Int64)
+  name: MutableObservableInt64(Int64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64__ctor_System_Int64_
+  commentId: M:CarinaStudio.MutableObservableInt64.#ctor(System.Int64)
+  fullName: CarinaStudio.MutableObservableInt64.MutableObservableInt64(System.Int64)
+  nameWithType: MutableObservableInt64.MutableObservableInt64(Int64)
+- uid: CarinaStudio.MutableObservableInt64.#ctor*
+  name: MutableObservableInt64
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.MutableObservableInt64
+  nameWithType: MutableObservableInt64.MutableObservableInt64
+- uid: CarinaStudio.MutableObservableInt64.Decrease(System.Int64)
+  name: Decrease(Int64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Decrease_System_Int64_
+  commentId: M:CarinaStudio.MutableObservableInt64.Decrease(System.Int64)
+  fullName: CarinaStudio.MutableObservableInt64.Decrease(System.Int64)
+  nameWithType: MutableObservableInt64.Decrease(Int64)
+- uid: CarinaStudio.MutableObservableInt64.Decrease*
+  name: Decrease
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Decrease_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.Decrease
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.Decrease
+  nameWithType: MutableObservableInt64.Decrease
+- uid: CarinaStudio.MutableObservableInt64.Equals(System.Int64)
+  name: Equals(Int64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Equals_System_Int64_
+  commentId: M:CarinaStudio.MutableObservableInt64.Equals(System.Int64)
+  fullName: CarinaStudio.MutableObservableInt64.Equals(System.Int64)
+  nameWithType: MutableObservableInt64.Equals(Int64)
+- uid: CarinaStudio.MutableObservableInt64.Equals*
+  name: Equals
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Equals_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.Equals
+  nameWithType: MutableObservableInt64.Equals
+- uid: CarinaStudio.MutableObservableInt64.Increase(System.Int64)
+  name: Increase(Int64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Increase_System_Int64_
+  commentId: M:CarinaStudio.MutableObservableInt64.Increase(System.Int64)
+  fullName: CarinaStudio.MutableObservableInt64.Increase(System.Int64)
+  nameWithType: MutableObservableInt64.Increase(Int64)
+- uid: CarinaStudio.MutableObservableInt64.Increase*
+  name: Increase
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Increase_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.Increase
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.Increase
+  nameWithType: MutableObservableInt64.Increase
+- uid: CarinaStudio.MutableObservableInt64.op_Decrement(CarinaStudio.MutableObservableInt64)
+  name: Decrement(MutableObservableInt64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_op_Decrement_CarinaStudio_MutableObservableInt64_
+  commentId: M:CarinaStudio.MutableObservableInt64.op_Decrement(CarinaStudio.MutableObservableInt64)
+  fullName: CarinaStudio.MutableObservableInt64.Decrement(CarinaStudio.MutableObservableInt64)
+  nameWithType: MutableObservableInt64.Decrement(MutableObservableInt64)
+- uid: CarinaStudio.MutableObservableInt64.op_Decrement*
+  name: Decrement
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_op_Decrement_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.op_Decrement
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.Decrement
+  nameWithType: MutableObservableInt64.Decrement
+- uid: CarinaStudio.MutableObservableInt64.op_Increment(CarinaStudio.MutableObservableInt64)
+  name: Increment(MutableObservableInt64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_op_Increment_CarinaStudio_MutableObservableInt64_
+  commentId: M:CarinaStudio.MutableObservableInt64.op_Increment(CarinaStudio.MutableObservableInt64)
+  fullName: CarinaStudio.MutableObservableInt64.Increment(CarinaStudio.MutableObservableInt64)
+  nameWithType: MutableObservableInt64.Increment(MutableObservableInt64)
+- uid: CarinaStudio.MutableObservableInt64.op_Increment*
+  name: Increment
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_op_Increment_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.op_Increment
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.Increment
+  nameWithType: MutableObservableInt64.Increment
+- uid: CarinaStudio.MutableObservableString
+  name: MutableObservableString
+  href: api/CarinaStudio.MutableObservableString.html
+  commentId: T:CarinaStudio.MutableObservableString
+  fullName: CarinaStudio.MutableObservableString
+  nameWithType: MutableObservableString
+- uid: CarinaStudio.MutableObservableString.#ctor(System.String)
+  name: MutableObservableString(String)
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString__ctor_System_String_
+  commentId: M:CarinaStudio.MutableObservableString.#ctor(System.String)
+  fullName: CarinaStudio.MutableObservableString.MutableObservableString(System.String)
+  nameWithType: MutableObservableString.MutableObservableString(String)
+- uid: CarinaStudio.MutableObservableString.#ctor*
+  name: MutableObservableString
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableString.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.MutableObservableString
+  nameWithType: MutableObservableString.MutableObservableString
+- uid: CarinaStudio.MutableObservableString.Equals(System.String)
+  name: Equals(String)
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Equals_System_String_
+  commentId: M:CarinaStudio.MutableObservableString.Equals(System.String)
+  fullName: CarinaStudio.MutableObservableString.Equals(System.String)
+  nameWithType: MutableObservableString.Equals(String)
+- uid: CarinaStudio.MutableObservableString.Equals*
+  name: Equals
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Equals_
+  commentId: Overload:CarinaStudio.MutableObservableString.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.Equals
+  nameWithType: MutableObservableString.Equals
+- uid: CarinaStudio.MutableObservableString.IsNullOrEmpty
+  name: IsNullOrEmpty
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_IsNullOrEmpty
+  commentId: P:CarinaStudio.MutableObservableString.IsNullOrEmpty
+  fullName: CarinaStudio.MutableObservableString.IsNullOrEmpty
+  nameWithType: MutableObservableString.IsNullOrEmpty
+- uid: CarinaStudio.MutableObservableString.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_IsNullOrEmpty_
+  commentId: Overload:CarinaStudio.MutableObservableString.IsNullOrEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.IsNullOrEmpty
+  nameWithType: MutableObservableString.IsNullOrEmpty
+- uid: CarinaStudio.MutableObservableString.IsNullOrWhiteSpace
+  name: IsNullOrWhiteSpace
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_IsNullOrWhiteSpace
+  commentId: P:CarinaStudio.MutableObservableString.IsNullOrWhiteSpace
+  fullName: CarinaStudio.MutableObservableString.IsNullOrWhiteSpace
+  nameWithType: MutableObservableString.IsNullOrWhiteSpace
+- uid: CarinaStudio.MutableObservableString.IsNullOrWhiteSpace*
+  name: IsNullOrWhiteSpace
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_IsNullOrWhiteSpace_
+  commentId: Overload:CarinaStudio.MutableObservableString.IsNullOrWhiteSpace
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.IsNullOrWhiteSpace
+  nameWithType: MutableObservableString.IsNullOrWhiteSpace
+- uid: CarinaStudio.MutableObservableString.Item(System.Int32)
+  name: Item[Int32]
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Item_System_Int32_
+  commentId: P:CarinaStudio.MutableObservableString.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: CarinaStudio.MutableObservableString.Item[System.Int32]
+  fullName.vb: CarinaStudio.MutableObservableString.Item(System.Int32)
+  nameWithType: MutableObservableString.Item[Int32]
+  nameWithType.vb: MutableObservableString.Item(Int32)
+- uid: CarinaStudio.MutableObservableString.Item*
+  name: Item
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Item_
+  commentId: Overload:CarinaStudio.MutableObservableString.Item
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.Item
+  nameWithType: MutableObservableString.Item
+- uid: CarinaStudio.MutableObservableString.Length
+  name: Length
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Length
+  commentId: P:CarinaStudio.MutableObservableString.Length
+  fullName: CarinaStudio.MutableObservableString.Length
+  nameWithType: MutableObservableString.Length
+- uid: CarinaStudio.MutableObservableString.Length*
+  name: Length
+  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Length_
+  commentId: Overload:CarinaStudio.MutableObservableString.Length
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableString.Length
+  nameWithType: MutableObservableString.Length
+- uid: CarinaStudio.MutableObservableValue`1
+  name: MutableObservableValue<T>
+  href: api/CarinaStudio.MutableObservableValue-1.html
+  commentId: T:CarinaStudio.MutableObservableValue`1
+  name.vb: MutableObservableValue(Of T)
+  fullName: CarinaStudio.MutableObservableValue<T>
+  fullName.vb: CarinaStudio.MutableObservableValue(Of T)
+  nameWithType: MutableObservableValue<T>
+  nameWithType.vb: MutableObservableValue(Of T)
+- uid: CarinaStudio.MutableObservableValue`1.#ctor(`0)
+  name: MutableObservableValue(T)
+  href: api/CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1__ctor__0_
+  commentId: M:CarinaStudio.MutableObservableValue`1.#ctor(`0)
+  fullName: CarinaStudio.MutableObservableValue<T>.MutableObservableValue(T)
+  fullName.vb: CarinaStudio.MutableObservableValue(Of T).MutableObservableValue(T)
+  nameWithType: MutableObservableValue<T>.MutableObservableValue(T)
+  nameWithType.vb: MutableObservableValue(Of T).MutableObservableValue(T)
+- uid: CarinaStudio.MutableObservableValue`1.#ctor*
+  name: MutableObservableValue
+  href: api/CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableValue`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableValue<T>.MutableObservableValue
+  fullName.vb: CarinaStudio.MutableObservableValue(Of T).MutableObservableValue
+  nameWithType: MutableObservableValue<T>.MutableObservableValue
+  nameWithType.vb: MutableObservableValue(Of T).MutableObservableValue
+- uid: CarinaStudio.MutableObservableValue`1.Update(`0)
+  name: Update(T)
+  href: api/CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1_Update__0_
+  commentId: M:CarinaStudio.MutableObservableValue`1.Update(`0)
+  fullName: CarinaStudio.MutableObservableValue<T>.Update(T)
+  fullName.vb: CarinaStudio.MutableObservableValue(Of T).Update(T)
+  nameWithType: MutableObservableValue<T>.Update(T)
+  nameWithType.vb: MutableObservableValue(Of T).Update(T)
+- uid: CarinaStudio.MutableObservableValue`1.Update*
+  name: Update
+  href: api/CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1_Update_
+  commentId: Overload:CarinaStudio.MutableObservableValue`1.Update
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableValue<T>.Update
+  fullName.vb: CarinaStudio.MutableObservableValue(Of T).Update
+  nameWithType: MutableObservableValue<T>.Update
+  nameWithType.vb: MutableObservableValue(Of T).Update
+- uid: CarinaStudio.ObjectExtensions
+  name: ObjectExtensions
+  href: api/CarinaStudio.ObjectExtensions.html
+  commentId: T:CarinaStudio.ObjectExtensions
+  fullName: CarinaStudio.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: CarinaStudio.ObjectExtensions.Also*
+  name: Also
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also_
+  commentId: Overload:CarinaStudio.ObjectExtensions.Also
+  isSpec: "True"
+  fullName: CarinaStudio.ObjectExtensions.Also
+  nameWithType: ObjectExtensions.Also
+- uid: CarinaStudio.ObjectExtensions.Also``1(``0,System.Action{``0})
+  name: Also<T>(T, Action<T>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__
+  commentId: M:CarinaStudio.ObjectExtensions.Also``1(``0,System.Action{``0})
+  name.vb: Also(Of T)(T, Action(Of T))
+  fullName: CarinaStudio.ObjectExtensions.Also<T>(T, System.Action<T>)
+  fullName.vb: CarinaStudio.ObjectExtensions.Also(Of T)(T, System.Action(Of T))
+  nameWithType: ObjectExtensions.Also<T>(T, Action<T>)
+  nameWithType.vb: ObjectExtensions.Also(Of T)(T, Action(Of T))
+- uid: CarinaStudio.ObjectExtensions.AsNonNull*
+  name: AsNonNull
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull_
+  commentId: Overload:CarinaStudio.ObjectExtensions.AsNonNull
+  isSpec: "True"
+  fullName: CarinaStudio.ObjectExtensions.AsNonNull
+  nameWithType: ObjectExtensions.AsNonNull
+- uid: CarinaStudio.ObjectExtensions.AsNonNull``1(``0)
+  name: AsNonNull<T>(T)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_
+  commentId: M:CarinaStudio.ObjectExtensions.AsNonNull``1(``0)
+  name.vb: AsNonNull(Of T)(T)
+  fullName: CarinaStudio.ObjectExtensions.AsNonNull<T>(T)
+  fullName.vb: CarinaStudio.ObjectExtensions.AsNonNull(Of T)(T)
+  nameWithType: ObjectExtensions.AsNonNull<T>(T)
+  nameWithType.vb: ObjectExtensions.AsNonNull(Of T)(T)
+- uid: CarinaStudio.ObjectExtensions.Let*
+  name: Let
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let_
+  commentId: Overload:CarinaStudio.ObjectExtensions.Let
+  isSpec: "True"
+  fullName: CarinaStudio.ObjectExtensions.Let
+  nameWithType: ObjectExtensions.Let
+- uid: CarinaStudio.ObjectExtensions.Let``1(``0,System.Action{``0})
+  name: Let<T>(T, Action<T>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__
+  commentId: M:CarinaStudio.ObjectExtensions.Let``1(``0,System.Action{``0})
+  name.vb: Let(Of T)(T, Action(Of T))
+  fullName: CarinaStudio.ObjectExtensions.Let<T>(T, System.Action<T>)
+  fullName.vb: CarinaStudio.ObjectExtensions.Let(Of T)(T, System.Action(Of T))
+  nameWithType: ObjectExtensions.Let<T>(T, Action<T>)
+  nameWithType.vb: ObjectExtensions.Let(Of T)(T, Action(Of T))
+- uid: CarinaStudio.ObjectExtensions.Let``2(``0,System.Func{``0,``1})
+  name: Let<T, R>(T, Func<T, R>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__
+  commentId: M:CarinaStudio.ObjectExtensions.Let``2(``0,System.Func{``0,``1})
+  name.vb: Let(Of T, R)(T, Func(Of T, R))
+  fullName: CarinaStudio.ObjectExtensions.Let<T, R>(T, System.Func<T, R>)
+  fullName.vb: CarinaStudio.ObjectExtensions.Let(Of T, R)(T, System.Func(Of T, R))
+  nameWithType: ObjectExtensions.Let<T, R>(T, Func<T, R>)
+  nameWithType.vb: ObjectExtensions.Let(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.ObjectExtensions.Lock*
+  name: Lock
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock_
+  commentId: Overload:CarinaStudio.ObjectExtensions.Lock
+  isSpec: "True"
+  fullName: CarinaStudio.ObjectExtensions.Lock
+  nameWithType: ObjectExtensions.Lock
+- uid: CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``0,``1})
+  name: Lock<T, R>(T, Func<T, R>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__
+  commentId: M:CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``0,``1})
+  name.vb: Lock(Of T, R)(T, Func(Of T, R))
+  fullName: CarinaStudio.ObjectExtensions.Lock<T, R>(T, System.Func<T, R>)
+  fullName.vb: CarinaStudio.ObjectExtensions.Lock(Of T, R)(T, System.Func(Of T, R))
+  nameWithType: ObjectExtensions.Lock<T, R>(T, Func<T, R>)
+  nameWithType.vb: ObjectExtensions.Lock(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``1})
+  name: Lock<T, R>(T, Func<R>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__
+  commentId: M:CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``1})
+  name.vb: Lock(Of T, R)(T, Func(Of R))
+  fullName: CarinaStudio.ObjectExtensions.Lock<T, R>(T, System.Func<R>)
+  fullName.vb: CarinaStudio.ObjectExtensions.Lock(Of T, R)(T, System.Func(Of R))
+  nameWithType: ObjectExtensions.Lock<T, R>(T, Func<R>)
+  nameWithType.vb: ObjectExtensions.Lock(Of T, R)(T, Func(Of R))
+- uid: CarinaStudio.ObservableValue`1
+  name: ObservableValue<T>
+  href: api/CarinaStudio.ObservableValue-1.html
+  commentId: T:CarinaStudio.ObservableValue`1
+  name.vb: ObservableValue(Of T)
+  fullName: CarinaStudio.ObservableValue<T>
+  fullName.vb: CarinaStudio.ObservableValue(Of T)
+  nameWithType: ObservableValue<T>
+  nameWithType.vb: ObservableValue(Of T)
+- uid: CarinaStudio.ObservableValue`1.#ctor(`0)
+  name: ObservableValue(T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1__ctor__0_
+  commentId: M:CarinaStudio.ObservableValue`1.#ctor(`0)
+  fullName: CarinaStudio.ObservableValue<T>.ObservableValue(T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).ObservableValue(T)
+  nameWithType: ObservableValue<T>.ObservableValue(T)
+  nameWithType.vb: ObservableValue(Of T).ObservableValue(T)
+- uid: CarinaStudio.ObservableValue`1.#ctor*
+  name: ObservableValue
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1__ctor_
+  commentId: Overload:CarinaStudio.ObservableValue`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.ObservableValue
+  fullName.vb: CarinaStudio.ObservableValue(Of T).ObservableValue
+  nameWithType: ObservableValue<T>.ObservableValue
+  nameWithType.vb: ObservableValue(Of T).ObservableValue
+- uid: CarinaStudio.ObservableValue`1.Equals(`0)
+  name: Equals(T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals__0_
+  commentId: M:CarinaStudio.ObservableValue`1.Equals(`0)
+  fullName: CarinaStudio.ObservableValue<T>.Equals(T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals(T)
+  nameWithType: ObservableValue<T>.Equals(T)
+  nameWithType.vb: ObservableValue(Of T).Equals(T)
+- uid: CarinaStudio.ObservableValue`1.Equals(System.Object)
+  name: Equals(Object)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Object_
+  commentId: M:CarinaStudio.ObservableValue`1.Equals(System.Object)
+  fullName: CarinaStudio.ObservableValue<T>.Equals(System.Object)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals(System.Object)
+  nameWithType: ObservableValue<T>.Equals(Object)
+  nameWithType.vb: ObservableValue(Of T).Equals(Object)
+- uid: CarinaStudio.ObservableValue`1.Equals*
+  name: Equals
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_
+  commentId: Overload:CarinaStudio.ObservableValue`1.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.Equals
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals
+  nameWithType: ObservableValue<T>.Equals
+  nameWithType.vb: ObservableValue(Of T).Equals
+- uid: CarinaStudio.ObservableValue`1.GetHashCode
+  name: GetHashCode()
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode
+  commentId: M:CarinaStudio.ObservableValue`1.GetHashCode
+  fullName: CarinaStudio.ObservableValue<T>.GetHashCode()
+  fullName.vb: CarinaStudio.ObservableValue(Of T).GetHashCode()
+  nameWithType: ObservableValue<T>.GetHashCode()
+  nameWithType.vb: ObservableValue(Of T).GetHashCode()
+- uid: CarinaStudio.ObservableValue`1.GetHashCode*
+  name: GetHashCode
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode_
+  commentId: Overload:CarinaStudio.ObservableValue`1.GetHashCode
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.GetHashCode
+  fullName.vb: CarinaStudio.ObservableValue(Of T).GetHashCode
+  nameWithType: ObservableValue<T>.GetHashCode
+  nameWithType.vb: ObservableValue(Of T).GetHashCode
+- uid: CarinaStudio.ObservableValue`1.IsNotNull
+  name: IsNotNull
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNotNull
+  commentId: P:CarinaStudio.ObservableValue`1.IsNotNull
+  fullName: CarinaStudio.ObservableValue<T>.IsNotNull
+  fullName.vb: CarinaStudio.ObservableValue(Of T).IsNotNull
+  nameWithType: ObservableValue<T>.IsNotNull
+  nameWithType.vb: ObservableValue(Of T).IsNotNull
+- uid: CarinaStudio.ObservableValue`1.IsNotNull*
+  name: IsNotNull
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNotNull_
+  commentId: Overload:CarinaStudio.ObservableValue`1.IsNotNull
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.IsNotNull
+  fullName.vb: CarinaStudio.ObservableValue(Of T).IsNotNull
+  nameWithType: ObservableValue<T>.IsNotNull
+  nameWithType.vb: ObservableValue(Of T).IsNotNull
+- uid: CarinaStudio.ObservableValue`1.IsNull
+  name: IsNull
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNull
+  commentId: P:CarinaStudio.ObservableValue`1.IsNull
+  fullName: CarinaStudio.ObservableValue<T>.IsNull
+  fullName.vb: CarinaStudio.ObservableValue(Of T).IsNull
+  nameWithType: ObservableValue<T>.IsNull
+  nameWithType.vb: ObservableValue(Of T).IsNull
+- uid: CarinaStudio.ObservableValue`1.IsNull*
+  name: IsNull
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNull_
+  commentId: Overload:CarinaStudio.ObservableValue`1.IsNull
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.IsNull
+  fullName.vb: CarinaStudio.ObservableValue(Of T).IsNull
+  nameWithType: ObservableValue<T>.IsNull
+  nameWithType.vb: ObservableValue(Of T).IsNull
+- uid: CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},`0)
+  name: Equality(ObservableValue<T>, T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_CarinaStudio_ObservableValue__0___0_
+  commentId: M:CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},`0)
+  name.vb: Equality(ObservableValue(Of T), T)
+  fullName: CarinaStudio.ObservableValue<T>.Equality(CarinaStudio.ObservableValue<T>, T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality(CarinaStudio.ObservableValue(Of T), T)
+  nameWithType: ObservableValue<T>.Equality(ObservableValue<T>, T)
+  nameWithType.vb: ObservableValue(Of T).Equality(ObservableValue(Of T), T)
+- uid: CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
+  name: Equality(ObservableValue<T>, ObservableValue<T>)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_CarinaStudio_ObservableValue__0__CarinaStudio_ObservableValue__0__
+  commentId: M:CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
+  name.vb: Equality(ObservableValue(Of T), ObservableValue(Of T))
+  fullName: CarinaStudio.ObservableValue<T>.Equality(CarinaStudio.ObservableValue<T>, CarinaStudio.ObservableValue<T>)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality(CarinaStudio.ObservableValue(Of T), CarinaStudio.ObservableValue(Of T))
+  nameWithType: ObservableValue<T>.Equality(ObservableValue<T>, ObservableValue<T>)
+  nameWithType.vb: ObservableValue(Of T).Equality(ObservableValue(Of T), ObservableValue(Of T))
+- uid: CarinaStudio.ObservableValue`1.op_Equality*
+  name: Equality
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_
+  commentId: Overload:CarinaStudio.ObservableValue`1.op_Equality
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.Equality
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality
+  nameWithType: ObservableValue<T>.Equality
+  nameWithType.vb: ObservableValue(Of T).Equality
+- uid: CarinaStudio.ObservableValue`1.op_Explicit(CarinaStudio.ObservableValue{`0})~`0
+  name: Explicit(ObservableValue<T> to T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Explicit_CarinaStudio_ObservableValue__0____0
+  commentId: M:CarinaStudio.ObservableValue`1.op_Explicit(CarinaStudio.ObservableValue{`0})~`0
+  name.vb: Narrowing(ObservableValue(Of T) to T)
+  fullName: CarinaStudio.ObservableValue<T>.Explicit(CarinaStudio.ObservableValue<T> to T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Narrowing(CarinaStudio.ObservableValue(Of T) to T)
+  nameWithType: ObservableValue<T>.Explicit(ObservableValue<T> to T)
+  nameWithType.vb: ObservableValue(Of T).Narrowing(ObservableValue(Of T) to T)
+- uid: CarinaStudio.ObservableValue`1.op_Explicit*
+  name: Explicit
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Explicit_
+  commentId: Overload:CarinaStudio.ObservableValue`1.op_Explicit
+  isSpec: "True"
+  name.vb: Narrowing
+  fullName: CarinaStudio.ObservableValue<T>.Explicit
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Narrowing
+  nameWithType: ObservableValue<T>.Explicit
+  nameWithType.vb: ObservableValue(Of T).Narrowing
+- uid: CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},`0)
+  name: Inequality(ObservableValue<T>, T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_CarinaStudio_ObservableValue__0___0_
+  commentId: M:CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},`0)
+  name.vb: Inequality(ObservableValue(Of T), T)
+  fullName: CarinaStudio.ObservableValue<T>.Inequality(CarinaStudio.ObservableValue<T>, T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality(CarinaStudio.ObservableValue(Of T), T)
+  nameWithType: ObservableValue<T>.Inequality(ObservableValue<T>, T)
+  nameWithType.vb: ObservableValue(Of T).Inequality(ObservableValue(Of T), T)
+- uid: CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
+  name: Inequality(ObservableValue<T>, ObservableValue<T>)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_CarinaStudio_ObservableValue__0__CarinaStudio_ObservableValue__0__
+  commentId: M:CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
+  name.vb: Inequality(ObservableValue(Of T), ObservableValue(Of T))
+  fullName: CarinaStudio.ObservableValue<T>.Inequality(CarinaStudio.ObservableValue<T>, CarinaStudio.ObservableValue<T>)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality(CarinaStudio.ObservableValue(Of T), CarinaStudio.ObservableValue(Of T))
+  nameWithType: ObservableValue<T>.Inequality(ObservableValue<T>, ObservableValue<T>)
+  nameWithType.vb: ObservableValue(Of T).Inequality(ObservableValue(Of T), ObservableValue(Of T))
+- uid: CarinaStudio.ObservableValue`1.op_Inequality*
+  name: Inequality
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_
+  commentId: Overload:CarinaStudio.ObservableValue`1.op_Inequality
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.Inequality
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality
+  nameWithType: ObservableValue<T>.Inequality
+  nameWithType.vb: ObservableValue(Of T).Inequality
+- uid: CarinaStudio.ObservableValue`1.Subscribe(System.IObserver{`0})
+  name: Subscribe(IObserver<T>)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_System_IObserver__0__
+  commentId: M:CarinaStudio.ObservableValue`1.Subscribe(System.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of T))
+  fullName: CarinaStudio.ObservableValue<T>.Subscribe(System.IObserver<T>)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Subscribe(System.IObserver(Of T))
+  nameWithType: ObservableValue<T>.Subscribe(IObserver<T>)
+  nameWithType.vb: ObservableValue(Of T).Subscribe(IObserver(Of T))
+- uid: CarinaStudio.ObservableValue`1.Subscribe*
+  name: Subscribe
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_
+  commentId: Overload:CarinaStudio.ObservableValue`1.Subscribe
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.Subscribe
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Subscribe
+  nameWithType: ObservableValue<T>.Subscribe
+  nameWithType.vb: ObservableValue(Of T).Subscribe
+- uid: CarinaStudio.ObservableValue`1.ToString
+  name: ToString()
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_ToString
+  commentId: M:CarinaStudio.ObservableValue`1.ToString
+  fullName: CarinaStudio.ObservableValue<T>.ToString()
+  fullName.vb: CarinaStudio.ObservableValue(Of T).ToString()
+  nameWithType: ObservableValue<T>.ToString()
+  nameWithType.vb: ObservableValue(Of T).ToString()
+- uid: CarinaStudio.ObservableValue`1.ToString*
+  name: ToString
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_ToString_
+  commentId: Overload:CarinaStudio.ObservableValue`1.ToString
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.ToString
+  fullName.vb: CarinaStudio.ObservableValue(Of T).ToString
+  nameWithType: ObservableValue<T>.ToString
+  nameWithType.vb: ObservableValue(Of T).ToString
+- uid: CarinaStudio.ObservableValue`1.Value
+  name: Value
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Value
+  commentId: P:CarinaStudio.ObservableValue`1.Value
+  fullName: CarinaStudio.ObservableValue<T>.Value
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Value
+  nameWithType: ObservableValue<T>.Value
+  nameWithType.vb: ObservableValue(Of T).Value
+- uid: CarinaStudio.ObservableValue`1.Value*
+  name: Value
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Value_
+  commentId: Overload:CarinaStudio.ObservableValue`1.Value
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.Value
+  fullName.vb: CarinaStudio.ObservableValue(Of T).Value
+  nameWithType: ObservableValue<T>.Value
+  nameWithType.vb: ObservableValue(Of T).Value
+- uid: CarinaStudio.Threading
+  name: CarinaStudio.Threading
+  href: api/CarinaStudio.Threading.html
+  commentId: N:CarinaStudio.Threading
+  fullName: CarinaStudio.Threading
+  nameWithType: CarinaStudio.Threading
+- uid: CarinaStudio.Threading.ISynchronizable
+  name: ISynchronizable
+  href: api/CarinaStudio.Threading.ISynchronizable.html
+  commentId: T:CarinaStudio.Threading.ISynchronizable
+  fullName: CarinaStudio.Threading.ISynchronizable
+  nameWithType: ISynchronizable
+- uid: CarinaStudio.Threading.ISynchronizable.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext
+  commentId: P:CarinaStudio.Threading.ISynchronizable.SynchronizationContext
+  fullName: CarinaStudio.Threading.ISynchronizable.SynchronizationContext
+  nameWithType: ISynchronizable.SynchronizationContext
+- uid: CarinaStudio.Threading.ISynchronizable.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext_
+  commentId: Overload:CarinaStudio.Threading.ISynchronizable.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ISynchronizable.SynchronizationContext
+  nameWithType: ISynchronizable.SynchronizationContext
+- uid: CarinaStudio.Threading.ScheduledAction
+  name: ScheduledAction
+  href: api/CarinaStudio.Threading.ScheduledAction.html
+  commentId: T:CarinaStudio.Threading.ScheduledAction
+  fullName: CarinaStudio.Threading.ScheduledAction
+  nameWithType: ScheduledAction
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)
+  name: ScheduledAction(ISynchronizable, Action)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(CarinaStudio.Threading.ISynchronizable, System.Action)
+  nameWithType: ScheduledAction.ScheduledAction(ISynchronizable, Action)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)
+  name: ScheduledAction(Action)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Action_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Action)
+  nameWithType: ScheduledAction.ScheduledAction(Action)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)
+  name: ScheduledAction(SynchronizationContext, Action)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Threading.SynchronizationContext, System.Action)
+  nameWithType: ScheduledAction.ScheduledAction(SynchronizationContext, Action)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor*
+  name: ScheduledAction
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction
+  nameWithType: ScheduledAction.ScheduledAction
+- uid: CarinaStudio.Threading.ScheduledAction.Cancel
+  name: Cancel()
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Cancel
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Cancel
+  fullName: CarinaStudio.Threading.ScheduledAction.Cancel()
+  nameWithType: ScheduledAction.Cancel()
+- uid: CarinaStudio.Threading.ScheduledAction.Cancel*
+  name: Cancel
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Cancel_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.Cancel
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.Cancel
+  nameWithType: ScheduledAction.Cancel
+- uid: CarinaStudio.Threading.ScheduledAction.Execute
+  name: Execute()
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Execute
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Execute
+  fullName: CarinaStudio.Threading.ScheduledAction.Execute()
+  nameWithType: ScheduledAction.Execute()
+- uid: CarinaStudio.Threading.ScheduledAction.Execute*
+  name: Execute
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Execute_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.Execute
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.Execute
+  nameWithType: ScheduledAction.Execute
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
+  name: ExecuteIfScheduled()
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled
+  commentId: M:CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled()
+  nameWithType: ScheduledAction.ExecuteIfScheduled()
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled*
+  name: ExecuteIfScheduled
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
+  nameWithType: ScheduledAction.ExecuteIfScheduled
+- uid: CarinaStudio.Threading.ScheduledAction.IsScheduled
+  name: IsScheduled
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsScheduled
+  commentId: P:CarinaStudio.Threading.ScheduledAction.IsScheduled
+  fullName: CarinaStudio.Threading.ScheduledAction.IsScheduled
+  nameWithType: ScheduledAction.IsScheduled
+- uid: CarinaStudio.Threading.ScheduledAction.IsScheduled*
+  name: IsScheduled
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsScheduled_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.IsScheduled
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.IsScheduled
+  nameWithType: ScheduledAction.IsScheduled
+- uid: CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
+  name: Reschedule(Int32)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Reschedule_System_Int32_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
+  fullName: CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
+  nameWithType: ScheduledAction.Reschedule(Int32)
+- uid: CarinaStudio.Threading.ScheduledAction.Reschedule*
+  name: Reschedule
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Reschedule_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.Reschedule
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.Reschedule
+  nameWithType: ScheduledAction.Reschedule
+- uid: CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)
+  name: Schedule(Int32)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Schedule_System_Int32_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)
+  fullName: CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)
+  nameWithType: ScheduledAction.Schedule(Int32)
+- uid: CarinaStudio.Threading.ScheduledAction.Schedule*
+  name: Schedule
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Schedule_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.Schedule
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.Schedule
+  nameWithType: ScheduledAction.Schedule
+- uid: CarinaStudio.Threading.ScheduledAction.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext
+  commentId: P:CarinaStudio.Threading.ScheduledAction.SynchronizationContext
+  fullName: CarinaStudio.Threading.ScheduledAction.SynchronizationContext
+  nameWithType: ScheduledAction.SynchronizationContext
+- uid: CarinaStudio.Threading.ScheduledAction.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.SynchronizationContext
+  nameWithType: ScheduledAction.SynchronizationContext
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext
+  name: SingleThreadSynchronizationContext
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html
+  commentId: T:CarinaStudio.Threading.SingleThreadSynchronizationContext
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext
+  nameWithType: SingleThreadSynchronizationContext
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.#ctor(System.String,System.Boolean)
+  name: SingleThreadSynchronizationContext(String, Boolean)
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext__ctor_System_String_System_Boolean_
+  commentId: M:CarinaStudio.Threading.SingleThreadSynchronizationContext.#ctor(System.String,System.Boolean)
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.SingleThreadSynchronizationContext(System.String, System.Boolean)
+  nameWithType: SingleThreadSynchronizationContext.SingleThreadSynchronizationContext(String, Boolean)
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.#ctor*
+  name: SingleThreadSynchronizationContext
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext__ctor_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.SingleThreadSynchronizationContext
+  nameWithType: SingleThreadSynchronizationContext.SingleThreadSynchronizationContext
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Dispose
+  commentId: M:CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose()
+  nameWithType: SingleThreadSynchronizationContext.Dispose()
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Dispose_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Dispose
+  nameWithType: SingleThreadSynchronizationContext.Dispose
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread
+  name: ExecutionThread
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_ExecutionThread
+  commentId: P:CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread
+  nameWithType: SingleThreadSynchronizationContext.ExecutionThread
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread*
+  name: ExecutionThread
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_ExecutionThread_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.ExecutionThread
+  nameWithType: SingleThreadSynchronizationContext.ExecutionThread
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Name
+  name: Name
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Name
+  commentId: P:CarinaStudio.Threading.SingleThreadSynchronizationContext.Name
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Name
+  nameWithType: SingleThreadSynchronizationContext.Name
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Name*
+  name: Name
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Name_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.Name
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Name
+  nameWithType: SingleThreadSynchronizationContext.Name
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Post(System.Threading.SendOrPostCallback,System.Object)
+  name: Post(SendOrPostCallback, Object)
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Post_System_Threading_SendOrPostCallback_System_Object_
+  commentId: M:CarinaStudio.Threading.SingleThreadSynchronizationContext.Post(System.Threading.SendOrPostCallback,System.Object)
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Post(System.Threading.SendOrPostCallback, System.Object)
+  nameWithType: SingleThreadSynchronizationContext.Post(SendOrPostCallback, Object)
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Post*
+  name: Post
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Post_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.Post
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Post
+  nameWithType: SingleThreadSynchronizationContext.Post
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Send(System.Threading.SendOrPostCallback,System.Object)
+  name: Send(SendOrPostCallback, Object)
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Send_System_Threading_SendOrPostCallback_System_Object_
+  commentId: M:CarinaStudio.Threading.SingleThreadSynchronizationContext.Send(System.Threading.SendOrPostCallback,System.Object)
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Send(System.Threading.SendOrPostCallback, System.Object)
+  nameWithType: SingleThreadSynchronizationContext.Send(SendOrPostCallback, Object)
+- uid: CarinaStudio.Threading.SingleThreadSynchronizationContext.Send*
+  name: Send
+  href: api/CarinaStudio.Threading.SingleThreadSynchronizationContext.html#CarinaStudio_Threading_SingleThreadSynchronizationContext_Send_
+  commentId: Overload:CarinaStudio.Threading.SingleThreadSynchronizationContext.Send
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SingleThreadSynchronizationContext.Send
+  nameWithType: SingleThreadSynchronizationContext.Send
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions
+  name: SynchronizationContextExtensions
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html
+  commentId: T:CarinaStudio.Threading.SynchronizationContextExtensions
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions
+  nameWithType: SynchronizationContextExtensions
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(System.Threading.SynchronizationContext,System.Object)
+  name: CancelDelayed(SynchronizationContext, Object)
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_System_Threading_SynchronizationContext_System_Object_
+  commentId: M:CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(System.Threading.SynchronizationContext,System.Object)
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(System.Threading.SynchronizationContext, System.Object)
+  nameWithType: SynchronizationContextExtensions.CancelDelayed(SynchronizationContext, Object)
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed*
+  name: CancelDelayed
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_
+  commentId: Overload:CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed
+  nameWithType: SynchronizationContextExtensions.CancelDelayed
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.Post(System.Threading.SynchronizationContext,System.Action)
+  name: Post(SynchronizationContext, Action)
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_Post_System_Threading_SynchronizationContext_System_Action_
+  commentId: M:CarinaStudio.Threading.SynchronizationContextExtensions.Post(System.Threading.SynchronizationContext,System.Action)
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.Post(System.Threading.SynchronizationContext, System.Action)
+  nameWithType: SynchronizationContextExtensions.Post(SynchronizationContext, Action)
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.Post*
+  name: Post
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_Post_
+  commentId: Overload:CarinaStudio.Threading.SynchronizationContextExtensions.Post
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.Post
+  nameWithType: SynchronizationContextExtensions.Post
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Action,System.Int32)
+  name: PostDelayed(SynchronizationContext, Action, Int32)
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_System_Threading_SynchronizationContext_System_Action_System_Int32_
+  commentId: M:CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Action,System.Int32)
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext, System.Action, System.Int32)
+  nameWithType: SynchronizationContextExtensions.PostDelayed(SynchronizationContext, Action, Int32)
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Threading.SendOrPostCallback,System.Object,System.Int32)
+  name: PostDelayed(SynchronizationContext, SendOrPostCallback, Object, Int32)
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_System_Threading_SynchronizationContext_System_Threading_SendOrPostCallback_System_Object_System_Int32_
+  commentId: M:CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Threading.SendOrPostCallback,System.Object,System.Int32)
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext, System.Threading.SendOrPostCallback, System.Object, System.Int32)
+  nameWithType: SynchronizationContextExtensions.PostDelayed(SynchronizationContext, SendOrPostCallback, Object, Int32)
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed*
+  name: PostDelayed
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_
+  commentId: Overload:CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed
+  nameWithType: SynchronizationContextExtensions.PostDelayed
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.Send(System.Threading.SynchronizationContext,System.Action)
+  name: Send(SynchronizationContext, Action)
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_Send_System_Threading_SynchronizationContext_System_Action_
+  commentId: M:CarinaStudio.Threading.SynchronizationContextExtensions.Send(System.Threading.SynchronizationContext,System.Action)
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.Send(System.Threading.SynchronizationContext, System.Action)
+  nameWithType: SynchronizationContextExtensions.Send(SynchronizationContext, Action)
+- uid: CarinaStudio.Threading.SynchronizationContextExtensions.Send*
+  name: Send
+  href: api/CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_Send_
+  commentId: Overload:CarinaStudio.Threading.SynchronizationContextExtensions.Send
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.SynchronizationContextExtensions.Send
+  nameWithType: SynchronizationContextExtensions.Send
