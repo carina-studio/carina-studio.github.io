@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Introduction | AppBase </title>
+    <title>&#128075;Introduction of AppBase | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Introduction | AppBase ">
+    <meta name="title" content="&#128075;Introduction of AppBase | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -60,29 +60,28 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="introduction">Introduction</h1>
 
-<p><strong>AppBase</strong> is a set of libraries mainly designed for .NET Core based desktop application. Currently there are 2 modules providing the following functions:</p>
+<p><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core"><img src="https://img.shields.io/nuget/v/CarinaStudio.AppBase.Core.svg" alt="NuGet"></a> <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt="License"></a> <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt="Releases"></a></p>
+<h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
+<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 2 modules providing the following functions:</p>
+<p>📦CarinaStudio.AppBase.Core</p>
 <ul>
-<li><strong>CarinaStudio.AppBase.Core</strong>
-<ul>
-<li>Extensions for <em>System.Object</em> and <em>System.IDisposable</em> to make your code more elegant and clear.</li>
-<li>Extended <em>System.IDisposable</em> to make it easier to share resources across components in your application.</li>
-<li>Extensions for <em>System.Collections.Generic.*</em> for collection state checking and searching.</li>
-<li>Extensions for <em>System.Threading.SynchronizationContext</em> for delayed call-back support.</li>
-<li>Schedulable action to execute action later and prevent duplicate execution.</li>
-<li>Implementation of <em>System.IObservable&lt;T&gt;</em> to support observable value/field just like LiveData on Android.</li>
+<li>Extensions for <code>System.Object</code> and <code>System.IDisposable</code> to make your code more elegant and clear. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core#extensions-for-systemobject">Learn more</a>)</li>
+<li>Extensions for arrays and <code>System.Memory&lt;T&gt;</code> to get memory address.</li>
+<li>Extended <code>System.IDisposable</code> to make it easier to share resources across components in your application.</li>
+<li>Extensions for <code>System.Collections.Generic.*</code> for collection state checking and searching. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Collections#extensions-for-systemcollectionsgenericicollectiont">Learn more</a>)</li>
+<li>Extensions for <code>System.Threading.SynchronizationContext</code> for delayed call-back support. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#extensions-for-systemthreadingsynchronizationcontext">Learn mode</a>)</li>
+<li>Implementations of <code>System.Threading.SynchronizationContext</code> and <code>System.Threading.Tasks.TaskScheduler</code> to let you schedule and run tasks on dedicated threads. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#singlethreadsynchronizationcontext">Learn more</a>)</li>
+<li>Schedulable action to execute action later and prevent duplicate execution. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#scheduledaction">Learn more</a>)</li>
+<li>Implementation of <code>System.IObservable&lt;T&gt;</code> to support observable value/field just like <code>LiveData&lt;T&gt;</code> on Android. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core#observablevaluet">Learn more</a>)</li>
 </ul>
-</li>
-<li><strong>CarinaStudio.AppBase.Configuration</strong>
+<p>📦CarinaStudio.AppBase.Configuration</p>
 <ul>
 <li>Class for key-value based application settings which supports various type of value.</li>
 <li>Save application settings to given file.</li>
-<li>Extensible settings serialization/deserializing. Implementation based-on JSON format is included.</li>
+<li>Extensible settings serialization/deserializing. Implementations based-on JSON and XML format are included.</li>
 </ul>
-</li>
-</ul>
-<h1 id="install-to-your-project">Install to your project</h1>
+<h1 id="install-to-your-project">📥Install to your project</h1>
 <p>AppBase has been uploaded to <strong>NuGet</strong>, you can find it on:</p>
 <ul>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core/">https://www.nuget.org/packages/CarinaStudio.AppBase.Core/</a></li>
@@ -92,7 +91,7 @@
 <pre><code>Install-Package CarinaStudio.AppBase.Core
 Install-Package CarinaStudio.AppBase.Configuration
 </code></pre>
-<h1 id="source-code">Source code</h1>
+<h1 id="source-code">📁Source code</h1>
 <p>You can find source code on <a href="https://github.com/carina-studio/AppBase">GitHub</a>.</p>
 </article>
           </div>
