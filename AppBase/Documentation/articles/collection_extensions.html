@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#128212;API Documentation | AppBase </title>
+    <title>Extensions for System.Collections.Generic.ICollection&lt;T&gt; | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#128212;API Documentation | AppBase ">
+    <meta name="title" content="Extensions for System.Collections.Generic.ICollection&lt;T&gt; | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -67,11 +67,36 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api-documentation">📔API Documentation</h1>
+<h1 id="extensions-for-systemcollectionsgenericicollectiont">Extensions for <em>System.Collections.Generic.ICollection&lt;T&gt;</em></h1>
 
-<p>This is the API documentation for AppBase. Please select type or namespace in the navigation panel.</p>
-<h1 id="source-code">📁Source code</h1>
-<p>You can find source code on <a href="https://github.com/carina-studio/AppBase">GitHub</a>.</p>
+<h2 id="empty-checking">Empty checking</h2>
+<p>There are 3 extension methods for you to check whether <code>ICollection&lt;T&gt;</code> is empty/null or not:</p>
+<ul>
+<li><code>IsEmpty()</code></li>
+<li><code>IsNotEmpty()</code></li>
+<li><code>IsNullOrEmpty()</code></li>
+</ul>
+<p>Arrays also implement <code>ICollection&lt;T&gt;</code> interface, so you can use these methods on arrays.</p>
+<pre><code class="lang-c#">void Foo&lt;T&gt;(ICollection&lt;T&gt; list)
+{
+    if(list.IsEmpty())
+        return;
+    ...
+}
+</code></pre>
+<h1 id="extensions-for-systemcollectionsgenericilistt">Extensions for <em>System.Collections.Generic.IList&lt;T&gt;</em></h1>
+<h2 id="binary-search">Binary search</h2>
+<p>Instead of calling <code>BinarySearch()</code> on specific type (ex, <code>Arrays</code>, <code>List&lt;T&gt;</code>), now you can use binary search on all types which implement <code>IList&lt;T&gt;</code> interface.</p>
+<p>You can provide <code>IComparer&lt;T&gt;</code> or <code>Comparison&lt;T&gt;</code> for binary search, or search element which implements <code>IComparable&lt;T&gt;</code> without providing any additional comparison function.</p>
+<pre><code class="lang-c#">void Foo&lt;T&gt;(IList&lt;T&gt; list, T target) where T : IComparable&lt;T&gt;
+{
+    var index = list.BinarySearch(target); // No need to check the actual type of 'list'.
+    ...
+}
+</code></pre>
+<h1 id="extensions-for-systemcollectionsienumerable">Extensions for <em>System.Collections.IEnumerable</em></h1>
+<h2 id="ienumerablecontenttostring">IEnumerable.ContentToString()</h2>
+<p>To generate string which describes the content of <code>IEnumerable</code>, the format of string will be <code>[element1, element2, ...]</code>. Usually it is used for debugging purpose.</p>
 </article>
           </div>
           

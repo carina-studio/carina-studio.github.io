@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Extensions for System.Threading.SynchronizationContext | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Extensions for System.Threading.SynchronizationContext | AppBase ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="extensions-for-systemthreadingsynchronizationcontext">Extensions for <em>System.Threading.SynchronizationContext</em></h1>
+
+<h2 id="postdelayed-and-canceldelayed">PostDelayed() and CancelDelayed()</h2>
+<p>To post a call-back to given <code>SynchronizationContext</code> and execute it after given delay time. Actually it holds the call-back when you call <code>PostDelayed()</code>, and calls <code>Post()</code> to given <code>SynchronizationContext</code> automatically after the given delay time.</p>
+<p>After calling <code>PostDelayed()</code> you will get a token reprensents the delayed call-back you post. You can call <code>CancelDelayed()</code> if you want to cancel it before call-back execution.</p>
+<pre><code class="lang-c#">// Post a call-back and execute it after 500ms.
+var token = SynchronizationContext.Current?.Post(() =&gt;
+{
+    ...
+}, 500);
+
+// Cancel call-back.
+SynchronizationContext.Current?.CancelDelayed(token);
+</code></pre>
+<h1 id="singlethreadsynchronizationcontext"><em>SingleThreadSynchronizationContext</em></h1>
+<p>Implementation of <code>System.Threading.SynchronizationContext</code> which creates a dedicated <code>Thread</code> to execute all call-backs posted to it. Because it holds a <code>Thread</code> inside, you need to call <code>Dispose()</code> when it is no longer needed.</p>
+<h1 id="fixedthreadstaskscheduler"><em>FixedThreadsTaskScheduler</em></h1>
+<p>Implementation of <code>System.Threading.Tasks.TaskScheduler</code> which creates one or more dedicated and fixed <code>Thread</code>s to execute tasks according to its maximum concurrency level. Because it holds <code>Thread</code>s inside, you need to call <code>Dispose()</code> when it is no longer needed.</p>
+<pre><code class="lang-c#">// Create task scheduler with maximum concurrency level be 4.
+readonly FixedThreadsTaskScheduler taskScheduler = new FixedThreadsTaskScheduler(4);
+readonly TaskFactory taskFactory = new TaskFactory(taskScheduler);
+
+// Run a task by the scheduler.
+await taskFactory.StartNew(() =&gt;
+{
+    // Run task here.
+});
+
+// Dispose the scheduler to make sure no threads left.
+taskScheduler.Dispose();
+</code></pre>
+<h1 id="scheduledaction"><em>ScheduledAction</em></h1>
+<p>Represents an action which can be executed by specific <code>SynchronizationContext</code>, you can call <code>Schedule()</code> to schedule it with or without delay time. Once you call <code>Schedule()</code>, no more <code>Schedule()</code> allowed (call without effect) before its execution unless you call:</p>
+<ul>
+<li><code>Cancel()</code> to cancel scheduled execution.</li>
+<li><code>Execute()</code> to cancel scheduled execution and execute immediately.</li>
+<li><code>ExecuteIfScheduled()</code> to execute immediately if it has been scheduled (scheduled execution will be cancelled).</li>
+<li><code>Reschedule()</code> to override scheduled execution.</li>
+</ul>
+<p>The class is designed to help you to eliminate unnecessary action execution to improve performance.</p>
+<pre><code class="lang-c#">// Create ScheduledAction which binds to the SynchronizationContext on current thread.
+readonly ScheduledAction saveWindowSizeToSettingsAction = new ScheduledAction(() =&gt;
+{
+    // Code to save size of window to settings.
+});
+
+protected override void OnWindowSizeChanged()
+{
+    // Schedule to save size 500ms later.
+    // The call to Schedule() may be no effect if it has been scheduled but not executed yet.
+    // The action will be executed 500ms later from the first call to Schedule().
+    saveWindowSizeToSettingsAction.Schedule(500);
+    ...
+}
+
+protected override void OnWindowClosing()
+{
+    // Save size immediately no matter it has been scheduled or not.
+    saveWindowSizeToSettingsAction.Execute();
+    ...
+}
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

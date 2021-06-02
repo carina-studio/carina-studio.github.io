@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#128212;API Documentation | AppBase </title>
+    <title>Extensions for System.IDisposable | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#128212;API Documentation | AppBase ">
+    <meta name="title" content="Extensions for System.IDisposable | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -67,11 +67,50 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api-documentation">📔API Documentation</h1>
+<h1 id="extensions-for-systemidisposable">Extensions for <em>System.IDisposable</em></h1>
 
-<p>This is the API documentation for AppBase. Please select type or namespace in the navigation panel.</p>
-<h1 id="source-code">📁Source code</h1>
-<p>You can find source code on <a href="https://github.com/carina-studio/AppBase">GitHub</a>.</p>
+<h2 id="disposeandreturnnull">DisposeAndReturnNull()</h2>
+<p>To call <code>Dispose()</code> if reference is not null, then return null. Usually be used for resource releasing.</p>
+<pre><code class="lang-c#">IDisposable? allocatedResource; // This is a field.
+...
+this.allocatedResource = this.allocatedResource.DisposeAndReturnNull();
+</code></pre>
+<h2 id="exchange">Exchange()</h2>
+<p>To generate another <code>IDisposable</code> and dispose original one if new <code>IDisposable</code> instance is different from original one.</p>
+<pre><code class="lang-c#">// Load and scale bitmap if needed.
+var scaledBitmap = Bitmap.Load(filePath).Exchange((bitmap) =&gt;
+{
+    if(this.NeedToScale(bitmap))
+        return bitmap.Scale(...);
+    return bitmap;
+});
+
+// Which is same as:
+Bitmap? scaledBitmap = null;
+Bitmap bitmap = Bitmap.Load(filePath);
+try
+{
+    if(this.NeedToScale(bitmap))
+        scaledBitmap = this.NeedToScale(bitmap);
+    else
+        scaledBitmap = bitmap;
+}
+finally
+{
+    if(scaledBitmap != bitmap)
+        bitmap.Dispose();
+}
+</code></pre>
+<h2 id="use">Use()</h2>
+<p>To perform action on given <code>IDisposable</code> and dispose it after using it. It does almost same as C# <code>using</code> block but you can return a value from <code>Use()</code> as you want.</p>
+<pre><code class="lang-c#">// Read string from file.
+var str = new StreamReader(filePath, Encoding.UTF8).Use((it) =&gt; it.ReadToEnd());
+
+// Which is same as:
+string? str = null;
+using(var reader = new StreamReader(filePath, Encoding.UTF8))
+    str = reader.ReadToEnd();
+</code></pre>
 </article>
           </div>
           

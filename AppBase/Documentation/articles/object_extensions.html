@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#128212;API Documentation | AppBase </title>
+    <title>Extensions for System.Object | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#128212;API Documentation | AppBase ">
+    <meta name="title" content="Extensions for System.Object | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -67,11 +67,63 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api-documentation">📔API Documentation</h1>
+<h1 id="extensions-for-systemobject">Extensions for <em>System.Object</em></h1>
 
-<p>This is the API documentation for AppBase. Please select type or namespace in the navigation panel.</p>
-<h1 id="source-code">📁Source code</h1>
-<p>You can find source code on <a href="https://github.com/carina-studio/AppBase">GitHub</a>.</p>
+<p>Inspired by Kotlin, we provide some extension methods for <code>System.Object</code> to make your code more elegant and clear.</p>
+<h2 id="asnonnull">AsNonNull()</h2>
+<p>Lots of methods generate nullable result. If you can assume that result should not be null, then you can use this method to eliminate extra nullibility checking.</p>
+<pre><code class="lang-c#">// The type 'button' will be Button instead of Button?. 
+// You don't need to take care of whether 'button' is null or not.
+var button = this.FindControl&lt;Button&gt;(&quot;button&quot;).AsNonNull();
+</code></pre>
+<h2 id="also">Also()</h2>
+<p>To perform action on given object and return it. Unlike C# object initializer, you can do anything in this block before you get back the object reference.</p>
+<pre><code class="lang-c#">// Create instance and add to list before getting the reference.
+var person = new Person().Also((it) =&gt;
+{
+   it.Name = &quot;John&quot;;
+   it.Age = 26;
+   this.people.Add(it);
+});
+</code></pre>
+<h2 id="let">Let()</h2>
+<p>To perform action on given object just like <code>Also()</code>, but you can return any type of value as you want.</p>
+<pre><code class="lang-c#">// Replace 'John' by 'Steven' in list and get the instance of 'Steven'.
+var replacedPerson = this.people.Let((people) =&gt;
+{
+    for(var i = people.Count - 1 ; i &gt;= 0 ; --i)
+    {
+        if(people[i].Name == &quot;John&quot;)
+        {
+            return new Person().Also((it) =&gt;
+            {
+                it.Name = &quot;Steven&quot;;
+                it.Age = 30;
+                people[i] = it;
+            });
+        }
+    }
+    return null;
+});
+</code></pre>
+<h2 id="lock">Lock()</h2>
+<p>To hold the lock of given object, perform action and release the lock. It does almost same as <code>lock</code> block of C# but you can generate a value from <code>Lock()</code> as you want.</p>
+<pre><code class="lang-c#">// Replace value in map and get the previous value.
+var previousValue = this.map.Lock((it) =&gt;
+{
+    it.TryGetValue(key, out var previousValue);
+    it[key] = newValue;
+    return previousValue;
+});
+
+// Which is same as:
+object? previousValue = null;
+lock(this.map)
+{
+    this.map.TryGetValue(key, out previousValue);
+    this.map[key] = newValue;
+}
+</code></pre>
 </article>
           </div>
           

@@ -61,19 +61,22 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<p><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core"><img src="https://img.shields.io/nuget/v/CarinaStudio.AppBase.Core.svg" alt="NuGet"></a> <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt="License"></a> <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt="Releases"></a></p>
+<p><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core"><img src="https://img.shields.io/nuget/v/CarinaStudio.AppBase.Core.svg" alt=""></a>
+<a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt=""></a>
+<a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt=""></a></p>
 <h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
 <p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 2 modules providing the following functions:</p>
 <p>📦CarinaStudio.AppBase.Core</p>
 <ul>
-<li>Extensions for <code>System.Object</code> and <code>System.IDisposable</code> to make your code more elegant and clear. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core#extensions-for-systemobject">Learn more</a>)</li>
+<li>Extensions for <code>System.Object</code> to make your code more elegant and clear. (<a href="articles/object_extensions.html">Learn more</a>)</li>
+<li>Extensions for <code>System.IDisposable</code> to make your code more elegant and clear. (<a href="articles/disposable_extensions.html">Learn more</a>)</li>
 <li>Extensions for arrays and <code>System.Memory&lt;T&gt;</code> to get memory address.</li>
 <li>Extended <code>System.IDisposable</code> to make it easier to share resources across components in your application.</li>
-<li>Extensions for <code>System.Collections.Generic.*</code> for collection state checking and searching. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Collections#extensions-for-systemcollectionsgenericicollectiont">Learn more</a>)</li>
-<li>Extensions for <code>System.Threading.SynchronizationContext</code> for delayed call-back support. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#extensions-for-systemthreadingsynchronizationcontext">Learn mode</a>)</li>
-<li>Implementations of <code>System.Threading.SynchronizationContext</code> and <code>System.Threading.Tasks.TaskScheduler</code> to let you schedule and run tasks on dedicated threads. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#singlethreadsynchronizationcontext">Learn more</a>)</li>
-<li>Schedulable action to execute action later and prevent duplicate execution. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core/Threading#scheduledaction">Learn more</a>)</li>
-<li>Implementation of <code>System.IObservable&lt;T&gt;</code> to support observable value/field just like <code>LiveData&lt;T&gt;</code> on Android. (<a href="https://github.com/carina-studio/AppBase/tree/master/Core#observablevaluet">Learn more</a>)</li>
+<li>Extensions for <code>System.Collections.Generic.*</code> for collection state checking and searching. (<a href="articles/collection_extensions.html">Learn more</a>)</li>
+<li>Extensions for <code>System.Threading.SynchronizationContext</code> for delayed call-back support. (<a href="articles/threading.html">Learn mode</a>)</li>
+<li>Implementations of <code>System.Threading.SynchronizationContext</code> and <code>System.Threading.Tasks.TaskScheduler</code> to let you schedule and run tasks on dedicated threads. (<a href="articles/threading.html">Learn more</a>)</li>
+<li>Schedulable action to execute action later and prevent duplicate execution. (<a href="articles/threading.html">Learn more</a>)</li>
+<li>Implementation of <code>System.IObservable&lt;T&gt;</code> to support observable value/field just like <code>LiveData&lt;T&gt;</code> on Android. (<a href="articles/observable_value.html">Learn more</a>)</li>
 </ul>
 <p>📦CarinaStudio.AppBase.Configuration</p>
 <ul>

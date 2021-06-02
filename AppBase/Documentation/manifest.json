@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "nraaPIiwbCSRvE7QmyiZZveIP/emVWPPistWv/iBbTI="
+          "hash": "y42wBYxhrpSNgQZiIQiFBQPR7NE0e5cgfje+Q4dLIv0="
         }
       },
       "is_incremental": false,
@@ -454,6 +454,90 @@
         ".html": {
           "relative_path": "api/toc.html",
           "hash": "nNIuvC3dvK3lP0g+a3RZZx+WSzMB97P8ME87B+rRiD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/collection_extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/collection_extensions.html",
+          "hash": "OkBObvNoxlQdoVCDLXf4yqUycOnR2+QYyK8wCvKiQ2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/disposable_extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/disposable_extensions.html",
+          "hash": "pOzR+w5tXhWprb2nrrC4+b3AH9wYOFMXcvV1wBtIhM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "lH/sPI4v8BGX99P4uY4UdMmKeRDey9UsQOnlzfVsJqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/object_extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/object_extensions.html",
+          "hash": "+nKLori9mAqm4JJ62MnlqxH9o5sH8rI6ir4/mMfk6Wk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/observable_value.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/observable_value.html",
+          "hash": "oYAi9AIu4MkfqY0SA9z2D2EWBWedCIU2VRi8h8O6DJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/threading.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/threading.html",
+          "hash": "yGnHLleEnF6EP5OJ3qRk5JOyDJKtgDQ3178ux63mKwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "Z/Uqa/NWMO44iOyVWAsqL+neTuGQQ4Z4wYVI+EL5uyo="
         }
       },
       "is_incremental": false,
@@ -487,22 +571,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "LQcosB21+KDiLs8ywMmXy6ksC+7oImYv8UcDJVQbpe0="
+          "hash": "0WYP2NsYh/szZsfBi1tWljsWHPu/BcYOIloJBCb9Ado="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "EmptyTocItemNode"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "h44BL+k3mfHlQoPzLfIcTO2dwgypIc0r7JF1Qi53MZc="
+          "hash": "lPQYXruSsmHzCIiATVGqOvRfT51SDy9a+Hj+GJTqBwI="
         }
       },
       "is_incremental": false,
@@ -523,7 +604,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

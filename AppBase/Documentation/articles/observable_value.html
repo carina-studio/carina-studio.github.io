@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#128212;API Documentation | AppBase </title>
+    <title>ObservableValue&lt;T&gt; | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#128212;API Documentation | AppBase ">
+    <meta name="title" content="ObservableValue&lt;T&gt; | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -67,11 +67,43 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api-documentation">📔API Documentation</h1>
+<h1 id="observablevaluet"><em>ObservableValue&lt;T&gt;</em></h1>
 
-<p>This is the API documentation for AppBase. Please select type or namespace in the navigation panel.</p>
-<h1 id="source-code">📁Source code</h1>
-<p>You can find source code on <a href="https://github.com/carina-studio/AppBase">GitHub</a>.</p>
+<p>Combination of <code>IObservable&lt;T&gt;</code> and a value just like <code>LiveData&lt;T&gt;</code> in Android. You may use it with <code>ReactiveCommand</code> provided by <a href="https://github.com/reactiveui/ReactiveUI">ReactiveUI</a>.</p>
+<pre><code class="lang-c#">ObservableValue&lt;bool&gt; canOpenFile = new ObservableValue&lt;bool&gt;(); // This is a field.
+...
+// Create an ICommand and bind ICommand.CanExecute() with 'canOpenFile'.
+this.OpenFileCommand = ReactiveCommand.Create(this.OpenFile, this.canOpenFile);
+...
+// This is the actual action of command 'OpenFileCommand'.
+void OpenFile()
+{
+    ...
+}
+</code></pre>
+<h1 id="mutableobservablevaluet"><em>MutableObservableValue&lt;T&gt;</em></h1>
+<p><code>ObservableValue&lt;T&gt;</code> is an abstract class, so we provide <code>MutableObservableValue&lt;T&gt;</code> to let you easy to update value of <code>ObservableValue&lt;T&gt;</code> in your code. You can still create your own class extends from <code>ObservableValue&lt;T&gt;</code> and update value by itself. Further more, we also provide some classes extends from <code>MutableObservableValue&lt;T&gt;</code> specialized for some type of values:</p>
+<ul>
+<li><code>MutableObservableBoolean</code></li>
+<li><code>MutableObservableInt32</code></li>
+<li><code>MutableObservableInt64</code></li>
+<li><code>MutableObservableString</code></li>
+</ul>
+<pre><code class="lang-c#">MutableObservableBoolean canOpenFile = new MutableObservableBoolean(); // This is a field.
+...
+// Create an ICommand and bind ICommand.CanExecute() with 'canOpenFile'.
+this.OpenFileCommand = ReactiveCommand.Create(this.OpenFile, this.canOpenFile);
+...
+// This is the actual action of command 'OpenFileCommand'.
+void OpenFile()
+{
+    if(this.canOpenFile)
+        ...
+}
+...
+// set 'canOpenFile' to true when matching some conditions.
+this.canOpenFile.Update(true);
+</code></pre>
 </article>
           </div>
           
