@@ -115,6 +115,67 @@
   </h3>
   
   
+  <a id="CarinaStudio_Collections_ListExtensions_AsReadOnly_" data-uid="CarinaStudio.Collections.ListExtensions.AsReadOnly*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.AsReadOnly``1(System.Collections.Generic.IList{``0})">AsReadOnly&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Make given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> as read-only <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; AsReadOnly&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> to make as read-only.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><p>Read-only <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
   <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0)">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"><p>Find given element by binary-search.</p>
@@ -323,6 +384,250 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>Type of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_CopyTo_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_CopyTo__1_System_Collections_Generic_IList___0__System_Int32___0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo``1(System.Collections.Generic.IList{``0},System.Int32,``0[],System.Int32,System.Int32)">CopyTo&lt;T&gt;(IList&lt;T&gt;, Int32, T[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Copy elements to array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CopyTo&lt;T&gt;(this IList&lt;T&gt; list, int index, T[] array, int arrayIndex, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of first element in list to copy.</p>
+</td>
+      </tr>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>Array to place copied elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td><p>Index of first position in <code data-dev-comment-type="paramref" class="paramref">array</code> to place copied elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of elements to copy.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of list element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_Shuffle_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0})">Shuffle&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Shuffle elements in given list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of list element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_Shuffle_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">Shuffle&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Shuffle elements in given list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this IList&lt;T&gt; list, int index, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of first element in list to shuffle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of elements to shuffle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of list element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_ToArray_" data-uid="CarinaStudio.Collections.ListExtensions.ToArray*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.ToArray``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Copy elements to array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] ToArray&lt;T&gt;(this IList&lt;T&gt; list, int index, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of first element in list to copy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of elements to copy.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>Array of copied elements</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of list element.</p>
 </td>
       </tr>
     </tbody>

@@ -79,7 +79,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseShareableDisposable&lt;TSelf&gt;</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
+    <div class="level2"><span class="xref">BaseShareableDisposable&lt;TSelf&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -88,6 +89,15 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_ThrowIfDisposed">BaseDisposable.ThrowIfDisposed()</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -114,7 +124,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_BaseShareableDisposable_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseShareableDisposable&lt;TSelf&gt; : IShareableDisposable&lt;TSelf&gt;, IDisposable where TSelf : IShareableDisposable&lt;TSelf&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseShareableDisposable&lt;TSelf&gt; : BaseDisposable, IShareableDisposable&lt;TSelf&gt;, IDisposable where TSelf : IShareableDisposable&lt;TSelf&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,47 +173,8 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_IsDisposed_" data-uid="CarinaStudio.BaseShareableDisposable`1.IsDisposed*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_IsDisposed" data-uid="CarinaStudio.BaseShareableDisposable`1.IsDisposed">IsDisposed</h4>
-  <div class="markdown level1 summary"><p>Check whether instance has been disposed or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsDisposed { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_Dispose_" data-uid="CarinaStudio.BaseShareableDisposable`1.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_Dispose" data-uid="CarinaStudio.BaseShareableDisposable`1.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Dispose the instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-  </div>
   
   
   <a id="CarinaStudio_BaseShareableDisposable_1_Dispose_" data-uid="CarinaStudio.BaseShareableDisposable`1.Dispose*"></a>
@@ -213,7 +184,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,11 +199,13 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">disposing</span></td>
-        <td><p>True to dispose managed resources.</p>
+        <td><p>True to dispose managed resources also.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_System_Boolean_">BaseDisposable.Dispose(Boolean)</a></div>
   
   
   <a id="CarinaStudio_BaseShareableDisposable_1_Finalize_" data-uid="CarinaStudio.BaseShareableDisposable`1.Finalize*"></a>
@@ -360,17 +333,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed_" data-uid="CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed" data-uid="CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed">ThrowIfDisposed()</h4>
-  <div class="markdown level1 summary"><p>Throw <span class="xref">System.ObjectDisposedException</span> if instance has been disposed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void ThrowIfDisposed()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable&lt;TSelf&gt;</a>

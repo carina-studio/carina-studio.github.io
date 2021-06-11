@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SortedList&lt;T&gt; | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="SortedList&lt;T&gt; | AppBase ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sortedlistt">SortedList&lt;T&gt;</h1>
+
+<p>An implementation of <code>IList&lt;T&gt;</code> and <code>INotifyCollectionChanged</code> designed for the following cases:</p>
+<ul>
+<li>To make sure the items in list are always be placed in specific order.</li>
+<li>To display the list on UI.</li>
+<li>You will modifying the list incrementally.</li>
+</ul>
+<h2 id="comparing-to-listt">Comparing to List&lt;T&gt;</h2>
+<p>It is the best for you to use <code>List&lt;T&gt;</code> if you just need to build a sorted list. It provides good performance for adding, sorting and removing items. But you cannot monitor its change because it doesn't implement <code>INotifyCollectionChanged</code> interface. It may not suitable for you to use it for UI directly if you will modify the list at anytime.</p>
+<h2 id="comparing-to-systemcollectionsgenericsortedlistk-v">Comparing to System.Collections.Generic.SortedList&lt;K, V&gt;</h2>
+<p>There is already a class called <code>SortedList&lt;K, V&gt;</code> provided by .NET class library. It is actually an <code>IDictionary&lt;K, V&gt;</code> but not <code>IList&lt;T&gt;</code>, so it is not easy for you to display as a list on UI. Also, it doesn't implement <code>INotifyCollectionChanged</code> interface so you cannot monitor its change.</p>
+<h2 id="comparing-to-observablecollectiont">Comparing to ObservableCollection&lt;T&gt;</h2>
+<p><code>ObservableCollection&lt;T&gt;</code> is good for you to use it to display on UI, but it doesn't provide a way to add more than one items at same time. Further more, you need to keep items sorted by finding proper insertion position by yourself everytime when you want to add an item.</p>
+<h2 id="add-items">Add item(s)</h2>
+<ul>
+<li>Call <code>Add(T)</code> to add an item.</li>
+<li>Call <code>AddAll(IEnumerable&lt;T&gt;, bool)</code> to add zero or more items. The adding action will be split into one or more <code>CollectionChanged</code> events according to there insertion positions. Further more, you can indicate whether the insertion items are already sorted or not to prevent unnecessary internal sorting.</li>
+</ul>
+<h2 id="removing-items">Removing item(s)</h2>
+<ul>
+<li>Call <code>Remove(T)</code> to remove one item.</li>
+<li>Call <code>RemoveAll(IEnumerable&lt;T&gt;)</code> to remove zero or more items from list. The removing action will be split into one or more <code>CollectionChanged</code> events according to there removing positions.</li>
+<li>Call <code>RemoveRange(int, int)</code> to remove a range of items directly.</li>
+</ul>
+<h2 id="performance">Performance</h2>
+<h3 id="adding-random-items-block-by-block">Adding random items block-by-block</h3>
+<p>In this case, all adding items are unpredicted and each block of adding items may overlap with other blocks.</p>
+<h4 id="how-to-add-items">How to add items</h4>
+<ul>
+<li>SortedList&lt;T&gt;</li>
+</ul>
+<pre><code>foreach block B to be added
+    sortedList.AddAll(B)
+</code></pre>
+<ul>
+<li>ObservableCollection&lt;T&gt;</li>
+</ul>
+<pre><code>foreach block B to be added
+    foreach item T in B
+        I = observableCollection.BinarySearch(T)
+        observableCollection.Insert(I, T)
+</code></pre>
+<ul>
+<li>List&lt;T&gt;</li>
+</ul>
+<pre><code>foreach block B to be added
+    list.AddRange(B)
+    list.Sort()
+</code></pre>
+<h4 id="conclusion">Conclusion</h4>
+<p>In most cases, performance of <code>SortedList&lt;T&gt;</code> is slightly better than <code>ObservableCollection&lt;T&gt;</code> but much worse than <code>List&lt;T&gt;</code>. It should be expected result because the insertion items are totally randomized, each block insertion will be splitted into lots of small parts which makes lots of data moving inside the list.</p>
+<h4 id="test-result">Test result</h4>
+<ul>
+<li><p>Block size = 4096</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>4096</th>
+<th>8192</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code></td>
+<td>4ms</td>
+<td>3ms</td>
+<td>8ms</td>
+<td>26ms</td>
+<td>106ms</td>
+<td>443ms</td>
+<td>3537ms</td>
+<td>25349ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code></td>
+<td>4ms</td>
+<td>7ms</td>
+<td>21ms</td>
+<td>33ms</td>
+<td>123ms</td>
+<td>478ms</td>
+<td>5964ms</td>
+<td>25739ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>1ms</td>
+<td>3ms</td>
+<td>6ms</td>
+<td>20ms</td>
+<td>65ms</td>
+<td>655ms</td>
+<td>2361ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Block size = 8192</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>8192</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code>ms</td>
+<td>2ms</td>
+<td>3ms</td>
+<td>21ms</td>
+<td>84ms</td>
+<td>388ms</td>
+<td>1776ms</td>
+<td>8591ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code>ms</td>
+<td>5ms</td>
+<td>11ms</td>
+<td>5ms</td>
+<td>123ms</td>
+<td>491ms</td>
+<td>2051ms</td>
+<td>9113ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code>ms</td>
+<td>0ms</td>
+<td>1ms</td>
+<td>4ms</td>
+<td>14ms</td>
+<td>42ms</td>
+<td>139ms</td>
+<td>539ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Block size = 16384</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code></td>
+<td>1ms</td>
+<td>17ms</td>
+<td>80ms</td>
+<td>351ms</td>
+<td>1631ms</td>
+<td>8096ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code></td>
+<td>10ms</td>
+<td>36ms</td>
+<td>135ms</td>
+<td>533ms</td>
+<td>2012ms</td>
+<td>8830ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code></td>
+<td>1ms</td>
+<td>3ms</td>
+<td>9ms</td>
+<td>30ms</td>
+<td>113ms</td>
+<td>296ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Charts</p>
+<p><a href="../images/sorted_list_pref_random_adding_4096.png"><img src="../images/sorted_list_pref_random_adding_4096.png" width="200"></a>
+<a href="../images/sorted_list_pref_random_adding_8192.png"><img src="../images/sorted_list_pref_random_adding_8192.png" width="200"></a>
+<a href="../images/sorted_list_pref_random_adding_16384.png"><img src="../images/sorted_list_pref_random_adding_16384.png" width="200"></a></p>
+</li>
+</ul>
+<h3 id="adding-random-items-block-by-block-non-overlapped">Adding random items block-by-block non-overlapped</h3>
+<p>Like previous test, we add random items block-by-block but items in each block doesn't overlap with any other blocks.</p>
+<h4 id="conclusion-1">Conclusion</h4>
+<p>In this case, performance of <code>SortedList&lt;T&gt;</code> is much better then <code>List&lt;T&gt;</code> because <code>SortedList&lt;T&gt;</code> is optimized for this case. Therefore, it is good choice to use <code>SortedList&lt;T&gt;</code> if your known that the item blocks you add are almost not overlapped.</p>
+<h4 id="test-result-1">Test result</h4>
+<ul>
+<li><p>Block size = 4096</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>4096</th>
+<th>8192</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code></td>
+<td>1ms</td>
+<td>0ms</td>
+<td>0ms</td>
+<td>0ms</td>
+<td>0ms</td>
+<td>1ms</td>
+<td>3ms</td>
+<td>9ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code></td>
+<td>1ms</td>
+<td>2ms</td>
+<td>6ms</td>
+<td>34ms</td>
+<td>78ms</td>
+<td>500ms</td>
+<td>1440ms</td>
+<td>20298ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>0ms</td>
+<td>0ms</td>
+<td>2ms</td>
+<td>8ms</td>
+<td>29ms</td>
+<td>115ms</td>
+<td>115ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Block size = 8192</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>8192</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>0ms</td>
+<td>0ms</td>
+<td>2ms</td>
+<td>3ms</td>
+<td>7ms</td>
+<td>17ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code></td>
+<td>3ms</td>
+<td>7ms</td>
+<td>45ms</td>
+<td>253ms</td>
+<td>1303ms</td>
+<td>5095ms</td>
+<td>21509ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>0ms</td>
+<td>4ms</td>
+<td>12ms</td>
+<td>47ms</td>
+<td>169ms</td>
+<td>719ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Block size = 16384</p>
+<table>
+<thead>
+<tr>
+<th>List size=&gt;</th>
+<th>16384</th>
+<th>32768</th>
+<th>65536</th>
+<th>131072</th>
+<th>262144</th>
+<th>524288</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SortedList&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>1ms</td>
+<td>1ms</td>
+<td>4ms</td>
+<td>7ms</td>
+<td>16ms</td>
+</tr>
+<tr>
+<td><code>ObservableCollection&lt;T&gt;</code></td>
+<td>7ms</td>
+<td>14ms</td>
+<td>187ms</td>
+<td>853ms</td>
+<td>3964ms</td>
+<td>19292ms</td>
+</tr>
+<tr>
+<td><code>List&lt;T&gt;</code></td>
+<td>0ms</td>
+<td>1ms</td>
+<td>5ms</td>
+<td>19ms</td>
+<td>86ms</td>
+<td>121ms</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Charts</p>
+<p><a href="../images/sorted_list_pref_random_adding_non_overlapped_4096.png"><img src="../images/sorted_list_pref_random_adding_non_overlapped_4096.png" width="200"></a>
+<a href="../images/sorted_list_pref_random_adding_non_overlapped_8192.png"><img src="../images/sorted_list_pref_random_adding_non_overlapped_8192.png" width="200"></a>
+<a href="../images/sorted_list_pref_random_adding_non_overlapped_16384.png"><img src="../images/sorted_list_pref_random_adding_non_overlapped_16384.png" width="200"></a></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

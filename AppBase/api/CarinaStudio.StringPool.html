@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnumerableExtensions
+    <title>Class StringPool
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnumerableExtensions
+    <meta name="title" content="Class StringPool
    | AppBase ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.EnumerableExtensions">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.StringPool">
   
   
-  <h1 id="CarinaStudio_Collections_EnumerableExtensions" data-uid="CarinaStudio.Collections.EnumerableExtensions" class="text-break">Class EnumerableExtensions
+  <h1 id="CarinaStudio_StringPool" data-uid="CarinaStudio.StringPool" class="text-break">Class StringPool
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.IEnumerable</span> and <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+  <div class="markdown level0 summary"><p>Pool of <span class="xref">System.String</span> to share <span class="xref">System.String</span> instances and reduce redundent <span class="xref">System.String</span> instances. This is thread-safe class.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EnumerableExtensions</span></div>
+    <div class="level1"><span class="xref">StringPool</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,24 +105,24 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Collections_EnumerableExtensions_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_StringPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class EnumerableExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class StringPool</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CarinaStudio_Collections_EnumerableExtensions_ContentToString_" data-uid="CarinaStudio.Collections.EnumerableExtensions.ContentToString*"></a>
-  <h4 id="CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_System_Int32_" data-uid="CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable,System.Int32)">ContentToString(IEnumerable, Int32)</h4>
-  <div class="markdown level1 summary"><p>Generate readable string represents content in <span class="xref">System.Collections.IEnumerable</span>.</p>
+  <a id="CarinaStudio_StringPool_Item_" data-uid="CarinaStudio.StringPool.Item*"></a>
+  <h4 id="CarinaStudio_StringPool_Item_System_String_" data-uid="CarinaStudio.StringPool.Item(System.String)">Item[String]</h4>
+  <div class="markdown level1 summary"><p>Get <span class="xref">System.String</span> instance from pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ContentToString(this IEnumerable enumerable, int maxLength = 4096)</code></pre>
+    <pre><code class="lang-csharp hljs">public string this[string value] { get; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,20 +135,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerable</span></td>
-        <td><span class="parametername">enumerable</span></td>
-        <td><p><span class="xref">System.Collections.IEnumerable</span>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">maxLength</span></td>
-        <td><p>Maximum length of generated string.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>String value. The instance will be added to pool if it is not found in pool.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -159,11 +153,43 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>Readable string represents content.</p>
+        <td><p><span class="xref">System.String</span> instance.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_StringPool_Clear_" data-uid="CarinaStudio.StringPool.Clear*"></a>
+  <h4 id="CarinaStudio_StringPool_Clear" data-uid="CarinaStudio.StringPool.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear all string instances from pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
 </article>
           </div>
           

@@ -85,6 +85,8 @@
 }
 </code></pre>
 <h1 id="extensions-for-systemcollectionsgenericilistt">Extensions for <em>System.Collections.Generic.IList&lt;T&gt;</em></h1>
+<h2 id="asreadonly">AsReadOnly()</h2>
+<p>Make list as read-only list.</p>
 <h2 id="binary-search">Binary search</h2>
 <p>Instead of calling <code>BinarySearch()</code> on specific type (ex, <code>Arrays</code>, <code>List&lt;T&gt;</code>), now you can use binary search on all types which implement <code>IList&lt;T&gt;</code> interface.</p>
 <p>You can provide <code>IComparer&lt;T&gt;</code> or <code>Comparison&lt;T&gt;</code> for binary search, or search element which implements <code>IComparable&lt;T&gt;</code> without providing any additional comparison function.</p>
@@ -94,8 +96,12 @@
     ...
 }
 </code></pre>
+<h2 id="copyto-and-toarray">CopyTo() and ToArray()</h2>
+<p>Both <code>CopyTo()</code> defined in <code>ICollection&lt;T&gt;</code> and <code>ToArray()</code> provided by <code>System.Linq.Enumerable</code> are designed for copying all items from collection. We provide <code>CopyTo(int, int)</code> and <code>ToArray(int, int)</code> to let you be able to copy sub range of items from <code>IList&lt;T&gt;</code>.</p>
+<h2 id="shuffle">Shuffle()</h2>
+<p>To make items in given <code>IList&lt;T&gt;</code> shuffled randomly.</p>
 <h1 id="extensions-for-systemcollectionsienumerable">Extensions for <em>System.Collections.IEnumerable</em></h1>
-<h2 id="ienumerablecontenttostring">IEnumerable.ContentToString()</h2>
+<h2 id="contenttostring">ContentToString()</h2>
 <p>To generate string which describes the content of <code>IEnumerable</code>, the format of string will be <code>[element1, element2, ...]</code>. Usually it is used for debugging purpose.</p>
 </article>
           </div>

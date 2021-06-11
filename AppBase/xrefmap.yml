@@ -38,6 +38,70 @@ references:
   fullName.vb: CarinaStudio.ArrayExtensions.Pin(Of T, R)(T(), System.Func(Of System.IntPtr, R))
   nameWithType: ArrayExtensions.Pin<T, R>(T[], Func<IntPtr, R>)
   nameWithType.vb: ArrayExtensions.Pin(Of T, R)(T(), Func(Of IntPtr, R))
+- uid: CarinaStudio.BaseDisposable
+  name: BaseDisposable
+  href: api/CarinaStudio.BaseDisposable.html
+  commentId: T:CarinaStudio.BaseDisposable
+  fullName: CarinaStudio.BaseDisposable
+  nameWithType: BaseDisposable
+- uid: CarinaStudio.BaseDisposable.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose
+  commentId: M:CarinaStudio.BaseDisposable.Dispose
+  fullName: CarinaStudio.BaseDisposable.Dispose()
+  nameWithType: BaseDisposable.Dispose()
+- uid: CarinaStudio.BaseDisposable.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.BaseDisposable.Dispose(System.Boolean)
+  fullName: CarinaStudio.BaseDisposable.Dispose(System.Boolean)
+  nameWithType: BaseDisposable.Dispose(Boolean)
+- uid: CarinaStudio.BaseDisposable.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_
+  commentId: Overload:CarinaStudio.BaseDisposable.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposable.Dispose
+  nameWithType: BaseDisposable.Dispose
+- uid: CarinaStudio.BaseDisposable.Finalize
+  name: Finalize()
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Finalize
+  commentId: M:CarinaStudio.BaseDisposable.Finalize
+  fullName: CarinaStudio.BaseDisposable.Finalize()
+  nameWithType: BaseDisposable.Finalize()
+- uid: CarinaStudio.BaseDisposable.Finalize*
+  name: Finalize
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Finalize_
+  commentId: Overload:CarinaStudio.BaseDisposable.Finalize
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposable.Finalize
+  nameWithType: BaseDisposable.Finalize
+- uid: CarinaStudio.BaseDisposable.IsDisposed
+  name: IsDisposed
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed
+  commentId: P:CarinaStudio.BaseDisposable.IsDisposed
+  fullName: CarinaStudio.BaseDisposable.IsDisposed
+  nameWithType: BaseDisposable.IsDisposed
+- uid: CarinaStudio.BaseDisposable.IsDisposed*
+  name: IsDisposed
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed_
+  commentId: Overload:CarinaStudio.BaseDisposable.IsDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposable.IsDisposed
+  nameWithType: BaseDisposable.IsDisposed
+- uid: CarinaStudio.BaseDisposable.ThrowIfDisposed
+  name: ThrowIfDisposed()
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_ThrowIfDisposed
+  commentId: M:CarinaStudio.BaseDisposable.ThrowIfDisposed
+  fullName: CarinaStudio.BaseDisposable.ThrowIfDisposed()
+  nameWithType: BaseDisposable.ThrowIfDisposed()
+- uid: CarinaStudio.BaseDisposable.ThrowIfDisposed*
+  name: ThrowIfDisposed
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_ThrowIfDisposed_
+  commentId: Overload:CarinaStudio.BaseDisposable.ThrowIfDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposable.ThrowIfDisposed
+  nameWithType: BaseDisposable.ThrowIfDisposed
 - uid: CarinaStudio.BaseShareableDisposable`1
   name: BaseShareableDisposable<TSelf>
   href: api/CarinaStudio.BaseShareableDisposable-1.html
@@ -91,14 +155,6 @@ references:
   fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release
   nameWithType: BaseShareableDisposable<TSelf>.BaseResourceHolder.Release
   nameWithType.vb: BaseShareableDisposable(Of TSelf).BaseResourceHolder.Release
-- uid: CarinaStudio.BaseShareableDisposable`1.Dispose
-  name: Dispose()
-  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Dispose
-  commentId: M:CarinaStudio.BaseShareableDisposable`1.Dispose
-  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.Dispose()
-  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Dispose()
-  nameWithType: BaseShareableDisposable<TSelf>.Dispose()
-  nameWithType.vb: BaseShareableDisposable(Of TSelf).Dispose()
 - uid: CarinaStudio.BaseShareableDisposable`1.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Dispose_System_Boolean_
@@ -151,23 +207,6 @@ references:
   fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).GetResourceHolder(Of T)()
   nameWithType: BaseShareableDisposable<TSelf>.GetResourceHolder<T>()
   nameWithType.vb: BaseShareableDisposable(Of TSelf).GetResourceHolder(Of T)()
-- uid: CarinaStudio.BaseShareableDisposable`1.IsDisposed
-  name: IsDisposed
-  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_IsDisposed
-  commentId: P:CarinaStudio.BaseShareableDisposable`1.IsDisposed
-  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.IsDisposed
-  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).IsDisposed
-  nameWithType: BaseShareableDisposable<TSelf>.IsDisposed
-  nameWithType.vb: BaseShareableDisposable(Of TSelf).IsDisposed
-- uid: CarinaStudio.BaseShareableDisposable`1.IsDisposed*
-  name: IsDisposed
-  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_IsDisposed_
-  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.IsDisposed
-  isSpec: "True"
-  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.IsDisposed
-  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).IsDisposed
-  nameWithType: BaseShareableDisposable<TSelf>.IsDisposed
-  nameWithType.vb: BaseShareableDisposable(Of TSelf).IsDisposed
 - uid: CarinaStudio.BaseShareableDisposable`1.Share
   name: Share()
   href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_Share
@@ -194,23 +233,6 @@ references:
   fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Share
   nameWithType: BaseShareableDisposable<TSelf>.Share
   nameWithType.vb: BaseShareableDisposable(Of TSelf).Share
-- uid: CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
-  name: ThrowIfDisposed()
-  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed
-  commentId: M:CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
-  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.ThrowIfDisposed()
-  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).ThrowIfDisposed()
-  nameWithType: BaseShareableDisposable<TSelf>.ThrowIfDisposed()
-  nameWithType.vb: BaseShareableDisposable(Of TSelf).ThrowIfDisposed()
-- uid: CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed*
-  name: ThrowIfDisposed
-  href: api/CarinaStudio.BaseShareableDisposable-1.html#CarinaStudio_BaseShareableDisposable_1_ThrowIfDisposed_
-  commentId: Overload:CarinaStudio.BaseShareableDisposable`1.ThrowIfDisposed
-  isSpec: "True"
-  fullName: CarinaStudio.BaseShareableDisposable<TSelf>.ThrowIfDisposed
-  fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).ThrowIfDisposed
-  nameWithType: BaseShareableDisposable<TSelf>.ThrowIfDisposed
-  nameWithType.vb: BaseShareableDisposable(Of TSelf).ThrowIfDisposed
 - uid: CarinaStudio.Collections
   name: CarinaStudio.Collections
   href: api/CarinaStudio.Collections.html
@@ -277,12 +299,12 @@ references:
   commentId: T:CarinaStudio.Collections.EnumerableExtensions
   fullName: CarinaStudio.Collections.EnumerableExtensions
   nameWithType: EnumerableExtensions
-- uid: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
-  name: ContentToString(IEnumerable)
-  href: api/CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_
-  commentId: M:CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
-  fullName: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable)
-  nameWithType: EnumerableExtensions.ContentToString(IEnumerable)
+- uid: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable,System.Int32)
+  name: ContentToString(IEnumerable, Int32)
+  href: api/CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_System_Int32_
+  commentId: M:CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable,System.Int32)
+  fullName: CarinaStudio.Collections.EnumerableExtensions.ContentToString(System.Collections.IEnumerable, System.Int32)
+  nameWithType: EnumerableExtensions.ContentToString(IEnumerable, Int32)
 - uid: CarinaStudio.Collections.EnumerableExtensions.ContentToString*
   name: ContentToString
   href: api/CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_
@@ -296,6 +318,22 @@ references:
   commentId: T:CarinaStudio.Collections.ListExtensions
   fullName: CarinaStudio.Collections.ListExtensions
   nameWithType: ListExtensions
+- uid: CarinaStudio.Collections.ListExtensions.AsReadOnly*
+  name: AsReadOnly
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_AsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.AsReadOnly
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.AsReadOnly
+  nameWithType: ListExtensions.AsReadOnly
+- uid: CarinaStudio.Collections.ListExtensions.AsReadOnly``1(System.Collections.Generic.IList{``0})
+  name: AsReadOnly<T>(IList<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.AsReadOnly``1(System.Collections.Generic.IList{``0})
+  name.vb: AsReadOnly(Of T)(IList(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.AsReadOnly<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.AsReadOnly(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: ListExtensions.AsReadOnly<T>(IList<T>)
+  nameWithType.vb: ListExtensions.AsReadOnly(Of T)(IList(Of T))
 - uid: CarinaStudio.Collections.ListExtensions.BinarySearch*
   name: BinarySearch
   href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch_
@@ -330,6 +368,1323 @@ references:
   fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), T, System.Comparison(Of T))
   nameWithType: ListExtensions.BinarySearch<T>(IList<T>, T, Comparison<T>)
   nameWithType.vb: ListExtensions.BinarySearch(Of T)(IList(Of T), T, Comparison(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.CopyTo*
+  name: CopyTo
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.CopyTo
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.CopyTo
+  nameWithType: ListExtensions.CopyTo
+- uid: CarinaStudio.Collections.ListExtensions.CopyTo``1(System.Collections.Generic.IList{``0},System.Int32,``0[],System.Int32,System.Int32)
+  name: CopyTo<T>(IList<T>, Int32, T[], Int32, Int32)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_CopyTo__1_System_Collections_Generic_IList___0__System_Int32___0___System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.ListExtensions.CopyTo``1(System.Collections.Generic.IList{``0},System.Int32,``0[],System.Int32,System.Int32)
+  name.vb: CopyTo(Of T)(IList(Of T), Int32, T(), Int32, Int32)
+  fullName: CarinaStudio.Collections.ListExtensions.CopyTo<T>(System.Collections.Generic.IList<T>, System.Int32, T[], System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.CopyTo(Of T)(System.Collections.Generic.IList(Of T), System.Int32, T(), System.Int32, System.Int32)
+  nameWithType: ListExtensions.CopyTo<T>(IList<T>, Int32, T[], Int32, Int32)
+  nameWithType.vb: ListExtensions.CopyTo(Of T)(IList(Of T), Int32, T(), Int32, Int32)
+- uid: CarinaStudio.Collections.ListExtensions.Shuffle*
+  name: Shuffle
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.Shuffle
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.Shuffle
+  nameWithType: ListExtensions.Shuffle
+- uid: CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0})
+  name: Shuffle<T>(IList<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0})
+  name.vb: Shuffle(Of T)(IList(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.Shuffle<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.Shuffle(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: ListExtensions.Shuffle<T>(IList<T>)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(IList(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name: Shuffle<T>(IList<T>, Int32, Int32)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name.vb: Shuffle(Of T)(IList(Of T), Int32, Int32)
+  fullName: CarinaStudio.Collections.ListExtensions.Shuffle<T>(System.Collections.Generic.IList<T>, System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.Shuffle(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
+  nameWithType: ListExtensions.Shuffle<T>(IList<T>, Int32, Int32)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(IList(Of T), Int32, Int32)
+- uid: CarinaStudio.Collections.ListExtensions.ToArray*
+  name: ToArray
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.ToArray
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.ToArray
+  nameWithType: ListExtensions.ToArray
+- uid: CarinaStudio.Collections.ListExtensions.ToArray``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name: ToArray<T>(IList<T>, Int32, Int32)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.ListExtensions.ToArray``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  name.vb: ToArray(Of T)(IList(Of T), Int32, Int32)
+  fullName: CarinaStudio.Collections.ListExtensions.ToArray<T>(System.Collections.Generic.IList<T>, System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.ToArray(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
+  nameWithType: ListExtensions.ToArray<T>(IList<T>, Int32, Int32)
+  nameWithType.vb: ListExtensions.ToArray(Of T)(IList(Of T), Int32, Int32)
+- uid: CarinaStudio.Collections.SortedList`1
+  name: SortedList<T>
+  href: api/CarinaStudio.Collections.SortedList-1.html
+  commentId: T:CarinaStudio.Collections.SortedList`1
+  name.vb: SortedList(Of T)
+  fullName: CarinaStudio.Collections.SortedList<T>
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T)
+  nameWithType: SortedList<T>
+  nameWithType.vb: SortedList(Of T)
+- uid: CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IComparer{`0},System.Collections.Generic.IEnumerable{`0})
+  name: SortedList(IComparer<T>, IEnumerable<T>)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1__ctor_System_Collections_Generic_IComparer__0__System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IComparer{`0},System.Collections.Generic.IEnumerable{`0})
+  name.vb: SortedList(IComparer(Of T), IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.SortedList<T>.SortedList(System.Collections.Generic.IComparer<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).SortedList(System.Collections.Generic.IComparer(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: SortedList<T>.SortedList(IComparer<T>, IEnumerable<T>)
+  nameWithType.vb: SortedList(Of T).SortedList(IComparer(Of T), IEnumerable(Of T))
+- uid: CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: SortedList(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: SortedList(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.SortedList<T>.SortedList(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).SortedList(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: SortedList<T>.SortedList(IEnumerable<T>)
+  nameWithType.vb: SortedList(Of T).SortedList(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.SortedList`1.#ctor(System.Comparison{`0},System.Collections.Generic.IEnumerable{`0})
+  name: SortedList(Comparison<T>, IEnumerable<T>)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1__ctor_System_Comparison__0__System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.SortedList`1.#ctor(System.Comparison{`0},System.Collections.Generic.IEnumerable{`0})
+  name.vb: SortedList(Comparison(Of T), IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.SortedList<T>.SortedList(System.Comparison<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).SortedList(System.Comparison(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: SortedList<T>.SortedList(Comparison<T>, IEnumerable<T>)
+  nameWithType.vb: SortedList(Of T).SortedList(Comparison(Of T), IEnumerable(Of T))
+- uid: CarinaStudio.Collections.SortedList`1.#ctor*
+  name: SortedList
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1__ctor_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.SortedList
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).SortedList
+  nameWithType: SortedList<T>.SortedList
+  nameWithType.vb: SortedList(Of T).SortedList
+- uid: CarinaStudio.Collections.SortedList`1.Add(`0)
+  name: Add(T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Add__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.Add(`0)
+  fullName: CarinaStudio.Collections.SortedList<T>.Add(T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Add(T)
+  nameWithType: SortedList<T>.Add(T)
+  nameWithType.vb: SortedList(Of T).Add(T)
+- uid: CarinaStudio.Collections.SortedList`1.Add*
+  name: Add
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Add_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Add
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Add
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Add
+  nameWithType: SortedList<T>.Add
+  nameWithType.vb: SortedList(Of T).Add
+- uid: CarinaStudio.Collections.SortedList`1.AddAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)
+  name: AddAll(IEnumerable<T>, Boolean)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_AddAll_System_Collections_Generic_IEnumerable__0__System_Boolean_
+  commentId: M:CarinaStudio.Collections.SortedList`1.AddAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)
+  name.vb: AddAll(IEnumerable(Of T), Boolean)
+  fullName: CarinaStudio.Collections.SortedList<T>.AddAll(System.Collections.Generic.IEnumerable<T>, System.Boolean)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).AddAll(System.Collections.Generic.IEnumerable(Of T), System.Boolean)
+  nameWithType: SortedList<T>.AddAll(IEnumerable<T>, Boolean)
+  nameWithType.vb: SortedList(Of T).AddAll(IEnumerable(Of T), Boolean)
+- uid: CarinaStudio.Collections.SortedList`1.AddAll*
+  name: AddAll
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_AddAll_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.AddAll
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.AddAll
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).AddAll
+  nameWithType: SortedList<T>.AddAll
+  nameWithType.vb: SortedList(Of T).AddAll
+- uid: CarinaStudio.Collections.SortedList`1.Clear
+  name: Clear()
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Clear
+  commentId: M:CarinaStudio.Collections.SortedList`1.Clear
+  fullName: CarinaStudio.Collections.SortedList<T>.Clear()
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Clear()
+  nameWithType: SortedList<T>.Clear()
+  nameWithType.vb: SortedList(Of T).Clear()
+- uid: CarinaStudio.Collections.SortedList`1.Clear*
+  name: Clear
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Clear_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Clear
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Clear
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Clear
+  nameWithType: SortedList<T>.Clear
+  nameWithType.vb: SortedList(Of T).Clear
+- uid: CarinaStudio.Collections.SortedList`1.CollectionChanged
+  name: CollectionChanged
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_CollectionChanged
+  commentId: E:CarinaStudio.Collections.SortedList`1.CollectionChanged
+  fullName: CarinaStudio.Collections.SortedList<T>.CollectionChanged
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).CollectionChanged
+  nameWithType: SortedList<T>.CollectionChanged
+  nameWithType.vb: SortedList(Of T).CollectionChanged
+- uid: CarinaStudio.Collections.SortedList`1.Contains(`0)
+  name: Contains(T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Contains__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.Contains(`0)
+  fullName: CarinaStudio.Collections.SortedList<T>.Contains(T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Contains(T)
+  nameWithType: SortedList<T>.Contains(T)
+  nameWithType.vb: SortedList(Of T).Contains(T)
+- uid: CarinaStudio.Collections.SortedList`1.Contains*
+  name: Contains
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Contains_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Contains
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Contains
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Contains
+  nameWithType: SortedList<T>.Contains
+  nameWithType.vb: SortedList(Of T).Contains
+- uid: CarinaStudio.Collections.SortedList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_CopyTo__0___System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.CopyTo(T[], System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).CopyTo(T(), System.Int32)
+  nameWithType: SortedList<T>.CopyTo(T[], Int32)
+  nameWithType.vb: SortedList(Of T).CopyTo(T(), Int32)
+- uid: CarinaStudio.Collections.SortedList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name: CopyTo(Int32, T[], Int32, Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_CopyTo_System_Int32__0___System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name.vb: CopyTo(Int32, T(), Int32, Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.CopyTo(System.Int32, T[], System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).CopyTo(System.Int32, T(), System.Int32, System.Int32)
+  nameWithType: SortedList<T>.CopyTo(Int32, T[], Int32, Int32)
+  nameWithType.vb: SortedList(Of T).CopyTo(Int32, T(), Int32, Int32)
+- uid: CarinaStudio.Collections.SortedList`1.CopyTo*
+  name: CopyTo
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.CopyTo
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.CopyTo
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).CopyTo
+  nameWithType: SortedList<T>.CopyTo
+  nameWithType.vb: SortedList(Of T).CopyTo
+- uid: CarinaStudio.Collections.SortedList`1.Count
+  name: Count
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Count
+  commentId: P:CarinaStudio.Collections.SortedList`1.Count
+  fullName: CarinaStudio.Collections.SortedList<T>.Count
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Count
+  nameWithType: SortedList<T>.Count
+  nameWithType.vb: SortedList(Of T).Count
+- uid: CarinaStudio.Collections.SortedList`1.Count*
+  name: Count
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Count_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Count
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Count
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Count
+  nameWithType: SortedList<T>.Count
+  nameWithType.vb: SortedList(Of T).Count
+- uid: CarinaStudio.Collections.SortedList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_GetEnumerator
+  commentId: M:CarinaStudio.Collections.SortedList`1.GetEnumerator
+  fullName: CarinaStudio.Collections.SortedList<T>.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).GetEnumerator()
+  nameWithType: SortedList<T>.GetEnumerator()
+  nameWithType.vb: SortedList(Of T).GetEnumerator()
+- uid: CarinaStudio.Collections.SortedList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.GetEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).GetEnumerator
+  nameWithType: SortedList<T>.GetEnumerator
+  nameWithType.vb: SortedList(Of T).GetEnumerator
+- uid: CarinaStudio.Collections.SortedList`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_IndexOf__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.IndexOf(`0)
+  fullName: CarinaStudio.Collections.SortedList<T>.IndexOf(T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).IndexOf(T)
+  nameWithType: SortedList<T>.IndexOf(T)
+  nameWithType.vb: SortedList(Of T).IndexOf(T)
+- uid: CarinaStudio.Collections.SortedList`1.IndexOf*
+  name: IndexOf
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.IndexOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.IndexOf
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).IndexOf
+  nameWithType: SortedList<T>.IndexOf
+  nameWithType.vb: SortedList(Of T).IndexOf
+- uid: CarinaStudio.Collections.SortedList`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.SortedList`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Item(System.Int32)
+  nameWithType: SortedList<T>.Item[Int32]
+  nameWithType.vb: SortedList(Of T).Item(Int32)
+- uid: CarinaStudio.Collections.SortedList`1.Item*
+  name: Item
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Item_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Item
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Item
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Item
+  nameWithType: SortedList<T>.Item
+  nameWithType.vb: SortedList(Of T).Item
+- uid: CarinaStudio.Collections.SortedList`1.Remove(`0)
+  name: Remove(T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Remove__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.Remove(`0)
+  fullName: CarinaStudio.Collections.SortedList<T>.Remove(T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Remove(T)
+  nameWithType: SortedList<T>.Remove(T)
+  nameWithType.vb: SortedList(Of T).Remove(T)
+- uid: CarinaStudio.Collections.SortedList`1.Remove*
+  name: Remove
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_Remove_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.Remove
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.Remove
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).Remove
+  nameWithType: SortedList<T>.Remove
+  nameWithType.vb: SortedList(Of T).Remove
+- uid: CarinaStudio.Collections.SortedList`1.RemoveAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)
+  name: RemoveAll(IEnumerable<T>, Boolean)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_RemoveAll_System_Collections_Generic_IEnumerable__0__System_Boolean_
+  commentId: M:CarinaStudio.Collections.SortedList`1.RemoveAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)
+  name.vb: RemoveAll(IEnumerable(Of T), Boolean)
+  fullName: CarinaStudio.Collections.SortedList<T>.RemoveAll(System.Collections.Generic.IEnumerable<T>, System.Boolean)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).RemoveAll(System.Collections.Generic.IEnumerable(Of T), System.Boolean)
+  nameWithType: SortedList<T>.RemoveAll(IEnumerable<T>, Boolean)
+  nameWithType.vb: SortedList(Of T).RemoveAll(IEnumerable(Of T), Boolean)
+- uid: CarinaStudio.Collections.SortedList`1.RemoveAll*
+  name: RemoveAll
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_RemoveAll_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.RemoveAll
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.RemoveAll
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).RemoveAll
+  nameWithType: SortedList<T>.RemoveAll
+  nameWithType.vb: SortedList(Of T).RemoveAll
+- uid: CarinaStudio.Collections.SortedList`1.RemoveRange(System.Int32,System.Int32)
+  name: RemoveRange(Int32, Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_RemoveRange_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.RemoveRange(System.Int32,System.Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.RemoveRange(System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).RemoveRange(System.Int32, System.Int32)
+  nameWithType: SortedList<T>.RemoveRange(Int32, Int32)
+  nameWithType.vb: SortedList(Of T).RemoveRange(Int32, Int32)
+- uid: CarinaStudio.Collections.SortedList`1.RemoveRange*
+  name: RemoveRange
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_RemoveRange_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.RemoveRange
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.RemoveRange
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).RemoveRange
+  nameWithType: SortedList<T>.RemoveRange
+  nameWithType.vb: SortedList(Of T).RemoveRange
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name: ICollection<T>.Add(T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__Add__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<T>.Add(T)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.ICollection<T>.Add(T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType: SortedList<T>.ICollection<T>.Add(T)
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add*
+  name: ICollection<T>.Add
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__Add_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Add
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.ICollection<T>.Add
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.ICollection<T>.Add
+  nameWithType: SortedList<T>.ICollection<T>.Add
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.ICollection<T>.Add
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__IsReadOnly
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: SortedList<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly*
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: SortedList<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  name: IList<T>.Insert(Int32, T)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Insert_System_Int32__0_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  name.vb: System.Collections.Generic.IList<T>.Insert(Int32, T)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  nameWithType: SortedList<T>.IList<T>.Insert(Int32, T)
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.Insert(Int32, T)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert*
+  name: IList<T>.Insert
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Insert_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.Insert
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.Insert
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.Insert
+  nameWithType: SortedList<T>.IList<T>.Insert
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.Insert
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  name: IList<T>.Item[Int32]
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  name.vb: System.Collections.Generic.IList<T>.Item(Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.Item(System.Int32)
+  nameWithType: SortedList<T>.IList<T>.Item[Int32]
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.Item(Int32)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item*
+  name: IList<T>.Item
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Item_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.Item
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.Item
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.Item
+  nameWithType: SortedList<T>.IList<T>.Item
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.Item
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  name: IList<T>.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  nameWithType: SortedList<T>.IList<T>.RemoveAt(Int32)
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt*
+  name: IList<T>.RemoveAt
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.RemoveAt
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.Generic.IList<T>.RemoveAt
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.Generic.IList<T>.RemoveAt
+  nameWithType: SortedList<T>.IList<T>.RemoveAt
+  nameWithType.vb: SortedList(Of T).System.Collections.Generic.IList<T>.RemoveAt
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name: ICollection.CopyTo(Array, Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_CopyTo_System_Array_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  nameWithType: SortedList<T>.ICollection.CopyTo(Array, Int32)
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.CopyTo(Array, Int32)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo*
+  name: ICollection.CopyTo
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.CopyTo
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.CopyTo
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.CopyTo
+  nameWithType: SortedList<T>.ICollection.CopyTo
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.CopyTo
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_IsSynchronized
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.IsSynchronized
+  nameWithType: SortedList<T>.ICollection.IsSynchronized
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized*
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_IsSynchronized_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.IsSynchronized
+  nameWithType: SortedList<T>.ICollection.IsSynchronized
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_SyncRoot
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.SyncRoot
+  nameWithType: SortedList<T>.ICollection.SyncRoot
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot*
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_SyncRoot_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.ICollection.SyncRoot
+  nameWithType: SortedList<T>.ICollection.SyncRoot
+  nameWithType.vb: SortedList(Of T).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: SortedList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: SortedList(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: SortedList<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: SortedList(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add(System.Object)
+  name: IList.Add(Object)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Add_System_Object_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add(System.Object)
+  name.vb: System.Collections.IList.Add(Object)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Add(System.Object)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Add(System.Object)
+  nameWithType: SortedList<T>.IList.Add(Object)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Add(Object)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add*
+  name: IList.Add
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Add_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add
+  isSpec: "True"
+  name.vb: System.Collections.IList.Add
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Add
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Add
+  nameWithType: SortedList<T>.IList.Add
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Add
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains(System.Object)
+  name: IList.Contains(Object)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Contains_System_Object_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains(System.Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Contains(System.Object)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Contains(System.Object)
+  nameWithType: SortedList<T>.IList.Contains(Object)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Contains(Object)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains*
+  name: IList.Contains
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Contains_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains
+  isSpec: "True"
+  name.vb: System.Collections.IList.Contains
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Contains
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Contains
+  nameWithType: SortedList<T>.IList.Contains
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Contains
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf(System.Object)
+  name: IList.IndexOf(Object)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IndexOf_System_Object_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf(System.Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IndexOf(System.Object)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IndexOf(System.Object)
+  nameWithType: SortedList<T>.IList.IndexOf(Object)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IndexOf(Object)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf*
+  name: IList.IndexOf
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf
+  isSpec: "True"
+  name.vb: System.Collections.IList.IndexOf
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IndexOf
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IndexOf
+  nameWithType: SortedList<T>.IList.IndexOf
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IndexOf
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  name: IList.Insert(Int32, Object)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Insert_System_Int32_System_Object_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Insert(System.Int32, System.Object)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Insert(System.Int32, System.Object)
+  nameWithType: SortedList<T>.IList.Insert(Int32, Object)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Insert(Int32, Object)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert*
+  name: IList.Insert
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Insert_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert
+  isSpec: "True"
+  name.vb: System.Collections.IList.Insert
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Insert
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Insert
+  nameWithType: SortedList<T>.IList.Insert
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Insert
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsFixedSize
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IsFixedSize
+  nameWithType: SortedList<T>.IList.IsFixedSize
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize*
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsFixedSize_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IsFixedSize
+  nameWithType: SortedList<T>.IList.IsFixedSize
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsReadOnly
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IsReadOnly
+  nameWithType: SortedList<T>.IList.IsReadOnly
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly*
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.IsReadOnly
+  nameWithType: SortedList<T>.IList.IsReadOnly
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item(System.Int32)
+  name: IList.Item[Int32]
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Item(System.Int32)
+  nameWithType: SortedList<T>.IList.Item[Int32]
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Item(Int32)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item*
+  name: IList.Item
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Item_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item
+  isSpec: "True"
+  name.vb: System.Collections.IList.Item
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Item
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Item
+  nameWithType: SortedList<T>.IList.Item
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Item
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove(System.Object)
+  name: IList.Remove(Object)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Remove_System_Object_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove(System.Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Remove(System.Object)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Remove(System.Object)
+  nameWithType: SortedList<T>.IList.Remove(Object)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Remove(Object)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove*
+  name: IList.Remove
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_Remove_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove
+  isSpec: "True"
+  name.vb: System.Collections.IList.Remove
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.Remove
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.Remove
+  nameWithType: SortedList<T>.IList.Remove
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.Remove
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt(System.Int32)
+  name: IList.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt(System.Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.RemoveAt(System.Int32)
+  nameWithType: SortedList<T>.IList.RemoveAt(Int32)
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt*
+  name: IList.RemoveAt
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_System_Collections_IList_RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.IList.RemoveAt
+  fullName: CarinaStudio.Collections.SortedList<T>.System.Collections.IList.RemoveAt
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).System.Collections.IList.RemoveAt
+  nameWithType: SortedList<T>.IList.RemoveAt
+  nameWithType.vb: SortedList(Of T).System.Collections.IList.RemoveAt
+- uid: CarinaStudio.Collections.SortedList`1.ToArray
+  name: ToArray()
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_ToArray
+  commentId: M:CarinaStudio.Collections.SortedList`1.ToArray
+  fullName: CarinaStudio.Collections.SortedList<T>.ToArray()
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).ToArray()
+  nameWithType: SortedList<T>.ToArray()
+  nameWithType.vb: SortedList(Of T).ToArray()
+- uid: CarinaStudio.Collections.SortedList`1.ToArray(System.Int32,System.Int32)
+  name: ToArray(Int32, Int32)
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_ToArray_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedList`1.ToArray(System.Int32,System.Int32)
+  fullName: CarinaStudio.Collections.SortedList<T>.ToArray(System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).ToArray(System.Int32, System.Int32)
+  nameWithType: SortedList<T>.ToArray(Int32, Int32)
+  nameWithType.vb: SortedList(Of T).ToArray(Int32, Int32)
+- uid: CarinaStudio.Collections.SortedList`1.ToArray*
+  name: ToArray
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_ToArray_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.ToArray
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.ToArray
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).ToArray
+  nameWithType: SortedList<T>.ToArray
+  nameWithType.vb: SortedList(Of T).ToArray
+- uid: CarinaStudio.Collections.SortedList`1.TrimExcess
+  name: TrimExcess()
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_TrimExcess
+  commentId: M:CarinaStudio.Collections.SortedList`1.TrimExcess
+  fullName: CarinaStudio.Collections.SortedList<T>.TrimExcess()
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).TrimExcess()
+  nameWithType: SortedList<T>.TrimExcess()
+  nameWithType.vb: SortedList(Of T).TrimExcess()
+- uid: CarinaStudio.Collections.SortedList`1.TrimExcess*
+  name: TrimExcess
+  href: api/CarinaStudio.Collections.SortedList-1.html#CarinaStudio_Collections_SortedList_1_TrimExcess_
+  commentId: Overload:CarinaStudio.Collections.SortedList`1.TrimExcess
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedList<T>.TrimExcess
+  fullName.vb: CarinaStudio.Collections.SortedList(Of T).TrimExcess
+  nameWithType: SortedList<T>.TrimExcess
+  nameWithType.vb: SortedList(Of T).TrimExcess
+- uid: CarinaStudio.Collections.TypeConvertedList`2
+  name: TypeConvertedList<TSrc, TDest>
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html
+  commentId: T:CarinaStudio.Collections.TypeConvertedList`2
+  name.vb: TypeConvertedList(Of TSrc, TDest)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.#ctor(System.Collections.Generic.IList{`0})
+  name: TypeConvertedList(IList<TSrc>)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2__ctor_System_Collections_Generic_IList__0__
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.#ctor(System.Collections.Generic.IList{`0})
+  name.vb: TypeConvertedList(IList(Of TSrc))
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.TypeConvertedList(System.Collections.Generic.IList<TSrc>)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).TypeConvertedList(System.Collections.Generic.IList(Of TSrc))
+  nameWithType: TypeConvertedList<TSrc, TDest>.TypeConvertedList(IList<TSrc>)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).TypeConvertedList(IList(Of TSrc))
+- uid: CarinaStudio.Collections.TypeConvertedList`2.#ctor*
+  name: TypeConvertedList
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2__ctor_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.TypeConvertedList
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).TypeConvertedList
+  nameWithType: TypeConvertedList<TSrc, TDest>.TypeConvertedList
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).TypeConvertedList
+- uid: CarinaStudio.Collections.TypeConvertedList`2.CollectionChanged
+  name: CollectionChanged
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_CollectionChanged
+  commentId: E:CarinaStudio.Collections.TypeConvertedList`2.CollectionChanged
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.CollectionChanged
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).CollectionChanged
+  nameWithType: TypeConvertedList<TSrc, TDest>.CollectionChanged
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).CollectionChanged
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Contains(`1)
+  name: Contains(TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Contains__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.Contains(`1)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Contains(TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Contains(TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.Contains(TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Contains(TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Contains*
+  name: Contains
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Contains_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.Contains
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Contains
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Contains
+  nameWithType: TypeConvertedList<TSrc, TDest>.Contains
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Contains
+- uid: CarinaStudio.Collections.TypeConvertedList`2.ConvertElement(`0)
+  name: ConvertElement(TSrc)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_ConvertElement__0_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.ConvertElement(`0)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.ConvertElement(TSrc)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).ConvertElement(TSrc)
+  nameWithType: TypeConvertedList<TSrc, TDest>.ConvertElement(TSrc)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).ConvertElement(TSrc)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.ConvertElement*
+  name: ConvertElement
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_ConvertElement_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.ConvertElement
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.ConvertElement
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).ConvertElement
+  nameWithType: TypeConvertedList<TSrc, TDest>.ConvertElement
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).ConvertElement
+- uid: CarinaStudio.Collections.TypeConvertedList`2.CopyTo(`1[],System.Int32)
+  name: CopyTo(TDest[], Int32)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_CopyTo__1___System_Int32_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.CopyTo(`1[],System.Int32)
+  name.vb: CopyTo(TDest(), Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.CopyTo(TDest[], System.Int32)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).CopyTo(TDest(), System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.CopyTo(TDest[], Int32)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).CopyTo(TDest(), Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.CopyTo*
+  name: CopyTo
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.CopyTo
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.CopyTo
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).CopyTo
+  nameWithType: TypeConvertedList<TSrc, TDest>.CopyTo
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).CopyTo
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Count
+  name: Count
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Count
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.Count
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Count
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Count
+  nameWithType: TypeConvertedList<TSrc, TDest>.Count
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Count
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Count*
+  name: Count
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Count_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.Count
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Count
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Count
+  nameWithType: TypeConvertedList<TSrc, TDest>.Count
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Count
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.Dispose(System.Boolean)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Dispose(System.Boolean)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Dispose(System.Boolean)
+  nameWithType: TypeConvertedList<TSrc, TDest>.Dispose(Boolean)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Dispose(Boolean)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Dispose_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Dispose
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Dispose
+  nameWithType: TypeConvertedList<TSrc, TDest>.Dispose
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Dispose
+- uid: CarinaStudio.Collections.TypeConvertedList`2.GetEnumerator
+  name: GetEnumerator()
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_GetEnumerator
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.GetEnumerator
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).GetEnumerator()
+  nameWithType: TypeConvertedList<TSrc, TDest>.GetEnumerator()
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).GetEnumerator()
+- uid: CarinaStudio.Collections.TypeConvertedList`2.GetEnumerator*
+  name: GetEnumerator
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.GetEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).GetEnumerator
+  nameWithType: TypeConvertedList<TSrc, TDest>.GetEnumerator
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).GetEnumerator
+- uid: CarinaStudio.Collections.TypeConvertedList`2.IndexOf(`1)
+  name: IndexOf(TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_IndexOf__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.IndexOf(`1)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.IndexOf(TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).IndexOf(TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IndexOf(TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).IndexOf(TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.IndexOf*
+  name: IndexOf
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.IndexOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.IndexOf
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).IndexOf
+  nameWithType: TypeConvertedList<TSrc, TDest>.IndexOf
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).IndexOf
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Item(System.Int32)
+  name: Item[Int32]
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Item(System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.Item[Int32]
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Item(Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.Item*
+  name: Item
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_Item_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.Item
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.Item
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).Item
+  nameWithType: TypeConvertedList<TSrc, TDest>.Item
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).Item
+- uid: CarinaStudio.Collections.TypeConvertedList`2.ReleaseElement(`1)
+  name: ReleaseElement(TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_ReleaseElement__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.ReleaseElement(`1)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.ReleaseElement(TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).ReleaseElement(TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.ReleaseElement(TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).ReleaseElement(TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.ReleaseElement*
+  name: ReleaseElement
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_ReleaseElement_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.ReleaseElement
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.ReleaseElement
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).ReleaseElement
+  nameWithType: TypeConvertedList<TSrc, TDest>.ReleaseElement
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).ReleaseElement
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Add(`1)
+  name: ICollection<TDest>.Add(TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Add__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Add(`1)
+  name.vb: System.Collections.Generic.ICollection<TDest>.Add(TDest)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Add(TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Add(TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Add(TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Add(TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Add*
+  name: ICollection<TDest>.Add
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Add_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TDest>.Add
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Add
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Add
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Add
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Add
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Clear
+  name: ICollection<TDest>.Clear()
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Clear
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Clear
+  name.vb: System.Collections.Generic.ICollection<TDest>.Clear()
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Clear()
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Clear()
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Clear()
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Clear()
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Clear*
+  name: ICollection<TDest>.Clear
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Clear_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Clear
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TDest>.Clear
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Clear
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Clear
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Clear
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Clear
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly
+  name: ICollection<TDest>.IsReadOnly
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__IsReadOnly
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.IsReadOnly
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.IsReadOnly
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly*
+  name: ICollection<TDest>.IsReadOnly
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.IsReadOnly
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.IsReadOnly
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.IsReadOnly
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Remove(`1)
+  name: ICollection<TDest>.Remove(TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Remove__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Remove(`1)
+  name.vb: System.Collections.Generic.ICollection<TDest>.Remove(TDest)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Remove(TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Remove(TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Remove(TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Remove(TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Remove*
+  name: ICollection<TDest>.Remove
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_ICollection_TDest__Remove_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#ICollection{TDest}#Remove
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TDest>.Remove
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.ICollection<TDest>.Remove
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Remove
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection<TDest>.Remove
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.ICollection<TDest>.Remove
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Insert(System.Int32,`1)
+  name: IList<TDest>.Insert(Int32, TDest)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__Insert_System_Int32__1_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Insert(System.Int32,`1)
+  name.vb: System.Collections.Generic.IList<TDest>.Insert(Int32, TDest)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.Insert(System.Int32, TDest)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Insert(System.Int32, TDest)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.Insert(Int32, TDest)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Insert(Int32, TDest)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Insert*
+  name: IList<TDest>.Insert
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__Insert_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Insert
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<TDest>.Insert
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.Insert
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Insert
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.Insert
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Insert
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Item(System.Int32)
+  name: IList<TDest>.Item[Int32]
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Item(System.Int32)
+  name.vb: System.Collections.Generic.IList<TDest>.Item(Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Item(System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.Item[Int32]
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Item(Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Item*
+  name: IList<TDest>.Item
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__Item_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#Item
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<TDest>.Item
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.Item
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Item
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.Item
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.Item
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#RemoveAt(System.Int32)
+  name: IList<TDest>.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#RemoveAt(System.Int32)
+  name.vb: System.Collections.Generic.IList<TDest>.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.RemoveAt(System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.RemoveAt(Int32)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#RemoveAt*
+  name: IList<TDest>.RemoveAt
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_Generic_IList_TDest__RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#Generic#IList{TDest}#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<TDest>.RemoveAt
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.Generic.IList<TDest>.RemoveAt
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.RemoveAt
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList<TDest>.RemoveAt
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.Generic.IList<TDest>.RemoveAt
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name: ICollection.CopyTo(Array, Int32)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_CopyTo_System_Array_System_Int32_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.CopyTo(Array, Int32)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.CopyTo(Array, Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#CopyTo*
+  name: ICollection.CopyTo
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.CopyTo
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.CopyTo
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.CopyTo
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.CopyTo
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.CopyTo
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#IsSynchronized
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_IsSynchronized
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.IsSynchronized
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.IsSynchronized
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#IsSynchronized*
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_IsSynchronized_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#IsSynchronized
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.IsSynchronized
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.IsSynchronized
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#SyncRoot
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_SyncRoot
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.SyncRoot
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.SyncRoot
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#SyncRoot*
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_ICollection_SyncRoot_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#ICollection#SyncRoot
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.SyncRoot
+  nameWithType: TypeConvertedList<TSrc, TDest>.ICollection.SyncRoot
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: TypeConvertedList<TSrc, TDest>.IEnumerable.GetEnumerator()
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IEnumerable.GetEnumerator()
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: TypeConvertedList<TSrc, TDest>.IEnumerable.GetEnumerator
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IEnumerable.GetEnumerator
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Add(System.Object)
+  name: IList.Add(Object)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Add_System_Object_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Add(System.Object)
+  name.vb: System.Collections.IList.Add(Object)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Add(System.Object)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Add(System.Object)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Add(Object)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Add(Object)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Add*
+  name: IList.Add
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Add_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Add
+  isSpec: "True"
+  name.vb: System.Collections.IList.Add
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Add
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Add
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Add
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Add
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Clear
+  name: IList.Clear()
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Clear
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Clear
+  name.vb: System.Collections.IList.Clear()
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Clear()
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Clear()
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Clear()
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Clear()
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Clear*
+  name: IList.Clear
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Clear_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Clear
+  isSpec: "True"
+  name.vb: System.Collections.IList.Clear
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Clear
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Clear
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Clear
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Clear
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Contains(System.Object)
+  name: IList.Contains(Object)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Contains_System_Object_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Contains(System.Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Contains(System.Object)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Contains(System.Object)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Contains(Object)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Contains(Object)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Contains*
+  name: IList.Contains
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Contains_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Contains
+  isSpec: "True"
+  name.vb: System.Collections.IList.Contains
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Contains
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Contains
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Contains
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Contains
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IndexOf(System.Object)
+  name: IList.IndexOf(Object)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IndexOf_System_Object_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IndexOf(System.Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IndexOf(System.Object)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IndexOf(System.Object)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IndexOf(Object)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IndexOf(Object)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IndexOf*
+  name: IList.IndexOf
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IndexOf
+  isSpec: "True"
+  name.vb: System.Collections.IList.IndexOf
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IndexOf
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IndexOf
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IndexOf
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IndexOf
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Insert(System.Int32,System.Object)
+  name: IList.Insert(Int32, Object)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Insert_System_Int32_System_Object_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Insert(System.Int32,System.Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Insert(System.Int32, System.Object)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Insert(System.Int32, System.Object)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Insert(Int32, Object)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Insert(Int32, Object)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Insert*
+  name: IList.Insert
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Insert_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Insert
+  isSpec: "True"
+  name.vb: System.Collections.IList.Insert
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Insert
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Insert
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Insert
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Insert
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsFixedSize
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IsFixedSize
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsFixedSize
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IsFixedSize
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsFixedSize*
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IsFixedSize_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsFixedSize
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsFixedSize
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IsFixedSize
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsReadOnly
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IsReadOnly
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsReadOnly
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IsReadOnly
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsReadOnly*
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsReadOnly
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.IsReadOnly
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Item(System.Int32)
+  name: IList.Item[Int32]
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Item(System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Item[Int32]
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Item(Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Item*
+  name: IList.Item
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Item_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Item
+  isSpec: "True"
+  name.vb: System.Collections.IList.Item
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Item
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Item
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Item
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Item
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Remove(System.Object)
+  name: IList.Remove(Object)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Remove_System_Object_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Remove(System.Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Remove(System.Object)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Remove(System.Object)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Remove(Object)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Remove(Object)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Remove*
+  name: IList.Remove
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_Remove_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#Remove
+  isSpec: "True"
+  name.vb: System.Collections.IList.Remove
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.Remove
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Remove
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.Remove
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.Remove
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#RemoveAt(System.Int32)
+  name: IList.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#RemoveAt(System.Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.RemoveAt(System.Int32)
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.RemoveAt(Int32)
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#RemoveAt*
+  name: IList.RemoveAt
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_System_Collections_IList_RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.System#Collections#IList#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.IList.RemoveAt
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.System.Collections.IList.RemoveAt
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).System.Collections.IList.RemoveAt
+  nameWithType: TypeConvertedList<TSrc, TDest>.IList.RemoveAt
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).System.Collections.IList.RemoveAt
+- uid: CarinaStudio.Collections.TypeConvertedList`2.TrimExcess
+  name: TrimExcess()
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_TrimExcess
+  commentId: M:CarinaStudio.Collections.TypeConvertedList`2.TrimExcess
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.TrimExcess()
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).TrimExcess()
+  nameWithType: TypeConvertedList<TSrc, TDest>.TrimExcess()
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).TrimExcess()
+- uid: CarinaStudio.Collections.TypeConvertedList`2.TrimExcess*
+  name: TrimExcess
+  href: api/CarinaStudio.Collections.TypeConvertedList-2.html#CarinaStudio_Collections_TypeConvertedList_2_TrimExcess_
+  commentId: Overload:CarinaStudio.Collections.TypeConvertedList`2.TrimExcess
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.TypeConvertedList<TSrc, TDest>.TrimExcess
+  fullName.vb: CarinaStudio.Collections.TypeConvertedList(Of TSrc, TDest).TrimExcess
+  nameWithType: TypeConvertedList<TSrc, TDest>.TrimExcess
+  nameWithType.vb: TypeConvertedList(Of TSrc, TDest).TrimExcess
 - uid: CarinaStudio.Configuration
   name: CarinaStudio.Configuration
   href: api/CarinaStudio.Configuration.html
@@ -1340,6 +2695,37 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.Use(Of T, R)(T, System.Func(Of T, R))
   nameWithType: DisposableExtensions.Use<T, R>(T, Func<T, R>)
   nameWithType.vb: DisposableExtensions.Use(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.InternalStateCorruptedException
+  name: InternalStateCorruptedException
+  href: api/CarinaStudio.InternalStateCorruptedException.html
+  commentId: T:CarinaStudio.InternalStateCorruptedException
+  fullName: CarinaStudio.InternalStateCorruptedException
+  nameWithType: InternalStateCorruptedException
+- uid: CarinaStudio.InternalStateCorruptedException.#ctor
+  name: InternalStateCorruptedException()
+  href: api/CarinaStudio.InternalStateCorruptedException.html#CarinaStudio_InternalStateCorruptedException__ctor
+  commentId: M:CarinaStudio.InternalStateCorruptedException.#ctor
+  fullName: CarinaStudio.InternalStateCorruptedException.InternalStateCorruptedException()
+  nameWithType: InternalStateCorruptedException.InternalStateCorruptedException()
+- uid: CarinaStudio.InternalStateCorruptedException.#ctor(System.String)
+  name: InternalStateCorruptedException(String)
+  href: api/CarinaStudio.InternalStateCorruptedException.html#CarinaStudio_InternalStateCorruptedException__ctor_System_String_
+  commentId: M:CarinaStudio.InternalStateCorruptedException.#ctor(System.String)
+  fullName: CarinaStudio.InternalStateCorruptedException.InternalStateCorruptedException(System.String)
+  nameWithType: InternalStateCorruptedException.InternalStateCorruptedException(String)
+- uid: CarinaStudio.InternalStateCorruptedException.#ctor(System.String,System.Exception)
+  name: InternalStateCorruptedException(String, Exception)
+  href: api/CarinaStudio.InternalStateCorruptedException.html#CarinaStudio_InternalStateCorruptedException__ctor_System_String_System_Exception_
+  commentId: M:CarinaStudio.InternalStateCorruptedException.#ctor(System.String,System.Exception)
+  fullName: CarinaStudio.InternalStateCorruptedException.InternalStateCorruptedException(System.String, System.Exception)
+  nameWithType: InternalStateCorruptedException.InternalStateCorruptedException(String, Exception)
+- uid: CarinaStudio.InternalStateCorruptedException.#ctor*
+  name: InternalStateCorruptedException
+  href: api/CarinaStudio.InternalStateCorruptedException.html#CarinaStudio_InternalStateCorruptedException__ctor_
+  commentId: Overload:CarinaStudio.InternalStateCorruptedException.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.InternalStateCorruptedException.InternalStateCorruptedException
+  nameWithType: InternalStateCorruptedException.InternalStateCorruptedException
 - uid: CarinaStudio.IShareableDisposable`1
   name: IShareableDisposable<TSelf>
   href: api/CarinaStudio.IShareableDisposable-1.html
@@ -2099,6 +3485,41 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).Value
   nameWithType: ObservableValue<T>.Value
   nameWithType.vb: ObservableValue(Of T).Value
+- uid: CarinaStudio.StringPool
+  name: StringPool
+  href: api/CarinaStudio.StringPool.html
+  commentId: T:CarinaStudio.StringPool
+  fullName: CarinaStudio.StringPool
+  nameWithType: StringPool
+- uid: CarinaStudio.StringPool.Clear
+  name: Clear()
+  href: api/CarinaStudio.StringPool.html#CarinaStudio_StringPool_Clear
+  commentId: M:CarinaStudio.StringPool.Clear
+  fullName: CarinaStudio.StringPool.Clear()
+  nameWithType: StringPool.Clear()
+- uid: CarinaStudio.StringPool.Clear*
+  name: Clear
+  href: api/CarinaStudio.StringPool.html#CarinaStudio_StringPool_Clear_
+  commentId: Overload:CarinaStudio.StringPool.Clear
+  isSpec: "True"
+  fullName: CarinaStudio.StringPool.Clear
+  nameWithType: StringPool.Clear
+- uid: CarinaStudio.StringPool.Item(System.String)
+  name: Item[String]
+  href: api/CarinaStudio.StringPool.html#CarinaStudio_StringPool_Item_System_String_
+  commentId: P:CarinaStudio.StringPool.Item(System.String)
+  name.vb: Item(String)
+  fullName: CarinaStudio.StringPool.Item[System.String]
+  fullName.vb: CarinaStudio.StringPool.Item(System.String)
+  nameWithType: StringPool.Item[String]
+  nameWithType.vb: StringPool.Item(String)
+- uid: CarinaStudio.StringPool.Item*
+  name: Item
+  href: api/CarinaStudio.StringPool.html#CarinaStudio_StringPool_Item_
+  commentId: Overload:CarinaStudio.StringPool.Item
+  isSpec: "True"
+  fullName: CarinaStudio.StringPool.Item
+  nameWithType: StringPool.Item
 - uid: CarinaStudio.Threading
   name: CarinaStudio.Threading
   href: api/CarinaStudio.Threading.html
