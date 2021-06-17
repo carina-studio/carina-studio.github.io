@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MemoryExtensions
+    <title>Class ApplicationExtensions
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MemoryExtensions
+    <meta name="title" content="Class ApplicationExtensions
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.MemoryExtensions">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.ApplicationExtensions">
   
   
-  <h1 id="CarinaStudio_MemoryExtensions" data-uid="CarinaStudio.MemoryExtensions" class="text-break">Class MemoryExtensions
+  <h1 id="CarinaStudio_ApplicationExtensions" data-uid="CarinaStudio.ApplicationExtensions" class="text-break">Class ApplicationExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Memory&lt;T&gt;</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions of <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MemoryExtensions</span></div>
+    <div class="level1"><span class="xref">ApplicationExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,23 +106,23 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_MemoryExtensions_syntax">Syntax</h5>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_ApplicationExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class MemoryExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ApplicationExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CarinaStudio_MemoryExtensions_Pin_" data-uid="CarinaStudio.MemoryExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_MemoryExtensions_Pin__1_System_Memory___0__System_Action_System_IntPtr__" data-uid="CarinaStudio.MemoryExtensions.Pin``1(System.Memory{``0},System.Action{System.IntPtr})">Pin&lt;T&gt;(Memory&lt;T&gt;, Action&lt;IntPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Memory&lt;T&gt;</span>, get address of memory and perform action.</p>
+  <a id="CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_" data-uid="CarinaStudio.ApplicationExtensions.CreatePrivateDirectory*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_CarinaStudio_IApplication_System_String_" data-uid="CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication,System.String)">CreatePrivateDirectory(IApplication, String)</h4>
+  <div class="markdown level1 summary"><p>Create directory in private directory of application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin&lt;T&gt;(this Memory&lt;T&gt; memory, Action&lt;IntPtr&gt; action)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DirectoryInfo CreatePrivateDirectory(this IApplication app, string relativePath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,117 +135,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Memory</span>&lt;T&gt;</td>
-        <td><span class="parametername">memory</span></td>
-        <td><p><span class="xref">System.Memory&lt;T&gt;</span>.</p>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.IntPtr</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive address of memory and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of memory element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_MemoryExtensions_Pin_" data-uid="CarinaStudio.MemoryExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_MemoryExtensions_Pin__1_System_ReadOnlyMemory___0__System_Action_System_IntPtr__" data-uid="CarinaStudio.MemoryExtensions.Pin``1(System.ReadOnlyMemory{``0},System.Action{System.IntPtr})">Pin&lt;T&gt;(ReadOnlyMemory&lt;T&gt;, Action&lt;IntPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.ReadOnlyMemory&lt;T&gt;</span>, get address of memory and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin&lt;T&gt;(this ReadOnlyMemory&lt;T&gt; memory, Action&lt;IntPtr&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ReadOnlyMemory</span>&lt;T&gt;</td>
-        <td><span class="parametername">memory</span></td>
-        <td><p><span class="xref">System.ReadOnlyMemory&lt;T&gt;</span>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.IntPtr</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive address of memory and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of memory element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_MemoryExtensions_Pin_" data-uid="CarinaStudio.MemoryExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_MemoryExtensions_Pin__2_System_Memory___0__System_Func_System_IntPtr___1__" data-uid="CarinaStudio.MemoryExtensions.Pin``2(System.Memory{``0},System.Func{System.IntPtr,``1})">Pin&lt;T, R&gt;(Memory&lt;T&gt;, Func&lt;IntPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Memory&lt;T&gt;</span>, get address of memory and generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;T, R&gt;(this Memory&lt;T&gt; memory, Func&lt;IntPtr, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Memory</span>&lt;T&gt;</td>
-        <td><span class="parametername">memory</span></td>
-        <td><p><span class="xref">System.Memory&lt;T&gt;</span>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.IntPtr</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive address of memory and generate value.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relativePath</span></td>
+        <td><p>Relative path of directory to create.</p>
 </td>
       </tr>
     </tbody>
@@ -260,43 +158,43 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
+        <td><span class="xref">System.IO.DirectoryInfo</span></td>
+        <td><p><span class="xref">System.IO.DirectoryInfo</span> represents the directory.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Description</th>
+        <th>Type</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of memory element.</p>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Given path is not a relative path.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>Unable to create directory.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CarinaStudio_MemoryExtensions_Pin_" data-uid="CarinaStudio.MemoryExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_MemoryExtensions_Pin__2_System_ReadOnlyMemory___0__System_Func_System_IntPtr___1__" data-uid="CarinaStudio.MemoryExtensions.Pin``2(System.ReadOnlyMemory{``0},System.Func{System.IntPtr,``1})">Pin&lt;T, R&gt;(ReadOnlyMemory&lt;T&gt;, Func&lt;IntPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.ReadOnlyMemory&lt;T&gt;</span>, get address of memory and generate a value.</p>
+  <a id="CarinaStudio_ApplicationExtensions_GetFormattedString_" data-uid="CarinaStudio.ApplicationExtensions.GetFormattedString*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_GetFormattedString_CarinaStudio_IApplication_System_String_System_Object___" data-uid="CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication,System.String,System.Object[])">GetFormattedString(IApplication, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Get formatted string from resources according to given key and current settings or system language.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;T, R&gt;(this ReadOnlyMemory&lt;T&gt; memory, Func&lt;IntPtr, R&gt; func)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetFormattedString(this IApplication app, string key, params object[] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -309,15 +207,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ReadOnlyMemory</span>&lt;T&gt;</td>
-        <td><span class="parametername">memory</span></td>
-        <td><p><span class="xref">System.ReadOnlyMemory&lt;T&gt;</span>.</p>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.IntPtr</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive address of memory and generate value.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of format string to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Arguments to be formatted.</p>
 </td>
       </tr>
     </tbody>
@@ -332,29 +236,138 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Formatted string.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Format string is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ApplicationExtensions_GetStringNonNull_" data-uid="CarinaStudio.ApplicationExtensions.GetStringNonNull*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_GetStringNonNull_CarinaStudio_IApplication_System_String_System_String_" data-uid="CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication,System.String,System.String)">GetStringNonNull(IApplication, String, String)</h4>
+  <div class="markdown level1 summary"><p>Get non-null string from resources according to given key and current settings or system language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetStringNonNull(this IApplication app, string key, string defaultValue = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of memory element.</p>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of string to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)">TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)</h4>
+  <div class="markdown level1 summary"><p>Try creating directory in private directory of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreatePrivateDirectory(this IApplication app, string relativePath, out DirectoryInfo directoryInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relativePath</span></td>
+        <td><p>Relative path of directory to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.DirectoryInfo</span></td>
+        <td><span class="parametername">directoryInfo</span></td>
+        <td><p><span class="xref">System.IO.DirectoryInfo</span> represents the directory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if directory has been created successfully.</p>
 </td>
       </tr>
     </tbody>

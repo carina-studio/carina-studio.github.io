@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CarinaStudio.Threading
+    <title>Interface IThreadDependent
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CarinaStudio.Threading
+    <meta name="title" content="Interface IThreadDependent
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,35 +68,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading.IThreadDependent">
   
-  <h1 id="CarinaStudio_Threading" data-uid="CarinaStudio.Threading" class="text-break">Namespace CarinaStudio.Threading
+  
+  <h1 id="CarinaStudio_Threading_IThreadDependent" data-uid="CarinaStudio.Threading.IThreadDependent" class="text-break">Interface IThreadDependent
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Object which depends on specific thread.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">ISynchronizable.SynchronizationContext</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_Threading_IThreadDependent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IThreadDependent : ISynchronizable</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a></h4>
-      <section><p>Scheduled action which will be performed by specific <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>. This is a thread-safe class.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.SingleThreadSynchronizationContext.html">SingleThreadSynchronizationContext</a></h4>
-      <section><p>Implementation of <span class="xref">System.Threading.SynchronizationContext</span> which uses single execution thread to handle posted call-backs. This is thread-safe class.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.SynchronizationContextExtensions.html">SynchronizationContextExtensions</a></h4>
-      <section><p>Extensions for <span class="xref">System.Threading.SynchronizationContext</span>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html">ThreadDependentExtensions</a></h4>
-      <section><p>Extensions for <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>.</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></h4>
-      <section><p>Object which relates to specific <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></h4>
-      <section><p>Object which depends on specific thread.</p>
-</section>
+  
+  
+  <a id="CarinaStudio_Threading_IThreadDependent_CheckAccess_" data-uid="CarinaStudio.Threading.IThreadDependent.CheckAccess*"></a>
+  <h4 id="CarinaStudio_Threading_IThreadDependent_CheckAccess" data-uid="CarinaStudio.Threading.IThreadDependent.CheckAccess">CheckAccess()</h4>
+  <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CheckAccess()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if current thread is the thread which object depends on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
+  </div>
 </article>
           </div>
           

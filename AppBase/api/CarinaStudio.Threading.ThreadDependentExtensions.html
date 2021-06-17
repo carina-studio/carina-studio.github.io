@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CarinaStudio.Threading
+    <title>Class ThreadDependentExtensions
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CarinaStudio.Threading
+    <meta name="title" content="Class ThreadDependentExtensions
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,35 +68,80 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading.ThreadDependentExtensions">
   
-  <h1 id="CarinaStudio_Threading" data-uid="CarinaStudio.Threading" class="text-break">Namespace CarinaStudio.Threading
+  
+  <h1 id="CarinaStudio_Threading_ThreadDependentExtensions" data-uid="CarinaStudio.Threading.ThreadDependentExtensions" class="text-break">Class ThreadDependentExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extensions for <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ThreadDependentExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_Threading_ThreadDependentExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ThreadDependentExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a></h4>
-      <section><p>Scheduled action which will be performed by specific <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>. This is a thread-safe class.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.SingleThreadSynchronizationContext.html">SingleThreadSynchronizationContext</a></h4>
-      <section><p>Implementation of <span class="xref">System.Threading.SynchronizationContext</span> which uses single execution thread to handle posted call-backs. This is thread-safe class.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.SynchronizationContextExtensions.html">SynchronizationContextExtensions</a></h4>
-      <section><p>Extensions for <span class="xref">System.Threading.SynchronizationContext</span>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html">ThreadDependentExtensions</a></h4>
-      <section><p>Extensions for <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>.</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></h4>
-      <section><p>Object which relates to specific <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></h4>
-      <section><p>Object which depends on specific thread.</p>
-</section>
+  
+  
+  <a id="CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_" data-uid="CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess*"></a>
+  <h4 id="CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_" data-uid="CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess(CarinaStudio.Threading.IThreadDependent)">VerifyAccess(IThreadDependent)</h4>
+  <div class="markdown level1 summary"><p>Throw <span class="xref">System.InvalidOperationException</span> if current thread is not the thread which object depends on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VerifyAccess(this IThreadDependent threadDependent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></td>
+        <td><span class="parametername">threadDependent</span></td>
+        <td><p><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

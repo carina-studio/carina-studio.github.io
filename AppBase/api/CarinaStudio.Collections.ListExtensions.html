@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ListExtensions
    | AppBase ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -174,6 +174,9 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> then returned <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> will also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+</div>
   
   
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
@@ -453,6 +456,263 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>Type of list element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Collections_Generic_IComparer___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IComparer{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, IComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list, IComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to check order of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Comparison___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Comparison{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, Comparison&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list, Comparison&lt;T&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td><p>Comparison method to check order of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_SelectRandomElement_" data-uid="CarinaStudio.Collections.ListExtensions.SelectRandomElement*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.SelectRandomElement``1(System.Collections.Generic.IList{``0})">SelectRandomElement&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Select an element from given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> randomly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SelectRandomElement&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Element selected from <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element.</p>
 </td>
       </tr>
     </tbody>

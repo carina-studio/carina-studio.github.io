@@ -8,7 +8,7 @@
     <title>&#128075;Introduction of AppBase | AppBase </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="&#128075;Introduction of AppBase | AppBase ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -65,7 +65,7 @@
 <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt=""></a>
 <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt=""></a></p>
 <h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
-<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 2 modules providing the following functions:</p>
+<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 3 packages providing the following functions:</p>
 <p>📦CarinaStudio.AppBase.Core</p>
 <ul>
 <li>Extensions for <code>System.Object</code> to make your code more elegant and clear. (<a href="articles/object_extensions.html">Learn more</a>)</li>
@@ -85,6 +85,11 @@
 <li>Class for key-value based application settings which supports various type of value.</li>
 <li>Save application settings to given file.</li>
 <li>Extensible settings serialization/deserializing. Implementations based-on JSON and XML format are included.</li>
+</ul>
+<p>📦CarinaStudio.AppBase.Application</p>
+<ul>
+<li><code>IApplication</code> to provide abstract interface to application instance no matter what UI framework you use.</li>
+<li><code>ViewModel</code> to provide base implementation of view-model including observable properties, logger, etc.</li>
 </ul>
 <h1 id="install-to-your-project">📥Install to your project</h1>
 <p>AppBase has been uploaded to <strong>NuGet</strong>, you can find it on:</p>

@@ -7,6 +7,70 @@ references:
   commentId: N:CarinaStudio
   fullName: CarinaStudio
   nameWithType: CarinaStudio
+- uid: CarinaStudio.ApplicationExtensions
+  name: ApplicationExtensions
+  href: api/CarinaStudio.ApplicationExtensions.html
+  commentId: T:CarinaStudio.ApplicationExtensions
+  fullName: CarinaStudio.ApplicationExtensions
+  nameWithType: ApplicationExtensions
+- uid: CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication,System.String)
+  name: CreatePrivateDirectory(IApplication, String)
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_CarinaStudio_IApplication_System_String_
+  commentId: M:CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication,System.String)
+  fullName: CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication, System.String)
+  nameWithType: ApplicationExtensions.CreatePrivateDirectory(IApplication, String)
+- uid: CarinaStudio.ApplicationExtensions.CreatePrivateDirectory*
+  name: CreatePrivateDirectory
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_
+  commentId: Overload:CarinaStudio.ApplicationExtensions.CreatePrivateDirectory
+  isSpec: "True"
+  fullName: CarinaStudio.ApplicationExtensions.CreatePrivateDirectory
+  nameWithType: ApplicationExtensions.CreatePrivateDirectory
+- uid: CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication,System.String,System.Object[])
+  name: GetFormattedString(IApplication, String, Object[])
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_GetFormattedString_CarinaStudio_IApplication_System_String_System_Object___
+  commentId: M:CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication,System.String,System.Object[])
+  name.vb: GetFormattedString(IApplication, String, Object())
+  fullName: CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication, System.String, System.Object[])
+  fullName.vb: CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication, System.String, System.Object())
+  nameWithType: ApplicationExtensions.GetFormattedString(IApplication, String, Object[])
+  nameWithType.vb: ApplicationExtensions.GetFormattedString(IApplication, String, Object())
+- uid: CarinaStudio.ApplicationExtensions.GetFormattedString*
+  name: GetFormattedString
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_GetFormattedString_
+  commentId: Overload:CarinaStudio.ApplicationExtensions.GetFormattedString
+  isSpec: "True"
+  fullName: CarinaStudio.ApplicationExtensions.GetFormattedString
+  nameWithType: ApplicationExtensions.GetFormattedString
+- uid: CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication,System.String,System.String)
+  name: GetStringNonNull(IApplication, String, String)
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_GetStringNonNull_CarinaStudio_IApplication_System_String_System_String_
+  commentId: M:CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication,System.String,System.String)
+  fullName: CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication, System.String, System.String)
+  nameWithType: ApplicationExtensions.GetStringNonNull(IApplication, String, String)
+- uid: CarinaStudio.ApplicationExtensions.GetStringNonNull*
+  name: GetStringNonNull
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_GetStringNonNull_
+  commentId: Overload:CarinaStudio.ApplicationExtensions.GetStringNonNull
+  isSpec: "True"
+  fullName: CarinaStudio.ApplicationExtensions.GetStringNonNull
+  nameWithType: ApplicationExtensions.GetStringNonNull
+- uid: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)
+  name: TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__
+  commentId: M:CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)
+  name.vb: TryCreatePrivateDirectory(IApplication, String, ByRef DirectoryInfo)
+  fullName: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication, System.String, out System.IO.DirectoryInfo)
+  fullName.vb: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication, System.String, ByRef System.IO.DirectoryInfo)
+  nameWithType: ApplicationExtensions.TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)
+  nameWithType.vb: ApplicationExtensions.TryCreatePrivateDirectory(IApplication, String, ByRef DirectoryInfo)
+- uid: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory*
+  name: TryCreatePrivateDirectory
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_
+  commentId: Overload:CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory
+  isSpec: "True"
+  fullName: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory
+  nameWithType: ApplicationExtensions.TryCreatePrivateDirectory
 - uid: CarinaStudio.ArrayExtensions
   name: ArrayExtensions
   href: api/CarinaStudio.ArrayExtensions.html
@@ -89,19 +153,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.BaseDisposable.IsDisposed
   nameWithType: BaseDisposable.IsDisposed
-- uid: CarinaStudio.BaseDisposable.ThrowIfDisposed
-  name: ThrowIfDisposed()
-  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_ThrowIfDisposed
-  commentId: M:CarinaStudio.BaseDisposable.ThrowIfDisposed
-  fullName: CarinaStudio.BaseDisposable.ThrowIfDisposed()
-  nameWithType: BaseDisposable.ThrowIfDisposed()
-- uid: CarinaStudio.BaseDisposable.ThrowIfDisposed*
-  name: ThrowIfDisposed
-  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_ThrowIfDisposed_
-  commentId: Overload:CarinaStudio.BaseDisposable.ThrowIfDisposed
+- uid: CarinaStudio.BaseDisposable.VerifyDisposed
+  name: VerifyDisposed()
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed
+  commentId: M:CarinaStudio.BaseDisposable.VerifyDisposed
+  fullName: CarinaStudio.BaseDisposable.VerifyDisposed()
+  nameWithType: BaseDisposable.VerifyDisposed()
+- uid: CarinaStudio.BaseDisposable.VerifyDisposed*
+  name: VerifyDisposed
+  href: api/CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed_
+  commentId: Overload:CarinaStudio.BaseDisposable.VerifyDisposed
   isSpec: "True"
-  fullName: CarinaStudio.BaseDisposable.ThrowIfDisposed
-  nameWithType: BaseDisposable.ThrowIfDisposed
+  fullName: CarinaStudio.BaseDisposable.VerifyDisposed
+  nameWithType: BaseDisposable.VerifyDisposed
 - uid: CarinaStudio.BaseShareableDisposable`1
   name: BaseShareableDisposable<TSelf>
   href: api/CarinaStudio.BaseShareableDisposable-1.html
@@ -384,6 +448,56 @@ references:
   fullName.vb: CarinaStudio.Collections.ListExtensions.CopyTo(Of T)(System.Collections.Generic.IList(Of T), System.Int32, T(), System.Int32, System.Int32)
   nameWithType: ListExtensions.CopyTo<T>(IList<T>, Int32, T[], Int32, Int32)
   nameWithType.vb: ListExtensions.CopyTo(Of T)(IList(Of T), Int32, T(), Int32, Int32)
+- uid: CarinaStudio.Collections.ListExtensions.IsSorted*
+  name: IsSorted
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.IsSorted
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.IsSorted
+  nameWithType: ListExtensions.IsSorted
+- uid: CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0})
+  name: IsSorted<T>(IList<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0})
+  name.vb: IsSorted(Of T)(IList(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.IsSorted<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.IsSorted(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: ListExtensions.IsSorted<T>(IList<T>)
+  nameWithType.vb: ListExtensions.IsSorted(Of T)(IList(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IComparer{``0})
+  name: IsSorted<T>(IList<T>, IComparer<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Collections_Generic_IComparer___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IComparer{``0})
+  name.vb: IsSorted(Of T)(IList(Of T), IComparer(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.IsSorted<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IComparer<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.IsSorted(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IComparer(Of T))
+  nameWithType: ListExtensions.IsSorted<T>(IList<T>, IComparer<T>)
+  nameWithType.vb: ListExtensions.IsSorted(Of T)(IList(Of T), IComparer(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Comparison{``0})
+  name: IsSorted<T>(IList<T>, Comparison<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Comparison___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Comparison{``0})
+  name.vb: IsSorted(Of T)(IList(Of T), Comparison(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.IsSorted<T>(System.Collections.Generic.IList<T>, System.Comparison<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.IsSorted(Of T)(System.Collections.Generic.IList(Of T), System.Comparison(Of T))
+  nameWithType: ListExtensions.IsSorted<T>(IList<T>, Comparison<T>)
+  nameWithType.vb: ListExtensions.IsSorted(Of T)(IList(Of T), Comparison(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.SelectRandomElement*
+  name: SelectRandomElement
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_SelectRandomElement_
+  commentId: Overload:CarinaStudio.Collections.ListExtensions.SelectRandomElement
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ListExtensions.SelectRandomElement
+  nameWithType: ListExtensions.SelectRandomElement
+- uid: CarinaStudio.Collections.ListExtensions.SelectRandomElement``1(System.Collections.Generic.IList{``0})
+  name: SelectRandomElement<T>(IList<T>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.Collections.ListExtensions.SelectRandomElement``1(System.Collections.Generic.IList{``0})
+  name.vb: SelectRandomElement(Of T)(IList(Of T))
+  fullName: CarinaStudio.Collections.ListExtensions.SelectRandomElement<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.SelectRandomElement(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: ListExtensions.SelectRandomElement<T>(IList<T>)
+  nameWithType.vb: ListExtensions.SelectRandomElement(Of T)(IList(Of T))
 - uid: CarinaStudio.Collections.ListExtensions.Shuffle*
   name: Shuffle
   href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle_
@@ -425,6 +539,544 @@ references:
   fullName.vb: CarinaStudio.Collections.ListExtensions.ToArray(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
   nameWithType: ListExtensions.ToArray<T>(IList<T>, Int32, Int32)
   nameWithType.vb: ListExtensions.ToArray(Of T)(IList(Of T), Int32, Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1
+  name: ReadOnlyObservableList<T>
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html
+  commentId: T:CarinaStudio.Collections.ReadOnlyObservableList`1
+  name.vb: ReadOnlyObservableList(Of T)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T)
+  nameWithType: ReadOnlyObservableList<T>
+  nameWithType.vb: ReadOnlyObservableList(Of T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.#ctor(System.Collections.Generic.IList{`0})
+  name: ReadOnlyObservableList(IList<T>)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1__ctor_System_Collections_Generic_IList__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.#ctor(System.Collections.Generic.IList{`0})
+  name.vb: ReadOnlyObservableList(IList(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.ReadOnlyObservableList(System.Collections.Generic.IList<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).ReadOnlyObservableList(System.Collections.Generic.IList(Of T))
+  nameWithType: ReadOnlyObservableList<T>.ReadOnlyObservableList(IList<T>)
+  nameWithType.vb: ReadOnlyObservableList(Of T).ReadOnlyObservableList(IList(Of T))
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.#ctor*
+  name: ReadOnlyObservableList
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1__ctor_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.ReadOnlyObservableList
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).ReadOnlyObservableList
+  nameWithType: ReadOnlyObservableList<T>.ReadOnlyObservableList
+  nameWithType.vb: ReadOnlyObservableList(Of T).ReadOnlyObservableList
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.CollectionChanged
+  name: CollectionChanged
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_CollectionChanged
+  commentId: E:CarinaStudio.Collections.ReadOnlyObservableList`1.CollectionChanged
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.CollectionChanged
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).CollectionChanged
+  nameWithType: ReadOnlyObservableList<T>.CollectionChanged
+  nameWithType.vb: ReadOnlyObservableList(Of T).CollectionChanged
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Contains(`0)
+  name: Contains(T)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Contains__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.Contains(`0)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Contains(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Contains(T)
+  nameWithType: ReadOnlyObservableList<T>.Contains(T)
+  nameWithType.vb: ReadOnlyObservableList(Of T).Contains(T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Contains*
+  name: Contains
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Contains_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.Contains
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Contains
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Contains
+  nameWithType: ReadOnlyObservableList<T>.Contains
+  nameWithType.vb: ReadOnlyObservableList(Of T).Contains
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_CopyTo__0___System_Int32_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.CopyTo(T[], System.Int32)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).CopyTo(T(), System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.CopyTo(T[], Int32)
+  nameWithType.vb: ReadOnlyObservableList(Of T).CopyTo(T(), Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.CopyTo*
+  name: CopyTo
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.CopyTo
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.CopyTo
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).CopyTo
+  nameWithType: ReadOnlyObservableList<T>.CopyTo
+  nameWithType.vb: ReadOnlyObservableList(Of T).CopyTo
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Count
+  name: Count
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Count
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.Count
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Count
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Count
+  nameWithType: ReadOnlyObservableList<T>.Count
+  nameWithType.vb: ReadOnlyObservableList(Of T).Count
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Count*
+  name: Count
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Count_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.Count
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Count
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Count
+  nameWithType: ReadOnlyObservableList<T>.Count
+  nameWithType.vb: ReadOnlyObservableList(Of T).Count
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_GetEnumerator
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.GetEnumerator
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).GetEnumerator()
+  nameWithType: ReadOnlyObservableList<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyObservableList(Of T).GetEnumerator()
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.GetEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).GetEnumerator
+  nameWithType: ReadOnlyObservableList<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyObservableList(Of T).GetEnumerator
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_IndexOf__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.IndexOf(`0)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.IndexOf(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).IndexOf(T)
+  nameWithType: ReadOnlyObservableList<T>.IndexOf(T)
+  nameWithType.vb: ReadOnlyObservableList(Of T).IndexOf(T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.IndexOf*
+  name: IndexOf
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.IndexOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.IndexOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).IndexOf
+  nameWithType: ReadOnlyObservableList<T>.IndexOf
+  nameWithType.vb: ReadOnlyObservableList(Of T).IndexOf
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Item(System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.Item[Int32]
+  nameWithType.vb: ReadOnlyObservableList(Of T).Item(Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.Item*
+  name: Item
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_Item_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.Item
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.Item
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Item
+  nameWithType: ReadOnlyObservableList<T>.Item
+  nameWithType.vb: ReadOnlyObservableList(Of T).Item
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name: ICollection<T>.Add(T)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Add__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<T>.Add(T)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Add(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Add(T)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Add*
+  name: ICollection<T>.Add
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Add_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Add
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Add
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Add
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Add
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Add
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Clear
+  name: ICollection<T>.Clear()
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Clear
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Clear
+  name.vb: System.Collections.Generic.ICollection<T>.Clear()
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Clear()
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Clear()
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Clear()
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Clear*
+  name: ICollection<T>.Clear
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Clear_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Clear
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Clear
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Clear
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Clear
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Clear
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Clear
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__IsReadOnly
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly*
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  name: ICollection<T>.Remove(T)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Remove__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  name.vb: System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Remove(T)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Remove(T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Remove*
+  name: ICollection<T>.Remove
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Remove_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Remove
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Remove
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.ICollection<T>.Remove
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Remove
+  nameWithType: ReadOnlyObservableList<T>.ICollection<T>.Remove
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.ICollection<T>.Remove
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  name: IList<T>.Insert(Int32, T)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__Insert_System_Int32__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)
+  name.vb: System.Collections.Generic.IList<T>.Insert(Int32, T)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Insert(System.Int32, T)
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.Insert(Int32, T)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Insert(Int32, T)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Insert*
+  name: IList<T>.Insert
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__Insert_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Insert
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.Insert
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.Insert
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Insert
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.Insert
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Insert
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  name: IList<T>.Item[Int32]
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Item(System.Int32)
+  name.vb: System.Collections.Generic.IList<T>.Item(Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Item(System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.Item[Int32]
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Item(Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Item*
+  name: IList<T>.Item
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__Item_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#Item
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.Item
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.Item
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Item
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.Item
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.Item
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  name: IList<T>.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
+  name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.RemoveAt(Int32)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#RemoveAt*
+  name: IList<T>.RemoveAt
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_IList_T__RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#IList{T}#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IList<T>.RemoveAt
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.Generic.IList<T>.RemoveAt
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt
+  nameWithType: ReadOnlyObservableList<T>.IList<T>.RemoveAt
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name: ICollection.CopyTo(Array, Int32)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_CopyTo_System_Array_System_Int32_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.ICollection.CopyTo(Array, Int32)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.CopyTo(Array, Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#CopyTo*
+  name: ICollection.CopyTo
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.CopyTo
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.CopyTo
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.CopyTo
+  nameWithType: ReadOnlyObservableList<T>.ICollection.CopyTo
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.CopyTo
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#IsSynchronized
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_IsSynchronized
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.IsSynchronized
+  nameWithType: ReadOnlyObservableList<T>.ICollection.IsSynchronized
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#IsSynchronized*
+  name: ICollection.IsSynchronized
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_IsSynchronized_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#IsSynchronized
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.IsSynchronized
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.IsSynchronized
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.IsSynchronized
+  nameWithType: ReadOnlyObservableList<T>.ICollection.IsSynchronized
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.IsSynchronized
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#SyncRoot
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_SyncRoot
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.SyncRoot
+  nameWithType: ReadOnlyObservableList<T>.ICollection.SyncRoot
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#SyncRoot*
+  name: ICollection.SyncRoot
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_ICollection_SyncRoot_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#ICollection#SyncRoot
+  isSpec: "True"
+  name.vb: System.Collections.ICollection.SyncRoot
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.ICollection.SyncRoot
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.ICollection.SyncRoot
+  nameWithType: ReadOnlyObservableList<T>.ICollection.SyncRoot
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.ICollection.SyncRoot
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ReadOnlyObservableList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ReadOnlyObservableList<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Add(System.Object)
+  name: IList.Add(Object)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Add_System_Object_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Add(System.Object)
+  name.vb: System.Collections.IList.Add(Object)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Add(System.Object)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Add(System.Object)
+  nameWithType: ReadOnlyObservableList<T>.IList.Add(Object)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Add(Object)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Add*
+  name: IList.Add
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Add_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Add
+  isSpec: "True"
+  name.vb: System.Collections.IList.Add
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Add
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Add
+  nameWithType: ReadOnlyObservableList<T>.IList.Add
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Add
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Clear
+  name: IList.Clear()
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Clear
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Clear
+  name.vb: System.Collections.IList.Clear()
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Clear()
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Clear()
+  nameWithType: ReadOnlyObservableList<T>.IList.Clear()
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Clear()
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Clear*
+  name: IList.Clear
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Clear_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Clear
+  isSpec: "True"
+  name.vb: System.Collections.IList.Clear
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Clear
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Clear
+  nameWithType: ReadOnlyObservableList<T>.IList.Clear
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Clear
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Contains(System.Object)
+  name: IList.Contains(Object)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Contains_System_Object_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Contains(System.Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Contains(System.Object)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Contains(System.Object)
+  nameWithType: ReadOnlyObservableList<T>.IList.Contains(Object)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Contains(Object)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Contains*
+  name: IList.Contains
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Contains_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Contains
+  isSpec: "True"
+  name.vb: System.Collections.IList.Contains
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Contains
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Contains
+  nameWithType: ReadOnlyObservableList<T>.IList.Contains
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Contains
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IndexOf(System.Object)
+  name: IList.IndexOf(Object)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IndexOf_System_Object_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IndexOf(System.Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IndexOf(System.Object)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IndexOf(System.Object)
+  nameWithType: ReadOnlyObservableList<T>.IList.IndexOf(Object)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IndexOf(Object)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IndexOf*
+  name: IList.IndexOf
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IndexOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IndexOf
+  isSpec: "True"
+  name.vb: System.Collections.IList.IndexOf
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IndexOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IndexOf
+  nameWithType: ReadOnlyObservableList<T>.IList.IndexOf
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IndexOf
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  name: IList.Insert(Int32, Object)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Insert_System_Int32_System_Object_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Insert(System.Int32,System.Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Insert(System.Int32, System.Object)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Insert(System.Int32, System.Object)
+  nameWithType: ReadOnlyObservableList<T>.IList.Insert(Int32, Object)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Insert(Int32, Object)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Insert*
+  name: IList.Insert
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Insert_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Insert
+  isSpec: "True"
+  name.vb: System.Collections.IList.Insert
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Insert
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Insert
+  nameWithType: ReadOnlyObservableList<T>.IList.Insert
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Insert
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsFixedSize
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IsFixedSize
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IsFixedSize
+  nameWithType: ReadOnlyObservableList<T>.IList.IsFixedSize
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsFixedSize*
+  name: IList.IsFixedSize
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IsFixedSize_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsFixedSize
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsFixedSize
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IsFixedSize
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IsFixedSize
+  nameWithType: ReadOnlyObservableList<T>.IList.IsFixedSize
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IsFixedSize
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsReadOnly
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IsReadOnly
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IsReadOnly
+  nameWithType: ReadOnlyObservableList<T>.IList.IsReadOnly
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsReadOnly*
+  name: IList.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.IList.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.IsReadOnly
+  nameWithType: ReadOnlyObservableList<T>.IList.IsReadOnly
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Item(System.Int32)
+  name: IList.Item[Int32]
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Item_System_Int32_
+  commentId: P:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Item[System.Int32]
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Item(System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.IList.Item[Int32]
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Item(Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Item*
+  name: IList.Item
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Item_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Item
+  isSpec: "True"
+  name.vb: System.Collections.IList.Item
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Item
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Item
+  nameWithType: ReadOnlyObservableList<T>.IList.Item
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Item
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Remove(System.Object)
+  name: IList.Remove(Object)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Remove_System_Object_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Remove(System.Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Remove(System.Object)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Remove(System.Object)
+  nameWithType: ReadOnlyObservableList<T>.IList.Remove(Object)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Remove(Object)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Remove*
+  name: IList.Remove
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_Remove_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#Remove
+  isSpec: "True"
+  name.vb: System.Collections.IList.Remove
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.Remove
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.Remove
+  nameWithType: ReadOnlyObservableList<T>.IList.Remove
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.Remove
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#RemoveAt(System.Int32)
+  name: IList.RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#RemoveAt(System.Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt(System.Int32)
+  nameWithType: ReadOnlyObservableList<T>.IList.RemoveAt(Int32)
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt(Int32)
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#RemoveAt*
+  name: IList.RemoveAt
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_IList_RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#IList#RemoveAt
+  isSpec: "True"
+  name.vb: System.Collections.IList.RemoveAt
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.System.Collections.IList.RemoveAt
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt
+  nameWithType: ReadOnlyObservableList<T>.IList.RemoveAt
+  nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt
 - uid: CarinaStudio.Collections.SortedList`1
   name: SortedList<T>
   href: api/CarinaStudio.Collections.SortedList-1.html
@@ -2695,6 +3347,96 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.Use(Of T, R)(T, System.Func(Of T, R))
   nameWithType: DisposableExtensions.Use<T, R>(T, Func<T, R>)
   nameWithType.vb: DisposableExtensions.Use(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.IApplication
+  name: IApplication
+  href: api/CarinaStudio.IApplication.html
+  commentId: T:CarinaStudio.IApplication
+  fullName: CarinaStudio.IApplication
+  nameWithType: IApplication
+- uid: CarinaStudio.IApplication.GetString(System.String,System.String)
+  name: GetString(String, String)
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_GetString_System_String_System_String_
+  commentId: M:CarinaStudio.IApplication.GetString(System.String,System.String)
+  fullName: CarinaStudio.IApplication.GetString(System.String, System.String)
+  nameWithType: IApplication.GetString(String, String)
+- uid: CarinaStudio.IApplication.GetString*
+  name: GetString
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_GetString_
+  commentId: Overload:CarinaStudio.IApplication.GetString
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.GetString
+  nameWithType: IApplication.GetString
+- uid: CarinaStudio.IApplication.IsShutdownStarted
+  name: IsShutdownStarted
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_IsShutdownStarted
+  commentId: P:CarinaStudio.IApplication.IsShutdownStarted
+  fullName: CarinaStudio.IApplication.IsShutdownStarted
+  nameWithType: IApplication.IsShutdownStarted
+- uid: CarinaStudio.IApplication.IsShutdownStarted*
+  name: IsShutdownStarted
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_IsShutdownStarted_
+  commentId: Overload:CarinaStudio.IApplication.IsShutdownStarted
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.IsShutdownStarted
+  nameWithType: IApplication.IsShutdownStarted
+- uid: CarinaStudio.IApplication.LoggerFactory
+  name: LoggerFactory
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_LoggerFactory
+  commentId: P:CarinaStudio.IApplication.LoggerFactory
+  fullName: CarinaStudio.IApplication.LoggerFactory
+  nameWithType: IApplication.LoggerFactory
+- uid: CarinaStudio.IApplication.LoggerFactory*
+  name: LoggerFactory
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_LoggerFactory_
+  commentId: Overload:CarinaStudio.IApplication.LoggerFactory
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.LoggerFactory
+  nameWithType: IApplication.LoggerFactory
+- uid: CarinaStudio.IApplication.RootPrivateDirectoryPath
+  name: RootPrivateDirectoryPath
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_RootPrivateDirectoryPath
+  commentId: P:CarinaStudio.IApplication.RootPrivateDirectoryPath
+  fullName: CarinaStudio.IApplication.RootPrivateDirectoryPath
+  nameWithType: IApplication.RootPrivateDirectoryPath
+- uid: CarinaStudio.IApplication.RootPrivateDirectoryPath*
+  name: RootPrivateDirectoryPath
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_RootPrivateDirectoryPath_
+  commentId: Overload:CarinaStudio.IApplication.RootPrivateDirectoryPath
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.RootPrivateDirectoryPath
+  nameWithType: IApplication.RootPrivateDirectoryPath
+- uid: CarinaStudio.IApplication.Settings
+  name: Settings
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_Settings
+  commentId: P:CarinaStudio.IApplication.Settings
+  fullName: CarinaStudio.IApplication.Settings
+  nameWithType: IApplication.Settings
+- uid: CarinaStudio.IApplication.Settings*
+  name: Settings
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_Settings_
+  commentId: Overload:CarinaStudio.IApplication.Settings
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.Settings
+  nameWithType: IApplication.Settings
+- uid: CarinaStudio.IApplicationObject
+  name: IApplicationObject
+  href: api/CarinaStudio.IApplicationObject.html
+  commentId: T:CarinaStudio.IApplicationObject
+  fullName: CarinaStudio.IApplicationObject
+  nameWithType: IApplicationObject
+- uid: CarinaStudio.IApplicationObject.Application
+  name: Application
+  href: api/CarinaStudio.IApplicationObject.html#CarinaStudio_IApplicationObject_Application
+  commentId: P:CarinaStudio.IApplicationObject.Application
+  fullName: CarinaStudio.IApplicationObject.Application
+  nameWithType: IApplicationObject.Application
+- uid: CarinaStudio.IApplicationObject.Application*
+  name: Application
+  href: api/CarinaStudio.IApplicationObject.html#CarinaStudio_IApplicationObject_Application_
+  commentId: Overload:CarinaStudio.IApplicationObject.Application
+  isSpec: "True"
+  fullName: CarinaStudio.IApplicationObject.Application
+  nameWithType: IApplicationObject.Application
 - uid: CarinaStudio.InternalStateCorruptedException
   name: InternalStateCorruptedException
   href: api/CarinaStudio.InternalStateCorruptedException.html
@@ -3326,6 +4068,23 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).GetHashCode
   nameWithType: ObservableValue<T>.GetHashCode
   nameWithType.vb: ObservableValue(Of T).GetHashCode
+- uid: CarinaStudio.ObservableValue`1.HasObservers
+  name: HasObservers
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_HasObservers
+  commentId: P:CarinaStudio.ObservableValue`1.HasObservers
+  fullName: CarinaStudio.ObservableValue<T>.HasObservers
+  fullName.vb: CarinaStudio.ObservableValue(Of T).HasObservers
+  nameWithType: ObservableValue<T>.HasObservers
+  nameWithType.vb: ObservableValue(Of T).HasObservers
+- uid: CarinaStudio.ObservableValue`1.HasObservers*
+  name: HasObservers
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_HasObservers_
+  commentId: Overload:CarinaStudio.ObservableValue`1.HasObservers
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableValue<T>.HasObservers
+  fullName.vb: CarinaStudio.ObservableValue(Of T).HasObservers
+  nameWithType: ObservableValue<T>.HasObservers
+  nameWithType.vb: ObservableValue(Of T).HasObservers
 - uid: CarinaStudio.ObservableValue`1.IsNotNull
   name: IsNotNull
   href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNotNull
@@ -3545,6 +4304,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ISynchronizable.SynchronizationContext
   nameWithType: ISynchronizable.SynchronizationContext
+- uid: CarinaStudio.Threading.IThreadDependent
+  name: IThreadDependent
+  href: api/CarinaStudio.Threading.IThreadDependent.html
+  commentId: T:CarinaStudio.Threading.IThreadDependent
+  fullName: CarinaStudio.Threading.IThreadDependent
+  nameWithType: IThreadDependent
+- uid: CarinaStudio.Threading.IThreadDependent.CheckAccess
+  name: CheckAccess()
+  href: api/CarinaStudio.Threading.IThreadDependent.html#CarinaStudio_Threading_IThreadDependent_CheckAccess
+  commentId: M:CarinaStudio.Threading.IThreadDependent.CheckAccess
+  fullName: CarinaStudio.Threading.IThreadDependent.CheckAccess()
+  nameWithType: IThreadDependent.CheckAccess()
+- uid: CarinaStudio.Threading.IThreadDependent.CheckAccess*
+  name: CheckAccess
+  href: api/CarinaStudio.Threading.IThreadDependent.html#CarinaStudio_Threading_IThreadDependent_CheckAccess_
+  commentId: Overload:CarinaStudio.Threading.IThreadDependent.CheckAccess
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.IThreadDependent.CheckAccess
+  nameWithType: IThreadDependent.CheckAccess
 - uid: CarinaStudio.Threading.ScheduledAction
   name: ScheduledAction
   href: api/CarinaStudio.Threading.ScheduledAction.html
@@ -3944,3 +4722,410 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.TryExecuteTaskInline
   nameWithType: FixedThreadsTaskScheduler.TryExecuteTaskInline
+- uid: CarinaStudio.Threading.ThreadDependentExtensions
+  name: ThreadDependentExtensions
+  href: api/CarinaStudio.Threading.ThreadDependentExtensions.html
+  commentId: T:CarinaStudio.Threading.ThreadDependentExtensions
+  fullName: CarinaStudio.Threading.ThreadDependentExtensions
+  nameWithType: ThreadDependentExtensions
+- uid: CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess(CarinaStudio.Threading.IThreadDependent)
+  name: VerifyAccess(IThreadDependent)
+  href: api/CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_
+  commentId: M:CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess(CarinaStudio.Threading.IThreadDependent)
+  fullName: CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess(CarinaStudio.Threading.IThreadDependent)
+  nameWithType: ThreadDependentExtensions.VerifyAccess(IThreadDependent)
+- uid: CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess*
+  name: VerifyAccess
+  href: api/CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_
+  commentId: Overload:CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess
+  nameWithType: ThreadDependentExtensions.VerifyAccess
+- uid: CarinaStudio.ViewModels
+  name: CarinaStudio.ViewModels
+  href: api/CarinaStudio.ViewModels.html
+  commentId: N:CarinaStudio.ViewModels
+  fullName: CarinaStudio.ViewModels
+  nameWithType: CarinaStudio.ViewModels
+- uid: CarinaStudio.ViewModels.ObservableProperty
+  name: ObservableProperty
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html
+  commentId: T:CarinaStudio.ViewModels.ObservableProperty
+  fullName: CarinaStudio.ViewModels.ObservableProperty
+  nameWithType: ObservableProperty
+- uid: CarinaStudio.ViewModels.ObservableProperty.Comparer
+  name: Comparer
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Comparer
+  commentId: F:CarinaStudio.ViewModels.ObservableProperty.Comparer
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Comparer
+  nameWithType: ObservableProperty.Comparer
+- uid: CarinaStudio.ViewModels.ObservableProperty.GetHashCode
+  name: GetHashCode()
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_GetHashCode
+  commentId: M:CarinaStudio.ViewModels.ObservableProperty.GetHashCode
+  fullName: CarinaStudio.ViewModels.ObservableProperty.GetHashCode()
+  nameWithType: ObservableProperty.GetHashCode()
+- uid: CarinaStudio.ViewModels.ObservableProperty.GetHashCode*
+  name: GetHashCode
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_GetHashCode_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.GetHashCode
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.GetHashCode
+  nameWithType: ObservableProperty.GetHashCode
+- uid: CarinaStudio.ViewModels.ObservableProperty.Id
+  name: Id
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Id
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty.Id
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Id
+  nameWithType: ObservableProperty.Id
+- uid: CarinaStudio.ViewModels.ObservableProperty.Id*
+  name: Id
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Id_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.Id
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Id
+  nameWithType: ObservableProperty.Id
+- uid: CarinaStudio.ViewModels.ObservableProperty.Name
+  name: Name
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Name
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty.Name
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Name
+  nameWithType: ObservableProperty.Name
+- uid: CarinaStudio.ViewModels.ObservableProperty.Name*
+  name: Name
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Name_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.Name
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Name
+  nameWithType: ObservableProperty.Name
+- uid: CarinaStudio.ViewModels.ObservableProperty.OwnerType
+  name: OwnerType
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_OwnerType
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty.OwnerType
+  fullName: CarinaStudio.ViewModels.ObservableProperty.OwnerType
+  nameWithType: ObservableProperty.OwnerType
+- uid: CarinaStudio.ViewModels.ObservableProperty.OwnerType*
+  name: OwnerType
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_OwnerType_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.OwnerType
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.OwnerType
+  nameWithType: ObservableProperty.OwnerType
+- uid: CarinaStudio.ViewModels.ObservableProperty.Register*
+  name: Register
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Register_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.Register
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Register
+  nameWithType: ObservableProperty.Register
+- uid: CarinaStudio.ViewModels.ObservableProperty.Register``2(System.String,``1,System.Func{``1,``1},System.Predicate{``1})
+  name: Register<TOwner, TValue>(String, TValue, Func<TValue, TValue>, Predicate<TValue>)
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Register__2_System_String___1_System_Func___1___1__System_Predicate___1__
+  commentId: M:CarinaStudio.ViewModels.ObservableProperty.Register``2(System.String,``1,System.Func{``1,``1},System.Predicate{``1})
+  name.vb: Register(Of TOwner, TValue)(String, TValue, Func(Of TValue, TValue), Predicate(Of TValue))
+  fullName: CarinaStudio.ViewModels.ObservableProperty.Register<TOwner, TValue>(System.String, TValue, System.Func<TValue, TValue>, System.Predicate<TValue>)
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty.Register(Of TOwner, TValue)(System.String, TValue, System.Func(Of TValue, TValue), System.Predicate(Of TValue))
+  nameWithType: ObservableProperty.Register<TOwner, TValue>(String, TValue, Func<TValue, TValue>, Predicate<TValue>)
+  nameWithType.vb: ObservableProperty.Register(Of TOwner, TValue)(String, TValue, Func(Of TValue, TValue), Predicate(Of TValue))
+- uid: CarinaStudio.ViewModels.ObservableProperty.ValueType
+  name: ValueType
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_ValueType
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty.ValueType
+  fullName: CarinaStudio.ViewModels.ObservableProperty.ValueType
+  nameWithType: ObservableProperty.ValueType
+- uid: CarinaStudio.ViewModels.ObservableProperty.ValueType*
+  name: ValueType
+  href: api/CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_ValueType_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty.ValueType
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty.ValueType
+  nameWithType: ObservableProperty.ValueType
+- uid: CarinaStudio.ViewModels.ObservableProperty`1
+  name: ObservableProperty<T>
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html
+  commentId: T:CarinaStudio.ViewModels.ObservableProperty`1
+  name.vb: ObservableProperty(Of T)
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T)
+  nameWithType: ObservableProperty<T>
+  nameWithType.vb: ObservableProperty(Of T)
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.CoercionFunction
+  name: CoercionFunction
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_CoercionFunction
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty`1.CoercionFunction
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.CoercionFunction
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).CoercionFunction
+  nameWithType: ObservableProperty<T>.CoercionFunction
+  nameWithType.vb: ObservableProperty(Of T).CoercionFunction
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.CoercionFunction*
+  name: CoercionFunction
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_CoercionFunction_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty`1.CoercionFunction
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.CoercionFunction
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).CoercionFunction
+  nameWithType: ObservableProperty<T>.CoercionFunction
+  nameWithType.vb: ObservableProperty(Of T).CoercionFunction
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.DefaultValue
+  name: DefaultValue
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_DefaultValue
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty`1.DefaultValue
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.DefaultValue
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).DefaultValue
+  nameWithType: ObservableProperty<T>.DefaultValue
+  nameWithType.vb: ObservableProperty(Of T).DefaultValue
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.DefaultValue*
+  name: DefaultValue
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_DefaultValue_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty`1.DefaultValue
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.DefaultValue
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).DefaultValue
+  nameWithType: ObservableProperty<T>.DefaultValue
+  nameWithType.vb: ObservableProperty(Of T).DefaultValue
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.ValidationFunction
+  name: ValidationFunction
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_ValidationFunction
+  commentId: P:CarinaStudio.ViewModels.ObservableProperty`1.ValidationFunction
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.ValidationFunction
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).ValidationFunction
+  nameWithType: ObservableProperty<T>.ValidationFunction
+  nameWithType.vb: ObservableProperty(Of T).ValidationFunction
+- uid: CarinaStudio.ViewModels.ObservableProperty`1.ValidationFunction*
+  name: ValidationFunction
+  href: api/CarinaStudio.ViewModels.ObservableProperty-1.html#CarinaStudio_ViewModels_ObservableProperty_1_ValidationFunction_
+  commentId: Overload:CarinaStudio.ViewModels.ObservableProperty`1.ValidationFunction
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ObservableProperty<T>.ValidationFunction
+  fullName.vb: CarinaStudio.ViewModels.ObservableProperty(Of T).ValidationFunction
+  nameWithType: ObservableProperty<T>.ValidationFunction
+  nameWithType.vb: ObservableProperty(Of T).ValidationFunction
+- uid: CarinaStudio.ViewModels.ViewModel
+  name: ViewModel
+  href: api/CarinaStudio.ViewModels.ViewModel.html
+  commentId: T:CarinaStudio.ViewModels.ViewModel
+  fullName: CarinaStudio.ViewModels.ViewModel
+  nameWithType: ViewModel
+- uid: CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)
+  name: ViewModel(IApplication)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.ViewModels.ViewModel.ViewModel(CarinaStudio.IApplication)
+  nameWithType: ViewModel.ViewModel(IApplication)
+- uid: CarinaStudio.ViewModels.ViewModel.#ctor*
+  name: ViewModel
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.ViewModel
+  nameWithType: ViewModel.ViewModel
+- uid: CarinaStudio.ViewModels.ViewModel.Application
+  name: Application
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Application
+  commentId: P:CarinaStudio.ViewModels.ViewModel.Application
+  fullName: CarinaStudio.ViewModels.ViewModel.Application
+  nameWithType: ViewModel.Application
+- uid: CarinaStudio.ViewModels.ViewModel.Application*
+  name: Application
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Application_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Application
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Application
+  nameWithType: ViewModel.Application
+- uid: CarinaStudio.ViewModels.ViewModel.CheckAccess
+  name: CheckAccess()
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_CheckAccess
+  commentId: M:CarinaStudio.ViewModels.ViewModel.CheckAccess
+  fullName: CarinaStudio.ViewModels.ViewModel.CheckAccess()
+  nameWithType: ViewModel.CheckAccess()
+- uid: CarinaStudio.ViewModels.ViewModel.CheckAccess*
+  name: CheckAccess
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_CheckAccess_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.CheckAccess
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.CheckAccess
+  nameWithType: ViewModel.CheckAccess
+- uid: CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)
+  fullName: CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)
+  nameWithType: ViewModel.Dispose(Boolean)
+- uid: CarinaStudio.ViewModels.ViewModel.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Dispose_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Dispose
+  nameWithType: ViewModel.Dispose
+- uid: CarinaStudio.ViewModels.ViewModel.GetValue*
+  name: GetValue
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValue_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.GetValue
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.GetValue
+  nameWithType: ViewModel.GetValue
+- uid: CarinaStudio.ViewModels.ViewModel.GetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name: GetValue<T>(ObservableProperty<T>)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__
+  commentId: M:CarinaStudio.ViewModels.ViewModel.GetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name.vb: GetValue(Of T)(ObservableProperty(Of T))
+  fullName: CarinaStudio.ViewModels.ViewModel.GetValue<T>(CarinaStudio.ViewModels.ObservableProperty<T>)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel.GetValue(Of T)(CarinaStudio.ViewModels.ObservableProperty(Of T))
+  nameWithType: ViewModel.GetValue<T>(ObservableProperty<T>)
+  nameWithType.vb: ViewModel.GetValue(Of T)(ObservableProperty(Of T))
+- uid: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable*
+  name: GetValueAsObservable
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValueAsObservable_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.GetValueAsObservable
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable
+  nameWithType: ViewModel.GetValueAsObservable
+- uid: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name: GetValueAsObservable<T>(ObservableProperty<T>)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__
+  commentId: M:CarinaStudio.ViewModels.ViewModel.GetValueAsObservable``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name.vb: GetValueAsObservable(Of T)(ObservableProperty(Of T))
+  fullName: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable<T>(CarinaStudio.ViewModels.ObservableProperty<T>)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable(Of T)(CarinaStudio.ViewModels.ObservableProperty(Of T))
+  nameWithType: ViewModel.GetValueAsObservable<T>(ObservableProperty<T>)
+  nameWithType.vb: ViewModel.GetValueAsObservable(Of T)(ObservableProperty(Of T))
+- uid: CarinaStudio.ViewModels.ViewModel.Id
+  name: Id
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id
+  commentId: P:CarinaStudio.ViewModels.ViewModel.Id
+  fullName: CarinaStudio.ViewModels.ViewModel.Id
+  nameWithType: ViewModel.Id
+- uid: CarinaStudio.ViewModels.ViewModel.Id*
+  name: Id
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Id
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Id
+  nameWithType: ViewModel.Id
+- uid: CarinaStudio.ViewModels.ViewModel.Logger
+  name: Logger
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Logger
+  commentId: P:CarinaStudio.ViewModels.ViewModel.Logger
+  fullName: CarinaStudio.ViewModels.ViewModel.Logger
+  nameWithType: ViewModel.Logger
+- uid: CarinaStudio.ViewModels.ViewModel.Logger*
+  name: Logger
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Logger_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Logger
+  nameWithType: ViewModel.Logger
+- uid: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  name: OnApplicationPropertyChanged(PropertyChangedEventArgs)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
+  nameWithType: ViewModel.OnApplicationPropertyChanged(PropertyChangedEventArgs)
+- uid: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged*
+  name: OnApplicationPropertyChanged
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged
+  nameWithType: ViewModel.OnApplicationPropertyChanged
+- uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
+  name: OnPropertyChanged(ObservableProperty, Object, Object)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty, System.Object, System.Object)
+  nameWithType: ViewModel.OnPropertyChanged(ObservableProperty, Object, Object)
+- uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnPropertyChanged
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged
+  nameWithType: ViewModel.OnPropertyChanged
+- uid: CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)
+  name: OnSettingChanged(SettingChangedEventArgs)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)
+  nameWithType: ViewModel.OnSettingChanged(SettingChangedEventArgs)
+- uid: CarinaStudio.ViewModels.ViewModel.OnSettingChanged*
+  name: OnSettingChanged
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanged_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnSettingChanged
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnSettingChanged
+  nameWithType: ViewModel.OnSettingChanged
+- uid: CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)
+  name: OnSettingChanging(SettingChangingEventArgs)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)
+  nameWithType: ViewModel.OnSettingChanging(SettingChangingEventArgs)
+- uid: CarinaStudio.ViewModels.ViewModel.OnSettingChanging*
+  name: OnSettingChanging
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanging_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnSettingChanging
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnSettingChanging
+  nameWithType: ViewModel.OnSettingChanging
+- uid: CarinaStudio.ViewModels.ViewModel.PropertyChanged
+  name: PropertyChanged
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged
+  commentId: E:CarinaStudio.ViewModels.ViewModel.PropertyChanged
+  fullName: CarinaStudio.ViewModels.ViewModel.PropertyChanged
+  nameWithType: ViewModel.PropertyChanged
+- uid: CarinaStudio.ViewModels.ViewModel.Settings
+  name: Settings
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Settings
+  commentId: P:CarinaStudio.ViewModels.ViewModel.Settings
+  fullName: CarinaStudio.ViewModels.ViewModel.Settings
+  nameWithType: ViewModel.Settings
+- uid: CarinaStudio.ViewModels.ViewModel.Settings*
+  name: Settings
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Settings_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Settings
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Settings
+  nameWithType: ViewModel.Settings
+- uid: CarinaStudio.ViewModels.ViewModel.SetValue*
+  name: SetValue
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SetValue_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.SetValue
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.SetValue
+  nameWithType: ViewModel.SetValue
+- uid: CarinaStudio.ViewModels.ViewModel.SetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)
+  name: SetValue<T>(ObservableProperty<T>, T)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.SetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)
+  name.vb: SetValue(Of T)(ObservableProperty(Of T), T)
+  fullName: CarinaStudio.ViewModels.ViewModel.SetValue<T>(CarinaStudio.ViewModels.ObservableProperty<T>, T)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel.SetValue(Of T)(CarinaStudio.ViewModels.ObservableProperty(Of T), T)
+  nameWithType: ViewModel.SetValue<T>(ObservableProperty<T>, T)
+  nameWithType.vb: ViewModel.SetValue(Of T)(ObservableProperty(Of T), T)
+- uid: CarinaStudio.ViewModels.ViewModel.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext
+  commentId: P:CarinaStudio.ViewModels.ViewModel.SynchronizationContext
+  fullName: CarinaStudio.ViewModels.ViewModel.SynchronizationContext
+  nameWithType: ViewModel.SynchronizationContext
+- uid: CarinaStudio.ViewModels.ViewModel.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.SynchronizationContext
+  nameWithType: ViewModel.SynchronizationContext
+- uid: CarinaStudio.ViewModels.ViewModel.ToString
+  name: ToString()
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ToString
+  commentId: M:CarinaStudio.ViewModels.ViewModel.ToString
+  fullName: CarinaStudio.ViewModels.ViewModel.ToString()
+  nameWithType: ViewModel.ToString()
+- uid: CarinaStudio.ViewModels.ViewModel.ToString*
+  name: ToString
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ToString_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.ToString
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.ToString
+  nameWithType: ViewModel.ToString

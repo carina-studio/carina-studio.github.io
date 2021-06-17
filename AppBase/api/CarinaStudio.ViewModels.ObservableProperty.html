@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseShareableDisposable&lt;TSelf&gt;
+    <title>Class ObservableProperty
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseShareableDisposable&lt;TSelf&gt;
+    <meta name="title" content="Class ObservableProperty
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,44 +68,27 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.BaseShareableDisposable`1">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.ViewModels.ObservableProperty">
   
   
-  <h1 id="CarinaStudio_BaseShareableDisposable_1" data-uid="CarinaStudio.BaseShareableDisposable`1" class="text-break">Class BaseShareableDisposable&lt;TSelf&gt;
+  <h1 id="CarinaStudio_ViewModels_ObservableProperty" data-uid="CarinaStudio.ViewModels.ObservableProperty" class="text-break">Class ObservableProperty
   </h1>
-  <div class="markdown level0 summary"><p>Base implementation of <a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable&lt;TSelf&gt;</a>.</p>
+  <div class="markdown level0 summary"><p>Represent an observable property.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
-    <div class="level2"><span class="xref">BaseShareableDisposable&lt;TSelf&gt;</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable</a>&lt;TSelf&gt;</div>
-    <div><span class="xref">System.IDisposable</span></div>
+    <div class="level1"><span class="xref">ObservableProperty</span></div>
+      <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -120,56 +103,142 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_BaseShareableDisposable_1_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.ViewModels.html">CarinaStudio.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_ViewModels_ObservableProperty_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseShareableDisposable&lt;TSelf&gt; : BaseDisposable, IShareableDisposable&lt;TSelf&gt;, IDisposable where TSelf : IShareableDisposable&lt;TSelf&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ObservableProperty</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSelf</span></td>
-        <td><p>Self type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="CarinaStudio_BaseShareableDisposable_1__ctor_" data-uid="CarinaStudio.BaseShareableDisposable`1.#ctor*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1__ctor_CarinaStudio_BaseShareableDisposable__0__BaseResourceHolder_" data-uid="CarinaStudio.BaseShareableDisposable`1.#ctor(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)">BaseShareableDisposable(BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.BaseShareableDisposable-1.html">BaseShareableDisposable&lt;TSelf&gt;</a> instance.</p>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_Comparer" data-uid="CarinaStudio.ViewModels.ObservableProperty.Comparer">Comparer</h4>
+  <div class="markdown level1 summary"><p>Default <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> for <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseShareableDisposable(BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder resourceHolder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly IComparer&lt;ObservableProperty&gt; Comparer</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html">BaseShareableDisposable.BaseResourceHolder</a>&lt;&gt;</td>
-        <td><span class="parametername">resourceHolder</span></td>
-        <td><p>Resource holder.</p>
-</td>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;<a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_ViewModels_ObservableProperty_Id_" data-uid="CarinaStudio.ViewModels.ObservableProperty.Id*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_Id" data-uid="CarinaStudio.ViewModels.ObservableProperty.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Unique ID of property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ObservableProperty_Name_" data-uid="CarinaStudio.ViewModels.ObservableProperty.Name*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_Name" data-uid="CarinaStudio.ViewModels.ObservableProperty.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Name of property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ObservableProperty_OwnerType_" data-uid="CarinaStudio.ViewModels.ObservableProperty.OwnerType*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_OwnerType" data-uid="CarinaStudio.ViewModels.ObservableProperty.OwnerType">OwnerType</h4>
+  <div class="markdown level1 summary"><p>Type of property owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type OwnerType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ObservableProperty_ValueType_" data-uid="CarinaStudio.ViewModels.ObservableProperty.ValueType*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_ValueType" data-uid="CarinaStudio.ViewModels.ObservableProperty.ValueType">ValueType</h4>
+  <div class="markdown level1 summary"><p>Type of value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type ValueType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -177,14 +246,43 @@
   </h3>
   
   
-  <a id="CarinaStudio_BaseShareableDisposable_1_Dispose_" data-uid="CarinaStudio.BaseShareableDisposable`1.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_Dispose_System_Boolean_" data-uid="CarinaStudio.BaseShareableDisposable`1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Dispose the instance.</p>
+  <a id="CarinaStudio_ViewModels_ObservableProperty_GetHashCode_" data-uid="CarinaStudio.ViewModels.ObservableProperty.GetHashCode*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_GetHashCode" data-uid="CarinaStudio.ViewModels.ObservableProperty.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Get hash-code.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Hash-code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="CarinaStudio_ViewModels_ObservableProperty_Register_" data-uid="CarinaStudio.ViewModels.ObservableProperty.Register*"></a>
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_Register__2_System_String___1_System_Func___1___1__System_Predicate___1__" data-uid="CarinaStudio.ViewModels.ObservableProperty.Register``2(System.String,``1,System.Func{``1,``1},System.Predicate{``1})">Register&lt;TOwner, TValue&gt;(String, TValue, Func&lt;TValue, TValue&gt;, Predicate&lt;TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Register a typed property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObservableProperty&lt;TValue&gt; Register&lt;TOwner, TValue&gt;(string name, TValue defaultValue = null, Func&lt;TValue, TValue&gt; coerce = null, Predicate&lt;TValue&gt; validate = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,38 +295,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to dispose managed resources also.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TValue, TValue&gt;</td>
+        <td><span class="parametername">coerce</span></td>
+        <td><p>Coercion function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;TValue&gt;</td>
+        <td><span class="parametername">validate</span></td>
+        <td><p>Validation function.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_System_Boolean_">BaseDisposable.Dispose(Boolean)</a></div>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_Finalize_" data-uid="CarinaStudio.BaseShareableDisposable`1.Finalize*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_Finalize" data-uid="CarinaStudio.BaseShareableDisposable`1.Finalize">Finalize()</h4>
-  <div class="markdown level1 summary"><p>Finalize <a class="xref" href="CarinaStudio.BaseShareableDisposable-1.html">BaseShareableDisposable&lt;TSelf&gt;</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-  </div>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_GetResourceHolder_" data-uid="CarinaStudio.BaseShareableDisposable`1.GetResourceHolder*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_GetResourceHolder__1" data-uid="CarinaStudio.BaseShareableDisposable`1.GetResourceHolder``1">GetResourceHolder&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Get resource holder as specific type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected T GetResourceHolder&lt;T&gt;()
-    where T : BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -239,9 +330,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Resource holder.</p>
-</td>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;TValue&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -255,104 +345,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Specific type of <a class="xref" href="CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html">BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder</a>.</p>
+        <td><span class="parametername">TOwner</span></td>
+        <td><p>Type of owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>Type of value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_Share_" data-uid="CarinaStudio.BaseShareableDisposable`1.Share*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_Share" data-uid="CarinaStudio.BaseShareableDisposable`1.Share">Share()</h4>
-  <div class="markdown level1 summary"><p>Create a new instance which shares internal resources.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TSelf Share()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TSelf</span></td>
-        <td><p>New instance which shares internal resources.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_BaseShareableDisposable_1_Share_" data-uid="CarinaStudio.BaseShareableDisposable`1.Share*"></a>
-  <h4 id="CarinaStudio_BaseShareableDisposable_1_Share_CarinaStudio_BaseShareableDisposable__0__BaseResourceHolder_" data-uid="CarinaStudio.BaseShareableDisposable`1.Share(CarinaStudio.BaseShareableDisposable{`0}.BaseResourceHolder)">Share(BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder)</h4>
-  <div class="markdown level1 summary"><p>Create a new instance which shares internal resources.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract TSelf Share(BaseShareableDisposable&lt;TSelf&gt;.BaseResourceHolder resourceHolder)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.BaseShareableDisposable-1.BaseResourceHolder.html">BaseShareableDisposable.BaseResourceHolder</a>&lt;&gt;</td>
-        <td><span class="parametername">resourceHolder</span></td>
-        <td><p>Resource holder.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TSelf</span></td>
-        <td><p>New instance which shares internal resources.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable&lt;TSelf&gt;</a>
-  </div>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
