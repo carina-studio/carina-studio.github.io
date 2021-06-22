@@ -3347,6 +3347,130 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.Use(Of T, R)(T, System.Func(Of T, R))
   nameWithType: DisposableExtensions.Use<T, R>(T, Func<T, R>)
   nameWithType.vb: DisposableExtensions.Use(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.Global
+  name: Global
+  href: api/CarinaStudio.Global.html
+  commentId: T:CarinaStudio.Global
+  fullName: CarinaStudio.Global
+  nameWithType: Global
+- uid: CarinaStudio.Global.Run*
+  name: Run
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_Run_
+  commentId: Overload:CarinaStudio.Global.Run
+  isSpec: "True"
+  fullName: CarinaStudio.Global.Run
+  nameWithType: Global.Run
+- uid: CarinaStudio.Global.Run``1(System.Func{``0})
+  name: Run<T>(Func<T>)
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_Run__1_System_Func___0__
+  commentId: M:CarinaStudio.Global.Run``1(System.Func{``0})
+  name.vb: Run(Of T)(Func(Of T))
+  fullName: CarinaStudio.Global.Run<T>(System.Func<T>)
+  fullName.vb: CarinaStudio.Global.Run(Of T)(System.Func(Of T))
+  nameWithType: Global.Run<T>(Func<T>)
+  nameWithType.vb: Global.Run(Of T)(Func(Of T))
+- uid: CarinaStudio.Global.RunCatching*
+  name: RunCatching
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunCatching_
+  commentId: Overload:CarinaStudio.Global.RunCatching
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunCatching
+  nameWithType: Global.RunCatching
+- uid: CarinaStudio.Global.RunCatching``1(System.Func{``0})
+  name: RunCatching<T>(Func<T>)
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunCatching__1_System_Func___0__
+  commentId: M:CarinaStudio.Global.RunCatching``1(System.Func{``0})
+  name.vb: RunCatching(Of T)(Func(Of T))
+  fullName: CarinaStudio.Global.RunCatching<T>(System.Func<T>)
+  fullName.vb: CarinaStudio.Global.RunCatching(Of T)(System.Func(Of T))
+  nameWithType: Global.RunCatching<T>(Func<T>)
+  nameWithType.vb: Global.RunCatching(Of T)(Func(Of T))
+- uid: CarinaStudio.Global.RunCatchingResult`1
+  name: Global.RunCatchingResult<T>
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html
+  commentId: T:CarinaStudio.Global.RunCatchingResult`1
+  name.vb: Global.RunCatchingResult(Of T)
+  fullName: CarinaStudio.Global.RunCatchingResult<T>
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T)
+  nameWithType: Global.RunCatchingResult<T>
+  nameWithType.vb: Global.RunCatchingResult(Of T)
+- uid: CarinaStudio.Global.RunCatchingResult`1.Exception
+  name: Exception
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_Exception
+  commentId: P:CarinaStudio.Global.RunCatchingResult`1.Exception
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.Exception
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).Exception
+  nameWithType: Global.RunCatchingResult<T>.Exception
+  nameWithType.vb: Global.RunCatchingResult(Of T).Exception
+- uid: CarinaStudio.Global.RunCatchingResult`1.Exception*
+  name: Exception
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_Exception_
+  commentId: Overload:CarinaStudio.Global.RunCatchingResult`1.Exception
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.Exception
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).Exception
+  nameWithType: Global.RunCatchingResult<T>.Exception
+  nameWithType.vb: Global.RunCatchingResult(Of T).Exception
+- uid: CarinaStudio.Global.RunCatchingResult`1.IsSuccessful
+  name: IsSuccessful
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_IsSuccessful
+  commentId: P:CarinaStudio.Global.RunCatchingResult`1.IsSuccessful
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.IsSuccessful
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).IsSuccessful
+  nameWithType: Global.RunCatchingResult<T>.IsSuccessful
+  nameWithType.vb: Global.RunCatchingResult(Of T).IsSuccessful
+- uid: CarinaStudio.Global.RunCatchingResult`1.IsSuccessful*
+  name: IsSuccessful
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_IsSuccessful_
+  commentId: Overload:CarinaStudio.Global.RunCatchingResult`1.IsSuccessful
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.IsSuccessful
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).IsSuccessful
+  nameWithType: Global.RunCatchingResult<T>.IsSuccessful
+  nameWithType.vb: Global.RunCatchingResult(Of T).IsSuccessful
+- uid: CarinaStudio.Global.RunCatchingResult`1.Result
+  name: Result
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_Result
+  commentId: P:CarinaStudio.Global.RunCatchingResult`1.Result
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.Result
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).Result
+  nameWithType: Global.RunCatchingResult<T>.Result
+  nameWithType.vb: Global.RunCatchingResult(Of T).Result
+- uid: CarinaStudio.Global.RunCatchingResult`1.Result*
+  name: Result
+  href: api/CarinaStudio.Global.RunCatchingResult-1.html#CarinaStudio_Global_RunCatchingResult_1_Result_
+  commentId: Overload:CarinaStudio.Global.RunCatchingResult`1.Result
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunCatchingResult<T>.Result
+  fullName.vb: CarinaStudio.Global.RunCatchingResult(Of T).Result
+  nameWithType: Global.RunCatchingResult<T>.Result
+  nameWithType.vb: Global.RunCatchingResult(Of T).Result
+- uid: CarinaStudio.Global.RunWithoutError(System.Action)
+  name: RunWithoutError(Action)
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunWithoutError_System_Action_
+  commentId: M:CarinaStudio.Global.RunWithoutError(System.Action)
+  fullName: CarinaStudio.Global.RunWithoutError(System.Action)
+  nameWithType: Global.RunWithoutError(Action)
+- uid: CarinaStudio.Global.RunWithoutError*
+  name: RunWithoutError
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunWithoutError_
+  commentId: Overload:CarinaStudio.Global.RunWithoutError
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunWithoutError
+  nameWithType: Global.RunWithoutError
+- uid: CarinaStudio.Global.RunWithoutErrorAsync(System.Action)
+  name: RunWithoutErrorAsync(Action)
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunWithoutErrorAsync_System_Action_
+  commentId: M:CarinaStudio.Global.RunWithoutErrorAsync(System.Action)
+  fullName: CarinaStudio.Global.RunWithoutErrorAsync(System.Action)
+  nameWithType: Global.RunWithoutErrorAsync(Action)
+- uid: CarinaStudio.Global.RunWithoutErrorAsync*
+  name: RunWithoutErrorAsync
+  href: api/CarinaStudio.Global.html#CarinaStudio_Global_RunWithoutErrorAsync_
+  commentId: Overload:CarinaStudio.Global.RunWithoutErrorAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Global.RunWithoutErrorAsync
+  nameWithType: Global.RunWithoutErrorAsync
 - uid: CarinaStudio.IApplication
   name: IApplication
   href: api/CarinaStudio.IApplication.html
@@ -4279,6 +4403,271 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.StringPool.Item
   nameWithType: StringPool.Item
+- uid: CarinaStudio.Tests
+  name: CarinaStudio.Tests
+  href: api/CarinaStudio.Tests.html
+  commentId: N:CarinaStudio.Tests
+  fullName: CarinaStudio.Tests
+  nameWithType: CarinaStudio.Tests
+- uid: CarinaStudio.Tests.EventMonitor`1
+  name: EventMonitor<TArgs>
+  href: api/CarinaStudio.Tests.EventMonitor-1.html
+  commentId: T:CarinaStudio.Tests.EventMonitor`1
+  name.vb: EventMonitor(Of TArgs)
+  fullName: CarinaStudio.Tests.EventMonitor<TArgs>
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of TArgs)
+  nameWithType: EventMonitor<TArgs>
+  nameWithType.vb: EventMonitor(Of TArgs)
+- uid: CarinaStudio.Tests.EventMonitor`1.#ctor(System.Object,System.String)
+  name: EventMonitor(Object, String)
+  href: api/CarinaStudio.Tests.EventMonitor-1.html#CarinaStudio_Tests_EventMonitor_1__ctor_System_Object_System_String_
+  commentId: M:CarinaStudio.Tests.EventMonitor`1.#ctor(System.Object,System.String)
+  fullName: CarinaStudio.Tests.EventMonitor<TArgs>.EventMonitor(System.Object, System.String)
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of TArgs).EventMonitor(System.Object, System.String)
+  nameWithType: EventMonitor<TArgs>.EventMonitor(Object, String)
+  nameWithType.vb: EventMonitor(Of TArgs).EventMonitor(Object, String)
+- uid: CarinaStudio.Tests.EventMonitor`1.#ctor(System.Type,System.String)
+  name: EventMonitor(Type, String)
+  href: api/CarinaStudio.Tests.EventMonitor-1.html#CarinaStudio_Tests_EventMonitor_1__ctor_System_Type_System_String_
+  commentId: M:CarinaStudio.Tests.EventMonitor`1.#ctor(System.Type,System.String)
+  fullName: CarinaStudio.Tests.EventMonitor<TArgs>.EventMonitor(System.Type, System.String)
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of TArgs).EventMonitor(System.Type, System.String)
+  nameWithType: EventMonitor<TArgs>.EventMonitor(Type, String)
+  nameWithType.vb: EventMonitor(Of TArgs).EventMonitor(Type, String)
+- uid: CarinaStudio.Tests.EventMonitor`1.#ctor*
+  name: EventMonitor
+  href: api/CarinaStudio.Tests.EventMonitor-1.html#CarinaStudio_Tests_EventMonitor_1__ctor_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<TArgs>.EventMonitor
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of TArgs).EventMonitor
+  nameWithType: EventMonitor<TArgs>.EventMonitor
+  nameWithType.vb: EventMonitor(Of TArgs).EventMonitor
+- uid: CarinaStudio.Tests.EventMonitor`2
+  name: EventMonitor<THandler, TArgs>
+  href: api/CarinaStudio.Tests.EventMonitor-2.html
+  commentId: T:CarinaStudio.Tests.EventMonitor`2
+  name.vb: EventMonitor(Of THandler, TArgs)
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs)
+  nameWithType: EventMonitor<THandler, TArgs>
+  nameWithType.vb: EventMonitor(Of THandler, TArgs)
+- uid: CarinaStudio.Tests.EventMonitor`2.#ctor(System.Object,System.String)
+  name: EventMonitor(Object, String)
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2__ctor_System_Object_System_String_
+  commentId: M:CarinaStudio.Tests.EventMonitor`2.#ctor(System.Object,System.String)
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventMonitor(System.Object, System.String)
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventMonitor(System.Object, System.String)
+  nameWithType: EventMonitor<THandler, TArgs>.EventMonitor(Object, String)
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventMonitor(Object, String)
+- uid: CarinaStudio.Tests.EventMonitor`2.#ctor(System.Type,System.String)
+  name: EventMonitor(Type, String)
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2__ctor_System_Type_System_String_
+  commentId: M:CarinaStudio.Tests.EventMonitor`2.#ctor(System.Type,System.String)
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventMonitor(System.Type, System.String)
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventMonitor(System.Type, System.String)
+  nameWithType: EventMonitor<THandler, TArgs>.EventMonitor(Type, String)
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventMonitor(Type, String)
+- uid: CarinaStudio.Tests.EventMonitor`2.#ctor*
+  name: EventMonitor
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2__ctor_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`2.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventMonitor
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventMonitor
+  nameWithType: EventMonitor<THandler, TArgs>.EventMonitor
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventMonitor
+- uid: CarinaStudio.Tests.EventMonitor`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.Tests.EventMonitor`2.Dispose(System.Boolean)
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.Dispose(System.Boolean)
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).Dispose(System.Boolean)
+  nameWithType: EventMonitor<THandler, TArgs>.Dispose(Boolean)
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).Dispose(Boolean)
+- uid: CarinaStudio.Tests.EventMonitor`2.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_Dispose_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`2.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.Dispose
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).Dispose
+  nameWithType: EventMonitor<THandler, TArgs>.Dispose
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).Dispose
+- uid: CarinaStudio.Tests.EventMonitor`2.EventArgs
+  name: EventArgs
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_EventArgs
+  commentId: P:CarinaStudio.Tests.EventMonitor`2.EventArgs
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventArgs
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventArgs
+  nameWithType: EventMonitor<THandler, TArgs>.EventArgs
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventArgs
+- uid: CarinaStudio.Tests.EventMonitor`2.EventArgs*
+  name: EventArgs
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_EventArgs_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`2.EventArgs
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventArgs
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventArgs
+  nameWithType: EventMonitor<THandler, TArgs>.EventArgs
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventArgs
+- uid: CarinaStudio.Tests.EventMonitor`2.EventCount
+  name: EventCount
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_EventCount
+  commentId: P:CarinaStudio.Tests.EventMonitor`2.EventCount
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventCount
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventCount
+  nameWithType: EventMonitor<THandler, TArgs>.EventCount
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventCount
+- uid: CarinaStudio.Tests.EventMonitor`2.EventCount*
+  name: EventCount
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_EventCount_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`2.EventCount
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.EventCount
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).EventCount
+  nameWithType: EventMonitor<THandler, TArgs>.EventCount
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).EventCount
+- uid: CarinaStudio.Tests.EventMonitor`2.Reset
+  name: Reset()
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_Reset
+  commentId: M:CarinaStudio.Tests.EventMonitor`2.Reset
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.Reset()
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).Reset()
+  nameWithType: EventMonitor<THandler, TArgs>.Reset()
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).Reset()
+- uid: CarinaStudio.Tests.EventMonitor`2.Reset*
+  name: Reset
+  href: api/CarinaStudio.Tests.EventMonitor-2.html#CarinaStudio_Tests_EventMonitor_2_Reset_
+  commentId: Overload:CarinaStudio.Tests.EventMonitor`2.Reset
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.EventMonitor<THandler, TArgs>.Reset
+  fullName.vb: CarinaStudio.Tests.EventMonitor(Of THandler, TArgs).Reset
+  nameWithType: EventMonitor<THandler, TArgs>.Reset
+  nameWithType.vb: EventMonitor(Of THandler, TArgs).Reset
+- uid: CarinaStudio.Tests.NotifyPropertyChangedExtensions
+  name: NotifyPropertyChangedExtensions
+  href: api/CarinaStudio.Tests.NotifyPropertyChangedExtensions.html
+  commentId: T:CarinaStudio.Tests.NotifyPropertyChangedExtensions
+  fullName: CarinaStudio.Tests.NotifyPropertyChangedExtensions
+  nameWithType: NotifyPropertyChangedExtensions
+- uid: CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync(System.ComponentModel.INotifyPropertyChanged,System.String,System.Object,System.Int32,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable<CancellationToken>)
+  href: api/CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync(System.ComponentModel.INotifyPropertyChanged,System.String,System.Object,System.Int32,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable(Of CancellationToken))
+  fullName: CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync(System.ComponentModel.INotifyPropertyChanged, System.String, System.Object, System.Int32, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync(System.ComponentModel.INotifyPropertyChanged, System.String, System.Object, System.Int32, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable<CancellationToken>)
+  nameWithType.vb: NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable(Of CancellationToken))
+- uid: CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync*
+  name: WaitForPropertyAsync
+  href: api/CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_
+  commentId: Overload:CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.NotifyPropertyChangedExtensions.WaitForPropertyAsync
+  nameWithType: NotifyPropertyChangedExtensions.WaitForPropertyAsync
+- uid: CarinaStudio.Tests.Random
+  name: Random
+  href: api/CarinaStudio.Tests.Random.html
+  commentId: T:CarinaStudio.Tests.Random
+  fullName: CarinaStudio.Tests.Random
+  nameWithType: Random
+- uid: CarinaStudio.Tests.Random.CreateFileWithRandomName(System.IO.DirectoryInfo)
+  name: CreateFileWithRandomName(DirectoryInfo)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_CreateFileWithRandomName_System_IO_DirectoryInfo_
+  commentId: M:CarinaStudio.Tests.Random.CreateFileWithRandomName(System.IO.DirectoryInfo)
+  fullName: CarinaStudio.Tests.Random.CreateFileWithRandomName(System.IO.DirectoryInfo)
+  nameWithType: Random.CreateFileWithRandomName(DirectoryInfo)
+- uid: CarinaStudio.Tests.Random.CreateFileWithRandomName(System.String)
+  name: CreateFileWithRandomName(String)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_CreateFileWithRandomName_System_String_
+  commentId: M:CarinaStudio.Tests.Random.CreateFileWithRandomName(System.String)
+  fullName: CarinaStudio.Tests.Random.CreateFileWithRandomName(System.String)
+  nameWithType: Random.CreateFileWithRandomName(String)
+- uid: CarinaStudio.Tests.Random.CreateFileWithRandomName*
+  name: CreateFileWithRandomName
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_CreateFileWithRandomName_
+  commentId: Overload:CarinaStudio.Tests.Random.CreateFileWithRandomName
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.Random.CreateFileWithRandomName
+  nameWithType: Random.CreateFileWithRandomName
+- uid: CarinaStudio.Tests.Random.GenerateRandomString(System.Int32)
+  name: GenerateRandomString(Int32)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_GenerateRandomString_System_Int32_
+  commentId: M:CarinaStudio.Tests.Random.GenerateRandomString(System.Int32)
+  fullName: CarinaStudio.Tests.Random.GenerateRandomString(System.Int32)
+  nameWithType: Random.GenerateRandomString(Int32)
+- uid: CarinaStudio.Tests.Random.GenerateRandomString*
+  name: GenerateRandomString
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_GenerateRandomString_
+  commentId: Overload:CarinaStudio.Tests.Random.GenerateRandomString
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.Random.GenerateRandomString
+  nameWithType: Random.GenerateRandomString
+- uid: CarinaStudio.Tests.Random.Next
+  name: Next()
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_Next
+  commentId: M:CarinaStudio.Tests.Random.Next
+  fullName: CarinaStudio.Tests.Random.Next()
+  nameWithType: Random.Next()
+- uid: CarinaStudio.Tests.Random.Next(System.Int32)
+  name: Next(Int32)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_Next_System_Int32_
+  commentId: M:CarinaStudio.Tests.Random.Next(System.Int32)
+  fullName: CarinaStudio.Tests.Random.Next(System.Int32)
+  nameWithType: Random.Next(Int32)
+- uid: CarinaStudio.Tests.Random.Next(System.Int32,System.Int32)
+  name: Next(Int32, Int32)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_Next_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Tests.Random.Next(System.Int32,System.Int32)
+  fullName: CarinaStudio.Tests.Random.Next(System.Int32, System.Int32)
+  nameWithType: Random.Next(Int32, Int32)
+- uid: CarinaStudio.Tests.Random.Next*
+  name: Next
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_Next_
+  commentId: Overload:CarinaStudio.Tests.Random.Next
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.Random.Next
+  nameWithType: Random.Next
+- uid: CarinaStudio.Tests.Random.NextBytes(System.Byte[])
+  name: NextBytes(Byte[])
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_NextBytes_System_Byte___
+  commentId: M:CarinaStudio.Tests.Random.NextBytes(System.Byte[])
+  name.vb: NextBytes(Byte())
+  fullName: CarinaStudio.Tests.Random.NextBytes(System.Byte[])
+  fullName.vb: CarinaStudio.Tests.Random.NextBytes(System.Byte())
+  nameWithType: Random.NextBytes(Byte[])
+  nameWithType.vb: Random.NextBytes(Byte())
+- uid: CarinaStudio.Tests.Random.NextBytes(System.Span{System.Byte})
+  name: NextBytes(Span<Byte>)
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_NextBytes_System_Span_System_Byte__
+  commentId: M:CarinaStudio.Tests.Random.NextBytes(System.Span{System.Byte})
+  name.vb: NextBytes(Span(Of Byte))
+  fullName: CarinaStudio.Tests.Random.NextBytes(System.Span<System.Byte>)
+  fullName.vb: CarinaStudio.Tests.Random.NextBytes(System.Span(Of System.Byte))
+  nameWithType: Random.NextBytes(Span<Byte>)
+  nameWithType.vb: Random.NextBytes(Span(Of Byte))
+- uid: CarinaStudio.Tests.Random.NextBytes*
+  name: NextBytes
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_NextBytes_
+  commentId: Overload:CarinaStudio.Tests.Random.NextBytes
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.Random.NextBytes
+  nameWithType: Random.NextBytes
+- uid: CarinaStudio.Tests.Random.NextDouble
+  name: NextDouble()
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_NextDouble
+  commentId: M:CarinaStudio.Tests.Random.NextDouble
+  fullName: CarinaStudio.Tests.Random.NextDouble()
+  nameWithType: Random.NextDouble()
+- uid: CarinaStudio.Tests.Random.NextDouble*
+  name: NextDouble
+  href: api/CarinaStudio.Tests.Random.html#CarinaStudio_Tests_Random_NextDouble_
+  commentId: Overload:CarinaStudio.Tests.Random.NextDouble
+  isSpec: "True"
+  fullName: CarinaStudio.Tests.Random.NextDouble
+  nameWithType: Random.NextDouble
 - uid: CarinaStudio.Threading
   name: CarinaStudio.Threading
   href: api/CarinaStudio.Threading.html

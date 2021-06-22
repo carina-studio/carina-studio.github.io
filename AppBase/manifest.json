@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.BaseDisposable.html",
-          "hash": "ZDS+xfsFKRVHa7SEgTpekRkfLnol9Jx51ZgvY2rfAW0="
+          "hash": "FwCsExxq29dvisu1iLzyOVZzruzDRFk3h7MDTiti7sA="
         }
       },
       "is_incremental": false,
@@ -293,11 +293,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Global.RunCatchingResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Global.RunCatchingResult-1.html",
+          "hash": "5evjAHo8gd73CYX9if/48g89bU6qMbMkdNzZhAdXiKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Global.html",
+          "hash": "FvBi5JyPbgqtbty6CdXhORh6Iz5MmZSDQqGAknd6qp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.IApplication.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IApplication.html",
-          "hash": "N6V+pMDZg3gOsbQHpg3slJHRAUVOK+jKH7/jsa0rnyc="
+          "hash": "ioryrB64Kx2DwDAEyvWNig49l0zLrerjywmstNt1pUg="
         }
       },
       "is_incremental": false,
@@ -449,6 +473,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Tests.EventMonitor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Tests.EventMonitor-1.html",
+          "hash": "zJnOZ5tXv82xfYZ8GF2+1q3d0UlwSkjqRXcKNoXQLV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Tests.EventMonitor-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Tests.EventMonitor-2.html",
+          "hash": "7gzrLJf6zfc1t09xVD25hHBtl5W38ZjHrtEu1dWrGtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Tests.NotifyPropertyChangedExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Tests.NotifyPropertyChangedExtensions.html",
+          "hash": "JixOXs/pC//kXMPGdYNQb9ePCAk/6qy0sHPnpRyJ46E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Tests.Random.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Tests.Random.html",
+          "hash": "YllnNRrnsWye13dt2tmuW+KBZ0yk2iNQ/ri6hiW+8wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Tests.html",
+          "hash": "womLa081gHYXZ9xL8Q3MwFwQndYAe7RDYKkingK+Iu4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Threading.ISynchronizable.yml",
       "output": {
         ".html": {
@@ -585,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.ViewModels.ViewModel.html",
-          "hash": "5axw9uQ8LC25+tM774n3qWusT0QIZwEd27S+D4v6+mg="
+          "hash": "GjYF4c3Tcdo3bSyxcEvdVV0CndG4rSEyfCWLqlKd5ns="
         }
       },
       "is_incremental": false,
@@ -609,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "kbahksUKd5gWW4YheEUmIRhMkkzcFA7HcQLB2LHWWk4="
+          "hash": "mWOtfd9LpRcprOvuxPm3EP9wMaEhebPmSaYq00SGlQU="
         }
       },
       "is_incremental": false,
@@ -633,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3Foves14JEuBBP3mI0c2dS8cJvx5Lu6UfYYDXEcWVkE="
+          "hash": "lEGxjbbee3vhRfVS2xd6gR66gmlMOhGiluGwrOgeiAU="
         }
       },
       "is_incremental": false,
@@ -841,7 +925,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+JZjCTyxOV8n+mtV0UDdcoV/i+7yWcC8pMInQU4kl10="
+          "hash": "6Ry8pasoP4GR0YpuKt9j/8xmzo87dkSW8UikSY4tnMc="
         }
       },
       "is_incremental": false,
@@ -880,7 +964,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 51,
+          "total_file_count": 58,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseDisposable
+    <title>Class Global
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseDisposable
+    <meta name="title" content="Class Global
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,26 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.BaseDisposable">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Global">
   
   
-  <h1 id="CarinaStudio_BaseDisposable" data-uid="CarinaStudio.BaseDisposable" class="text-break">Class BaseDisposable
+  <h1 id="CarinaStudio_Global" data-uid="CarinaStudio.Global" class="text-break">Class Global
   </h1>
-  <div class="markdown level0 summary"><p>Base implementation of <span class="xref">System.IDisposable</span>.</p>
+  <div class="markdown level0 summary"><p>Global utility methods.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseDisposable</span></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.BaseShareableDisposable-1.html">BaseShareableDisposable&lt;TSelf&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Collections.TypeConvertedList-2.html">TypeConvertedList&lt;TSrc, TDest&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Tests.EventMonitor-2.html">EventMonitor&lt;THandler, TArgs&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
+    <div class="level1"><span class="xref">Global</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,61 +107,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_BaseDisposable_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_Global_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseDisposable : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Global</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CarinaStudio_BaseDisposable_IsDisposed_" data-uid="CarinaStudio.BaseDisposable.IsDisposed*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_IsDisposed" data-uid="CarinaStudio.BaseDisposable.IsDisposed">IsDisposed</h4>
-  <div class="markdown level1 summary"><p>Check whether instance has disposed or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsDisposed { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CarinaStudio_BaseDisposable_Dispose_" data-uid="CarinaStudio.BaseDisposable.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Dispose" data-uid="CarinaStudio.BaseDisposable.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Dispose instance.</p>
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+  <h4 id="CarinaStudio_Global_Run__1_System_Func___0__" data-uid="CarinaStudio.Global.Run``1(System.Func{``0})">Run&lt;T&gt;(Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate a value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-  </div>
-  
-  
-  <a id="CarinaStudio_BaseDisposable_Dispose_" data-uid="CarinaStudio.BaseDisposable.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Dispose_System_Boolean_" data-uid="CarinaStudio.BaseDisposable.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Called to dispose instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void Dispose(bool disposing)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Run&lt;T&gt;(Func&lt;T&gt; func)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,70 +135,164 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to release managed resources also.</p>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of generated value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CarinaStudio_BaseDisposable_Finalize_" data-uid="CarinaStudio.BaseDisposable.Finalize*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Finalize" data-uid="CarinaStudio.BaseDisposable.Finalize">Finalize()</h4>
-  <div class="markdown level1 summary"><p>Finalizer.</p>
+  <a id="CarinaStudio_Global_RunCatching_" data-uid="CarinaStudio.Global.RunCatching*"></a>
+  <h4 id="CarinaStudio_Global_RunCatching__1_System_Func___0__" data-uid="CarinaStudio.Global.RunCatching``1(System.Func{``0})">RunCatching&lt;T&gt;(Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate value and catch exception if occurred.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    <pre><code class="lang-csharp hljs">public static Global.RunCatchingResult&lt;T&gt; RunCatching&lt;T&gt;(Func&lt;T&gt; func)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">Global.RunCatchingResult</a>&lt;T&gt;</td>
+        <td><p><a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">Global.RunCatchingResult&lt;T&gt;</a> contains the result and exception occurred.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="CarinaStudio_BaseDisposable_VerifyDisposed_" data-uid="CarinaStudio.BaseDisposable.VerifyDisposed*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_VerifyDisposed" data-uid="CarinaStudio.BaseDisposable.VerifyDisposed">VerifyDisposed()</h4>
-  <div class="markdown level1 summary"><p>Throw <span class="xref">System.ObjectDisposedException</span> if instance has been disposed.</p>
+  <a id="CarinaStudio_Global_RunWithoutError_" data-uid="CarinaStudio.Global.RunWithoutError*"></a>
+  <h4 id="CarinaStudio_Global_RunWithoutError_System_Action_" data-uid="CarinaStudio.Global.RunWithoutError(System.Action)">RunWithoutError(Action)</h4>
+  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void VerifyDisposed()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RunWithoutError(Action action)</code></pre>
   </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.IDisposable</span>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to run.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_RunWithoutErrorAsync_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync*"></a>
+  <h4 id="CarinaStudio_Global_RunWithoutErrorAsync_System_Action_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync(System.Action)">RunWithoutErrorAsync(Action)</h4>
+  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RunWithoutErrorAsync(Action action)</code></pre>
   </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to run.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
