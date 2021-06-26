@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SortedList&lt;T&gt;
+    <title>Class SortedObservableList&lt;T&gt;
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SortedList&lt;T&gt;
+    <meta name="title" content="Class SortedObservableList&lt;T&gt;
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.SortedList`1">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.SortedObservableList`1">
   
   
-  <h1 id="CarinaStudio_Collections_SortedList_1" data-uid="CarinaStudio.Collections.SortedList`1" class="text-break">Class SortedList&lt;T&gt;
+  <h1 id="CarinaStudio_Collections_SortedObservableList_1" data-uid="CarinaStudio.Collections.SortedObservableList`1" class="text-break">Class SortedObservableList&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>List which makes elements sorted automatically. Implmentations of <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> are also optimized for sorted case.</p>
 </div>
@@ -79,7 +79,7 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SortedList&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">SortedObservableList&lt;T&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -119,9 +119,9 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Collections_SortedList_1_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_Collections_SortedObservableList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SortedList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SortedObservableList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,14 +143,14 @@
   </h3>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1__ctor_" data-uid="CarinaStudio.Collections.SortedList`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1__ctor_System_Collections_Generic_IComparer__0__System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IComparer{`0},System.Collections.Generic.IEnumerable{`0})">SortedList(IComparer&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedList-1.html">SortedList&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_Collections_SortedObservableList_1__ctor_" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1__ctor_System_Collections_Generic_IComparer__0__System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor(System.Collections.Generic.IComparer{`0},System.Collections.Generic.IEnumerable{`0})">SortedObservableList(IComparer&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedObservableList-1.html">SortedObservableList&lt;T&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SortedList(IComparer&lt;T&gt; comparer, IEnumerable&lt;T&gt; elements = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SortedObservableList(IComparer&lt;T&gt; comparer, IEnumerable&lt;T&gt; elements = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,14 +178,14 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1__ctor_" data-uid="CarinaStudio.Collections.SortedList`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1__ctor_System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})">SortedList(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedList-1.html">SortedList&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_Collections_SortedObservableList_1__ctor_" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1__ctor_System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor(System.Collections.Generic.IEnumerable{`0})">SortedObservableList(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedObservableList-1.html">SortedObservableList&lt;T&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SortedList(IEnumerable&lt;T&gt; elements = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SortedObservableList(IEnumerable&lt;T&gt; elements = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,14 +207,14 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1__ctor_" data-uid="CarinaStudio.Collections.SortedList`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1__ctor_System_Comparison__0__System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedList`1.#ctor(System.Comparison{`0},System.Collections.Generic.IEnumerable{`0})">SortedList(Comparison&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedList-1.html">SortedList&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_Collections_SortedObservableList_1__ctor_" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1__ctor_System_Comparison__0__System_Collections_Generic_IEnumerable__0__" data-uid="CarinaStudio.Collections.SortedObservableList`1.#ctor(System.Comparison{`0},System.Collections.Generic.IEnumerable{`0})">SortedObservableList(Comparison&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.SortedObservableList-1.html">SortedObservableList&lt;T&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SortedList(Comparison&lt;T&gt; comparison, IEnumerable&lt;T&gt; elements = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SortedObservableList(Comparison&lt;T&gt; comparison, IEnumerable&lt;T&gt; elements = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -244,8 +244,8 @@
   </h3>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Count_" data-uid="CarinaStudio.Collections.SortedList`1.Count*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Count" data-uid="CarinaStudio.Collections.SortedList`1.Count">Count</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Count_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Count*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Count" data-uid="CarinaStudio.Collections.SortedObservableList`1.Count">Count</h4>
   <div class="markdown level1 summary"><p>Get number of elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -270,8 +270,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Item_" data-uid="CarinaStudio.Collections.SortedList`1.Item*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.Item(System.Int32)">Item[Int32]</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Item_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Item*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Item(System.Int32)">Item[Int32]</h4>
   <div class="markdown level1 summary"><p>Get element.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -317,8 +317,8 @@
   </h3>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Add_" data-uid="CarinaStudio.Collections.SortedList`1.Add*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Add__0_" data-uid="CarinaStudio.Collections.SortedList`1.Add(`0)">Add(T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Add_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Add*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Add__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Add(`0)">Add(T)</h4>
   <div class="markdown level1 summary"><p>Add element to list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -362,8 +362,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_AddAll_" data-uid="CarinaStudio.Collections.SortedList`1.AddAll*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_AddAll_System_Collections_Generic_IEnumerable__0__System_Boolean_" data-uid="CarinaStudio.Collections.SortedList`1.AddAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)">AddAll(IEnumerable&lt;T&gt;, Boolean)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_AddAll_" data-uid="CarinaStudio.Collections.SortedObservableList`1.AddAll*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_AddAll_System_Collections_Generic_IEnumerable__0__System_Boolean_" data-uid="CarinaStudio.Collections.SortedObservableList`1.AddAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)">AddAll(IEnumerable&lt;T&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Add elements to list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -397,8 +397,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Clear_" data-uid="CarinaStudio.Collections.SortedList`1.Clear*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Clear" data-uid="CarinaStudio.Collections.SortedList`1.Clear">Clear()</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Clear_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Clear*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Clear" data-uid="CarinaStudio.Collections.SortedObservableList`1.Clear">Clear()</h4>
   <div class="markdown level1 summary"><p>Clear all elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -408,8 +408,8 @@
   </div>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Contains_" data-uid="CarinaStudio.Collections.SortedList`1.Contains*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Contains__0_" data-uid="CarinaStudio.Collections.SortedList`1.Contains(`0)">Contains(T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Contains_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Contains*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Contains__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Contains(`0)">Contains(T)</h4>
   <div class="markdown level1 summary"><p>Check whether given element is contained in list or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -453,8 +453,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_CopyTo_" data-uid="CarinaStudio.Collections.SortedList`1.CopyTo*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_CopyTo__0___System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.CopyTo(`0[],System.Int32)">CopyTo(T[], Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_CopyTo_" data-uid="CarinaStudio.Collections.SortedObservableList`1.CopyTo*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_CopyTo__0___System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.CopyTo(`0[],System.Int32)">CopyTo(T[], Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -488,8 +488,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_CopyTo_" data-uid="CarinaStudio.Collections.SortedList`1.CopyTo*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_CopyTo_System_Int32__0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)">CopyTo(Int32, T[], Int32, Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_CopyTo_" data-uid="CarinaStudio.Collections.SortedObservableList`1.CopyTo*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_CopyTo_System_Int32__0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)">CopyTo(Int32, T[], Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -535,8 +535,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_GetEnumerator_" data-uid="CarinaStudio.Collections.SortedList`1.GetEnumerator*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_GetEnumerator" data-uid="CarinaStudio.Collections.SortedList`1.GetEnumerator">GetEnumerator()</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_GetEnumerator_" data-uid="CarinaStudio.Collections.SortedObservableList`1.GetEnumerator*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_GetEnumerator" data-uid="CarinaStudio.Collections.SortedObservableList`1.GetEnumerator">GetEnumerator()</h4>
   <div class="markdown level1 summary"><p>Get <span class="xref">System.Collections.Generic.IEnumerator&lt;T&gt;</span> to enumerate elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -562,8 +562,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_IndexOf_" data-uid="CarinaStudio.Collections.SortedList`1.IndexOf*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_IndexOf__0_" data-uid="CarinaStudio.Collections.SortedList`1.IndexOf(`0)">IndexOf(T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_IndexOf_" data-uid="CarinaStudio.Collections.SortedObservableList`1.IndexOf*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_IndexOf__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.IndexOf(`0)">IndexOf(T)</h4>
   <div class="markdown level1 summary"><p>Get index of given element in list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -607,8 +607,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_Remove_" data-uid="CarinaStudio.Collections.SortedList`1.Remove*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_Remove__0_" data-uid="CarinaStudio.Collections.SortedList`1.Remove(`0)">Remove(T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Remove_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Remove*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Remove__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Remove(`0)">Remove(T)</h4>
   <div class="markdown level1 summary"><p>Remove first found of given element.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -652,8 +652,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_RemoveAll_" data-uid="CarinaStudio.Collections.SortedList`1.RemoveAll*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_RemoveAll_System_Collections_Generic_IEnumerable__0__System_Boolean_" data-uid="CarinaStudio.Collections.SortedList`1.RemoveAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)">RemoveAll(IEnumerable&lt;T&gt;, Boolean)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_RemoveAll_" data-uid="CarinaStudio.Collections.SortedObservableList`1.RemoveAll*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_RemoveAll_System_Collections_Generic_IEnumerable__0__System_Boolean_" data-uid="CarinaStudio.Collections.SortedObservableList`1.RemoveAll(System.Collections.Generic.IEnumerable{`0},System.Boolean)">RemoveAll(IEnumerable&lt;T&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Remove elements from list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -703,8 +703,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_RemoveRange_" data-uid="CarinaStudio.Collections.SortedList`1.RemoveRange*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_RemoveRange_System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.RemoveRange(System.Int32,System.Int32)">RemoveRange(Int32, Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_RemoveRange_" data-uid="CarinaStudio.Collections.SortedObservableList`1.RemoveRange*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_RemoveRange_System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.RemoveRange(System.Int32,System.Int32)">RemoveRange(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Remove elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -738,8 +738,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_ToArray_" data-uid="CarinaStudio.Collections.SortedList`1.ToArray*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_ToArray" data-uid="CarinaStudio.Collections.SortedList`1.ToArray">ToArray()</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_ToArray_" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_ToArray" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray">ToArray()</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -765,8 +765,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_ToArray_" data-uid="CarinaStudio.Collections.SortedList`1.ToArray*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_ToArray_System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.ToArray(System.Int32,System.Int32)">ToArray(Int32, Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_ToArray_" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_ToArray_System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray(System.Int32,System.Int32)">ToArray(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -816,8 +816,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_TrimExcess_" data-uid="CarinaStudio.Collections.SortedList`1.TrimExcess*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_TrimExcess" data-uid="CarinaStudio.Collections.SortedList`1.TrimExcess">TrimExcess()</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_TrimExcess_" data-uid="CarinaStudio.Collections.SortedObservableList`1.TrimExcess*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_TrimExcess" data-uid="CarinaStudio.Collections.SortedObservableList`1.TrimExcess">TrimExcess()</h4>
   <div class="markdown level1 summary"><p>Set the capacity to the actual number of elements in list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -829,7 +829,7 @@
   </h3>
   
   
-  <h4 id="CarinaStudio_Collections_SortedList_1_CollectionChanged" data-uid="CarinaStudio.Collections.SortedList`1.CollectionChanged">CollectionChanged</h4>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_CollectionChanged" data-uid="CarinaStudio.Collections.SortedObservableList`1.CollectionChanged">CollectionChanged</h4>
   <div class="markdown level1 summary"><p>Raised when list changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -856,8 +856,8 @@
   </h3>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__Add_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__Add__0_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#Add(`0)">ICollection&lt;T&gt;.Add(T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_ICollection_T__Add_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#ICollection{T}#Add*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_ICollection_T__Add__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#ICollection{T}#Add(`0)">ICollection&lt;T&gt;.Add(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -883,8 +883,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__IsReadOnly_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_ICollection_T__IsReadOnly" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#ICollection{T}#IsReadOnly">ICollection&lt;T&gt;.IsReadOnly</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_ICollection_T__IsReadOnly_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_ICollection_T__IsReadOnly" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#ICollection{T}#IsReadOnly">ICollection&lt;T&gt;.IsReadOnly</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -908,8 +908,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Insert_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Insert_System_Int32__0_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)">IList&lt;T&gt;.Insert(Int32, T)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__Insert_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#Insert*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__Insert_System_Int32__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)">IList&lt;T&gt;.Insert(Int32, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -940,8 +940,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Item_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#Item(System.Int32)">IList&lt;T&gt;.Item[Int32]</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__Item_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#Item*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#Item(System.Int32)">IList&lt;T&gt;.Item[Int32]</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -982,8 +982,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__RemoveAt_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)">IList&lt;T&gt;.RemoveAt(Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__RemoveAt_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)">IList&lt;T&gt;.RemoveAt(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1009,8 +1009,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_CopyTo_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_CopyTo_System_Array_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">ICollection.CopyTo(Array, Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_CopyTo_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#CopyTo*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_CopyTo_System_Array_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">ICollection.CopyTo(Array, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1041,8 +1041,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_IsSynchronized_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_IsSynchronized" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#IsSynchronized">ICollection.IsSynchronized</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_IsSynchronized_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#IsSynchronized*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_IsSynchronized" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#IsSynchronized">ICollection.IsSynchronized</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1066,8 +1066,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_SyncRoot_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_ICollection_SyncRoot" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#ICollection#SyncRoot">ICollection.SyncRoot</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_SyncRoot_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#SyncRoot*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_SyncRoot" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#SyncRoot">ICollection.SyncRoot</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1091,8 +1091,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IEnumerable_GetEnumerator_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IEnumerable_GetEnumerator" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IEnumerable_GetEnumerator_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IEnumerable_GetEnumerator" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1116,8 +1116,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Add_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Add_System_Object_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Add(System.Object)">IList.Add(Object)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Add_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Add*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Add_System_Object_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Add(System.Object)">IList.Add(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1158,8 +1158,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Contains_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Contains_System_Object_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Contains(System.Object)">IList.Contains(Object)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Contains_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Contains*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Contains_System_Object_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Contains(System.Object)">IList.Contains(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1200,8 +1200,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IndexOf_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IndexOf_System_Object_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IndexOf(System.Object)">IList.IndexOf(Object)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IndexOf_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IndexOf*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IndexOf_System_Object_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IndexOf(System.Object)">IList.IndexOf(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1242,8 +1242,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Insert_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Insert_System_Int32_System_Object_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Insert(System.Int32,System.Object)">IList.Insert(Int32, Object)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Insert_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Insert*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Insert_System_Int32_System_Object_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Insert(System.Int32,System.Object)">IList.Insert(Int32, Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1274,8 +1274,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsFixedSize_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsFixedSize" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsFixedSize">IList.IsFixedSize</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IsFixedSize_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IsFixedSize*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IsFixedSize" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IsFixedSize">IList.IsFixedSize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1299,8 +1299,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsReadOnly_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_IsReadOnly" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#IsReadOnly">IList.IsReadOnly</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IsReadOnly_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IsReadOnly*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_IsReadOnly" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#IsReadOnly">IList.IsReadOnly</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1324,8 +1324,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Item_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Item(System.Int32)">IList.Item[Int32]</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Item_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Item*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Item_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Item(System.Int32)">IList.Item[Int32]</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1366,8 +1366,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Remove_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_Remove_System_Object_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#Remove(System.Object)">IList.Remove(Object)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Remove_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Remove*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_Remove_System_Object_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#Remove(System.Object)">IList.Remove(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1393,8 +1393,8 @@
   </table>
   
   
-  <a id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_RemoveAt_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt*"></a>
-  <h4 id="CarinaStudio_Collections_SortedList_1_System_Collections_IList_RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.SortedList`1.System#Collections#IList#RemoveAt(System.Int32)">IList.RemoveAt(Int32)</h4>
+  <a id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_RemoveAt_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt(System.Int32)">IList.RemoveAt(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

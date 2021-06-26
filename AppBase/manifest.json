@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.BaseDisposable.html",
-          "hash": "FwCsExxq29dvisu1iLzyOVZzruzDRFk3h7MDTiti7sA="
+          "hash": "PB76yh88hKrVF5FEzOevq6JZdQJG5OK27Ih1q+awhWU="
         }
       },
       "is_incremental": false,
@@ -101,6 +101,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.ObservableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.ObservableList-1.html",
+          "hash": "OlgsZ/xlVjdfNqG9r5TY6eEXzde377PRV4O1c5tc9Tg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Collections.ReadOnlyObservableList-1.yml",
       "output": {
         ".html": {
@@ -113,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CarinaStudio.Collections.SortedList-1.yml",
+      "source_relative_path": "api/CarinaStudio.Collections.SortedObservableList-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CarinaStudio.Collections.SortedList-1.html",
-          "hash": "vCs24JaBsPlwVK7wwNyvli79wO/sNU0ac6a2Ik2sf3Y="
+          "relative_path": "api/CarinaStudio.Collections.SortedObservableList-1.html",
+          "hash": "VZaR46uavgN71vW9/GLQkd1ytHufpa9npBKbKY0txzI="
         }
       },
       "is_incremental": false,
@@ -125,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CarinaStudio.Collections.TypeConvertedList-2.yml",
+      "source_relative_path": "api/CarinaStudio.Collections.TypeConvertedObservableList-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CarinaStudio.Collections.TypeConvertedList-2.html",
-          "hash": "Bk5HO8WlWk+tWiu84S5zzlae2pR/6kap+vrPtD04ii4="
+          "relative_path": "api/CarinaStudio.Collections.TypeConvertedObservableList-2.html",
+          "hash": "0XrfncAGS3v2IRaaXbuE2ltV3lDrN2Ao7AlZWia4ZWo="
         }
       },
       "is_incremental": false,
@@ -141,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Collections.html",
-          "hash": "Zv05+DG/yksKzKpsL9R6kqhxDa2UeONYxoBrxMsyvgQ="
+          "hash": "pXDIgr+Rm5YxXWreut9H+Kf7XTLPAxs3giFWiK4MVVQ="
         }
       },
       "is_incremental": false,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Tests.Random.html",
-          "hash": "YllnNRrnsWye13dt2tmuW+KBZ0yk2iNQ/ri6hiW+8wQ="
+          "hash": "o61nouW71X/bz8hd/BllMxcsMDQyksPap/Fx08EW9wA="
         }
       },
       "is_incremental": false,
@@ -717,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lEGxjbbee3vhRfVS2xd6gR66gmlMOhGiluGwrOgeiAU="
+          "hash": "lpqqjwwAuxpIefmNodRy4k9AH8XluS/EmCNqip4pst4="
         }
       },
       "is_incremental": false,
@@ -785,11 +797,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/sorted_list.md",
+      "source_relative_path": "articles/sorted_observable_list.md",
       "output": {
         ".html": {
-          "relative_path": "articles/sorted_list.html",
-          "hash": "g9Gw3JUZlsxz3MbYC+/UeZEwFDLUpnWa+4FxChipZ+I="
+          "relative_path": "articles/sorted_observable_list.html",
+          "hash": "h9PwQAJAqTgfrlMmZtFfBclYw5goiFz0/BsM2MFIIXg="
         }
       },
       "is_incremental": false,
@@ -813,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "MaKMaMya3b9QVdy8ybxCIuhm2eFIDJe//+p9VD/O/k8="
+          "hash": "GugfQv/etb2OXldg3epJkDJbZS7cohPjmBejMhJO3nA="
         }
       },
       "is_incremental": false,
@@ -821,11 +833,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/type_converted_list.md",
+      "source_relative_path": "articles/type_converted_observable_list.md",
       "output": {
         ".html": {
-          "relative_path": "articles/type_converted_list.html",
-          "hash": "w7pWocoVboE20fWNR2lJMzXmFkUYvEYY1JS1rCDM5kg="
+          "relative_path": "articles/type_converted_observable_list.html",
+          "hash": "/vArpd7HOJLoytBma3jSzWqR6z8rDfu+S+Z7zN/8xNY="
         }
       },
       "is_incremental": false,
@@ -925,7 +937,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "6Ry8pasoP4GR0YpuKt9j/8xmzo87dkSW8UikSY4tnMc="
+          "hash": "F6SCRbZLdniY9yZgTDRKl/XGl8BR35B5tpIKQcqCWJ8="
         }
       },
       "is_incremental": false,
@@ -964,7 +976,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 58,
+          "total_file_count": 59,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
