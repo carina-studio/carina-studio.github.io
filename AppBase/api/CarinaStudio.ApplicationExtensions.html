@@ -317,6 +317,146 @@
   </table>
   
   
+  <a id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_String_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.String)">OpenManifestResourceStream(IApplication, String)</h4>
+  <div class="markdown level1 summary"><p>Open stream to read manifest resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream OpenManifestResourceStream(this IApplication app, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> of manifest resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Resource cannot be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream*"></a>
+  <h4 id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_Type_System_String_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.Type,System.String)">OpenManifestResourceStream(IApplication, Type, String)</h4>
+  <div class="markdown level1 summary"><p>Open stream to read manifest resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream OpenManifestResourceStream(this IApplication app, Type type, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type to provide namespace to scope resource name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p><span class="xref">System.IO.Stream</span> of manifest resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Resource cannot be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory*"></a>
   <h4 id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)">TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)</h4>
   <div class="markdown level1 summary"><p>Try creating directory in private directory of application.</p>

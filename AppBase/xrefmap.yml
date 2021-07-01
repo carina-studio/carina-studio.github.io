@@ -55,6 +55,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ApplicationExtensions.GetStringNonNull
   nameWithType: ApplicationExtensions.GetStringNonNull
+- uid: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.String)
+  name: OpenManifestResourceStream(IApplication, String)
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_String_
+  commentId: M:CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.String)
+  fullName: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication, System.String)
+  nameWithType: ApplicationExtensions.OpenManifestResourceStream(IApplication, String)
+- uid: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.Type,System.String)
+  name: OpenManifestResourceStream(IApplication, Type, String)
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_Type_System_String_
+  commentId: M:CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.Type,System.String)
+  fullName: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication, System.Type, System.String)
+  nameWithType: ApplicationExtensions.OpenManifestResourceStream(IApplication, Type, String)
+- uid: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream*
+  name: OpenManifestResourceStream
+  href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_
+  commentId: Overload:CarinaStudio.ApplicationExtensions.OpenManifestResourceStream
+  isSpec: "True"
+  fullName: CarinaStudio.ApplicationExtensions.OpenManifestResourceStream
+  nameWithType: ApplicationExtensions.OpenManifestResourceStream
 - uid: CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)
   name: TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)
   href: api/CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__
@@ -357,6 +376,44 @@ references:
   fullName.vb: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
   nameWithType: CollectionExtensions.IsNullOrEmpty<T>(ICollection<T>)
   nameWithType.vb: CollectionExtensions.IsNullOrEmpty(Of T)(ICollection(Of T))
+- uid: CarinaStudio.Collections.DictionaryExtensions
+  name: DictionaryExtensions
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html
+  commentId: T:CarinaStudio.Collections.DictionaryExtensions
+  fullName: CarinaStudio.Collections.DictionaryExtensions
+  nameWithType: DictionaryExtensions
+- uid: CarinaStudio.Collections.DictionaryExtensions.AddAll*
+  name: AddAll
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_AddAll_
+  commentId: Overload:CarinaStudio.Collections.DictionaryExtensions.AddAll
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.DictionaryExtensions.AddAll
+  nameWithType: DictionaryExtensions.AddAll
+- uid: CarinaStudio.Collections.DictionaryExtensions.AddAll``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name: AddAll<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_AddAll__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.AddAll``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name.vb: AddAll(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.AddAll<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.AddAll(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: DictionaryExtensions.AddAll<TKey, TValue>(IDictionary<TKey, TValue>, IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: DictionaryExtensions.AddAll(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+- uid: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly*
+  name: AsReadOnly
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_AsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.DictionaryExtensions.AsReadOnly
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly
+  nameWithType: DictionaryExtensions.AsReadOnly
+- uid: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly``2(System.Collections.Generic.IDictionary{``0,``1})
+  name: AsReadOnly<TKey, TValue>(IDictionary<TKey, TValue>)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_AsReadOnly__2_System_Collections_Generic_IDictionary___0___1__
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.AsReadOnly``2(System.Collections.Generic.IDictionary{``0,``1})
+  name.vb: AsReadOnly(Of TKey, TValue)(IDictionary(Of TKey, TValue))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.AsReadOnly<TKey, TValue>(IDictionary<TKey, TValue>)
+  nameWithType.vb: DictionaryExtensions.AsReadOnly(Of TKey, TValue)(IDictionary(Of TKey, TValue))
 - uid: CarinaStudio.Collections.EnumerableExtensions
   name: EnumerableExtensions
   href: api/CarinaStudio.Collections.EnumerableExtensions.html
@@ -799,6 +856,24 @@ references:
   fullName.vb: CarinaStudio.Collections.ObservableList(Of T).Remove
   nameWithType: ObservableList<T>.Remove
   nameWithType.vb: ObservableList(Of T).Remove
+- uid: CarinaStudio.Collections.ObservableList`1.RemoveAll(System.Predicate{`0})
+  name: RemoveAll(Predicate<T>)
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_RemoveAll_System_Predicate__0__
+  commentId: M:CarinaStudio.Collections.ObservableList`1.RemoveAll(System.Predicate{`0})
+  name.vb: RemoveAll(Predicate(Of T))
+  fullName: CarinaStudio.Collections.ObservableList<T>.RemoveAll(System.Predicate<T>)
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).RemoveAll(System.Predicate(Of T))
+  nameWithType: ObservableList<T>.RemoveAll(Predicate<T>)
+  nameWithType.vb: ObservableList(Of T).RemoveAll(Predicate(Of T))
+- uid: CarinaStudio.Collections.ObservableList`1.RemoveAll*
+  name: RemoveAll
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_RemoveAll_
+  commentId: Overload:CarinaStudio.Collections.ObservableList`1.RemoveAll
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ObservableList<T>.RemoveAll
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).RemoveAll
+  nameWithType: ObservableList<T>.RemoveAll
+  nameWithType.vb: ObservableList(Of T).RemoveAll
 - uid: CarinaStudio.Collections.ObservableList`1.RemoveAt(System.Int32)
   name: RemoveAt(Int32)
   href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_RemoveAt_System_Int32_
@@ -1679,6 +1754,438 @@ references:
   fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt
   nameWithType: ReadOnlyObservableList<T>.IList.RemoveAt
   nameWithType.vb: ReadOnlyObservableList(Of T).System.Collections.IList.RemoveAt
+- uid: CarinaStudio.Collections.ReadOnlySet`1
+  name: ReadOnlySet<T>
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html
+  commentId: T:CarinaStudio.Collections.ReadOnlySet`1
+  name.vb: ReadOnlySet(Of T)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T)
+  nameWithType: ReadOnlySet<T>
+  nameWithType.vb: ReadOnlySet(Of T)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.#ctor(System.Collections.Generic.ISet{`0})
+  name: ReadOnlySet(ISet<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1__ctor_System_Collections_Generic_ISet__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.#ctor(System.Collections.Generic.ISet{`0})
+  name.vb: ReadOnlySet(ISet(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.ReadOnlySet(System.Collections.Generic.ISet<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).ReadOnlySet(System.Collections.Generic.ISet(Of T))
+  nameWithType: ReadOnlySet<T>.ReadOnlySet(ISet<T>)
+  nameWithType.vb: ReadOnlySet(Of T).ReadOnlySet(ISet(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.#ctor*
+  name: ReadOnlySet
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1__ctor_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.ReadOnlySet
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).ReadOnlySet
+  nameWithType: ReadOnlySet<T>.ReadOnlySet
+  nameWithType.vb: ReadOnlySet(Of T).ReadOnlySet
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Contains(`0)
+  name: Contains(T)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Contains__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.Contains(`0)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Contains(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Contains(T)
+  nameWithType: ReadOnlySet<T>.Contains(T)
+  nameWithType.vb: ReadOnlySet(Of T).Contains(T)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Contains*
+  name: Contains
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Contains_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.Contains
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Contains
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Contains
+  nameWithType: ReadOnlySet<T>.Contains
+  nameWithType.vb: ReadOnlySet(Of T).Contains
+- uid: CarinaStudio.Collections.ReadOnlySet`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_CopyTo__0___System_Int32_
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.CopyTo(T[], System.Int32)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).CopyTo(T(), System.Int32)
+  nameWithType: ReadOnlySet<T>.CopyTo(T[], Int32)
+  nameWithType.vb: ReadOnlySet(Of T).CopyTo(T(), Int32)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.CopyTo*
+  name: CopyTo
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_CopyTo_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.CopyTo
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.CopyTo
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).CopyTo
+  nameWithType: ReadOnlySet<T>.CopyTo
+  nameWithType.vb: ReadOnlySet(Of T).CopyTo
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Count
+  name: Count
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Count
+  commentId: P:CarinaStudio.Collections.ReadOnlySet`1.Count
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Count
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Count
+  nameWithType: ReadOnlySet<T>.Count
+  nameWithType.vb: ReadOnlySet(Of T).Count
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Count*
+  name: Count
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Count_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.Count
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Count
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Count
+  nameWithType: ReadOnlySet<T>.Count
+  nameWithType.vb: ReadOnlySet(Of T).Count
+- uid: CarinaStudio.Collections.ReadOnlySet`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_GetEnumerator
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.GetEnumerator
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).GetEnumerator()
+  nameWithType: ReadOnlySet<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlySet(Of T).GetEnumerator()
+- uid: CarinaStudio.Collections.ReadOnlySet`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.GetEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).GetEnumerator
+  nameWithType: ReadOnlySet<T>.GetEnumerator
+  nameWithType.vb: ReadOnlySet(Of T).GetEnumerator
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  name: IsProperSubsetOf(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsProperSubsetOf_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  name.vb: IsProperSubsetOf(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsProperSubsetOf(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsProperSubsetOf(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.IsProperSubsetOf(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).IsProperSubsetOf(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsProperSubsetOf*
+  name: IsProperSubsetOf
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsProperSubsetOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.IsProperSubsetOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsProperSubsetOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsProperSubsetOf
+  nameWithType: ReadOnlySet<T>.IsProperSubsetOf
+  nameWithType.vb: ReadOnlySet(Of T).IsProperSubsetOf
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  name: IsProperSupersetOf(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsProperSupersetOf_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  name.vb: IsProperSupersetOf(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsProperSupersetOf(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsProperSupersetOf(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.IsProperSupersetOf(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).IsProperSupersetOf(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsProperSupersetOf*
+  name: IsProperSupersetOf
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsProperSupersetOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.IsProperSupersetOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsProperSupersetOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsProperSupersetOf
+  nameWithType: ReadOnlySet<T>.IsProperSupersetOf
+  nameWithType.vb: ReadOnlySet(Of T).IsProperSupersetOf
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  name: IsSubsetOf(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsSubsetOf_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})
+  name.vb: IsSubsetOf(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsSubsetOf(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsSubsetOf(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.IsSubsetOf(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).IsSubsetOf(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsSubsetOf*
+  name: IsSubsetOf
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsSubsetOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.IsSubsetOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsSubsetOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsSubsetOf
+  nameWithType: ReadOnlySet<T>.IsSubsetOf
+  nameWithType.vb: ReadOnlySet(Of T).IsSubsetOf
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  name: IsSupersetOf(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsSupersetOf_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})
+  name.vb: IsSupersetOf(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsSupersetOf(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsSupersetOf(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.IsSupersetOf(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).IsSupersetOf(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.IsSupersetOf*
+  name: IsSupersetOf
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_IsSupersetOf_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.IsSupersetOf
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.IsSupersetOf
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).IsSupersetOf
+  nameWithType: ReadOnlySet<T>.IsSupersetOf
+  nameWithType.vb: ReadOnlySet(Of T).IsSupersetOf
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
+  name: Overlaps(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Overlaps_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Overlaps(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Overlaps(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Overlaps(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.Overlaps(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).Overlaps(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.Overlaps*
+  name: Overlaps
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_Overlaps_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.Overlaps
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.Overlaps
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).Overlaps
+  nameWithType: ReadOnlySet<T>.Overlaps
+  nameWithType.vb: ReadOnlySet(Of T).Overlaps
+- uid: CarinaStudio.Collections.ReadOnlySet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
+  name: SetEquals(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_SetEquals_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})
+  name.vb: SetEquals(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.SetEquals(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).SetEquals(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.SetEquals(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).SetEquals(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.SetEquals*
+  name: SetEquals
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_SetEquals_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.SetEquals
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.SetEquals
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).SetEquals
+  nameWithType: ReadOnlySet<T>.SetEquals
+  nameWithType.vb: ReadOnlySet(Of T).SetEquals
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name: ICollection<T>.Add(T)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Add__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<T>.Add(T)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Add(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Add(T)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Add(T)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Add*
+  name: ICollection<T>.Add
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Add_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Add
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Add
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Add
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Add
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Add
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Clear
+  name: ICollection<T>.Clear()
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Clear
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Clear
+  name.vb: System.Collections.Generic.ICollection<T>.Clear()
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Clear()
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Clear()
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Clear()
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Clear*
+  name: ICollection<T>.Clear
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Clear_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Clear
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Clear
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Clear
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Clear
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Clear
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Clear
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__IsReadOnly
+  commentId: P:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: ReadOnlySet<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#IsReadOnly*
+  name: ICollection<T>.IsReadOnly
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__IsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#IsReadOnly
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: ReadOnlySet<T>.ICollection<T>.IsReadOnly
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  name: ICollection<T>.Remove(T)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Remove__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Remove(`0)
+  name.vb: System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Remove(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Remove(T)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Remove(T)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Remove*
+  name: ICollection<T>.Remove
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ICollection_T__Remove_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ICollection{T}#Remove
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<T>.Remove
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ICollection<T>.Remove
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Remove
+  nameWithType: ReadOnlySet<T>.ICollection<T>.Remove
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ICollection<T>.Remove
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#Add(`0)
+  name: ISet<T>.Add(T)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__Add__0_
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#Add(`0)
+  name.vb: System.Collections.Generic.ISet<T>.Add(T)
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.Add(T)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.Add(T)
+  nameWithType: ReadOnlySet<T>.ISet<T>.Add(T)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.Add(T)
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#Add*
+  name: ISet<T>.Add
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__Add_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ISet<T>.Add
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.Add
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.Add
+  nameWithType: ReadOnlySet<T>.ISet<T>.Add
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.Add
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#ExceptWith(System.Collections.Generic.IEnumerable{`0})
+  name: ISet<T>.ExceptWith(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__ExceptWith_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#ExceptWith(System.Collections.Generic.IEnumerable{`0})
+  name.vb: System.Collections.Generic.ISet<T>.ExceptWith(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.ExceptWith(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.ExceptWith(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.ISet<T>.ExceptWith(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.ExceptWith(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#ExceptWith*
+  name: ISet<T>.ExceptWith
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__ExceptWith_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#ExceptWith
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ISet<T>.ExceptWith
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.ExceptWith
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.ExceptWith
+  nameWithType: ReadOnlySet<T>.ISet<T>.ExceptWith
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.ExceptWith
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#IntersectWith(System.Collections.Generic.IEnumerable{`0})
+  name: ISet<T>.IntersectWith(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__IntersectWith_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#IntersectWith(System.Collections.Generic.IEnumerable{`0})
+  name.vb: System.Collections.Generic.ISet<T>.IntersectWith(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.IntersectWith(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.IntersectWith(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.ISet<T>.IntersectWith(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.IntersectWith(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#IntersectWith*
+  name: ISet<T>.IntersectWith
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__IntersectWith_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#IntersectWith
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ISet<T>.IntersectWith
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.IntersectWith
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.IntersectWith
+  nameWithType: ReadOnlySet<T>.ISet<T>.IntersectWith
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.IntersectWith
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
+  name: ISet<T>.SymmetricExceptWith(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__SymmetricExceptWith_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})
+  name.vb: System.Collections.Generic.ISet<T>.SymmetricExceptWith(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.SymmetricExceptWith(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.SymmetricExceptWith(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.ISet<T>.SymmetricExceptWith(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.SymmetricExceptWith(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#SymmetricExceptWith*
+  name: ISet<T>.SymmetricExceptWith
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__SymmetricExceptWith_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#SymmetricExceptWith
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ISet<T>.SymmetricExceptWith
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.SymmetricExceptWith
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.SymmetricExceptWith
+  nameWithType: ReadOnlySet<T>.ISet<T>.SymmetricExceptWith
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.SymmetricExceptWith
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#UnionWith(System.Collections.Generic.IEnumerable{`0})
+  name: ISet<T>.UnionWith(IEnumerable<T>)
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__UnionWith_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#UnionWith(System.Collections.Generic.IEnumerable{`0})
+  name.vb: System.Collections.Generic.ISet<T>.UnionWith(IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.UnionWith(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.UnionWith(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ReadOnlySet<T>.ISet<T>.UnionWith(IEnumerable<T>)
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.UnionWith(IEnumerable(Of T))
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#UnionWith*
+  name: ISet<T>.UnionWith
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_Generic_ISet_T__UnionWith_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#Generic#ISet{T}#UnionWith
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ISet<T>.UnionWith
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.Generic.ISet<T>.UnionWith
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.UnionWith
+  nameWithType: ReadOnlySet<T>.ISet<T>.UnionWith
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.Generic.ISet<T>.UnionWith
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ReadOnlySet<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: CarinaStudio.Collections.ReadOnlySet`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/CarinaStudio.Collections.ReadOnlySet-1.html#CarinaStudio_Collections_ReadOnlySet_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CarinaStudio.Collections.ReadOnlySet`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: CarinaStudio.Collections.ReadOnlySet<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: CarinaStudio.Collections.ReadOnlySet(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ReadOnlySet<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: ReadOnlySet(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: CarinaStudio.Collections.SetExtensions
+  name: SetExtensions
+  href: api/CarinaStudio.Collections.SetExtensions.html
+  commentId: T:CarinaStudio.Collections.SetExtensions
+  fullName: CarinaStudio.Collections.SetExtensions
+  nameWithType: SetExtensions
+- uid: CarinaStudio.Collections.SetExtensions.AddAll*
+  name: AddAll
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_AddAll_
+  commentId: Overload:CarinaStudio.Collections.SetExtensions.AddAll
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SetExtensions.AddAll
+  nameWithType: SetExtensions.AddAll
+- uid: CarinaStudio.Collections.SetExtensions.AddAll``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.IEnumerable{``0})
+  name: AddAll<T>(ISet<T>, IEnumerable<T>)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_AddAll__1_System_Collections_Generic_ISet___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.AddAll``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: AddAll(Of T)(ISet(Of T), IEnumerable(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.AddAll<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.AddAll(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: SetExtensions.AddAll<T>(ISet<T>, IEnumerable<T>)
+  nameWithType.vb: SetExtensions.AddAll(Of T)(ISet(Of T), IEnumerable(Of T))
+- uid: CarinaStudio.Collections.SetExtensions.AsReadOnly*
+  name: AsReadOnly
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_AsReadOnly_
+  commentId: Overload:CarinaStudio.Collections.SetExtensions.AsReadOnly
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SetExtensions.AsReadOnly
+  nameWithType: SetExtensions.AsReadOnly
+- uid: CarinaStudio.Collections.SetExtensions.AsReadOnly``1(System.Collections.Generic.ISet{``0})
+  name: AsReadOnly<T>(ISet<T>)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_AsReadOnly__1_System_Collections_Generic_ISet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.AsReadOnly``1(System.Collections.Generic.ISet{``0})
+  name.vb: AsReadOnly(Of T)(ISet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.AsReadOnly<T>(System.Collections.Generic.ISet<T>)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.AsReadOnly(Of T)(System.Collections.Generic.ISet(Of T))
+  nameWithType: SetExtensions.AsReadOnly<T>(ISet<T>)
+  nameWithType.vb: SetExtensions.AsReadOnly(Of T)(ISet(Of T))
 - uid: CarinaStudio.Collections.SortedObservableList`1
   name: SortedObservableList<T>
   href: api/CarinaStudio.Collections.SortedObservableList-1.html
@@ -1923,6 +2430,15 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveAll(System.Collections.Generic.IEnumerable(Of T), System.Boolean)
   nameWithType: SortedObservableList<T>.RemoveAll(IEnumerable<T>, Boolean)
   nameWithType.vb: SortedObservableList(Of T).RemoveAll(IEnumerable(Of T), Boolean)
+- uid: CarinaStudio.Collections.SortedObservableList`1.RemoveAll(System.Predicate{`0})
+  name: RemoveAll(Predicate<T>)
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_RemoveAll_System_Predicate__0__
+  commentId: M:CarinaStudio.Collections.SortedObservableList`1.RemoveAll(System.Predicate{`0})
+  name.vb: RemoveAll(Predicate(Of T))
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.RemoveAll(System.Predicate<T>)
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveAll(System.Predicate(Of T))
+  nameWithType: SortedObservableList<T>.RemoveAll(Predicate<T>)
+  nameWithType.vb: SortedObservableList(Of T).RemoveAll(Predicate(Of T))
 - uid: CarinaStudio.Collections.SortedObservableList`1.RemoveAll*
   name: RemoveAll
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_RemoveAll_
@@ -1932,6 +2448,23 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveAll
   nameWithType: SortedObservableList<T>.RemoveAll
   nameWithType.vb: SortedObservableList(Of T).RemoveAll
+- uid: CarinaStudio.Collections.SortedObservableList`1.RemoveAt(System.Int32)
+  name: RemoveAt(Int32)
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_RemoveAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedObservableList`1.RemoveAt(System.Int32)
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.RemoveAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveAt(System.Int32)
+  nameWithType: SortedObservableList<T>.RemoveAt(Int32)
+  nameWithType.vb: SortedObservableList(Of T).RemoveAt(Int32)
+- uid: CarinaStudio.Collections.SortedObservableList`1.RemoveAt*
+  name: RemoveAt
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_RemoveAt_
+  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.RemoveAt
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.RemoveAt
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveAt
+  nameWithType: SortedObservableList<T>.RemoveAt
+  nameWithType.vb: SortedObservableList(Of T).RemoveAt
 - uid: CarinaStudio.Collections.SortedObservableList`1.RemoveRange(System.Int32,System.Int32)
   name: RemoveRange(Int32, Int32)
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_RemoveRange_System_Int32_System_Int32_
@@ -2025,25 +2558,6 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.Generic.IList<T>.Item
   nameWithType: SortedObservableList<T>.IList<T>.Item
   nameWithType.vb: SortedObservableList(Of T).System.Collections.Generic.IList<T>.Item
-- uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
-  name: IList<T>.RemoveAt(Int32)
-  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__RemoveAt_System_Int32_
-  commentId: M:CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)
-  name.vb: System.Collections.Generic.IList<T>.RemoveAt(Int32)
-  fullName: CarinaStudio.Collections.SortedObservableList<T>.System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-  nameWithType: SortedObservableList<T>.IList<T>.RemoveAt(Int32)
-  nameWithType.vb: SortedObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt(Int32)
-- uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt*
-  name: IList<T>.RemoveAt
-  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_IList_T__RemoveAt_
-  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#IList{T}#RemoveAt
-  isSpec: "True"
-  name.vb: System.Collections.Generic.IList<T>.RemoveAt
-  fullName: CarinaStudio.Collections.SortedObservableList<T>.System.Collections.Generic.IList<T>.RemoveAt
-  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt
-  nameWithType: SortedObservableList<T>.IList<T>.RemoveAt
-  nameWithType.vb: SortedObservableList(Of T).System.Collections.Generic.IList<T>.RemoveAt
 - uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   name: ICollection.CopyTo(Array, Int32)
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_ICollection_CopyTo_System_Array_System_Int32_
@@ -2272,25 +2786,6 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.IList.Remove
   nameWithType: SortedObservableList<T>.IList.Remove
   nameWithType.vb: SortedObservableList(Of T).System.Collections.IList.Remove
-- uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt(System.Int32)
-  name: IList.RemoveAt(Int32)
-  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_RemoveAt_System_Int32_
-  commentId: M:CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt(System.Int32)
-  name.vb: System.Collections.IList.RemoveAt(Int32)
-  fullName: CarinaStudio.Collections.SortedObservableList<T>.System.Collections.IList.RemoveAt(System.Int32)
-  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.IList.RemoveAt(System.Int32)
-  nameWithType: SortedObservableList<T>.IList.RemoveAt(Int32)
-  nameWithType.vb: SortedObservableList(Of T).System.Collections.IList.RemoveAt(Int32)
-- uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt*
-  name: IList.RemoveAt
-  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_IList_RemoveAt_
-  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.System#Collections#IList#RemoveAt
-  isSpec: "True"
-  name.vb: System.Collections.IList.RemoveAt
-  fullName: CarinaStudio.Collections.SortedObservableList<T>.System.Collections.IList.RemoveAt
-  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).System.Collections.IList.RemoveAt
-  nameWithType: SortedObservableList<T>.IList.RemoveAt
-  nameWithType.vb: SortedObservableList(Of T).System.Collections.IList.RemoveAt
 - uid: CarinaStudio.Collections.SortedObservableList`1.ToArray
   name: ToArray()
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_ToArray
@@ -4079,6 +4574,32 @@ references:
   commentId: T:CarinaStudio.IApplication
   fullName: CarinaStudio.IApplication
   nameWithType: IApplication
+- uid: CarinaStudio.IApplication.Assembly
+  name: Assembly
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_Assembly
+  commentId: P:CarinaStudio.IApplication.Assembly
+  fullName: CarinaStudio.IApplication.Assembly
+  nameWithType: IApplication.Assembly
+- uid: CarinaStudio.IApplication.Assembly*
+  name: Assembly
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_Assembly_
+  commentId: Overload:CarinaStudio.IApplication.Assembly
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.Assembly
+  nameWithType: IApplication.Assembly
+- uid: CarinaStudio.IApplication.CultureInfo
+  name: CultureInfo
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_CultureInfo
+  commentId: P:CarinaStudio.IApplication.CultureInfo
+  fullName: CarinaStudio.IApplication.CultureInfo
+  nameWithType: IApplication.CultureInfo
+- uid: CarinaStudio.IApplication.CultureInfo*
+  name: CultureInfo
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_CultureInfo_
+  commentId: Overload:CarinaStudio.IApplication.CultureInfo
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.CultureInfo
+  nameWithType: IApplication.CultureInfo
 - uid: CarinaStudio.IApplication.GetString(System.String,System.String)
   name: GetString(String, String)
   href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_GetString_System_String_System_String_
@@ -4144,6 +4665,12 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.IApplication.Settings
   nameWithType: IApplication.Settings
+- uid: CarinaStudio.IApplication.StringsUpdated
+  name: StringsUpdated
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_StringsUpdated
+  commentId: E:CarinaStudio.IApplication.StringsUpdated
+  fullName: CarinaStudio.IApplication.StringsUpdated
+  nameWithType: IApplication.StringsUpdated
 - uid: CarinaStudio.IApplicationObject
   name: IApplicationObject
   href: api/CarinaStudio.IApplicationObject.html
@@ -4194,6 +4721,50 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.InternalStateCorruptedException.InternalStateCorruptedException
   nameWithType: InternalStateCorruptedException.InternalStateCorruptedException
+- uid: CarinaStudio.IO
+  name: CarinaStudio.IO
+  href: api/CarinaStudio.IO.html
+  commentId: N:CarinaStudio.IO
+  fullName: CarinaStudio.IO
+  nameWithType: CarinaStudio.IO
+- uid: CarinaStudio.IO.PathEqualityComparer
+  name: PathEqualityComparer
+  href: api/CarinaStudio.IO.PathEqualityComparer.html
+  commentId: T:CarinaStudio.IO.PathEqualityComparer
+  fullName: CarinaStudio.IO.PathEqualityComparer
+  nameWithType: PathEqualityComparer
+- uid: CarinaStudio.IO.PathEqualityComparer.Default
+  name: Default
+  href: api/CarinaStudio.IO.PathEqualityComparer.html#CarinaStudio_IO_PathEqualityComparer_Default
+  commentId: F:CarinaStudio.IO.PathEqualityComparer.Default
+  fullName: CarinaStudio.IO.PathEqualityComparer.Default
+  nameWithType: PathEqualityComparer.Default
+- uid: CarinaStudio.IO.PathEqualityComparer.Equals(System.String,System.String)
+  name: Equals(String, String)
+  href: api/CarinaStudio.IO.PathEqualityComparer.html#CarinaStudio_IO_PathEqualityComparer_Equals_System_String_System_String_
+  commentId: M:CarinaStudio.IO.PathEqualityComparer.Equals(System.String,System.String)
+  fullName: CarinaStudio.IO.PathEqualityComparer.Equals(System.String, System.String)
+  nameWithType: PathEqualityComparer.Equals(String, String)
+- uid: CarinaStudio.IO.PathEqualityComparer.Equals*
+  name: Equals
+  href: api/CarinaStudio.IO.PathEqualityComparer.html#CarinaStudio_IO_PathEqualityComparer_Equals_
+  commentId: Overload:CarinaStudio.IO.PathEqualityComparer.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.IO.PathEqualityComparer.Equals
+  nameWithType: PathEqualityComparer.Equals
+- uid: CarinaStudio.IO.PathEqualityComparer.GetHashCode(System.String)
+  name: GetHashCode(String)
+  href: api/CarinaStudio.IO.PathEqualityComparer.html#CarinaStudio_IO_PathEqualityComparer_GetHashCode_System_String_
+  commentId: M:CarinaStudio.IO.PathEqualityComparer.GetHashCode(System.String)
+  fullName: CarinaStudio.IO.PathEqualityComparer.GetHashCode(System.String)
+  nameWithType: PathEqualityComparer.GetHashCode(String)
+- uid: CarinaStudio.IO.PathEqualityComparer.GetHashCode*
+  name: GetHashCode
+  href: api/CarinaStudio.IO.PathEqualityComparer.html#CarinaStudio_IO_PathEqualityComparer_GetHashCode_
+  commentId: Overload:CarinaStudio.IO.PathEqualityComparer.GetHashCode
+  isSpec: "True"
+  fullName: CarinaStudio.IO.PathEqualityComparer.GetHashCode
+  nameWithType: PathEqualityComparer.GetHashCode
 - uid: CarinaStudio.IShareableDisposable`1
   name: IShareableDisposable<TSelf>
   href: api/CarinaStudio.IShareableDisposable-1.html
@@ -6020,6 +6591,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged
   nameWithType: ViewModel.OnApplicationPropertyChanged
+- uid: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
+  name: OnApplicationStringsUpdated()
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
+  fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated()
+  nameWithType: ViewModel.OnApplicationStringsUpdated()
+- uid: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated*
+  name: OnApplicationStringsUpdated
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
+  nameWithType: ViewModel.OnApplicationStringsUpdated
 - uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
   name: OnPropertyChanged(ObservableProperty, Object, Object)
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_
