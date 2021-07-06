@@ -5541,6 +5541,90 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).Value
   nameWithType: ObservableValue<T>.Value
   nameWithType.vb: ObservableValue(Of T).Value
+- uid: CarinaStudio.Observer`1
+  name: Observer<T>
+  href: api/CarinaStudio.Observer-1.html
+  commentId: T:CarinaStudio.Observer`1
+  name.vb: Observer(Of T)
+  fullName: CarinaStudio.Observer<T>
+  fullName.vb: CarinaStudio.Observer(Of T)
+  nameWithType: Observer<T>
+  nameWithType.vb: Observer(Of T)
+- uid: CarinaStudio.Observer`1.#ctor(System.Action{`0},System.Action,System.Action{System.Exception})
+  name: Observer(Action<T>, Action, Action<Exception>)
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1__ctor_System_Action__0__System_Action_System_Action_System_Exception__
+  commentId: M:CarinaStudio.Observer`1.#ctor(System.Action{`0},System.Action,System.Action{System.Exception})
+  name.vb: Observer(Action(Of T), Action, Action(Of Exception))
+  fullName: CarinaStudio.Observer<T>.Observer(System.Action<T>, System.Action, System.Action<System.Exception>)
+  fullName.vb: CarinaStudio.Observer(Of T).Observer(System.Action(Of T), System.Action, System.Action(Of System.Exception))
+  nameWithType: Observer<T>.Observer(Action<T>, Action, Action<Exception>)
+  nameWithType.vb: Observer(Of T).Observer(Action(Of T), Action, Action(Of Exception))
+- uid: CarinaStudio.Observer`1.#ctor*
+  name: Observer
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1__ctor_
+  commentId: Overload:CarinaStudio.Observer`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Observer<T>.Observer
+  fullName.vb: CarinaStudio.Observer(Of T).Observer
+  nameWithType: Observer<T>.Observer
+  nameWithType.vb: Observer(Of T).Observer
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnCompleted
+  name: IObserver<T>.OnCompleted()
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnCompleted
+  commentId: M:CarinaStudio.Observer`1.System#IObserver{T}#OnCompleted
+  name.vb: System.IObserver<T>.OnCompleted()
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnCompleted()
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnCompleted()
+  nameWithType: Observer<T>.IObserver<T>.OnCompleted()
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnCompleted()
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnCompleted*
+  name: IObserver<T>.OnCompleted
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnCompleted_
+  commentId: Overload:CarinaStudio.Observer`1.System#IObserver{T}#OnCompleted
+  isSpec: "True"
+  name.vb: System.IObserver<T>.OnCompleted
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnCompleted
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnCompleted
+  nameWithType: Observer<T>.IObserver<T>.OnCompleted
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnCompleted
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnError(System.Exception)
+  name: IObserver<T>.OnError(Exception)
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnError_System_Exception_
+  commentId: M:CarinaStudio.Observer`1.System#IObserver{T}#OnError(System.Exception)
+  name.vb: System.IObserver<T>.OnError(Exception)
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnError(System.Exception)
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnError(System.Exception)
+  nameWithType: Observer<T>.IObserver<T>.OnError(Exception)
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnError(Exception)
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnError*
+  name: IObserver<T>.OnError
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnError_
+  commentId: Overload:CarinaStudio.Observer`1.System#IObserver{T}#OnError
+  isSpec: "True"
+  name.vb: System.IObserver<T>.OnError
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnError
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnError
+  nameWithType: Observer<T>.IObserver<T>.OnError
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnError
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnNext(`0)
+  name: IObserver<T>.OnNext(T)
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnNext__0_
+  commentId: M:CarinaStudio.Observer`1.System#IObserver{T}#OnNext(`0)
+  name.vb: System.IObserver<T>.OnNext(T)
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnNext(T)
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnNext(T)
+  nameWithType: Observer<T>.IObserver<T>.OnNext(T)
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnNext(T)
+- uid: CarinaStudio.Observer`1.System#IObserver{T}#OnNext*
+  name: IObserver<T>.OnNext
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1_System_IObserver_T__OnNext_
+  commentId: Overload:CarinaStudio.Observer`1.System#IObserver{T}#OnNext
+  isSpec: "True"
+  name.vb: System.IObserver<T>.OnNext
+  fullName: CarinaStudio.Observer<T>.System.IObserver<T>.OnNext
+  fullName.vb: CarinaStudio.Observer(Of T).System.IObserver<T>.OnNext
+  nameWithType: Observer<T>.IObserver<T>.OnNext
+  nameWithType.vb: Observer(Of T).System.IObserver<T>.OnNext
 - uid: CarinaStudio.StringPool
   name: StringPool
   href: api/CarinaStudio.StringPool.html
@@ -6704,3 +6788,99 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.ToString
   nameWithType: ViewModel.ToString
+- uid: CarinaStudio.Windows.Input
+  name: CarinaStudio.Windows.Input
+  href: api/CarinaStudio.Windows.Input.html
+  commentId: N:CarinaStudio.Windows.Input
+  fullName: CarinaStudio.Windows.Input
+  nameWithType: CarinaStudio.Windows.Input
+- uid: CarinaStudio.Windows.Input.CommandExtensions
+  name: CommandExtensions
+  href: api/CarinaStudio.Windows.Input.CommandExtensions.html
+  commentId: T:CarinaStudio.Windows.Input.CommandExtensions
+  fullName: CarinaStudio.Windows.Input.CommandExtensions
+  nameWithType: CommandExtensions
+- uid: CarinaStudio.Windows.Input.CommandExtensions.TryExecute(System.Windows.Input.ICommand,System.Object)
+  name: TryExecute(ICommand, Object)
+  href: api/CarinaStudio.Windows.Input.CommandExtensions.html#CarinaStudio_Windows_Input_CommandExtensions_TryExecute_System_Windows_Input_ICommand_System_Object_
+  commentId: M:CarinaStudio.Windows.Input.CommandExtensions.TryExecute(System.Windows.Input.ICommand,System.Object)
+  fullName: CarinaStudio.Windows.Input.CommandExtensions.TryExecute(System.Windows.Input.ICommand, System.Object)
+  nameWithType: CommandExtensions.TryExecute(ICommand, Object)
+- uid: CarinaStudio.Windows.Input.CommandExtensions.TryExecute*
+  name: TryExecute
+  href: api/CarinaStudio.Windows.Input.CommandExtensions.html#CarinaStudio_Windows_Input_CommandExtensions_TryExecute_
+  commentId: Overload:CarinaStudio.Windows.Input.CommandExtensions.TryExecute
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.CommandExtensions.TryExecute
+  nameWithType: CommandExtensions.TryExecute
+- uid: CarinaStudio.Windows.Input.ObservableCommandState
+  name: ObservableCommandState
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html
+  commentId: T:CarinaStudio.Windows.Input.ObservableCommandState
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState
+  nameWithType: ObservableCommandState
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Windows.Input.ICommand,System.Boolean)
+  name: ObservableCommandState(ICommand, Boolean)
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState__ctor_System_Windows_Input_ICommand_System_Boolean_
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Windows.Input.ICommand,System.Boolean)
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.ObservableCommandState(System.Windows.Input.ICommand, System.Boolean)
+  nameWithType: ObservableCommandState.ObservableCommandState(ICommand, Boolean)
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.#ctor*
+  name: ObservableCommandState
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState__ctor_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.ObservableCommandState
+  nameWithType: ObservableCommandState.ObservableCommandState
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Bind(System.Windows.Input.ICommand)
+  name: Bind(ICommand)
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Bind_System_Windows_Input_ICommand_
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Bind(System.Windows.Input.ICommand)
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Bind(System.Windows.Input.ICommand)
+  nameWithType: ObservableCommandState.Bind(ICommand)
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Bind*
+  name: Bind
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Bind_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Bind
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Bind
+  nameWithType: ObservableCommandState.Bind
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Command
+  name: Command
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Command
+  commentId: P:CarinaStudio.Windows.Input.ObservableCommandState.Command
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Command
+  nameWithType: ObservableCommandState.Command
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Command*
+  name: Command
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Command_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Command
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Command
+  nameWithType: ObservableCommandState.Command
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  name: Finalize()
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Finalize
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Finalize()
+  nameWithType: ObservableCommandState.Finalize()
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Finalize*
+  name: Finalize
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Finalize_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  nameWithType: ObservableCommandState.Finalize
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  name: Unbind()
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Unbind
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Unbind()
+  nameWithType: ObservableCommandState.Unbind()
+- uid: CarinaStudio.Windows.Input.ObservableCommandState.Unbind*
+  name: Unbind
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Unbind_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  nameWithType: ObservableCommandState.Unbind

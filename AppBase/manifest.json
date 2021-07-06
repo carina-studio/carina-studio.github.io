@@ -525,7 +525,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.ObservableValue-1.html",
-          "hash": "pIsqFCiW0BwaaLCKfM3EsA1E3Y0wy2++nrbkS0hYilg="
+          "hash": "rwx9gaLYjt5K6nW8q+U08ZCPuycppeaQ0tSfxrEfC7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Observer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Observer-1.html",
+          "hash": "I4UxwnVxMWq3YdcqCTRUipOPxiQ2EI9jgW7n3uGOyHQ="
         }
       },
       "is_incremental": false,
@@ -761,11 +773,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Windows.Input.CommandExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Windows.Input.CommandExtensions.html",
+          "hash": "fZuir92LxgkF596R+JVS37Qi8mpqnorUGDC0mooJcXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Windows.Input.ObservableCommandState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Windows.Input.ObservableCommandState.html",
+          "hash": "qjDBJGYMHZkT6odZY41EEuSZDP49F9mnchPsVwahcMM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Windows.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Windows.Input.html",
+          "hash": "eYb11P/r0VoYnxxofZbU9FkMFiKedubhghRjIiJ4uDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "mWOtfd9LpRcprOvuxPm3EP9wMaEhebPmSaYq00SGlQU="
+          "hash": "h/8rZw2Iv4vxXI/09ddS5/SBrPQPCXQnW0bpyoKjcfM="
         }
       },
       "is_incremental": false,
@@ -789,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Ml6BW7aFp1AoLovojFRsW5DegA4CxpSHGx6XltAUfMs="
+          "hash": "dlXrgy5ITEaM41iSex6pcvdkPJZYb1anPXPNDL4j8Zk="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1084,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 64,
+          "total_file_count": 68,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
