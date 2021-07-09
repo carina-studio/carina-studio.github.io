@@ -376,6 +376,28 @@ references:
   fullName.vb: CarinaStudio.Collections.CollectionExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
   nameWithType: CollectionExtensions.IsNullOrEmpty<T>(ICollection<T>)
   nameWithType.vb: CollectionExtensions.IsNullOrEmpty(Of T)(ICollection(Of T))
+- uid: CarinaStudio.Collections.ComparerExtensions
+  name: ComparerExtensions
+  href: api/CarinaStudio.Collections.ComparerExtensions.html
+  commentId: T:CarinaStudio.Collections.ComparerExtensions
+  fullName: CarinaStudio.Collections.ComparerExtensions
+  nameWithType: ComparerExtensions
+- uid: CarinaStudio.Collections.ComparerExtensions.Invert*
+  name: Invert
+  href: api/CarinaStudio.Collections.ComparerExtensions.html#CarinaStudio_Collections_ComparerExtensions_Invert_
+  commentId: Overload:CarinaStudio.Collections.ComparerExtensions.Invert
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ComparerExtensions.Invert
+  nameWithType: ComparerExtensions.Invert
+- uid: CarinaStudio.Collections.ComparerExtensions.Invert``1(System.Collections.Generic.IComparer{``0})
+  name: Invert<T>(IComparer<T>)
+  href: api/CarinaStudio.Collections.ComparerExtensions.html#CarinaStudio_Collections_ComparerExtensions_Invert__1_System_Collections_Generic_IComparer___0__
+  commentId: M:CarinaStudio.Collections.ComparerExtensions.Invert``1(System.Collections.Generic.IComparer{``0})
+  name.vb: Invert(Of T)(IComparer(Of T))
+  fullName: CarinaStudio.Collections.ComparerExtensions.Invert<T>(System.Collections.Generic.IComparer<T>)
+  fullName.vb: CarinaStudio.Collections.ComparerExtensions.Invert(Of T)(System.Collections.Generic.IComparer(Of T))
+  nameWithType: ComparerExtensions.Invert<T>(IComparer<T>)
+  nameWithType.vb: ComparerExtensions.Invert(Of T)(IComparer(Of T))
 - uid: CarinaStudio.Collections.DictionaryExtensions
   name: DictionaryExtensions
   href: api/CarinaStudio.Collections.DictionaryExtensions.html
@@ -2291,6 +2313,23 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).CollectionChanged
   nameWithType: SortedObservableList<T>.CollectionChanged
   nameWithType.vb: SortedObservableList(Of T).CollectionChanged
+- uid: CarinaStudio.Collections.SortedObservableList`1.Comparer
+  name: Comparer
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Comparer
+  commentId: P:CarinaStudio.Collections.SortedObservableList`1.Comparer
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.Comparer
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).Comparer
+  nameWithType: SortedObservableList<T>.Comparer
+  nameWithType.vb: SortedObservableList(Of T).Comparer
+- uid: CarinaStudio.Collections.SortedObservableList`1.Comparer*
+  name: Comparer
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Comparer_
+  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.Comparer
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.Comparer
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).Comparer
+  nameWithType: SortedObservableList<T>.Comparer
+  nameWithType.vb: SortedObservableList(Of T).Comparer
 - uid: CarinaStudio.Collections.SortedObservableList`1.Contains(`0)
   name: Contains(T)
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Contains__0_
@@ -4381,6 +4420,28 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Configuration.XmlSettingsSerializer.WriteXmlValue
   nameWithType: XmlSettingsSerializer.WriteXmlValue
+- uid: CarinaStudio.DelegateExtensions
+  name: DelegateExtensions
+  href: api/CarinaStudio.DelegateExtensions.html
+  commentId: T:CarinaStudio.DelegateExtensions
+  fullName: CarinaStudio.DelegateExtensions
+  nameWithType: DelegateExtensions
+- uid: CarinaStudio.DelegateExtensions.Invert*
+  name: Invert
+  href: api/CarinaStudio.DelegateExtensions.html#CarinaStudio_DelegateExtensions_Invert_
+  commentId: Overload:CarinaStudio.DelegateExtensions.Invert
+  isSpec: "True"
+  fullName: CarinaStudio.DelegateExtensions.Invert
+  nameWithType: DelegateExtensions.Invert
+- uid: CarinaStudio.DelegateExtensions.Invert``1(System.Comparison{``0})
+  name: Invert<T>(Comparison<T>)
+  href: api/CarinaStudio.DelegateExtensions.html#CarinaStudio_DelegateExtensions_Invert__1_System_Comparison___0__
+  commentId: M:CarinaStudio.DelegateExtensions.Invert``1(System.Comparison{``0})
+  name.vb: Invert(Of T)(Comparison(Of T))
+  fullName: CarinaStudio.DelegateExtensions.Invert<T>(System.Comparison<T>)
+  fullName.vb: CarinaStudio.DelegateExtensions.Invert(Of T)(System.Comparison(Of T))
+  nameWithType: DelegateExtensions.Invert<T>(Comparison<T>)
+  nameWithType.vb: DelegateExtensions.Invert(Of T)(Comparison(Of T))
 - uid: CarinaStudio.DisposableExtensions
   name: DisposableExtensions
   href: api/CarinaStudio.DisposableExtensions.html
@@ -4727,6 +4788,31 @@ references:
   commentId: N:CarinaStudio.IO
   fullName: CarinaStudio.IO
   nameWithType: CarinaStudio.IO
+- uid: CarinaStudio.IO.PathComparer
+  name: PathComparer
+  href: api/CarinaStudio.IO.PathComparer.html
+  commentId: T:CarinaStudio.IO.PathComparer
+  fullName: CarinaStudio.IO.PathComparer
+  nameWithType: PathComparer
+- uid: CarinaStudio.IO.PathComparer.Compare(System.String,System.String)
+  name: Compare(String, String)
+  href: api/CarinaStudio.IO.PathComparer.html#CarinaStudio_IO_PathComparer_Compare_System_String_System_String_
+  commentId: M:CarinaStudio.IO.PathComparer.Compare(System.String,System.String)
+  fullName: CarinaStudio.IO.PathComparer.Compare(System.String, System.String)
+  nameWithType: PathComparer.Compare(String, String)
+- uid: CarinaStudio.IO.PathComparer.Compare*
+  name: Compare
+  href: api/CarinaStudio.IO.PathComparer.html#CarinaStudio_IO_PathComparer_Compare_
+  commentId: Overload:CarinaStudio.IO.PathComparer.Compare
+  isSpec: "True"
+  fullName: CarinaStudio.IO.PathComparer.Compare
+  nameWithType: PathComparer.Compare
+- uid: CarinaStudio.IO.PathComparer.Default
+  name: Default
+  href: api/CarinaStudio.IO.PathComparer.html#CarinaStudio_IO_PathComparer_Default
+  commentId: F:CarinaStudio.IO.PathComparer.Default
+  fullName: CarinaStudio.IO.PathComparer.Default
+  nameWithType: PathComparer.Default
 - uid: CarinaStudio.IO.PathEqualityComparer
   name: PathEqualityComparer
   href: api/CarinaStudio.IO.PathEqualityComparer.html

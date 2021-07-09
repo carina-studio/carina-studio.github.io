@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CarinaStudio.IO
+    <title>Class DelegateExtensions
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CarinaStudio.IO
+    <meta name="title" content="Class DelegateExtensions
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,21 +68,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.IO">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.DelegateExtensions">
   
-  <h1 id="CarinaStudio_IO" data-uid="CarinaStudio.IO" class="text-break">Namespace CarinaStudio.IO
+  
+  <h1 id="CarinaStudio_DelegateExtensions" data-uid="CarinaStudio.DelegateExtensions" class="text-break">Class DelegateExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extensions for delegates.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DelegateExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
+  <h5 id="CarinaStudio_DelegateExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DelegateExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CarinaStudio.IO.PathComparer.html">PathComparer</a></h4>
-      <section><p><span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to compare file paths. Case will be ignored on Windows.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.PathEqualityComparer.html">PathEqualityComparer</a></h4>
-      <section><p><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> to check equality of file path. Case will be ignored on Windows.</p>
-</section>
+  
+  
+  <a id="CarinaStudio_DelegateExtensions_Invert_" data-uid="CarinaStudio.DelegateExtensions.Invert*"></a>
+  <h4 id="CarinaStudio_DelegateExtensions_Invert__1_System_Comparison___0__" data-uid="CarinaStudio.DelegateExtensions.Invert``1(System.Comparison{``0})">Invert&lt;T&gt;(Comparison&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create new <span class="xref">System.Comparison&lt;T&gt;</span> which generates inverse result of given <span class="xref">System.Comparison&lt;T&gt;</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Comparison&lt;T&gt; Invert&lt;T&gt;(this Comparison&lt;T&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td><p><span class="xref">System.Comparison&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
+        <td><p><span class="xref">System.Comparison&lt;T&gt;</span> which generates inverse result of given <span class="xref">System.Comparison&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

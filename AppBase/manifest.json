@@ -77,6 +77,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.ComparerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.ComparerExtensions.html",
+          "hash": "9VBIjLClmi1HBXwQq+lzzITZtgu9K4CZoljLic+ijrY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Collections.DictionaryExtensions.yml",
       "output": {
         ".html": {
@@ -165,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Collections.SortedObservableList-1.html",
-          "hash": "k7O9OyzUzsk0vl09F3sNi0f1zam8lplLGs1O1v8UgDo="
+          "hash": "bC/rfJFK0NKe1Hs8ESeICohZ8zBbMUPE+zMvT9lfid4="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Collections.html",
-          "hash": "vuyET66O5a9EgBkVKNG6WwVAnoJfyRSgO0OERgcw3wI="
+          "hash": "MxN7Q04Cnhtl2CIKZwqw/V33EkF6mGwzHnCWYF0yKl0="
         }
       },
       "is_incremental": false,
@@ -329,6 +341,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.DelegateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.DelegateExtensions.html",
+          "hash": "BdF8TYz/TzIJ5Isg4TaBta3bAHfq+AwgFJLRMn7SB0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.DisposableExtensions.yml",
       "output": {
         ".html": {
@@ -389,6 +413,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.PathComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.PathComparer.html",
+          "hash": "/XRf8ioqXx6ifXFIeH7JAA7QWb9bv2et36XXRXTsGfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.IO.PathEqualityComparer.yml",
       "output": {
         ".html": {
@@ -405,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IO.html",
-          "hash": "f9HyrVQQ04zLmt8yemqYp9fqpoaJXAHQd2c62qMJd0c="
+          "hash": "F1m5Viv/jWa/I/XaMTHIvvWCu5mqd2/nOp3eYTbjP9A="
         }
       },
       "is_incremental": false,
@@ -813,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "h/8rZw2Iv4vxXI/09ddS5/SBrPQPCXQnW0bpyoKjcfM="
+          "hash": "ySz3bWWwIaloUfgcE39NgkvxNym0YqCmSkZD+315xOE="
         }
       },
       "is_incremental": false,
@@ -837,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dlXrgy5ITEaM41iSex6pcvdkPJZYb1anPXPNDL4j8Zk="
+          "hash": "B6Qe1MtmV428Ymg/YKdh4RO0jRQgzzMkem9NI/0IRAM="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1120,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 68,
+          "total_file_count": 71,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
