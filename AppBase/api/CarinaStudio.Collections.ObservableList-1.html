@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Collections_ObservableList_1" data-uid="CarinaStudio.Collections.ObservableList`1" class="text-break">Class ObservableList&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Implementation of <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> which also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+  <div class="markdown level0 summary"><p>Implementation of <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> which also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> and <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -88,6 +88,7 @@
     <div><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
@@ -121,7 +122,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Collections_ObservableList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ObservableList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ObservableList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -898,6 +899,31 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="CarinaStudio_Collections_ObservableList_1_PropertyChanged" data-uid="CarinaStudio.Collections.ObservableList`1.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Raised when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   
@@ -1353,6 +1379,9 @@
       <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>
   </div>
   <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
       <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
   </div>
   <div>
@@ -1424,6 +1453,9 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable&lt;CancellationToken&gt;)</a>
   </div>
 </article>
           </div>

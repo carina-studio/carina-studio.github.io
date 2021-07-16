@@ -88,6 +88,7 @@
     <div><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
@@ -121,7 +122,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Collections_SortedObservableList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SortedObservableList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SortedObservableList&lt;T&gt; : IList, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyList&lt;T&gt;, IReadOnlyCollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -838,6 +839,96 @@
   </table>
   
   
+  <a id="CarinaStudio_Collections_SortedObservableList_1_Sort_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Sort*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_Sort__0_" data-uid="CarinaStudio.Collections.SortedObservableList`1.Sort(`0)">Sort(T)</h4>
+  <div class="markdown level1 summary"><p>Move given element to correct position if needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Sort(T element)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">element</span></td>
+        <td><p>Element to move.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if element has been moved to correct position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_SortedObservableList_1_SortAt_" data-uid="CarinaStudio.Collections.SortedObservableList`1.SortAt*"></a>
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_SortAt_System_Int32_" data-uid="CarinaStudio.Collections.SortedObservableList`1.SortAt(System.Int32)">SortAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>Move given element to correct position if needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SortAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Current index of element to move.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if element has been moved to correct position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_Collections_SortedObservableList_1_ToArray_" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray*"></a>
   <h4 id="CarinaStudio_Collections_SortedObservableList_1_ToArray" data-uid="CarinaStudio.Collections.SortedObservableList`1.ToArray">ToArray()</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
@@ -948,6 +1039,31 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Specialized.NotifyCollectionChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_Collections_SortedObservableList_1_PropertyChanged" data-uid="CarinaStudio.Collections.SortedObservableList`1.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Raised when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1481,6 +1597,9 @@
       <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>
   </div>
   <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
       <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
   </div>
   <div>
@@ -1552,6 +1671,9 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable&lt;CancellationToken&gt;)</a>
   </div>
 </article>
           </div>

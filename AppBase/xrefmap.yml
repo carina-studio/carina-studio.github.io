@@ -861,6 +861,14 @@ references:
   fullName.vb: CarinaStudio.Collections.ObservableList(Of T).Item
   nameWithType: ObservableList<T>.Item
   nameWithType.vb: ObservableList(Of T).Item
+- uid: CarinaStudio.Collections.ObservableList`1.PropertyChanged
+  name: PropertyChanged
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_PropertyChanged
+  commentId: E:CarinaStudio.Collections.ObservableList`1.PropertyChanged
+  fullName: CarinaStudio.Collections.ObservableList<T>.PropertyChanged
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).PropertyChanged
+  nameWithType: ObservableList<T>.PropertyChanged
+  nameWithType.vb: ObservableList(Of T).PropertyChanged
 - uid: CarinaStudio.Collections.ObservableList`1.Remove(`0)
   name: Remove(T)
   href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_Remove__0_
@@ -1377,6 +1385,14 @@ references:
   fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).Item
   nameWithType: ReadOnlyObservableList<T>.Item
   nameWithType.vb: ReadOnlyObservableList(Of T).Item
+- uid: CarinaStudio.Collections.ReadOnlyObservableList`1.PropertyChanged
+  name: PropertyChanged
+  href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_PropertyChanged
+  commentId: E:CarinaStudio.Collections.ReadOnlyObservableList`1.PropertyChanged
+  fullName: CarinaStudio.Collections.ReadOnlyObservableList<T>.PropertyChanged
+  fullName.vb: CarinaStudio.Collections.ReadOnlyObservableList(Of T).PropertyChanged
+  nameWithType: ReadOnlyObservableList<T>.PropertyChanged
+  nameWithType.vb: ReadOnlyObservableList(Of T).PropertyChanged
 - uid: CarinaStudio.Collections.ReadOnlyObservableList`1.System#Collections#Generic#ICollection{T}#Add(`0)
   name: ICollection<T>.Add(T)
   href: api/CarinaStudio.Collections.ReadOnlyObservableList-1.html#CarinaStudio_Collections_ReadOnlyObservableList_1_System_Collections_Generic_ICollection_T__Add__0_
@@ -2443,6 +2459,14 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).Item
   nameWithType: SortedObservableList<T>.Item
   nameWithType.vb: SortedObservableList(Of T).Item
+- uid: CarinaStudio.Collections.SortedObservableList`1.PropertyChanged
+  name: PropertyChanged
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_PropertyChanged
+  commentId: E:CarinaStudio.Collections.SortedObservableList`1.PropertyChanged
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.PropertyChanged
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).PropertyChanged
+  nameWithType: SortedObservableList<T>.PropertyChanged
+  nameWithType.vb: SortedObservableList(Of T).PropertyChanged
 - uid: CarinaStudio.Collections.SortedObservableList`1.Remove(`0)
   name: Remove(T)
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Remove__0_
@@ -2521,6 +2545,40 @@ references:
   fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).RemoveRange
   nameWithType: SortedObservableList<T>.RemoveRange
   nameWithType.vb: SortedObservableList(Of T).RemoveRange
+- uid: CarinaStudio.Collections.SortedObservableList`1.Sort(`0)
+  name: Sort(T)
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Sort__0_
+  commentId: M:CarinaStudio.Collections.SortedObservableList`1.Sort(`0)
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.Sort(T)
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).Sort(T)
+  nameWithType: SortedObservableList<T>.Sort(T)
+  nameWithType.vb: SortedObservableList(Of T).Sort(T)
+- uid: CarinaStudio.Collections.SortedObservableList`1.Sort*
+  name: Sort
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_Sort_
+  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.Sort
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.Sort
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).Sort
+  nameWithType: SortedObservableList<T>.Sort
+  nameWithType.vb: SortedObservableList(Of T).Sort
+- uid: CarinaStudio.Collections.SortedObservableList`1.SortAt(System.Int32)
+  name: SortAt(Int32)
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_SortAt_System_Int32_
+  commentId: M:CarinaStudio.Collections.SortedObservableList`1.SortAt(System.Int32)
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.SortAt(System.Int32)
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).SortAt(System.Int32)
+  nameWithType: SortedObservableList<T>.SortAt(Int32)
+  nameWithType.vb: SortedObservableList(Of T).SortAt(Int32)
+- uid: CarinaStudio.Collections.SortedObservableList`1.SortAt*
+  name: SortAt
+  href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_SortAt_
+  commentId: Overload:CarinaStudio.Collections.SortedObservableList`1.SortAt
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.SortedObservableList<T>.SortAt
+  fullName.vb: CarinaStudio.Collections.SortedObservableList(Of T).SortAt
+  nameWithType: SortedObservableList<T>.SortAt
+  nameWithType.vb: SortedObservableList(Of T).SortAt
 - uid: CarinaStudio.Collections.SortedObservableList`1.System#Collections#Generic#ICollection{T}#Add(`0)
   name: ICollection<T>.Add(T)
   href: api/CarinaStudio.Collections.SortedObservableList-1.html#CarinaStudio_Collections_SortedObservableList_1_System_Collections_Generic_ICollection_T__Add__0_
@@ -3040,6 +3098,14 @@ references:
   fullName.vb: CarinaStudio.Collections.TypeConvertedObservableList(Of TSrc, TDest).Item
   nameWithType: TypeConvertedObservableList<TSrc, TDest>.Item
   nameWithType.vb: TypeConvertedObservableList(Of TSrc, TDest).Item
+- uid: CarinaStudio.Collections.TypeConvertedObservableList`2.PropertyChanged
+  name: PropertyChanged
+  href: api/CarinaStudio.Collections.TypeConvertedObservableList-2.html#CarinaStudio_Collections_TypeConvertedObservableList_2_PropertyChanged
+  commentId: E:CarinaStudio.Collections.TypeConvertedObservableList`2.PropertyChanged
+  fullName: CarinaStudio.Collections.TypeConvertedObservableList<TSrc, TDest>.PropertyChanged
+  fullName.vb: CarinaStudio.Collections.TypeConvertedObservableList(Of TSrc, TDest).PropertyChanged
+  nameWithType: TypeConvertedObservableList<TSrc, TDest>.PropertyChanged
+  nameWithType.vb: TypeConvertedObservableList(Of TSrc, TDest).PropertyChanged
 - uid: CarinaStudio.Collections.TypeConvertedObservableList`2.ReleaseElement(`1)
   name: ReleaseElement(TDest)
   href: api/CarinaStudio.Collections.TypeConvertedObservableList-2.html#CarinaStudio_Collections_TypeConvertedObservableList_2_ReleaseElement__1_
