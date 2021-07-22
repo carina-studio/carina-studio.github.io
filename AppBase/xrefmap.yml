@@ -511,6 +511,15 @@ references:
   fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), T, System.Comparison(Of T))
   nameWithType: ListExtensions.BinarySearch<T>(IList<T>, T, Comparison<T>)
   nameWithType.vb: ListExtensions.BinarySearch(Of T)(IList(Of T), T, Comparison(Of T))
+- uid: CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1},System.Comparison{``1})
+  name: BinarySearch<T, TKey>(IList<T>, TKey, Func<T, TKey>, Comparison<TKey>)
+  href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__System_Comparison___1__
+  commentId: M:CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1},System.Comparison{``1})
+  name.vb: BinarySearch(Of T, TKey)(IList(Of T), TKey, Func(Of T, TKey), Comparison(Of TKey))
+  fullName: CarinaStudio.Collections.ListExtensions.BinarySearch<T, TKey>(System.Collections.Generic.IList<T>, TKey, System.Func<T, TKey>, System.Comparison<TKey>)
+  fullName.vb: CarinaStudio.Collections.ListExtensions.BinarySearch(Of T, TKey)(System.Collections.Generic.IList(Of T), TKey, System.Func(Of T, TKey), System.Comparison(Of TKey))
+  nameWithType: ListExtensions.BinarySearch<T, TKey>(IList<T>, TKey, Func<T, TKey>, Comparison<TKey>)
+  nameWithType.vb: ListExtensions.BinarySearch(Of T, TKey)(IList(Of T), TKey, Func(Of T, TKey), Comparison(Of TKey))
 - uid: CarinaStudio.Collections.ListExtensions.CopyTo*
   name: CopyTo
   href: api/CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_CopyTo_
@@ -861,6 +870,40 @@ references:
   fullName.vb: CarinaStudio.Collections.ObservableList(Of T).Item
   nameWithType: ObservableList<T>.Item
   nameWithType.vb: ObservableList(Of T).Item
+- uid: CarinaStudio.Collections.ObservableList`1.Move(System.Int32,System.Int32)
+  name: Move(Int32, Int32)
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_Move_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.ObservableList`1.Move(System.Int32,System.Int32)
+  fullName: CarinaStudio.Collections.ObservableList<T>.Move(System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).Move(System.Int32, System.Int32)
+  nameWithType: ObservableList<T>.Move(Int32, Int32)
+  nameWithType.vb: ObservableList(Of T).Move(Int32, Int32)
+- uid: CarinaStudio.Collections.ObservableList`1.Move*
+  name: Move
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_Move_
+  commentId: Overload:CarinaStudio.Collections.ObservableList`1.Move
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ObservableList<T>.Move
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).Move
+  nameWithType: ObservableList<T>.Move
+  nameWithType.vb: ObservableList(Of T).Move
+- uid: CarinaStudio.Collections.ObservableList`1.MoveRange(System.Int32,System.Int32,System.Int32)
+  name: MoveRange(Int32, Int32, Int32)
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_MoveRange_System_Int32_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.Collections.ObservableList`1.MoveRange(System.Int32,System.Int32,System.Int32)
+  fullName: CarinaStudio.Collections.ObservableList<T>.MoveRange(System.Int32, System.Int32, System.Int32)
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).MoveRange(System.Int32, System.Int32, System.Int32)
+  nameWithType: ObservableList<T>.MoveRange(Int32, Int32, Int32)
+  nameWithType.vb: ObservableList(Of T).MoveRange(Int32, Int32, Int32)
+- uid: CarinaStudio.Collections.ObservableList`1.MoveRange*
+  name: MoveRange
+  href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_MoveRange_
+  commentId: Overload:CarinaStudio.Collections.ObservableList`1.MoveRange
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.ObservableList<T>.MoveRange
+  fullName.vb: CarinaStudio.Collections.ObservableList(Of T).MoveRange
+  nameWithType: ObservableList<T>.MoveRange
+  nameWithType.vb: ObservableList(Of T).MoveRange
 - uid: CarinaStudio.Collections.ObservableList`1.PropertyChanged
   name: PropertyChanged
   href: api/CarinaStudio.Collections.ObservableList-1.html#CarinaStudio_Collections_ObservableList_1_PropertyChanged
@@ -6940,6 +6983,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.ToString
   nameWithType: ViewModel.ToString
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
+  name: WaitForNecessaryTasksCompletionAsync()
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync
+  commentId: M:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync()
+  nameWithType: ViewModel.WaitForNecessaryTasksCompletionAsync()
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync*
+  name: WaitForNecessaryTasksCompletionAsync
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
+  nameWithType: ViewModel.WaitForNecessaryTasksCompletionAsync
 - uid: CarinaStudio.Windows.Input
   name: CarinaStudio.Windows.Input
   href: api/CarinaStudio.Windows.Input.html
