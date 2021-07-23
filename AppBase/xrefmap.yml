@@ -6753,6 +6753,12 @@ references:
   commentId: M:CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)
   fullName: CarinaStudio.ViewModels.ViewModel.ViewModel(CarinaStudio.IApplication)
   nameWithType: ViewModel.ViewModel(IApplication)
+- uid: CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.ViewModels.ViewModel)
+  name: ViewModel(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.ViewModel(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.ViewModel(ViewModel)
 - uid: CarinaStudio.ViewModels.ViewModel.#ctor*
   name: ViewModel
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_
@@ -6831,6 +6837,19 @@ references:
   fullName.vb: CarinaStudio.ViewModels.ViewModel.GetValueAsObservable(Of T)(CarinaStudio.ViewModels.ObservableProperty(Of T))
   nameWithType: ViewModel.GetValueAsObservable<T>(ObservableProperty<T>)
   nameWithType.vb: ViewModel.GetValueAsObservable(Of T)(ObservableProperty(Of T))
+- uid: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
+  name: HasNecessaryTasks
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks
+  commentId: P:CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
+  fullName: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
+  nameWithType: ViewModel.HasNecessaryTasks
+- uid: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks*
+  name: HasNecessaryTasks
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
+  nameWithType: ViewModel.HasNecessaryTasks
 - uid: CarinaStudio.ViewModels.ViewModel.Id
   name: Id
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id
@@ -6883,12 +6902,44 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
   nameWithType: ViewModel.OnApplicationStringsUpdated
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
+  name: OnOwnedViewModelCreated(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.OnOwnedViewModelCreated(ViewModel)
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated*
+  name: OnOwnedViewModelCreated
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated
+  nameWithType: ViewModel.OnOwnedViewModelCreated
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
+  name: OnOwnedViewModelDisposed(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.OnOwnedViewModelDisposed(ViewModel)
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed*
+  name: OnOwnedViewModelDisposed
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed
+  nameWithType: ViewModel.OnOwnedViewModelDisposed
 - uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
   name: OnPropertyChanged(ObservableProperty, Object, Object)
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_
   commentId: M:CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
   fullName: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty, System.Object, System.Object)
   nameWithType: ViewModel.OnPropertyChanged(ObservableProperty, Object, Object)
+- uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(String)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)
+  nameWithType: ViewModel.OnPropertyChanged(String)
 - uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*
   name: OnPropertyChanged
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_
@@ -6922,6 +6973,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.OnSettingChanging
   nameWithType: ViewModel.OnSettingChanging
+- uid: CarinaStudio.ViewModels.ViewModel.OwnedViewModels
+  name: OwnedViewModels
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OwnedViewModels
+  commentId: P:CarinaStudio.ViewModels.ViewModel.OwnedViewModels
+  fullName: CarinaStudio.ViewModels.ViewModel.OwnedViewModels
+  nameWithType: ViewModel.OwnedViewModels
+- uid: CarinaStudio.ViewModels.ViewModel.OwnedViewModels*
+  name: OwnedViewModels
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OwnedViewModels_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OwnedViewModels
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OwnedViewModels
+  nameWithType: ViewModel.OwnedViewModels
+- uid: CarinaStudio.ViewModels.ViewModel.Owner
+  name: Owner
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner
+  commentId: P:CarinaStudio.ViewModels.ViewModel.Owner
+  fullName: CarinaStudio.ViewModels.ViewModel.Owner
+  nameWithType: ViewModel.Owner
+- uid: CarinaStudio.ViewModels.ViewModel.Owner*
+  name: Owner
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.Owner
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.Owner
+  nameWithType: ViewModel.Owner
 - uid: CarinaStudio.ViewModels.ViewModel.PropertyChanged
   name: PropertyChanged
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged
@@ -6983,19 +7060,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.ToString
   nameWithType: ViewModel.ToString
-- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
-  name: WaitForNecessaryTasksCompletionAsync()
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync
-  commentId: M:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
-  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync()
-  nameWithType: ViewModel.WaitForNecessaryTasksCompletionAsync()
-- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync*
-  name: WaitForNecessaryTasksCompletionAsync
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync_
-  commentId: Overload:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(System.Threading.Tasks.Task)
+  name: WaitForNecessaryTaskAsync(Task)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(System.Threading.Tasks.Task)
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(System.Threading.Tasks.Task)
+  nameWithType: ViewModel.WaitForNecessaryTaskAsync(Task)
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync*
+  name: WaitForNecessaryTaskAsync
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync
   isSpec: "True"
-  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync
-  nameWithType: ViewModel.WaitForNecessaryTasksCompletionAsync
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync
+  nameWithType: ViewModel.WaitForNecessaryTaskAsync
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync
+  name: WaitForNecessaryTasksAsync()
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync
+  commentId: M:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync()
+  nameWithType: ViewModel.WaitForNecessaryTasksAsync()
+- uid: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync*
+  name: WaitForNecessaryTasksAsync
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync
+  nameWithType: ViewModel.WaitForNecessaryTasksAsync
 - uid: CarinaStudio.Windows.Input
   name: CarinaStudio.Windows.Input
   href: api/CarinaStudio.Windows.Input.html

@@ -157,6 +157,35 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel__ctor_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.ViewModels.ViewModel)">ViewModel(ViewModel)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ViewModel(ViewModel owner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
+        <td><span class="parametername">owner</span></td>
+        <td><p>Owner view-model</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -181,6 +210,32 @@
     <tbody>
       <tr>
         <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks_" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks">HasNecessaryTasks</h4>
+  <div class="markdown level1 summary"><p>Check whether at least one necessary task is not completed yet or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNecessaryTasks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -233,6 +288,58 @@
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels_" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels">OwnedViewModels</h4>
+  <div class="markdown level1 summary"><p>Get list of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IList&lt;ViewModel&gt; OwnedViewModels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_Owner_" data-uid="CarinaStudio.ViewModels.ViewModel.Owner*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_Owner" data-uid="CarinaStudio.ViewModels.ViewModel.Owner">Owner</h4>
+  <div class="markdown level1 summary"><p>Get owner of this view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ViewModel Owner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -513,6 +620,64 @@
   </div>
   
   
+  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)">OnOwnedViewModelCreated(ViewModel)</h4>
+  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelCreated(ViewModel viewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)">OnOwnedViewModelDisposed(ViewModel)</h4>
+  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelDisposed(ViewModel viewModel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
   <h4 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)">OnPropertyChanged(ObservableProperty, Object, Object)</h4>
   <div class="markdown level1 summary"><p>Called when property changed.</p>
@@ -548,6 +713,35 @@
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">newValue</span></td>
         <td><p>New value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Name of changed property.</p>
 </td>
       </tr>
     </tbody>
@@ -692,14 +886,62 @@
   <div><span class="xref">System.Object.ToString()</span></div>
   
   
-  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksCompletionAsync" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksCompletionAsync">WaitForNecessaryTasksCompletionAsync()</h4>
+  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(System.Threading.Tasks.Task)">WaitForNecessaryTaskAsync(Task)</h4>
+  <div class="markdown level1 summary"><p>Treat given task as necessary task and wait for completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected async Task WaitForNecessaryTaskAsync(Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>Task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>Task or waiting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The task will also be waited by <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync">WaitForNecessaryTasksAsync()</a> after calling this method.</p>
+</div>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync">WaitForNecessaryTasksAsync()</h4>
   <div class="markdown level1 summary"><p>Wait for completion of all necessary asynchronous tasks.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Task WaitForNecessaryTasksCompletionAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual async Task WaitForNecessaryTasksAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -717,6 +959,9 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Error generated by tasks will be ignored.</p>
+</div>
   <h3 id="events">Events
   </h3>
   
