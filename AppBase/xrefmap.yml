@@ -3588,263 +3588,89 @@ references:
   commentId: N:CarinaStudio.Configuration
   fullName: CarinaStudio.Configuration
   nameWithType: CarinaStudio.Configuration
-- uid: CarinaStudio.Configuration.BaseSettings
-  name: BaseSettings
-  href: api/CarinaStudio.Configuration.BaseSettings.html
-  commentId: T:CarinaStudio.Configuration.BaseSettings
-  fullName: CarinaStudio.Configuration.BaseSettings
-  nameWithType: BaseSettings
-- uid: CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.BaseSettings,CarinaStudio.Configuration.ISettingsSerializer)
-  name: BaseSettings(BaseSettings, ISettingsSerializer)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_BaseSettings_CarinaStudio_Configuration_ISettingsSerializer_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.BaseSettings,CarinaStudio.Configuration.ISettingsSerializer)
-  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings(CarinaStudio.Configuration.BaseSettings, CarinaStudio.Configuration.ISettingsSerializer)
-  nameWithType: BaseSettings.BaseSettings(BaseSettings, ISettingsSerializer)
-- uid: CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
-  name: BaseSettings(ISettingsSerializer)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
-  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings(CarinaStudio.Configuration.ISettingsSerializer)
-  nameWithType: BaseSettings.BaseSettings(ISettingsSerializer)
-- uid: CarinaStudio.Configuration.BaseSettings.#ctor*
-  name: BaseSettings
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings__ctor_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.#ctor
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.BaseSettings
-  nameWithType: BaseSettings.BaseSettings
-- uid: CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+- uid: CarinaStudio.Configuration.ISettings
+  name: ISettings
+  href: api/CarinaStudio.Configuration.ISettings.html
+  commentId: T:CarinaStudio.Configuration.ISettings
+  fullName: CarinaStudio.Configuration.ISettings
+  nameWithType: ISettings
+- uid: CarinaStudio.Configuration.ISettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
   name: GetRawValue(SettingKey)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
-  fullName: CarinaStudio.Configuration.BaseSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
-  nameWithType: BaseSettings.GetRawValue(SettingKey)
-- uid: CarinaStudio.Configuration.BaseSettings.GetRawValue*
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_GetRawValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.ISettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.ISettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: ISettings.GetRawValue(SettingKey)
+- uid: CarinaStudio.Configuration.ISettings.GetRawValue*
   name: GetRawValue
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetRawValue_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.GetRawValue
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_GetRawValue_
+  commentId: Overload:CarinaStudio.Configuration.ISettings.GetRawValue
   isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.GetRawValue
-  nameWithType: BaseSettings.GetRawValue
-- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
-  name: GetValueOrDefault(SettingKey)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_CarinaStudio_Configuration_SettingKey_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
-  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(CarinaStudio.Configuration.SettingKey)
-  nameWithType: BaseSettings.GetValueOrDefault(SettingKey)
-- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault*
-  name: GetValueOrDefault
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault
-  nameWithType: BaseSettings.GetValueOrDefault
-- uid: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault``1(CarinaStudio.Configuration.SettingKey{``0})
-  name: GetValueOrDefault<T>(SettingKey<T>)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_GetValueOrDefault__1_CarinaStudio_Configuration_SettingKey___0__
-  commentId: M:CarinaStudio.Configuration.BaseSettings.GetValueOrDefault``1(CarinaStudio.Configuration.SettingKey{``0})
-  name.vb: GetValueOrDefault(Of T)(SettingKey(Of T))
-  fullName: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault<T>(CarinaStudio.Configuration.SettingKey<T>)
-  fullName.vb: CarinaStudio.Configuration.BaseSettings.GetValueOrDefault(Of T)(CarinaStudio.Configuration.SettingKey(Of T))
-  nameWithType: BaseSettings.GetValueOrDefault<T>(SettingKey<T>)
-  nameWithType.vb: BaseSettings.GetValueOrDefault(Of T)(SettingKey(Of T))
-- uid: CarinaStudio.Configuration.BaseSettings.Keys
+  fullName: CarinaStudio.Configuration.ISettings.GetRawValue
+  nameWithType: ISettings.GetRawValue
+- uid: CarinaStudio.Configuration.ISettings.Keys
   name: Keys
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Keys
-  commentId: P:CarinaStudio.Configuration.BaseSettings.Keys
-  fullName: CarinaStudio.Configuration.BaseSettings.Keys
-  nameWithType: BaseSettings.Keys
-- uid: CarinaStudio.Configuration.BaseSettings.Keys*
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_Keys
+  commentId: P:CarinaStudio.Configuration.ISettings.Keys
+  fullName: CarinaStudio.Configuration.ISettings.Keys
+  nameWithType: ISettings.Keys
+- uid: CarinaStudio.Configuration.ISettings.Keys*
   name: Keys
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Keys_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Keys
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_Keys_
+  commentId: Overload:CarinaStudio.Configuration.ISettings.Keys
   isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.Keys
-  nameWithType: BaseSettings.Keys
-- uid: CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
-  name: Load(Stream)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_System_IO_Stream_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
-  fullName: CarinaStudio.Configuration.BaseSettings.Load(System.IO.Stream)
-  nameWithType: BaseSettings.Load(Stream)
-- uid: CarinaStudio.Configuration.BaseSettings.Load(System.String)
-  name: Load(String)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_System_String_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.Load(System.String)
-  fullName: CarinaStudio.Configuration.BaseSettings.Load(System.String)
-  nameWithType: BaseSettings.Load(String)
-- uid: CarinaStudio.Configuration.BaseSettings.Load*
-  name: Load
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Load_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Load
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.Load
-  nameWithType: BaseSettings.Load
-- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
-  name: LoadAsync(Stream)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_System_IO_Stream_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
-  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.IO.Stream)
-  nameWithType: BaseSettings.LoadAsync(Stream)
-- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
-  name: LoadAsync(String)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_System_String_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
-  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync(System.String)
-  nameWithType: BaseSettings.LoadAsync(String)
-- uid: CarinaStudio.Configuration.BaseSettings.LoadAsync*
-  name: LoadAsync
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_LoadAsync_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.LoadAsync
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.LoadAsync
-  nameWithType: BaseSettings.LoadAsync
-- uid: CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
-  name: OnUpgrade(Int32)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_OnUpgrade_System_Int32_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
-  fullName: CarinaStudio.Configuration.BaseSettings.OnUpgrade(System.Int32)
-  nameWithType: BaseSettings.OnUpgrade(Int32)
-- uid: CarinaStudio.Configuration.BaseSettings.OnUpgrade*
-  name: OnUpgrade
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_OnUpgrade_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.OnUpgrade
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.OnUpgrade
-  nameWithType: BaseSettings.OnUpgrade
-- uid: CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.ISettings.Keys
+  nameWithType: ISettings.Keys
+- uid: CarinaStudio.Configuration.ISettings.ResetValue(CarinaStudio.Configuration.SettingKey)
   name: ResetValue(SettingKey)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValue_CarinaStudio_Configuration_SettingKey_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
-  fullName: CarinaStudio.Configuration.BaseSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
-  nameWithType: BaseSettings.ResetValue(SettingKey)
-- uid: CarinaStudio.Configuration.BaseSettings.ResetValue*
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_ResetValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.ISettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.ISettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: ISettings.ResetValue(SettingKey)
+- uid: CarinaStudio.Configuration.ISettings.ResetValue*
   name: ResetValue
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValue_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.ResetValue
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_ResetValue_
+  commentId: Overload:CarinaStudio.Configuration.ISettings.ResetValue
   isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.ResetValue
-  nameWithType: BaseSettings.ResetValue
-- uid: CarinaStudio.Configuration.BaseSettings.ResetValues
-  name: ResetValues()
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues
-  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValues
-  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues()
-  nameWithType: BaseSettings.ResetValues()
-- uid: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
-  name: ResetValues(IEnumerable<SettingKey>)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__
-  commentId: M:CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
-  name.vb: ResetValues(IEnumerable(Of SettingKey))
-  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable<CarinaStudio.Configuration.SettingKey>)
-  fullName.vb: CarinaStudio.Configuration.BaseSettings.ResetValues(System.Collections.Generic.IEnumerable(Of CarinaStudio.Configuration.SettingKey))
-  nameWithType: BaseSettings.ResetValues(IEnumerable<SettingKey>)
-  nameWithType.vb: BaseSettings.ResetValues(IEnumerable(Of SettingKey))
-- uid: CarinaStudio.Configuration.BaseSettings.ResetValues*
-  name: ResetValues
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_ResetValues_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.ResetValues
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.ResetValues
-  nameWithType: BaseSettings.ResetValues
-- uid: CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
-  name: Save(Stream)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_System_IO_Stream_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
-  fullName: CarinaStudio.Configuration.BaseSettings.Save(System.IO.Stream)
-  nameWithType: BaseSettings.Save(Stream)
-- uid: CarinaStudio.Configuration.BaseSettings.Save(System.String)
-  name: Save(String)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_System_String_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.Save(System.String)
-  fullName: CarinaStudio.Configuration.BaseSettings.Save(System.String)
-  nameWithType: BaseSettings.Save(String)
-- uid: CarinaStudio.Configuration.BaseSettings.Save*
-  name: Save
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Save_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Save
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.Save
-  nameWithType: BaseSettings.Save
-- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
-  name: SaveAsync(Stream)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_System_IO_Stream_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
-  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.IO.Stream)
-  nameWithType: BaseSettings.SaveAsync(Stream)
-- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
-  name: SaveAsync(String)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_System_String_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
-  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync(System.String)
-  nameWithType: BaseSettings.SaveAsync(String)
-- uid: CarinaStudio.Configuration.BaseSettings.SaveAsync*
-  name: SaveAsync
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SaveAsync_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.SaveAsync
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.SaveAsync
-  nameWithType: BaseSettings.SaveAsync
-- uid: CarinaStudio.Configuration.BaseSettings.SettingChanged
+  fullName: CarinaStudio.Configuration.ISettings.ResetValue
+  nameWithType: ISettings.ResetValue
+- uid: CarinaStudio.Configuration.ISettings.SettingChanged
   name: SettingChanged
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SettingChanged
-  commentId: E:CarinaStudio.Configuration.BaseSettings.SettingChanged
-  fullName: CarinaStudio.Configuration.BaseSettings.SettingChanged
-  nameWithType: BaseSettings.SettingChanged
-- uid: CarinaStudio.Configuration.BaseSettings.SettingChanging
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_SettingChanged
+  commentId: E:CarinaStudio.Configuration.ISettings.SettingChanged
+  fullName: CarinaStudio.Configuration.ISettings.SettingChanged
+  nameWithType: ISettings.SettingChanged
+- uid: CarinaStudio.Configuration.ISettings.SettingChanging
   name: SettingChanging
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SettingChanging
-  commentId: E:CarinaStudio.Configuration.BaseSettings.SettingChanging
-  fullName: CarinaStudio.Configuration.BaseSettings.SettingChanging
-  nameWithType: BaseSettings.SettingChanging
-- uid: CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_SettingChanging
+  commentId: E:CarinaStudio.Configuration.ISettings.SettingChanging
+  fullName: CarinaStudio.Configuration.ISettings.SettingChanging
+  nameWithType: ISettings.SettingChanging
+- uid: CarinaStudio.Configuration.ISettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
   name: SetValue(SettingKey, Object)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
-  fullName: CarinaStudio.Configuration.BaseSettings.SetValue(CarinaStudio.Configuration.SettingKey, System.Object)
-  nameWithType: BaseSettings.SetValue(SettingKey, Object)
-- uid: CarinaStudio.Configuration.BaseSettings.SetValue*
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_
+  commentId: M:CarinaStudio.Configuration.ISettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  fullName: CarinaStudio.Configuration.ISettings.SetValue(CarinaStudio.Configuration.SettingKey, System.Object)
+  nameWithType: ISettings.SetValue(SettingKey, Object)
+- uid: CarinaStudio.Configuration.ISettings.SetValue*
   name: SetValue
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.SetValue
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_SetValue_
+  commentId: Overload:CarinaStudio.Configuration.ISettings.SetValue
   isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.SetValue
-  nameWithType: BaseSettings.SetValue
-- uid: CarinaStudio.Configuration.BaseSettings.SetValue``1(CarinaStudio.Configuration.SettingKey{``0},``0)
-  name: SetValue<T>(SettingKey<T>, T)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_SetValue__1_CarinaStudio_Configuration_SettingKey___0____0_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.SetValue``1(CarinaStudio.Configuration.SettingKey{``0},``0)
-  name.vb: SetValue(Of T)(SettingKey(Of T), T)
-  fullName: CarinaStudio.Configuration.BaseSettings.SetValue<T>(CarinaStudio.Configuration.SettingKey<T>, T)
-  fullName.vb: CarinaStudio.Configuration.BaseSettings.SetValue(Of T)(CarinaStudio.Configuration.SettingKey(Of T), T)
-  nameWithType: BaseSettings.SetValue<T>(SettingKey<T>, T)
-  nameWithType.vb: BaseSettings.SetValue(Of T)(SettingKey(Of T), T)
-- uid: CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
-  name: VerifyValue(SettingKey)
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_VerifyValue_CarinaStudio_Configuration_SettingKey_
-  commentId: M:CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
-  fullName: CarinaStudio.Configuration.BaseSettings.VerifyValue(CarinaStudio.Configuration.SettingKey)
-  nameWithType: BaseSettings.VerifyValue(SettingKey)
-- uid: CarinaStudio.Configuration.BaseSettings.VerifyValue*
-  name: VerifyValue
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_VerifyValue_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.VerifyValue
-  isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.VerifyValue
-  nameWithType: BaseSettings.VerifyValue
-- uid: CarinaStudio.Configuration.BaseSettings.Version
+  fullName: CarinaStudio.Configuration.ISettings.SetValue
+  nameWithType: ISettings.SetValue
+- uid: CarinaStudio.Configuration.ISettings.Version
   name: Version
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Version
-  commentId: P:CarinaStudio.Configuration.BaseSettings.Version
-  fullName: CarinaStudio.Configuration.BaseSettings.Version
-  nameWithType: BaseSettings.Version
-- uid: CarinaStudio.Configuration.BaseSettings.Version*
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_Version
+  commentId: P:CarinaStudio.Configuration.ISettings.Version
+  fullName: CarinaStudio.Configuration.ISettings.Version
+  nameWithType: ISettings.Version
+- uid: CarinaStudio.Configuration.ISettings.Version*
   name: Version
-  href: api/CarinaStudio.Configuration.BaseSettings.html#CarinaStudio_Configuration_BaseSettings_Version_
-  commentId: Overload:CarinaStudio.Configuration.BaseSettings.Version
+  href: api/CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_Version_
+  commentId: Overload:CarinaStudio.Configuration.ISettings.Version
   isSpec: "True"
-  fullName: CarinaStudio.Configuration.BaseSettings.Version
-  nameWithType: BaseSettings.Version
+  fullName: CarinaStudio.Configuration.ISettings.Version
+  nameWithType: ISettings.Version
 - uid: CarinaStudio.Configuration.ISettingsSerializer
   name: ISettingsSerializer
   href: api/CarinaStudio.Configuration.ISettingsSerializer.html
@@ -4033,6 +3859,299 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Configuration.JsonSettingsSerializer.WriteJsonValue
   nameWithType: JsonSettingsSerializer.WriteJsonValue
+- uid: CarinaStudio.Configuration.MemorySettings
+  name: MemorySettings
+  href: api/CarinaStudio.Configuration.MemorySettings.html
+  commentId: T:CarinaStudio.Configuration.MemorySettings
+  fullName: CarinaStudio.Configuration.MemorySettings
+  nameWithType: MemorySettings
+- uid: CarinaStudio.Configuration.MemorySettings.#ctor
+  name: MemorySettings()
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings__ctor
+  commentId: M:CarinaStudio.Configuration.MemorySettings.#ctor
+  fullName: CarinaStudio.Configuration.MemorySettings.MemorySettings()
+  nameWithType: MemorySettings.MemorySettings()
+- uid: CarinaStudio.Configuration.MemorySettings.#ctor(CarinaStudio.Configuration.ISettings)
+  name: MemorySettings(ISettings)
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings__ctor_CarinaStudio_Configuration_ISettings_
+  commentId: M:CarinaStudio.Configuration.MemorySettings.#ctor(CarinaStudio.Configuration.ISettings)
+  fullName: CarinaStudio.Configuration.MemorySettings.MemorySettings(CarinaStudio.Configuration.ISettings)
+  nameWithType: MemorySettings.MemorySettings(ISettings)
+- uid: CarinaStudio.Configuration.MemorySettings.#ctor*
+  name: MemorySettings
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings__ctor_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.MemorySettings
+  nameWithType: MemorySettings.MemorySettings
+- uid: CarinaStudio.Configuration.MemorySettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  name: GetRawValue(SettingKey)
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_GetRawValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.MemorySettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.MemorySettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: MemorySettings.GetRawValue(SettingKey)
+- uid: CarinaStudio.Configuration.MemorySettings.GetRawValue*
+  name: GetRawValue
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_GetRawValue_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.GetRawValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.GetRawValue
+  nameWithType: MemorySettings.GetRawValue
+- uid: CarinaStudio.Configuration.MemorySettings.Keys
+  name: Keys
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_Keys
+  commentId: P:CarinaStudio.Configuration.MemorySettings.Keys
+  fullName: CarinaStudio.Configuration.MemorySettings.Keys
+  nameWithType: MemorySettings.Keys
+- uid: CarinaStudio.Configuration.MemorySettings.Keys*
+  name: Keys
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_Keys_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.Keys
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.Keys
+  nameWithType: MemorySettings.Keys
+- uid: CarinaStudio.Configuration.MemorySettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  name: ResetValue(SettingKey)
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_ResetValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.MemorySettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.MemorySettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: MemorySettings.ResetValue(SettingKey)
+- uid: CarinaStudio.Configuration.MemorySettings.ResetValue*
+  name: ResetValue
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_ResetValue_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.ResetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.ResetValue
+  nameWithType: MemorySettings.ResetValue
+- uid: CarinaStudio.Configuration.MemorySettings.SettingChanged
+  name: SettingChanged
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_SettingChanged
+  commentId: E:CarinaStudio.Configuration.MemorySettings.SettingChanged
+  fullName: CarinaStudio.Configuration.MemorySettings.SettingChanged
+  nameWithType: MemorySettings.SettingChanged
+- uid: CarinaStudio.Configuration.MemorySettings.SettingChanging
+  name: SettingChanging
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_SettingChanging
+  commentId: E:CarinaStudio.Configuration.MemorySettings.SettingChanging
+  fullName: CarinaStudio.Configuration.MemorySettings.SettingChanging
+  nameWithType: MemorySettings.SettingChanging
+- uid: CarinaStudio.Configuration.MemorySettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  name: SetValue(SettingKey, Object)
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_
+  commentId: M:CarinaStudio.Configuration.MemorySettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  fullName: CarinaStudio.Configuration.MemorySettings.SetValue(CarinaStudio.Configuration.SettingKey, System.Object)
+  nameWithType: MemorySettings.SetValue(SettingKey, Object)
+- uid: CarinaStudio.Configuration.MemorySettings.SetValue*
+  name: SetValue
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_SetValue_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.SetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.SetValue
+  nameWithType: MemorySettings.SetValue
+- uid: CarinaStudio.Configuration.MemorySettings.Version
+  name: Version
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_Version
+  commentId: P:CarinaStudio.Configuration.MemorySettings.Version
+  fullName: CarinaStudio.Configuration.MemorySettings.Version
+  nameWithType: MemorySettings.Version
+- uid: CarinaStudio.Configuration.MemorySettings.Version*
+  name: Version
+  href: api/CarinaStudio.Configuration.MemorySettings.html#CarinaStudio_Configuration_MemorySettings_Version_
+  commentId: Overload:CarinaStudio.Configuration.MemorySettings.Version
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.MemorySettings.Version
+  nameWithType: MemorySettings.Version
+- uid: CarinaStudio.Configuration.PersistentSettings
+  name: PersistentSettings
+  href: api/CarinaStudio.Configuration.PersistentSettings.html
+  commentId: T:CarinaStudio.Configuration.PersistentSettings
+  fullName: CarinaStudio.Configuration.PersistentSettings
+  nameWithType: PersistentSettings
+- uid: CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettingsSerializer)
+  name: PersistentSettings(ISettings, ISettingsSerializer)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettingsSerializer_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettingsSerializer)
+  fullName: CarinaStudio.Configuration.PersistentSettings.PersistentSettings(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.ISettingsSerializer)
+  nameWithType: PersistentSettings.PersistentSettings(ISettings, ISettingsSerializer)
+- uid: CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
+  name: PersistentSettings(ISettingsSerializer)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)
+  fullName: CarinaStudio.Configuration.PersistentSettings.PersistentSettings(CarinaStudio.Configuration.ISettingsSerializer)
+  nameWithType: PersistentSettings.PersistentSettings(ISettingsSerializer)
+- uid: CarinaStudio.Configuration.PersistentSettings.#ctor*
+  name: PersistentSettings
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings__ctor_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.PersistentSettings
+  nameWithType: PersistentSettings.PersistentSettings
+- uid: CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  name: GetRawValue(SettingKey)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: PersistentSettings.GetRawValue(SettingKey)
+- uid: CarinaStudio.Configuration.PersistentSettings.GetRawValue*
+  name: GetRawValue
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_GetRawValue_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.GetRawValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.GetRawValue
+  nameWithType: PersistentSettings.GetRawValue
+- uid: CarinaStudio.Configuration.PersistentSettings.Keys
+  name: Keys
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Keys
+  commentId: P:CarinaStudio.Configuration.PersistentSettings.Keys
+  fullName: CarinaStudio.Configuration.PersistentSettings.Keys
+  nameWithType: PersistentSettings.Keys
+- uid: CarinaStudio.Configuration.PersistentSettings.Keys*
+  name: Keys
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Keys_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.Keys
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.Keys
+  nameWithType: PersistentSettings.Keys
+- uid: CarinaStudio.Configuration.PersistentSettings.Load(System.IO.Stream)
+  name: Load(Stream)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Load_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.Load(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.PersistentSettings.Load(System.IO.Stream)
+  nameWithType: PersistentSettings.Load(Stream)
+- uid: CarinaStudio.Configuration.PersistentSettings.Load(System.String)
+  name: Load(String)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Load_System_String_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.Load(System.String)
+  fullName: CarinaStudio.Configuration.PersistentSettings.Load(System.String)
+  nameWithType: PersistentSettings.Load(String)
+- uid: CarinaStudio.Configuration.PersistentSettings.Load*
+  name: Load
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Load_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.Load
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.Load
+  nameWithType: PersistentSettings.Load
+- uid: CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.IO.Stream)
+  name: LoadAsync(Stream)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.IO.Stream)
+  nameWithType: PersistentSettings.LoadAsync(Stream)
+- uid: CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)
+  name: LoadAsync(String)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_String_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)
+  fullName: CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)
+  nameWithType: PersistentSettings.LoadAsync(String)
+- uid: CarinaStudio.Configuration.PersistentSettings.LoadAsync*
+  name: LoadAsync
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_LoadAsync_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.LoadAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.LoadAsync
+  nameWithType: PersistentSettings.LoadAsync
+- uid: CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)
+  name: OnUpgrade(Int32)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_OnUpgrade_System_Int32_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)
+  fullName: CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)
+  nameWithType: PersistentSettings.OnUpgrade(Int32)
+- uid: CarinaStudio.Configuration.PersistentSettings.OnUpgrade*
+  name: OnUpgrade
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_OnUpgrade_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.OnUpgrade
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.OnUpgrade
+  nameWithType: PersistentSettings.OnUpgrade
+- uid: CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  name: ResetValue(SettingKey)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_ResetValue_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)
+  nameWithType: PersistentSettings.ResetValue(SettingKey)
+- uid: CarinaStudio.Configuration.PersistentSettings.ResetValue*
+  name: ResetValue
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_ResetValue_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.ResetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.ResetValue
+  nameWithType: PersistentSettings.ResetValue
+- uid: CarinaStudio.Configuration.PersistentSettings.Save(System.IO.Stream)
+  name: Save(Stream)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Save_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.Save(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.PersistentSettings.Save(System.IO.Stream)
+  nameWithType: PersistentSettings.Save(Stream)
+- uid: CarinaStudio.Configuration.PersistentSettings.Save(System.String)
+  name: Save(String)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Save_System_String_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.Save(System.String)
+  fullName: CarinaStudio.Configuration.PersistentSettings.Save(System.String)
+  nameWithType: PersistentSettings.Save(String)
+- uid: CarinaStudio.Configuration.PersistentSettings.Save*
+  name: Save
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Save_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.Save
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.Save
+  nameWithType: PersistentSettings.Save
+- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
+  name: SaveAsync(Stream)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_IO_Stream_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
+  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
+  nameWithType: PersistentSettings.SaveAsync(Stream)
+- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)
+  name: SaveAsync(String)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)
+  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)
+  nameWithType: PersistentSettings.SaveAsync(String)
+- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync*
+  name: SaveAsync
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.SaveAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync
+  nameWithType: PersistentSettings.SaveAsync
+- uid: CarinaStudio.Configuration.PersistentSettings.SettingChanged
+  name: SettingChanged
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SettingChanged
+  commentId: E:CarinaStudio.Configuration.PersistentSettings.SettingChanged
+  fullName: CarinaStudio.Configuration.PersistentSettings.SettingChanged
+  nameWithType: PersistentSettings.SettingChanged
+- uid: CarinaStudio.Configuration.PersistentSettings.SettingChanging
+  name: SettingChanging
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SettingChanging
+  commentId: E:CarinaStudio.Configuration.PersistentSettings.SettingChanging
+  fullName: CarinaStudio.Configuration.PersistentSettings.SettingChanging
+  nameWithType: PersistentSettings.SettingChanging
+- uid: CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  name: SetValue(SettingKey, Object)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)
+  fullName: CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey, System.Object)
+  nameWithType: PersistentSettings.SetValue(SettingKey, Object)
+- uid: CarinaStudio.Configuration.PersistentSettings.SetValue*
+  name: SetValue
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SetValue_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.SetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.SetValue
+  nameWithType: PersistentSettings.SetValue
+- uid: CarinaStudio.Configuration.PersistentSettings.Version
+  name: Version
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Version
+  commentId: P:CarinaStudio.Configuration.PersistentSettings.Version
+  fullName: CarinaStudio.Configuration.PersistentSettings.Version
+  nameWithType: PersistentSettings.Version
+- uid: CarinaStudio.Configuration.PersistentSettings.Version*
+  name: Version
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_Version_
+  commentId: Overload:CarinaStudio.Configuration.PersistentSettings.Version
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.PersistentSettings.Version
+  nameWithType: PersistentSettings.Version
 - uid: CarinaStudio.Configuration.SettingChangedEventArgs
   name: SettingChangedEventArgs
   href: api/CarinaStudio.Configuration.SettingChangedEventArgs.html
@@ -4308,6 +4427,98 @@ references:
   fullName.vb: CarinaStudio.Configuration.SettingKey(Of T).DefaultValue
   nameWithType: SettingKey<T>.DefaultValue
   nameWithType.vb: SettingKey(Of T).DefaultValue
+- uid: CarinaStudio.Configuration.SettingsExtensions
+  name: SettingsExtensions
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html
+  commentId: T:CarinaStudio.Configuration.SettingsExtensions
+  fullName: CarinaStudio.Configuration.SettingsExtensions
+  nameWithType: SettingsExtensions
+- uid: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)
+  name: GetValueOrDefault(ISettings, SettingKey)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey)
+  nameWithType: SettingsExtensions.GetValueOrDefault(ISettings, SettingKey)
+- uid: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_
+  commentId: Overload:CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault
+  nameWithType: SettingsExtensions.GetValueOrDefault
+- uid: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0})
+  name: GetValueOrDefault<T>(ISettings, SettingKey<T>)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0__
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0})
+  name.vb: GetValueOrDefault(Of T)(ISettings, SettingKey(Of T))
+  fullName: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault<T>(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey<T>)
+  fullName.vb: CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(Of T)(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey(Of T))
+  nameWithType: SettingsExtensions.GetValueOrDefault<T>(ISettings, SettingKey<T>)
+  nameWithType.vb: SettingsExtensions.GetValueOrDefault(Of T)(ISettings, SettingKey(Of T))
+- uid: CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)
+  name: ResetValues(ISettings)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)
+  fullName: CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)
+  nameWithType: SettingsExtensions.ResetValues(ISettings)
+- uid: CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings,System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
+  name: ResetValues(ISettings, IEnumerable<SettingKey>)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings,System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})
+  name.vb: ResetValues(ISettings, IEnumerable(Of SettingKey))
+  fullName: CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings, System.Collections.Generic.IEnumerable<CarinaStudio.Configuration.SettingKey>)
+  fullName.vb: CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings, System.Collections.Generic.IEnumerable(Of CarinaStudio.Configuration.SettingKey))
+  nameWithType: SettingsExtensions.ResetValues(ISettings, IEnumerable<SettingKey>)
+  nameWithType.vb: SettingsExtensions.ResetValues(ISettings, IEnumerable(Of SettingKey))
+- uid: CarinaStudio.Configuration.SettingsExtensions.ResetValues*
+  name: ResetValues
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ResetValues_
+  commentId: Overload:CarinaStudio.Configuration.SettingsExtensions.ResetValues
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsExtensions.ResetValues
+  nameWithType: SettingsExtensions.ResetValues
+- uid: CarinaStudio.Configuration.SettingsExtensions.SetValue*
+  name: SetValue
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_SetValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingsExtensions.SetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsExtensions.SetValue
+  nameWithType: SettingsExtensions.SetValue
+- uid: CarinaStudio.Configuration.SettingsExtensions.SetValue``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0},``0)
+  name: SetValue<T>(ISettings, SettingKey<T>, T)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_SetValue__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0____0_
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.SetValue``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0},``0)
+  name.vb: SetValue(Of T)(ISettings, SettingKey(Of T), T)
+  fullName: CarinaStudio.Configuration.SettingsExtensions.SetValue<T>(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey<T>, T)
+  fullName.vb: CarinaStudio.Configuration.SettingsExtensions.SetValue(Of T)(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey(Of T), T)
+  nameWithType: SettingsExtensions.SetValue<T>(ISettings, SettingKey<T>, T)
+  nameWithType.vb: SettingsExtensions.SetValue(Of T)(ISettings, SettingKey(Of T), T)
+- uid: CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettings)
+  name: ValuesEqual(ISettings, ISettings)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettings_
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettings)
+  fullName: CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.ISettings)
+  nameWithType: SettingsExtensions.ValuesEqual(ISettings, ISettings)
+- uid: CarinaStudio.Configuration.SettingsExtensions.ValuesEqual*
+  name: ValuesEqual
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_
+  commentId: Overload:CarinaStudio.Configuration.SettingsExtensions.ValuesEqual
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsExtensions.ValuesEqual
+  nameWithType: SettingsExtensions.ValuesEqual
+- uid: CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)
+  name: VerifyValue(ISettings, SettingKey)
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_VerifyValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_
+  commentId: M:CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)
+  fullName: CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings, CarinaStudio.Configuration.SettingKey)
+  nameWithType: SettingsExtensions.VerifyValue(ISettings, SettingKey)
+- uid: CarinaStudio.Configuration.SettingsExtensions.VerifyValue*
+  name: VerifyValue
+  href: api/CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_VerifyValue_
+  commentId: Overload:CarinaStudio.Configuration.SettingsExtensions.VerifyValue
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingsExtensions.VerifyValue
+  nameWithType: SettingsExtensions.VerifyValue
 - uid: CarinaStudio.Configuration.SettingsMetadata
   name: SettingsMetadata
   href: api/CarinaStudio.Configuration.SettingsMetadata.html
@@ -4809,6 +5020,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.IApplication.LoggerFactory
   nameWithType: IApplication.LoggerFactory
+- uid: CarinaStudio.IApplication.PersistentState
+  name: PersistentState
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_PersistentState
+  commentId: P:CarinaStudio.IApplication.PersistentState
+  fullName: CarinaStudio.IApplication.PersistentState
+  nameWithType: IApplication.PersistentState
+- uid: CarinaStudio.IApplication.PersistentState*
+  name: PersistentState
+  href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_PersistentState_
+  commentId: Overload:CarinaStudio.IApplication.PersistentState
+  isSpec: "True"
+  fullName: CarinaStudio.IApplication.PersistentState
+  nameWithType: IApplication.PersistentState
 - uid: CarinaStudio.IApplication.RootPrivateDirectoryPath
   name: RootPrivateDirectoryPath
   href: api/CarinaStudio.IApplication.html#CarinaStudio_IApplication_RootPrivateDirectoryPath
@@ -4897,6 +5121,146 @@ references:
   commentId: N:CarinaStudio.IO
   fullName: CarinaStudio.IO
   nameWithType: CarinaStudio.IO
+- uid: CarinaStudio.IO.File
+  name: File
+  href: api/CarinaStudio.IO.File.html
+  commentId: T:CarinaStudio.IO.File
+  fullName: CarinaStudio.IO.File
+  nameWithType: File
+- uid: CarinaStudio.IO.File.TryOpen(System.String,System.IO.FileMode,System.IO.FileAccess,System.Int32,System.IO.FileStream@)
+  name: TryOpen(String, FileMode, FileAccess, Int32, out FileStream)
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpen_System_String_System_IO_FileMode_System_IO_FileAccess_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.File.TryOpen(System.String,System.IO.FileMode,System.IO.FileAccess,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpen(String, FileMode, FileAccess, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.File.TryOpen(System.String, System.IO.FileMode, System.IO.FileAccess, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.File.TryOpen(System.String, System.IO.FileMode, System.IO.FileAccess, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: File.TryOpen(String, FileMode, FileAccess, Int32, out FileStream)
+  nameWithType.vb: File.TryOpen(String, FileMode, FileAccess, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.File.TryOpen*
+  name: TryOpen
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpen_
+  commentId: Overload:CarinaStudio.IO.File.TryOpen
+  isSpec: "True"
+  fullName: CarinaStudio.IO.File.TryOpen
+  nameWithType: File.TryOpen
+- uid: CarinaStudio.IO.File.TryOpenRead(System.String,System.Int32,System.IO.FileStream@)
+  name: TryOpenRead(String, Int32, out FileStream)
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenRead_System_String_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.File.TryOpenRead(System.String,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenRead(String, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.File.TryOpenRead(System.String, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.File.TryOpenRead(System.String, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: File.TryOpenRead(String, Int32, out FileStream)
+  nameWithType.vb: File.TryOpenRead(String, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.File.TryOpenRead*
+  name: TryOpenRead
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenRead_
+  commentId: Overload:CarinaStudio.IO.File.TryOpenRead
+  isSpec: "True"
+  fullName: CarinaStudio.IO.File.TryOpenRead
+  nameWithType: File.TryOpenRead
+- uid: CarinaStudio.IO.File.TryOpenReadWrite(System.String,System.Int32,System.IO.FileStream@)
+  name: TryOpenReadWrite(String, Int32, out FileStream)
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenReadWrite_System_String_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.File.TryOpenReadWrite(System.String,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenReadWrite(String, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.File.TryOpenReadWrite(System.String, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.File.TryOpenReadWrite(System.String, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: File.TryOpenReadWrite(String, Int32, out FileStream)
+  nameWithType.vb: File.TryOpenReadWrite(String, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.File.TryOpenReadWrite*
+  name: TryOpenReadWrite
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenReadWrite_
+  commentId: Overload:CarinaStudio.IO.File.TryOpenReadWrite
+  isSpec: "True"
+  fullName: CarinaStudio.IO.File.TryOpenReadWrite
+  nameWithType: File.TryOpenReadWrite
+- uid: CarinaStudio.IO.File.TryOpenWrite(System.String,System.Int32,System.IO.FileStream@)
+  name: TryOpenWrite(String, Int32, out FileStream)
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenWrite_System_String_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.File.TryOpenWrite(System.String,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenWrite(String, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.File.TryOpenWrite(System.String, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.File.TryOpenWrite(System.String, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: File.TryOpenWrite(String, Int32, out FileStream)
+  nameWithType.vb: File.TryOpenWrite(String, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.File.TryOpenWrite*
+  name: TryOpenWrite
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpenWrite_
+  commentId: Overload:CarinaStudio.IO.File.TryOpenWrite
+  isSpec: "True"
+  fullName: CarinaStudio.IO.File.TryOpenWrite
+  nameWithType: File.TryOpenWrite
+- uid: CarinaStudio.IO.FileInfoExtensions
+  name: FileInfoExtensions
+  href: api/CarinaStudio.IO.FileInfoExtensions.html
+  commentId: T:CarinaStudio.IO.FileInfoExtensions
+  fullName: CarinaStudio.IO.FileInfoExtensions
+  nameWithType: FileInfoExtensions
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpen(System.IO.FileInfo,System.IO.FileMode,System.IO.FileAccess,System.Int32,System.IO.FileStream@)
+  name: TryOpen(FileInfo, FileMode, FileAccess, Int32, out FileStream)
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpen_System_IO_FileInfo_System_IO_FileMode_System_IO_FileAccess_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.FileInfoExtensions.TryOpen(System.IO.FileInfo,System.IO.FileMode,System.IO.FileAccess,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpen(FileInfo, FileMode, FileAccess, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpen(System.IO.FileInfo, System.IO.FileMode, System.IO.FileAccess, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.FileInfoExtensions.TryOpen(System.IO.FileInfo, System.IO.FileMode, System.IO.FileAccess, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: FileInfoExtensions.TryOpen(FileInfo, FileMode, FileAccess, Int32, out FileStream)
+  nameWithType.vb: FileInfoExtensions.TryOpen(FileInfo, FileMode, FileAccess, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpen*
+  name: TryOpen
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpen_
+  commentId: Overload:CarinaStudio.IO.FileInfoExtensions.TryOpen
+  isSpec: "True"
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpen
+  nameWithType: FileInfoExtensions.TryOpen
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenRead(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name: TryOpenRead(FileInfo, Int32, out FileStream)
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenRead_System_IO_FileInfo_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.FileInfoExtensions.TryOpenRead(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenRead(FileInfo, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenRead(System.IO.FileInfo, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.FileInfoExtensions.TryOpenRead(System.IO.FileInfo, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: FileInfoExtensions.TryOpenRead(FileInfo, Int32, out FileStream)
+  nameWithType.vb: FileInfoExtensions.TryOpenRead(FileInfo, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenRead*
+  name: TryOpenRead
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenRead_
+  commentId: Overload:CarinaStudio.IO.FileInfoExtensions.TryOpenRead
+  isSpec: "True"
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenRead
+  nameWithType: FileInfoExtensions.TryOpenRead
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name: TryOpenReadWrite(FileInfo, Int32, out FileStream)
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_System_IO_FileInfo_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenReadWrite(FileInfo, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(System.IO.FileInfo, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(System.IO.FileInfo, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: FileInfoExtensions.TryOpenReadWrite(FileInfo, Int32, out FileStream)
+  nameWithType.vb: FileInfoExtensions.TryOpenReadWrite(FileInfo, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite*
+  name: TryOpenReadWrite
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_
+  commentId: Overload:CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite
+  isSpec: "True"
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite
+  nameWithType: FileInfoExtensions.TryOpenReadWrite
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name: TryOpenWrite(FileInfo, Int32, out FileStream)
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_System_IO_FileInfo_System_Int32_System_IO_FileStream__
+  commentId: M:CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)
+  name.vb: TryOpenWrite(FileInfo, Int32, ByRef FileStream)
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(System.IO.FileInfo, System.Int32, out System.IO.FileStream)
+  fullName.vb: CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(System.IO.FileInfo, System.Int32, ByRef System.IO.FileStream)
+  nameWithType: FileInfoExtensions.TryOpenWrite(FileInfo, Int32, out FileStream)
+  nameWithType.vb: FileInfoExtensions.TryOpenWrite(FileInfo, Int32, ByRef FileStream)
+- uid: CarinaStudio.IO.FileInfoExtensions.TryOpenWrite*
+  name: TryOpenWrite
+  href: api/CarinaStudio.IO.FileInfoExtensions.html#CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_
+  commentId: Overload:CarinaStudio.IO.FileInfoExtensions.TryOpenWrite
+  isSpec: "True"
+  fullName: CarinaStudio.IO.FileInfoExtensions.TryOpenWrite
+  nameWithType: FileInfoExtensions.TryOpenWrite
 - uid: CarinaStudio.IO.PathComparer
   name: PathComparer
   href: api/CarinaStudio.IO.PathComparer.html
@@ -6999,6 +7363,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.Owner
   nameWithType: ViewModel.Owner
+- uid: CarinaStudio.ViewModels.ViewModel.PersistentState
+  name: PersistentState
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PersistentState
+  commentId: P:CarinaStudio.ViewModels.ViewModel.PersistentState
+  fullName: CarinaStudio.ViewModels.ViewModel.PersistentState
+  nameWithType: ViewModel.PersistentState
+- uid: CarinaStudio.ViewModels.ViewModel.PersistentState*
+  name: PersistentState
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PersistentState_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.PersistentState
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.PersistentState
+  nameWithType: ViewModel.PersistentState
 - uid: CarinaStudio.ViewModels.ViewModel.PropertyChanged
   name: PropertyChanged
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged

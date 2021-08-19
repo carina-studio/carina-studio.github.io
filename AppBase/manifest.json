@@ -209,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CarinaStudio.Configuration.BaseSettings.yml",
+      "source_relative_path": "api/CarinaStudio.Configuration.ISettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CarinaStudio.Configuration.BaseSettings.html",
-          "hash": "UPjQgrfpxvWPXEtjIPHCc7Lpvsqi/fVSLci1tG1AhcY="
+          "relative_path": "api/CarinaStudio.Configuration.ISettings.html",
+          "hash": "/1H5frSSpVdIWwKrc/Cj86rs81aHJJRPn6+bwpAsLH0="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.ISettingsSerializer.html",
-          "hash": "WwM5me8+/j3linDrMS8BQr9cR5Z1DNRsvZubcekyGI4="
+          "hash": "l8xKFZbq1nw66q62jaoV44rspiHniwTJDfkHSTPlS7g="
         }
       },
       "is_incremental": false,
@@ -238,6 +238,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.JsonSettingsSerializer.html",
           "hash": "p0Sj4qwdcysicsdM0A6h6QLz4wPuRcmAokwRUp//st4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.MemorySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.MemorySettings.html",
+          "hash": "1nBNs6rN8hnjPAss3dc05F1cZsaiqFrJkOhEJq3zS3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.PersistentSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.PersistentSettings.html",
+          "hash": "gr2lRTIStBrpewfb9qpQLe4UX0aUFHiizpL9ixp8J3s="
         }
       },
       "is_incremental": false,
@@ -305,11 +329,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Configuration.SettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Configuration.SettingsExtensions.html",
+          "hash": "A3S+jsco4kPFPPsdH2VDNlWx02zLy+We7UCG++Oz4xQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Configuration.SettingsMetadata.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.SettingsMetadata.html",
-          "hash": "DxcDcF1aX4lJppGjwPNh56gusLBR444yV/G9S26tG08="
+          "hash": "Jvp0dcyFmxZG4zA88kd4k2DVPamUk3z5RVWxcoRTH30="
         }
       },
       "is_incremental": false,
@@ -333,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.html",
-          "hash": "z2pQBz4Y0jJuDBLHw0HFJNQnyyw6LAMgLeUVvh2W/Lw="
+          "hash": "/t3JZHAFfGfriIWgrY9IF9vCGxBx4QKAYNb3bEKVTS0="
         }
       },
       "is_incremental": false,
@@ -393,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IApplication.html",
-          "hash": "oVtgsITbIGWIaDY/jTHFeChXr9rO69gsA1Ei0gSaphQ="
+          "hash": "Pc6NTqb+FxvMqjAJPil9Bh3VIdbApabQGdT4XLTAJWw="
         }
       },
       "is_incremental": false,
@@ -406,6 +442,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.IApplicationObject.html",
           "hash": "/bAl6IxL7lzYbtvneu6AeC+j6DNLo+wPkunyjOENiAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.File.html",
+          "hash": "g4dumpZhb/82jKkJN8fflzAsOCY8cgl9/ec1lQYAfec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.FileInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.FileInfoExtensions.html",
+          "hash": "wxKLiJzJKVQACGDgW5dJ7J6fD07MlkaAdZKLrV70PS0="
         }
       },
       "is_incremental": false,
@@ -441,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IO.html",
-          "hash": "F1m5Viv/jWa/I/XaMTHIvvWCu5mqd2/nOp3eYTbjP9A="
+          "hash": "eV3pwLyxtCPotyiR+xx9s2ydOciVRTFPbuohWo4PAYc="
         }
       },
       "is_incremental": false,
@@ -789,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.ViewModels.ViewModel.html",
-          "hash": "JrY9LBV9jjKxDkjNuGf8Du0auQVSM3bnNpYc6P/noKQ="
+          "hash": "w6EyKY2+SZmK6/Tz905Owjf3TdWs6v+Xo/QWjksXIMQ="
         }
       },
       "is_incremental": false,
@@ -873,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "B6Qe1MtmV428Ymg/YKdh4RO0jRQgzzMkem9NI/0IRAM="
+          "hash": "e54G4c2G/L0SC928Q2Nu2Hx0L/TUMWCB4iDGnM4FKEE="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1180,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 71,
+          "total_file_count": 76,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

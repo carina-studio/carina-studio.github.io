@@ -202,6 +202,32 @@
   </table>
   
   
+  <a id="CarinaStudio_IApplication_PersistentState_" data-uid="CarinaStudio.IApplication.PersistentState*"></a>
+  <h4 id="CarinaStudio_IApplication_PersistentState" data-uid="CarinaStudio.IApplication.PersistentState">PersistentState</h4>
+  <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISettings PersistentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_IApplication_RootPrivateDirectoryPath_" data-uid="CarinaStudio.IApplication.RootPrivateDirectoryPath*"></a>
   <h4 id="CarinaStudio_IApplication_RootPrivateDirectoryPath" data-uid="CarinaStudio.IApplication.RootPrivateDirectoryPath">RootPrivateDirectoryPath</h4>
   <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
@@ -230,12 +256,12 @@
   
   <a id="CarinaStudio_IApplication_Settings_" data-uid="CarinaStudio.IApplication.Settings*"></a>
   <h4 id="CarinaStudio_IApplication_Settings" data-uid="CarinaStudio.IApplication.Settings">Settings</h4>
-  <div class="markdown level1 summary"><p>Get default application level settings.</p>
+  <div class="markdown level1 summary"><p>Get default application level user settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">BaseSettings Settings { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">ISettings Settings { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,7 +273,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a></td>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
         <td></td>
       </tr>
     </tbody>

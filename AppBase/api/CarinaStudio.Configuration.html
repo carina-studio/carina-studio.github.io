@@ -77,11 +77,14 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a></h4>
-      <section><p>Base implementation of application settings. This is thread-safe class.</p>
-</section>
       <h4><a class="xref" href="CarinaStudio.Configuration.JsonSettingsSerializer.html">JsonSettingsSerializer</a></h4>
       <section><p>Implementation of <a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a> which serialize settings to JSON format data.</p>
+</section>
+      <h4><a class="xref" href="CarinaStudio.Configuration.MemorySettings.html">MemorySettings</a></h4>
+      <section><p>Implementation of <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> which keeps values in memory only. This is thread-safe class.</p>
+</section>
+      <h4><a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a></h4>
+      <section><p>Base implementation of <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> which can be loaded/saved from/to file. This is thread-safe class.</p>
 </section>
       <h4><a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a></h4>
       <section><p>Data for setting changed event.</p>
@@ -98,16 +101,22 @@
       <h4><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey&lt;T&gt;</a></h4>
       <section><p>Key of setting.</p>
 </section>
+      <h4><a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html">SettingsExtensions</a></h4>
+      <section><p>Extensions for <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</section>
       <h4><a class="xref" href="CarinaStudio.Configuration.SettingsMetadata.html">SettingsMetadata</a></h4>
-      <section><p>Metadata of <a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a>.</p>
+      <section><p>Metadata of <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a>.</p>
 </section>
       <h4><a class="xref" href="CarinaStudio.Configuration.XmlSettingsSerializer.html">XmlSettingsSerializer</a></h4>
       <section><p>Implementation of <a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a> which serialize settings to XML format data.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
+      <h4><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></h4>
+      <section><p>Application settings.</p>
+</section>
       <h4><a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></h4>
-      <section><p>Interface to serialize and deserialize <a class="xref" href="CarinaStudio.Configuration.BaseSettings.html">BaseSettings</a>.</p>
+      <section><p>Interface to serialize and deserialize <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a>.</p>
 </section>
 </article>
           </div>
