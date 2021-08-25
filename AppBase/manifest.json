@@ -29,11 +29,203 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html",
+          "hash": "HmBkoJQUCC7yXvklVFC+BLB4ZLh1ptx0rQftq6kuQuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.IUpdaterComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.IUpdaterComponent.html",
+          "hash": "3Peh5ZmxOfJz3lDwp6/Btg1sxGuo7WAjkorb9woFQZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html",
+          "hash": "fgQrTBgaNW1ibvxOugtTSXKu9v6PlnyqfvIbhokTtiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Installers.IPackageInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html",
+          "hash": "YlEE9s/UJBxubsSPmdiKy9MOAa/5zBPJ65pEefsZANc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.html",
+          "hash": "+yMP8EhYmYksuCsq2Nc0SiNCBEwHeJkt2rFvJoXOVrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Installers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Installers.html",
+          "hash": "jQgMhJ4ZLIDf4NBiBIxu6wGAhvSBwvfw6VDe+HffPGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html",
+          "hash": "mClckpb5pqPJ1ZQrCtl6mC3+vGtqitfrK1NRnZLYP8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html",
+          "hash": "bjvlt3MazvDzo3FEZPpsaLBBFp8v9fR2E0saW1pFPzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html",
+          "hash": "vEJDdSrpSDHa7s3xsuvztcL9rtqb4vX23fhSSwXgyk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html",
+          "hash": "vlqMc0CN7XKVNgBWwn6wA7UyIUnyDggSa+dcb9GwEK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Resolvers.html",
+          "hash": "eaUa/ooUaaejzwfMoMAmeFHyIxBXAYR8RMfkHC5IYiU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.Updater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.Updater.html",
+          "hash": "XEk4o6mZ5z4sTWmMS2zxXxi0iafWNtNtZqhtYueLvxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.UpdaterComponentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html",
+          "hash": "Rgukrase9Ub2NbKFcen+QBQwSzjrydF7PY2ba8fWxQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.UpdaterComponentState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.UpdaterComponentState.html",
+          "hash": "DtuC1Vftzhg5c20d8aaweOviZF5IaGgnX8m5WeAVmY0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.UpdaterState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.UpdaterState.html",
+          "hash": "6UtV0WJXBt99HvtEnHCkPJczb/Xjn72fOdRDzW0p4aw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.AutoUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.AutoUpdate.html",
+          "hash": "2DUOMDx0KYo5SrEMwh8aWQ5+fwAA0C4sRjppUc0JbG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.BaseDisposable.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.BaseDisposable.html",
-          "hash": "PB76yh88hKrVF5FEzOevq6JZdQJG5OK27Ih1q+awhWU="
+          "hash": "XyDq1gTmUFOu+YQ1B7LLroWvnq0Tp7PstfwydYzX418="
         }
       },
       "is_incremental": false,
@@ -225,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.ISettingsSerializer.html",
-          "hash": "l8xKFZbq1nw66q62jaoV44rspiHniwTJDfkHSTPlS7g="
+          "hash": "K/OZRjqUPcBBkrBmzaVOy3lsT2Wf6d+BvPJbuecayns="
         }
       },
       "is_incremental": false,
@@ -369,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.html",
-          "hash": "/t3JZHAFfGfriIWgrY9IF9vCGxBx4QKAYNb3bEKVTS0="
+          "hash": "yx1vKUg0Z3B4DepvJ0hARwBkob0Pdu2FbMJLkYsZFjI="
         }
       },
       "is_incremental": false,
@@ -473,6 +665,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.FileStreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.FileStreamProvider.html",
+          "hash": "75efK6NvSjHg4ZaMPMkeNzbk6orZsGNke78KenOXpzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.IStreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.IStreamProvider.html",
+          "hash": "gCME3ZLlpwwJUpjF24qR07EBUjka+OnFPdCNjrLy2hI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.MemoryStreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.MemoryStreamProvider.html",
+          "hash": "8SL2QNqV7OYnN7wn82wkDHvC3NLtyzGx6c3MrUni3HY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.IO.PathComparer.yml",
       "output": {
         ".html": {
@@ -497,11 +725,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.StreamAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.StreamAccess.html",
+          "hash": "1peq0wGYGbF33XahkW/SIO3Y6KD4kBCz6PXErisjD8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.StreamExtensions.html",
+          "hash": "SA2neph6/m84W7SbopbdAfyI4UmEI2SEUskY76YeocY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.StreamProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.StreamProviderExtensions.html",
+          "hash": "1uxcPtkUGb32Zy8zaNKRqJf6EKFybLOYN++OArXV/J8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.IO.StreamWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.IO.StreamWrapper.html",
+          "hash": "8DBlvAHKbvVlJejvx1uh6UXmcG1edLx+If9HAM/bk2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.IO.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IO.html",
-          "hash": "eV3pwLyxtCPotyiR+xx9s2ydOciVRTFPbuohWo4PAYc="
+          "hash": "a+iUeMYaKNz/DXDTYYYOdzwXPld0BQG6pR7a3i8IDmI="
         }
       },
       "is_incremental": false,
@@ -598,6 +874,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.MutableObservableValue-1.html",
           "hash": "EAT56q3lDxdN6e69UUY7c8uoVLZWCluVKF1my3lALlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Net.WebRequestStreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Net.WebRequestStreamProvider.html",
+          "hash": "0X1zvZpG6ktj7vnSQU+6c9OYyMuTo4LVdcmhGpVhuNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Net.html",
+          "hash": "6wHa8KSt7IMkfG3RitLlZgL/d1RTM9vnHLrrGpn6fUg="
         }
       },
       "is_incremental": false,
@@ -933,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "e54G4c2G/L0SC928Q2Nu2Hx0L/TUMWCB4iDGnM4FKEE="
+          "hash": "uL++XiItn0EBNPgkCXmAf+WyH/I9f/NoimrjcNoJTgo="
         }
       },
       "is_incremental": false,
@@ -1141,7 +1441,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "F6SCRbZLdniY9yZgTDRKl/XGl8BR35B5tpIKQcqCWJ8="
+          "hash": "E9hSYvlx0O1MCppZSjDmpq1kxKJewM0nXnUySyvgWQU="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1480,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 76,
+          "total_file_count": 101,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

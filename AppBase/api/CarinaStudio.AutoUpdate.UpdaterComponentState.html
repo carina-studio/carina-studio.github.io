@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CarinaStudio.IO
+    <title>Enum UpdaterComponentState
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CarinaStudio.IO
+    <meta name="title" content="Enum UpdaterComponentState
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,52 +68,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.IO">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.UpdaterComponentState">
   
-  <h1 id="CarinaStudio_IO" data-uid="CarinaStudio.IO" class="text-break">Namespace CarinaStudio.IO
+  
+  <h1 id="CarinaStudio_AutoUpdate_UpdaterComponentState" data-uid="CarinaStudio.AutoUpdate.UpdaterComponentState" class="text-break">Enum UpdaterComponentState
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>State of <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.html">CarinaStudio.AutoUpdate</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
+  <h5 id="CarinaStudio_AutoUpdate_UpdaterComponentState_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum UpdaterComponentState</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="CarinaStudio.IO.File.html">File</a></h4>
-      <section><p>Provide utility methods for files.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.FileInfoExtensions.html">FileInfoExtensions</a></h4>
-      <section><p>Extensions for <span class="xref">System.IO.FileInfo</span>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.FileStreamProvider.html">FileStreamProvider</a></h4>
-      <section><p>Implementation of <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a> based-on file.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.MemoryStreamProvider.html">MemoryStreamProvider</a></h4>
-      <section><p>Implementation of <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a> which keeps data in memory.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.PathComparer.html">PathComparer</a></h4>
-      <section><p><span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to compare file paths. Case will be ignored on Windows.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.PathEqualityComparer.html">PathEqualityComparer</a></h4>
-      <section><p><span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> to check equality of file path. Case will be ignored on Windows.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.StreamExtensions.html">StreamExtensions</a></h4>
-      <section><p>Extensions for <span class="xref">System.IO.Stream</span>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.StreamProviderExtensions.html">StreamProviderExtensions</a></h4>
-      <section><p>Extensions for <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a>.</p>
-</section>
-      <h4><a class="xref" href="CarinaStudio.IO.StreamWrapper.html">StreamWrapper</a></h4>
-      <section><p><span class="xref">System.IO.Stream</span> which wraps another <span class="xref">System.IO.Stream</span>.</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a></h4>
-      <section><p>Object to provide <span class="xref">System.IO.Stream</span>.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CarinaStudio.IO.StreamAccess.html">StreamAccess</a></h4>
-      <section><p>Access to <span class="xref">System.IO.Stream</span>.</p>
-</section>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Cancelled">Cancelled</td>
+        <td><p>Cancelled.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Cancelling">Cancelling</td>
+        <td><p>Cancelling.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Disposed">Disposed</td>
+        <td><p>Disposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Failed">Failed</td>
+        <td><p>Failed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Initializing">Initializing</td>
+        <td><p>Initializing.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Started">Started</td>
+        <td><p>Started.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="CarinaStudio_AutoUpdate_UpdaterComponentState_Succeeded">Succeeded</td>
+        <td><p>Succeeded.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;UpdaterComponentState&gt;(Action&lt;UpdaterComponentState&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;UpdaterComponentState&gt;(Action&lt;UpdaterComponentState&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;UpdaterComponentState, R&gt;(Func&lt;UpdaterComponentState, R&gt;)</a>
+  </div>
 </article>
           </div>
           

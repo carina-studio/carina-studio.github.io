@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseDisposable
+    <title>Interface IPackageInstaller
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseDisposable
+    <meta name="title" content="Interface IPackageInstaller
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,71 +68,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.BaseDisposable">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller">
   
   
-  <h1 id="CarinaStudio_BaseDisposable" data-uid="CarinaStudio.BaseDisposable" class="text-break">Class BaseDisposable
+  <h1 id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller" class="text-break">Interface IPackageInstaller
   </h1>
-  <div class="markdown level0 summary"><p>Base implementation of <span class="xref">System.IDisposable</span>.</p>
+  <div class="markdown level0 summary"><p>Object to install package on device.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseDisposable</span></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.BaseShareableDisposable-1.html">BaseShareableDisposable&lt;TSelf&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Collections.TypeConvertedObservableList-2.html">TypeConvertedObservableList&lt;TSrc, TDest&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Tests.EventMonitor-2.html">EventMonitor&lt;THandler, TArgs&gt;</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html#CarinaStudio_AutoUpdate_IUpdaterComponent_Cancel">IUpdaterComponent.Cancel()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html#CarinaStudio_AutoUpdate_IUpdaterComponent_Exception">IUpdaterComponent.Exception</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html#CarinaStudio_AutoUpdate_IUpdaterComponent_Progress">IUpdaterComponent.Progress</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html#CarinaStudio_AutoUpdate_IUpdaterComponent_Start">IUpdaterComponent.Start()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html#CarinaStudio_AutoUpdate_IUpdaterComponent_State">IUpdaterComponent.State</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <span class="xref">System.IDisposable.Dispose()</span>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html#CarinaStudio_Threading_IThreadDependent_CheckAccess">IThreadDependent.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">ISynchronizable.SynchronizationContext</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_BaseDisposable_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.Installers.html">CarinaStudio.AutoUpdate.Installers</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
+  <h5 id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseDisposable : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPackageInstaller : IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CarinaStudio_BaseDisposable_IsDisposed_" data-uid="CarinaStudio.BaseDisposable.IsDisposed*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_IsDisposed" data-uid="CarinaStudio.BaseDisposable.IsDisposed">IsDisposed</h4>
-  <div class="markdown level1 summary"><p>Check whether instance has disposed or not.</p>
+  <a id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_InstalledFilePaths_" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.InstalledFilePaths*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_InstalledFilePaths" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.InstalledFilePaths">InstalledFilePaths</h4>
+  <div class="markdown level1 summary"><p>Get set of path of installed files.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsDisposed { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">ISet&lt;string&gt; InstalledFilePaths { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,91 +135,78 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="CarinaStudio_BaseDisposable_Dispose_" data-uid="CarinaStudio.BaseDisposable.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Dispose" data-uid="CarinaStudio.BaseDisposable.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Dispose instance.</p>
+  <a id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_PackageFileName_" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.PackageFileName*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_PackageFileName" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.PackageFileName">PackageFileName</h4>
+  <div class="markdown level1 summary"><p>Get or set name of package file to install.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">string PackageFileName { get; set; }</code></pre>
   </div>
-  
-  
-  <a id="CarinaStudio_BaseDisposable_Dispose_" data-uid="CarinaStudio.BaseDisposable.Dispose*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Dispose_System_Boolean_" data-uid="CarinaStudio.BaseDisposable.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Called to dispose instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to release managed resources also.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CarinaStudio_BaseDisposable_Finalize_" data-uid="CarinaStudio.BaseDisposable.Finalize*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_Finalize" data-uid="CarinaStudio.BaseDisposable.Finalize">Finalize()</h4>
-  <div class="markdown level1 summary"><p>Finalizer.</p>
+  <a id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_TargetDirectoryPath_" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.TargetDirectoryPath*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Installers_IPackageInstaller_TargetDirectoryPath" data-uid="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.TargetDirectoryPath">TargetDirectoryPath</h4>
+  <div class="markdown level1 summary"><p>Get or set path of target directory to install package.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    <pre><code class="lang-csharp hljs">string TargetDirectoryPath { get; set; }</code></pre>
   </div>
-  
-  
-  <a id="CarinaStudio_BaseDisposable_VerifyDisposed_" data-uid="CarinaStudio.BaseDisposable.VerifyDisposed*"></a>
-  <h4 id="CarinaStudio_BaseDisposable_VerifyDisposed" data-uid="CarinaStudio.BaseDisposable.VerifyDisposed">VerifyDisposed()</h4>
-  <div class="markdown level1 summary"><p>Throw <span class="xref">System.ObjectDisposedException</span> if instance has been disposed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void VerifyDisposed()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsInitializing_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsInitializing(IUpdaterComponent)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsCompletedOrCancelled_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsCompletedOrCancelled(IUpdaterComponent)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsStartedOrCancelling_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsStartedOrCancelling(IUpdaterComponent)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>

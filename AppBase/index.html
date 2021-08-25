@@ -65,7 +65,7 @@
 <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt=""></a>
 <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt=""></a></p>
 <h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
-<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 4 packages providing the following functions:</p>
+<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 5 packages providing the following functions:</p>
 <p>📦<strong>CarinaStudio.AppBase.Core</strong></p>
 <ul>
 <li>Extensions for <code>System.Object</code> to make your code more elegant and clear. (<a href="articles/object_extensions.html">Learn more</a>)</li>
@@ -90,6 +90,12 @@
 <ul>
 <li><code>IApplication</code> to provide abstract interface to application instance no matter what UI framework you use.</li>
 <li><code>ViewModel</code> to provide base implementation of view-model including observable properties, logger, etc.</li>
+</ul>
+<p>📦<strong>CarinaStudio.AppBase.AutoUpdate</strong></p>
+<ul>
+<li><code>Updater</code> to perform resolving, downloading and installing flow of application.</li>
+<li><code>IPackageResolver</code> to resolve package manifest in XML/JSON format to find location to download package.</li>
+<li><code>IPackageInstaller</code> to install downloaded package.</li>
 </ul>
 <p>📦<strong>CarinaStudio.AppBase.Tests</strong></p>
 <ul>
