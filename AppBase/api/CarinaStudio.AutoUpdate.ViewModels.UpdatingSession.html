@@ -1,0 +1,1503 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UpdatingSession
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UpdatingSession
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession">
+  
+  
+  <h1 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession" class="text-break">Class UpdatingSession
+  </h1>
+  <div class="markdown level0 summary"><p>Base class of view-model of auto updating session.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></div>
+    <div class="level3"><span class="xref">UpdatingSession</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Application">ViewModel.Application</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_CheckAccess">ViewModel.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__">ViewModel.GetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__">ViewModel.GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks">ViewModel.HasNecessaryTasks</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id">ViewModel.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Logger">ViewModel.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">ViewModel.OnApplicationPropertyChanged(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated">ViewModel.OnApplicationStringsUpdated()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_CarinaStudio_ViewModels_ViewModel_">ViewModel.OnOwnedViewModelCreated(ViewModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_CarinaStudio_ViewModels_ViewModel_">ViewModel.OnOwnedViewModelDisposed(ViewModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_">ViewModel.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_">ViewModel.OnSettingChanged(SettingChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_">ViewModel.OnSettingChanging(SettingChangingEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OwnedViewModels">ViewModel.OwnedViewModels</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner">ViewModel.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PersistentState">ViewModel.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged">ViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Settings">ViewModel.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_">ViewModel.SetValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext">ViewModel.SynchronizationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ToString">ViewModel.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task_">ViewModel.WaitForNecessaryTaskAsync(Task)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync">ViewModel.WaitForNecessaryTasksAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.html">CarinaStudio.AutoUpdate.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
+  <h5 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class UpdatingSession : ViewModel, IDisposable, IApplicationObject, IThreadDependent, ISynchronizable, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession__ctor_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.#ctor*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.#ctor(CarinaStudio.IApplication)">UpdatingSession(IApplication)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html">UpdatingSession</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UpdatingSession(IApplication app)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationNameProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ApplicationNameProperty">ApplicationNameProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationName">ApplicationName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;string&gt; ApplicationNameProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_DownloadedPackageSizeProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.DownloadedPackageSizeProperty">DownloadedPackageSizeProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_DownloadedPackageSize">DownloadedPackageSize</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;long&gt; DownloadedPackageSizeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsBackingUpApplicationProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsBackingUpApplicationProperty">IsBackingUpApplicationProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsBackingUpApplication">IsBackingUpApplication</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsBackingUpApplicationProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsDownloadingPackageProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsDownloadingPackageProperty">IsDownloadingPackageProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsDownloadingPackage">IsDownloadingPackage</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsDownloadingPackageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsInstallingPackageProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsInstallingPackageProperty">IsInstallingPackageProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsInstallingPackage">IsInstallingPackage</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsInstallingPackageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsProgressAvailableProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsProgressAvailableProperty">IsProgressAvailableProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsProgressAvailable">IsProgressAvailable</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsProgressAvailableProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsResolvingPackageProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsResolvingPackageProperty">IsResolvingPackageProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsResolvingPackage">IsResolvingPackage</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsResolvingPackageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsRestoringApplicationProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsRestoringApplicationProperty">IsRestoringApplicationProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsRestoringApplication">IsRestoringApplication</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsRestoringApplicationProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelledProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancelledProperty">IsUpdatingCancelledProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelled">IsUpdatingCancelled</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingCancelledProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancellingProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancellingProperty">IsUpdatingCancellingProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelling">IsUpdatingCancelling</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingCancellingProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCompletedProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCompletedProperty">IsUpdatingCompletedProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCompleted">IsUpdatingCompleted</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingCompletedProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingFailedProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingFailedProperty">IsUpdatingFailedProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingFailed">IsUpdatingFailed</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingFailedProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingProperty">IsUpdatingProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdating">IsUpdating</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingSucceededProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingSucceededProperty">IsUpdatingSucceededProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingSucceeded">IsUpdatingSucceeded</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; IsUpdatingSucceededProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_MessageProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.MessageProperty">MessageProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Message">Message</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;string&gt; MessageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageSizeProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.PackageSizeProperty">PackageSizeProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageSize">PackageSize</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;long?&gt; PackageSizeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ProgressPercentageProperty" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ProgressPercentageProperty">ProgressPercentageProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ProgressPercentage">ProgressPercentage</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;double&gt; ProgressPercentageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationDirectoryPath_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ApplicationDirectoryPath*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationDirectoryPath" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ApplicationDirectoryPath">ApplicationDirectoryPath</h4>
+  <div class="markdown level1 summary"><p>Get or set path to directory of application to update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ApplicationDirectoryPath { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationName_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ApplicationName*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ApplicationName" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ApplicationName">ApplicationName</h4>
+  <div class="markdown level1 summary"><p>Get or set name of application to update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ApplicationName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CancelUpdatingCommand_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CancelUpdatingCommand*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CancelUpdatingCommand" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CancelUpdatingCommand">CancelUpdatingCommand</h4>
+  <div class="markdown level1 summary"><p>Command to cancel updating process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand CancelUpdatingCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Windows.Input.ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_DownloadedPackageSize_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.DownloadedPackageSize*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_DownloadedPackageSize" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.DownloadedPackageSize">DownloadedPackageSize</h4>
+  <div class="markdown level1 summary"><p>Get size of downloaded package in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long DownloadedPackageSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsBackingUpApplication_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsBackingUpApplication*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsBackingUpApplication" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsBackingUpApplication">IsBackingUpApplication</h4>
+  <div class="markdown level1 summary"><p>Check whether application is being backed-up or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBackingUpApplication { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsDownloadingPackage_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsDownloadingPackage*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsDownloadingPackage" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsDownloadingPackage">IsDownloadingPackage</h4>
+  <div class="markdown level1 summary"><p>Check whether update package is being downloaded or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDownloadingPackage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsInstallingPackage_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsInstallingPackage*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsInstallingPackage" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsInstallingPackage">IsInstallingPackage</h4>
+  <div class="markdown level1 summary"><p>Check whether update package is being installed or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInstallingPackage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsProgressAvailable_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsProgressAvailable*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsProgressAvailable" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsProgressAvailable">IsProgressAvailable</h4>
+  <div class="markdown level1 summary"><p>Check whether progress of updating is available or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProgressAvailable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsResolvingPackage_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsResolvingPackage*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsResolvingPackage" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsResolvingPackage">IsResolvingPackage</h4>
+  <div class="markdown level1 summary"><p>Check whether update package is being resolved or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsResolvingPackage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsRestoringApplication_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsRestoringApplication*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsRestoringApplication" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsRestoringApplication">IsRestoringApplication</h4>
+  <div class="markdown level1 summary"><p>Check whether application is being restored or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRestoringApplication { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdating_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdating*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdating" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdating">IsUpdating</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is on-going or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdating { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelled_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancelled*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelled" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancelled">IsUpdatingCancelled</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is cancelled or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdatingCancelled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelling_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancelling*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCancelling" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCancelling">IsUpdatingCancelling</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is being cancelled or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdatingCancelling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCompleted_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCompleted*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingCompleted" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingCompleted">IsUpdatingCompleted</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is completed either successfully or unsuccessfully.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdatingCompleted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingFailed_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingFailed*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingFailed" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingFailed">IsUpdatingFailed</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is completed unsuccessfully or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdatingFailed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingSucceeded_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingSucceeded*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsUpdatingSucceeded" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingSucceeded">IsUpdatingSucceeded</h4>
+  <div class="markdown level1 summary"><p>Check whether updating processing is completed successfully or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdatingSucceeded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Message_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.Message*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Message" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Get message which describes status of updating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageManifestSource_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.PackageManifestSource*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageManifestSource" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.PackageManifestSource">PackageManifestSource</h4>
+  <div class="markdown level1 summary"><p>Get or set source of package manifest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IStreamProvider PackageManifestSource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageSize_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.PackageSize*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_PackageSize" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.PackageSize">PackageSize</h4>
+  <div class="markdown level1 summary"><p>Get size of package in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? PackageSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ProgressPercentage_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ProgressPercentage*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_ProgressPercentage" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ProgressPercentage">ProgressPercentage</h4>
+  <div class="markdown level1 summary"><p>Get current proress of updating in percentage. <span class="xref">System.Double.NaN</span> if progress is unavailable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ProgressPercentage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_StartUpdatingCommand_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.StartUpdatingCommand*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_StartUpdatingCommand" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.StartUpdatingCommand">StartUpdatingCommand</h4>
+  <div class="markdown level1 summary"><p>Command to start updating process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommand StartUpdatingCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Windows.Input.ICommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdaterProgress_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdaterProgress*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdaterProgress" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdaterProgress">UpdaterProgress</h4>
+  <div class="markdown level1 summary"><p>Get progress reported by internal <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected double UpdaterProgress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdaterState_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdaterState*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdaterState" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdaterState">UpdaterState</h4>
+  <div class="markdown level1 summary"><p>Get state of internal <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UpdaterState UpdaterState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.AutoUpdate.UpdaterState.html">UpdaterState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdatingVersion_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdatingVersion*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_UpdatingVersion" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdatingVersion">UpdatingVersion</h4>
+  <div class="markdown level1 summary"><p>Get version of application which is updating to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Version UpdatingVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CreatePackageResolver_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CreatePackageResolver_CarinaStudio_IO_IStreamProvider_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(CarinaStudio.IO.IStreamProvider)">CreatePackageResolver(IStreamProvider)</h4>
+  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a> before updating process start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual IPackageResolver CreatePackageResolver(IStreamProvider source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source of package manifest.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></td>
+        <td><p><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CreatePackageResolver_CarinaStudio_IO_IStreamProvider__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Will create <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html">XmlPackageResolver</a> by default implementation.</p>
+</div>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Dispose_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.Dispose*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Dispose_System_Boolean_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Dispose the instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>True to dispose managed resources.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_">ViewModel.Dispose(Boolean)</a></div>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnPropertyChanged_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnPropertyChanged*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)">OnPropertyChanged(ObservableProperty, Object, Object)</h4>
+  <div class="markdown level1 summary"><p>Called when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPropertyChanged(ObservableProperty property, object oldValue, object newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td><p>Changed property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">oldValue</span></td>
+        <td><p>Old value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>New value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_">ViewModel.OnPropertyChanged(ObservableProperty, Object, Object)</a></div>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnUpdaterProgressChanged_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnUpdaterProgressChanged*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnUpdaterProgressChanged" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnUpdaterProgressChanged">OnUpdaterProgressChanged()</h4>
+  <div class="markdown level1 summary"><p>Called when progress reported by internal <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a> changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnUpdaterProgressChanged()</code></pre>
+  </div>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnUpdaterStateChanged_" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnUpdaterStateChanged*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_OnUpdaterStateChanged" data-uid="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.OnUpdaterStateChanged">OnUpdaterStateChanged()</h4>
+  <div class="markdown level1 summary"><p>Called when state of internal <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a> changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnUpdaterStateChanged()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

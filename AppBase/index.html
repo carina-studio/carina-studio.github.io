@@ -94,8 +94,7 @@
 <p>📦<strong>CarinaStudio.AppBase.AutoUpdate</strong></p>
 <ul>
 <li><code>Updater</code> to perform resolving, downloading and installing flow of application.</li>
-<li><code>IPackageResolver</code> to resolve package manifest in XML/JSON format to find location to download package.</li>
-<li><code>IPackageInstaller</code> to install downloaded package.</li>
+<li>Use <code>UpdatingSession</code> as view-model of <code>Updater</code> to build UI for auto-update quickly.</li>
 </ul>
 <p>📦<strong>CarinaStudio.AppBase.Tests</strong></p>
 <ul>
@@ -109,12 +108,14 @@
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core/">https://www.nuget.org/packages/CarinaStudio.AppBase.Core/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/">https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application/</a></li>
+<li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/">https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Tests/">https://www.nuget.org/packages/CarinaStudio.AppBase.Tests/</a></li>
 </ul>
 <p>You can also install by Package Manager command:</p>
 <pre><code>Install-Package CarinaStudio.AppBase.Core
 Install-Package CarinaStudio.AppBase.Configuration
 Install-Package CarinaStudio.AppBase.Application
+Install-Package CarinaStudio.AppBase.AutoUpdate
 Install-Package CarinaStudio.AppBase.Tests
 </code></pre>
 <h1 id="source-code">📁Source code</h1>
