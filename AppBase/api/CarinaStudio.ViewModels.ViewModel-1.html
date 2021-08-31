@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ViewModel&lt;TApplication&gt;
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ViewModel&lt;TApplication&gt;
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.ViewModels.ViewModel`1">
+  
+  
+  <h1 id="CarinaStudio_ViewModels_ViewModel_1" data-uid="CarinaStudio.ViewModels.ViewModel`1" class="text-break">Class ViewModel&lt;TApplication&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for view-model.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></div>
+    <div class="level3"><span class="xref">ViewModel&lt;TApplication&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject-1.html">IApplicationObject</a>&lt;TApplication&gt;</div>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_CheckAccess">ViewModel.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_">ViewModel.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__">ViewModel.GetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__">ViewModel.GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks">ViewModel.HasNecessaryTasks</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id">ViewModel.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Logger">ViewModel.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_">ViewModel.OnApplicationPropertyChanged(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated">ViewModel.OnApplicationStringsUpdated()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_CarinaStudio_ViewModels_ViewModel_">ViewModel.OnOwnedViewModelCreated(ViewModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_CarinaStudio_ViewModels_ViewModel_">ViewModel.OnOwnedViewModelDisposed(ViewModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_">ViewModel.OnPropertyChanged(ObservableProperty, Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_">ViewModel.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_">ViewModel.OnSettingChanged(SettingChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_">ViewModel.OnSettingChanging(SettingChangingEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OwnedViewModels">ViewModel.OwnedViewModels</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner">ViewModel.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PersistentState">ViewModel.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged">ViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Settings">ViewModel.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_">ViewModel.SetValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext">ViewModel.SynchronizationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ToString">ViewModel.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task_">ViewModel.WaitForNecessaryTaskAsync(Task)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync">ViewModel.WaitForNecessaryTasksAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.ViewModels.html">CarinaStudio.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_ViewModels_ViewModel_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ViewModel&lt;TApplication&gt; : ViewModel, IDisposable, INotifyPropertyChanged, IApplicationObject&lt;TApplication&gt;, IApplicationObject, IThreadDependent, ISynchronizable where TApplication : IApplication</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TApplication</span></td>
+        <td><p>Type of application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_1__ctor_" data-uid="CarinaStudio.ViewModels.ViewModel`1.#ctor*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_1__ctor__0_" data-uid="CarinaStudio.ViewModels.ViewModel`1.#ctor(`0)">ViewModel(TApplication)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ViewModel(TApplication app)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TApplication</span></td>
+        <td><span class="parametername">app</span></td>
+        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_ViewModels_ViewModel_1_Application_" data-uid="CarinaStudio.ViewModels.ViewModel`1.Application*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_1_Application" data-uid="CarinaStudio.ViewModels.ViewModel`1.Application">Application</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TApplication Application { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TApplication</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject-1.html">IApplicationObject&lt;TApplication&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable&lt;CancellationToken&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

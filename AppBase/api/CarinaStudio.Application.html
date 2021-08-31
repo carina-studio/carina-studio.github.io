@@ -1,0 +1,817 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Application
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Application
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Application">
+  
+  
+  <h1 id="CarinaStudio_Application" data-uid="CarinaStudio.Application" class="text-break">Class Application
+  </h1>
+  <div class="markdown level0 summary"><p>Base implementation of <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> based-on <span class="xref">Avalonia.Application</span>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Avalonia.AvaloniaObject</span></div>
+    <div class="level2"><span class="xref">Avalonia.Application</span></div>
+    <div class="level3"><span class="xref">Application</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Avalonia.Diagnostics.IAvaloniaObjectDebug</span></div>
+    <div><span class="xref">Avalonia.IDataContextProvider</span></div>
+    <div><span class="xref">Avalonia.IAvaloniaObject</span></div>
+    <div><span class="xref">Avalonia.Controls.IGlobalDataTemplates</span></div>
+    <div><span class="xref">Avalonia.Controls.Templates.IDataTemplateHost</span></div>
+    <div><span class="xref">Avalonia.Styling.IGlobalStyles</span></div>
+    <div><span class="xref">Avalonia.Styling.IStyleHost</span></div>
+    <div><span class="xref">Avalonia.Controls.IResourceHost</span></div>
+    <div><span class="xref">Avalonia.Controls.IResourceNode</span></div>
+    <div><span class="xref">Avalonia.Platform.IApplicationPlatformEvents</span></div>
+    <div><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Avalonia.Application.DataContextProperty</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.NameProperty</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Initialize()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Controls.IResourceNode.TryGetResource(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Controls.IResourceHost.NotifyHostedResourcesChanged(Avalonia.Controls.ResourcesChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IStyleHost.StylesAdded(System.Collections.Generic.IReadOnlyList&lt;Avalonia.Styling.IStyle&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IStyleHost.StylesRemoved(System.Collections.Generic.IReadOnlyList&lt;Avalonia.Styling.IStyle&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.RegisterServices()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Platform.IApplicationPlatformEvents.RaiseUrlsOpened(System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.DataContext</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Current</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.DataTemplates</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.FocusManager</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.InputManager</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Clipboard</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Resources</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Styles</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Controls.Templates.IDataTemplateHost.IsDataTemplatesInitialized</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Controls.IResourceNode.HasResources</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IStyleHost.StylingParent</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IStyleHost.IsStylesInitialized</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.ApplicationLifetime</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Name</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.ResourcesChanged</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.UrlsOpened</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IGlobalStyles.GlobalStylesAdded</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Application.Avalonia.Styling.IGlobalStyles.GlobalStylesRemoved</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.CheckAccess()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.VerifyAccess()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetBaseValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.IsAnimating(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.IsSet(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue(Avalonia.AvaloniaProperty, System.Object, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, T, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;, T)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Bind&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, System.IObservable&lt;Avalonia.Data.BindingValue&lt;T&gt;&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Bind&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;, System.IObservable&lt;Avalonia.Data.BindingValue&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.CoerceValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.BeginBatchUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.EndBatchUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.AddInheritanceChild(Avalonia.IAvaloniaObject)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.RemoveInheritanceChild(Avalonia.IAvaloniaObject)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.InheritedPropertyChanged&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.Diagnostics.IAvaloniaObjectDebug.GetPropertyChangedSubscribers()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.LogBindingError(Avalonia.AvaloniaProperty, System.Exception)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.UpdateDataValidation&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.BindingValue&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.OnPropertyChangedCore&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.OnPropertyChanged&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.RaisePropertyChanged&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;, Avalonia.Data.BindingValue&lt;T&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetAndRaise&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.RaisePropertyChanged&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.InheritanceParent</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Item[Avalonia.AvaloniaProperty]</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Item[Avalonia.Data.IndexerDescriptor]</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
+  <h5 id="CarinaStudio_Application_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Application : Application, IAvaloniaObjectDebug, IValueSink, IDataContextProvider, IAvaloniaObject, IGlobalDataTemplates, IDataTemplateHost, IGlobalStyles, IStyleHost, IResourceHost, IResourceNode, IApplicationPlatformEvents, IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_Application__ctor_" data-uid="CarinaStudio.Application.#ctor*"></a>
+  <h4 id="CarinaStudio_Application__ctor" data-uid="CarinaStudio.Application.#ctor">Application()</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Application.html">Application</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Application()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_Application_Assembly_" data-uid="CarinaStudio.Application.Assembly*"></a>
+  <h4 id="CarinaStudio_Application_Assembly" data-uid="CarinaStudio.Application.Assembly">Assembly</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_Assembly">Assembly</a> of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Assembly Assembly { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_CultureInfo_" data-uid="CarinaStudio.Application.CultureInfo*"></a>
+  <h4 id="CarinaStudio_Application_CultureInfo" data-uid="CarinaStudio.Application.CultureInfo">CultureInfo</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_CultureInfo">CultureInfo</a> currently used by application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract CultureInfo CultureInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Globalization.CultureInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_IsShutdownStarted_" data-uid="CarinaStudio.Application.IsShutdownStarted*"></a>
+  <h4 id="CarinaStudio_Application_IsShutdownStarted" data-uid="CarinaStudio.Application.IsShutdownStarted">IsShutdownStarted</h4>
+  <div class="markdown level1 summary"><p>Whether application shutdown has been started or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool IsShutdownStarted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_LoggerFactory_" data-uid="CarinaStudio.Application.LoggerFactory*"></a>
+  <h4 id="CarinaStudio_Application_LoggerFactory" data-uid="CarinaStudio.Application.LoggerFactory">LoggerFactory</h4>
+  <div class="markdown level1 summary"><p><span class="xref">Microsoft.Extensions.Logging.ILoggerFactory</span> to create logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ILoggerFactory LoggerFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.ILoggerFactory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_PersistentState_" data-uid="CarinaStudio.Application.PersistentState*"></a>
+  <h4 id="CarinaStudio_Application_PersistentState" data-uid="CarinaStudio.Application.PersistentState">PersistentState</h4>
+  <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ISettings PersistentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_RootPrivateDirectoryPath_" data-uid="CarinaStudio.Application.RootPrivateDirectoryPath*"></a>
+  <h4 id="CarinaStudio_Application_RootPrivateDirectoryPath" data-uid="CarinaStudio.Application.RootPrivateDirectoryPath">RootPrivateDirectoryPath</h4>
+  <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string RootPrivateDirectoryPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_Settings_" data-uid="CarinaStudio.Application.Settings*"></a>
+  <h4 id="CarinaStudio_Application_Settings" data-uid="CarinaStudio.Application.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>Get default application level user settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ISettings Settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_SynchronizationContext_" data-uid="CarinaStudio.Application.SynchronizationContext*"></a>
+  <h4 id="CarinaStudio_Application_SynchronizationContext" data-uid="CarinaStudio.Application.SynchronizationContext">SynchronizationContext</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_SynchronizationContext">SynchronizationContext</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_Application_GetString_" data-uid="CarinaStudio.Application.GetString*"></a>
+  <h4 id="CarinaStudio_Application_GetString_System_String_System_String_" data-uid="CarinaStudio.Application.GetString(System.String,System.String)">GetString(String, String)</h4>
+  <div class="markdown level1 summary"><p>Get string from resources according to given key and current settings or system language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string GetString(string key, string defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of string to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_OnFrameworkInitializationCompleted_" data-uid="CarinaStudio.Application.OnFrameworkInitializationCompleted*"></a>
+  <h4 id="CarinaStudio_Application_OnFrameworkInitializationCompleted" data-uid="CarinaStudio.Application.OnFrameworkInitializationCompleted">OnFrameworkInitializationCompleted()</h4>
+  <div class="markdown level1 summary"><p>Called when Avalonia framework initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnFrameworkInitializationCompleted()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Avalonia.Application.OnFrameworkInitializationCompleted()</span></div>
+  
+  
+  <a id="CarinaStudio_Application_OnPropertyChanged_" data-uid="CarinaStudio.Application.OnPropertyChanged*"></a>
+  <h4 id="CarinaStudio_Application_OnPropertyChanged_System_String_" data-uid="CarinaStudio.Application.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Raise <span class="xref">System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Name of changed property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Application_OnStringUpdated_" data-uid="CarinaStudio.Application.OnStringUpdated*"></a>
+  <h4 id="CarinaStudio_Application_OnStringUpdated_System_EventArgs_" data-uid="CarinaStudio.Application.OnStringUpdated(System.EventArgs)">OnStringUpdated(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_StringsUpdated">StringsUpdated</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStringUpdated(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_Application_StringsUpdated" data-uid="CarinaStudio.Application.StringsUpdated">StringsUpdated</h4>
+  <div class="markdown level1 summary"><p>Raised when string resources updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler StringsUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_Application_System_ComponentModel_INotifyPropertyChanged_PropertyChanged" data-uid="CarinaStudio.Application.System#ComponentModel#INotifyPropertyChanged#PropertyChanged">INotifyPropertyChanged.PropertyChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event PropertyChangedEventHandler INotifyPropertyChanged.PropertyChanged</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Avalonia.Diagnostics.IAvaloniaObjectDebug</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.IDataContextProvider</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.IAvaloniaObject</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Controls.IGlobalDataTemplates</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Controls.Templates.IDataTemplateHost</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Styling.IGlobalStyles</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Styling.IStyleHost</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Controls.IResourceHost</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Controls.IResourceNode</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Platform.IApplicationPlatformEvents</span>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
