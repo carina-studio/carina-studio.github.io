@@ -82,6 +82,7 @@
     <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
     <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a></div>
     <div class="level3"><span class="xref">BasePackageResolver</span></div>
+      <div class="level4"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html">FilePackageResolver</a></div>
       <div class="level4"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html">JsonPackageResolver</a></div>
       <div class="level4"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html">XmlPackageResolver</a></div>
   </div>
@@ -218,6 +219,32 @@
   </table>
   
   
+  <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5">MD5</h4>
+  <div class="markdown level1 summary"><p>Get MD5 hash code of update package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MD5 { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri">PackageUri</h4>
   <div class="markdown level1 summary"><p>Get or set resolved URI to download update package.</p>
@@ -296,6 +323,58 @@
   </table>
   
   
+  <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256">SHA256</h4>
+  <div class="markdown level1 summary"><p>Get SHA256 hash code of update package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SHA256 { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512">SHA512</h4>
+  <div class="markdown level1 summary"><p>Get SHA512 hash code of update package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SHA512 { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source">Source</h4>
   <div class="markdown level1 summary"><p>Get or set source <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a> to provide data of package manifest to be resolved.</p>
@@ -303,7 +382,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IStreamProvider Source { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IStreamProvider Source { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

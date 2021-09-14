@@ -786,6 +786,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ApplicationName
   nameWithType: BasePackageResolver.ApplicationName
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5
+  name: MD5
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5
+  nameWithType: BasePackageResolver.MD5
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5*
+  name: MD5
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5
+  nameWithType: BasePackageResolver.MD5
 - uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri
   name: PackageUri
   href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri
@@ -825,6 +838,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PageUri
   nameWithType: BasePackageResolver.PageUri
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
+  name: SHA256
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
+  nameWithType: BasePackageResolver.SHA256
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256*
+  name: SHA256
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
+  nameWithType: BasePackageResolver.SHA256
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512
+  name: SHA512
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512
+  nameWithType: BasePackageResolver.SHA512
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512*
+  name: SHA512
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512
+  nameWithType: BasePackageResolver.SHA512
 - uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source
   name: Source
   href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source
@@ -851,6 +890,51 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ValidateParametersToStart
   nameWithType: BasePackageResolver.ValidateParametersToStart
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver
+  name: FilePackageResolver
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html
+  commentId: T:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver
+  nameWithType: FilePackageResolver
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)
+  name: FilePackageResolver(String, String, Version)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_System_String_System_String_System_Version_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.FilePackageResolver(System.String, System.String, System.Version)
+  nameWithType: FilePackageResolver.FilePackageResolver(String, String, Version)
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor*
+  name: FilePackageResolver
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.FilePackageResolver
+  nameWithType: FilePackageResolver.FilePackageResolver
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync(System.Threading.CancellationToken)
+  name: PerformOperationAsync(CancellationToken)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_PerformOperationAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync(System.Threading.CancellationToken)
+  nameWithType: FilePackageResolver.PerformOperationAsync(CancellationToken)
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync*
+  name: PerformOperationAsync
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_PerformOperationAsync_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync
+  nameWithType: FilePackageResolver.PerformOperationAsync
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source
+  name: Source
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_Source
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source
+  nameWithType: FilePackageResolver.Source
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source*
+  name: Source
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_Source_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source
+  nameWithType: FilePackageResolver.Source
 - uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver
   name: IPackageResolver
   href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html
@@ -870,6 +954,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.ApplicationName
   nameWithType: IPackageResolver.ApplicationName
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5
+  name: MD5
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_MD5
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5
+  nameWithType: IPackageResolver.MD5
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5*
+  name: MD5
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_MD5_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.MD5
+  nameWithType: IPackageResolver.MD5
 - uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.PackageUri
   name: PackageUri
   href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_PackageUri
@@ -909,6 +1006,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.PageUri
   nameWithType: IPackageResolver.PageUri
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
+  name: SHA256
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SHA256
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
+  nameWithType: IPackageResolver.SHA256
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256*
+  name: SHA256
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SHA256_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
+  nameWithType: IPackageResolver.SHA256
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512
+  name: SHA512
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SHA512
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512
+  nameWithType: IPackageResolver.SHA512
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512*
+  name: SHA512
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SHA512_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA512
+  nameWithType: IPackageResolver.SHA512
 - uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.Source
   name: Source
   href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_Source
@@ -1429,6 +1552,12 @@ references:
   commentId: F:CarinaStudio.AutoUpdate.UpdaterState.Succeeded
   fullName: CarinaStudio.AutoUpdate.UpdaterState.Succeeded
   nameWithType: UpdaterState.Succeeded
+- uid: CarinaStudio.AutoUpdate.UpdaterState.VerifyingPackage
+  name: VerifyingPackage
+  href: api/CarinaStudio.AutoUpdate.UpdaterState.html#CarinaStudio_AutoUpdate_UpdaterState_VerifyingPackage
+  commentId: F:CarinaStudio.AutoUpdate.UpdaterState.VerifyingPackage
+  fullName: CarinaStudio.AutoUpdate.UpdaterState.VerifyingPackage
+  nameWithType: UpdaterState.VerifyingPackage
 - uid: CarinaStudio.AutoUpdate.ViewModels
   name: CarinaStudio.AutoUpdate.ViewModels
   href: api/CarinaStudio.AutoUpdate.ViewModels.html
@@ -1772,6 +1901,25 @@ references:
   commentId: F:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingSucceededProperty
   fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsUpdatingSucceededProperty
   nameWithType: UpdatingSession.IsUpdatingSucceededProperty
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage
+  name: IsVerifyingPackage
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsVerifyingPackage
+  commentId: P:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage
+  nameWithType: UpdatingSession.IsVerifyingPackage
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage*
+  name: IsVerifyingPackage
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsVerifyingPackage_
+  commentId: Overload:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackage
+  nameWithType: UpdatingSession.IsVerifyingPackage
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackageProperty
+  name: IsVerifyingPackageProperty
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_IsVerifyingPackageProperty
+  commentId: F:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackageProperty
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.IsVerifyingPackageProperty
+  nameWithType: UpdatingSession.IsVerifyingPackageProperty
 - uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.Message
   name: Message
   href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_Message

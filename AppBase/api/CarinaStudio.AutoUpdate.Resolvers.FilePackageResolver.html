@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class JsonPackageResolver
+    <title>Class FilePackageResolver
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class JsonPackageResolver
+    <meta name="title" content="Class FilePackageResolver
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,12 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver">
   
   
-  <h1 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver" class="text-break">Class JsonPackageResolver
+  <h1 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver" class="text-break">Class FilePackageResolver
   </h1>
-  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a> to resolve package manifest in JSON format.</p>
+  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a> which takes given file as update package directly.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -82,7 +82,7 @@
     <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
     <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a></div>
     <div class="level3"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html">BasePackageResolver</a></div>
-    <div class="level4"><span class="xref">JsonPackageResolver</span></div>
+    <div class="level4"><span class="xref">FilePackageResolver</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -115,9 +115,6 @@
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512">BasePackageResolver.SHA512</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source">BasePackageResolver.Source</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ValidateParametersToStart">BasePackageResolver.ValidateParametersToStart()</a>
@@ -194,35 +191,98 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.html">CarinaStudio.AutoUpdate.Resolvers</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
-  <h5 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JsonPackageResolver : BasePackageResolver, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class FilePackageResolver : BasePackageResolver, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor">JsonPackageResolver()</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html">JsonPackageResolver</a> instance.</p>
+  <a id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_System_String_System_String_System_Version_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)">FilePackageResolver(String, String, Version)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html">FilePackageResolver</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonPackageResolver()</code></pre>
+    <pre><code class="lang-csharp hljs">public FilePackageResolver(string packageFilePath, string appName = null, Version packageVersion = null)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageFilePath</span></td>
+        <td><p>Path of package file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">appName</span></td>
+        <td><p>Application name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td><span class="parametername">packageVersion</span></td>
+        <td><p>Version of package.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_Source_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_Source" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.Source">Source</h4>
+  <div class="markdown level1 summary"><p>Get or set source <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a> to provide data of package manifest to be resolved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IStreamProvider Source { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source">BasePackageResolver.Source</a></div>
+  <h5 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_Source_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>It is unsupported to set this property on <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html">FilePackageResolver</a>.</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(System.Threading.CancellationToken)">PerformOperationAsync(CancellationToken)</h4>
+  <a id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_PerformOperationAsync_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync*"></a>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_PerformOperationAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.PerformOperationAsync(System.Threading.CancellationToken)">PerformOperationAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Perform operation asynchronously.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override async Task PerformOperationAsync(CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override Task PerformOperationAsync(CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
