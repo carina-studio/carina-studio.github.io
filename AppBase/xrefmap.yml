@@ -52,6 +52,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Application.CultureInfo
   nameWithType: Application.CultureInfo
+- uid: CarinaStudio.Application.Current
+  name: Current
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_Current
+  commentId: P:CarinaStudio.Application.Current
+  fullName: CarinaStudio.Application.Current
+  nameWithType: Application.Current
+- uid: CarinaStudio.Application.Current*
+  name: Current
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_Current_
+  commentId: Overload:CarinaStudio.Application.Current
+  isSpec: "True"
+  fullName: CarinaStudio.Application.Current
+  nameWithType: Application.Current
 - uid: CarinaStudio.Application.GetString(System.String,System.String)
   name: GetString(String, String)
   href: api/CarinaStudio.Application.html#CarinaStudio_Application_GetString_System_String_System_String_
@@ -6700,6 +6713,710 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Configuration.XmlSettingsSerializer.WriteXmlValue
   nameWithType: XmlSettingsSerializer.WriteXmlValue
+- uid: CarinaStudio.Controls
+  name: CarinaStudio.Controls
+  href: api/CarinaStudio.Controls.html
+  commentId: N:CarinaStudio.Controls
+  fullName: CarinaStudio.Controls
+  nameWithType: CarinaStudio.Controls
+- uid: CarinaStudio.Controls.ComboBoxExtensions
+  name: ComboBoxExtensions
+  href: api/CarinaStudio.Controls.ComboBoxExtensions.html
+  commentId: T:CarinaStudio.Controls.ComboBoxExtensions
+  fullName: CarinaStudio.Controls.ComboBoxExtensions
+  nameWithType: ComboBoxExtensions
+- uid: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem(Avalonia.Controls.ComboBox,System.Object,Avalonia.Controls.ComboBoxItem@)
+  name: TryFindComboBoxItem(ComboBox, Object, out ComboBoxItem)
+  href: api/CarinaStudio.Controls.ComboBoxExtensions.html#CarinaStudio_Controls_ComboBoxExtensions_TryFindComboBoxItem_Avalonia_Controls_ComboBox_System_Object_Avalonia_Controls_ComboBoxItem__
+  commentId: M:CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem(Avalonia.Controls.ComboBox,System.Object,Avalonia.Controls.ComboBoxItem@)
+  name.vb: TryFindComboBoxItem(ComboBox, Object, ByRef ComboBoxItem)
+  fullName: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem(Avalonia.Controls.ComboBox, System.Object, out Avalonia.Controls.ComboBoxItem)
+  fullName.vb: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem(Avalonia.Controls.ComboBox, System.Object, ByRef Avalonia.Controls.ComboBoxItem)
+  nameWithType: ComboBoxExtensions.TryFindComboBoxItem(ComboBox, Object, out ComboBoxItem)
+  nameWithType.vb: ComboBoxExtensions.TryFindComboBoxItem(ComboBox, Object, ByRef ComboBoxItem)
+- uid: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem*
+  name: TryFindComboBoxItem
+  href: api/CarinaStudio.Controls.ComboBoxExtensions.html#CarinaStudio_Controls_ComboBoxExtensions_TryFindComboBoxItem_
+  commentId: Overload:CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem
+  nameWithType: ComboBoxExtensions.TryFindComboBoxItem
+- uid: CarinaStudio.Controls.Dialog`1
+  name: Dialog<TApp>
+  href: api/CarinaStudio.Controls.Dialog-1.html
+  commentId: T:CarinaStudio.Controls.Dialog`1
+  name.vb: Dialog(Of TApp)
+  fullName: CarinaStudio.Controls.Dialog<TApp>
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp)
+  nameWithType: Dialog<TApp>
+  nameWithType.vb: Dialog(Of TApp)
+- uid: CarinaStudio.Controls.Dialog`1.#ctor
+  name: Dialog()
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1__ctor
+  commentId: M:CarinaStudio.Controls.Dialog`1.#ctor
+  fullName: CarinaStudio.Controls.Dialog<TApp>.Dialog()
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).Dialog()
+  nameWithType: Dialog<TApp>.Dialog()
+  nameWithType.vb: Dialog(Of TApp).Dialog()
+- uid: CarinaStudio.Controls.Dialog`1.#ctor*
+  name: Dialog
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1__ctor_
+  commentId: Overload:CarinaStudio.Controls.Dialog`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Dialog<TApp>.Dialog
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).Dialog
+  nameWithType: Dialog<TApp>.Dialog
+  nameWithType.vb: Dialog(Of TApp).Dialog
+- uid: CarinaStudio.Controls.Dialog`1.OnClosed(System.EventArgs)
+  name: OnClosed(EventArgs)
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnClosed_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.Dialog`1.OnClosed(System.EventArgs)
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnClosed(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnClosed(System.EventArgs)
+  nameWithType: Dialog<TApp>.OnClosed(EventArgs)
+  nameWithType.vb: Dialog(Of TApp).OnClosed(EventArgs)
+- uid: CarinaStudio.Controls.Dialog`1.OnClosed*
+  name: OnClosed
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnClosed_
+  commentId: Overload:CarinaStudio.Controls.Dialog`1.OnClosed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnClosed
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnClosed
+  nameWithType: Dialog<TApp>.OnClosed
+  nameWithType.vb: Dialog(Of TApp).OnClosed
+- uid: CarinaStudio.Controls.Dialog`1.OnKeyUp(Avalonia.Input.KeyEventArgs)
+  name: OnKeyUp(KeyEventArgs)
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnKeyUp_Avalonia_Input_KeyEventArgs_
+  commentId: M:CarinaStudio.Controls.Dialog`1.OnKeyUp(Avalonia.Input.KeyEventArgs)
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnKeyUp(Avalonia.Input.KeyEventArgs)
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnKeyUp(Avalonia.Input.KeyEventArgs)
+  nameWithType: Dialog<TApp>.OnKeyUp(KeyEventArgs)
+  nameWithType.vb: Dialog(Of TApp).OnKeyUp(KeyEventArgs)
+- uid: CarinaStudio.Controls.Dialog`1.OnKeyUp*
+  name: OnKeyUp
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnKeyUp_
+  commentId: Overload:CarinaStudio.Controls.Dialog`1.OnKeyUp
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnKeyUp
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnKeyUp
+  nameWithType: Dialog<TApp>.OnKeyUp
+  nameWithType.vb: Dialog(Of TApp).OnKeyUp
+- uid: CarinaStudio.Controls.Dialog`1.OnOpened(System.EventArgs)
+  name: OnOpened(EventArgs)
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnOpened_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.Dialog`1.OnOpened(System.EventArgs)
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnOpened(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnOpened(System.EventArgs)
+  nameWithType: Dialog<TApp>.OnOpened(EventArgs)
+  nameWithType.vb: Dialog(Of TApp).OnOpened(EventArgs)
+- uid: CarinaStudio.Controls.Dialog`1.OnOpened*
+  name: OnOpened
+  href: api/CarinaStudio.Controls.Dialog-1.html#CarinaStudio_Controls_Dialog_1_OnOpened_
+  commentId: Overload:CarinaStudio.Controls.Dialog`1.OnOpened
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Dialog<TApp>.OnOpened
+  fullName.vb: CarinaStudio.Controls.Dialog(Of TApp).OnOpened
+  nameWithType: Dialog<TApp>.OnOpened
+  nameWithType.vb: Dialog(Of TApp).OnOpened
+- uid: CarinaStudio.Controls.InputDialog`1
+  name: InputDialog<TApp>
+  href: api/CarinaStudio.Controls.InputDialog-1.html
+  commentId: T:CarinaStudio.Controls.InputDialog`1
+  name.vb: InputDialog(Of TApp)
+  fullName: CarinaStudio.Controls.InputDialog<TApp>
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp)
+  nameWithType: InputDialog<TApp>
+  nameWithType.vb: InputDialog(Of TApp)
+- uid: CarinaStudio.Controls.InputDialog`1.#ctor
+  name: InputDialog()
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1__ctor
+  commentId: M:CarinaStudio.Controls.InputDialog`1.#ctor
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.InputDialog()
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).InputDialog()
+  nameWithType: InputDialog<TApp>.InputDialog()
+  nameWithType.vb: InputDialog(Of TApp).InputDialog()
+- uid: CarinaStudio.Controls.InputDialog`1.#ctor*
+  name: InputDialog
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1__ctor_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.InputDialog
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).InputDialog
+  nameWithType: InputDialog<TApp>.InputDialog
+  nameWithType.vb: InputDialog(Of TApp).InputDialog
+- uid: CarinaStudio.Controls.InputDialog`1.GenerateResultAsync(System.Threading.CancellationToken)
+  name: GenerateResultAsync(CancellationToken)
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_GenerateResultAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Controls.InputDialog`1.GenerateResultAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.GenerateResultAsync(System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).GenerateResultAsync(System.Threading.CancellationToken)
+  nameWithType: InputDialog<TApp>.GenerateResultAsync(CancellationToken)
+  nameWithType.vb: InputDialog(Of TApp).GenerateResultAsync(CancellationToken)
+- uid: CarinaStudio.Controls.InputDialog`1.GenerateResultAsync*
+  name: GenerateResultAsync
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_GenerateResultAsync_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.GenerateResultAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.GenerateResultAsync
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).GenerateResultAsync
+  nameWithType: InputDialog<TApp>.GenerateResultAsync
+  nameWithType.vb: InputDialog(Of TApp).GenerateResultAsync
+- uid: CarinaStudio.Controls.InputDialog`1.GenerateResultCommand
+  name: GenerateResultCommand
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_GenerateResultCommand
+  commentId: P:CarinaStudio.Controls.InputDialog`1.GenerateResultCommand
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.GenerateResultCommand
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).GenerateResultCommand
+  nameWithType: InputDialog<TApp>.GenerateResultCommand
+  nameWithType.vb: InputDialog(Of TApp).GenerateResultCommand
+- uid: CarinaStudio.Controls.InputDialog`1.GenerateResultCommand*
+  name: GenerateResultCommand
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_GenerateResultCommand_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.GenerateResultCommand
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.GenerateResultCommand
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).GenerateResultCommand
+  nameWithType: InputDialog<TApp>.GenerateResultCommand
+  nameWithType.vb: InputDialog(Of TApp).GenerateResultCommand
+- uid: CarinaStudio.Controls.InputDialog`1.InvalidateInput
+  name: InvalidateInput()
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_InvalidateInput
+  commentId: M:CarinaStudio.Controls.InputDialog`1.InvalidateInput
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.InvalidateInput()
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).InvalidateInput()
+  nameWithType: InputDialog<TApp>.InvalidateInput()
+  nameWithType.vb: InputDialog(Of TApp).InvalidateInput()
+- uid: CarinaStudio.Controls.InputDialog`1.InvalidateInput*
+  name: InvalidateInput
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_InvalidateInput_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.InvalidateInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.InvalidateInput
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).InvalidateInput
+  nameWithType: InputDialog<TApp>.InvalidateInput
+  nameWithType.vb: InputDialog(Of TApp).InvalidateInput
+- uid: CarinaStudio.Controls.InputDialog`1.IsValidInput
+  name: IsValidInput
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_IsValidInput
+  commentId: P:CarinaStudio.Controls.InputDialog`1.IsValidInput
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.IsValidInput
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).IsValidInput
+  nameWithType: InputDialog<TApp>.IsValidInput
+  nameWithType.vb: InputDialog(Of TApp).IsValidInput
+- uid: CarinaStudio.Controls.InputDialog`1.IsValidInput*
+  name: IsValidInput
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_IsValidInput_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.IsValidInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.IsValidInput
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).IsValidInput
+  nameWithType: InputDialog<TApp>.IsValidInput
+  nameWithType.vb: InputDialog(Of TApp).IsValidInput
+- uid: CarinaStudio.Controls.InputDialog`1.IsValidInputProperty
+  name: IsValidInputProperty
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_IsValidInputProperty
+  commentId: F:CarinaStudio.Controls.InputDialog`1.IsValidInputProperty
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.IsValidInputProperty
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).IsValidInputProperty
+  nameWithType: InputDialog<TApp>.IsValidInputProperty
+  nameWithType.vb: InputDialog(Of TApp).IsValidInputProperty
+- uid: CarinaStudio.Controls.InputDialog`1.OnClosed(System.EventArgs)
+  name: OnClosed(EventArgs)
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnClosed_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.InputDialog`1.OnClosed(System.EventArgs)
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnClosed(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnClosed(System.EventArgs)
+  nameWithType: InputDialog<TApp>.OnClosed(EventArgs)
+  nameWithType.vb: InputDialog(Of TApp).OnClosed(EventArgs)
+- uid: CarinaStudio.Controls.InputDialog`1.OnClosed*
+  name: OnClosed
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnClosed_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.OnClosed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnClosed
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnClosed
+  nameWithType: InputDialog<TApp>.OnClosed
+  nameWithType.vb: InputDialog(Of TApp).OnClosed
+- uid: CarinaStudio.Controls.InputDialog`1.OnOpened(System.EventArgs)
+  name: OnOpened(EventArgs)
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnOpened_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.InputDialog`1.OnOpened(System.EventArgs)
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnOpened(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnOpened(System.EventArgs)
+  nameWithType: InputDialog<TApp>.OnOpened(EventArgs)
+  nameWithType.vb: InputDialog(Of TApp).OnOpened(EventArgs)
+- uid: CarinaStudio.Controls.InputDialog`1.OnOpened*
+  name: OnOpened
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnOpened_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.OnOpened
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnOpened
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnOpened
+  nameWithType: InputDialog<TApp>.OnOpened
+  nameWithType.vb: InputDialog(Of TApp).OnOpened
+- uid: CarinaStudio.Controls.InputDialog`1.OnValidateInput
+  name: OnValidateInput()
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnValidateInput
+  commentId: M:CarinaStudio.Controls.InputDialog`1.OnValidateInput
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnValidateInput()
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnValidateInput()
+  nameWithType: InputDialog<TApp>.OnValidateInput()
+  nameWithType.vb: InputDialog(Of TApp).OnValidateInput()
+- uid: CarinaStudio.Controls.InputDialog`1.OnValidateInput*
+  name: OnValidateInput
+  href: api/CarinaStudio.Controls.InputDialog-1.html#CarinaStudio_Controls_InputDialog_1_OnValidateInput_
+  commentId: Overload:CarinaStudio.Controls.InputDialog`1.OnValidateInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.InputDialog<TApp>.OnValidateInput
+  fullName.vb: CarinaStudio.Controls.InputDialog(Of TApp).OnValidateInput
+  nameWithType: InputDialog<TApp>.OnValidateInput
+  nameWithType.vb: InputDialog(Of TApp).OnValidateInput
+- uid: CarinaStudio.Controls.ItemsControlExtensions
+  name: ItemsControlExtensions
+  href: api/CarinaStudio.Controls.ItemsControlExtensions.html
+  commentId: T:CarinaStudio.Controls.ItemsControlExtensions
+  fullName: CarinaStudio.Controls.ItemsControlExtensions
+  nameWithType: ItemsControlExtensions
+- uid: CarinaStudio.Controls.ItemsControlExtensions.GetItemCount(Avalonia.Controls.ItemsControl)
+  name: GetItemCount(ItemsControl)
+  href: api/CarinaStudio.Controls.ItemsControlExtensions.html#CarinaStudio_Controls_ItemsControlExtensions_GetItemCount_Avalonia_Controls_ItemsControl_
+  commentId: M:CarinaStudio.Controls.ItemsControlExtensions.GetItemCount(Avalonia.Controls.ItemsControl)
+  fullName: CarinaStudio.Controls.ItemsControlExtensions.GetItemCount(Avalonia.Controls.ItemsControl)
+  nameWithType: ItemsControlExtensions.GetItemCount(ItemsControl)
+- uid: CarinaStudio.Controls.ItemsControlExtensions.GetItemCount*
+  name: GetItemCount
+  href: api/CarinaStudio.Controls.ItemsControlExtensions.html#CarinaStudio_Controls_ItemsControlExtensions_GetItemCount_
+  commentId: Overload:CarinaStudio.Controls.ItemsControlExtensions.GetItemCount
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ItemsControlExtensions.GetItemCount
+  nameWithType: ItemsControlExtensions.GetItemCount
+- uid: CarinaStudio.Controls.ListBoxExtensions
+  name: ListBoxExtensions
+  href: api/CarinaStudio.Controls.ListBoxExtensions.html
+  commentId: T:CarinaStudio.Controls.ListBoxExtensions
+  fullName: CarinaStudio.Controls.ListBoxExtensions
+  nameWithType: ListBoxExtensions
+- uid: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem(Avalonia.Controls.ListBox,System.Object,Avalonia.Controls.ListBoxItem@)
+  name: TryFindListBoxItem(ListBox, Object, out ListBoxItem)
+  href: api/CarinaStudio.Controls.ListBoxExtensions.html#CarinaStudio_Controls_ListBoxExtensions_TryFindListBoxItem_Avalonia_Controls_ListBox_System_Object_Avalonia_Controls_ListBoxItem__
+  commentId: M:CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem(Avalonia.Controls.ListBox,System.Object,Avalonia.Controls.ListBoxItem@)
+  name.vb: TryFindListBoxItem(ListBox, Object, ByRef ListBoxItem)
+  fullName: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem(Avalonia.Controls.ListBox, System.Object, out Avalonia.Controls.ListBoxItem)
+  fullName.vb: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem(Avalonia.Controls.ListBox, System.Object, ByRef Avalonia.Controls.ListBoxItem)
+  nameWithType: ListBoxExtensions.TryFindListBoxItem(ListBox, Object, out ListBoxItem)
+  nameWithType.vb: ListBoxExtensions.TryFindListBoxItem(ListBox, Object, ByRef ListBoxItem)
+- uid: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem*
+  name: TryFindListBoxItem
+  href: api/CarinaStudio.Controls.ListBoxExtensions.html#CarinaStudio_Controls_ListBoxExtensions_TryFindListBoxItem_
+  commentId: Overload:CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem
+  nameWithType: ListBoxExtensions.TryFindListBoxItem
+- uid: CarinaStudio.Controls.ResourceHostExtensions
+  name: ResourceHostExtensions
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html
+  commentId: T:CarinaStudio.Controls.ResourceHostExtensions
+  fullName: CarinaStudio.Controls.ResourceHostExtensions
+  nameWithType: ResourceHostExtensions
+- uid: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource*
+  name: TryFindResource
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource_
+  commentId: Overload:CarinaStudio.Controls.ResourceHostExtensions.TryFindResource
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource
+  nameWithType: ResourceHostExtensions.TryFindResource
+- uid: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource``1(Avalonia.Controls.IResourceHost,System.Object,``0@)
+  name: TryFindResource<T>(IResourceHost, Object, out T)
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object___0__
+  commentId: M:CarinaStudio.Controls.ResourceHostExtensions.TryFindResource``1(Avalonia.Controls.IResourceHost,System.Object,``0@)
+  name.vb: TryFindResource(Of T)(IResourceHost, Object, ByRef T)
+  fullName: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource<T>(Avalonia.Controls.IResourceHost, System.Object, out T)
+  fullName.vb: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource(Of T)(Avalonia.Controls.IResourceHost, System.Object, ByRef T)
+  nameWithType: ResourceHostExtensions.TryFindResource<T>(IResourceHost, Object, out T)
+  nameWithType.vb: ResourceHostExtensions.TryFindResource(Of T)(IResourceHost, Object, ByRef T)
+- uid: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource``1(Avalonia.Controls.IResourceHost,System.Object,System.Nullable{``0}@)
+  name: TryFindResource<T>(IResourceHost, Object, out Nullable<T>)
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object_System_Nullable___0___
+  commentId: M:CarinaStudio.Controls.ResourceHostExtensions.TryFindResource``1(Avalonia.Controls.IResourceHost,System.Object,System.Nullable{``0}@)
+  name.vb: TryFindResource(Of T)(IResourceHost, Object, ByRef Nullable(Of T))
+  fullName: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource<T>(Avalonia.Controls.IResourceHost, System.Object, out System.Nullable<T>)
+  fullName.vb: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource(Of T)(Avalonia.Controls.IResourceHost, System.Object, ByRef System.Nullable(Of T))
+  nameWithType: ResourceHostExtensions.TryFindResource<T>(IResourceHost, Object, out Nullable<T>)
+  nameWithType.vb: ResourceHostExtensions.TryFindResource(Of T)(IResourceHost, Object, ByRef Nullable(Of T))
+- uid: CarinaStudio.Controls.ScrollViewerExtensions
+  name: ScrollViewerExtensions
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html
+  commentId: T:CarinaStudio.Controls.ScrollViewerExtensions
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions
+  nameWithType: ScrollViewerExtensions
+- uid: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(Avalonia.Controls.ScrollViewer,Avalonia.Controls.IControl)
+  name: ScrollIntoView(ScrollViewer, IControl)
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_Avalonia_Controls_ScrollViewer_Avalonia_Controls_IControl_
+  commentId: M:CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(Avalonia.Controls.ScrollViewer,Avalonia.Controls.IControl)
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(Avalonia.Controls.ScrollViewer, Avalonia.Controls.IControl)
+  nameWithType: ScrollViewerExtensions.ScrollIntoView(ScrollViewer, IControl)
+- uid: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView*
+  name: ScrollIntoView
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_
+  commentId: Overload:CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView
+  nameWithType: ScrollViewerExtensions.ScrollIntoView
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions
+  name: SelectingItemsControlExtensions
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html
+  commentId: T:CarinaStudio.Controls.SelectingItemsControlExtensions
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions
+  nameWithType: SelectingItemsControlExtensions
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  name: SelectFirstItem(SelectingItemsControl, Boolean)
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectFirstItem_Avalonia_Controls_Primitives_SelectingItemsControl_System_Boolean_
+  commentId: M:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem(Avalonia.Controls.Primitives.SelectingItemsControl, System.Boolean)
+  nameWithType: SelectingItemsControlExtensions.SelectFirstItem(SelectingItemsControl, Boolean)
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem*
+  name: SelectFirstItem
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectFirstItem_
+  commentId: Overload:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectFirstItem
+  nameWithType: SelectingItemsControlExtensions.SelectFirstItem
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  name: SelectLastItem(SelectingItemsControl, Boolean)
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectLastItem_Avalonia_Controls_Primitives_SelectingItemsControl_System_Boolean_
+  commentId: M:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem(Avalonia.Controls.Primitives.SelectingItemsControl, System.Boolean)
+  nameWithType: SelectingItemsControlExtensions.SelectLastItem(SelectingItemsControl, Boolean)
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem*
+  name: SelectLastItem
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectLastItem_
+  commentId: Overload:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectLastItem
+  nameWithType: SelectingItemsControlExtensions.SelectLastItem
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  name: SelectNextItem(SelectingItemsControl, Boolean)
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectNextItem_Avalonia_Controls_Primitives_SelectingItemsControl_System_Boolean_
+  commentId: M:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem(Avalonia.Controls.Primitives.SelectingItemsControl, System.Boolean)
+  nameWithType: SelectingItemsControlExtensions.SelectNextItem(SelectingItemsControl, Boolean)
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem*
+  name: SelectNextItem
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectNextItem_
+  commentId: Overload:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectNextItem
+  nameWithType: SelectingItemsControlExtensions.SelectNextItem
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  name: SelectPreviousItem(SelectingItemsControl, Boolean)
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectPreviousItem_Avalonia_Controls_Primitives_SelectingItemsControl_System_Boolean_
+  commentId: M:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem(Avalonia.Controls.Primitives.SelectingItemsControl,System.Boolean)
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem(Avalonia.Controls.Primitives.SelectingItemsControl, System.Boolean)
+  nameWithType: SelectingItemsControlExtensions.SelectPreviousItem(SelectingItemsControl, Boolean)
+- uid: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem*
+  name: SelectPreviousItem
+  href: api/CarinaStudio.Controls.SelectingItemsControlExtensions.html#CarinaStudio_Controls_SelectingItemsControlExtensions_SelectPreviousItem_
+  commentId: Overload:CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.SelectingItemsControlExtensions.SelectPreviousItem
+  nameWithType: SelectingItemsControlExtensions.SelectPreviousItem
+- uid: CarinaStudio.Controls.TabControlExtensions
+  name: TabControlExtensions
+  href: api/CarinaStudio.Controls.TabControlExtensions.html
+  commentId: T:CarinaStudio.Controls.TabControlExtensions
+  fullName: CarinaStudio.Controls.TabControlExtensions
+  nameWithType: TabControlExtensions
+- uid: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem(Avalonia.Controls.TabControl,System.Object,Avalonia.Controls.TabItem@)
+  name: TryFindTabItem(TabControl, Object, out TabItem)
+  href: api/CarinaStudio.Controls.TabControlExtensions.html#CarinaStudio_Controls_TabControlExtensions_TryFindTabItem_Avalonia_Controls_TabControl_System_Object_Avalonia_Controls_TabItem__
+  commentId: M:CarinaStudio.Controls.TabControlExtensions.TryFindTabItem(Avalonia.Controls.TabControl,System.Object,Avalonia.Controls.TabItem@)
+  name.vb: TryFindTabItem(TabControl, Object, ByRef TabItem)
+  fullName: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem(Avalonia.Controls.TabControl, System.Object, out Avalonia.Controls.TabItem)
+  fullName.vb: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem(Avalonia.Controls.TabControl, System.Object, ByRef Avalonia.Controls.TabItem)
+  nameWithType: TabControlExtensions.TryFindTabItem(TabControl, Object, out TabItem)
+  nameWithType.vb: TabControlExtensions.TryFindTabItem(TabControl, Object, ByRef TabItem)
+- uid: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem*
+  name: TryFindTabItem
+  href: api/CarinaStudio.Controls.TabControlExtensions.html#CarinaStudio_Controls_TabControlExtensions_TryFindTabItem_
+  commentId: Overload:CarinaStudio.Controls.TabControlExtensions.TryFindTabItem
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem
+  nameWithType: TabControlExtensions.TryFindTabItem
+- uid: CarinaStudio.Controls.Window`1
+  name: Window<TApp>
+  href: api/CarinaStudio.Controls.Window-1.html
+  commentId: T:CarinaStudio.Controls.Window`1
+  name.vb: Window(Of TApp)
+  fullName: CarinaStudio.Controls.Window<TApp>
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp)
+  nameWithType: Window<TApp>
+  nameWithType.vb: Window(Of TApp)
+- uid: CarinaStudio.Controls.Window`1.#ctor
+  name: Window()
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1__ctor
+  commentId: M:CarinaStudio.Controls.Window`1.#ctor
+  fullName: CarinaStudio.Controls.Window<TApp>.Window()
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Window()
+  nameWithType: Window<TApp>.Window()
+  nameWithType.vb: Window(Of TApp).Window()
+- uid: CarinaStudio.Controls.Window`1.#ctor*
+  name: Window
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1__ctor_
+  commentId: Overload:CarinaStudio.Controls.Window`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.Window
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Window
+  nameWithType: Window<TApp>.Window
+  nameWithType.vb: Window(Of TApp).Window
+- uid: CarinaStudio.Controls.Window`1.Application
+  name: Application
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Application
+  commentId: P:CarinaStudio.Controls.Window`1.Application
+  fullName: CarinaStudio.Controls.Window<TApp>.Application
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Application
+  nameWithType: Window<TApp>.Application
+  nameWithType.vb: Window(Of TApp).Application
+- uid: CarinaStudio.Controls.Window`1.Application*
+  name: Application
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Application_
+  commentId: Overload:CarinaStudio.Controls.Window`1.Application
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.Application
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Application
+  nameWithType: Window<TApp>.Application
+  nameWithType.vb: Window(Of TApp).Application
+- uid: CarinaStudio.Controls.Window`1.CarinaStudio#IApplicationObject#Application
+  name: IApplicationObject.Application
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_CarinaStudio_IApplicationObject_Application
+  commentId: P:CarinaStudio.Controls.Window`1.CarinaStudio#IApplicationObject#Application
+  name.vb: CarinaStudio.IApplicationObject.Application
+  fullName: CarinaStudio.Controls.Window<TApp>.CarinaStudio.IApplicationObject.Application
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).CarinaStudio.IApplicationObject.Application
+  nameWithType: Window<TApp>.IApplicationObject.Application
+  nameWithType.vb: Window(Of TApp).CarinaStudio.IApplicationObject.Application
+- uid: CarinaStudio.Controls.Window`1.CarinaStudio#IApplicationObject#Application*
+  name: IApplicationObject.Application
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_CarinaStudio_IApplicationObject_Application_
+  commentId: Overload:CarinaStudio.Controls.Window`1.CarinaStudio#IApplicationObject#Application
+  isSpec: "True"
+  name.vb: CarinaStudio.IApplicationObject.Application
+  fullName: CarinaStudio.Controls.Window<TApp>.CarinaStudio.IApplicationObject.Application
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).CarinaStudio.IApplicationObject.Application
+  nameWithType: Window<TApp>.IApplicationObject.Application
+  nameWithType.vb: Window(Of TApp).CarinaStudio.IApplicationObject.Application
+- uid: CarinaStudio.Controls.Window`1.HasDialogs
+  name: HasDialogs
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_HasDialogs
+  commentId: P:CarinaStudio.Controls.Window`1.HasDialogs
+  fullName: CarinaStudio.Controls.Window<TApp>.HasDialogs
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).HasDialogs
+  nameWithType: Window<TApp>.HasDialogs
+  nameWithType.vb: Window(Of TApp).HasDialogs
+- uid: CarinaStudio.Controls.Window`1.HasDialogs*
+  name: HasDialogs
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_HasDialogs_
+  commentId: Overload:CarinaStudio.Controls.Window`1.HasDialogs
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.HasDialogs
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).HasDialogs
+  nameWithType: Window<TApp>.HasDialogs
+  nameWithType.vb: Window(Of TApp).HasDialogs
+- uid: CarinaStudio.Controls.Window`1.HasDialogsProperty
+  name: HasDialogsProperty
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_HasDialogsProperty
+  commentId: F:CarinaStudio.Controls.Window`1.HasDialogsProperty
+  fullName: CarinaStudio.Controls.Window<TApp>.HasDialogsProperty
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).HasDialogsProperty
+  nameWithType: Window<TApp>.HasDialogsProperty
+  nameWithType.vb: Window(Of TApp).HasDialogsProperty
+- uid: CarinaStudio.Controls.Window`1.IsClosed
+  name: IsClosed
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsClosed
+  commentId: P:CarinaStudio.Controls.Window`1.IsClosed
+  fullName: CarinaStudio.Controls.Window<TApp>.IsClosed
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsClosed
+  nameWithType: Window<TApp>.IsClosed
+  nameWithType.vb: Window(Of TApp).IsClosed
+- uid: CarinaStudio.Controls.Window`1.IsClosed*
+  name: IsClosed
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsClosed_
+  commentId: Overload:CarinaStudio.Controls.Window`1.IsClosed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.IsClosed
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsClosed
+  nameWithType: Window<TApp>.IsClosed
+  nameWithType.vb: Window(Of TApp).IsClosed
+- uid: CarinaStudio.Controls.Window`1.IsClosedProperty
+  name: IsClosedProperty
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsClosedProperty
+  commentId: F:CarinaStudio.Controls.Window`1.IsClosedProperty
+  fullName: CarinaStudio.Controls.Window<TApp>.IsClosedProperty
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsClosedProperty
+  nameWithType: Window<TApp>.IsClosedProperty
+  nameWithType.vb: Window(Of TApp).IsClosedProperty
+- uid: CarinaStudio.Controls.Window`1.IsOpened
+  name: IsOpened
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsOpened
+  commentId: P:CarinaStudio.Controls.Window`1.IsOpened
+  fullName: CarinaStudio.Controls.Window<TApp>.IsOpened
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsOpened
+  nameWithType: Window<TApp>.IsOpened
+  nameWithType.vb: Window(Of TApp).IsOpened
+- uid: CarinaStudio.Controls.Window`1.IsOpened*
+  name: IsOpened
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsOpened_
+  commentId: Overload:CarinaStudio.Controls.Window`1.IsOpened
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.IsOpened
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsOpened
+  nameWithType: Window<TApp>.IsOpened
+  nameWithType.vb: Window(Of TApp).IsOpened
+- uid: CarinaStudio.Controls.Window`1.IsOpenedProperty
+  name: IsOpenedProperty
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_IsOpenedProperty
+  commentId: F:CarinaStudio.Controls.Window`1.IsOpenedProperty
+  fullName: CarinaStudio.Controls.Window<TApp>.IsOpenedProperty
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).IsOpenedProperty
+  nameWithType: Window<TApp>.IsOpenedProperty
+  nameWithType.vb: Window(Of TApp).IsOpenedProperty
+- uid: CarinaStudio.Controls.Window`1.Logger
+  name: Logger
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Logger
+  commentId: P:CarinaStudio.Controls.Window`1.Logger
+  fullName: CarinaStudio.Controls.Window<TApp>.Logger
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Logger
+  nameWithType: Window<TApp>.Logger
+  nameWithType.vb: Window(Of TApp).Logger
+- uid: CarinaStudio.Controls.Window`1.Logger*
+  name: Logger
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Logger_
+  commentId: Overload:CarinaStudio.Controls.Window`1.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.Logger
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Logger
+  nameWithType: Window<TApp>.Logger
+  nameWithType.vb: Window(Of TApp).Logger
+- uid: CarinaStudio.Controls.Window`1.OnClosed(System.EventArgs)
+  name: OnClosed(EventArgs)
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnClosed_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.Window`1.OnClosed(System.EventArgs)
+  fullName: CarinaStudio.Controls.Window<TApp>.OnClosed(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnClosed(System.EventArgs)
+  nameWithType: Window<TApp>.OnClosed(EventArgs)
+  nameWithType.vb: Window(Of TApp).OnClosed(EventArgs)
+- uid: CarinaStudio.Controls.Window`1.OnClosed*
+  name: OnClosed
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnClosed_
+  commentId: Overload:CarinaStudio.Controls.Window`1.OnClosed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.OnClosed
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnClosed
+  nameWithType: Window<TApp>.OnClosed
+  nameWithType.vb: Window(Of TApp).OnClosed
+- uid: CarinaStudio.Controls.Window`1.OnDialogClosed(CarinaStudio.Controls.Dialog{`0})
+  name: OnDialogClosed(Dialog<TApp>)
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnDialogClosed_CarinaStudio_Controls_Dialog__0__
+  commentId: M:CarinaStudio.Controls.Window`1.OnDialogClosed(CarinaStudio.Controls.Dialog{`0})
+  name.vb: OnDialogClosed(Dialog(Of TApp))
+  fullName: CarinaStudio.Controls.Window<TApp>.OnDialogClosed(CarinaStudio.Controls.Dialog<TApp>)
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnDialogClosed(CarinaStudio.Controls.Dialog(Of TApp))
+  nameWithType: Window<TApp>.OnDialogClosed(Dialog<TApp>)
+  nameWithType.vb: Window(Of TApp).OnDialogClosed(Dialog(Of TApp))
+- uid: CarinaStudio.Controls.Window`1.OnDialogClosed*
+  name: OnDialogClosed
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnDialogClosed_
+  commentId: Overload:CarinaStudio.Controls.Window`1.OnDialogClosed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.OnDialogClosed
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnDialogClosed
+  nameWithType: Window<TApp>.OnDialogClosed
+  nameWithType.vb: Window(Of TApp).OnDialogClosed
+- uid: CarinaStudio.Controls.Window`1.OnDialogOpened(CarinaStudio.Controls.Dialog{`0})
+  name: OnDialogOpened(Dialog<TApp>)
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnDialogOpened_CarinaStudio_Controls_Dialog__0__
+  commentId: M:CarinaStudio.Controls.Window`1.OnDialogOpened(CarinaStudio.Controls.Dialog{`0})
+  name.vb: OnDialogOpened(Dialog(Of TApp))
+  fullName: CarinaStudio.Controls.Window<TApp>.OnDialogOpened(CarinaStudio.Controls.Dialog<TApp>)
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnDialogOpened(CarinaStudio.Controls.Dialog(Of TApp))
+  nameWithType: Window<TApp>.OnDialogOpened(Dialog<TApp>)
+  nameWithType.vb: Window(Of TApp).OnDialogOpened(Dialog(Of TApp))
+- uid: CarinaStudio.Controls.Window`1.OnDialogOpened*
+  name: OnDialogOpened
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnDialogOpened_
+  commentId: Overload:CarinaStudio.Controls.Window`1.OnDialogOpened
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.OnDialogOpened
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnDialogOpened
+  nameWithType: Window<TApp>.OnDialogOpened
+  nameWithType.vb: Window(Of TApp).OnDialogOpened
+- uid: CarinaStudio.Controls.Window`1.OnOpened(System.EventArgs)
+  name: OnOpened(EventArgs)
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnOpened_System_EventArgs_
+  commentId: M:CarinaStudio.Controls.Window`1.OnOpened(System.EventArgs)
+  fullName: CarinaStudio.Controls.Window<TApp>.OnOpened(System.EventArgs)
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnOpened(System.EventArgs)
+  nameWithType: Window<TApp>.OnOpened(EventArgs)
+  nameWithType.vb: Window(Of TApp).OnOpened(EventArgs)
+- uid: CarinaStudio.Controls.Window`1.OnOpened*
+  name: OnOpened
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_OnOpened_
+  commentId: Overload:CarinaStudio.Controls.Window`1.OnOpened
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.OnOpened
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).OnOpened
+  nameWithType: Window<TApp>.OnOpened
+  nameWithType.vb: Window(Of TApp).OnOpened
+- uid: CarinaStudio.Controls.Window`1.PersistentState
+  name: PersistentState
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_PersistentState
+  commentId: P:CarinaStudio.Controls.Window`1.PersistentState
+  fullName: CarinaStudio.Controls.Window<TApp>.PersistentState
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).PersistentState
+  nameWithType: Window<TApp>.PersistentState
+  nameWithType.vb: Window(Of TApp).PersistentState
+- uid: CarinaStudio.Controls.Window`1.PersistentState*
+  name: PersistentState
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_PersistentState_
+  commentId: Overload:CarinaStudio.Controls.Window`1.PersistentState
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.PersistentState
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).PersistentState
+  nameWithType: Window<TApp>.PersistentState
+  nameWithType.vb: Window(Of TApp).PersistentState
+- uid: CarinaStudio.Controls.Window`1.Settings
+  name: Settings
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Settings
+  commentId: P:CarinaStudio.Controls.Window`1.Settings
+  fullName: CarinaStudio.Controls.Window<TApp>.Settings
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Settings
+  nameWithType: Window<TApp>.Settings
+  nameWithType.vb: Window(Of TApp).Settings
+- uid: CarinaStudio.Controls.Window`1.Settings*
+  name: Settings
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_Settings_
+  commentId: Overload:CarinaStudio.Controls.Window`1.Settings
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.Settings
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).Settings
+  nameWithType: Window<TApp>.Settings
+  nameWithType.vb: Window(Of TApp).Settings
+- uid: CarinaStudio.Controls.Window`1.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_SynchronizationContext
+  commentId: P:CarinaStudio.Controls.Window`1.SynchronizationContext
+  fullName: CarinaStudio.Controls.Window<TApp>.SynchronizationContext
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).SynchronizationContext
+  nameWithType: Window<TApp>.SynchronizationContext
+  nameWithType.vb: Window(Of TApp).SynchronizationContext
+- uid: CarinaStudio.Controls.Window`1.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.Controls.Window-1.html#CarinaStudio_Controls_Window_1_SynchronizationContext_
+  commentId: Overload:CarinaStudio.Controls.Window`1.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window<TApp>.SynchronizationContext
+  fullName.vb: CarinaStudio.Controls.Window(Of TApp).SynchronizationContext
+  nameWithType: Window<TApp>.SynchronizationContext
+  nameWithType.vb: Window(Of TApp).SynchronizationContext
 - uid: CarinaStudio.Data.Converters
   name: CarinaStudio.Data.Converters
   href: api/CarinaStudio.Data.Converters.html
@@ -7150,6 +7867,31 @@ references:
   fullName.vb: CarinaStudio.IApplicationObject(Of TApplication).Application
   nameWithType: IApplicationObject<TApplication>.Application
   nameWithType.vb: IApplicationObject(Of TApplication).Application
+- uid: CarinaStudio.Input
+  name: CarinaStudio.Input
+  href: api/CarinaStudio.Input.html
+  commentId: N:CarinaStudio.Input
+  fullName: CarinaStudio.Input
+  nameWithType: CarinaStudio.Input
+- uid: CarinaStudio.Input.DataObjectExtensions
+  name: DataObjectExtensions
+  href: api/CarinaStudio.Input.DataObjectExtensions.html
+  commentId: T:CarinaStudio.Input.DataObjectExtensions
+  fullName: CarinaStudio.Input.DataObjectExtensions
+  nameWithType: DataObjectExtensions
+- uid: CarinaStudio.Input.DataObjectExtensions.HasFileNames(Avalonia.Input.IDataObject)
+  name: HasFileNames(IDataObject)
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_HasFileNames_Avalonia_Input_IDataObject_
+  commentId: M:CarinaStudio.Input.DataObjectExtensions.HasFileNames(Avalonia.Input.IDataObject)
+  fullName: CarinaStudio.Input.DataObjectExtensions.HasFileNames(Avalonia.Input.IDataObject)
+  nameWithType: DataObjectExtensions.HasFileNames(IDataObject)
+- uid: CarinaStudio.Input.DataObjectExtensions.HasFileNames*
+  name: HasFileNames
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_HasFileNames_
+  commentId: Overload:CarinaStudio.Input.DataObjectExtensions.HasFileNames
+  isSpec: "True"
+  fullName: CarinaStudio.Input.DataObjectExtensions.HasFileNames
+  nameWithType: DataObjectExtensions.HasFileNames
 - uid: CarinaStudio.InternalStateCorruptedException
   name: InternalStateCorruptedException
   href: api/CarinaStudio.InternalStateCorruptedException.html

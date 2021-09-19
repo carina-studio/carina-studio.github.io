@@ -201,7 +201,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
   <h5 id="CarinaStudio_ViewModels_ViewModel_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ViewModel&lt;TApplication&gt; : ViewModel, IDisposable, INotifyPropertyChanged, IApplicationObject&lt;TApplication&gt;, IApplicationObject, IThreadDependent, ISynchronizable where TApplication : IApplication</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ViewModel&lt;TApplication&gt; : ViewModel, IDisposable, INotifyPropertyChanged, IApplicationObject&lt;TApplication&gt;, IApplicationObject, IThreadDependent, ISynchronizable where TApplication : class, IApplication</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

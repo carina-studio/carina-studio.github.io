@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Application.html",
-          "hash": "sMfEfzJWN6pyDtYq+l/F8LEpofnwVOe/LdbyKKbS+zg="
+          "hash": "m48BvPttoPREsMSCMv2me0+fjMnxrxdBKOOlGrc1kzQ="
         }
       },
       "is_incremental": false,
@@ -617,6 +617,138 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.ComboBoxExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.ComboBoxExtensions.html",
+          "hash": "g2V/b+EpCgspAkfrSEaHi/AY2apD/gXe0vym53daXeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.Dialog-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.Dialog-1.html",
+          "hash": "Xy+Ue4lIJpqfQ9dcRGpma3CXbDT9HT+FDMcUKBeId0I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.InputDialog-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.InputDialog-1.html",
+          "hash": "GV9LN6FoM+pvD/s0OZaKRjMVYtv0HfC8GOB+ckk2Z38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.ItemsControlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.ItemsControlExtensions.html",
+          "hash": "RL635VUn+5uCWZdbvfos+65e9/6vWsPHF40of71JTCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.ListBoxExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.ListBoxExtensions.html",
+          "hash": "LRCdUgIdEJ5fJ5dL9CGu9Knoi2gF3IxQa2NL9cF0TCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.ResourceHostExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.ResourceHostExtensions.html",
+          "hash": "0J6WCyLTlAiL1qxZC0kZlY/eeTR61Qs4ceH+WsG/3XA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.ScrollViewerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.ScrollViewerExtensions.html",
+          "hash": "aTEMY77QXXYmD2Wb5rq/wOxO7IY6GFBBxhHuYnEy58M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.SelectingItemsControlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.SelectingItemsControlExtensions.html",
+          "hash": "+U7hB2zU4WZTxslZU07wZMyopiZVZjqnkBinu2Lc45k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.TabControlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.TabControlExtensions.html",
+          "hash": "XTElc2eNrJceEb/jk1PBPCPP2QYqZK7sJfHPpNT1UUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.Window-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.Window-1.html",
+          "hash": "ElSxChl8+SdEDQvmbKbyNwYuDZgEbbqx37k2Ggku93U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.html",
+          "hash": "A6O+T/O1tkQ/90g2PNKyjyiW6MXgTpQhTlRd2Xsb6pA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Data.Converters.ValueConverterExtensions.yml",
       "output": {
         ".html": {
@@ -705,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.IApplicationObject-1.html",
-          "hash": "NpXD5ShYBVLjq6DgyoHymdhUDBlo0c0SFtjKlUhzwCQ="
+          "hash": "NuDqE1E14q1zpWN2mVNMRh4I15OvbyYjvUYmIBzrlBc="
         }
       },
       "is_incremental": false,
@@ -886,6 +1018,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.IShareableDisposable-1.html",
           "hash": "69RtYZD03TIqL62/6AbrvhBwkrg2VIcMXbHkEifVWf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Input.DataObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Input.DataObjectExtensions.html",
+          "hash": "aBjhmiBbDaBXRQginidOC9hN693JWXJsi0cfwgJo5mU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Input.html",
+          "hash": "pts8Yw4/NPrnZ63PVUhXT6rlGWp72sJSplRx30BZHWQ="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.ViewModels.ViewModel-1.html",
-          "hash": "zVOoIIP+WvGXcrx9joMSbGQqWuKD1Ihl7YwucygSVs4="
+          "hash": "OkChc4UlRlz82D6pBaGT9mocgb6XCWmuumt9MHP/F3E="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Vudx0Nuzc7cx8/59MFr6ovKfi4ITm+RMDdGR5HS4cKA="
+          "hash": "7yqG93+jXacWId2684zDJ7KU7d1NM93Y4XGBe2uD94U="
         }
       },
       "is_incremental": false,
@@ -1624,7 +1780,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 113,
+          "total_file_count": 126,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
