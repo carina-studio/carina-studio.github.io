@@ -633,7 +633,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Controls.Dialog-1.html",
-          "hash": "Xy+Ue4lIJpqfQ9dcRGpma3CXbDT9HT+FDMcUKBeId0I="
+          "hash": "LLV7yvirySAZh9WeWStyOHBaTJlcf0MZIKgqcw0ReTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.Dialog.html",
+          "hash": "rV2YhseQ0vcmszPa17Rk2PlNDt/DNhE/cdN6D+73rUc="
         }
       },
       "is_incremental": false,
@@ -645,7 +657,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Controls.InputDialog-1.html",
-          "hash": "GV9LN6FoM+pvD/s0OZaKRjMVYtv0HfC8GOB+ckk2Z38="
+          "hash": "c8TBl0xd0GJaapFE/1sCztu0iYOyKM8gRZcHSjUGbAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.InputDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.InputDialog.html",
+          "hash": "PfG0LcJ4ruDvoE6TGQLtpTBxfBoHot34FB5sIaQeCdg="
         }
       },
       "is_incremental": false,
@@ -729,7 +753,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Controls.Window-1.html",
-          "hash": "ElSxChl8+SdEDQvmbKbyNwYuDZgEbbqx37k2Ggku93U="
+          "hash": "4E0mxfHFxiHs+gNTcJmdxKLwdaa1K6JTI+pVlr2Z0H4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Controls.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Controls.Window.html",
+          "hash": "oBO/MK2rVvYTSQIp/9v6vLzzaQavXkhbDJKJOhh+t28="
         }
       },
       "is_incremental": false,
@@ -741,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Controls.html",
-          "hash": "A6O+T/O1tkQ/90g2PNKyjyiW6MXgTpQhTlRd2Xsb6pA="
+          "hash": "JqMhmzotiyiKalfC52vKdhfXg3Z3lZSDWX1BsMXjwq4="
         }
       },
       "is_incremental": false,
@@ -1061,6 +1097,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.LinuxDistribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.LinuxDistribution.html",
+          "hash": "hdx2RWuD7w8RO1XBNVAacQMySONg2upey5uipMaAiVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.MemoryExtensions.yml",
       "output": {
         ".html": {
@@ -1186,6 +1234,18 @@
         ".html": {
           "relative_path": "api/CarinaStudio.Observer-1.html",
           "hash": "I4UxwnVxMWq3YdcqCTRUipOPxiQ2EI9jgW7n3uGOyHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Platform.html",
+          "hash": "HL6XMgqIRu+2Hr0uteEAzz9oyx1XEqEkDItddloUqe0="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "MHgODjwc3VugZFr0XEflsnXu/pPXqyATM4LiMBCLraI="
+          "hash": "f42ldz+0JY6V+bNZOy+LAxGa8F2E2pDI6XADbACn+1Q="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "7yqG93+jXacWId2684zDJ7KU7d1NM93Y4XGBe2uD94U="
+          "hash": "N9e8tTv5zWZUnySiaf4VLwYEIg2yIWKYINozT9jfJBI="
         }
       },
       "is_incremental": false,
@@ -1780,7 +1840,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 126,
+          "total_file_count": 131,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
