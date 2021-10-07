@@ -11015,15 +11015,14 @@ references:
   fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).ViewModel(TApplication)
   nameWithType: ViewModel<TApplication>.ViewModel(TApplication)
   nameWithType.vb: ViewModel(Of TApplication).ViewModel(TApplication)
-- uid: CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel{`0})
-  name: ViewModel(ViewModel<TApplication>)
-  href: api/CarinaStudio.ViewModels.ViewModel-1.html#CarinaStudio_ViewModels_ViewModel_1__ctor_CarinaStudio_ViewModels_ViewModel__0__
-  commentId: M:CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel{`0})
-  name.vb: ViewModel(ViewModel(Of TApplication))
-  fullName: CarinaStudio.ViewModels.ViewModel<TApplication>.ViewModel(CarinaStudio.ViewModels.ViewModel<TApplication>)
-  fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).ViewModel(CarinaStudio.ViewModels.ViewModel(Of TApplication))
-  nameWithType: ViewModel<TApplication>.ViewModel(ViewModel<TApplication>)
-  nameWithType.vb: ViewModel(Of TApplication).ViewModel(ViewModel(Of TApplication))
+- uid: CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel)
+  name: ViewModel(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel-1.html#CarinaStudio_ViewModels_ViewModel_1__ctor_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel<TApplication>.ViewModel(CarinaStudio.ViewModels.ViewModel)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).ViewModel(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel<TApplication>.ViewModel(ViewModel)
+  nameWithType.vb: ViewModel(Of TApplication).ViewModel(ViewModel)
 - uid: CarinaStudio.ViewModels.ViewModel`1.#ctor*
   name: ViewModel
   href: api/CarinaStudio.ViewModels.ViewModel-1.html#CarinaStudio_ViewModels_ViewModel_1__ctor_
