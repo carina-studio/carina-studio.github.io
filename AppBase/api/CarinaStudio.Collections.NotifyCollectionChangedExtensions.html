@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISynchronizable
+    <title>Class NotifyCollectionChangedExtensions
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISynchronizable
+    <meta name="title" content="Class NotifyCollectionChangedExtensions
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,34 +68,87 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading.ISynchronizable">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions">
   
   
-  <h1 id="CarinaStudio_Threading_ISynchronizable" data-uid="CarinaStudio.Threading.ISynchronizable" class="text-break">Interface ISynchronizable
+  <h1 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions" class="text-break">Class NotifyCollectionChangedExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Object which relates to specific <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Threading_ISynchronizable_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISynchronizable</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NotifyCollectionChangedExtensions</span></div>
   </div>
-  <h3 id="properties">Properties
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
+  <h5 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class NotifyCollectionChangedExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CarinaStudio_Threading_ISynchronizable_SynchronizationContext_" data-uid="CarinaStudio.Threading.ISynchronizable.SynchronizationContext*"></a>
-  <h4 id="CarinaStudio_Threading_ISynchronizable_SynchronizationContext" data-uid="CarinaStudio.Threading.ISynchronizable.SynchronizationContext">SynchronizationContext</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a> which the instance relates to.</p>
+  <a id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler*"></a>
+  <h4 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_System_Collections_Specialized_INotifyCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventHandler_" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(System.Collections.Specialized.INotifyCollectionChanged,System.Collections.Specialized.NotifyCollectionChangedEventHandler)">AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)</h4>
+  <div class="markdown level1 summary"><p>Add weak event handler to <span class="xref">System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SynchronizationContext SynchronizationContext { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakCollectionChangedEventHandler(this INotifyCollectionChanged target, NotifyCollectionChangedEventHandler handler)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Specialized.NotifyCollectionChangedEventHandler</span></td>
+        <td><span class="parametername">handler</span></td>
+        <td><p>Event handler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -105,36 +158,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
-        <td></td>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span> which represents added weak event handler. You can call <span class="xref">System.IDisposable.Dispose()</span> to remove weak event handler explicitly.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
 </article>
           </div>
           

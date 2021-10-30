@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISynchronizable
+    <title>Class BaseApplicationObject&lt;TApp&gt;
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISynchronizable
+    <meta name="title" content="Class BaseApplicationObject&lt;TApp&gt;
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,32 +68,127 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Threading.ISynchronizable">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.BaseApplicationObject`1">
   
   
-  <h1 id="CarinaStudio_Threading_ISynchronizable" data-uid="CarinaStudio.Threading.ISynchronizable" class="text-break">Interface ISynchronizable
+  <h1 id="CarinaStudio_BaseApplicationObject_1" data-uid="CarinaStudio.BaseApplicationObject`1" class="text-break">Class BaseApplicationObject&lt;TApp&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Object which relates to specific <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a>.</p>
+  <div class="markdown level0 summary"><p>Base implementation of <a class="xref" href="CarinaStudio.IApplicationObject-1.html">IApplicationObject&lt;TApplication&gt;</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Threading_ISynchronizable_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISynchronizable</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a></div>
+    <div class="level2"><span class="xref">BaseApplicationObject&lt;TApp&gt;</span></div>
   </div>
-  <h3 id="properties">Properties
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject-1.html">IApplicationObject</a>&lt;TApp&gt;</div>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Settings">BaseApplicationObject.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_BaseApplicationObject_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseApplicationObject&lt;TApp&gt; : BaseApplicationObject, IApplicationObject&lt;TApp&gt;, IApplicationObject, IThreadDependent, ISynchronizable where TApp : class, IApplication</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TApp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CarinaStudio_Threading_ISynchronizable_SynchronizationContext_" data-uid="CarinaStudio.Threading.ISynchronizable.SynchronizationContext*"></a>
-  <h4 id="CarinaStudio_Threading_ISynchronizable_SynchronizationContext" data-uid="CarinaStudio.Threading.ISynchronizable.SynchronizationContext">SynchronizationContext</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a> which the instance relates to.</p>
+  <a id="CarinaStudio_BaseApplicationObject_1__ctor_" data-uid="CarinaStudio.BaseApplicationObject`1.#ctor*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_1__ctor__0_" data-uid="CarinaStudio.BaseApplicationObject`1.#ctor(`0)">BaseApplicationObject(TApp)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.BaseApplicationObject-1.html">BaseApplicationObject&lt;TApp&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SynchronizationContext SynchronizationContext { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseApplicationObject(TApp app)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TApp</span></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_BaseApplicationObject_1_Application_" data-uid="CarinaStudio.BaseApplicationObject`1.Application*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_1_Application" data-uid="CarinaStudio.BaseApplicationObject`1.Application">Application</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which object belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TApp Application { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -105,11 +200,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">TApp</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject-1.html">IApplicationObject&lt;TApplication&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
@@ -134,6 +242,9 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
   </div>
 </article>
           </div>

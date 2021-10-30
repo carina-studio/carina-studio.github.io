@@ -273,6 +273,105 @@
   </h3>
   
   
+  <a id="CarinaStudio_Platform_GetInstalledFrameworkVersion_" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersion*"></a>
+  <h4 id="CarinaStudio_Platform_GetInstalledFrameworkVersion" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersion">GetInstalledFrameworkVersion()</h4>
+  <div class="markdown level1 summary"><p>Get version of .NET installed on device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version GetInstalledFrameworkVersion()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td><p>Installed .NET version, or null if .NET is not installed on device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersionAsync*"></a>
+  <h4 id="CarinaStudio_Platform_GetInstalledFrameworkVersionAsync" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersionAsync">GetInstalledFrameworkVersionAsync()</h4>
+  <div class="markdown level1 summary"><p>Get version of .NET installed on device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Version&gt; GetInstalledFrameworkVersionAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Version</span>&gt;</td>
+        <td><p>Task of checking version. The result will be null if .NET is not installed on device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersionAsync*"></a>
+  <h4 id="CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)">GetInstalledFrameworkVersionAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Get version of .NET installed on device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;Version&gt; GetInstalledFrameworkVersionAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Version</span>&gt;</td>
+        <td><p>Task of checking version. The result will be null if .NET is not installed on device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_Platform_OpenFileManager_" data-uid="CarinaStudio.Platform.OpenFileManager*"></a>
   <h4 id="CarinaStudio_Platform_OpenFileManager_System_String_" data-uid="CarinaStudio.Platform.OpenFileManager(System.String)">OpenFileManager(String)</h4>
   <div class="markdown level1 summary"><p>Open system file manager and show given file or directory.</p>

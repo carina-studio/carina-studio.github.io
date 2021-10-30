@@ -115,6 +115,136 @@
   </h3>
   
   
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,System.EventHandler)">AddWeakEventHandler(Object, String, EventHandler)</h4>
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler(this object target, string eventName, EventHandler handler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p><span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td><p>Name of event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td><span class="parametername">handler</span></td>
+        <td><p>Event handler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span> which represents added weak event handler. You can call <span class="xref">System.IDisposable.Dispose()</span> to remove weak event handler explicitly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,System.EventHandler{``0})">AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArgs&gt;(this object target, string eventName, EventHandler&lt;TArgs&gt; handler)
+    where TArgs : EventArgs</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p><span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td><p>Name of event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;TArgs&gt;</td>
+        <td><span class="parametername">handler</span></td>
+        <td><p>Event handler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span> which represents added weak event handler. You can call <span class="xref">System.IDisposable.Dispose()</span> to remove weak event handler explicitly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TArgs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
   <h4 id="CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Also``1(``0,System.Action{``0})">Also&lt;T&gt;(T, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>

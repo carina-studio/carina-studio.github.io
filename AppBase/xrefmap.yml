@@ -65,6 +65,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Application.Current
   nameWithType: Application.Current
+- uid: CarinaStudio.Application.CurrentOrNull
+  name: CurrentOrNull
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_CurrentOrNull
+  commentId: P:CarinaStudio.Application.CurrentOrNull
+  fullName: CarinaStudio.Application.CurrentOrNull
+  nameWithType: Application.CurrentOrNull
+- uid: CarinaStudio.Application.CurrentOrNull*
+  name: CurrentOrNull
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_CurrentOrNull_
+  commentId: Overload:CarinaStudio.Application.CurrentOrNull
+  isSpec: "True"
+  fullName: CarinaStudio.Application.CurrentOrNull
+  nameWithType: Application.CurrentOrNull
 - uid: CarinaStudio.Application.GetString(System.String,System.String)
   name: GetString(String, String)
   href: api/CarinaStudio.Application.html#CarinaStudio_Application_GetString_System_String_System_String_
@@ -851,6 +864,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PageUri
   nameWithType: BasePackageResolver.PageUri
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SelfContainedPackageOnly
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly
+  nameWithType: BasePackageResolver.SelfContainedPackageOnly
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly*
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SelfContainedPackageOnly_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly
+  nameWithType: BasePackageResolver.SelfContainedPackageOnly
 - uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256
   name: SHA256
   href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256
@@ -1019,6 +1045,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.PageUri
   nameWithType: IPackageResolver.PageUri
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SelfContainedPackageOnly
+  commentId: P:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly
+  nameWithType: IPackageResolver.SelfContainedPackageOnly
+- uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly*
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SelfContainedPackageOnly_
+  commentId: Overload:CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SelfContainedPackageOnly
+  nameWithType: IPackageResolver.SelfContainedPackageOnly
 - uid: CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.SHA256
   name: SHA256
   href: api/CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_SHA256
@@ -2042,6 +2081,19 @@ references:
   commentId: F:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ProgressPercentageProperty
   fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.ProgressPercentageProperty
   nameWithType: UpdatingSession.ProgressPercentageProperty
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_SelfContainedPackageOnly
+  commentId: P:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly
+  nameWithType: UpdatingSession.SelfContainedPackageOnly
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly*
+  name: SelfContainedPackageOnly
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_SelfContainedPackageOnly_
+  commentId: Overload:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.SelfContainedPackageOnly
+  nameWithType: UpdatingSession.SelfContainedPackageOnly
 - uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.StartUpdatingCommand
   name: StartUpdatingCommand
   href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_StartUpdatingCommand
@@ -2094,6 +2146,133 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.UpdatingVersion
   nameWithType: UpdatingSession.UpdatingVersion
+- uid: CarinaStudio.BaseApplicationObject
+  name: BaseApplicationObject
+  href: api/CarinaStudio.BaseApplicationObject.html
+  commentId: T:CarinaStudio.BaseApplicationObject
+  fullName: CarinaStudio.BaseApplicationObject
+  nameWithType: BaseApplicationObject
+- uid: CarinaStudio.BaseApplicationObject.#ctor(CarinaStudio.IApplication)
+  name: BaseApplicationObject(IApplication)
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.BaseApplicationObject.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.BaseApplicationObject.BaseApplicationObject(CarinaStudio.IApplication)
+  nameWithType: BaseApplicationObject.BaseApplicationObject(IApplication)
+- uid: CarinaStudio.BaseApplicationObject.#ctor*
+  name: BaseApplicationObject
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject__ctor_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.BaseApplicationObject
+  nameWithType: BaseApplicationObject.BaseApplicationObject
+- uid: CarinaStudio.BaseApplicationObject.Application
+  name: Application
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Application
+  commentId: P:CarinaStudio.BaseApplicationObject.Application
+  fullName: CarinaStudio.BaseApplicationObject.Application
+  nameWithType: BaseApplicationObject.Application
+- uid: CarinaStudio.BaseApplicationObject.Application*
+  name: Application
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Application_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.Application
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.Application
+  nameWithType: BaseApplicationObject.Application
+- uid: CarinaStudio.BaseApplicationObject.CheckAccess
+  name: CheckAccess()
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess
+  commentId: M:CarinaStudio.BaseApplicationObject.CheckAccess
+  fullName: CarinaStudio.BaseApplicationObject.CheckAccess()
+  nameWithType: BaseApplicationObject.CheckAccess()
+- uid: CarinaStudio.BaseApplicationObject.CheckAccess*
+  name: CheckAccess
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.CheckAccess
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.CheckAccess
+  nameWithType: BaseApplicationObject.CheckAccess
+- uid: CarinaStudio.BaseApplicationObject.PersistentState
+  name: PersistentState
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState
+  commentId: P:CarinaStudio.BaseApplicationObject.PersistentState
+  fullName: CarinaStudio.BaseApplicationObject.PersistentState
+  nameWithType: BaseApplicationObject.PersistentState
+- uid: CarinaStudio.BaseApplicationObject.PersistentState*
+  name: PersistentState
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.PersistentState
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.PersistentState
+  nameWithType: BaseApplicationObject.PersistentState
+- uid: CarinaStudio.BaseApplicationObject.Settings
+  name: Settings
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Settings
+  commentId: P:CarinaStudio.BaseApplicationObject.Settings
+  fullName: CarinaStudio.BaseApplicationObject.Settings
+  nameWithType: BaseApplicationObject.Settings
+- uid: CarinaStudio.BaseApplicationObject.Settings*
+  name: Settings
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Settings_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.Settings
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.Settings
+  nameWithType: BaseApplicationObject.Settings
+- uid: CarinaStudio.BaseApplicationObject.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext
+  commentId: P:CarinaStudio.BaseApplicationObject.SynchronizationContext
+  fullName: CarinaStudio.BaseApplicationObject.SynchronizationContext
+  nameWithType: BaseApplicationObject.SynchronizationContext
+- uid: CarinaStudio.BaseApplicationObject.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.SynchronizationContext
+  nameWithType: BaseApplicationObject.SynchronizationContext
+- uid: CarinaStudio.BaseApplicationObject`1
+  name: BaseApplicationObject<TApp>
+  href: api/CarinaStudio.BaseApplicationObject-1.html
+  commentId: T:CarinaStudio.BaseApplicationObject`1
+  name.vb: BaseApplicationObject(Of TApp)
+  fullName: CarinaStudio.BaseApplicationObject<TApp>
+  fullName.vb: CarinaStudio.BaseApplicationObject(Of TApp)
+  nameWithType: BaseApplicationObject<TApp>
+  nameWithType.vb: BaseApplicationObject(Of TApp)
+- uid: CarinaStudio.BaseApplicationObject`1.#ctor(`0)
+  name: BaseApplicationObject(TApp)
+  href: api/CarinaStudio.BaseApplicationObject-1.html#CarinaStudio_BaseApplicationObject_1__ctor__0_
+  commentId: M:CarinaStudio.BaseApplicationObject`1.#ctor(`0)
+  fullName: CarinaStudio.BaseApplicationObject<TApp>.BaseApplicationObject(TApp)
+  fullName.vb: CarinaStudio.BaseApplicationObject(Of TApp).BaseApplicationObject(TApp)
+  nameWithType: BaseApplicationObject<TApp>.BaseApplicationObject(TApp)
+  nameWithType.vb: BaseApplicationObject(Of TApp).BaseApplicationObject(TApp)
+- uid: CarinaStudio.BaseApplicationObject`1.#ctor*
+  name: BaseApplicationObject
+  href: api/CarinaStudio.BaseApplicationObject-1.html#CarinaStudio_BaseApplicationObject_1__ctor_
+  commentId: Overload:CarinaStudio.BaseApplicationObject`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject<TApp>.BaseApplicationObject
+  fullName.vb: CarinaStudio.BaseApplicationObject(Of TApp).BaseApplicationObject
+  nameWithType: BaseApplicationObject<TApp>.BaseApplicationObject
+  nameWithType.vb: BaseApplicationObject(Of TApp).BaseApplicationObject
+- uid: CarinaStudio.BaseApplicationObject`1.Application
+  name: Application
+  href: api/CarinaStudio.BaseApplicationObject-1.html#CarinaStudio_BaseApplicationObject_1_Application
+  commentId: P:CarinaStudio.BaseApplicationObject`1.Application
+  fullName: CarinaStudio.BaseApplicationObject<TApp>.Application
+  fullName.vb: CarinaStudio.BaseApplicationObject(Of TApp).Application
+  nameWithType: BaseApplicationObject<TApp>.Application
+  nameWithType.vb: BaseApplicationObject(Of TApp).Application
+- uid: CarinaStudio.BaseApplicationObject`1.Application*
+  name: Application
+  href: api/CarinaStudio.BaseApplicationObject-1.html#CarinaStudio_BaseApplicationObject_1_Application_
+  commentId: Overload:CarinaStudio.BaseApplicationObject`1.Application
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject<TApp>.Application
+  fullName.vb: CarinaStudio.BaseApplicationObject(Of TApp).Application
+  nameWithType: BaseApplicationObject<TApp>.Application
+  nameWithType.vb: BaseApplicationObject(Of TApp).Application
 - uid: CarinaStudio.BaseDisposable
   name: BaseDisposable
   href: api/CarinaStudio.BaseDisposable.html
@@ -2600,6 +2779,25 @@ references:
   fullName.vb: CarinaStudio.Collections.ListExtensions.ToArray(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
   nameWithType: ListExtensions.ToArray<T>(IList<T>, Int32, Int32)
   nameWithType.vb: ListExtensions.ToArray(Of T)(IList(Of T), Int32, Int32)
+- uid: CarinaStudio.Collections.NotifyCollectionChangedExtensions
+  name: NotifyCollectionChangedExtensions
+  href: api/CarinaStudio.Collections.NotifyCollectionChangedExtensions.html
+  commentId: T:CarinaStudio.Collections.NotifyCollectionChangedExtensions
+  fullName: CarinaStudio.Collections.NotifyCollectionChangedExtensions
+  nameWithType: NotifyCollectionChangedExtensions
+- uid: CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(System.Collections.Specialized.INotifyCollectionChanged,System.Collections.Specialized.NotifyCollectionChangedEventHandler)
+  name: AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)
+  href: api/CarinaStudio.Collections.NotifyCollectionChangedExtensions.html#CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_System_Collections_Specialized_INotifyCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventHandler_
+  commentId: M:CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(System.Collections.Specialized.INotifyCollectionChanged,System.Collections.Specialized.NotifyCollectionChangedEventHandler)
+  fullName: CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(System.Collections.Specialized.INotifyCollectionChanged, System.Collections.Specialized.NotifyCollectionChangedEventHandler)
+  nameWithType: NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)
+- uid: CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler*
+  name: AddWeakCollectionChangedEventHandler
+  href: api/CarinaStudio.Collections.NotifyCollectionChangedExtensions.html#CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_
+  commentId: Overload:CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler
+  nameWithType: NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler
 - uid: CarinaStudio.Collections.ObservableList`1
   name: ObservableList<T>
   href: api/CarinaStudio.Collections.ObservableList-1.html
@@ -5555,6 +5753,31 @@ references:
   fullName.vb: CarinaStudio.Collections.TypeConvertedObservableList(Of TSrc, TDest).TrimExcess
   nameWithType: TypeConvertedObservableList<TSrc, TDest>.TrimExcess
   nameWithType.vb: TypeConvertedObservableList(Of TSrc, TDest).TrimExcess
+- uid: CarinaStudio.ComponentModel
+  name: CarinaStudio.ComponentModel
+  href: api/CarinaStudio.ComponentModel.html
+  commentId: N:CarinaStudio.ComponentModel
+  fullName: CarinaStudio.ComponentModel
+  nameWithType: CarinaStudio.ComponentModel
+- uid: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions
+  name: NotifyPropertyChangedExtensions
+  href: api/CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html
+  commentId: T:CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions
+  fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions
+  nameWithType: NotifyPropertyChangedExtensions
+- uid: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(System.ComponentModel.INotifyPropertyChanged,System.ComponentModel.PropertyChangedEventHandler)
+  name: AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)
+  href: api/CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_
+  commentId: M:CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(System.ComponentModel.INotifyPropertyChanged,System.ComponentModel.PropertyChangedEventHandler)
+  fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(System.ComponentModel.INotifyPropertyChanged, System.ComponentModel.PropertyChangedEventHandler)
+  nameWithType: NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)
+- uid: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler*
+  name: AddWeakPropertyChangedEventHandler
+  href: api/CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_
+  commentId: Overload:CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler
+  isSpec: "True"
+  fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler
+  nameWithType: NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler
 - uid: CarinaStudio.Configuration
   name: CarinaStudio.Configuration
   href: api/CarinaStudio.Configuration.html
@@ -6760,6 +6983,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.Dialog.Dialog
   nameWithType: Dialog.Dialog
+- uid: CarinaStudio.Controls.Dialog.MeasureOverride(Avalonia.Size)
+  name: MeasureOverride(Size)
+  href: api/CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_MeasureOverride_Avalonia_Size_
+  commentId: M:CarinaStudio.Controls.Dialog.MeasureOverride(Avalonia.Size)
+  fullName: CarinaStudio.Controls.Dialog.MeasureOverride(Avalonia.Size)
+  nameWithType: Dialog.MeasureOverride(Size)
+- uid: CarinaStudio.Controls.Dialog.MeasureOverride*
+  name: MeasureOverride
+  href: api/CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_MeasureOverride_
+  commentId: Overload:CarinaStudio.Controls.Dialog.MeasureOverride
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Dialog.MeasureOverride
+  nameWithType: Dialog.MeasureOverride
 - uid: CarinaStudio.Controls.Dialog.OnClosed(System.EventArgs)
   name: OnClosed(EventArgs)
   href: api/CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_OnClosed_System_EventArgs_
@@ -7039,6 +7275,37 @@ references:
   fullName.vb: CarinaStudio.Controls.ResourceHostExtensions.TryFindResource(Of T)(Avalonia.Controls.IResourceHost, System.Object, ByRef System.Nullable(Of T))
   nameWithType: ResourceHostExtensions.TryFindResource<T>(IResourceHost, Object, out Nullable<T>)
   nameWithType.vb: ResourceHostExtensions.TryFindResource(Of T)(IResourceHost, Object, ByRef Nullable(Of T))
+- uid: CarinaStudio.Controls.ResourceNodeExtensions
+  name: ResourceNodeExtensions
+  href: api/CarinaStudio.Controls.ResourceNodeExtensions.html
+  commentId: T:CarinaStudio.Controls.ResourceNodeExtensions
+  fullName: CarinaStudio.Controls.ResourceNodeExtensions
+  nameWithType: ResourceNodeExtensions
+- uid: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource*
+  name: TryGetResource
+  href: api/CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource_
+  commentId: Overload:CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource
+  nameWithType: ResourceNodeExtensions.TryGetResource
+- uid: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource``1(Avalonia.Controls.IResourceNode,System.Object,``0@)
+  name: TryGetResource<T>(IResourceNode, Object, out T)
+  href: api/CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object___0__
+  commentId: M:CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource``1(Avalonia.Controls.IResourceNode,System.Object,``0@)
+  name.vb: TryGetResource(Of T)(IResourceNode, Object, ByRef T)
+  fullName: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource<T>(Avalonia.Controls.IResourceNode, System.Object, out T)
+  fullName.vb: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource(Of T)(Avalonia.Controls.IResourceNode, System.Object, ByRef T)
+  nameWithType: ResourceNodeExtensions.TryGetResource<T>(IResourceNode, Object, out T)
+  nameWithType.vb: ResourceNodeExtensions.TryGetResource(Of T)(IResourceNode, Object, ByRef T)
+- uid: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource``1(Avalonia.Controls.IResourceNode,System.Object,System.Nullable{``0}@)
+  name: TryGetResource<T>(IResourceNode, Object, out Nullable<T>)
+  href: api/CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object_System_Nullable___0___
+  commentId: M:CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource``1(Avalonia.Controls.IResourceNode,System.Object,System.Nullable{``0}@)
+  name.vb: TryGetResource(Of T)(IResourceNode, Object, ByRef Nullable(Of T))
+  fullName: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource<T>(Avalonia.Controls.IResourceNode, System.Object, out System.Nullable<T>)
+  fullName.vb: CarinaStudio.Controls.ResourceNodeExtensions.TryGetResource(Of T)(Avalonia.Controls.IResourceNode, System.Object, ByRef System.Nullable(Of T))
+  nameWithType: ResourceNodeExtensions.TryGetResource<T>(IResourceNode, Object, out Nullable<T>)
+  nameWithType.vb: ResourceNodeExtensions.TryGetResource(Of T)(IResourceNode, Object, ByRef Nullable(Of T))
 - uid: CarinaStudio.Controls.ScrollViewerExtensions
   name: ScrollViewerExtensions
   href: api/CarinaStudio.Controls.ScrollViewerExtensions.html
@@ -7138,6 +7405,116 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.TabControlExtensions.TryFindTabItem
   nameWithType: TabControlExtensions.TryFindTabItem
+- uid: CarinaStudio.Controls.UserControl
+  name: UserControl
+  href: api/CarinaStudio.Controls.UserControl.html
+  commentId: T:CarinaStudio.Controls.UserControl
+  fullName: CarinaStudio.Controls.UserControl
+  nameWithType: UserControl
+- uid: CarinaStudio.Controls.UserControl.#ctor
+  name: UserControl()
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl__ctor
+  commentId: M:CarinaStudio.Controls.UserControl.#ctor
+  fullName: CarinaStudio.Controls.UserControl.UserControl()
+  nameWithType: UserControl.UserControl()
+- uid: CarinaStudio.Controls.UserControl.#ctor*
+  name: UserControl
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl__ctor_
+  commentId: Overload:CarinaStudio.Controls.UserControl.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.UserControl
+  nameWithType: UserControl.UserControl
+- uid: CarinaStudio.Controls.UserControl.Application
+  name: Application
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Application
+  commentId: P:CarinaStudio.Controls.UserControl.Application
+  fullName: CarinaStudio.Controls.UserControl.Application
+  nameWithType: UserControl.Application
+- uid: CarinaStudio.Controls.UserControl.Application*
+  name: Application
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Application_
+  commentId: Overload:CarinaStudio.Controls.UserControl.Application
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.Application
+  nameWithType: UserControl.Application
+- uid: CarinaStudio.Controls.UserControl.Logger
+  name: Logger
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Logger
+  commentId: P:CarinaStudio.Controls.UserControl.Logger
+  fullName: CarinaStudio.Controls.UserControl.Logger
+  nameWithType: UserControl.Logger
+- uid: CarinaStudio.Controls.UserControl.Logger*
+  name: Logger
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Logger_
+  commentId: Overload:CarinaStudio.Controls.UserControl.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.Logger
+  nameWithType: UserControl.Logger
+- uid: CarinaStudio.Controls.UserControl.PersistentState
+  name: PersistentState
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_PersistentState
+  commentId: P:CarinaStudio.Controls.UserControl.PersistentState
+  fullName: CarinaStudio.Controls.UserControl.PersistentState
+  nameWithType: UserControl.PersistentState
+- uid: CarinaStudio.Controls.UserControl.PersistentState*
+  name: PersistentState
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_PersistentState_
+  commentId: Overload:CarinaStudio.Controls.UserControl.PersistentState
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.PersistentState
+  nameWithType: UserControl.PersistentState
+- uid: CarinaStudio.Controls.UserControl.Settings
+  name: Settings
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Settings
+  commentId: P:CarinaStudio.Controls.UserControl.Settings
+  fullName: CarinaStudio.Controls.UserControl.Settings
+  nameWithType: UserControl.Settings
+- uid: CarinaStudio.Controls.UserControl.Settings*
+  name: Settings
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_Settings_
+  commentId: Overload:CarinaStudio.Controls.UserControl.Settings
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.Settings
+  nameWithType: UserControl.Settings
+- uid: CarinaStudio.Controls.UserControl.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_SynchronizationContext
+  commentId: P:CarinaStudio.Controls.UserControl.SynchronizationContext
+  fullName: CarinaStudio.Controls.UserControl.SynchronizationContext
+  nameWithType: UserControl.SynchronizationContext
+- uid: CarinaStudio.Controls.UserControl.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_SynchronizationContext_
+  commentId: Overload:CarinaStudio.Controls.UserControl.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.SynchronizationContext
+  nameWithType: UserControl.SynchronizationContext
+- uid: CarinaStudio.Controls.UserControl`1
+  name: UserControl<TApp>
+  href: api/CarinaStudio.Controls.UserControl-1.html
+  commentId: T:CarinaStudio.Controls.UserControl`1
+  name.vb: UserControl(Of TApp)
+  fullName: CarinaStudio.Controls.UserControl<TApp>
+  fullName.vb: CarinaStudio.Controls.UserControl(Of TApp)
+  nameWithType: UserControl<TApp>
+  nameWithType.vb: UserControl(Of TApp)
+- uid: CarinaStudio.Controls.UserControl`1.Application
+  name: Application
+  href: api/CarinaStudio.Controls.UserControl-1.html#CarinaStudio_Controls_UserControl_1_Application
+  commentId: P:CarinaStudio.Controls.UserControl`1.Application
+  fullName: CarinaStudio.Controls.UserControl<TApp>.Application
+  fullName.vb: CarinaStudio.Controls.UserControl(Of TApp).Application
+  nameWithType: UserControl<TApp>.Application
+  nameWithType.vb: UserControl(Of TApp).Application
+- uid: CarinaStudio.Controls.UserControl`1.Application*
+  name: Application
+  href: api/CarinaStudio.Controls.UserControl-1.html#CarinaStudio_Controls_UserControl_1_Application_
+  commentId: Overload:CarinaStudio.Controls.UserControl`1.Application
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl<TApp>.Application
+  fullName.vb: CarinaStudio.Controls.UserControl(Of TApp).Application
+  nameWithType: UserControl<TApp>.Application
+  nameWithType.vb: UserControl(Of TApp).Application
 - uid: CarinaStudio.Controls.Window
   name: Window
   href: api/CarinaStudio.Controls.Window.html
@@ -7363,6 +7740,101 @@ references:
   commentId: N:CarinaStudio.Data.Converters
   fullName: CarinaStudio.Data.Converters
   nameWithType: CarinaStudio.Data.Converters
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1
+  name: BooleanToValueConverter<TValue>
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html
+  commentId: T:CarinaStudio.Data.Converters.BooleanToValueConverter`1
+  name.vb: BooleanToValueConverter(Of TValue)
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue)
+  nameWithType: BooleanToValueConverter<TValue>
+  nameWithType.vb: BooleanToValueConverter(Of TValue)
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.#ctor(`0,`0,System.Func{`0,`0,System.Boolean})
+  name: BooleanToValueConverter(TValue, TValue, Func<TValue, TValue, Boolean>)
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1__ctor__0__0_System_Func__0__0_System_Boolean__
+  commentId: M:CarinaStudio.Data.Converters.BooleanToValueConverter`1.#ctor(`0,`0,System.Func{`0,`0,System.Boolean})
+  name.vb: BooleanToValueConverter(TValue, TValue, Func(Of TValue, TValue, Boolean))
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.BooleanToValueConverter(TValue, TValue, System.Func<TValue, TValue, System.Boolean>)
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).BooleanToValueConverter(TValue, TValue, System.Func(Of TValue, TValue, System.Boolean))
+  nameWithType: BooleanToValueConverter<TValue>.BooleanToValueConverter(TValue, TValue, Func<TValue, TValue, Boolean>)
+  nameWithType.vb: BooleanToValueConverter(Of TValue).BooleanToValueConverter(TValue, TValue, Func(Of TValue, TValue, Boolean))
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.#ctor*
+  name: BooleanToValueConverter
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1__ctor_
+  commentId: Overload:CarinaStudio.Data.Converters.BooleanToValueConverter`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.BooleanToValueConverter
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).BooleanToValueConverter
+  nameWithType: BooleanToValueConverter<TValue>.BooleanToValueConverter
+  nameWithType.vb: BooleanToValueConverter(Of TValue).BooleanToValueConverter
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(Object, Type, Object, CultureInfo)
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:CarinaStudio.Data.Converters.BooleanToValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType: BooleanToValueConverter<TValue>.Convert(Object, Type, Object, CultureInfo)
+  nameWithType.vb: BooleanToValueConverter(Of TValue).Convert(Object, Type, Object, CultureInfo)
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.Convert*
+  name: Convert
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_Convert_
+  commentId: Overload:CarinaStudio.Data.Converters.BooleanToValueConverter`1.Convert
+  isSpec: "True"
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.Convert
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).Convert
+  nameWithType: BooleanToValueConverter<TValue>.Convert
+  nameWithType.vb: BooleanToValueConverter(Of TValue).Convert
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:CarinaStudio.Data.Converters.BooleanToValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType: BooleanToValueConverter<TValue>.ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType.vb: BooleanToValueConverter(Of TValue).ConvertBack(Object, Type, Object, CultureInfo)
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.ConvertBack*
+  name: ConvertBack
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_ConvertBack_
+  commentId: Overload:CarinaStudio.Data.Converters.BooleanToValueConverter`1.ConvertBack
+  isSpec: "True"
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.ConvertBack
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).ConvertBack
+  nameWithType: BooleanToValueConverter<TValue>.ConvertBack
+  nameWithType.vb: BooleanToValueConverter(Of TValue).ConvertBack
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.FalseValue
+  name: FalseValue
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_FalseValue
+  commentId: P:CarinaStudio.Data.Converters.BooleanToValueConverter`1.FalseValue
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.FalseValue
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).FalseValue
+  nameWithType: BooleanToValueConverter<TValue>.FalseValue
+  nameWithType.vb: BooleanToValueConverter(Of TValue).FalseValue
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.FalseValue*
+  name: FalseValue
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_FalseValue_
+  commentId: Overload:CarinaStudio.Data.Converters.BooleanToValueConverter`1.FalseValue
+  isSpec: "True"
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.FalseValue
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).FalseValue
+  nameWithType: BooleanToValueConverter<TValue>.FalseValue
+  nameWithType.vb: BooleanToValueConverter(Of TValue).FalseValue
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.TrueValue
+  name: TrueValue
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_TrueValue
+  commentId: P:CarinaStudio.Data.Converters.BooleanToValueConverter`1.TrueValue
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.TrueValue
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).TrueValue
+  nameWithType: BooleanToValueConverter<TValue>.TrueValue
+  nameWithType.vb: BooleanToValueConverter(Of TValue).TrueValue
+- uid: CarinaStudio.Data.Converters.BooleanToValueConverter`1.TrueValue*
+  name: TrueValue
+  href: api/CarinaStudio.Data.Converters.BooleanToValueConverter-1.html#CarinaStudio_Data_Converters_BooleanToValueConverter_1_TrueValue_
+  commentId: Overload:CarinaStudio.Data.Converters.BooleanToValueConverter`1.TrueValue
+  isSpec: "True"
+  fullName: CarinaStudio.Data.Converters.BooleanToValueConverter<TValue>.TrueValue
+  fullName.vb: CarinaStudio.Data.Converters.BooleanToValueConverter(Of TValue).TrueValue
+  nameWithType: BooleanToValueConverter<TValue>.TrueValue
+  nameWithType.vb: BooleanToValueConverter(Of TValue).TrueValue
 - uid: CarinaStudio.Data.Converters.ValueConverterExtensions
   name: ValueConverterExtensions
   href: api/CarinaStudio.Data.Converters.ValueConverterExtensions.html
@@ -7807,6 +8279,12 @@ references:
   fullName.vb: CarinaStudio.IApplicationObject(Of TApplication).Application
   nameWithType: IApplicationObject<TApplication>.Application
   nameWithType.vb: IApplicationObject(Of TApplication).Application
+- uid: CarinaStudio.IAvaloniaApplication
+  name: IAvaloniaApplication
+  href: api/CarinaStudio.IAvaloniaApplication.html
+  commentId: T:CarinaStudio.IAvaloniaApplication
+  fullName: CarinaStudio.IAvaloniaApplication
+  nameWithType: IAvaloniaApplication
 - uid: CarinaStudio.Input
   name: CarinaStudio.Input
   href: api/CarinaStudio.Input.html
@@ -7832,6 +8310,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Input.DataObjectExtensions.HasFileNames
   nameWithType: DataObjectExtensions.HasFileNames
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject,System.String@)
+  name: TryGetSingleFileName(IDataObject, out String)
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetSingleFileName_Avalonia_Input_IDataObject_System_String__
+  commentId: M:CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject,System.String@)
+  name.vb: TryGetSingleFileName(IDataObject, ByRef String)
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject, out System.String)
+  fullName.vb: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject, ByRef System.String)
+  nameWithType: DataObjectExtensions.TryGetSingleFileName(IDataObject, out String)
+  nameWithType.vb: DataObjectExtensions.TryGetSingleFileName(IDataObject, ByRef String)
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName*
+  name: TryGetSingleFileName
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetSingleFileName_
+  commentId: Overload:CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName
+  isSpec: "True"
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName
+  nameWithType: DataObjectExtensions.TryGetSingleFileName
 - uid: CarinaStudio.InternalStateCorruptedException
   name: InternalStateCorruptedException
   href: api/CarinaStudio.InternalStateCorruptedException.html
@@ -9193,6 +9687,28 @@ references:
   commentId: T:CarinaStudio.ObjectExtensions
   fullName: CarinaStudio.ObjectExtensions
   nameWithType: ObjectExtensions
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,System.EventHandler)
+  name: AddWeakEventHandler(Object, String, EventHandler)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,System.EventHandler)
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object, System.String, System.EventHandler)
+  nameWithType: ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler*
+  name: AddWeakEventHandler
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_
+  commentId: Overload:CarinaStudio.ObjectExtensions.AddWeakEventHandler
+  isSpec: "True"
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler
+  nameWithType: ObjectExtensions.AddWeakEventHandler
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,System.EventHandler{``0})
+  name: AddWeakEventHandler<TArgs>(Object, String, EventHandler<TArgs>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,System.EventHandler{``0})
+  name.vb: AddWeakEventHandler(Of TArgs)(Object, String, EventHandler(Of TArgs))
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler<TArgs>(System.Object, System.String, System.EventHandler<TArgs>)
+  fullName.vb: CarinaStudio.ObjectExtensions.AddWeakEventHandler(Of TArgs)(System.Object, System.String, System.EventHandler(Of TArgs))
+  nameWithType: ObjectExtensions.AddWeakEventHandler<TArgs>(Object, String, EventHandler<TArgs>)
+  nameWithType.vb: ObjectExtensions.AddWeakEventHandler(Of TArgs)(Object, String, EventHandler(Of TArgs))
 - uid: CarinaStudio.ObjectExtensions.Also*
   name: Also
   href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also_
@@ -9609,6 +10125,38 @@ references:
   commentId: T:CarinaStudio.Platform
   fullName: CarinaStudio.Platform
   nameWithType: Platform
+- uid: CarinaStudio.Platform.GetInstalledFrameworkVersion
+  name: GetInstalledFrameworkVersion()
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersion
+  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersion
+  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersion()
+  nameWithType: Platform.GetInstalledFrameworkVersion()
+- uid: CarinaStudio.Platform.GetInstalledFrameworkVersion*
+  name: GetInstalledFrameworkVersion
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersion_
+  commentId: Overload:CarinaStudio.Platform.GetInstalledFrameworkVersion
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersion
+  nameWithType: Platform.GetInstalledFrameworkVersion
+- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
+  name: GetInstalledFrameworkVersionAsync()
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync
+  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
+  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync()
+  nameWithType: Platform.GetInstalledFrameworkVersionAsync()
+- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
+  name: GetInstalledFrameworkVersionAsync(CancellationToken)
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
+  nameWithType: Platform.GetInstalledFrameworkVersionAsync(CancellationToken)
+- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync*
+  name: GetInstalledFrameworkVersionAsync
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_
+  commentId: Overload:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
+  nameWithType: Platform.GetInstalledFrameworkVersionAsync
 - uid: CarinaStudio.Platform.IsGnome
   name: IsGnome
   href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsGnome

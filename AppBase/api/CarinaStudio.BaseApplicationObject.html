@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MutableObservableString
+    <title>Class BaseApplicationObject
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MutableObservableString
+    <meta name="title" content="Class BaseApplicationObject
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,57 +68,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.MutableObservableString">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.BaseApplicationObject">
   
   
-  <h1 id="CarinaStudio_MutableObservableString" data-uid="CarinaStudio.MutableObservableString" class="text-break">Class MutableObservableString
+  <h1 id="CarinaStudio_BaseApplicationObject" data-uid="CarinaStudio.BaseApplicationObject" class="text-break">Class BaseApplicationObject
   </h1>
-  <div class="markdown level0 summary"><p>Specific <a class="xref" href="CarinaStudio.MutableObservableValue-1.html">MutableObservableValue&lt;T&gt;</a> for nullable <span class="xref">System.String</span> value.</p>
+  <div class="markdown level0 summary"><p>Base implementation of <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.ObservableValue-1.html">ObservableValue</a>&lt;<span class="xref">System.String</span>&gt;</div>
-    <div class="level2"><a class="xref" href="CarinaStudio.MutableObservableValue-1.html">MutableObservableValue</a>&lt;<span class="xref">System.String</span>&gt;</div>
-    <div class="level3"><span class="xref">MutableObservableString</span></div>
+    <div class="level1"><span class="xref">BaseApplicationObject</span></div>
+      <div class="level2"><a class="xref" href="CarinaStudio.BaseApplicationObject-1.html">BaseApplicationObject&lt;TApp&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">System.String</span>&gt;</div>
-    <div><span class="xref">System.IObservable</span>&lt;<span class="xref">System.String</span>&gt;</div>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1_Update__0_">MutableObservableValue&lt;String&gt;.Update(String)</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Object_">ObservableValue&lt;String&gt;.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode">ObservableValue&lt;String&gt;.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_HasObservers">ObservableValue&lt;String&gt;.HasObservers</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNotNull">ObservableValue&lt;String&gt;.IsNotNull</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNull">ObservableValue&lt;String&gt;.IsNull</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_System_IObserver__0__">ObservableValue&lt;String&gt;.Subscribe(IObserver&lt;String&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_ToString">ObservableValue&lt;String&gt;.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Value">ObservableValue&lt;String&gt;.Value</a>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -129,25 +108,28 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_MutableObservableString_syntax">Syntax</h5>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_BaseApplicationObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MutableObservableString : MutableObservableValue&lt;string&gt;, IEquatable&lt;string&gt;, IObservable&lt;string&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseApplicationObject : IApplicationObject, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CarinaStudio_MutableObservableString__ctor_" data-uid="CarinaStudio.MutableObservableString.#ctor*"></a>
-  <h4 id="CarinaStudio_MutableObservableString__ctor_System_String_" data-uid="CarinaStudio.MutableObservableString.#ctor(System.String)">MutableObservableString(String)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MutableObservableString.html">MutableObservableString</a> instance.</p>
+  <a id="CarinaStudio_BaseApplicationObject__ctor_" data-uid="CarinaStudio.BaseApplicationObject.#ctor*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.BaseApplicationObject.#ctor(CarinaStudio.IApplication)">BaseApplicationObject(IApplication)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MutableObservableString(string initialValue = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseApplicationObject(IApplication app)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,9 +142,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">initialValue</span></td>
-        <td><p>Initial value.</p>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application.</p>
 </td>
       </tr>
     </tbody>
@@ -171,14 +153,14 @@
   </h3>
   
   
-  <a id="CarinaStudio_MutableObservableString_IsNullOrEmpty_" data-uid="CarinaStudio.MutableObservableString.IsNullOrEmpty*"></a>
-  <h4 id="CarinaStudio_MutableObservableString_IsNullOrEmpty" data-uid="CarinaStudio.MutableObservableString.IsNullOrEmpty">IsNullOrEmpty</h4>
-  <div class="markdown level1 summary"><p>Check whether string is null/empty or not.</p>
+  <a id="CarinaStudio_BaseApplicationObject_Application_" data-uid="CarinaStudio.BaseApplicationObject.Application*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_Application" data-uid="CarinaStudio.BaseApplicationObject.Application">Application</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which object belongs to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsNullOrEmpty { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IApplication Application { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,21 +172,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CarinaStudio_MutableObservableString_IsNullOrWhiteSpace_" data-uid="CarinaStudio.MutableObservableString.IsNullOrWhiteSpace*"></a>
-  <h4 id="CarinaStudio_MutableObservableString_IsNullOrWhiteSpace" data-uid="CarinaStudio.MutableObservableString.IsNullOrWhiteSpace">IsNullOrWhiteSpace</h4>
-  <div class="markdown level1 summary"><p>Check whether string is null/blank or not.</p>
+  <a id="CarinaStudio_BaseApplicationObject_PersistentState_" data-uid="CarinaStudio.BaseApplicationObject.PersistentState*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_PersistentState" data-uid="CarinaStudio.BaseApplicationObject.PersistentState">PersistentState</h4>
+  <div class="markdown level1 summary"><p>Get persistent state of application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsNullOrWhiteSpace { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected ISettings PersistentState { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,66 +198,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CarinaStudio_MutableObservableString_Item_" data-uid="CarinaStudio.MutableObservableString.Item*"></a>
-  <h4 id="CarinaStudio_MutableObservableString_Item_System_Int32_" data-uid="CarinaStudio.MutableObservableString.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>Indexer to get character in string.</p>
+  <a id="CarinaStudio_BaseApplicationObject_Settings_" data-uid="CarinaStudio.BaseApplicationObject.Settings*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_Settings" data-uid="CarinaStudio.BaseApplicationObject.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>Get settings of application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char this[int index] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>Index of character in string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td><p>Character in string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_MutableObservableString_Length_" data-uid="CarinaStudio.MutableObservableString.Length*"></a>
-  <h4 id="CarinaStudio_MutableObservableString_Length" data-uid="CarinaStudio.MutableObservableString.Length">Length</h4>
-  <div class="markdown level1 summary"><p>Get the length of string. Return 0 if string is null.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Length { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected ISettings Settings { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,7 +224,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_BaseApplicationObject_SynchronizationContext_" data-uid="CarinaStudio.BaseApplicationObject.SynchronizationContext*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_SynchronizationContext" data-uid="CarinaStudio.BaseApplicationObject.SynchronizationContext">SynchronizationContext</h4>
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a> which the instance relates to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -296,31 +259,15 @@
   </h3>
   
   
-  <a id="CarinaStudio_MutableObservableString_Equals_" data-uid="CarinaStudio.MutableObservableString.Equals*"></a>
-  <h4 id="CarinaStudio_MutableObservableString_Equals_System_String_" data-uid="CarinaStudio.MutableObservableString.Equals(System.String)">Equals(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CarinaStudio_BaseApplicationObject_CheckAccess_" data-uid="CarinaStudio.BaseApplicationObject.CheckAccess*"></a>
+  <h4 id="CarinaStudio_BaseApplicationObject_CheckAccess" data-uid="CarinaStudio.BaseApplicationObject.CheckAccess">CheckAccess()</h4>
+  <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -332,18 +279,20 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if current thread is the thread which object depends on.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CarinaStudio.ObservableValue&lt;System.String&gt;.Equals(System.String)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
   </div>
   <div>
-      <span class="xref">System.IObservable&lt;T&gt;</span>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -369,6 +318,9 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
   </div>
 </article>
           </div>
