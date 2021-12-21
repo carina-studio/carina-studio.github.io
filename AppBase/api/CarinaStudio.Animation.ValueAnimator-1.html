@@ -1,0 +1,528 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ValueAnimator&lt;T&gt;
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ValueAnimator&lt;T&gt;
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Animation.ValueAnimator`1">
+  
+  
+  <h1 id="CarinaStudio_Animation_ValueAnimator_1" data-uid="CarinaStudio.Animation.ValueAnimator`1" class="text-break">Class ValueAnimator&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Generic animator which animates specific type of value.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a></div>
+    <div class="level2"><span class="xref">ValueAnimator&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.Animation.DoubleAnimator.html">DoubleAnimator</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+    <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancel">Animator.Cancel()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancelled">Animator.Cancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_CheckAccess">Animator.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Completed">Animator.Completed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Duration">Animator.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interpolator">Animator.Interpolator</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interval">Animator.Interval</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_IsStarted">Animator.IsStarted</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Progress">Animator.Progress</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_ProgressChanged">Animator.ProgressChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start">Animator.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Action_System_Double__System_Action_">Animator.Start(Int32, Action&lt;Double&gt;, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Action_">Animator.Start(Int32, Func&lt;Double, Double&gt;, Action&lt;Double&gt;, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync">Animator.StartAndWaitForCompletionAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Threading_CancellationToken_">Animator.StartAndWaitForCompletionAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__">Animator.StartAndWaitForCompletionAsync(Int32, Action&lt;Double&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__System_Threading_CancellationToken_">Animator.StartAndWaitForCompletionAsync(Int32, Action&lt;Double&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Threading_CancellationToken_">Animator.StartAndWaitForCompletionAsync(Int32, Func&lt;Double, Double&gt;, Action&lt;Double&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_SynchronizationContext">Animator.SynchronizationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_WaitForCompletionAsync">Animator.WaitForCompletionAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_WaitForCompletionAsync_System_Threading_CancellationToken_">Animator.WaitForCompletionAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Animation.html">CarinaStudio.Animation</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
+  <h5 id="CarinaStudio_Animation_ValueAnimator_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ValueAnimator&lt;T&gt; : Animator, IThreadDependent, ISynchronizable</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value to animate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1__ctor_" data-uid="CarinaStudio.Animation.ValueAnimator`1.#ctor*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1__ctor__0__0_" data-uid="CarinaStudio.Animation.ValueAnimator`1.#ctor(`0,`0)">ValueAnimator(T, T)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html">ValueAnimator&lt;T&gt;</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ValueAnimator(T startValue, T endValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">startValue</span></td>
+        <td><p>Start value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">endValue</span></td>
+        <td><p>End value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_EndValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.EndValue*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_EndValue" data-uid="CarinaStudio.Animation.ValueAnimator`1.EndValue">EndValue</h4>
+  <div class="markdown level1 summary"><p>Get or set value when animation completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T EndValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_StartValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.StartValue*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_StartValue" data-uid="CarinaStudio.Animation.ValueAnimator`1.StartValue">StartValue</h4>
+  <div class="markdown level1 summary"><p>Get or set value when starting animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T StartValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_Value_" data-uid="CarinaStudio.Animation.ValueAnimator`1.Value*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_Value" data-uid="CarinaStudio.Animation.ValueAnimator`1.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Get current value when animating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_GenerateValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.GenerateValue*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_GenerateValue_System_Double_" data-uid="CarinaStudio.Animation.ValueAnimator`1.GenerateValue(System.Double)">GenerateValue(Double)</h4>
+  <div class="markdown level1 summary"><p>Generate value by progress of animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract T GenerateValue(double progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td><p>Progress.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_OnCancelled_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCancelled*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnCancelled_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCancelled(System.EventArgs)">OnCancelled(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancelled">Cancelled</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnCancelled(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCancelled_System_EventArgs_">Animator.OnCancelled(EventArgs)</a></div>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_OnCompleted_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCompleted*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnCompleted_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCompleted(System.EventArgs)">OnCompleted(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Completed">Completed</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnCompleted(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCompleted_System_EventArgs_">Animator.OnCompleted(EventArgs)</a></div>
+  
+  
+  <a id="CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged*"></a>
+  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged(System.EventArgs)">OnProgressChanged(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_ProgressChanged">ProgressChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnProgressChanged(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Event data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnProgressChanged_System_EventArgs_">Animator.OnProgressChanged(EventArgs)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

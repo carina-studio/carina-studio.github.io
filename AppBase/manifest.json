@@ -5,6 +5,66 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Animation.Animator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Animation.Animator.html",
+          "hash": "NiFVqp17bLzB9+t7GA1uz3k4e0tgSYVZt8b++9o80EE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Animation.DoubleAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Animation.DoubleAnimator.html",
+          "hash": "CyluikIbnc/ba/AeIvAzEvc/IsFmX/fcJyUyQaSTMoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Animation.Interpolators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Animation.Interpolators.html",
+          "hash": "ki4Db/dR7KKkDn9gD+/GYw7XelFR1SIsreHaJZ0ihfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Animation.ValueAnimator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Animation.ValueAnimator-1.html",
+          "hash": "nlJzcH91a13TTfBGz2W4AZq4i3ZTn0QQW16//EHf+5A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Animation.html",
+          "hash": "LTglE2C4qDTD6yEIwugABkNHmuqkVQ2B7F9hVhjiF3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Application.yml",
       "output": {
         ".html": {
@@ -322,6 +382,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.BaseShareableDisposable-1.html",
           "hash": "ZPCCY2qzBC7Hrs3wYftNYQ3M0b+h/gTpw5eGk0YdQus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Buffers.PinnableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Buffers.PinnableExtensions.html",
+          "hash": "MhB+epD/ldkKvRQlsSpBvysNAwwPqhcIqr6c+TAzd7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Buffers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Buffers.html",
+          "hash": "lcrobYxYkeTYbDPzwSXkco1CSTlCBvdFaWFL8gM+X5E="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Platform.html",
-          "hash": "fx3vvRgQdHKL0vA0MP06fkNKVBrMMozVuC1KuXQI9pU="
+          "hash": "uIOAw3bj76l1Fzdo5nHtGpMBREOVV7TB5Ubx9e/PxZE="
         }
       },
       "is_incremental": false,
@@ -1685,11 +1769,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.WindowsVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.WindowsVersion.html",
+          "hash": "ySauB/rvtPgVnkFnWAo4WxQ9OUqkXNicb9GIkMx+DsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.yml",
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "13dlyK2M0TvZZCPcCFxU6pHz5Yo6O8ndK7EUsD5sCpk="
+          "hash": "rz8VAg0WWGw8RjIljZRO7xTr0JNafeQN7xsWD+N1DnI="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5gMleyWRFdIh/lvuK2yE2FPgTCmvR8Ddo713apjINTo="
+          "hash": "011Dz4BqtND7m3ghZ2DJIOj9ayyjROmn5zlLtmjIdU0="
         }
       },
       "is_incremental": false,
@@ -1960,7 +2056,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 141,
+          "total_file_count": 149,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

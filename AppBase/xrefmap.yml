@@ -7,6 +7,521 @@ references:
   commentId: N:CarinaStudio
   fullName: CarinaStudio
   nameWithType: CarinaStudio
+- uid: CarinaStudio.Animation
+  name: CarinaStudio.Animation
+  href: api/CarinaStudio.Animation.html
+  commentId: N:CarinaStudio.Animation
+  fullName: CarinaStudio.Animation
+  nameWithType: CarinaStudio.Animation
+- uid: CarinaStudio.Animation.Animator
+  name: Animator
+  href: api/CarinaStudio.Animation.Animator.html
+  commentId: T:CarinaStudio.Animation.Animator
+  fullName: CarinaStudio.Animation.Animator
+  nameWithType: Animator
+- uid: CarinaStudio.Animation.Animator.#ctor
+  name: Animator()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator__ctor
+  commentId: M:CarinaStudio.Animation.Animator.#ctor
+  fullName: CarinaStudio.Animation.Animator.Animator()
+  nameWithType: Animator.Animator()
+- uid: CarinaStudio.Animation.Animator.#ctor*
+  name: Animator
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator__ctor_
+  commentId: Overload:CarinaStudio.Animation.Animator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Animator
+  nameWithType: Animator.Animator
+- uid: CarinaStudio.Animation.Animator.Cancel
+  name: Cancel()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancel
+  commentId: M:CarinaStudio.Animation.Animator.Cancel
+  fullName: CarinaStudio.Animation.Animator.Cancel()
+  nameWithType: Animator.Cancel()
+- uid: CarinaStudio.Animation.Animator.Cancel*
+  name: Cancel
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancel_
+  commentId: Overload:CarinaStudio.Animation.Animator.Cancel
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Cancel
+  nameWithType: Animator.Cancel
+- uid: CarinaStudio.Animation.Animator.Cancelled
+  name: Cancelled
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancelled
+  commentId: E:CarinaStudio.Animation.Animator.Cancelled
+  fullName: CarinaStudio.Animation.Animator.Cancelled
+  nameWithType: Animator.Cancelled
+- uid: CarinaStudio.Animation.Animator.CheckAccess
+  name: CheckAccess()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_CheckAccess
+  commentId: M:CarinaStudio.Animation.Animator.CheckAccess
+  fullName: CarinaStudio.Animation.Animator.CheckAccess()
+  nameWithType: Animator.CheckAccess()
+- uid: CarinaStudio.Animation.Animator.CheckAccess*
+  name: CheckAccess
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_CheckAccess_
+  commentId: Overload:CarinaStudio.Animation.Animator.CheckAccess
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.CheckAccess
+  nameWithType: Animator.CheckAccess
+- uid: CarinaStudio.Animation.Animator.Completed
+  name: Completed
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Completed
+  commentId: E:CarinaStudio.Animation.Animator.Completed
+  fullName: CarinaStudio.Animation.Animator.Completed
+  nameWithType: Animator.Completed
+- uid: CarinaStudio.Animation.Animator.Duration
+  name: Duration
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Duration
+  commentId: P:CarinaStudio.Animation.Animator.Duration
+  fullName: CarinaStudio.Animation.Animator.Duration
+  nameWithType: Animator.Duration
+- uid: CarinaStudio.Animation.Animator.Duration*
+  name: Duration
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Duration_
+  commentId: Overload:CarinaStudio.Animation.Animator.Duration
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Duration
+  nameWithType: Animator.Duration
+- uid: CarinaStudio.Animation.Animator.Interpolator
+  name: Interpolator
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interpolator
+  commentId: P:CarinaStudio.Animation.Animator.Interpolator
+  fullName: CarinaStudio.Animation.Animator.Interpolator
+  nameWithType: Animator.Interpolator
+- uid: CarinaStudio.Animation.Animator.Interpolator*
+  name: Interpolator
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interpolator_
+  commentId: Overload:CarinaStudio.Animation.Animator.Interpolator
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Interpolator
+  nameWithType: Animator.Interpolator
+- uid: CarinaStudio.Animation.Animator.Interval
+  name: Interval
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interval
+  commentId: P:CarinaStudio.Animation.Animator.Interval
+  fullName: CarinaStudio.Animation.Animator.Interval
+  nameWithType: Animator.Interval
+- uid: CarinaStudio.Animation.Animator.Interval*
+  name: Interval
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Interval_
+  commentId: Overload:CarinaStudio.Animation.Animator.Interval
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Interval
+  nameWithType: Animator.Interval
+- uid: CarinaStudio.Animation.Animator.IsStarted
+  name: IsStarted
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_IsStarted
+  commentId: P:CarinaStudio.Animation.Animator.IsStarted
+  fullName: CarinaStudio.Animation.Animator.IsStarted
+  nameWithType: Animator.IsStarted
+- uid: CarinaStudio.Animation.Animator.IsStarted*
+  name: IsStarted
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_IsStarted_
+  commentId: Overload:CarinaStudio.Animation.Animator.IsStarted
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.IsStarted
+  nameWithType: Animator.IsStarted
+- uid: CarinaStudio.Animation.Animator.OnCancelled(System.EventArgs)
+  name: OnCancelled(EventArgs)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCancelled_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.Animator.OnCancelled(System.EventArgs)
+  fullName: CarinaStudio.Animation.Animator.OnCancelled(System.EventArgs)
+  nameWithType: Animator.OnCancelled(EventArgs)
+- uid: CarinaStudio.Animation.Animator.OnCancelled*
+  name: OnCancelled
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCancelled_
+  commentId: Overload:CarinaStudio.Animation.Animator.OnCancelled
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.OnCancelled
+  nameWithType: Animator.OnCancelled
+- uid: CarinaStudio.Animation.Animator.OnCompleted(System.EventArgs)
+  name: OnCompleted(EventArgs)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCompleted_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.Animator.OnCompleted(System.EventArgs)
+  fullName: CarinaStudio.Animation.Animator.OnCompleted(System.EventArgs)
+  nameWithType: Animator.OnCompleted(EventArgs)
+- uid: CarinaStudio.Animation.Animator.OnCompleted*
+  name: OnCompleted
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCompleted_
+  commentId: Overload:CarinaStudio.Animation.Animator.OnCompleted
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.OnCompleted
+  nameWithType: Animator.OnCompleted
+- uid: CarinaStudio.Animation.Animator.OnProgressChanged(System.EventArgs)
+  name: OnProgressChanged(EventArgs)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnProgressChanged_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.Animator.OnProgressChanged(System.EventArgs)
+  fullName: CarinaStudio.Animation.Animator.OnProgressChanged(System.EventArgs)
+  nameWithType: Animator.OnProgressChanged(EventArgs)
+- uid: CarinaStudio.Animation.Animator.OnProgressChanged*
+  name: OnProgressChanged
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnProgressChanged_
+  commentId: Overload:CarinaStudio.Animation.Animator.OnProgressChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.OnProgressChanged
+  nameWithType: Animator.OnProgressChanged
+- uid: CarinaStudio.Animation.Animator.Progress
+  name: Progress
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Progress
+  commentId: P:CarinaStudio.Animation.Animator.Progress
+  fullName: CarinaStudio.Animation.Animator.Progress
+  nameWithType: Animator.Progress
+- uid: CarinaStudio.Animation.Animator.Progress*
+  name: Progress
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Progress_
+  commentId: Overload:CarinaStudio.Animation.Animator.Progress
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Progress
+  nameWithType: Animator.Progress
+- uid: CarinaStudio.Animation.Animator.ProgressChanged
+  name: ProgressChanged
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_ProgressChanged
+  commentId: E:CarinaStudio.Animation.Animator.ProgressChanged
+  fullName: CarinaStudio.Animation.Animator.ProgressChanged
+  nameWithType: Animator.ProgressChanged
+- uid: CarinaStudio.Animation.Animator.Start
+  name: Start()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start
+  commentId: M:CarinaStudio.Animation.Animator.Start
+  fullName: CarinaStudio.Animation.Animator.Start()
+  nameWithType: Animator.Start()
+- uid: CarinaStudio.Animation.Animator.Start(System.Int32,System.Action{System.Double},System.Action)
+  name: Start(Int32, Action<Double>, Action)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Action_System_Double__System_Action_
+  commentId: M:CarinaStudio.Animation.Animator.Start(System.Int32,System.Action{System.Double},System.Action)
+  name.vb: Start(Int32, Action(Of Double), Action)
+  fullName: CarinaStudio.Animation.Animator.Start(System.Int32, System.Action<System.Double>, System.Action)
+  fullName.vb: CarinaStudio.Animation.Animator.Start(System.Int32, System.Action(Of System.Double), System.Action)
+  nameWithType: Animator.Start(Int32, Action<Double>, Action)
+  nameWithType.vb: Animator.Start(Int32, Action(Of Double), Action)
+- uid: CarinaStudio.Animation.Animator.Start(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
+  name: Start(Int32, Func<Double, Double>, Action<Double>, Action)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Action_
+  commentId: M:CarinaStudio.Animation.Animator.Start(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
+  name.vb: Start(Int32, Func(Of Double, Double), Action(Of Double), Action)
+  fullName: CarinaStudio.Animation.Animator.Start(System.Int32, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Action)
+  fullName.vb: CarinaStudio.Animation.Animator.Start(System.Int32, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Action)
+  nameWithType: Animator.Start(Int32, Func<Double, Double>, Action<Double>, Action)
+  nameWithType.vb: Animator.Start(Int32, Func(Of Double, Double), Action(Of Double), Action)
+- uid: CarinaStudio.Animation.Animator.Start*
+  name: Start
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_
+  commentId: Overload:CarinaStudio.Animation.Animator.Start
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Start
+  nameWithType: Animator.Start
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync
+  name: StartAndWaitForCompletionAsync()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync()
+  nameWithType: Animator.StartAndWaitForCompletionAsync()
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double})
+  name: StartAndWaitForCompletionAsync(Int32, Action<Double>)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double})
+  name.vb: StartAndWaitForCompletionAsync(Int32, Action(Of Double))
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action<System.Double>)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action(Of System.Double))
+  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Action<Double>)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Action(Of Double))
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(Int32, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(Int32, Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Action(Of Double), CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(Int32, Func<Double, Double>, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(Int32, Func(Of Double, Double), Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Func<Double, Double>, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Func(Of Double, Double), Action(Of Double), CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync*
+  name: StartAndWaitForCompletionAsync
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_
+  commentId: Overload:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync
+  nameWithType: Animator.StartAndWaitForCompletionAsync
+- uid: CarinaStudio.Animation.Animator.SynchronizationContext
+  name: SynchronizationContext
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_SynchronizationContext
+  commentId: P:CarinaStudio.Animation.Animator.SynchronizationContext
+  fullName: CarinaStudio.Animation.Animator.SynchronizationContext
+  nameWithType: Animator.SynchronizationContext
+- uid: CarinaStudio.Animation.Animator.SynchronizationContext*
+  name: SynchronizationContext
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_SynchronizationContext_
+  commentId: Overload:CarinaStudio.Animation.Animator.SynchronizationContext
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.SynchronizationContext
+  nameWithType: Animator.SynchronizationContext
+- uid: CarinaStudio.Animation.Animator.WaitForCompletionAsync
+  name: WaitForCompletionAsync()
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_WaitForCompletionAsync
+  commentId: M:CarinaStudio.Animation.Animator.WaitForCompletionAsync
+  fullName: CarinaStudio.Animation.Animator.WaitForCompletionAsync()
+  nameWithType: Animator.WaitForCompletionAsync()
+- uid: CarinaStudio.Animation.Animator.WaitForCompletionAsync(System.Threading.CancellationToken)
+  name: WaitForCompletionAsync(CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_WaitForCompletionAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.WaitForCompletionAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.WaitForCompletionAsync(System.Threading.CancellationToken)
+  nameWithType: Animator.WaitForCompletionAsync(CancellationToken)
+- uid: CarinaStudio.Animation.Animator.WaitForCompletionAsync*
+  name: WaitForCompletionAsync
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_WaitForCompletionAsync_
+  commentId: Overload:CarinaStudio.Animation.Animator.WaitForCompletionAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.WaitForCompletionAsync
+  nameWithType: Animator.WaitForCompletionAsync
+- uid: CarinaStudio.Animation.DoubleAnimator
+  name: DoubleAnimator
+  href: api/CarinaStudio.Animation.DoubleAnimator.html
+  commentId: T:CarinaStudio.Animation.DoubleAnimator
+  fullName: CarinaStudio.Animation.DoubleAnimator
+  nameWithType: DoubleAnimator
+- uid: CarinaStudio.Animation.DoubleAnimator.#ctor(System.Double,System.Double)
+  name: DoubleAnimator(Double, Double)
+  href: api/CarinaStudio.Animation.DoubleAnimator.html#CarinaStudio_Animation_DoubleAnimator__ctor_System_Double_System_Double_
+  commentId: M:CarinaStudio.Animation.DoubleAnimator.#ctor(System.Double,System.Double)
+  fullName: CarinaStudio.Animation.DoubleAnimator.DoubleAnimator(System.Double, System.Double)
+  nameWithType: DoubleAnimator.DoubleAnimator(Double, Double)
+- uid: CarinaStudio.Animation.DoubleAnimator.#ctor*
+  name: DoubleAnimator
+  href: api/CarinaStudio.Animation.DoubleAnimator.html#CarinaStudio_Animation_DoubleAnimator__ctor_
+  commentId: Overload:CarinaStudio.Animation.DoubleAnimator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.DoubleAnimator.DoubleAnimator
+  nameWithType: DoubleAnimator.DoubleAnimator
+- uid: CarinaStudio.Animation.DoubleAnimator.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.DoubleAnimator.html#CarinaStudio_Animation_DoubleAnimator_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.DoubleAnimator.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.DoubleAnimator.GenerateValue(System.Double)
+  nameWithType: DoubleAnimator.GenerateValue(Double)
+- uid: CarinaStudio.Animation.DoubleAnimator.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.DoubleAnimator.html#CarinaStudio_Animation_DoubleAnimator_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.DoubleAnimator.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.DoubleAnimator.GenerateValue
+  nameWithType: DoubleAnimator.GenerateValue
+- uid: CarinaStudio.Animation.Interpolators
+  name: Interpolators
+  href: api/CarinaStudio.Animation.Interpolators.html
+  commentId: T:CarinaStudio.Animation.Interpolators
+  fullName: CarinaStudio.Animation.Interpolators
+  nameWithType: Interpolators
+- uid: CarinaStudio.Animation.Interpolators.Acceleration
+  name: Acceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Acceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.Acceleration
+  fullName: CarinaStudio.Animation.Interpolators.Acceleration
+  nameWithType: Interpolators.Acceleration
+- uid: CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator(System.Double)
+  name: CreateAccelerationInterpolator(Double)
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_CreateAccelerationInterpolator_System_Double_
+  commentId: M:CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator(System.Double)
+  fullName: CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator(System.Double)
+  nameWithType: Interpolators.CreateAccelerationInterpolator(Double)
+- uid: CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator*
+  name: CreateAccelerationInterpolator
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_CreateAccelerationInterpolator_
+  commentId: Overload:CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Interpolators.CreateAccelerationInterpolator
+  nameWithType: Interpolators.CreateAccelerationInterpolator
+- uid: CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator(System.Double)
+  name: CreateDecelerationInterpolator(Double)
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_CreateDecelerationInterpolator_System_Double_
+  commentId: M:CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator(System.Double)
+  fullName: CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator(System.Double)
+  nameWithType: Interpolators.CreateDecelerationInterpolator(Double)
+- uid: CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator*
+  name: CreateDecelerationInterpolator
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_CreateDecelerationInterpolator_
+  commentId: Overload:CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator
+  nameWithType: Interpolators.CreateDecelerationInterpolator
+- uid: CarinaStudio.Animation.Interpolators.Default
+  name: Default
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Default
+  commentId: F:CarinaStudio.Animation.Interpolators.Default
+  fullName: CarinaStudio.Animation.Interpolators.Default
+  nameWithType: Interpolators.Default
+- uid: CarinaStudio.Animation.Interpolators.Deleceleration
+  name: Deleceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Deleceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.Deleceleration
+  fullName: CarinaStudio.Animation.Interpolators.Deleceleration
+  nameWithType: Interpolators.Deleceleration
+- uid: CarinaStudio.Animation.Interpolators.Inverted
+  name: Inverted
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Inverted
+  commentId: F:CarinaStudio.Animation.Interpolators.Inverted
+  fullName: CarinaStudio.Animation.Interpolators.Inverted
+  nameWithType: Interpolators.Inverted
+- uid: CarinaStudio.Animation.ValueAnimator`1
+  name: ValueAnimator<T>
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html
+  commentId: T:CarinaStudio.Animation.ValueAnimator`1
+  name.vb: ValueAnimator(Of T)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T)
+  nameWithType: ValueAnimator<T>
+  nameWithType.vb: ValueAnimator(Of T)
+- uid: CarinaStudio.Animation.ValueAnimator`1.#ctor(`0,`0)
+  name: ValueAnimator(T, T)
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1__ctor__0__0_
+  commentId: M:CarinaStudio.Animation.ValueAnimator`1.#ctor(`0,`0)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.ValueAnimator(T, T)
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).ValueAnimator(T, T)
+  nameWithType: ValueAnimator<T>.ValueAnimator(T, T)
+  nameWithType.vb: ValueAnimator(Of T).ValueAnimator(T, T)
+- uid: CarinaStudio.Animation.ValueAnimator`1.#ctor*
+  name: ValueAnimator
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1__ctor_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.ValueAnimator
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).ValueAnimator
+  nameWithType: ValueAnimator<T>.ValueAnimator
+  nameWithType.vb: ValueAnimator(Of T).ValueAnimator
+- uid: CarinaStudio.Animation.ValueAnimator`1.EndValue
+  name: EndValue
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_EndValue
+  commentId: P:CarinaStudio.Animation.ValueAnimator`1.EndValue
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.EndValue
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).EndValue
+  nameWithType: ValueAnimator<T>.EndValue
+  nameWithType.vb: ValueAnimator(Of T).EndValue
+- uid: CarinaStudio.Animation.ValueAnimator`1.EndValue*
+  name: EndValue
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_EndValue_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.EndValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.EndValue
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).EndValue
+  nameWithType: ValueAnimator<T>.EndValue
+  nameWithType.vb: ValueAnimator(Of T).EndValue
+- uid: CarinaStudio.Animation.ValueAnimator`1.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.ValueAnimator`1.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.GenerateValue(System.Double)
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).GenerateValue(System.Double)
+  nameWithType: ValueAnimator<T>.GenerateValue(Double)
+  nameWithType.vb: ValueAnimator(Of T).GenerateValue(Double)
+- uid: CarinaStudio.Animation.ValueAnimator`1.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.GenerateValue
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).GenerateValue
+  nameWithType: ValueAnimator<T>.GenerateValue
+  nameWithType.vb: ValueAnimator(Of T).GenerateValue
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnCancelled(System.EventArgs)
+  name: OnCancelled(EventArgs)
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCancelled_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.ValueAnimator`1.OnCancelled(System.EventArgs)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnCancelled(System.EventArgs)
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnCancelled(System.EventArgs)
+  nameWithType: ValueAnimator<T>.OnCancelled(EventArgs)
+  nameWithType.vb: ValueAnimator(Of T).OnCancelled(EventArgs)
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnCancelled*
+  name: OnCancelled
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCancelled_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.OnCancelled
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnCancelled
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnCancelled
+  nameWithType: ValueAnimator<T>.OnCancelled
+  nameWithType.vb: ValueAnimator(Of T).OnCancelled
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnCompleted(System.EventArgs)
+  name: OnCompleted(EventArgs)
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCompleted_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.ValueAnimator`1.OnCompleted(System.EventArgs)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnCompleted(System.EventArgs)
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnCompleted(System.EventArgs)
+  nameWithType: ValueAnimator<T>.OnCompleted(EventArgs)
+  nameWithType.vb: ValueAnimator(Of T).OnCompleted(EventArgs)
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnCompleted*
+  name: OnCompleted
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCompleted_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.OnCompleted
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnCompleted
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnCompleted
+  nameWithType: ValueAnimator<T>.OnCompleted
+  nameWithType.vb: ValueAnimator(Of T).OnCompleted
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged(System.EventArgs)
+  name: OnProgressChanged(EventArgs)
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_System_EventArgs_
+  commentId: M:CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged(System.EventArgs)
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnProgressChanged(System.EventArgs)
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnProgressChanged(System.EventArgs)
+  nameWithType: ValueAnimator<T>.OnProgressChanged(EventArgs)
+  nameWithType.vb: ValueAnimator(Of T).OnProgressChanged(EventArgs)
+- uid: CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged*
+  name: OnProgressChanged
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.OnProgressChanged
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).OnProgressChanged
+  nameWithType: ValueAnimator<T>.OnProgressChanged
+  nameWithType.vb: ValueAnimator(Of T).OnProgressChanged
+- uid: CarinaStudio.Animation.ValueAnimator`1.StartValue
+  name: StartValue
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_StartValue
+  commentId: P:CarinaStudio.Animation.ValueAnimator`1.StartValue
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.StartValue
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).StartValue
+  nameWithType: ValueAnimator<T>.StartValue
+  nameWithType.vb: ValueAnimator(Of T).StartValue
+- uid: CarinaStudio.Animation.ValueAnimator`1.StartValue*
+  name: StartValue
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_StartValue_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.StartValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.StartValue
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).StartValue
+  nameWithType: ValueAnimator<T>.StartValue
+  nameWithType.vb: ValueAnimator(Of T).StartValue
+- uid: CarinaStudio.Animation.ValueAnimator`1.Value
+  name: Value
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_Value
+  commentId: P:CarinaStudio.Animation.ValueAnimator`1.Value
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.Value
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).Value
+  nameWithType: ValueAnimator<T>.Value
+  nameWithType.vb: ValueAnimator(Of T).Value
+- uid: CarinaStudio.Animation.ValueAnimator`1.Value*
+  name: Value
+  href: api/CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_Value_
+  commentId: Overload:CarinaStudio.Animation.ValueAnimator`1.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ValueAnimator<T>.Value
+  fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).Value
+  nameWithType: ValueAnimator<T>.Value
+  nameWithType.vb: ValueAnimator(Of T).Value
 - uid: CarinaStudio.Application
   name: Application
   href: api/CarinaStudio.Application.html
@@ -2468,6 +2983,61 @@ references:
   fullName.vb: CarinaStudio.BaseShareableDisposable(Of TSelf).Share
   nameWithType: BaseShareableDisposable<TSelf>.Share
   nameWithType.vb: BaseShareableDisposable(Of TSelf).Share
+- uid: CarinaStudio.Buffers
+  name: CarinaStudio.Buffers
+  href: api/CarinaStudio.Buffers.html
+  commentId: N:CarinaStudio.Buffers
+  fullName: CarinaStudio.Buffers
+  nameWithType: CarinaStudio.Buffers
+- uid: CarinaStudio.Buffers.PinnableExtensions
+  name: PinnableExtensions
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html
+  commentId: T:CarinaStudio.Buffers.PinnableExtensions
+  fullName: CarinaStudio.Buffers.PinnableExtensions
+  nameWithType: PinnableExtensions
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable,System.Action{System.IntPtr})
+  name: Pin(IPinnable, Action<IntPtr>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_System_Buffers_IPinnable_System_Action_System_IntPtr__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable,System.Action{System.IntPtr})
+  name.vb: Pin(IPinnable, Action(Of IntPtr))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable, System.Action<System.IntPtr>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable, System.Action(Of System.IntPtr))
+  nameWithType: PinnableExtensions.Pin(IPinnable, Action<IntPtr>)
+  nameWithType.vb: PinnableExtensions.Pin(IPinnable, Action(Of IntPtr))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable,System.Int32,System.Action{System.IntPtr})
+  name: Pin(IPinnable, Int32, Action<IntPtr>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_System_Buffers_IPinnable_System_Int32_System_Action_System_IntPtr__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable,System.Int32,System.Action{System.IntPtr})
+  name.vb: Pin(IPinnable, Int32, Action(Of IntPtr))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable, System.Int32, System.Action<System.IntPtr>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable, System.Int32, System.Action(Of System.IntPtr))
+  nameWithType: PinnableExtensions.Pin(IPinnable, Int32, Action<IntPtr>)
+  nameWithType.vb: PinnableExtensions.Pin(IPinnable, Int32, Action(Of IntPtr))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin*
+  name: Pin
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_
+  commentId: Overload:CarinaStudio.Buffers.PinnableExtensions.Pin
+  isSpec: "True"
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin
+  nameWithType: PinnableExtensions.Pin
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.Buffers.IPinnable,System.Func{System.IntPtr,``0})
+  name: Pin<R>(IPinnable, Func<IntPtr, R>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin__1_System_Buffers_IPinnable_System_Func_System_IntPtr___0__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.Buffers.IPinnable,System.Func{System.IntPtr,``0})
+  name.vb: Pin(Of R)(IPinnable, Func(Of IntPtr, R))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin<R>(System.Buffers.IPinnable, System.Func<System.IntPtr, R>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(Of R)(System.Buffers.IPinnable, System.Func(Of System.IntPtr, R))
+  nameWithType: PinnableExtensions.Pin<R>(IPinnable, Func<IntPtr, R>)
+  nameWithType.vb: PinnableExtensions.Pin(Of R)(IPinnable, Func(Of IntPtr, R))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.Buffers.IPinnable,System.Int32,System.Func{System.IntPtr,``0})
+  name: Pin<R>(IPinnable, Int32, Func<IntPtr, R>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin__1_System_Buffers_IPinnable_System_Int32_System_Func_System_IntPtr___0__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.Buffers.IPinnable,System.Int32,System.Func{System.IntPtr,``0})
+  name.vb: Pin(Of R)(IPinnable, Int32, Func(Of IntPtr, R))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin<R>(System.Buffers.IPinnable, System.Int32, System.Func<System.IntPtr, R>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(Of R)(System.Buffers.IPinnable, System.Int32, System.Func(Of System.IntPtr, R))
+  nameWithType: PinnableExtensions.Pin<R>(IPinnable, Int32, Func<IntPtr, R>)
+  nameWithType.vb: PinnableExtensions.Pin(Of R)(IPinnable, Int32, Func(Of IntPtr, R))
 - uid: CarinaStudio.Collections
   name: CarinaStudio.Collections
   href: api/CarinaStudio.Collections.html
@@ -10125,38 +10695,38 @@ references:
   commentId: T:CarinaStudio.Platform
   fullName: CarinaStudio.Platform
   nameWithType: Platform
-- uid: CarinaStudio.Platform.GetInstalledFrameworkVersion
-  name: GetInstalledFrameworkVersion()
-  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersion
-  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersion
-  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersion()
-  nameWithType: Platform.GetInstalledFrameworkVersion()
-- uid: CarinaStudio.Platform.GetInstalledFrameworkVersion*
-  name: GetInstalledFrameworkVersion
-  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersion_
-  commentId: Overload:CarinaStudio.Platform.GetInstalledFrameworkVersion
+- uid: CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)
+  name: GetInstalledRuntimeVersion(Boolean)
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledRuntimeVersion_System_Boolean_
+  commentId: M:CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)
+  fullName: CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)
+  nameWithType: Platform.GetInstalledRuntimeVersion(Boolean)
+- uid: CarinaStudio.Platform.GetInstalledRuntimeVersion*
+  name: GetInstalledRuntimeVersion
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledRuntimeVersion_
+  commentId: Overload:CarinaStudio.Platform.GetInstalledRuntimeVersion
   isSpec: "True"
-  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersion
-  nameWithType: Platform.GetInstalledFrameworkVersion
-- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
-  name: GetInstalledFrameworkVersionAsync()
-  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync
-  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
-  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync()
-  nameWithType: Platform.GetInstalledFrameworkVersionAsync()
-- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
-  name: GetInstalledFrameworkVersionAsync(CancellationToken)
-  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_System_Threading_CancellationToken_
-  commentId: M:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
-  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync(System.Threading.CancellationToken)
-  nameWithType: Platform.GetInstalledFrameworkVersionAsync(CancellationToken)
-- uid: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync*
-  name: GetInstalledFrameworkVersionAsync
-  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledFrameworkVersionAsync_
-  commentId: Overload:CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
+  fullName: CarinaStudio.Platform.GetInstalledRuntimeVersion
+  nameWithType: Platform.GetInstalledRuntimeVersion
+- uid: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)
+  name: GetInstalledRuntimeVersionAsync(Boolean)
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_
+  commentId: M:CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)
+  fullName: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)
+  nameWithType: Platform.GetInstalledRuntimeVersionAsync(Boolean)
+- uid: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean,System.Threading.CancellationToken)
+  name: GetInstalledRuntimeVersionAsync(Boolean, CancellationToken)
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean,System.Threading.CancellationToken)
+  fullName: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean, System.Threading.CancellationToken)
+  nameWithType: Platform.GetInstalledRuntimeVersionAsync(Boolean, CancellationToken)
+- uid: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync*
+  name: GetInstalledRuntimeVersionAsync
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_
+  commentId: Overload:CarinaStudio.Platform.GetInstalledRuntimeVersionAsync
   isSpec: "True"
-  fullName: CarinaStudio.Platform.GetInstalledFrameworkVersionAsync
-  nameWithType: Platform.GetInstalledFrameworkVersionAsync
+  fullName: CarinaStudio.Platform.GetInstalledRuntimeVersionAsync
+  nameWithType: Platform.GetInstalledRuntimeVersionAsync
 - uid: CarinaStudio.Platform.IsGnome
   name: IsGnome
   href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsGnome
@@ -10222,6 +10792,45 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Platform.IsWindows
   nameWithType: Platform.IsWindows
+- uid: CarinaStudio.Platform.IsWindows10OrAbove
+  name: IsWindows10OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows10OrAbove
+  commentId: P:CarinaStudio.Platform.IsWindows10OrAbove
+  fullName: CarinaStudio.Platform.IsWindows10OrAbove
+  nameWithType: Platform.IsWindows10OrAbove
+- uid: CarinaStudio.Platform.IsWindows10OrAbove*
+  name: IsWindows10OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows10OrAbove_
+  commentId: Overload:CarinaStudio.Platform.IsWindows10OrAbove
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsWindows10OrAbove
+  nameWithType: Platform.IsWindows10OrAbove
+- uid: CarinaStudio.Platform.IsWindows11OrAbove
+  name: IsWindows11OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows11OrAbove
+  commentId: P:CarinaStudio.Platform.IsWindows11OrAbove
+  fullName: CarinaStudio.Platform.IsWindows11OrAbove
+  nameWithType: Platform.IsWindows11OrAbove
+- uid: CarinaStudio.Platform.IsWindows11OrAbove*
+  name: IsWindows11OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows11OrAbove_
+  commentId: Overload:CarinaStudio.Platform.IsWindows11OrAbove
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsWindows11OrAbove
+  nameWithType: Platform.IsWindows11OrAbove
+- uid: CarinaStudio.Platform.IsWindows8OrAbove
+  name: IsWindows8OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows8OrAbove
+  commentId: P:CarinaStudio.Platform.IsWindows8OrAbove
+  fullName: CarinaStudio.Platform.IsWindows8OrAbove
+  nameWithType: Platform.IsWindows8OrAbove
+- uid: CarinaStudio.Platform.IsWindows8OrAbove*
+  name: IsWindows8OrAbove
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsWindows8OrAbove_
+  commentId: Overload:CarinaStudio.Platform.IsWindows8OrAbove
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsWindows8OrAbove
+  nameWithType: Platform.IsWindows8OrAbove
 - uid: CarinaStudio.Platform.LinuxDistribution
   name: LinuxDistribution
   href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_LinuxDistribution
@@ -10267,6 +10876,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Platform.OpenLink
   nameWithType: Platform.OpenLink
+- uid: CarinaStudio.Platform.WindowsVersion
+  name: WindowsVersion
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_WindowsVersion
+  commentId: P:CarinaStudio.Platform.WindowsVersion
+  fullName: CarinaStudio.Platform.WindowsVersion
+  nameWithType: Platform.WindowsVersion
+- uid: CarinaStudio.Platform.WindowsVersion*
+  name: WindowsVersion
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_WindowsVersion_
+  commentId: Overload:CarinaStudio.Platform.WindowsVersion
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.WindowsVersion
+  nameWithType: Platform.WindowsVersion
 - uid: CarinaStudio.StringPool
   name: StringPool
   href: api/CarinaStudio.StringPool.html
@@ -11826,3 +12448,45 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Windows.Input.ObservableCommandState.Unbind
   nameWithType: ObservableCommandState.Unbind
+- uid: CarinaStudio.WindowsVersion
+  name: WindowsVersion
+  href: api/CarinaStudio.WindowsVersion.html
+  commentId: T:CarinaStudio.WindowsVersion
+  fullName: CarinaStudio.WindowsVersion
+  nameWithType: WindowsVersion
+- uid: CarinaStudio.WindowsVersion.Above
+  name: Above
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Above
+  commentId: F:CarinaStudio.WindowsVersion.Above
+  fullName: CarinaStudio.WindowsVersion.Above
+  nameWithType: WindowsVersion.Above
+- uid: CarinaStudio.WindowsVersion.Unknown
+  name: Unknown
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Unknown
+  commentId: F:CarinaStudio.WindowsVersion.Unknown
+  fullName: CarinaStudio.WindowsVersion.Unknown
+  nameWithType: WindowsVersion.Unknown
+- uid: CarinaStudio.WindowsVersion.Windows10
+  name: Windows10
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Windows10
+  commentId: F:CarinaStudio.WindowsVersion.Windows10
+  fullName: CarinaStudio.WindowsVersion.Windows10
+  nameWithType: WindowsVersion.Windows10
+- uid: CarinaStudio.WindowsVersion.Windows11
+  name: Windows11
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Windows11
+  commentId: F:CarinaStudio.WindowsVersion.Windows11
+  fullName: CarinaStudio.WindowsVersion.Windows11
+  nameWithType: WindowsVersion.Windows11
+- uid: CarinaStudio.WindowsVersion.Windows7
+  name: Windows7
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Windows7
+  commentId: F:CarinaStudio.WindowsVersion.Windows7
+  fullName: CarinaStudio.WindowsVersion.Windows7
+  nameWithType: WindowsVersion.Windows7
+- uid: CarinaStudio.WindowsVersion.Windows8
+  name: Windows8
+  href: api/CarinaStudio.WindowsVersion.html#CarinaStudio_WindowsVersion_Windows8
+  commentId: F:CarinaStudio.WindowsVersion.Windows8
+  fullName: CarinaStudio.WindowsVersion.Windows8
+  nameWithType: WindowsVersion.Windows8
