@@ -186,24 +186,24 @@ references:
   commentId: M:CarinaStudio.Animation.Animator.Start
   fullName: CarinaStudio.Animation.Animator.Start()
   nameWithType: Animator.Start()
-- uid: CarinaStudio.Animation.Animator.Start(System.Int32,System.Action{System.Double},System.Action)
-  name: Start(Int32, Action<Double>, Action)
-  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Action_System_Double__System_Action_
-  commentId: M:CarinaStudio.Animation.Animator.Start(System.Int32,System.Action{System.Double},System.Action)
-  name.vb: Start(Int32, Action(Of Double), Action)
-  fullName: CarinaStudio.Animation.Animator.Start(System.Int32, System.Action<System.Double>, System.Action)
-  fullName.vb: CarinaStudio.Animation.Animator.Start(System.Int32, System.Action(Of System.Double), System.Action)
-  nameWithType: Animator.Start(Int32, Action<Double>, Action)
-  nameWithType.vb: Animator.Start(Int32, Action(Of Double), Action)
-- uid: CarinaStudio.Animation.Animator.Start(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
-  name: Start(Int32, Func<Double, Double>, Action<Double>, Action)
-  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Action_
-  commentId: M:CarinaStudio.Animation.Animator.Start(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
-  name.vb: Start(Int32, Func(Of Double, Double), Action(Of Double), Action)
-  fullName: CarinaStudio.Animation.Animator.Start(System.Int32, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Action)
-  fullName.vb: CarinaStudio.Animation.Animator.Start(System.Int32, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Action)
-  nameWithType: Animator.Start(Int32, Func<Double, Double>, Action<Double>, Action)
-  nameWithType.vb: Animator.Start(Int32, Func(Of Double, Double), Action(Of Double), Action)
+- uid: CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.Action{System.Double},System.Action)
+  name: Start(TimeSpan, Action<Double>, Action)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_TimeSpan_System_Action_System_Double__System_Action_
+  commentId: M:CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.Action{System.Double},System.Action)
+  name.vb: Start(TimeSpan, Action(Of Double), Action)
+  fullName: CarinaStudio.Animation.Animator.Start(System.TimeSpan, System.Action<System.Double>, System.Action)
+  fullName.vb: CarinaStudio.Animation.Animator.Start(System.TimeSpan, System.Action(Of System.Double), System.Action)
+  nameWithType: Animator.Start(TimeSpan, Action<Double>, Action)
+  nameWithType.vb: Animator.Start(TimeSpan, Action(Of Double), Action)
+- uid: CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
+  name: Start(TimeSpan, Func<Double, Double>, Action<Double>, Action)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_System_TimeSpan_System_Func_System_Double_System_Double__System_Action_System_Double__System_Action_
+  commentId: M:CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)
+  name.vb: Start(TimeSpan, Func(Of Double, Double), Action(Of Double), Action)
+  fullName: CarinaStudio.Animation.Animator.Start(System.TimeSpan, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Action)
+  fullName.vb: CarinaStudio.Animation.Animator.Start(System.TimeSpan, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Action)
+  nameWithType: Animator.Start(TimeSpan, Func<Double, Double>, Action<Double>, Action)
+  nameWithType.vb: Animator.Start(TimeSpan, Func(Of Double, Double), Action(Of Double), Action)
 - uid: CarinaStudio.Animation.Animator.Start*
   name: Start
   href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Start_
@@ -217,39 +217,39 @@ references:
   commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync
   fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync()
   nameWithType: Animator.StartAndWaitForCompletionAsync()
-- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double})
-  name: StartAndWaitForCompletionAsync(Int32, Action<Double>)
-  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__
-  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double})
-  name.vb: StartAndWaitForCompletionAsync(Int32, Action(Of Double))
-  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action<System.Double>)
-  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action(Of System.Double))
-  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Action<Double>)
-  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Action(Of Double))
-- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double},System.Threading.CancellationToken)
-  name: StartAndWaitForCompletionAsync(Int32, Action<Double>, CancellationToken)
-  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Action_System_Double__System_Threading_CancellationToken_
-  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Action{System.Double},System.Threading.CancellationToken)
-  name.vb: StartAndWaitForCompletionAsync(Int32, Action(Of Double), CancellationToken)
-  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action<System.Double>, System.Threading.CancellationToken)
-  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Action(Of System.Double), System.Threading.CancellationToken)
-  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Action<Double>, CancellationToken)
-  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Action(Of Double), CancellationToken)
-- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
-  name: StartAndWaitForCompletionAsync(Int32, Func<Double, Double>, Action<Double>, CancellationToken)
-  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Int32_System_Func_System_Double_System_Double__System_Action_System_Double__System_Threading_CancellationToken_
-  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
-  name.vb: StartAndWaitForCompletionAsync(Int32, Func(Of Double, Double), Action(Of Double), CancellationToken)
-  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Threading.CancellationToken)
-  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Int32, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Threading.CancellationToken)
-  nameWithType: Animator.StartAndWaitForCompletionAsync(Int32, Func<Double, Double>, Action<Double>, CancellationToken)
-  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(Int32, Func(Of Double, Double), Action(Of Double), CancellationToken)
 - uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
   name: StartAndWaitForCompletionAsync(CancellationToken)
   href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_Threading_CancellationToken_
   commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
   fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.Threading.CancellationToken)
   nameWithType: Animator.StartAndWaitForCompletionAsync(CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Action{System.Double})
+  name: StartAndWaitForCompletionAsync(TimeSpan, Action<Double>)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_Action_System_Double__
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Action{System.Double})
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, Action(Of Double))
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Action<System.Double>)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Action(Of System.Double))
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, Action<Double>)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, Action(Of Double))
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(TimeSpan, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, Action(Of Double), CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(TimeSpan, Func<Double, Double>, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_Func_System_Double_System_Double__System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, Func(Of Double, Double), Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, Func<Double, Double>, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, Func(Of Double, Double), Action(Of Double), CancellationToken)
 - uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync*
   name: StartAndWaitForCompletionAsync
   href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_
@@ -289,6 +289,38 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Animation.Animator.WaitForCompletionAsync
   nameWithType: Animator.WaitForCompletionAsync
+- uid: CarinaStudio.Animation.CornerRadiusAnimator
+  name: CornerRadiusAnimator
+  href: api/CarinaStudio.Animation.CornerRadiusAnimator.html
+  commentId: T:CarinaStudio.Animation.CornerRadiusAnimator
+  fullName: CarinaStudio.Animation.CornerRadiusAnimator
+  nameWithType: CornerRadiusAnimator
+- uid: CarinaStudio.Animation.CornerRadiusAnimator.#ctor(Avalonia.CornerRadius,Avalonia.CornerRadius)
+  name: CornerRadiusAnimator(CornerRadius, CornerRadius)
+  href: api/CarinaStudio.Animation.CornerRadiusAnimator.html#CarinaStudio_Animation_CornerRadiusAnimator__ctor_Avalonia_CornerRadius_Avalonia_CornerRadius_
+  commentId: M:CarinaStudio.Animation.CornerRadiusAnimator.#ctor(Avalonia.CornerRadius,Avalonia.CornerRadius)
+  fullName: CarinaStudio.Animation.CornerRadiusAnimator.CornerRadiusAnimator(Avalonia.CornerRadius, Avalonia.CornerRadius)
+  nameWithType: CornerRadiusAnimator.CornerRadiusAnimator(CornerRadius, CornerRadius)
+- uid: CarinaStudio.Animation.CornerRadiusAnimator.#ctor*
+  name: CornerRadiusAnimator
+  href: api/CarinaStudio.Animation.CornerRadiusAnimator.html#CarinaStudio_Animation_CornerRadiusAnimator__ctor_
+  commentId: Overload:CarinaStudio.Animation.CornerRadiusAnimator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.CornerRadiusAnimator.CornerRadiusAnimator
+  nameWithType: CornerRadiusAnimator.CornerRadiusAnimator
+- uid: CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.CornerRadiusAnimator.html#CarinaStudio_Animation_CornerRadiusAnimator_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue(System.Double)
+  nameWithType: CornerRadiusAnimator.GenerateValue(Double)
+- uid: CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.CornerRadiusAnimator.html#CarinaStudio_Animation_CornerRadiusAnimator_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.CornerRadiusAnimator.GenerateValue
+  nameWithType: CornerRadiusAnimator.GenerateValue
 - uid: CarinaStudio.Animation.DoubleAnimator
   name: DoubleAnimator
   href: api/CarinaStudio.Animation.DoubleAnimator.html
@@ -377,6 +409,70 @@ references:
   commentId: F:CarinaStudio.Animation.Interpolators.Inverted
   fullName: CarinaStudio.Animation.Interpolators.Inverted
   nameWithType: Interpolators.Inverted
+- uid: CarinaStudio.Animation.SizeAnimator
+  name: SizeAnimator
+  href: api/CarinaStudio.Animation.SizeAnimator.html
+  commentId: T:CarinaStudio.Animation.SizeAnimator
+  fullName: CarinaStudio.Animation.SizeAnimator
+  nameWithType: SizeAnimator
+- uid: CarinaStudio.Animation.SizeAnimator.#ctor(Avalonia.Size,Avalonia.Size)
+  name: SizeAnimator(Size, Size)
+  href: api/CarinaStudio.Animation.SizeAnimator.html#CarinaStudio_Animation_SizeAnimator__ctor_Avalonia_Size_Avalonia_Size_
+  commentId: M:CarinaStudio.Animation.SizeAnimator.#ctor(Avalonia.Size,Avalonia.Size)
+  fullName: CarinaStudio.Animation.SizeAnimator.SizeAnimator(Avalonia.Size, Avalonia.Size)
+  nameWithType: SizeAnimator.SizeAnimator(Size, Size)
+- uid: CarinaStudio.Animation.SizeAnimator.#ctor*
+  name: SizeAnimator
+  href: api/CarinaStudio.Animation.SizeAnimator.html#CarinaStudio_Animation_SizeAnimator__ctor_
+  commentId: Overload:CarinaStudio.Animation.SizeAnimator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.SizeAnimator.SizeAnimator
+  nameWithType: SizeAnimator.SizeAnimator
+- uid: CarinaStudio.Animation.SizeAnimator.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.SizeAnimator.html#CarinaStudio_Animation_SizeAnimator_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.SizeAnimator.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.SizeAnimator.GenerateValue(System.Double)
+  nameWithType: SizeAnimator.GenerateValue(Double)
+- uid: CarinaStudio.Animation.SizeAnimator.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.SizeAnimator.html#CarinaStudio_Animation_SizeAnimator_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.SizeAnimator.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.SizeAnimator.GenerateValue
+  nameWithType: SizeAnimator.GenerateValue
+- uid: CarinaStudio.Animation.ThicknessAnimator
+  name: ThicknessAnimator
+  href: api/CarinaStudio.Animation.ThicknessAnimator.html
+  commentId: T:CarinaStudio.Animation.ThicknessAnimator
+  fullName: CarinaStudio.Animation.ThicknessAnimator
+  nameWithType: ThicknessAnimator
+- uid: CarinaStudio.Animation.ThicknessAnimator.#ctor(Avalonia.Thickness,Avalonia.Thickness)
+  name: ThicknessAnimator(Thickness, Thickness)
+  href: api/CarinaStudio.Animation.ThicknessAnimator.html#CarinaStudio_Animation_ThicknessAnimator__ctor_Avalonia_Thickness_Avalonia_Thickness_
+  commentId: M:CarinaStudio.Animation.ThicknessAnimator.#ctor(Avalonia.Thickness,Avalonia.Thickness)
+  fullName: CarinaStudio.Animation.ThicknessAnimator.ThicknessAnimator(Avalonia.Thickness, Avalonia.Thickness)
+  nameWithType: ThicknessAnimator.ThicknessAnimator(Thickness, Thickness)
+- uid: CarinaStudio.Animation.ThicknessAnimator.#ctor*
+  name: ThicknessAnimator
+  href: api/CarinaStudio.Animation.ThicknessAnimator.html#CarinaStudio_Animation_ThicknessAnimator__ctor_
+  commentId: Overload:CarinaStudio.Animation.ThicknessAnimator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ThicknessAnimator.ThicknessAnimator
+  nameWithType: ThicknessAnimator.ThicknessAnimator
+- uid: CarinaStudio.Animation.ThicknessAnimator.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.ThicknessAnimator.html#CarinaStudio_Animation_ThicknessAnimator_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.ThicknessAnimator.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.ThicknessAnimator.GenerateValue(System.Double)
+  nameWithType: ThicknessAnimator.GenerateValue(Double)
+- uid: CarinaStudio.Animation.ThicknessAnimator.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.ThicknessAnimator.html#CarinaStudio_Animation_ThicknessAnimator_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.ThicknessAnimator.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.ThicknessAnimator.GenerateValue
+  nameWithType: ThicknessAnimator.GenerateValue
 - uid: CarinaStudio.Animation.ValueAnimator`1
   name: ValueAnimator<T>
   href: api/CarinaStudio.Animation.ValueAnimator-1.html
@@ -522,6 +618,38 @@ references:
   fullName.vb: CarinaStudio.Animation.ValueAnimator(Of T).Value
   nameWithType: ValueAnimator<T>.Value
   nameWithType.vb: ValueAnimator(Of T).Value
+- uid: CarinaStudio.Animation.VectorAnimator
+  name: VectorAnimator
+  href: api/CarinaStudio.Animation.VectorAnimator.html
+  commentId: T:CarinaStudio.Animation.VectorAnimator
+  fullName: CarinaStudio.Animation.VectorAnimator
+  nameWithType: VectorAnimator
+- uid: CarinaStudio.Animation.VectorAnimator.#ctor(Avalonia.Vector,Avalonia.Vector)
+  name: VectorAnimator(Vector, Vector)
+  href: api/CarinaStudio.Animation.VectorAnimator.html#CarinaStudio_Animation_VectorAnimator__ctor_Avalonia_Vector_Avalonia_Vector_
+  commentId: M:CarinaStudio.Animation.VectorAnimator.#ctor(Avalonia.Vector,Avalonia.Vector)
+  fullName: CarinaStudio.Animation.VectorAnimator.VectorAnimator(Avalonia.Vector, Avalonia.Vector)
+  nameWithType: VectorAnimator.VectorAnimator(Vector, Vector)
+- uid: CarinaStudio.Animation.VectorAnimator.#ctor*
+  name: VectorAnimator
+  href: api/CarinaStudio.Animation.VectorAnimator.html#CarinaStudio_Animation_VectorAnimator__ctor_
+  commentId: Overload:CarinaStudio.Animation.VectorAnimator.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.VectorAnimator.VectorAnimator
+  nameWithType: VectorAnimator.VectorAnimator
+- uid: CarinaStudio.Animation.VectorAnimator.GenerateValue(System.Double)
+  name: GenerateValue(Double)
+  href: api/CarinaStudio.Animation.VectorAnimator.html#CarinaStudio_Animation_VectorAnimator_GenerateValue_System_Double_
+  commentId: M:CarinaStudio.Animation.VectorAnimator.GenerateValue(System.Double)
+  fullName: CarinaStudio.Animation.VectorAnimator.GenerateValue(System.Double)
+  nameWithType: VectorAnimator.GenerateValue(Double)
+- uid: CarinaStudio.Animation.VectorAnimator.GenerateValue*
+  name: GenerateValue
+  href: api/CarinaStudio.Animation.VectorAnimator.html#CarinaStudio_Animation_VectorAnimator_GenerateValue_
+  commentId: Overload:CarinaStudio.Animation.VectorAnimator.GenerateValue
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.VectorAnimator.GenerateValue
+  nameWithType: VectorAnimator.GenerateValue
 - uid: CarinaStudio.Application
   name: Application
   href: api/CarinaStudio.Application.html
@@ -851,6 +979,24 @@ references:
   fullName.vb: CarinaStudio.ArrayExtensions.Pin(Of T, R)(T(), System.Func(Of System.IntPtr, R))
   nameWithType: ArrayExtensions.Pin<T, R>(T[], Func<IntPtr, R>)
   nameWithType.vb: ArrayExtensions.Pin(Of T, R)(T(), Func(Of IntPtr, R))
+- uid: CarinaStudio.ArrayExtensions.Pin``2(System.ValueTuple{``0[],``1[]},System.Action{System.IntPtr,System.IntPtr})
+  name: Pin<T1, T2>((T1[], T2[]), Action<IntPtr, IntPtr>)
+  href: api/CarinaStudio.ArrayExtensions.html#CarinaStudio_ArrayExtensions_Pin__2_System_ValueTuple___0_____1____System_Action_System_IntPtr_System_IntPtr__
+  commentId: M:CarinaStudio.ArrayExtensions.Pin``2(System.ValueTuple{``0[],``1[]},System.Action{System.IntPtr,System.IntPtr})
+  name.vb: Pin(Of T1, T2)((T1(), T2())(Of T1(), T2()), Action(Of IntPtr, IntPtr))
+  fullName: CarinaStudio.ArrayExtensions.Pin<T1, T2>(System.ValueTuple<T1[], T2[]>, System.Action<System.IntPtr, System.IntPtr>)
+  fullName.vb: CarinaStudio.ArrayExtensions.Pin(Of T1, T2)(System.ValueTuple(Of T1(), T2()), System.Action(Of System.IntPtr, System.IntPtr))
+  nameWithType: ArrayExtensions.Pin<T1, T2>((T1[], T2[]), Action<IntPtr, IntPtr>)
+  nameWithType.vb: ArrayExtensions.Pin(Of T1, T2)((T1(), T2())(Of T1(), T2()), Action(Of IntPtr, IntPtr))
+- uid: CarinaStudio.ArrayExtensions.Pin``3(System.ValueTuple{``0[],``1[]},System.Func{System.IntPtr,System.IntPtr,``2})
+  name: Pin<T1, T2, R>((T1[], T2[]), Func<IntPtr, IntPtr, R>)
+  href: api/CarinaStudio.ArrayExtensions.html#CarinaStudio_ArrayExtensions_Pin__3_System_ValueTuple___0_____1____System_Func_System_IntPtr_System_IntPtr___2__
+  commentId: M:CarinaStudio.ArrayExtensions.Pin``3(System.ValueTuple{``0[],``1[]},System.Func{System.IntPtr,System.IntPtr,``2})
+  name.vb: Pin(Of T1, T2, R)((T1(), T2())(Of T1(), T2()), Func(Of IntPtr, IntPtr, R))
+  fullName: CarinaStudio.ArrayExtensions.Pin<T1, T2, R>(System.ValueTuple<T1[], T2[]>, System.Func<System.IntPtr, System.IntPtr, R>)
+  fullName.vb: CarinaStudio.ArrayExtensions.Pin(Of T1, T2, R)(System.ValueTuple(Of T1(), T2()), System.Func(Of System.IntPtr, System.IntPtr, R))
+  nameWithType: ArrayExtensions.Pin<T1, T2, R>((T1[], T2[]), Func<IntPtr, IntPtr, R>)
+  nameWithType.vb: ArrayExtensions.Pin(Of T1, T2, R)((T1(), T2())(Of T1(), T2()), Func(Of IntPtr, IntPtr, R))
 - uid: CarinaStudio.AutoUpdate
   name: CarinaStudio.AutoUpdate
   href: api/CarinaStudio.AutoUpdate.html
@@ -3013,6 +3159,24 @@ references:
   fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(System.Buffers.IPinnable, System.Int32, System.Action(Of System.IntPtr))
   nameWithType: PinnableExtensions.Pin(IPinnable, Int32, Action<IntPtr>)
   nameWithType.vb: PinnableExtensions.Pin(IPinnable, Int32, Action(Of IntPtr))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Action{System.IntPtr,System.IntPtr})
+  name: Pin((IPinnable, IPinnable), Action<IntPtr, IntPtr>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Action_System_IntPtr_System_IntPtr__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Action{System.IntPtr,System.IntPtr})
+  name.vb: Pin((IPinnable, IPinnable)(Of IPinnable, IPinnable), Action(Of IntPtr, IntPtr))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple<System.Buffers.IPinnable, System.Buffers.IPinnable>, System.Action<System.IntPtr, System.IntPtr>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple(Of System.Buffers.IPinnable, System.Buffers.IPinnable), System.Action(Of System.IntPtr, System.IntPtr))
+  nameWithType: PinnableExtensions.Pin((IPinnable, IPinnable), Action<IntPtr, IntPtr>)
+  nameWithType.vb: PinnableExtensions.Pin((IPinnable, IPinnable)(Of IPinnable, IPinnable), Action(Of IntPtr, IntPtr))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,System.Action{System.IntPtr,System.IntPtr})
+  name: Pin((IPinnable, IPinnable), Int32, Int32, Action<IntPtr, IntPtr>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Int32_System_Int32_System_Action_System_IntPtr_System_IntPtr__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,System.Action{System.IntPtr,System.IntPtr})
+  name.vb: Pin((IPinnable, IPinnable)(Of IPinnable, IPinnable), Int32, Int32, Action(Of IntPtr, IntPtr))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple<System.Buffers.IPinnable, System.Buffers.IPinnable>, System.Int32, System.Int32, System.Action<System.IntPtr, System.IntPtr>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(System.ValueTuple(Of System.Buffers.IPinnable, System.Buffers.IPinnable), System.Int32, System.Int32, System.Action(Of System.IntPtr, System.IntPtr))
+  nameWithType: PinnableExtensions.Pin((IPinnable, IPinnable), Int32, Int32, Action<IntPtr, IntPtr>)
+  nameWithType.vb: PinnableExtensions.Pin((IPinnable, IPinnable)(Of IPinnable, IPinnable), Int32, Int32, Action(Of IntPtr, IntPtr))
 - uid: CarinaStudio.Buffers.PinnableExtensions.Pin*
   name: Pin
   href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin_
@@ -3038,6 +3202,24 @@ references:
   fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(Of R)(System.Buffers.IPinnable, System.Int32, System.Func(Of System.IntPtr, R))
   nameWithType: PinnableExtensions.Pin<R>(IPinnable, Int32, Func<IntPtr, R>)
   nameWithType.vb: PinnableExtensions.Pin(Of R)(IPinnable, Int32, Func(Of IntPtr, R))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Func{System.IntPtr,System.IntPtr,``0})
+  name: Pin<R>((IPinnable, IPinnable), Func<IntPtr, IntPtr, R>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin__1_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Func_System_IntPtr_System_IntPtr___0__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Func{System.IntPtr,System.IntPtr,``0})
+  name.vb: Pin(Of R)((IPinnable, IPinnable)(Of IPinnable, IPinnable), Func(Of IntPtr, IntPtr, R))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin<R>(System.ValueTuple<System.Buffers.IPinnable, System.Buffers.IPinnable>, System.Func<System.IntPtr, System.IntPtr, R>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(Of R)(System.ValueTuple(Of System.Buffers.IPinnable, System.Buffers.IPinnable), System.Func(Of System.IntPtr, System.IntPtr, R))
+  nameWithType: PinnableExtensions.Pin<R>((IPinnable, IPinnable), Func<IntPtr, IntPtr, R>)
+  nameWithType.vb: PinnableExtensions.Pin(Of R)((IPinnable, IPinnable)(Of IPinnable, IPinnable), Func(Of IntPtr, IntPtr, R))
+- uid: CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,System.Func{System.IntPtr,System.IntPtr,``0})
+  name: Pin<R>((IPinnable, IPinnable), Int32, Int32, Func<IntPtr, IntPtr, R>)
+  href: api/CarinaStudio.Buffers.PinnableExtensions.html#CarinaStudio_Buffers_PinnableExtensions_Pin__1_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Int32_System_Int32_System_Func_System_IntPtr_System_IntPtr___0__
+  commentId: M:CarinaStudio.Buffers.PinnableExtensions.Pin``1(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,System.Func{System.IntPtr,System.IntPtr,``0})
+  name.vb: Pin(Of R)((IPinnable, IPinnable)(Of IPinnable, IPinnable), Int32, Int32, Func(Of IntPtr, IntPtr, R))
+  fullName: CarinaStudio.Buffers.PinnableExtensions.Pin<R>(System.ValueTuple<System.Buffers.IPinnable, System.Buffers.IPinnable>, System.Int32, System.Int32, System.Func<System.IntPtr, System.IntPtr, R>)
+  fullName.vb: CarinaStudio.Buffers.PinnableExtensions.Pin(Of R)(System.ValueTuple(Of System.Buffers.IPinnable, System.Buffers.IPinnable), System.Int32, System.Int32, System.Func(Of System.IntPtr, System.IntPtr, R))
+  nameWithType: PinnableExtensions.Pin<R>((IPinnable, IPinnable), Int32, Int32, Func<IntPtr, IntPtr, R>)
+  nameWithType.vb: PinnableExtensions.Pin(Of R)((IPinnable, IPinnable)(Of IPinnable, IPinnable), Int32, Int32, Func(Of IntPtr, IntPtr, R))
 - uid: CarinaStudio.Collections
   name: CarinaStudio.Collections
   href: api/CarinaStudio.Collections.html
@@ -9818,6 +10000,42 @@ references:
   fullName.vb: CarinaStudio.MemoryExtensions.Pin(Of T, R)(System.ReadOnlyMemory(Of T), System.Func(Of System.IntPtr, R))
   nameWithType: MemoryExtensions.Pin<T, R>(ReadOnlyMemory<T>, Func<IntPtr, R>)
   nameWithType.vb: MemoryExtensions.Pin(Of T, R)(ReadOnlyMemory(Of T), Func(Of IntPtr, R))
+- uid: CarinaStudio.MemoryExtensions.Pin``2(System.ValueTuple{System.Memory{``0},System.Memory{``1}},System.Action{System.IntPtr,System.IntPtr})
+  name: Pin<T1, T2>((Memory<T1>, Memory<T2>), Action<IntPtr, IntPtr>)
+  href: api/CarinaStudio.MemoryExtensions.html#CarinaStudio_MemoryExtensions_Pin__2_System_ValueTuple_System_Memory___0__System_Memory___1___System_Action_System_IntPtr_System_IntPtr__
+  commentId: M:CarinaStudio.MemoryExtensions.Pin``2(System.ValueTuple{System.Memory{``0},System.Memory{``1}},System.Action{System.IntPtr,System.IntPtr})
+  name.vb: Pin(Of T1, T2)((Memory(Of T1), Memory(Of T2))(Of Memory(Of T1), Memory(Of T2)), Action(Of IntPtr, IntPtr))
+  fullName: CarinaStudio.MemoryExtensions.Pin<T1, T2>(System.ValueTuple<System.Memory<T1>, System.Memory<T2>>, System.Action<System.IntPtr, System.IntPtr>)
+  fullName.vb: CarinaStudio.MemoryExtensions.Pin(Of T1, T2)(System.ValueTuple(Of System.Memory(Of T1), System.Memory(Of T2)), System.Action(Of System.IntPtr, System.IntPtr))
+  nameWithType: MemoryExtensions.Pin<T1, T2>((Memory<T1>, Memory<T2>), Action<IntPtr, IntPtr>)
+  nameWithType.vb: MemoryExtensions.Pin(Of T1, T2)((Memory(Of T1), Memory(Of T2))(Of Memory(Of T1), Memory(Of T2)), Action(Of IntPtr, IntPtr))
+- uid: CarinaStudio.MemoryExtensions.Pin``2(System.ValueTuple{System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``1}},System.Action{System.IntPtr,System.IntPtr})
+  name: Pin<T1, T2>((ReadOnlyMemory<T1>, ReadOnlyMemory<T2>), Action<IntPtr, IntPtr>)
+  href: api/CarinaStudio.MemoryExtensions.html#CarinaStudio_MemoryExtensions_Pin__2_System_ValueTuple_System_ReadOnlyMemory___0__System_ReadOnlyMemory___1___System_Action_System_IntPtr_System_IntPtr__
+  commentId: M:CarinaStudio.MemoryExtensions.Pin``2(System.ValueTuple{System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``1}},System.Action{System.IntPtr,System.IntPtr})
+  name.vb: Pin(Of T1, T2)((ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2))(Of ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2)), Action(Of IntPtr, IntPtr))
+  fullName: CarinaStudio.MemoryExtensions.Pin<T1, T2>(System.ValueTuple<System.ReadOnlyMemory<T1>, System.ReadOnlyMemory<T2>>, System.Action<System.IntPtr, System.IntPtr>)
+  fullName.vb: CarinaStudio.MemoryExtensions.Pin(Of T1, T2)(System.ValueTuple(Of System.ReadOnlyMemory(Of T1), System.ReadOnlyMemory(Of T2)), System.Action(Of System.IntPtr, System.IntPtr))
+  nameWithType: MemoryExtensions.Pin<T1, T2>((ReadOnlyMemory<T1>, ReadOnlyMemory<T2>), Action<IntPtr, IntPtr>)
+  nameWithType.vb: MemoryExtensions.Pin(Of T1, T2)((ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2))(Of ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2)), Action(Of IntPtr, IntPtr))
+- uid: CarinaStudio.MemoryExtensions.Pin``3(System.ValueTuple{System.Memory{``0},System.Memory{``1}},System.Func{System.IntPtr,System.IntPtr,``2})
+  name: Pin<T1, T2, R>((Memory<T1>, Memory<T2>), Func<IntPtr, IntPtr, R>)
+  href: api/CarinaStudio.MemoryExtensions.html#CarinaStudio_MemoryExtensions_Pin__3_System_ValueTuple_System_Memory___0__System_Memory___1___System_Func_System_IntPtr_System_IntPtr___2__
+  commentId: M:CarinaStudio.MemoryExtensions.Pin``3(System.ValueTuple{System.Memory{``0},System.Memory{``1}},System.Func{System.IntPtr,System.IntPtr,``2})
+  name.vb: Pin(Of T1, T2, R)((Memory(Of T1), Memory(Of T2))(Of Memory(Of T1), Memory(Of T2)), Func(Of IntPtr, IntPtr, R))
+  fullName: CarinaStudio.MemoryExtensions.Pin<T1, T2, R>(System.ValueTuple<System.Memory<T1>, System.Memory<T2>>, System.Func<System.IntPtr, System.IntPtr, R>)
+  fullName.vb: CarinaStudio.MemoryExtensions.Pin(Of T1, T2, R)(System.ValueTuple(Of System.Memory(Of T1), System.Memory(Of T2)), System.Func(Of System.IntPtr, System.IntPtr, R))
+  nameWithType: MemoryExtensions.Pin<T1, T2, R>((Memory<T1>, Memory<T2>), Func<IntPtr, IntPtr, R>)
+  nameWithType.vb: MemoryExtensions.Pin(Of T1, T2, R)((Memory(Of T1), Memory(Of T2))(Of Memory(Of T1), Memory(Of T2)), Func(Of IntPtr, IntPtr, R))
+- uid: CarinaStudio.MemoryExtensions.Pin``3(System.ValueTuple{System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``1}},System.Func{System.IntPtr,System.IntPtr,``2})
+  name: Pin<T1, T2, R>((ReadOnlyMemory<T1>, ReadOnlyMemory<T2>), Func<IntPtr, IntPtr, R>)
+  href: api/CarinaStudio.MemoryExtensions.html#CarinaStudio_MemoryExtensions_Pin__3_System_ValueTuple_System_ReadOnlyMemory___0__System_ReadOnlyMemory___1___System_Func_System_IntPtr_System_IntPtr___2__
+  commentId: M:CarinaStudio.MemoryExtensions.Pin``3(System.ValueTuple{System.ReadOnlyMemory{``0},System.ReadOnlyMemory{``1}},System.Func{System.IntPtr,System.IntPtr,``2})
+  name.vb: Pin(Of T1, T2, R)((ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2))(Of ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2)), Func(Of IntPtr, IntPtr, R))
+  fullName: CarinaStudio.MemoryExtensions.Pin<T1, T2, R>(System.ValueTuple<System.ReadOnlyMemory<T1>, System.ReadOnlyMemory<T2>>, System.Func<System.IntPtr, System.IntPtr, R>)
+  fullName.vb: CarinaStudio.MemoryExtensions.Pin(Of T1, T2, R)(System.ValueTuple(Of System.ReadOnlyMemory(Of T1), System.ReadOnlyMemory(Of T2)), System.Func(Of System.IntPtr, System.IntPtr, R))
+  nameWithType: MemoryExtensions.Pin<T1, T2, R>((ReadOnlyMemory<T1>, ReadOnlyMemory<T2>), Func<IntPtr, IntPtr, R>)
+  nameWithType.vb: MemoryExtensions.Pin(Of T1, T2, R)((ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2))(Of ReadOnlyMemory(Of T1), ReadOnlyMemory(Of T2)), Func(Of IntPtr, IntPtr, R))
 - uid: CarinaStudio.MutableObservableBoolean
   name: MutableObservableBoolean
   href: api/CarinaStudio.MutableObservableBoolean.html

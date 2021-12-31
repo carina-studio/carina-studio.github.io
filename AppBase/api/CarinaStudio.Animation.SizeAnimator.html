@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ValueAnimator&lt;T&gt;
+    <title>Class SizeAnimator
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ValueAnimator&lt;T&gt;
+    <meta name="title" content="Class SizeAnimator
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,24 +68,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Animation.ValueAnimator`1">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Animation.SizeAnimator">
   
   
-  <h1 id="CarinaStudio_Animation_ValueAnimator_1" data-uid="CarinaStudio.Animation.ValueAnimator`1" class="text-break">Class ValueAnimator&lt;T&gt;
+  <h1 id="CarinaStudio_Animation_SizeAnimator" data-uid="CarinaStudio.Animation.SizeAnimator" class="text-break">Class SizeAnimator
   </h1>
-  <div class="markdown level0 summary"><p>Generic animator which animates specific type of value.</p>
+  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a> to animate <span class="xref">Avalonia.Size</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a></div>
-    <div class="level2"><span class="xref">ValueAnimator&lt;T&gt;</span></div>
-      <div class="level3"><a class="xref" href="CarinaStudio.Animation.CornerRadiusAnimator.html">CornerRadiusAnimator</a></div>
-      <div class="level3"><a class="xref" href="CarinaStudio.Animation.DoubleAnimator.html">DoubleAnimator</a></div>
-      <div class="level3"><a class="xref" href="CarinaStudio.Animation.SizeAnimator.html">SizeAnimator</a></div>
-      <div class="level3"><a class="xref" href="CarinaStudio.Animation.ThicknessAnimator.html">ThicknessAnimator</a></div>
-      <div class="level3"><a class="xref" href="CarinaStudio.Animation.VectorAnimator.html">VectorAnimator</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html">ValueAnimator</a>&lt;<span class="xref">Avalonia.Size</span>&gt;</div>
+    <div class="level3"><span class="xref">SizeAnimator</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -94,6 +90,24 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_EndValue">ValueAnimator&lt;Size&gt;.EndValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCancelled_System_EventArgs_">ValueAnimator&lt;Size&gt;.OnCancelled(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnCompleted_System_EventArgs_">ValueAnimator&lt;Size&gt;.OnCompleted(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_System_EventArgs_">ValueAnimator&lt;Size&gt;.OnProgressChanged(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_StartValue">ValueAnimator&lt;Size&gt;.StartValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html#CarinaStudio_Animation_ValueAnimator_1_Value">ValueAnimator&lt;Size&gt;.Value</a>
+    </div>
     <div>
       <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancel">Animator.Cancel()</a>
     </div>
@@ -180,39 +194,23 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Animation.html">CarinaStudio.Animation</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
-  <h5 id="CarinaStudio_Animation_ValueAnimator_1_syntax">Syntax</h5>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
+  <h5 id="CarinaStudio_Animation_SizeAnimator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ValueAnimator&lt;T&gt; : Animator, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SizeAnimator : ValueAnimator&lt;Size&gt;, IThreadDependent, ISynchronizable</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value to animate.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CarinaStudio_Animation_ValueAnimator_1__ctor_" data-uid="CarinaStudio.Animation.ValueAnimator`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1__ctor__0__0_" data-uid="CarinaStudio.Animation.ValueAnimator`1.#ctor(`0,`0)">ValueAnimator(T, T)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Animation.ValueAnimator-1.html">ValueAnimator&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_Animation_SizeAnimator__ctor_" data-uid="CarinaStudio.Animation.SizeAnimator.#ctor*"></a>
+  <h4 id="CarinaStudio_Animation_SizeAnimator__ctor_Avalonia_Size_Avalonia_Size_" data-uid="CarinaStudio.Animation.SizeAnimator.#ctor(Avalonia.Size,Avalonia.Size)">SizeAnimator(Size, Size)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Animation.SizeAnimator.html">SizeAnimator</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ValueAnimator(T startValue, T endValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public SizeAnimator(Size start, Size end)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,96 +223,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">startValue</span></td>
-        <td><p>Start value.</p>
+        <td><span class="xref">Avalonia.Size</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start <span class="xref">Avalonia.Size</span>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">endValue</span></td>
-        <td><p>End value.</p>
+        <td><span class="xref">Avalonia.Size</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>End <span class="xref">Avalonia.Size</span>.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_EndValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.EndValue*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_EndValue" data-uid="CarinaStudio.Animation.ValueAnimator`1.EndValue">EndValue</h4>
-  <div class="markdown level1 summary"><p>Get or set value when animation completed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T EndValue { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_StartValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.StartValue*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_StartValue" data-uid="CarinaStudio.Animation.ValueAnimator`1.StartValue">StartValue</h4>
-  <div class="markdown level1 summary"><p>Get or set value when starting animation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T StartValue { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_Value_" data-uid="CarinaStudio.Animation.ValueAnimator`1.Value*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_Value" data-uid="CarinaStudio.Animation.ValueAnimator`1.Value">Value</h4>
-  <div class="markdown level1 summary"><p>Get current value when animating.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Value { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -322,14 +240,14 @@
   </h3>
   
   
-  <a id="CarinaStudio_Animation_ValueAnimator_1_GenerateValue_" data-uid="CarinaStudio.Animation.ValueAnimator`1.GenerateValue*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_GenerateValue_System_Double_" data-uid="CarinaStudio.Animation.ValueAnimator`1.GenerateValue(System.Double)">GenerateValue(Double)</h4>
+  <a id="CarinaStudio_Animation_SizeAnimator_GenerateValue_" data-uid="CarinaStudio.Animation.SizeAnimator.GenerateValue*"></a>
+  <h4 id="CarinaStudio_Animation_SizeAnimator_GenerateValue_System_Double_" data-uid="CarinaStudio.Animation.SizeAnimator.GenerateValue(System.Double)">GenerateValue(Double)</h4>
   <div class="markdown level1 summary"><p>Generate value by progress of animation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract T GenerateValue(double progress)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override Size GenerateValue(double progress)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -359,105 +277,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">Avalonia.Size</span></td>
         <td><p>Value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_OnCancelled_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCancelled*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnCancelled_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCancelled(System.EventArgs)">OnCancelled(EventArgs)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancelled">Cancelled</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnCancelled(EventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.EventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCancelled_System_EventArgs_">Animator.OnCancelled(EventArgs)</a></div>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_OnCompleted_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCompleted*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnCompleted_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnCompleted(System.EventArgs)">OnCompleted(EventArgs)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Completed">Completed</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnCompleted(EventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.EventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnCompleted_System_EventArgs_">Animator.OnCompleted(EventArgs)</a></div>
-  
-  
-  <a id="CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged*"></a>
-  <h4 id="CarinaStudio_Animation_ValueAnimator_1_OnProgressChanged_System_EventArgs_" data-uid="CarinaStudio.Animation.ValueAnimator`1.OnProgressChanged(System.EventArgs)">OnProgressChanged(EventArgs)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_ProgressChanged">ProgressChanged</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnProgressChanged(EventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.EventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_OnProgressChanged_System_EventArgs_">Animator.OnProgressChanged(EventArgs)</a></div>
+  <div><span class="xref">CarinaStudio.Animation.ValueAnimator&lt;Avalonia.Size&gt;.GenerateValue(System.Double)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
@@ -489,9 +316,6 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
   </div>
 </article>
           </div>
