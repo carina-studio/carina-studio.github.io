@@ -160,6 +160,80 @@
   </table>
   
   
+  <a id="CarinaStudio_Input_DataObjectExtensions_TryGetData_" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetData*"></a>
+  <h4 id="CarinaStudio_Input_DataObjectExtensions_TryGetData__1_Avalonia_Input_IDataObject_System_String___0__" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetData``1(Avalonia.Input.IDataObject,System.String,``0@)">TryGetData&lt;T&gt;(IDataObject, String, out T)</h4>
+  <div class="markdown level1 summary"><p>Try getting the data with given format and type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetData&lt;T&gt;(this IDataObject dataObject, string format, out T data)
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.Input.IDataObject</span></td>
+        <td><span class="parametername">dataObject</span></td>
+        <td><p><span class="xref">Avalonia.Input.IDataObject</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>Format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if data got successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_Input_DataObjectExtensions_TryGetSingleFileName_" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName*"></a>
   <h4 id="CarinaStudio_Input_DataObjectExtensions_TryGetSingleFileName_Avalonia_Input_IDataObject_System_String__" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject,System.String@)">TryGetSingleFileName(IDataObject, out String)</h4>
   <div class="markdown level1 summary"><p>Get the only file name contained in <span class="xref">Avalonia.Input.IDataObject</span>.</p>
@@ -205,6 +279,80 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if only one file name contained in <span class="xref">Avalonia.Input.IDataObject</span>, or false if no file name or more than one file names are contained.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Input_DataObjectExtensions_TryGetValue_" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetValue*"></a>
+  <h4 id="CarinaStudio_Input_DataObjectExtensions_TryGetValue__1_Avalonia_Input_IDataObject_System_String___0__" data-uid="CarinaStudio.Input.DataObjectExtensions.TryGetValue``1(Avalonia.Input.IDataObject,System.String,``0@)">TryGetValue&lt;T&gt;(IDataObject, String, out T)</h4>
+  <div class="markdown level1 summary"><p>Try getting the value type data with given format and type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetValue&lt;T&gt;(this IDataObject dataObject, string format, out T value)
+    where T : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.Input.IDataObject</span></td>
+        <td><span class="parametername">dataObject</span></td>
+        <td><p><span class="xref">Avalonia.Input.IDataObject</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>Format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if value got successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of data.</p>
 </td>
       </tr>
     </tbody>

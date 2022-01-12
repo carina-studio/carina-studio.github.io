@@ -70,6 +70,25 @@ references:
   commentId: E:CarinaStudio.Animation.Animator.Completed
   fullName: CarinaStudio.Animation.Animator.Completed
   nameWithType: Animator.Completed
+- uid: CarinaStudio.Animation.Animator.DefaultInterval
+  name: DefaultInterval
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_DefaultInterval
+  commentId: F:CarinaStudio.Animation.Animator.DefaultInterval
+  fullName: CarinaStudio.Animation.Animator.DefaultInterval
+  nameWithType: Animator.DefaultInterval
+- uid: CarinaStudio.Animation.Animator.Delay
+  name: Delay
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Delay
+  commentId: P:CarinaStudio.Animation.Animator.Delay
+  fullName: CarinaStudio.Animation.Animator.Delay
+  nameWithType: Animator.Delay
+- uid: CarinaStudio.Animation.Animator.Delay*
+  name: Delay
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Delay_
+  commentId: Overload:CarinaStudio.Animation.Animator.Delay
+  isSpec: "True"
+  fullName: CarinaStudio.Animation.Animator.Delay
+  nameWithType: Animator.Delay
 - uid: CarinaStudio.Animation.Animator.Duration
   name: Duration
   href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Duration
@@ -250,6 +269,33 @@ references:
   fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Threading.CancellationToken)
   nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, Func<Double, Double>, Action<Double>, CancellationToken)
   nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, Func(Of Double, Double), Action(Of Double), CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Action{System.Double})
+  name: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action<Double>)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_TimeSpan_System_Action_System_Double__
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Action{System.Double})
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action(Of Double))
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Action<System.Double>)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Action(Of System.Double))
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action<Double>)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action(Of Double))
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_TimeSpan_System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Action(Of Double), CancellationToken)
+- uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Func<Double, Double>, Action<Double>, CancellationToken)
+  href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_System_TimeSpan_System_TimeSpan_System_Func_System_Double_System_Double__System_Action_System_Double__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan,System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Threading.CancellationToken)
+  name.vb: StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Func(Of Double, Double), Action(Of Double), CancellationToken)
+  fullName: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Func<System.Double, System.Double>, System.Action<System.Double>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync(System.TimeSpan, System.TimeSpan, System.Func(Of System.Double, System.Double), System.Action(Of System.Double), System.Threading.CancellationToken)
+  nameWithType: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Func<Double, Double>, Action<Double>, CancellationToken)
+  nameWithType.vb: Animator.StartAndWaitForCompletionAsync(TimeSpan, TimeSpan, Func(Of Double, Double), Action(Of Double), CancellationToken)
 - uid: CarinaStudio.Animation.Animator.StartAndWaitForCompletionAsync*
   name: StartAndWaitForCompletionAsync
   href: api/CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_StartAndWaitForCompletionAsync_
@@ -391,24 +437,48 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Animation.Interpolators.CreateDecelerationInterpolator
   nameWithType: Interpolators.CreateDecelerationInterpolator
+- uid: CarinaStudio.Animation.Interpolators.Deceleration
+  name: Deceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Deceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.Deceleration
+  fullName: CarinaStudio.Animation.Interpolators.Deceleration
+  nameWithType: Interpolators.Deceleration
 - uid: CarinaStudio.Animation.Interpolators.Default
   name: Default
   href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Default
   commentId: F:CarinaStudio.Animation.Interpolators.Default
   fullName: CarinaStudio.Animation.Interpolators.Default
   nameWithType: Interpolators.Default
-- uid: CarinaStudio.Animation.Interpolators.Deleceleration
-  name: Deleceleration
-  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Deleceleration
-  commentId: F:CarinaStudio.Animation.Interpolators.Deleceleration
-  fullName: CarinaStudio.Animation.Interpolators.Deleceleration
-  nameWithType: Interpolators.Deleceleration
+- uid: CarinaStudio.Animation.Interpolators.FastAcceleration
+  name: FastAcceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_FastAcceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.FastAcceleration
+  fullName: CarinaStudio.Animation.Interpolators.FastAcceleration
+  nameWithType: Interpolators.FastAcceleration
+- uid: CarinaStudio.Animation.Interpolators.FastDeceleration
+  name: FastDeceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_FastDeceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.FastDeceleration
+  fullName: CarinaStudio.Animation.Interpolators.FastDeceleration
+  nameWithType: Interpolators.FastDeceleration
 - uid: CarinaStudio.Animation.Interpolators.Inverted
   name: Inverted
   href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_Inverted
   commentId: F:CarinaStudio.Animation.Interpolators.Inverted
   fullName: CarinaStudio.Animation.Interpolators.Inverted
   nameWithType: Interpolators.Inverted
+- uid: CarinaStudio.Animation.Interpolators.SlowAcceleration
+  name: SlowAcceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_SlowAcceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.SlowAcceleration
+  fullName: CarinaStudio.Animation.Interpolators.SlowAcceleration
+  nameWithType: Interpolators.SlowAcceleration
+- uid: CarinaStudio.Animation.Interpolators.SlowDeceleration
+  name: SlowDeceleration
+  href: api/CarinaStudio.Animation.Interpolators.html#CarinaStudio_Animation_Interpolators_SlowDeceleration
+  commentId: F:CarinaStudio.Animation.Interpolators.SlowDeceleration
+  fullName: CarinaStudio.Animation.Interpolators.SlowDeceleration
+  nameWithType: Interpolators.SlowDeceleration
 - uid: CarinaStudio.Animation.SizeAnimator
   name: SizeAnimator
   href: api/CarinaStudio.Animation.SizeAnimator.html
@@ -9062,6 +9132,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Input.DataObjectExtensions.HasFileNames
   nameWithType: DataObjectExtensions.HasFileNames
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetData*
+  name: TryGetData
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetData_
+  commentId: Overload:CarinaStudio.Input.DataObjectExtensions.TryGetData
+  isSpec: "True"
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetData
+  nameWithType: DataObjectExtensions.TryGetData
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetData``1(Avalonia.Input.IDataObject,System.String,``0@)
+  name: TryGetData<T>(IDataObject, String, out T)
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetData__1_Avalonia_Input_IDataObject_System_String___0__
+  commentId: M:CarinaStudio.Input.DataObjectExtensions.TryGetData``1(Avalonia.Input.IDataObject,System.String,``0@)
+  name.vb: TryGetData(Of T)(IDataObject, String, ByRef T)
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetData<T>(Avalonia.Input.IDataObject, System.String, out T)
+  fullName.vb: CarinaStudio.Input.DataObjectExtensions.TryGetData(Of T)(Avalonia.Input.IDataObject, System.String, ByRef T)
+  nameWithType: DataObjectExtensions.TryGetData<T>(IDataObject, String, out T)
+  nameWithType.vb: DataObjectExtensions.TryGetData(Of T)(IDataObject, String, ByRef T)
 - uid: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName(Avalonia.Input.IDataObject,System.String@)
   name: TryGetSingleFileName(IDataObject, out String)
   href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetSingleFileName_Avalonia_Input_IDataObject_System_String__
@@ -9078,6 +9164,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Input.DataObjectExtensions.TryGetSingleFileName
   nameWithType: DataObjectExtensions.TryGetSingleFileName
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetValue*
+  name: TryGetValue
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetValue_
+  commentId: Overload:CarinaStudio.Input.DataObjectExtensions.TryGetValue
+  isSpec: "True"
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetValue
+  nameWithType: DataObjectExtensions.TryGetValue
+- uid: CarinaStudio.Input.DataObjectExtensions.TryGetValue``1(Avalonia.Input.IDataObject,System.String,``0@)
+  name: TryGetValue<T>(IDataObject, String, out T)
+  href: api/CarinaStudio.Input.DataObjectExtensions.html#CarinaStudio_Input_DataObjectExtensions_TryGetValue__1_Avalonia_Input_IDataObject_System_String___0__
+  commentId: M:CarinaStudio.Input.DataObjectExtensions.TryGetValue``1(Avalonia.Input.IDataObject,System.String,``0@)
+  name.vb: TryGetValue(Of T)(IDataObject, String, ByRef T)
+  fullName: CarinaStudio.Input.DataObjectExtensions.TryGetValue<T>(Avalonia.Input.IDataObject, System.String, out T)
+  fullName.vb: CarinaStudio.Input.DataObjectExtensions.TryGetValue(Of T)(Avalonia.Input.IDataObject, System.String, ByRef T)
+  nameWithType: DataObjectExtensions.TryGetValue<T>(IDataObject, String, out T)
+  nameWithType.vb: DataObjectExtensions.TryGetValue(Of T)(IDataObject, String, ByRef T)
 - uid: CarinaStudio.InternalStateCorruptedException
   name: InternalStateCorruptedException
   href: api/CarinaStudio.InternalStateCorruptedException.html
@@ -11540,6 +11642,12 @@ references:
   commentId: M:CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
   fullName: CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
   nameWithType: ScheduledAction.Reschedule(Int32)
+- uid: CarinaStudio.Threading.ScheduledAction.Reschedule(System.TimeSpan)
+  name: Reschedule(TimeSpan)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Reschedule_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Reschedule(System.TimeSpan)
+  fullName: CarinaStudio.Threading.ScheduledAction.Reschedule(System.TimeSpan)
+  nameWithType: ScheduledAction.Reschedule(TimeSpan)
 - uid: CarinaStudio.Threading.ScheduledAction.Reschedule*
   name: Reschedule
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Reschedule_
@@ -11553,6 +11661,12 @@ references:
   commentId: M:CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)
   fullName: CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)
   nameWithType: ScheduledAction.Schedule(Int32)
+- uid: CarinaStudio.Threading.ScheduledAction.Schedule(System.TimeSpan)
+  name: Schedule(TimeSpan)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Schedule_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.Schedule(System.TimeSpan)
+  fullName: CarinaStudio.Threading.ScheduledAction.Schedule(System.TimeSpan)
+  nameWithType: ScheduledAction.Schedule(TimeSpan)
 - uid: CarinaStudio.Threading.ScheduledAction.Schedule*
   name: Schedule
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Schedule_
@@ -12040,12 +12154,6 @@ references:
   commentId: M:CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)
   fullName: CarinaStudio.ViewModels.ViewModel.ViewModel(CarinaStudio.IApplication)
   nameWithType: ViewModel.ViewModel(IApplication)
-- uid: CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.ViewModels.ViewModel)
-  name: ViewModel(ViewModel)
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_ViewModels_ViewModel_
-  commentId: M:CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.ViewModels.ViewModel)
-  fullName: CarinaStudio.ViewModels.ViewModel.ViewModel(CarinaStudio.ViewModels.ViewModel)
-  nameWithType: ViewModel.ViewModel(ViewModel)
 - uid: CarinaStudio.ViewModels.ViewModel.#ctor*
   name: ViewModel
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel__ctor_
@@ -12137,6 +12245,12 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks
   nameWithType: ViewModel.HasNecessaryTasks
+- uid: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty
+  name: HasNecessaryTasksProperty
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasksProperty
+  commentId: F:CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty
+  fullName: CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty
+  nameWithType: ViewModel.HasNecessaryTasksProperty
 - uid: CarinaStudio.ViewModels.ViewModel.Id
   name: Id
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Id
@@ -12189,32 +12303,45 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated
   nameWithType: ViewModel.OnApplicationStringsUpdated
-- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
-  name: OnOwnedViewModelCreated(ViewModel)
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_CarinaStudio_ViewModels_ViewModel_
-  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
-  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated(CarinaStudio.ViewModels.ViewModel)
-  nameWithType: ViewModel.OnOwnedViewModelCreated(ViewModel)
-- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated*
-  name: OnOwnedViewModelCreated
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelCreated_
-  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)
+  name: OnOwnedViewModelAdded(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.OnOwnedViewModelAdded(ViewModel)
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded*
+  name: OnOwnedViewModelAdded
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded
   isSpec: "True"
-  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelCreated
-  nameWithType: ViewModel.OnOwnedViewModelCreated
-- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
-  name: OnOwnedViewModelDisposed(ViewModel)
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_CarinaStudio_ViewModels_ViewModel_
-  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
-  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed(CarinaStudio.ViewModels.ViewModel)
-  nameWithType: ViewModel.OnOwnedViewModelDisposed(ViewModel)
-- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed*
-  name: OnOwnedViewModelDisposed
-  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelDisposed_
-  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded
+  nameWithType: ViewModel.OnOwnedViewModelAdded
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)
+  name: OnOwnedViewModelRemoved(ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.OnOwnedViewModelRemoved(ViewModel)
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved*
+  name: OnOwnedViewModelRemoved
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved
   isSpec: "True"
-  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelDisposed
-  nameWithType: ViewModel.OnOwnedViewModelDisposed
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved
+  nameWithType: ViewModel.OnOwnedViewModelRemoved
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel,CarinaStudio.ViewModels.ViewModel)
+  name: OnOwnerChanged(ViewModel, ViewModel)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_CarinaStudio_ViewModels_ViewModel_CarinaStudio_ViewModels_ViewModel_
+  commentId: M:CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel,CarinaStudio.ViewModels.ViewModel)
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel, CarinaStudio.ViewModels.ViewModel)
+  nameWithType: ViewModel.OnOwnerChanged(ViewModel, ViewModel)
+- uid: CarinaStudio.ViewModels.ViewModel.OnOwnerChanged*
+  name: OnOwnerChanged
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.OnOwnerChanged
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.OnOwnerChanged
+  nameWithType: ViewModel.OnOwnerChanged
 - uid: CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)
   name: OnPropertyChanged(ObservableProperty, Object, Object)
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_
@@ -12286,6 +12413,12 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.Owner
   nameWithType: ViewModel.Owner
+- uid: CarinaStudio.ViewModels.ViewModel.OwnerProperty
+  name: OwnerProperty
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OwnerProperty
+  commentId: F:CarinaStudio.ViewModels.ViewModel.OwnerProperty
+  fullName: CarinaStudio.ViewModels.ViewModel.OwnerProperty
+  nameWithType: ViewModel.OwnerProperty
 - uid: CarinaStudio.ViewModels.ViewModel.PersistentState
   name: PersistentState
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PersistentState
@@ -12403,14 +12536,6 @@ references:
   fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).ViewModel(TApplication)
   nameWithType: ViewModel<TApplication>.ViewModel(TApplication)
   nameWithType.vb: ViewModel(Of TApplication).ViewModel(TApplication)
-- uid: CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel)
-  name: ViewModel(ViewModel)
-  href: api/CarinaStudio.ViewModels.ViewModel-1.html#CarinaStudio_ViewModels_ViewModel_1__ctor_CarinaStudio_ViewModels_ViewModel_
-  commentId: M:CarinaStudio.ViewModels.ViewModel`1.#ctor(CarinaStudio.ViewModels.ViewModel)
-  fullName: CarinaStudio.ViewModels.ViewModel<TApplication>.ViewModel(CarinaStudio.ViewModels.ViewModel)
-  fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).ViewModel(CarinaStudio.ViewModels.ViewModel)
-  nameWithType: ViewModel<TApplication>.ViewModel(ViewModel)
-  nameWithType.vb: ViewModel(Of TApplication).ViewModel(ViewModel)
 - uid: CarinaStudio.ViewModels.ViewModel`1.#ctor*
   name: ViewModel
   href: api/CarinaStudio.ViewModels.ViewModel-1.html#CarinaStudio_ViewModels_ViewModel_1__ctor_
@@ -12437,6 +12562,34 @@ references:
   fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).Application
   nameWithType: ViewModel<TApplication>.Application
   nameWithType.vb: ViewModel(Of TApplication).Application
+- uid: CarinaStudio.VIsualTree
+  name: CarinaStudio.VIsualTree
+  href: api/CarinaStudio.VIsualTree.html
+  commentId: N:CarinaStudio.VIsualTree
+  fullName: CarinaStudio.VIsualTree
+  nameWithType: CarinaStudio.VIsualTree
+- uid: CarinaStudio.VIsualTree.VisualExtensions
+  name: VisualExtensions
+  href: api/CarinaStudio.VIsualTree.VisualExtensions.html
+  commentId: T:CarinaStudio.VIsualTree.VisualExtensions
+  fullName: CarinaStudio.VIsualTree.VisualExtensions
+  nameWithType: VisualExtensions
+- uid: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName*
+  name: FindDescendantOfTypeAndName
+  href: api/CarinaStudio.VIsualTree.VisualExtensions.html#CarinaStudio_VIsualTree_VisualExtensions_FindDescendantOfTypeAndName_
+  commentId: Overload:CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName
+  isSpec: "True"
+  fullName: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName
+  nameWithType: VisualExtensions.FindDescendantOfTypeAndName
+- uid: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
+  name: FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
+  href: api/CarinaStudio.VIsualTree.VisualExtensions.html#CarinaStudio_VIsualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_VisualTree_IVisual_System_String_System_Boolean_
+  commentId: M:CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
+  name.vb: FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
+  fullName: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName<T>(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
+  fullName.vb: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName(Of T)(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
+  nameWithType: VisualExtensions.FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
+  nameWithType.vb: VisualExtensions.FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
 - uid: CarinaStudio.Windows.Input
   name: CarinaStudio.Windows.Input
   href: api/CarinaStudio.Windows.Input.html
