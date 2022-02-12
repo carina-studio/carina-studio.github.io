@@ -120,13 +120,13 @@
   
   
   <a id="CarinaStudio_Net_WebRequestStreamProvider__ctor_" data-uid="CarinaStudio.Net.WebRequestStreamProvider.#ctor*"></a>
-  <h4 id="CarinaStudio_Net_WebRequestStreamProvider__ctor_System_Uri_System_String_System_Net_ICredentials_" data-uid="CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials)">WebRequestStreamProvider(Uri, String, ICredentials)</h4>
+  <h4 id="CarinaStudio_Net_WebRequestStreamProvider__ctor_System_Uri_System_String_System_Net_ICredentials_System_Net_Cache_RequestCachePolicy_" data-uid="CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials,System.Net.Cache.RequestCachePolicy)">WebRequestStreamProvider(Uri, String, ICredentials, RequestCachePolicy)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Net.WebRequestStreamProvider.html">WebRequestStreamProvider</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WebRequestStreamProvider(Uri requestUri, string method = null, ICredentials credentials = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public WebRequestStreamProvider(Uri requestUri, string method = null, ICredentials credentials = null, RequestCachePolicy cachePolicy = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,6 +154,12 @@
         <td><span class="xref">System.Net.ICredentials</span></td>
         <td><span class="parametername">credentials</span></td>
         <td><p>Crdentials.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Cache.RequestCachePolicy</span></td>
+        <td><span class="parametername">cachePolicy</span></td>
+        <td><p>Cache policy.</p>
 </td>
       </tr>
     </tbody>

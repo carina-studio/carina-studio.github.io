@@ -79,13 +79,15 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
-    <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a></div>
-    <div class="level3"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html">BasePackageResolver</a></div>
-    <div class="level4"><span class="xref">FilePackageResolver</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html">BaseDisposableApplicationObject</a></div>
+    <div class="level3"><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a></div>
+    <div class="level4"><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html">BasePackageResolver</a></div>
+    <div class="level5"><span class="xref">FilePackageResolver</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a></div>
     <div><span class="xref">System.IDisposable</span></div>
@@ -126,13 +128,13 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Cancel">BaseUpdaterComponent.Cancel()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_CheckAccess">BaseUpdaterComponent.CheckAccess()</a>
-    </div>
-    <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Dispose_System_Boolean_">BaseUpdaterComponent.Dispose(Boolean)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Exception">BaseUpdaterComponent.Exception</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
@@ -156,19 +158,31 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_State">BaseUpdaterComponent.State</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_SynchronizationContext">BaseUpdaterComponent.SynchronizationContext</a>
-    </div>
-    <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_VerifyInitializing">BaseUpdaterComponent.VerifyInitializing()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose">BaseDisposableApplicationObject.Dispose()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_IsDisposed">BaseDisposableApplicationObject.IsDisposed</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_VerifyDisposed">BaseDisposableApplicationObject.VerifyDisposed()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Application">BaseApplicationObject.Application</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Settings">BaseApplicationObject.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -196,20 +210,20 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
   <h5 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FilePackageResolver : BasePackageResolver, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class FilePackageResolver : BasePackageResolver, IApplicationObject, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_System_String_System_String_System_Version_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)">FilePackageResolver(String, String, Version)</h4>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_CarinaStudio_IApplication_System_String_System_String_System_Version_" data-uid="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(CarinaStudio.IApplication,System.String,System.String,System.Version)">FilePackageResolver(IApplication, String, String, Version)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html">FilePackageResolver</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FilePackageResolver(string packageFilePath, string appName = null, Version packageVersion = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public FilePackageResolver(IApplication app, string packageFilePath, string appName = null, Version packageVersion = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,6 +235,12 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application.</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">packageFilePath</span></td>
@@ -324,6 +344,9 @@
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_System_Threading_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a></div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a>
   </div>

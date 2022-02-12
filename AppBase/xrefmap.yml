@@ -1079,12 +1079,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.BaseUpdaterComponent
   fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent
   nameWithType: BaseUpdaterComponent
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor
-  name: BaseUpdaterComponent()
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent__ctor
-  commentId: M:CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.BaseUpdaterComponent()
-  nameWithType: BaseUpdaterComponent.BaseUpdaterComponent()
+- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor(CarinaStudio.IApplication)
+  name: BaseUpdaterComponent(IApplication)
+  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.BaseUpdaterComponent(CarinaStudio.IApplication)
+  nameWithType: BaseUpdaterComponent.BaseUpdaterComponent(IApplication)
 - uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor*
   name: BaseUpdaterComponent
   href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent__ctor_
@@ -1105,19 +1105,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Cancel
   nameWithType: BaseUpdaterComponent.Cancel
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess
-  name: CheckAccess()
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_CheckAccess
-  commentId: M:CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess()
-  nameWithType: BaseUpdaterComponent.CheckAccess()
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess*
-  name: CheckAccess
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_CheckAccess_
-  commentId: Overload:CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess
-  isSpec: "True"
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.CheckAccess
-  nameWithType: BaseUpdaterComponent.CheckAccess
 - uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Dispose_System_Boolean_
@@ -1144,6 +1131,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Exception
   nameWithType: BaseUpdaterComponent.Exception
+- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
+  name: Logger
+  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger
+  commentId: P:CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
+  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
+  nameWithType: BaseUpdaterComponent.Logger
+- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger*
+  name: Logger
+  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger_
+  commentId: Overload:CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
+  nameWithType: BaseUpdaterComponent.Logger
 - uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.OnCompletedOrCancelled(System.Exception)
   name: OnCompletedOrCancelled(Exception)
   href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_
@@ -1241,19 +1241,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.State
   nameWithType: BaseUpdaterComponent.State
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext
-  name: SynchronizationContext
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_SynchronizationContext
-  commentId: P:CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext
-  nameWithType: BaseUpdaterComponent.SynchronizationContext
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext*
-  name: SynchronizationContext
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_SynchronizationContext_
-  commentId: Overload:CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext
-  isSpec: "True"
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.SynchronizationContext
-  nameWithType: BaseUpdaterComponent.SynchronizationContext
 - uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.ValidateParametersToStart
   name: ValidateParametersToStart()
   href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_ValidateParametersToStart
@@ -1292,12 +1279,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Installers.BasePackageInstaller
   fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller
   nameWithType: BasePackageInstaller
-- uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor
-  name: BasePackageInstaller()
-  href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor
-  commentId: M:CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor
-  fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.BasePackageInstaller()
-  nameWithType: BasePackageInstaller.BasePackageInstaller()
+- uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor(CarinaStudio.IApplication)
+  name: BasePackageInstaller(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.BasePackageInstaller(CarinaStudio.IApplication)
+  nameWithType: BasePackageInstaller.BasePackageInstaller(IApplication)
 - uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor*
   name: BasePackageInstaller
   href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_
@@ -1421,6 +1408,19 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller
   fullName: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller
   nameWithType: ZipPackageInstaller
+- uid: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.#ctor(CarinaStudio.IApplication)
+  name: ZipPackageInstaller(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.ZipPackageInstaller(CarinaStudio.IApplication)
+  nameWithType: ZipPackageInstaller.ZipPackageInstaller(IApplication)
+- uid: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.#ctor*
+  name: ZipPackageInstaller
+  href: api/CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller__ctor_
+  commentId: Overload:CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.ZipPackageInstaller
+  nameWithType: ZipPackageInstaller.ZipPackageInstaller
 - uid: CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.PerformOperationAsync(System.Threading.CancellationToken)
   name: PerformOperationAsync(CancellationToken)
   href: api/CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller_PerformOperationAsync_System_Threading_CancellationToken_
@@ -1517,12 +1517,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver
   fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver
   nameWithType: BasePackageResolver
-- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor
-  name: BasePackageResolver()
-  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor
-  commentId: M:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor
-  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.BasePackageResolver()
-  nameWithType: BasePackageResolver.BasePackageResolver()
+- uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor(CarinaStudio.IApplication)
+  name: BasePackageResolver(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.BasePackageResolver(CarinaStudio.IApplication)
+  nameWithType: BasePackageResolver.BasePackageResolver(IApplication)
 - uid: CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor*
   name: BasePackageResolver
   href: api/CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor_
@@ -1666,12 +1666,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver
   fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver
   nameWithType: FilePackageResolver
-- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)
-  name: FilePackageResolver(String, String, Version)
-  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_System_String_System_String_System_Version_
-  commentId: M:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(System.String,System.String,System.Version)
-  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.FilePackageResolver(System.String, System.String, System.Version)
-  nameWithType: FilePackageResolver.FilePackageResolver(String, String, Version)
+- uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(CarinaStudio.IApplication,System.String,System.String,System.Version)
+  name: FilePackageResolver(IApplication, String, String, Version)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_CarinaStudio_IApplication_System_String_System_String_System_Version_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor(CarinaStudio.IApplication,System.String,System.String,System.Version)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.FilePackageResolver(CarinaStudio.IApplication, System.String, System.String, System.Version)
+  nameWithType: FilePackageResolver.FilePackageResolver(IApplication, String, String, Version)
 - uid: CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.#ctor*
   name: FilePackageResolver
   href: api/CarinaStudio.AutoUpdate.Resolvers.FilePackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_FilePackageResolver__ctor_
@@ -1834,12 +1834,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver
   fullName: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver
   nameWithType: JsonPackageResolver
-- uid: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor
-  name: JsonPackageResolver()
-  href: api/CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor
-  commentId: M:CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor
-  fullName: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.JsonPackageResolver()
-  nameWithType: JsonPackageResolver.JsonPackageResolver()
+- uid: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor(CarinaStudio.IApplication)
+  name: JsonPackageResolver(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.JsonPackageResolver(CarinaStudio.IApplication)
+  nameWithType: JsonPackageResolver.JsonPackageResolver(IApplication)
 - uid: CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor*
   name: JsonPackageResolver
   href: api/CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_
@@ -1866,12 +1866,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver
   fullName: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver
   nameWithType: XmlPackageResolver
-- uid: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.#ctor
-  name: XmlPackageResolver()
-  href: api/CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_XmlPackageResolver__ctor
-  commentId: M:CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.#ctor
-  fullName: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.XmlPackageResolver()
-  nameWithType: XmlPackageResolver.XmlPackageResolver()
+- uid: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.#ctor(CarinaStudio.IApplication)
+  name: XmlPackageResolver(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_XmlPackageResolver__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.XmlPackageResolver(CarinaStudio.IApplication)
+  nameWithType: XmlPackageResolver.XmlPackageResolver(IApplication)
 - uid: CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.#ctor*
   name: XmlPackageResolver
   href: api/CarinaStudio.AutoUpdate.Resolvers.XmlPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_XmlPackageResolver__ctor_
@@ -1898,12 +1898,12 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Updater
   fullName: CarinaStudio.AutoUpdate.Updater
   nameWithType: Updater
-- uid: CarinaStudio.AutoUpdate.Updater.#ctor
-  name: Updater()
-  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater__ctor
-  commentId: M:CarinaStudio.AutoUpdate.Updater.#ctor
-  fullName: CarinaStudio.AutoUpdate.Updater.Updater()
-  nameWithType: Updater.Updater()
+- uid: CarinaStudio.AutoUpdate.Updater.#ctor(CarinaStudio.IApplication)
+  name: Updater(IApplication)
+  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.AutoUpdate.Updater.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.AutoUpdate.Updater.Updater(CarinaStudio.IApplication)
+  nameWithType: Updater.Updater(IApplication)
 - uid: CarinaStudio.AutoUpdate.Updater.#ctor*
   name: Updater
   href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater__ctor_
@@ -1937,19 +1937,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Updater.Cancel
   nameWithType: Updater.Cancel
-- uid: CarinaStudio.AutoUpdate.Updater.CheckAccess
-  name: CheckAccess()
-  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_CheckAccess
-  commentId: M:CarinaStudio.AutoUpdate.Updater.CheckAccess
-  fullName: CarinaStudio.AutoUpdate.Updater.CheckAccess()
-  nameWithType: Updater.CheckAccess()
-- uid: CarinaStudio.AutoUpdate.Updater.CheckAccess*
-  name: CheckAccess
-  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_CheckAccess_
-  commentId: Overload:CarinaStudio.AutoUpdate.Updater.CheckAccess
-  isSpec: "True"
-  fullName: CarinaStudio.AutoUpdate.Updater.CheckAccess
-  nameWithType: Updater.CheckAccess
 - uid: CarinaStudio.AutoUpdate.Updater.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_Dispose_System_Boolean_
@@ -2138,19 +2125,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Updater.State
   nameWithType: Updater.State
-- uid: CarinaStudio.AutoUpdate.Updater.SynchronizationContext
-  name: SynchronizationContext
-  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_SynchronizationContext
-  commentId: P:CarinaStudio.AutoUpdate.Updater.SynchronizationContext
-  fullName: CarinaStudio.AutoUpdate.Updater.SynchronizationContext
-  nameWithType: Updater.SynchronizationContext
-- uid: CarinaStudio.AutoUpdate.Updater.SynchronizationContext*
-  name: SynchronizationContext
-  href: api/CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_SynchronizationContext_
-  commentId: Overload:CarinaStudio.AutoUpdate.Updater.SynchronizationContext
-  isSpec: "True"
-  fullName: CarinaStudio.AutoUpdate.Updater.SynchronizationContext
-  nameWithType: Updater.SynchronizationContext
 - uid: CarinaStudio.AutoUpdate.UpdaterComponentExtensions
   name: UpdaterComponentExtensions
   href: api/CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html
@@ -3068,6 +3042,126 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.BaseDisposable.VerifyDisposed
   nameWithType: BaseDisposable.VerifyDisposed
+- uid: CarinaStudio.BaseDisposableApplicationObject
+  name: BaseDisposableApplicationObject
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html
+  commentId: T:CarinaStudio.BaseDisposableApplicationObject
+  fullName: CarinaStudio.BaseDisposableApplicationObject
+  nameWithType: BaseDisposableApplicationObject
+- uid: CarinaStudio.BaseDisposableApplicationObject.#ctor(CarinaStudio.IApplication)
+  name: BaseDisposableApplicationObject(IApplication)
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject__ctor_CarinaStudio_IApplication_
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject.#ctor(CarinaStudio.IApplication)
+  fullName: CarinaStudio.BaseDisposableApplicationObject.BaseDisposableApplicationObject(CarinaStudio.IApplication)
+  nameWithType: BaseDisposableApplicationObject.BaseDisposableApplicationObject(IApplication)
+- uid: CarinaStudio.BaseDisposableApplicationObject.#ctor*
+  name: BaseDisposableApplicationObject
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject__ctor_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject.BaseDisposableApplicationObject
+  nameWithType: BaseDisposableApplicationObject.BaseDisposableApplicationObject
+- uid: CarinaStudio.BaseDisposableApplicationObject.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject.Dispose
+  fullName: CarinaStudio.BaseDisposableApplicationObject.Dispose()
+  nameWithType: BaseDisposableApplicationObject.Dispose()
+- uid: CarinaStudio.BaseDisposableApplicationObject.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject.Dispose(System.Boolean)
+  fullName: CarinaStudio.BaseDisposableApplicationObject.Dispose(System.Boolean)
+  nameWithType: BaseDisposableApplicationObject.Dispose(Boolean)
+- uid: CarinaStudio.BaseDisposableApplicationObject.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject.Dispose
+  nameWithType: BaseDisposableApplicationObject.Dispose
+- uid: CarinaStudio.BaseDisposableApplicationObject.Finalize
+  name: Finalize()
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Finalize
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject.Finalize
+  fullName: CarinaStudio.BaseDisposableApplicationObject.Finalize()
+  nameWithType: BaseDisposableApplicationObject.Finalize()
+- uid: CarinaStudio.BaseDisposableApplicationObject.Finalize*
+  name: Finalize
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Finalize_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject.Finalize
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject.Finalize
+  nameWithType: BaseDisposableApplicationObject.Finalize
+- uid: CarinaStudio.BaseDisposableApplicationObject.IsDisposed
+  name: IsDisposed
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_IsDisposed
+  commentId: P:CarinaStudio.BaseDisposableApplicationObject.IsDisposed
+  fullName: CarinaStudio.BaseDisposableApplicationObject.IsDisposed
+  nameWithType: BaseDisposableApplicationObject.IsDisposed
+- uid: CarinaStudio.BaseDisposableApplicationObject.IsDisposed*
+  name: IsDisposed
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_IsDisposed_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject.IsDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject.IsDisposed
+  nameWithType: BaseDisposableApplicationObject.IsDisposed
+- uid: CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed
+  name: VerifyDisposed()
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_VerifyDisposed
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed
+  fullName: CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed()
+  nameWithType: BaseDisposableApplicationObject.VerifyDisposed()
+- uid: CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed*
+  name: VerifyDisposed
+  href: api/CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_VerifyDisposed_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject.VerifyDisposed
+  nameWithType: BaseDisposableApplicationObject.VerifyDisposed
+- uid: CarinaStudio.BaseDisposableApplicationObject`1
+  name: BaseDisposableApplicationObject<TApp>
+  href: api/CarinaStudio.BaseDisposableApplicationObject-1.html
+  commentId: T:CarinaStudio.BaseDisposableApplicationObject`1
+  name.vb: BaseDisposableApplicationObject(Of TApp)
+  fullName: CarinaStudio.BaseDisposableApplicationObject<TApp>
+  fullName.vb: CarinaStudio.BaseDisposableApplicationObject(Of TApp)
+  nameWithType: BaseDisposableApplicationObject<TApp>
+  nameWithType.vb: BaseDisposableApplicationObject(Of TApp)
+- uid: CarinaStudio.BaseDisposableApplicationObject`1.#ctor(`0)
+  name: BaseDisposableApplicationObject(TApp)
+  href: api/CarinaStudio.BaseDisposableApplicationObject-1.html#CarinaStudio_BaseDisposableApplicationObject_1__ctor__0_
+  commentId: M:CarinaStudio.BaseDisposableApplicationObject`1.#ctor(`0)
+  fullName: CarinaStudio.BaseDisposableApplicationObject<TApp>.BaseDisposableApplicationObject(TApp)
+  fullName.vb: CarinaStudio.BaseDisposableApplicationObject(Of TApp).BaseDisposableApplicationObject(TApp)
+  nameWithType: BaseDisposableApplicationObject<TApp>.BaseDisposableApplicationObject(TApp)
+  nameWithType.vb: BaseDisposableApplicationObject(Of TApp).BaseDisposableApplicationObject(TApp)
+- uid: CarinaStudio.BaseDisposableApplicationObject`1.#ctor*
+  name: BaseDisposableApplicationObject
+  href: api/CarinaStudio.BaseDisposableApplicationObject-1.html#CarinaStudio_BaseDisposableApplicationObject_1__ctor_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject<TApp>.BaseDisposableApplicationObject
+  fullName.vb: CarinaStudio.BaseDisposableApplicationObject(Of TApp).BaseDisposableApplicationObject
+  nameWithType: BaseDisposableApplicationObject<TApp>.BaseDisposableApplicationObject
+  nameWithType.vb: BaseDisposableApplicationObject(Of TApp).BaseDisposableApplicationObject
+- uid: CarinaStudio.BaseDisposableApplicationObject`1.Application
+  name: Application
+  href: api/CarinaStudio.BaseDisposableApplicationObject-1.html#CarinaStudio_BaseDisposableApplicationObject_1_Application
+  commentId: P:CarinaStudio.BaseDisposableApplicationObject`1.Application
+  fullName: CarinaStudio.BaseDisposableApplicationObject<TApp>.Application
+  fullName.vb: CarinaStudio.BaseDisposableApplicationObject(Of TApp).Application
+  nameWithType: BaseDisposableApplicationObject<TApp>.Application
+  nameWithType.vb: BaseDisposableApplicationObject(Of TApp).Application
+- uid: CarinaStudio.BaseDisposableApplicationObject`1.Application*
+  name: Application
+  href: api/CarinaStudio.BaseDisposableApplicationObject-1.html#CarinaStudio_BaseDisposableApplicationObject_1_Application_
+  commentId: Overload:CarinaStudio.BaseDisposableApplicationObject`1.Application
+  isSpec: "True"
+  fullName: CarinaStudio.BaseDisposableApplicationObject<TApp>.Application
+  fullName.vb: CarinaStudio.BaseDisposableApplicationObject(Of TApp).Application
+  nameWithType: BaseDisposableApplicationObject<TApp>.Application
+  nameWithType.vb: BaseDisposableApplicationObject(Of TApp).Application
 - uid: CarinaStudio.BaseShareableDisposable`1
   name: BaseShareableDisposable<TSelf>
   href: api/CarinaStudio.BaseShareableDisposable-1.html
@@ -7324,6 +7418,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Configuration.SettingKey.Equals
   nameWithType: SettingKey.Equals
+- uid: CarinaStudio.Configuration.SettingKey.GetDefinedKeys*
+  name: GetDefinedKeys
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_GetDefinedKeys_
+  commentId: Overload:CarinaStudio.Configuration.SettingKey.GetDefinedKeys
+  isSpec: "True"
+  fullName: CarinaStudio.Configuration.SettingKey.GetDefinedKeys
+  nameWithType: SettingKey.GetDefinedKeys
+- uid: CarinaStudio.Configuration.SettingKey.GetDefinedKeys``1
+  name: GetDefinedKeys<T>()
+  href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_GetDefinedKeys__1
+  commentId: M:CarinaStudio.Configuration.SettingKey.GetDefinedKeys``1
+  name.vb: GetDefinedKeys(Of T)()
+  fullName: CarinaStudio.Configuration.SettingKey.GetDefinedKeys<T>()
+  fullName.vb: CarinaStudio.Configuration.SettingKey.GetDefinedKeys(Of T)()
+  nameWithType: SettingKey.GetDefinedKeys<T>()
+  nameWithType.vb: SettingKey.GetDefinedKeys(Of T)()
 - uid: CarinaStudio.Configuration.SettingKey.GetHashCode
   name: GetHashCode()
   href: api/CarinaStudio.Configuration.SettingKey.html#CarinaStudio_Configuration_SettingKey_GetHashCode
@@ -10519,12 +10629,12 @@ references:
   commentId: T:CarinaStudio.Net.WebRequestStreamProvider
   fullName: CarinaStudio.Net.WebRequestStreamProvider
   nameWithType: WebRequestStreamProvider
-- uid: CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials)
-  name: WebRequestStreamProvider(Uri, String, ICredentials)
-  href: api/CarinaStudio.Net.WebRequestStreamProvider.html#CarinaStudio_Net_WebRequestStreamProvider__ctor_System_Uri_System_String_System_Net_ICredentials_
-  commentId: M:CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials)
-  fullName: CarinaStudio.Net.WebRequestStreamProvider.WebRequestStreamProvider(System.Uri, System.String, System.Net.ICredentials)
-  nameWithType: WebRequestStreamProvider.WebRequestStreamProvider(Uri, String, ICredentials)
+- uid: CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials,System.Net.Cache.RequestCachePolicy)
+  name: WebRequestStreamProvider(Uri, String, ICredentials, RequestCachePolicy)
+  href: api/CarinaStudio.Net.WebRequestStreamProvider.html#CarinaStudio_Net_WebRequestStreamProvider__ctor_System_Uri_System_String_System_Net_ICredentials_System_Net_Cache_RequestCachePolicy_
+  commentId: M:CarinaStudio.Net.WebRequestStreamProvider.#ctor(System.Uri,System.String,System.Net.ICredentials,System.Net.Cache.RequestCachePolicy)
+  fullName: CarinaStudio.Net.WebRequestStreamProvider.WebRequestStreamProvider(System.Uri, System.String, System.Net.ICredentials, System.Net.Cache.RequestCachePolicy)
+  nameWithType: WebRequestStreamProvider.WebRequestStreamProvider(Uri, String, ICredentials, RequestCachePolicy)
 - uid: CarinaStudio.Net.WebRequestStreamProvider.#ctor*
   name: WebRequestStreamProvider
   href: api/CarinaStudio.Net.WebRequestStreamProvider.html#CarinaStudio_Net_WebRequestStreamProvider__ctor_
@@ -11086,6 +11196,45 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Platform.IsMacOS
   nameWithType: Platform.IsMacOS
+- uid: CarinaStudio.Platform.IsNotLinux
+  name: IsNotLinux
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotLinux
+  commentId: P:CarinaStudio.Platform.IsNotLinux
+  fullName: CarinaStudio.Platform.IsNotLinux
+  nameWithType: Platform.IsNotLinux
+- uid: CarinaStudio.Platform.IsNotLinux*
+  name: IsNotLinux
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotLinux_
+  commentId: Overload:CarinaStudio.Platform.IsNotLinux
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsNotLinux
+  nameWithType: Platform.IsNotLinux
+- uid: CarinaStudio.Platform.IsNotMacOS
+  name: IsNotMacOS
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotMacOS
+  commentId: P:CarinaStudio.Platform.IsNotMacOS
+  fullName: CarinaStudio.Platform.IsNotMacOS
+  nameWithType: Platform.IsNotMacOS
+- uid: CarinaStudio.Platform.IsNotMacOS*
+  name: IsNotMacOS
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotMacOS_
+  commentId: Overload:CarinaStudio.Platform.IsNotMacOS
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsNotMacOS
+  nameWithType: Platform.IsNotMacOS
+- uid: CarinaStudio.Platform.IsNotWindows
+  name: IsNotWindows
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotWindows
+  commentId: P:CarinaStudio.Platform.IsNotWindows
+  fullName: CarinaStudio.Platform.IsNotWindows
+  nameWithType: Platform.IsNotWindows
+- uid: CarinaStudio.Platform.IsNotWindows*
+  name: IsNotWindows
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsNotWindows_
+  commentId: Overload:CarinaStudio.Platform.IsNotWindows
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.IsNotWindows
+  nameWithType: Platform.IsNotWindows
 - uid: CarinaStudio.Platform.IsOpeningFileManagerSupported
   name: IsOpeningFileManagerSupported
   href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_IsOpeningFileManagerSupported
@@ -12438,6 +12587,22 @@ references:
   commentId: E:CarinaStudio.ViewModels.ViewModel.PropertyChanged
   fullName: CarinaStudio.ViewModels.ViewModel.PropertyChanged
   nameWithType: ViewModel.PropertyChanged
+- uid: CarinaStudio.ViewModels.ViewModel.ResetValue*
+  name: ResetValue
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ResetValue_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.ResetValue
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.ResetValue
+  nameWithType: ViewModel.ResetValue
+- uid: CarinaStudio.ViewModels.ViewModel.ResetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name: ResetValue<T>(ObservableProperty<T>)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_ResetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__
+  commentId: M:CarinaStudio.ViewModels.ViewModel.ResetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})
+  name.vb: ResetValue(Of T)(ObservableProperty(Of T))
+  fullName: CarinaStudio.ViewModels.ViewModel.ResetValue<T>(CarinaStudio.ViewModels.ObservableProperty<T>)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel.ResetValue(Of T)(CarinaStudio.ViewModels.ObservableProperty(Of T))
+  nameWithType: ViewModel.ResetValue<T>(ObservableProperty<T>)
+  nameWithType.vb: ViewModel.ResetValue(Of T)(ObservableProperty(Of T))
 - uid: CarinaStudio.ViewModels.ViewModel.Settings
   name: Settings
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Settings
@@ -12562,32 +12727,32 @@ references:
   fullName.vb: CarinaStudio.ViewModels.ViewModel(Of TApplication).Application
   nameWithType: ViewModel<TApplication>.Application
   nameWithType.vb: ViewModel(Of TApplication).Application
-- uid: CarinaStudio.VIsualTree
-  name: CarinaStudio.VIsualTree
-  href: api/CarinaStudio.VIsualTree.html
-  commentId: N:CarinaStudio.VIsualTree
-  fullName: CarinaStudio.VIsualTree
-  nameWithType: CarinaStudio.VIsualTree
-- uid: CarinaStudio.VIsualTree.VisualExtensions
+- uid: CarinaStudio.VisualTree
+  name: CarinaStudio.VisualTree
+  href: api/CarinaStudio.VisualTree.html
+  commentId: N:CarinaStudio.VisualTree
+  fullName: CarinaStudio.VisualTree
+  nameWithType: CarinaStudio.VisualTree
+- uid: CarinaStudio.VisualTree.VisualExtensions
   name: VisualExtensions
-  href: api/CarinaStudio.VIsualTree.VisualExtensions.html
-  commentId: T:CarinaStudio.VIsualTree.VisualExtensions
-  fullName: CarinaStudio.VIsualTree.VisualExtensions
+  href: api/CarinaStudio.VisualTree.VisualExtensions.html
+  commentId: T:CarinaStudio.VisualTree.VisualExtensions
+  fullName: CarinaStudio.VisualTree.VisualExtensions
   nameWithType: VisualExtensions
-- uid: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName*
+- uid: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName*
   name: FindDescendantOfTypeAndName
-  href: api/CarinaStudio.VIsualTree.VisualExtensions.html#CarinaStudio_VIsualTree_VisualExtensions_FindDescendantOfTypeAndName_
-  commentId: Overload:CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName
+  href: api/CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName_
+  commentId: Overload:CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName
   isSpec: "True"
-  fullName: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName
+  fullName: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName
   nameWithType: VisualExtensions.FindDescendantOfTypeAndName
-- uid: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
+- uid: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
   name: FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
-  href: api/CarinaStudio.VIsualTree.VisualExtensions.html#CarinaStudio_VIsualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_VisualTree_IVisual_System_String_System_Boolean_
-  commentId: M:CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
+  href: api/CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_VisualTree_IVisual_System_String_System_Boolean_
+  commentId: M:CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Avalonia.VisualTree.IVisual,System.String,System.Boolean)
   name.vb: FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
-  fullName: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName<T>(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
-  fullName.vb: CarinaStudio.VIsualTree.VisualExtensions.FindDescendantOfTypeAndName(Of T)(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
+  fullName: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName<T>(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
+  fullName.vb: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName(Of T)(Avalonia.VisualTree.IVisual, System.String, System.Boolean)
   nameWithType: VisualExtensions.FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
   nameWithType.vb: VisualExtensions.FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
 - uid: CarinaStudio.Windows.Input

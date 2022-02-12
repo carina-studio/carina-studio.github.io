@@ -79,11 +79,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
-    <div class="level2"><span class="xref">Updater</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html">BaseDisposableApplicationObject</a></div>
+    <div class="level3"><span class="xref">Updater</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
     <div><span class="xref">System.IDisposable</span></div>
     <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
@@ -92,13 +94,28 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose">BaseDisposableApplicationObject.Dispose()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_IsDisposed">BaseDisposableApplicationObject.IsDisposed</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
+      <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_VerifyDisposed">BaseDisposableApplicationObject.VerifyDisposed()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Application">BaseApplicationObject.Application</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Settings">BaseApplicationObject.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -126,21 +143,39 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
   <h5 id="CarinaStudio_AutoUpdate_Updater_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Updater : BaseDisposable, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Updater : BaseDisposableApplicationObject, IApplicationObject, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="CarinaStudio_AutoUpdate_Updater__ctor_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater__ctor" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor">Updater()</h4>
+  <h4 id="CarinaStudio_AutoUpdate_Updater__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor(CarinaStudio.IApplication)">Updater(IApplication)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Updater()</code></pre>
+    <pre><code class="lang-csharp hljs">public Updater(IApplication app)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
+        <td><span class="parametername">app</span></td>
+        <td><p>Application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -432,32 +467,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CarinaStudio_AutoUpdate_Updater_SynchronizationContext_" data-uid="CarinaStudio.AutoUpdate.Updater.SynchronizationContext*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_SynchronizationContext" data-uid="CarinaStudio.AutoUpdate.Updater.SynchronizationContext">SynchronizationContext</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_SynchronizationContext">SynchronizationContext</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -483,33 +492,6 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if cancellation has been accepted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_AutoUpdate_Updater_CheckAccess_" data-uid="CarinaStudio.AutoUpdate.Updater.CheckAccess*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_CheckAccess" data-uid="CarinaStudio.AutoUpdate.Updater.CheckAccess">CheckAccess()</h4>
-  <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if current thread is the thread which object depends on.</p>
 </td>
       </tr>
     </tbody>
@@ -544,7 +526,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_System_Boolean_">BaseDisposable.Dispose(Boolean)</a></div>
+  <div><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose_System_Boolean_">BaseDisposableApplicationObject.Dispose(Boolean)</a></div>
   
   
   <a id="CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_" data-uid="CarinaStudio.AutoUpdate.Updater.OnPropertyChanged*"></a>
@@ -674,6 +656,9 @@
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
   <div>
       <span class="xref">System.IDisposable</span>
   </div>
