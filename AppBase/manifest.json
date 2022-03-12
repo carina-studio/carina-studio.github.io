@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.Configuration.SettingsExtensions.html",
-          "hash": "i47uhzFPzMi5XZQQiQSIPhGrAU0ddlmMmZJfe+4JHmw="
+          "hash": "FJ2tZWGdXV4TqN2F/a9nK+tC74ucmDliyRQgDxDUTtc="
         }
       },
       "is_incremental": false,
@@ -1090,6 +1090,30 @@
         ".html": {
           "relative_path": "api/CarinaStudio.DisposableExtensions.html",
           "hash": "eHvA3Ud/kPUhPfJw+kVuN1685k7PBf/+t23zHFfLtd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html",
+          "hash": "y7eAL6upCuN1EC9sko80VsivPSlyRqydkmgm7O7vtmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.ForwardedObservableBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.ForwardedObservableBoolean.html",
+          "hash": "5qdA+Ni1MOqMuYxTzZSKCfjwVhtBY2edQpqSJfF8gvI="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.MutableObservableBoolean.html",
-          "hash": "MlE790RZo7IgGvz1nHvGVR6tiZfsLVtAZ5MVPeFzy2g="
+          "hash": "LyH3YruoivqM5iEnhpW02z60XfezMG1qjuBdyrXHbe4="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.MutableObservableInt32.html",
-          "hash": "/ynKdlZvZWhtYYuhmSmyeccgvtwXeUpMkx+X9pYTgpc="
+          "hash": "ib/hxcHmQWTqIearNmav2gkCSF1AEgL/+J0n1d9I0zs="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.MutableObservableInt64.html",
-          "hash": "dGfop2gVzUqM8ptr5DY6+W61yUc3iN6Yy2ykowpfjGg="
+          "hash": "A9xY2YK0T3prVl0tCxci2xzDyT3Nu8JPVAWab7ZUUww="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.MutableObservableString.html",
-          "hash": "NtDpGzzMzsXQwYmo4kYpA0OBs92+xd9u3ZguajiCUaA="
+          "hash": "33Y+W2nRHoZ3c+E/PHQ3oCFZBQqjC8cB0JmSya60hjs="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.ObservableValue-1.html",
-          "hash": "LMVen2ia+6QkdgLuHVenIzq/S9Sk7CDiGSdNcx9waXk="
+          "hash": "B7wWQ1hwZSKdur2Fm7R1Zirny+QN3VWg5H4H1apeBWk="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CarinaStudio.html",
-          "hash": "LC0evXLl3uPRGusNeQoMqBFxVNHtwpyIdQgo5Dn3yzI="
+          "hash": "HMJjJd40QqzJrXJziDEouuIHcjh9/xqjIXavhkasdTE="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "YKfTAO8Yga/m3KLWA6eup78eyeS42j08d0AXGbBRZVQ="
+          "hash": "H590pFQDA7ZMcxiWDtslM8x3iy0UzeLzL8zATMV+jko="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2176,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 157,
+          "total_file_count": 159,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

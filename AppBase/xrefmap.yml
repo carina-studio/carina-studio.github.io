@@ -8926,6 +8926,137 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.Use(Of T, R)(T, System.Func(Of T, R))
   nameWithType: DisposableExtensions.Use<T, R>(T, Func<T, R>)
   nameWithType.vb: DisposableExtensions.Use(Of T, R)(T, Func(Of T, R))
+- uid: CarinaStudio.ForwardedObservableBoolean
+  name: ForwardedObservableBoolean
+  href: api/CarinaStudio.ForwardedObservableBoolean.html
+  commentId: T:CarinaStudio.ForwardedObservableBoolean
+  fullName: CarinaStudio.ForwardedObservableBoolean
+  nameWithType: ForwardedObservableBoolean
+- uid: CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean)
+  name: ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean)
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean)
+  fullName: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean(CarinaStudio.ForwardedObservableBoolean.CombinationMode, System.Boolean)
+  nameWithType: ForwardedObservableBoolean.ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean)
+- uid: CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})
+  name: ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IEnumerable<IObservable<Boolean>>)
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_System_Collections_Generic_IEnumerable_System_IObservable_System_Boolean___
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})
+  name.vb: ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IEnumerable(Of IObservable(Of Boolean)))
+  fullName: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean(CarinaStudio.ForwardedObservableBoolean.CombinationMode, System.Boolean, System.Collections.Generic.IEnumerable<System.IObservable<System.Boolean>>)
+  fullName.vb: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean(CarinaStudio.ForwardedObservableBoolean.CombinationMode, System.Boolean, System.Collections.Generic.IEnumerable(Of System.IObservable(Of System.Boolean)))
+  nameWithType: ForwardedObservableBoolean.ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IEnumerable<IObservable<Boolean>>)
+  nameWithType.vb: ForwardedObservableBoolean.ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IEnumerable(Of IObservable(Of Boolean)))
+- uid: CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.IObservable{System.Boolean}[])
+  name: ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IObservable<Boolean>[])
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_System_IObservable_System_Boolean____
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.IObservable{System.Boolean}[])
+  name.vb: ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IObservable(Of Boolean)())
+  fullName: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean(CarinaStudio.ForwardedObservableBoolean.CombinationMode, System.Boolean, System.IObservable<System.Boolean>[])
+  fullName.vb: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean(CarinaStudio.ForwardedObservableBoolean.CombinationMode, System.Boolean, System.IObservable(Of System.Boolean)())
+  nameWithType: ForwardedObservableBoolean.ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IObservable<Boolean>[])
+  nameWithType.vb: ForwardedObservableBoolean.ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IObservable(Of Boolean)())
+- uid: CarinaStudio.ForwardedObservableBoolean.#ctor*
+  name: ForwardedObservableBoolean
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean__ctor_
+  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.ForwardedObservableBoolean.ForwardedObservableBoolean
+  nameWithType: ForwardedObservableBoolean.ForwardedObservableBoolean
+- uid: CarinaStudio.ForwardedObservableBoolean.Attach(System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})
+  name: Attach(IEnumerable<IObservable<Boolean>>)
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Attach_System_Collections_Generic_IEnumerable_System_IObservable_System_Boolean___
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.Attach(System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})
+  name.vb: Attach(IEnumerable(Of IObservable(Of Boolean)))
+  fullName: CarinaStudio.ForwardedObservableBoolean.Attach(System.Collections.Generic.IEnumerable<System.IObservable<System.Boolean>>)
+  fullName.vb: CarinaStudio.ForwardedObservableBoolean.Attach(System.Collections.Generic.IEnumerable(Of System.IObservable(Of System.Boolean)))
+  nameWithType: ForwardedObservableBoolean.Attach(IEnumerable<IObservable<Boolean>>)
+  nameWithType.vb: ForwardedObservableBoolean.Attach(IEnumerable(Of IObservable(Of Boolean)))
+- uid: CarinaStudio.ForwardedObservableBoolean.Attach(System.IObservable{System.Boolean}[])
+  name: Attach(IObservable<Boolean>[])
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Attach_System_IObservable_System_Boolean____
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.Attach(System.IObservable{System.Boolean}[])
+  name.vb: Attach(IObservable(Of Boolean)())
+  fullName: CarinaStudio.ForwardedObservableBoolean.Attach(System.IObservable<System.Boolean>[])
+  fullName.vb: CarinaStudio.ForwardedObservableBoolean.Attach(System.IObservable(Of System.Boolean)())
+  nameWithType: ForwardedObservableBoolean.Attach(IObservable<Boolean>[])
+  nameWithType.vb: ForwardedObservableBoolean.Attach(IObservable(Of Boolean)())
+- uid: CarinaStudio.ForwardedObservableBoolean.Attach*
+  name: Attach
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Attach_
+  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.Attach
+  isSpec: "True"
+  fullName: CarinaStudio.ForwardedObservableBoolean.Attach
+  nameWithType: ForwardedObservableBoolean.Attach
+- uid: CarinaStudio.ForwardedObservableBoolean.CombinationMode
+  name: ForwardedObservableBoolean.CombinationMode
+  href: api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html
+  commentId: T:CarinaStudio.ForwardedObservableBoolean.CombinationMode
+  fullName: CarinaStudio.ForwardedObservableBoolean.CombinationMode
+  nameWithType: ForwardedObservableBoolean.CombinationMode
+- uid: CarinaStudio.ForwardedObservableBoolean.CombinationMode.And
+  name: And
+  href: api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html#CarinaStudio_ForwardedObservableBoolean_CombinationMode_And
+  commentId: F:CarinaStudio.ForwardedObservableBoolean.CombinationMode.And
+  fullName: CarinaStudio.ForwardedObservableBoolean.CombinationMode.And
+  nameWithType: ForwardedObservableBoolean.CombinationMode.And
+- uid: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nand
+  name: Nand
+  href: api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html#CarinaStudio_ForwardedObservableBoolean_CombinationMode_Nand
+  commentId: F:CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nand
+  fullName: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nand
+  nameWithType: ForwardedObservableBoolean.CombinationMode.Nand
+- uid: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nor
+  name: Nor
+  href: api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html#CarinaStudio_ForwardedObservableBoolean_CombinationMode_Nor
+  commentId: F:CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nor
+  fullName: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Nor
+  nameWithType: ForwardedObservableBoolean.CombinationMode.Nor
+- uid: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Or
+  name: Or
+  href: api/CarinaStudio.ForwardedObservableBoolean.CombinationMode.html#CarinaStudio_ForwardedObservableBoolean_CombinationMode_Or
+  commentId: F:CarinaStudio.ForwardedObservableBoolean.CombinationMode.Or
+  fullName: CarinaStudio.ForwardedObservableBoolean.CombinationMode.Or
+  nameWithType: ForwardedObservableBoolean.CombinationMode.Or
+- uid: CarinaStudio.ForwardedObservableBoolean.DefaultValue
+  name: DefaultValue
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_DefaultValue
+  commentId: P:CarinaStudio.ForwardedObservableBoolean.DefaultValue
+  fullName: CarinaStudio.ForwardedObservableBoolean.DefaultValue
+  nameWithType: ForwardedObservableBoolean.DefaultValue
+- uid: CarinaStudio.ForwardedObservableBoolean.DefaultValue*
+  name: DefaultValue
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_DefaultValue_
+  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.DefaultValue
+  isSpec: "True"
+  fullName: CarinaStudio.ForwardedObservableBoolean.DefaultValue
+  nameWithType: ForwardedObservableBoolean.DefaultValue
+- uid: CarinaStudio.ForwardedObservableBoolean.Detach
+  name: Detach()
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Detach
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.Detach
+  fullName: CarinaStudio.ForwardedObservableBoolean.Detach()
+  nameWithType: ForwardedObservableBoolean.Detach()
+- uid: CarinaStudio.ForwardedObservableBoolean.Detach*
+  name: Detach
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Detach_
+  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.Detach
+  isSpec: "True"
+  fullName: CarinaStudio.ForwardedObservableBoolean.Detach
+  nameWithType: ForwardedObservableBoolean.Detach
+- uid: CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
+  name: Equals(Boolean)
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Equals_System_Boolean_
+  commentId: M:CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
+  fullName: CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
+  nameWithType: ForwardedObservableBoolean.Equals(Boolean)
+- uid: CarinaStudio.ForwardedObservableBoolean.Equals*
+  name: Equals
+  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Equals_
+  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.Equals
+  isSpec: "True"
+  fullName: CarinaStudio.ForwardedObservableBoolean.Equals
+  nameWithType: ForwardedObservableBoolean.Equals
 - uid: CarinaStudio.Global
   name: Global
   href: api/CarinaStudio.Global.html

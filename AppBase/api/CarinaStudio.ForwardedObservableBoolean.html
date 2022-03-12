@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MutableObservableBoolean
+    <title>Class ForwardedObservableBoolean
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MutableObservableBoolean
+    <meta name="title" content="Class ForwardedObservableBoolean
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,20 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.MutableObservableBoolean">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.ForwardedObservableBoolean">
   
   
-  <h1 id="CarinaStudio_MutableObservableBoolean" data-uid="CarinaStudio.MutableObservableBoolean" class="text-break">Class MutableObservableBoolean
+  <h1 id="CarinaStudio_ForwardedObservableBoolean" data-uid="CarinaStudio.ForwardedObservableBoolean" class="text-break">Class ForwardedObservableBoolean
   </h1>
-  <div class="markdown level0 summary"><p>Specific <a class="xref" href="CarinaStudio.MutableObservableValue-1.html">MutableObservableValue&lt;T&gt;</a> for <span class="xref">System.Boolean</span> value.</p>
+  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.ObservableValue-1.html">ObservableValue&lt;T&gt;</a> which forwards values from other <span class="xref">System.IObservable&lt;T&gt;</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="CarinaStudio.ObservableValue-1.html">ObservableValue</a>&lt;<span class="xref">System.Boolean</span>&gt;</div>
-    <div class="level2"><a class="xref" href="CarinaStudio.MutableObservableValue-1.html">MutableObservableValue</a>&lt;<span class="xref">System.Boolean</span>&gt;</div>
-    <div class="level3"><span class="xref">MutableObservableBoolean</span></div>
+    <div class="level2"><span class="xref">ForwardedObservableBoolean</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -90,9 +89,6 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CarinaStudio.MutableObservableValue-1.html#CarinaStudio_MutableObservableValue_1_Update__0_">MutableObservableValue&lt;Boolean&gt;.Update(Boolean)</a>
-    </div>
     <div>
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Object_">ObservableValue&lt;Boolean&gt;.Equals(Object)</a>
     </div>
@@ -132,22 +128,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_MutableObservableBoolean_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_ForwardedObservableBoolean_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MutableObservableBoolean : MutableObservableValue&lt;bool&gt;, IEquatable&lt;bool&gt;, IObservable&lt;bool&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ForwardedObservableBoolean : ObservableValue&lt;bool&gt;, IEquatable&lt;bool&gt;, IObservable&lt;bool&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CarinaStudio_MutableObservableBoolean__ctor_" data-uid="CarinaStudio.MutableObservableBoolean.#ctor*"></a>
-  <h4 id="CarinaStudio_MutableObservableBoolean__ctor_System_Boolean_" data-uid="CarinaStudio.MutableObservableBoolean.#ctor(System.Boolean)">MutableObservableBoolean(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MutableObservableBoolean.html">MutableObservableBoolean</a> instance.</p>
+  <a id="CarinaStudio_ForwardedObservableBoolean__ctor_" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean)">ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ForwardedObservableBoolean.html">ForwardedObservableBoolean</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MutableObservableBoolean(bool initialValue = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode mode, bool defaultValue = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,10 +156,126 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">initialValue</span></td>
-        <td><p>Initial value.</p>
+        <td><a class="xref" href="CarinaStudio.ForwardedObservableBoolean.CombinationMode.html">ForwardedObservableBoolean.CombinationMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Mode of combining values of sources.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value if instance doesn't attach to any source.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean__ctor_" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_System_Collections_Generic_IEnumerable_System_IObservable_System_Boolean___" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})">ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IEnumerable&lt;IObservable&lt;Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ForwardedObservableBoolean.html">ForwardedObservableBoolean</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode mode, bool defaultValue, IEnumerable&lt;IObservable&lt;bool&gt;&gt; sources)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ForwardedObservableBoolean.CombinationMode.html">ForwardedObservableBoolean.CombinationMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Mode of combining values of <code data-dev-comment-type="paramref" class="paramref">sources</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value if instance doesn't attach to any source.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">sources</span></td>
+        <td><p>Source <span class="xref">System.IObservable&lt;T&gt;</span> to attach.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean__ctor_" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean__ctor_CarinaStudio_ForwardedObservableBoolean_CombinationMode_System_Boolean_System_IObservable_System_Boolean____" data-uid="CarinaStudio.ForwardedObservableBoolean.#ctor(CarinaStudio.ForwardedObservableBoolean.CombinationMode,System.Boolean,System.IObservable{System.Boolean}[])">ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode, Boolean, IObservable&lt;Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ForwardedObservableBoolean.html">ForwardedObservableBoolean</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ForwardedObservableBoolean(ForwardedObservableBoolean.CombinationMode mode, bool defaultValue = false, params IObservable&lt;bool&gt;[] sources)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ForwardedObservableBoolean.CombinationMode.html">ForwardedObservableBoolean.CombinationMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Mode of combining values of <code data-dev-comment-type="paramref" class="paramref">sources</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value if instance doesn't attach to any source.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">sources</span></td>
+        <td><p>Source <span class="xref">System.IObservable&lt;T&gt;</span> to attach.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean_DefaultValue_" data-uid="CarinaStudio.ForwardedObservableBoolean.DefaultValue*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean_DefaultValue" data-uid="CarinaStudio.ForwardedObservableBoolean.DefaultValue">DefaultValue</h4>
+  <div class="markdown level1 summary"><p>Default value if instance doesn't attach to any source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DefaultValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -171,8 +283,77 @@
   </h3>
   
   
-  <a id="CarinaStudio_MutableObservableBoolean_Equals_" data-uid="CarinaStudio.MutableObservableBoolean.Equals*"></a>
-  <h4 id="CarinaStudio_MutableObservableBoolean_Equals_System_Boolean_" data-uid="CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)">Equals(Boolean)</h4>
+  <a id="CarinaStudio_ForwardedObservableBoolean_Attach_" data-uid="CarinaStudio.ForwardedObservableBoolean.Attach*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean_Attach_System_Collections_Generic_IEnumerable_System_IObservable_System_Boolean___" data-uid="CarinaStudio.ForwardedObservableBoolean.Attach(System.Collections.Generic.IEnumerable{System.IObservable{System.Boolean}})">Attach(IEnumerable&lt;IObservable&lt;Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Detach from current sources and attach to given sources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(IEnumerable&lt;IObservable&lt;bool&gt;&gt; sources)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">sources</span></td>
+        <td><p><span class="xref">System.IObservable&lt;T&gt;</span> to attach to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean_Attach_" data-uid="CarinaStudio.ForwardedObservableBoolean.Attach*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean_Attach_System_IObservable_System_Boolean____" data-uid="CarinaStudio.ForwardedObservableBoolean.Attach(System.IObservable{System.Boolean}[])">Attach(IObservable&lt;Boolean&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Detach from current sources and attach to given sources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(params IObservable&lt;bool&gt;[] sources)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;[]</td>
+        <td><span class="parametername">sources</span></td>
+        <td><p><span class="xref">System.IObservable&lt;T&gt;</span> to attach to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean_Detach_" data-uid="CarinaStudio.ForwardedObservableBoolean.Detach*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean_Detach" data-uid="CarinaStudio.ForwardedObservableBoolean.Detach">Detach()</h4>
+  <div class="markdown level1 summary"><p>Detach from current sources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Detach()</code></pre>
+  </div>
+  
+  
+  <a id="CarinaStudio_ForwardedObservableBoolean_Equals_" data-uid="CarinaStudio.ForwardedObservableBoolean.Equals*"></a>
+  <h4 id="CarinaStudio_ForwardedObservableBoolean_Equals_System_Boolean_" data-uid="CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)">Equals(Boolean)</h4>
   <div class="markdown level1 summary"><p>Check whether given value should be treated as same as value of the instance or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -215,109 +396,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">CarinaStudio.ObservableValue&lt;System.Boolean&gt;.Equals(System.Boolean)</span></div>
-  
-  
-  <a id="CarinaStudio_MutableObservableBoolean_Toggle_" data-uid="CarinaStudio.MutableObservableBoolean.Toggle*"></a>
-  <h4 id="CarinaStudio_MutableObservableBoolean_Toggle" data-uid="CarinaStudio.MutableObservableBoolean.Toggle">Toggle()</h4>
-  <div class="markdown level1 summary"><p>Toggle the <span class="xref">System.Boolean</span> value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Toggle()</code></pre>
-  </div>
-  <h3 id="operators">Operators
-  </h3>
-  
-  
-  <a id="CarinaStudio_MutableObservableBoolean_op_False_" data-uid="CarinaStudio.MutableObservableBoolean.op_False*"></a>
-  <h4 id="CarinaStudio_MutableObservableBoolean_op_False_CarinaStudio_MutableObservableBoolean_" data-uid="CarinaStudio.MutableObservableBoolean.op_False(CarinaStudio.MutableObservableBoolean)">False(MutableObservableBoolean)</h4>
-  <div class="markdown level1 summary"><p>False operator.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator false (MutableObservableBoolean value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MutableObservableBoolean.html">MutableObservableBoolean</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p><a class="xref" href="CarinaStudio.MutableObservableBoolean.html">MutableObservableBoolean</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if value is False.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_MutableObservableBoolean_op_True_" data-uid="CarinaStudio.MutableObservableBoolean.op_True*"></a>
-  <h4 id="CarinaStudio_MutableObservableBoolean_op_True_CarinaStudio_MutableObservableBoolean_" data-uid="CarinaStudio.MutableObservableBoolean.op_True(CarinaStudio.MutableObservableBoolean)">True(MutableObservableBoolean)</h4>
-  <div class="markdown level1 summary"><p>True operator.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator true (MutableObservableBoolean value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MutableObservableBoolean.html">MutableObservableBoolean</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p><a class="xref" href="CarinaStudio.MutableObservableBoolean.html">MutableObservableBoolean</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if value is True.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.IEquatable&lt;T&gt;</span>
