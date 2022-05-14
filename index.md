@@ -1,6 +1,6 @@
 ---
 title: Carina Studio
-description: Softwares for make life easier.
+description: Softwares to make life easier.
 ---
 
 # [ULogViewer](https://carina-studio.github.io/ULogViewer/)
