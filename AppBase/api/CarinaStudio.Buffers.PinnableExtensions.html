@@ -553,6 +553,562 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__1_System_Buffers_IPinnable_CarinaStudio_PointerAction___0__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``1(System.Buffers.IPinnable,CarinaStudio.PointerAction{``0})">PinAs&lt;TPtr&gt;(IPinnable, PointerAction&lt;TPtr&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>, get address of memory and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr&gt;(this IPinnable pinnable, PointerAction&lt;TPtr&gt; action)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Buffers.IPinnable</span></td>
+        <td><span class="parametername">pinnable</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;TPtr&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive address of memory and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned memory element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__1_System_Buffers_IPinnable_System_Int32_CarinaStudio_PointerAction___0__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``1(System.Buffers.IPinnable,System.Int32,CarinaStudio.PointerAction{``0})">PinAs&lt;TPtr&gt;(IPinnable, Int32, PointerAction&lt;TPtr&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>, get address of memory and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr&gt;(this IPinnable pinnable, int elementIndex, PointerAction&lt;TPtr&gt; action)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Buffers.IPinnable</span></td>
+        <td><span class="parametername">pinnable</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex</span></td>
+        <td><p>Index of first element to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;TPtr&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive address of memory and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned memory element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__2_System_Buffers_IPinnable_CarinaStudio_PointerInFunc___0___1__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``2(System.Buffers.IPinnable,CarinaStudio.PointerInFunc{``0,``1})">PinAs&lt;TPtr, R&gt;(IPinnable, PointerInFunc&lt;TPtr, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>, get address of memory and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr, R&gt;(this IPinnable pinnable, PointerInFunc&lt;TPtr, R&gt; func)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Buffers.IPinnable</span></td>
+        <td><span class="parametername">pinnable</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;TPtr, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive address of memory and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__2_System_Buffers_IPinnable_System_Int32_CarinaStudio_PointerInFunc___0___1__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``2(System.Buffers.IPinnable,System.Int32,CarinaStudio.PointerInFunc{``0,``1})">PinAs&lt;TPtr, R&gt;(IPinnable, Int32, PointerInFunc&lt;TPtr, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>, get address of memory and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr, R&gt;(this IPinnable pinnable, int elementIndex, PointerInFunc&lt;TPtr, R&gt; func)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Buffers.IPinnable</span></td>
+        <td><span class="parametername">pinnable</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex</span></td>
+        <td><p>Index of first element to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;TPtr, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive address of memory and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__2_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__CarinaStudio_PointerAction___0___1__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``2(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},CarinaStudio.PointerAction{``0,``1})">PinAs&lt;TPtr1, TPtr2&gt;((IPinnable, IPinnable), PointerAction&lt;TPtr1, TPtr2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>s, get addresses of memory and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr1, TPtr2&gt;(this (IPinnable, IPinnable) pinnables, PointerAction&lt;TPtr1, TPtr2&gt; action)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Buffers.IPinnable</span>, <span class="xref">System.Buffers.IPinnable</span>&gt;</td>
+        <td><span class="parametername">pinnables</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>s.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-2.html">PointerAction</a>&lt;TPtr1, TPtr2&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive addresses of memory and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned memory element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__2_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Int32_System_Int32_CarinaStudio_PointerAction___0___1__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``2(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,CarinaStudio.PointerAction{``0,``1})">PinAs&lt;TPtr1, TPtr2&gt;((IPinnable, IPinnable), Int32, Int32, PointerAction&lt;TPtr1, TPtr2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>s, get addresses of memory and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr1, TPtr2&gt;(this (IPinnable, IPinnable) pinnables, int elementIndex1, int elementIndex2, PointerAction&lt;TPtr1, TPtr2&gt; action)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Buffers.IPinnable</span>, <span class="xref">System.Buffers.IPinnable</span>&gt;</td>
+        <td><span class="parametername">pinnables</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>s.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex1</span></td>
+        <td><p>Index of first element of 1st <span class="xref">System.Buffers.IPinnable</span> to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex2</span></td>
+        <td><p>Index of first element of 2nd <span class="xref">System.Buffers.IPinnable</span> to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-2.html">PointerAction</a>&lt;TPtr1, TPtr2&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive addresses of memory and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned memory element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__3_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__CarinaStudio_PointerInFunc___0___1___2__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``3(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},CarinaStudio.PointerInFunc{``0,``1,``2})">PinAs&lt;TPtr1, TPtr2, R&gt;((IPinnable, IPinnable), PointerInFunc&lt;TPtr1, TPtr2, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>s, get addresses of memory and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr1, TPtr2, R&gt;(this (IPinnable, IPinnable) pinnables, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Buffers.IPinnable</span>, <span class="xref">System.Buffers.IPinnable</span>&gt;</td>
+        <td><span class="parametername">pinnables</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>s.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-3.html">PointerInFunc</a>&lt;TPtr1, TPtr2, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive addresses of memory and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Buffers_PinnableExtensions_PinAs_" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_Buffers_PinnableExtensions_PinAs__3_System_ValueTuple_System_Buffers_IPinnable_System_Buffers_IPinnable__System_Int32_System_Int32_CarinaStudio_PointerInFunc___0___1___2__" data-uid="CarinaStudio.Buffers.PinnableExtensions.PinAs``3(System.ValueTuple{System.Buffers.IPinnable,System.Buffers.IPinnable},System.Int32,System.Int32,CarinaStudio.PointerInFunc{``0,``1,``2})">PinAs&lt;TPtr1, TPtr2, R&gt;((IPinnable, IPinnable), Int32, Int32, PointerInFunc&lt;TPtr1, TPtr2, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given <span class="xref">System.Buffers.IPinnable</span>s, get addresses of memory and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr1, TPtr2, R&gt;(this (IPinnable, IPinnable) pinnables, int elementIndex1, int elementIndex2, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Buffers.IPinnable</span>, <span class="xref">System.Buffers.IPinnable</span>&gt;</td>
+        <td><span class="parametername">pinnables</span></td>
+        <td><p><span class="xref">System.Buffers.IPinnable</span>s.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex1</span></td>
+        <td><p>Index of first element of 1st <span class="xref">System.Buffers.IPinnable</span> to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementIndex2</span></td>
+        <td><p>Index of first element of 2nd <span class="xref">System.Buffers.IPinnable</span> to pin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-3.html">PointerInFunc</a>&lt;TPtr1, TPtr2, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive addresses of memory and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned memory element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

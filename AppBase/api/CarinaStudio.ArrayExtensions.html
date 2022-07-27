@@ -369,6 +369,296 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_ArrayExtensions_PinAs__2___0___CarinaStudio_PointerAction___1__" data-uid="CarinaStudio.ArrayExtensions.PinAs``2(``0[],CarinaStudio.PointerAction{``1})">PinAs&lt;T, TPtr&gt;(T[], PointerAction&lt;TPtr&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this T[] array, PointerAction&lt;TPtr&gt; action)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>Array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;TPtr&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive address of array and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned array element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_ArrayExtensions_PinAs__3___0___CarinaStudio_PointerInFunc___1___2__" data-uid="CarinaStudio.ArrayExtensions.PinAs``3(``0[],CarinaStudio.PointerInFunc{``1,``2})">PinAs&lt;T, TPtr, R&gt;(T[], PointerInFunc&lt;TPtr, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this T[] array, PointerInFunc&lt;TPtr, R&gt; func)
+    where TPtr : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>Array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;TPtr, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive address of array and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr</span></td>
+        <td><p>Type of pointer of pinned array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_ArrayExtensions_PinAs__4_System_ValueTuple___0_____1____CarinaStudio_PointerAction___2___3__" data-uid="CarinaStudio.ArrayExtensions.PinAs``4(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerAction{``2,``3})">PinAs&lt;T1, T2, TPtr1, TPtr2&gt;((T1[], T2[]), PointerAction&lt;TPtr1, TPtr2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (T1[], T2[]) arrays, PointerAction&lt;TPtr1, TPtr2&gt; action)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
+        <td><span class="parametername">arrays</span></td>
+        <td><p>Arrays.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerAction-2.html">PointerAction</a>&lt;TPtr1, TPtr2&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Method to receive addresses of arrays and perform action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>Type of 1st array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>Type of 2nd array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned array element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+  <h4 id="CarinaStudio_ArrayExtensions_PinAs__5_System_ValueTuple___0_____1____CarinaStudio_PointerInFunc___2___3___4__" data-uid="CarinaStudio.ArrayExtensions.PinAs``5(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerInFunc{``2,``3,``4})">PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;((T1[], T2[]), PointerInFunc&lt;TPtr1, TPtr2, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (T1[], T2[]) arrays, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+    where TPtr1 : struct where TPtr2 : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
+        <td><span class="parametername">arrays</span></td>
+        <td><p>Arrays.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.PointerInFunc-3.html">PointerInFunc</a>&lt;TPtr1, TPtr2, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to receive addresses of arrays and generate value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>Type of 1st array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>Type of 2nd array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr1</span></td>
+        <td><p>Type of 1st pointer of pinned array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TPtr2</span></td>
+        <td><p>Type of 2nd pointer of pinned array element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

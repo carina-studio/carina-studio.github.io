@@ -115,6 +115,12 @@
       <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">ISynchronizable.SynchronizationContext</a>
     </div>
     <div>
+      <span class="xref">Avalonia.Controls.IResourceHost.NotifyHostedResourcesChanged(Avalonia.Controls.ResourcesChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.Controls.IResourceHost.ResourcesChanged</span>
+    </div>
+    <div>
       <span class="xref">Avalonia.Controls.IResourceNode.TryGetResource(System.Object, System.Object)</span>
     </div>
     <div>
@@ -125,7 +131,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
   <h5 id="CarinaStudio_IAvaloniaApplication_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAvaloniaApplication : IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable, IResourceNode</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAvaloniaApplication : IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable, IResourceHost, IResourceNode</code></pre>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -138,6 +144,9 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
@@ -147,16 +156,37 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object___0__">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, Object, out T)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object_System_Nullable___0___">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, Object, out Nullable&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>

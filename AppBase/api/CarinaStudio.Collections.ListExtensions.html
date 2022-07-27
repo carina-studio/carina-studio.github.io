@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Collections_ListExtensions" data-uid="CarinaStudio.Collections.ListExtensions" class="text-break">Class ListExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> and <span class="xref">System.Collections.IList</span>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -394,6 +394,85 @@
   
   
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use binary-search to find given element by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T, TKey&gt;(this IList&lt;T&gt; list, TKey key, Func&lt;T, TKey&gt; keyGetter)
+    where TKey : IComparable&lt;TKey&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>List to find element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of element to be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TKey&gt;</td>
+        <td><span class="parametername">keyGetter</span></td>
+        <td><p>Method to get key from element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Index of found element, or bitwise complement of index of proper position to put element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>Type of key of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
   <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__System_Comparison___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1},System.Comparison{``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;, Comparison&lt;TKey&gt;)</h4>
   <div class="markdown level1 summary"><p>Use binary-search to find given element by key.</p>
 </div>
@@ -477,6 +556,70 @@
   </table>
   
   
+  <a id="CarinaStudio_Collections_ListExtensions_Cast_" data-uid="CarinaStudio.Collections.ListExtensions.Cast*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Cast__1_System_Collections_IList_" data-uid="CarinaStudio.Collections.ListExtensions.Cast``1(System.Collections.IList)">Cast&lt;TOut&gt;(IList)</h4>
+  <div class="markdown level1 summary"><p>Case given list to generic typed list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;TOut&gt; Cast&lt;TOut&gt;(this IList list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IList</span></td>
+        <td><span class="parametername">list</span></td>
+        <td><p>List.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TOut&gt;</td>
+        <td><p>Generic typed list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TOut</span></td>
+        <td><p>Type of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_Collections_ListExtensions_Cast__1_System_Collections_IList__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> then returned <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> will also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+</div>
+  
+  
   <a id="CarinaStudio_Collections_ListExtensions_CopyTo_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo*"></a>
   <h4 id="CarinaStudio_Collections_ListExtensions_CopyTo__1_System_Collections_Generic_IList___0__System_Int32___0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo``1(System.Collections.Generic.IList{``0},System.Int32,``0[],System.Int32,System.Int32)">CopyTo&lt;T&gt;(IList&lt;T&gt;, Int32, T[], Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
@@ -544,6 +687,82 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="CarinaStudio_Collections_ListExtensions_GetRangeView_" data-uid="CarinaStudio.Collections.ListExtensions.GetRangeView*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.GetRangeView``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">GetRangeView&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get read-only view of range of source list which allows accessing elements from source list directly without copying.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; GetRangeView&lt;T&gt;(this IList&lt;T&gt; list, int start, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>Source list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Start index of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of elements needed to be included.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><p>View of range of source list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_System_Collections_Generic_IList___0__System_Int32_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The element get from view and <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;.Count</span> of view may be changed if source list has been modified.</p>
+</div>
   
   
   <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>

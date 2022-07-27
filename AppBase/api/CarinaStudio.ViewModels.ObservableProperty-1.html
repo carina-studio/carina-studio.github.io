@@ -100,7 +100,7 @@
       <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_OwnerType">ObservableProperty.OwnerType</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Register__2_System_String___1_System_Func___1___1__System_Predicate___1__">ObservableProperty.Register&lt;TOwner, TValue&gt;(String, TValue, Func&lt;TValue, TValue&gt;, Predicate&lt;TValue&gt;)</a>
+      <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_Register__2_System_String___1_System_Func___0___1___1__System_Predicate___1__">ObservableProperty.Register&lt;TOwner, TValue&gt;(String, TValue, Func&lt;TOwner, TValue, TValue&gt;, Predicate&lt;TValue&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html#CarinaStudio_ViewModels_ObservableProperty_ValueType">ObservableProperty.ValueType</a>
@@ -146,6 +146,58 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_1_DefaultCoercionFunction" data-uid="CarinaStudio.ViewModels.ObservableProperty`1.DefaultCoercionFunction">DefaultCoercionFunction</h4>
+  <div class="markdown level1 summary"><p>Default coercion function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;object, T, T&gt; DefaultCoercionFunction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, T, T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_ViewModels_ObservableProperty_1_DefaultValidationFunction" data-uid="CarinaStudio.ViewModels.ObservableProperty`1.DefaultValidationFunction">DefaultValidationFunction</h4>
+  <div class="markdown level1 summary"><p>Default validation function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Predicate&lt;T&gt; DefaultValidationFunction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -157,7 +209,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;T, T&gt; CoercionFunction { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Func&lt;object, T, T&gt; CoercionFunction { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,7 +221,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, T&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, T, T&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -237,6 +289,9 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
@@ -246,10 +301,37 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>

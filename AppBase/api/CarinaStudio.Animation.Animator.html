@@ -383,6 +383,16 @@
   </table>
   
   
+  <a id="CarinaStudio_Animation_Animator_Finalize_" data-uid="CarinaStudio.Animation.Animator.Finalize*"></a>
+  <h4 id="CarinaStudio_Animation_Animator_Finalize" data-uid="CarinaStudio.Animation.Animator.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
   <a id="CarinaStudio_Animation_Animator_OnCancelled_" data-uid="CarinaStudio.Animation.Animator.OnCancelled*"></a>
   <h4 id="CarinaStudio_Animation_Animator_OnCancelled_System_EventArgs_" data-uid="CarinaStudio.Animation.Animator.OnCancelled(System.EventArgs)">OnCancelled(EventArgs)</h4>
   <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.Animator.html#CarinaStudio_Animation_Animator_Cancelled">Cancelled</a> event.</p>
@@ -561,6 +571,138 @@
         <td><span class="xref">System.TimeSpan</span></td>
         <td><span class="parametername">duration</span></td>
         <td><p>Duration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">interpolator</span></td>
+        <td><p>Interpolator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">progressChangedAction</span></td>
+        <td><p>Action when progress changed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">completedAction</span></td>
+        <td><p>Action when completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a></td>
+        <td><p><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a> which handles the animation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Animation_Animator_Start_" data-uid="CarinaStudio.Animation.Animator.Start*"></a>
+  <h4 id="CarinaStudio_Animation_Animator_Start_System_TimeSpan_System_TimeSpan_System_Action_System_Double__System_Action_" data-uid="CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.TimeSpan,System.Action{System.Double},System.Action)">Start(TimeSpan, TimeSpan, Action&lt;Double&gt;, Action)</h4>
+  <div class="markdown level1 summary"><p>Start new animation with default interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animator Start(TimeSpan duration, TimeSpan interval, Action&lt;double&gt; progressChangedAction, Action completedAction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>Interval between progress updating.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">progressChangedAction</span></td>
+        <td><p>Action when progress changed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">completedAction</span></td>
+        <td><p>Action when completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a></td>
+        <td><p><a class="xref" href="CarinaStudio.Animation.Animator.html">Animator</a> which handles the animation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Animation_Animator_Start_" data-uid="CarinaStudio.Animation.Animator.Start*"></a>
+  <h4 id="CarinaStudio_Animation_Animator_Start_System_TimeSpan_System_TimeSpan_System_Func_System_Double_System_Double__System_Action_System_Double__System_Action_" data-uid="CarinaStudio.Animation.Animator.Start(System.TimeSpan,System.TimeSpan,System.Func{System.Double,System.Double},System.Action{System.Double},System.Action)">Start(TimeSpan, TimeSpan, Func&lt;Double, Double&gt;, Action&lt;Double&gt;, Action)</h4>
+  <div class="markdown level1 summary"><p>Start new animation with default interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animator Start(TimeSpan duration, TimeSpan interval, Func&lt;double, double&gt; interpolator, Action&lt;double&gt; progressChangedAction, Action completedAction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>Interval between progress updating.</p>
 </td>
       </tr>
       <tr>
@@ -1198,6 +1340,9 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
@@ -1207,10 +1352,37 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>

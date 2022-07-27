@@ -185,7 +185,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Exchange&lt;T, R&gt;(this T source, Func&lt;T, R&gt; func)
-    where T : IDisposable where R : IDisposable</code></pre>
+    where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,7 +258,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Exchange&lt;T, R&gt;(this T source, Func&lt;R&gt; func)
-    where T : IDisposable where R : IDisposable</code></pre>
+    where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -323,6 +323,277 @@
   </table>
   
   
+  <a id="CarinaStudio_DisposableExtensions_ExchangeAsync_" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Exhange the source <span class="xref">System.IDisposable</span> with another one asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; ExchangeAsync&lt;T, R&gt;(this T source, Func&lt;T, Task&lt;R&gt;&gt; func)
+    where T : class, IDisposable where R : class, IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Exchanging function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;</td>
+        <td><p>Task of exchanging <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of source <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of result <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_DisposableExtensions_ExchangeAsync_" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync``2(``0,System.Func{System.Threading.Tasks.Task{``1}})">ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Exhange the source <span class="xref">System.IDisposable</span> with another one asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; ExchangeAsync&lt;T, R&gt;(this T source, Func&lt;Task&lt;R&gt;&gt; func)
+    where T : class, IDisposable where R : class, IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Exchanging function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;</td>
+        <td><p>Task of exchanging <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of source <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of result <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_DisposableExtensions_Use_" data-uid="CarinaStudio.DisposableExtensions.Use*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__" data-uid="CarinaStudio.DisposableExtensions.Use``1(``0,System.Action{``0})">Use&lt;T&gt;(T, Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use the given <span class="xref">System.IDisposable</span> to perform action then dispose it before returning from method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Use&lt;T&gt;(this T disposable, Action&lt;T&gt; action)
+    where T : IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">disposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to perform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type which implements <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_DisposableExtensions_Use_" data-uid="CarinaStudio.DisposableExtensions.Use*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.DisposableExtensions.Use``2(``0,CarinaStudio.RefOutFunc{``0,``1})">Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use the given <span class="xref">System.IDisposable</span> to generate reference to value then dispose it before returning from method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Use&lt;T, R&gt;(this T disposable, RefOutFunc&lt;T, R&gt; func)
+    where T : IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">disposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.RefOutFunc-2.html">RefOutFunc</a>&lt;T, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Using function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated reference to value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type which implements <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated reference to value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_DisposableExtensions_Use_" data-uid="CarinaStudio.DisposableExtensions.Use*"></a>
   <h4 id="CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__" data-uid="CarinaStudio.DisposableExtensions.Use``2(``0,System.Func{``0,``1})">Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</h4>
   <div class="markdown level1 summary"><p>Use the given <span class="xref">System.IDisposable</span> to generate value then dispose it before returning from method.</p>
@@ -369,6 +640,147 @@
       <tr>
         <td><span class="xref">R</span></td>
         <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type which implements <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_DisposableExtensions_UseAsync_" data-uid="CarinaStudio.DisposableExtensions.UseAsync*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.DisposableExtensions.UseAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use the given <span class="xref">System.IDisposable</span> to perform action asynchronously then dispose it before returning from method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task UseAsync&lt;T&gt;(this T disposable, Func&lt;T, Task&gt; action)
+    where T : IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">disposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to perform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>Task of asynchronous action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type which implements <span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_DisposableExtensions_UseAsync_" data-uid="CarinaStudio.DisposableExtensions.UseAsync*"></a>
+  <h4 id="CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.UseAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use the given <span class="xref">System.IDisposable</span> to generate value asynchronously then dispose it before returning from method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; UseAsync&lt;T, R&gt;(this T disposable, Func&lt;T, Task&lt;R&gt;&gt; func)
+    where T : IDisposable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">disposable</span></td>
+        <td><p><span class="xref">System.IDisposable</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Using function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;</td>
+        <td><p>Task of generating value.</p>
 </td>
       </tr>
     </tbody>

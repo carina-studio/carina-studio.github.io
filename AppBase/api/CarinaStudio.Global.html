@@ -116,13 +116,14 @@
   
   
   <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
-  <h4 id="CarinaStudio_Global_Run__1_System_Func___0__" data-uid="CarinaStudio.Global.Run``1(System.Func{``0})">Run&lt;T&gt;(Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Generate a value.</p>
+  <h4 id="CarinaStudio_Global_Run__1_CarinaStudio_PointerOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.PointerOutFunc{``0})">Run&lt;R&gt;(PointerOutFunc&lt;R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate a pointer of unmanaged type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Run&lt;T&gt;(Func&lt;T&gt; func)</code></pre>
+    <pre><code class="lang-csharp hljs">public static R*Run&lt;R&gt;(PointerOutFunc&lt;R&gt; func)
+    where R : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,7 +136,129 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><a class="xref" href="CarinaStudio.PointerOutFunc-1.html">PointerOutFunc</a>&lt;R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate pointer of unmanaged type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>R*</td>
+        <td><p>Generated pointer of unmanaged type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Unmanaged type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+  <h4 id="CarinaStudio_Global_Run__1_CarinaStudio_RefOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.RefOutFunc{``0})">Run&lt;R&gt;(RefOutFunc&lt;R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate a reference to value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Run&lt;R&gt;(RefOutFunc&lt;R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.RefOutFunc-1.html">RefOutFunc</a>&lt;R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate reference to value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated reference to value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+  <h4 id="CarinaStudio_Global_Run__1_System_Func___0__" data-uid="CarinaStudio.Global.Run``1(System.Func{``0})">Run&lt;R&gt;(Func&lt;R&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Run&lt;R&gt;(Func&lt;R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;R&gt;</td>
         <td><span class="parametername">func</span></td>
         <td><p>Function to generate value.</p>
 </td>
@@ -152,7 +275,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">R</span></td>
         <td><p>Generated value.</p>
 </td>
       </tr>
@@ -168,7 +291,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="parametername">R</span></td>
         <td><p>Type of generated value.</p>
 </td>
       </tr>
@@ -230,6 +353,286 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
+  <h4 id="CarinaStudio_Global_RunOrDefault__1_System_Func___0____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(System.Func{``0},``0)">RunOrDefault&lt;R&gt;(Func&lt;R&gt;, R)</h4>
+  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, R defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
+  <h4 id="CarinaStudio_Global_RunOrDefault__1_System_Func___0__System_Action_System_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(System.Func{``0},System.Action{System.Exception},``0)">RunOrDefault&lt;R&gt;(Func&lt;R&gt;, Action&lt;Exception&gt;, R)</h4>
+  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
+        <td><span class="parametername">errorHandler</span></td>
+        <td><p>Action to handle occurred error.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
+  <h4 id="CarinaStudio_Global_RunOrDefaultAsync__1_System_Func_System_Threading_Tasks_Task___0_____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(System.Func{System.Threading.Tasks.Task{``0}},``0)">RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, R)</h4>
+  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, R defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;</td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td><p>Type of generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
+  <h4 id="CarinaStudio_Global_RunOrDefaultAsync__1_System_Func_System_Threading_Tasks_Task___0___System_Action_System_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Action{System.Exception},``0)">RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, Action&lt;Exception&gt;, R)</h4>
+  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>Function to generate value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
+        <td><span class="parametername">errorHandler</span></td>
+        <td><p>Action to handle occurred error.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;R&gt;</td>
+        <td><p>Generated value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
         <td><p>Type of generated value.</p>
 </td>
       </tr>

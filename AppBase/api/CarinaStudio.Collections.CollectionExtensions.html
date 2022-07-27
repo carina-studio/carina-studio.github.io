@@ -115,6 +115,57 @@
   </h3>
   
   
+  <a id="CarinaStudio_Collections_CollectionExtensions_AddAll_" data-uid="CarinaStudio.Collections.CollectionExtensions.AddAll*"></a>
+  <h4 id="CarinaStudio_Collections_CollectionExtensions_AddAll__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__" data-uid="CarinaStudio.Collections.CollectionExtensions.AddAll``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">AddAll&lt;T&gt;(ICollection&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add all given elements to collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddAll&lt;T&gt;(this ICollection&lt;T&gt; collection, IEnumerable&lt;T&gt; elements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>Collection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">elements</span></td>
+        <td><p>Elements to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element of collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_Collections_CollectionExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.CollectionExtensions.IsEmpty*"></a>
   <h4 id="CarinaStudio_Collections_CollectionExtensions_IsEmpty__1_System_Collections_Generic_ICollection___0__" data-uid="CarinaStudio.Collections.CollectionExtensions.IsEmpty``1(System.Collections.Generic.ICollection{``0})">IsEmpty&lt;T&gt;(ICollection&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Check whether given collection is empty or not.</p>
@@ -276,6 +327,73 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if collection is null or empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element of collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Collections_CollectionExtensions_RemoveAll_" data-uid="CarinaStudio.Collections.CollectionExtensions.RemoveAll*"></a>
+  <h4 id="CarinaStudio_Collections_CollectionExtensions_RemoveAll__1_System_Collections_Generic_ICollection___0__System_Predicate___0__" data-uid="CarinaStudio.Collections.CollectionExtensions.RemoveAll``1(System.Collections.Generic.ICollection{``0},System.Predicate{``0})">RemoveAll&lt;T&gt;(ICollection&lt;T&gt;, Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Remove elements which match the given condition from collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RemoveAll&lt;T&gt;(this ICollection&lt;T&gt; collection, Predicate&lt;T&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>Collection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>Function to check condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of removed elements.</p>
 </td>
       </tr>
     </tbody>

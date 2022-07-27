@@ -478,6 +478,73 @@
   </table>
   
   
+  <a id="CarinaStudio_ViewModels_ViewModel_CoerceValue_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue*"></a>
+  <h4 id="CarinaStudio_ViewModels_ViewModel_CoerceValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)">CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Coerce value for given property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt; property, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
+        <td><span class="parametername">property</span></td>
+        <td><p>Property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Coerced value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CarinaStudio_ViewModels_ViewModel_Dispose_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose*"></a>
   <h4 id="CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>Dispose the view-model.</p>
@@ -1147,7 +1214,25 @@
       <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__">DisposableExtensions.Use&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
@@ -1159,6 +1244,9 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
@@ -1168,10 +1256,37 @@
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_">NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)</a>
