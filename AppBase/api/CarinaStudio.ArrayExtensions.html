@@ -379,6 +379,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this T[] array, PointerAction&lt;TPtr&gt; action)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -436,6 +437,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this T[] array, PointerInFunc&lt;TPtr, R&gt; func)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -514,6 +516,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (T1[], T2[]) arrays, PointerAction&lt;TPtr1, TPtr2&gt; action)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -581,6 +584,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (T1[], T2[]) arrays, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

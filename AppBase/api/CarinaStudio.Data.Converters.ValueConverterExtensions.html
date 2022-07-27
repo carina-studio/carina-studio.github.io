@@ -106,7 +106,7 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Data.Converters.html">CarinaStudio.Data.Converters</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Data_Converters_ValueConverterExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ValueConverterExtensions</code></pre>
@@ -217,6 +217,79 @@
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">cultureInfo</span></td>
         <td><p>Culture info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>Converted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of target value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_Data_Converters_ValueConverterExtensions_Convert_" data-uid="CarinaStudio.Data.Converters.ValueConverterExtensions.Convert*"></a>
+  <h4 id="CarinaStudio_Data_Converters_ValueConverterExtensions_Convert__1_Avalonia_Data_Converters_IValueConverter_System_Object_System_Object_" data-uid="CarinaStudio.Data.Converters.ValueConverterExtensions.Convert``1(Avalonia.Data.Converters.IValueConverter,System.Object,System.Object)">Convert&lt;T&gt;(IValueConverter, Object, Object)</h4>
+  <div class="markdown level1 summary"><p>Convert value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Convert&lt;T&gt;(this IValueConverter converter, object value, object parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.Data.Converters.IValueConverter</span></td>
+        <td><span class="parametername">converter</span></td>
+        <td><p><span class="xref">Avalonia.Data.Converters.IValueConverter</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Conversion parameter.</p>
 </td>
       </tr>
     </tbody>

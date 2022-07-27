@@ -563,6 +563,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr&gt;(this IPinnable pinnable, PointerAction&lt;TPtr&gt; action)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -615,6 +616,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr&gt;(this IPinnable pinnable, int elementIndex, PointerAction&lt;TPtr&gt; action)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -673,6 +675,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr, R&gt;(this IPinnable pinnable, PointerInFunc&lt;TPtr, R&gt; func)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -746,6 +749,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr, R&gt;(this IPinnable pinnable, int elementIndex, PointerInFunc&lt;TPtr, R&gt; func)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -825,6 +829,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr1, TPtr2&gt;(this (IPinnable, IPinnable) pinnables, PointerAction&lt;TPtr1, TPtr2&gt; action)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -882,6 +887,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;TPtr1, TPtr2&gt;(this (IPinnable, IPinnable) pinnables, int elementIndex1, int elementIndex2, PointerAction&lt;TPtr1, TPtr2&gt; action)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -951,6 +957,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr1, TPtr2, R&gt;(this (IPinnable, IPinnable) pinnables, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1029,6 +1036,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;TPtr1, TPtr2, R&gt;(this (IPinnable, IPinnable) pinnables, int elementIndex1, int elementIndex2, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

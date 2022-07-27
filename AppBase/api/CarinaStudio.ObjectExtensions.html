@@ -180,6 +180,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArgs&gt;(this object target, string eventName, EventHandler&lt;TArgs&gt; handler)
+
     where TArgs : EventArgs</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -253,6 +254,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, RefAction&lt;T&gt; action)
+
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -321,6 +323,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, Action&lt;T&gt; action)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -389,6 +392,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T? Also&lt;T&gt;(this T? value, RefAction&lt;T?&gt; action)
+
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -457,6 +461,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, RefInFunc&lt;T, Task&gt; action)
+
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -525,6 +530,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, Func&lt;T, Task&gt; action)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -593,6 +599,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;T?&gt; AlsoAsync&lt;T&gt;(this T? value, RefInFunc&lt;T?, Task&gt; action)
+
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -661,6 +668,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T AsNonNull&lt;T&gt;(this T obj)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1057,6 +1065,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Lock&lt;T&gt;(this T obj, Action&lt;T&gt; action)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1109,6 +1118,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;T, R&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1182,6 +1192,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;R&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1255,6 +1266,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;T, R&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1328,6 +1340,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;R&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1401,6 +1414,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task LockAsync&lt;T&gt;(this T obj, Func&lt;T, Task&gt; action)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1469,6 +1483,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;T, Task&lt;R&gt;&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1542,6 +1557,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;Task&lt;R&gt;&gt; func)
+
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

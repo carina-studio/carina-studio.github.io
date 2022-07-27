@@ -1,0 +1,980 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FormattedString
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FormattedString
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.FormattedString">
+  
+  
+  <h1 id="CarinaStudio_FormattedString" data-uid="CarinaStudio.FormattedString" class="text-break">Class FormattedString
+  </h1>
+  <div class="markdown level0 summary"><p>Object to generate formatted string.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Avalonia.AvaloniaObject</span></div>
+    <div class="level2"><span class="xref">FormattedString</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Avalonia.IAvaloniaObject</span></div>
+    <div><span class="xref">Avalonia.Diagnostics.IAvaloniaObjectDebug</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IObservable</span>&lt;<span class="xref">System.String</span>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.CheckAccess()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.VerifyAccess()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.ClearValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.GetBaseValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.IsAnimating(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.IsSet(Avalonia.AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue(Avalonia.AvaloniaProperty, System.Object, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, T, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetValue&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;, T)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Bind&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;, System.IObservable&lt;Avalonia.Data.BindingValue&lt;T&gt;&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Bind&lt;T&gt;(Avalonia.DirectPropertyBase&lt;T&gt;, System.IObservable&lt;Avalonia.Data.BindingValue&lt;T&gt;&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.CoerceValue&lt;T&gt;(Avalonia.StyledPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.BeginBatchUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.EndBatchUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.AddInheritanceChild(Avalonia.IAvaloniaObject)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.RemoveInheritanceChild(Avalonia.IAvaloniaObject)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.IAvaloniaObject.InheritedPropertyChanged&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Avalonia.Diagnostics.IAvaloniaObjectDebug.GetPropertyChangedSubscribers()</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.LogBindingError(Avalonia.AvaloniaProperty, System.Exception)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.UpdateDataValidation&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.BindingValue&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.OnPropertyChangedCore&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.OnPropertyChanged&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.RaisePropertyChanged&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, Avalonia.Data.Optional&lt;T&gt;, Avalonia.Data.BindingValue&lt;T&gt;, Avalonia.Data.BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.SetAndRaise&lt;T&gt;(Avalonia.AvaloniaProperty&lt;T&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.RaisePropertyChanged&lt;T&gt;(Avalonia.AvaloniaPropertyChangedEventArgs&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.InheritanceParent</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Item[Avalonia.AvaloniaProperty]</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.Item[Avalonia.Data.IndexerDescriptor]</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">Avalonia.AvaloniaObject.System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
+  <h5 id="CarinaStudio_FormattedString_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FormattedString : AvaloniaObject, IAvaloniaObject, IAvaloniaObjectDebug, INotifyPropertyChanged, IValueSink, IObservable&lt;string&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="CarinaStudio_FormattedString__ctor_" data-uid="CarinaStudio.FormattedString.#ctor*"></a>
+  <h4 id="CarinaStudio_FormattedString__ctor" data-uid="CarinaStudio.FormattedString.#ctor">FormattedString()</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.FormattedString.html">FormattedString</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FormattedString()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg1Property" data-uid="CarinaStudio.FormattedString.Arg1Property">Arg1Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg1">Arg1</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg1Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg2Property" data-uid="CarinaStudio.FormattedString.Arg2Property">Arg2Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg2">Arg2</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg2Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg3Property" data-uid="CarinaStudio.FormattedString.Arg3Property">Arg3Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg3">Arg3</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg3Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg4Property" data-uid="CarinaStudio.FormattedString.Arg4Property">Arg4Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg4">Arg4</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg4Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg5Property" data-uid="CarinaStudio.FormattedString.Arg5Property">Arg5Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg5">Arg5</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg5Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg6Property" data-uid="CarinaStudio.FormattedString.Arg6Property">Arg6Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg6">Arg6</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg6Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg7Property" data-uid="CarinaStudio.FormattedString.Arg7Property">Arg7Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg7">Arg7</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg7Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg8Property" data-uid="CarinaStudio.FormattedString.Arg8Property">Arg8Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg8">Arg8</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg8Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_Arg9Property" data-uid="CarinaStudio.FormattedString.Arg9Property">Arg9Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Arg9">Arg9</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;object&gt; Arg9Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_FormatProperty" data-uid="CarinaStudio.FormattedString.FormatProperty">FormatProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_Format">Format</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;string&gt; FormatProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CarinaStudio_FormattedString_StringProperty" data-uid="CarinaStudio.FormattedString.StringProperty">StringProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.FormattedString.html#CarinaStudio_FormattedString_String">String</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly AvaloniaProperty&lt;string&gt; StringProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.AvaloniaProperty</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg1_" data-uid="CarinaStudio.FormattedString.Arg1*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg1" data-uid="CarinaStudio.FormattedString.Arg1">Arg1</h4>
+  <div class="markdown level1 summary"><p>Get or set 1st argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg2_" data-uid="CarinaStudio.FormattedString.Arg2*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg2" data-uid="CarinaStudio.FormattedString.Arg2">Arg2</h4>
+  <div class="markdown level1 summary"><p>Get or set 2nd argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg3_" data-uid="CarinaStudio.FormattedString.Arg3*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg3" data-uid="CarinaStudio.FormattedString.Arg3">Arg3</h4>
+  <div class="markdown level1 summary"><p>Get or set 3rd argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg3 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg4_" data-uid="CarinaStudio.FormattedString.Arg4*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg4" data-uid="CarinaStudio.FormattedString.Arg4">Arg4</h4>
+  <div class="markdown level1 summary"><p>Get or set 4th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg4 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg5_" data-uid="CarinaStudio.FormattedString.Arg5*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg5" data-uid="CarinaStudio.FormattedString.Arg5">Arg5</h4>
+  <div class="markdown level1 summary"><p>Get or set 5th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg5 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg6_" data-uid="CarinaStudio.FormattedString.Arg6*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg6" data-uid="CarinaStudio.FormattedString.Arg6">Arg6</h4>
+  <div class="markdown level1 summary"><p>Get or set 6th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg6 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg7_" data-uid="CarinaStudio.FormattedString.Arg7*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg7" data-uid="CarinaStudio.FormattedString.Arg7">Arg7</h4>
+  <div class="markdown level1 summary"><p>Get or set 7th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg7 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg8_" data-uid="CarinaStudio.FormattedString.Arg8*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg8" data-uid="CarinaStudio.FormattedString.Arg8">Arg8</h4>
+  <div class="markdown level1 summary"><p>Get or set 8th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg8 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Arg9_" data-uid="CarinaStudio.FormattedString.Arg9*"></a>
+  <h4 id="CarinaStudio_FormattedString_Arg9" data-uid="CarinaStudio.FormattedString.Arg9">Arg9</h4>
+  <div class="markdown level1 summary"><p>Get or set 9th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Arg9 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_Format_" data-uid="CarinaStudio.FormattedString.Format*"></a>
+  <h4 id="CarinaStudio_FormattedString_Format" data-uid="CarinaStudio.FormattedString.Format">Format</h4>
+  <div class="markdown level1 summary"><p>Get or set string format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Format { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_String_" data-uid="CarinaStudio.FormattedString.String*"></a>
+  <h4 id="CarinaStudio_FormattedString_String" data-uid="CarinaStudio.FormattedString.String">String</h4>
+  <div class="markdown level1 summary"><p>Get formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string String { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CarinaStudio_FormattedString_Subscribe_" data-uid="CarinaStudio.FormattedString.Subscribe*"></a>
+  <h4 id="CarinaStudio_FormattedString_Subscribe_System_IObserver_System_String__" data-uid="CarinaStudio.FormattedString.Subscribe(System.IObserver{System.String})">Subscribe(IObserver&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDisposable Subscribe(IObserver&lt;string&gt; observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IObserver</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">observer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CarinaStudio_FormattedString_ToString_" data-uid="CarinaStudio.FormattedString.ToString*"></a>
+  <h4 id="CarinaStudio_FormattedString_ToString" data-uid="CarinaStudio.FormattedString.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Avalonia.IAvaloniaObject</span>
+  </div>
+  <div>
+      <span class="xref">Avalonia.Diagnostics.IAvaloniaObjectDebug</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;T&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

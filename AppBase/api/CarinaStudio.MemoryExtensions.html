@@ -635,6 +635,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this Memory&lt;T&gt; memory, PointerAction&lt;TPtr&gt; action)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -692,6 +693,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this ReadOnlyMemory&lt;T&gt; memory, PointerAction&lt;TPtr&gt; action)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -749,6 +751,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this Memory&lt;T&gt; memory, PointerInFunc&lt;TPtr, R&gt; func)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -827,6 +830,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this ReadOnlyMemory&lt;T&gt; memory, PointerInFunc&lt;TPtr, R&gt; func)
+
     where TPtr : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -905,6 +909,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (Memory&lt;T1&gt;, Memory&lt;T2&gt;) memoryList, PointerAction&lt;TPtr1, TPtr2&gt; action)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -972,6 +977,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (ReadOnlyMemory&lt;T1&gt;, ReadOnlyMemory&lt;T2&gt;) memoryList, PointerAction&lt;TPtr1, TPtr2&gt; action)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1039,6 +1045,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (Memory&lt;T1&gt;, Memory&lt;T2&gt;) memoryList, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1127,6 +1134,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (ReadOnlyMemory&lt;T1&gt;, ReadOnlyMemory&lt;T2&gt;) memoryList, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
+
     where TPtr1 : struct where TPtr2 : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

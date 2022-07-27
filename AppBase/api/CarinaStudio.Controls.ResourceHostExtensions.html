@@ -106,13 +106,85 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Controls_ResourceHostExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ResourceHostExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="CarinaStudio_Controls_ResourceHostExtensions_FindResourceOrDefault_" data-uid="CarinaStudio.Controls.ResourceHostExtensions.FindResourceOrDefault*"></a>
+  <h4 id="CarinaStudio_Controls_ResourceHostExtensions_FindResourceOrDefault__1_Avalonia_Controls_IResourceHost_System_Object___0_" data-uid="CarinaStudio.Controls.ResourceHostExtensions.FindResourceOrDefault``1(Avalonia.Controls.IResourceHost,System.Object,``0)">FindResourceOrDefault&lt;T&gt;(IResourceHost, Object, T)</h4>
+  <div class="markdown level1 summary"><p>Find resource with given type or use default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FindResourceOrDefault&lt;T&gt;(this IResourceHost resourceHost, object key, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Avalonia.Controls.IResourceHost</span></td>
+        <td><span class="parametername">resourceHost</span></td>
+        <td><p><span class="xref">Avalonia.Controls.IResourceHost</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Resource key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="CarinaStudio_Controls_ResourceHostExtensions_TryFindResource_" data-uid="CarinaStudio.Controls.ResourceHostExtensions.TryFindResource*"></a>

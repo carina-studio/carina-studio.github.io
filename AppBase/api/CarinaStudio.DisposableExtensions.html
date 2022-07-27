@@ -123,6 +123,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T DisposeAndReturnNull&lt;T&gt;(this T disposable)
+
     where T : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -185,6 +186,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Exchange&lt;T, R&gt;(this T source, Func&lt;T, R&gt; func)
+
     where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -258,6 +260,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Exchange&lt;T, R&gt;(this T source, Func&lt;R&gt; func)
+
     where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -331,6 +334,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; ExchangeAsync&lt;T, R&gt;(this T source, Func&lt;T, Task&lt;R&gt;&gt; func)
+
     where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -404,6 +408,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; ExchangeAsync&lt;T, R&gt;(this T source, Func&lt;Task&lt;R&gt;&gt; func)
+
     where T : class, IDisposable where R : class, IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -477,6 +482,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Use&lt;T&gt;(this T disposable, Action&lt;T&gt; action)
+
     where T : IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -529,6 +535,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ref R Use&lt;T, R&gt;(this T disposable, RefOutFunc&lt;T, R&gt; func)
+
     where T : IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -602,6 +609,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Use&lt;T, R&gt;(this T disposable, Func&lt;T, R&gt; func)
+
     where T : IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -675,6 +683,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task UseAsync&lt;T&gt;(this T disposable, Func&lt;T, Task&gt; action)
+
     where T : IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -743,6 +752,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; UseAsync&lt;T, R&gt;(this T disposable, Func&lt;T, Task&lt;R&gt;&gt; func)
+
     where T : IDisposable</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
