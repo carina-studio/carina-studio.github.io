@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Collections_TypeConvertedObservableList_2" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2" class="text-break">Class TypeConvertedObservableList&lt;TSrc, TDest&gt;
   </h1>
-  <div class="markdown level0 summary"><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> which wraps another <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> and convert elements to another type. Elements will be updated automatically if source <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> interface.</p>
+  <div class="markdown level0 summary"><p><see cref="!:IList&lt;T>"></see> which wraps another <see cref="!:IList&lt;T>"></see> and convert elements to another type. Elements will be updated automatically if source <see cref="!:IList&lt;T>"></see> implements <see cref="!:INotifyCollectionChanged"></see> interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,17 +84,11 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.Collections.IList</span></div>
-    <div><span class="xref">System.Collections.ICollection</span></div>
-    <div><span class="xref">System.Collections.Generic.IList</span>&lt;TDest&gt;</div>
-    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;TDest&gt;</div>
-    <div><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span></div>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
-    <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;TDest&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;TDest&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDest&gt;</div>
-    <div><span class="xref">System.Collections.IEnumerable</span></div>
+    <div><span class="xref">IList</span></div>
+    <div><span class="xref">IList</span>&lt;TDest&gt;</div>
+    <div><span class="xref">INotifyCollectionChanged</span></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><span class="xref">IReadOnlyList</span>&lt;TDest&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,33 +101,12 @@
     <div>
       <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Collections_TypeConvertedObservableList_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class TypeConvertedObservableList&lt;TSrc, TDest&gt; : BaseDisposable, IDisposable, IList, ICollection, IList&lt;TDest&gt;, ICollection&lt;TDest&gt;, INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyList&lt;TDest&gt;, IReadOnlyCollection&lt;TDest&gt;, IEnumerable&lt;TDest&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class TypeConvertedObservableList&lt;TSrc, TDest&gt; : BaseDisposable, IList, IList&lt;TDest&gt;, INotifyCollectionChanged, INotifyPropertyChanged, IReadOnlyList&lt;TDest&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,10 +131,15 @@
   </table>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2__ctor_IList__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.%23ctor(IList%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L25">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2__ctor_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.#ctor*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2__ctor_System_Collections_Generic_IList__0__" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.#ctor(System.Collections.Generic.IList{`0})">TypeConvertedObservableList(IList&lt;TSrc&gt;)</h4>
+  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2__ctor_IList__0__" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.#ctor(IList{`0})">TypeConvertedObservableList(IList&lt;TSrc&gt;)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Collections.TypeConvertedObservableList-2.html">TypeConvertedObservableList&lt;TSrc, TDest&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -180,7 +158,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TSrc&gt;</td>
+        <td><span class="xref">IList</span>&lt;TSrc&gt;</td>
         <td><span class="parametername">source</span></td>
         <td><p>Source list.</p>
 </td>
@@ -189,8 +167,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_Count.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L67">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_Count_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Count*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_Count" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Count">Count</h4>
   <div class="markdown level1 summary"><p>Get number of elements.</p>
@@ -215,8 +198,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_Item_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L234">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_Item_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Item*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_Item_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Item(System.Int32)">Item[Int32]</h4>
   <div class="markdown level1 summary"><p>Get element.</p>
@@ -262,8 +250,13 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_Contains__1_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.Contains(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L45">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_Contains_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Contains*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_Contains__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Contains(`1)">Contains(TDest)</h4>
   <div class="markdown level1 summary"><p>Check whether given element is contained in list or not.</p>
@@ -307,8 +300,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_ConvertElement__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.ConvertElement(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L53">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_ConvertElement_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.ConvertElement*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_ConvertElement__0_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.ConvertElement(`0)">ConvertElement(TSrc)</h4>
   <div class="markdown level1 summary"><p>Convert source element to element in this list.</p>
@@ -352,8 +350,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_CopyTo__1___System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.CopyTo(%601%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L61">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_CopyTo_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.CopyTo*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_CopyTo__1___System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.CopyTo(`1[],System.Int32)">CopyTo(TDest[], Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
@@ -387,8 +390,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L74">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_Dispose_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Dispose*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_Dispose_System_Boolean_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>Dispose the list.</p>
@@ -418,11 +426,16 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose_System_Boolean_">BaseDisposable.Dispose(Boolean)</a></div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_GetEnumerator.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L85">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_GetEnumerator_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.GetEnumerator*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_GetEnumerator" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.GetEnumerator">GetEnumerator()</h4>
-  <div class="markdown level1 summary"><p>Get <span class="xref">System.Collections.Generic.IEnumerator&lt;T&gt;</span> to enumerate elements.</p>
+  <div class="markdown level1 summary"><p>Get <see cref="!:IEnumerator&lt;T>"></see> to enumerate elements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -439,14 +452,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;TDest&gt;</td>
-        <td><p><span class="xref">System.Collections.Generic.IEnumerator&lt;T&gt;</span>.</p>
+        <td><span class="xref">IEnumerator</span>&lt;TDest&gt;</td>
+        <td><p><see cref="!:IEnumerator&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_IndexOf__1_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.IndexOf(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L93">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_IndexOf_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.IndexOf*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_IndexOf__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.IndexOf(`1)">IndexOf(TDest)</h4>
   <div class="markdown level1 summary"><p>Get index of given element in list.</p>
@@ -490,8 +508,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_ReleaseElement__1_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.ReleaseElement(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L100">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_ReleaseElement_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.ReleaseElement*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_ReleaseElement__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.ReleaseElement(`1)">ReleaseElement(TDest)</h4>
   <div class="markdown level1 summary"><p>Release converted element.</p>
@@ -519,8 +542,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_TrimExcess.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.TrimExcess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L240">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_TrimExcess_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.TrimExcess*"></a>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_TrimExcess" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.TrimExcess">TrimExcess()</h4>
   <div class="markdown level1 summary"><p>Set the capacity to the actual number of elements in list.</p>
@@ -532,15 +560,20 @@
   </div>
   <h3 id="events">Events
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_CollectionChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.CollectionChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L37">View Source</a>
+  </span>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_CollectionChanged" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.CollectionChanged">CollectionChanged</h4>
   <div class="markdown level1 summary"><p>Raised when list changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event NotifyCollectionChangedEventHandler CollectionChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event NotifyCollectionChangedEventHandler? CollectionChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -552,20 +585,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Specialized.NotifyCollectionChangedEventHandler</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">NotifyCollectionChangedEventHandler</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2_PropertyChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L209">View Source</a>
+  </span>
   <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_PropertyChanged" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.PropertyChanged">PropertyChanged</h4>
   <div class="markdown level1 summary"><p>Raised when property changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -577,826 +615,81 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Add_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Add*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Add__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Add(`1)">ICollection&lt;TDest&gt;.Add(TDest)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ICollection&lt;TDest&gt;.Add(TDest value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TDest</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Clear_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Clear*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Clear" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Clear">ICollection&lt;TDest&gt;.Clear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ICollection&lt;TDest&gt;.Clear()</code></pre>
-  </div>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__IsReadOnly_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__IsReadOnly" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#IsReadOnly">ICollection&lt;TDest&gt;.IsReadOnly</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ICollection&lt;TDest&gt;.IsReadOnly { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Remove_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Remove*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_ICollection_TDest__Remove__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#ICollection{TDest}#Remove(`1)">ICollection&lt;TDest&gt;.Remove(TDest)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ICollection&lt;TDest&gt;.Remove(TDest item)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TDest</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__Insert_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#Insert*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__Insert_System_Int32__1_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#Insert(System.Int32,`1)">IList&lt;TDest&gt;.Insert(Int32, TDest)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList&lt;TDest&gt;.Insert(int index, TDest item)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TDest</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__Item_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#Item*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__Item_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#Item(System.Int32)">IList&lt;TDest&gt;.Item[Int32]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TDest IList&lt;TDest&gt;.this[int index] { get; set; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TDest</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__RemoveAt_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#RemoveAt*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_Generic_IList_TDest__RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#Generic#IList{TDest}#RemoveAt(System.Int32)">IList&lt;TDest&gt;.RemoveAt(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList&lt;TDest&gt;.RemoveAt(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_CopyTo_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#CopyTo*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_CopyTo_System_Array_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">ICollection.CopyTo(Array, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ICollection.CopyTo(Array array, int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Array</span></td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_IsSynchronized_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#IsSynchronized*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_IsSynchronized" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#IsSynchronized">ICollection.IsSynchronized</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ICollection.IsSynchronized { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_SyncRoot_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#SyncRoot*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_ICollection_SyncRoot" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#ICollection#SyncRoot">ICollection.SyncRoot</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object ICollection.SyncRoot { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IEnumerable_GetEnumerator_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IEnumerable#GetEnumerator*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IEnumerable_GetEnumerator" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Add_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Add*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Add_System_Object_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Add(System.Object)">IList.Add(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int IList.Add(object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Clear_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Clear*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Clear" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Clear">IList.Clear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList.Clear()</code></pre>
-  </div>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Contains_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Contains*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Contains_System_Object_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Contains(System.Object)">IList.Contains(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IList.Contains(object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IndexOf_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IndexOf*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IndexOf_System_Object_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IndexOf(System.Object)">IList.IndexOf(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int IList.IndexOf(object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Insert_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Insert*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Insert_System_Int32_System_Object_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Insert(System.Int32,System.Object)">IList.Insert(Int32, Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList.Insert(int index, object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IsFixedSize_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IsFixedSize*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IsFixedSize" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IsFixedSize">IList.IsFixedSize</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IList.IsFixedSize { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IsReadOnly_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_IsReadOnly" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#IsReadOnly">IList.IsReadOnly</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IList.IsReadOnly { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Item_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Item*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Item_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Item(System.Int32)">IList.Item[Int32]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object IList.this[int index] { get; set; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Remove_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Remove*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_Remove_System_Object_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#Remove(System.Object)">IList.Remove(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList.Remove(object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_RemoveAt_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#RemoveAt*"></a>
-  <h4 id="CarinaStudio_Collections_TypeConvertedObservableList_2_System_Collections_IList_RemoveAt_System_Int32_" data-uid="CarinaStudio.Collections.TypeConvertedObservableList`2.System#Collections#IList#RemoveAt(System.Int32)">IList.RemoveAt(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IList.RemoveAt(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IList</span>
   </div>
   <div>
-      <span class="xref">System.Collections.IList</span>
+      <span class="xref">IList&lt;&gt;</span>
   </div>
   <div>
-      <span class="xref">System.Collections.ICollection</span>
+      <span class="xref">INotifyCollectionChanged</span>
   </div>
   <div>
-      <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>
+      <span class="xref">INotifyPropertyChanged</span>
   </div>
   <div>
-      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>
-  </div>
-  <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.IEnumerable</span>
+      <span class="xref">IReadOnlyList&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__">DisposableExtensions.Use&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_AddAll__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__">CollectionExtensions.AddAll&lt;T&gt;(ICollection&lt;T&gt;, IEnumerable&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsEmpty__1_System_Collections_Generic_ICollection___0__">CollectionExtensions.IsEmpty&lt;T&gt;(ICollection&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNotEmpty__1_System_Collections_Generic_ICollection___0__">CollectionExtensions.IsNotEmpty&lt;T&gt;(ICollection&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_IsNullOrEmpty__1_System_Collections_Generic_ICollection___0__">CollectionExtensions.IsNullOrEmpty&lt;T&gt;(ICollection&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_RemoveAll__1_System_Collections_Generic_ICollection___0__System_Predicate___0__">CollectionExtensions.RemoveAll&lt;T&gt;(ICollection&lt;T&gt;, Predicate&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_System_Int32_">EnumerableExtensions.ContentToString(IEnumerable, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0__">ListExtensions.AsReadOnly&lt;T&gt;(IList&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Collections_Generic_IComparer___0__">ListExtensions.BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, IComparer&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Comparison___0__">ListExtensions.BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, Comparison&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__">ListExtensions.BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__System_Comparison___1__">ListExtensions.BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;, Comparison&lt;TKey&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Cast__1_System_Collections_IList_">ListExtensions.Cast&lt;TOut&gt;(IList)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_CopyTo__1_System_Collections_Generic_IList___0__System_Int32___0___System_Int32_System_Int32_">ListExtensions.CopyTo&lt;T&gt;(IList&lt;T&gt;, Int32, T[], Int32, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_GetRangeView__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.GetRangeView&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Collections_Generic_IComparer___0__">ListExtensions.IsSorted&lt;T&gt;(IList&lt;T&gt;, IComparer&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Comparison___0__">ListExtensions.IsSorted&lt;T&gt;(IList&lt;T&gt;, Comparison&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_System_Collections_Generic_IList___0__">ListExtensions.SelectRandomElement&lt;T&gt;(IList&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__">ListExtensions.Shuffle&lt;T&gt;(IList&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.Shuffle&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Collections.NotifyCollectionChangedExtensions.html#CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_System_Collections_Specialized_INotifyCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventHandler_">NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_">NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, String, Object, Int32, Nullable&lt;CancellationToken&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -1405,6 +698,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_TypeConvertedObservableList_2.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.TypeConvertedObservableList%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/TypeConvertedObservableList.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

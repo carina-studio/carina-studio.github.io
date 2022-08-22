@@ -88,10 +88,11 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><span class="xref">IDisposable</span></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
     <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
     <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
   </div>
@@ -140,7 +141,7 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Nullable_Exception__">BaseUpdaterComponent.OnCompletedOrCancelled(Nullable&lt;Exception&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnPropertyChanged_System_String_">BaseUpdaterComponent.OnPropertyChanged(String)</a>
@@ -187,46 +188,30 @@
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.html">CarinaStudio.AutoUpdate.Resolvers</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
   <h5 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JsonPackageResolver : BasePackageResolver, IApplicationObject, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonPackageResolver : BasePackageResolver, IApplicationObject, IDisposable, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_CarinaStudio_IApplication_System_Nullable_Version__.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.%23ctor(CarinaStudio.IApplication%2CSystem.Nullable%7BVersion%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/JsonPackageResolver.cs/#L28">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_CarinaStudio_IApplication_System_Version_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor(CarinaStudio.IApplication,System.Version)">JsonPackageResolver(IApplication, Version)</h4>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver__ctor_CarinaStudio_IApplication_System_Nullable_Version__" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.#ctor(CarinaStudio.IApplication,System.Nullable{Version})">JsonPackageResolver(IApplication, Nullable&lt;Version&gt;)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.html">JsonPackageResolver</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonPackageResolver(IApplication app, Version baseAppVersion)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonPackageResolver(IApplication app, Version? baseAppVersion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,7 +230,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Version</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Version</span>&gt;</td>
         <td><span class="parametername">baseAppVersion</span></td>
         <td><p>Base version of application to update.</p>
 </td>
@@ -254,10 +239,15 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/JsonPackageResolver.cs/#L39">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(System.Threading.CancellationToken)">PerformOperationAsync(CancellationToken)</h4>
+  <h4 id="CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver_PerformOperationAsync_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver.PerformOperationAsync(CancellationToken)">PerformOperationAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Perform operation asynchronously.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -276,7 +266,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>Cancellation token.</p>
 </td>
@@ -293,17 +283,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>Task of performing operation.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_System_Threading_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a></div>
+  <div><a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a>
@@ -312,10 +305,10 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a>
   </div>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+      <span class="xref">INotifyPropertyChanged</span>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
@@ -325,73 +318,58 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsInitializing_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsInitializing(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsCompletedOrCancelled_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsCompletedOrCancelled(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsStartedOrCancelling_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsStartedOrCancelling(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -400,6 +378,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_JsonPackageResolver.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.JsonPackageResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/JsonPackageResolver.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

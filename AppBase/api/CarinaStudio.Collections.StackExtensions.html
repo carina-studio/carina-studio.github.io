@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StreamExtensions
+    <title>Class StackExtensions
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StreamExtensions
+    <meta name="title" content="Class StackExtensions
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,42 +68,43 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.IO.StreamExtensions">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.StackExtensions">
   
   
-  <h1 id="CarinaStudio_IO_StreamExtensions" data-uid="CarinaStudio.IO.StreamExtensions" class="text-break">Class StreamExtensions
+  <h1 id="CarinaStudio_Collections_StackExtensions" data-uid="CarinaStudio.Collections.StackExtensions" class="text-break">Class StackExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:Stream"></see>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <see cref="!:Stack&lt;T>"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">StreamExtensions</span></div>
+    <div class="level1"><span class="xref">StackExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.IO.html">CarinaStudio.IO</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_IO_StreamExtensions_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_Collections_StackExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StreamExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class StackExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_StreamExtensions_ReadAllBytes_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.StreamExtensions.ReadAllBytes(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_StackExtensions_TryPeek__2_Stack___0____1__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.StackExtensions.TryPeek%60%602(Stack%7B%60%600%7D%2C%60%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/StreamExtensions.cs/#L19">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/StackExtensions.cs/#L18">View Source</a>
   </span>
-  <a id="CarinaStudio_IO_StreamExtensions_ReadAllBytes_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytes*"></a>
-  <h4 id="CarinaStudio_IO_StreamExtensions_ReadAllBytes_Stream_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytes(Stream)">ReadAllBytes(Stream)</h4>
-  <div class="markdown level1 summary"><p>Read all remaining bytes from stream.</p>
+  <a id="CarinaStudio_Collections_StackExtensions_TryPeek_" data-uid="CarinaStudio.Collections.StackExtensions.TryPeek*"></a>
+  <h4 id="CarinaStudio_Collections_StackExtensions_TryPeek__2_Stack___0____1__" data-uid="CarinaStudio.Collections.StackExtensions.TryPeek``2(Stack{``0},``1@)">TryPeek&lt;T, TOut&gt;(Stack&lt;T&gt;, out TOut)</h4>
+  <div class="markdown level1 summary"><p>Try peeking value in stack as given type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static byte[] ReadAllBytes(this Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryPeek&lt;T, TOut&gt;(this Stack&lt;T&gt; stack, out TOut value)
+    where TOut : T</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,9 +117,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see>.</p>
+        <td><span class="xref">Stack</span>&lt;T&gt;</td>
+        <td><span class="parametername">stack</span></td>
+        <td><p><see cref="!:Stack&lt;T>"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TOut</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Peeked value.</p>
 </td>
       </tr>
     </tbody>
@@ -133,27 +140,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><p>Remaining bytes read from stream.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if value peeked as given type successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value in stack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TOut</span></td>
+        <td><p>Desired type of value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_StackExtensions_TryPop__2_Stack___0____1__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.StackExtensions.TryPop%60%602(Stack%7B%60%600%7D%2C%60%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/StreamExtensions.cs/#L32">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/StackExtensions.cs/#L40">View Source</a>
   </span>
-  <a id="CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync*"></a>
-  <h4 id="CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_Stream_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync(Stream)">ReadAllBytesAsync(Stream)</h4>
-  <div class="markdown level1 summary"><p>Read all remaining bytes from stream asynchronously.</p>
+  <a id="CarinaStudio_Collections_StackExtensions_TryPop_" data-uid="CarinaStudio.Collections.StackExtensions.TryPop*"></a>
+  <h4 id="CarinaStudio_Collections_StackExtensions_TryPop__2_Stack___0____1__" data-uid="CarinaStudio.Collections.StackExtensions.TryPop``2(Stack{``0},``1@)">TryPop&lt;T, TOut&gt;(Stack&lt;T&gt;, out TOut)</h4>
+  <div class="markdown level1 summary"><p>Try popping value from stack as given type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;byte[]&gt; ReadAllBytesAsync(this Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryPop&lt;T, TOut&gt;(this Stack&lt;T&gt; stack, out TOut value)
+    where TOut : T</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,9 +195,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see>.</p>
+        <td><span class="xref">Stack</span>&lt;T&gt;</td>
+        <td><span class="parametername">stack</span></td>
+        <td><p><see cref="!:Stack&lt;T>"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TOut</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Popped value.</p>
 </td>
       </tr>
     </tbody>
@@ -183,64 +218,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
-        <td><p>Remaining bytes read from stream.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if value popped as given type successfully.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_Stream_CancellationToken_.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync(Stream%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/StreamExtensions.cs/#L42">View Source</a>
-  </span>
-  <a id="CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync*"></a>
-  <h4 id="CarinaStudio_IO_StreamExtensions_ReadAllBytesAsync_Stream_CancellationToken_" data-uid="CarinaStudio.IO.StreamExtensions.ReadAllBytesAsync(Stream,CancellationToken)">ReadAllBytesAsync(Stream, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Read all remaining bytes from stream asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;byte[]&gt; ReadAllBytesAsync(this Stream stream, CancellationToken cancellationToken)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see>.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of value in stack.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Cancellation token.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
-        <td><p>Remaining bytes read from stream.</p>
+        <td><span class="parametername">TOut</span></td>
+        <td><p>Desired type of value.</p>
 </td>
       </tr>
     </tbody>
@@ -253,10 +253,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_StreamExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.StreamExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_StackExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.StackExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/StreamExtensions.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/StackExtensions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

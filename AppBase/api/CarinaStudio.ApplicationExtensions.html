@@ -81,40 +81,21 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ApplicationExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
   <h5 id="CarinaStudio_ApplicationExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ApplicationExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ApplicationExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_CarinaStudio_IApplication_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L88">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_" data-uid="CarinaStudio.ApplicationExtensions.CreatePrivateDirectory*"></a>
   <h4 id="CarinaStudio_ApplicationExtensions_CreatePrivateDirectory_CarinaStudio_IApplication_System_String_" data-uid="CarinaStudio.ApplicationExtensions.CreatePrivateDirectory(CarinaStudio.IApplication,System.String)">CreatePrivateDirectory(IApplication, String)</h4>
   <div class="markdown level1 summary"><p>Create directory in private directory of application.</p>
@@ -158,43 +139,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.DirectoryInfo</span></td>
-        <td><p><span class="xref">System.IO.DirectoryInfo</span> represents the directory.</p>
+        <td><span class="xref">DirectoryInfo</span></td>
+        <td><p><see cref="!:DirectoryInfo"></see> represents the directory.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Given path is not a relative path.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IO.IOException</span></td>
-        <td><p>Unable to create directory.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_GetFormattedString_CarinaStudio_IApplication_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication%2CSystem.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L110">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_GetFormattedString_" data-uid="CarinaStudio.ApplicationExtensions.GetFormattedString*"></a>
-  <h4 id="CarinaStudio_ApplicationExtensions_GetFormattedString_CarinaStudio_IApplication_System_String_System_Object___" data-uid="CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication,System.String,System.Object[])">GetFormattedString(IApplication, String, Object[])</h4>
+  <h4 id="CarinaStudio_ApplicationExtensions_GetFormattedString_CarinaStudio_IApplication_System_String_System_Nullable_System_Object____" data-uid="CarinaStudio.ApplicationExtensions.GetFormattedString(CarinaStudio.IApplication,System.String,System.Nullable{System.Object}[])">GetFormattedString(IApplication, String, Nullable&lt;Object&gt;[])</h4>
   <div class="markdown level1 summary"><p>Get formatted string from resources according to given key and current settings or system language.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetFormattedString(this IApplication app, string key, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetFormattedString(this IApplication app, string key, params object? [] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,7 +184,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">args</span></td>
         <td><p>Arguments to be formatted.</p>
 </td>
@@ -242,24 +207,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Format string is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_GetStringNonNull_CarinaStudio_IApplication_System_String_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L123">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_GetStringNonNull_" data-uid="CarinaStudio.ApplicationExtensions.GetStringNonNull*"></a>
   <h4 id="CarinaStudio_ApplicationExtensions_GetStringNonNull_CarinaStudio_IApplication_System_String_System_String_" data-uid="CarinaStudio.ApplicationExtensions.GetStringNonNull(CarinaStudio.IApplication,System.String,System.String)">GetStringNonNull(IApplication, String, String)</h4>
   <div class="markdown level1 summary"><p>Get non-null string from resources according to given key and current settings or system language.</p>
@@ -315,8 +269,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L133">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream*"></a>
   <h4 id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_String_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.String)">OpenManifestResourceStream(IApplication, String)</h4>
   <div class="markdown level1 summary"><p>Open stream to read manifest resource.</p>
@@ -360,32 +319,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
-        <td><p><span class="xref">System.IO.Stream</span> of manifest resource.</p>
+        <td><span class="xref">Stream</span></td>
+        <td><p><see cref="!:Stream"></see> of manifest resource.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Resource cannot be found.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_Type_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication%2CType%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L144">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream*"></a>
-  <h4 id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_System_Type_System_String_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,System.Type,System.String)">OpenManifestResourceStream(IApplication, Type, String)</h4>
+  <h4 id="CarinaStudio_ApplicationExtensions_OpenManifestResourceStream_CarinaStudio_IApplication_Type_System_String_" data-uid="CarinaStudio.ApplicationExtensions.OpenManifestResourceStream(CarinaStudio.IApplication,Type,System.String)">OpenManifestResourceStream(IApplication, Type, String)</h4>
   <div class="markdown level1 summary"><p>Open stream to read manifest resource.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -410,7 +358,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">type</span></td>
         <td><p>Type to provide namespace to scope resource name.</p>
 </td>
@@ -433,38 +381,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
-        <td><p><span class="xref">System.IO.Stream</span> of manifest resource.</p>
+        <td><span class="xref">Stream</span></td>
+        <td><p><see cref="!:Stream"></see> of manifest resource.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Resource cannot be found.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_Nullable_DirectoryInfo___.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication%2CSystem.String%2CSystem.Nullable%7BDirectoryInfo%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L154">View Source</a>
+  </span>
   <a id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory*"></a>
-  <h4 id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.IO.DirectoryInfo@)">TryCreatePrivateDirectory(IApplication, String, out DirectoryInfo)</h4>
+  <h4 id="CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_Nullable_DirectoryInfo___" data-uid="CarinaStudio.ApplicationExtensions.TryCreatePrivateDirectory(CarinaStudio.IApplication,System.String,System.Nullable{DirectoryInfo}@)">TryCreatePrivateDirectory(IApplication, String, out Nullable&lt;DirectoryInfo&gt;)</h4>
   <div class="markdown level1 summary"><p>Try creating directory in private directory of application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryCreatePrivateDirectory(this IApplication app, string relativePath, out DirectoryInfo directoryInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryCreatePrivateDirectory(this IApplication app, string relativePath, out DirectoryInfo? directoryInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -489,9 +426,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.DirectoryInfo</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DirectoryInfo</span>&gt;</td>
         <td><span class="parametername">directoryInfo</span></td>
-        <td><p><span class="xref">System.IO.DirectoryInfo</span> represents the directory.</p>
+        <td><p><see cref="!:DirectoryInfo"></see> represents the directory.</p>
 </td>
       </tr>
     </tbody>
@@ -519,6 +456,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_ApplicationExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.ApplicationExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/IApplication.cs/#L78" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

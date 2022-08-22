@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_IO_FileInfoExtensions" data-uid="CarinaStudio.IO.FileInfoExtensions" class="text-break">Class FileInfoExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.IO.FileInfo</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <see cref="!:FileInfo"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,48 +81,29 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FileInfoExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.IO.html">CarinaStudio.IO</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_IO_FileInfoExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class FileInfoExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class FileInfoExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_FileInfoExtensions_TryOpen_FileInfo_FileMode_FileAccess_System_Int32_System_Nullable_FileStream___.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.FileInfoExtensions.TryOpen(FileInfo%2CFileMode%2CFileAccess%2CSystem.Int32%2CSystem.Nullable%7BFileStream%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/FileInfoExtensions.cs/#L20">View Source</a>
+  </span>
   <a id="CarinaStudio_IO_FileInfoExtensions_TryOpen_" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpen*"></a>
-  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpen_System_IO_FileInfo_System_IO_FileMode_System_IO_FileAccess_System_Int32_System_IO_FileStream__" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpen(System.IO.FileInfo,System.IO.FileMode,System.IO.FileAccess,System.Int32,System.IO.FileStream@)">TryOpen(FileInfo, FileMode, FileAccess, Int32, out FileStream)</h4>
+  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpen_FileInfo_FileMode_FileAccess_System_Int32_System_Nullable_FileStream___" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpen(FileInfo,FileMode,FileAccess,System.Int32,System.Nullable{FileStream}@)">TryOpen(FileInfo, FileMode, FileAccess, Int32, out Nullable&lt;FileStream&gt;)</h4>
   <div class="markdown level1 summary"><p>Try opening file with given timeout.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryOpen(this FileInfo fileInfo, FileMode mode, FileAccess access, int timeoutMillis, out FileStream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryOpen(this FileInfo fileInfo, FileMode mode, FileAccess access, int timeoutMillis, out FileStream? stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,19 +116,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td><span class="xref">FileInfo</span></td>
         <td><span class="parametername">fileInfo</span></td>
-        <td><p><span class="xref">System.IO.FileInfo</span>.</p>
+        <td><p><see cref="!:FileInfo"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileMode</span></td>
+        <td><span class="xref">FileMode</span></td>
         <td><span class="parametername">mode</span></td>
         <td><p>Mode to open file.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileAccess</span></td>
+        <td><span class="xref">FileAccess</span></td>
         <td><span class="parametername">access</span></td>
         <td><p>Desired access.</p>
 </td>
@@ -159,7 +140,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileStream</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FileStream</span>&gt;</td>
         <td><span class="parametername">stream</span></td>
         <td><p>Opened stream.</p>
 </td>
@@ -182,16 +163,21 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_FileInfoExtensions_TryOpenRead_FileInfo_System_Int32_System_Nullable_FileStream___.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.FileInfoExtensions.TryOpenRead(FileInfo%2CSystem.Int32%2CSystem.Nullable%7BFileStream%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/FileInfoExtensions.cs/#L31">View Source</a>
+  </span>
   <a id="CarinaStudio_IO_FileInfoExtensions_TryOpenRead_" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenRead*"></a>
-  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenRead_System_IO_FileInfo_System_Int32_System_IO_FileStream__" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenRead(System.IO.FileInfo,System.Int32,System.IO.FileStream@)">TryOpenRead(FileInfo, Int32, out FileStream)</h4>
+  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenRead_FileInfo_System_Int32_System_Nullable_FileStream___" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenRead(FileInfo,System.Int32,System.Nullable{FileStream}@)">TryOpenRead(FileInfo, Int32, out Nullable&lt;FileStream&gt;)</h4>
   <div class="markdown level1 summary"><p>Try opening file for reading with given timeout.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryOpenRead(this FileInfo fileInfo, int timeoutMillis, out FileStream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryOpenRead(this FileInfo fileInfo, int timeoutMillis, out FileStream? stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,9 +190,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td><span class="xref">FileInfo</span></td>
         <td><span class="parametername">fileInfo</span></td>
-        <td><p><span class="xref">System.IO.FileInfo</span>.</p>
+        <td><p><see cref="!:FileInfo"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -216,7 +202,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileStream</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FileStream</span>&gt;</td>
         <td><span class="parametername">stream</span></td>
         <td><p>Opened stream.</p>
 </td>
@@ -239,16 +225,21 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_FileInfo_System_Int32_System_Nullable_FileStream___.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(FileInfo%2CSystem.Int32%2CSystem.Nullable%7BFileStream%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/FileInfoExtensions.cs/#L42">View Source</a>
+  </span>
   <a id="CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite*"></a>
-  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_System_IO_FileInfo_System_Int32_System_IO_FileStream__" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)">TryOpenReadWrite(FileInfo, Int32, out FileStream)</h4>
+  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenReadWrite_FileInfo_System_Int32_System_Nullable_FileStream___" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenReadWrite(FileInfo,System.Int32,System.Nullable{FileStream}@)">TryOpenReadWrite(FileInfo, Int32, out Nullable&lt;FileStream&gt;)</h4>
   <div class="markdown level1 summary"><p>Try opening file for reading and writing with given timeout.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryOpenReadWrite(this FileInfo fileInfo, int timeoutMillis, out FileStream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryOpenReadWrite(this FileInfo fileInfo, int timeoutMillis, out FileStream? stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,9 +252,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td><span class="xref">FileInfo</span></td>
         <td><span class="parametername">fileInfo</span></td>
-        <td><p><span class="xref">System.IO.FileInfo</span>.</p>
+        <td><p><see cref="!:FileInfo"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -273,7 +264,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileStream</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FileStream</span>&gt;</td>
         <td><span class="parametername">stream</span></td>
         <td><p>Opened stream.</p>
 </td>
@@ -296,16 +287,21 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_FileInfo_System_Int32_System_Nullable_FileStream___.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(FileInfo%2CSystem.Int32%2CSystem.Nullable%7BFileStream%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/FileInfoExtensions.cs/#L53">View Source</a>
+  </span>
   <a id="CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenWrite*"></a>
-  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_System_IO_FileInfo_System_Int32_System_IO_FileStream__" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(System.IO.FileInfo,System.Int32,System.IO.FileStream@)">TryOpenWrite(FileInfo, Int32, out FileStream)</h4>
+  <h4 id="CarinaStudio_IO_FileInfoExtensions_TryOpenWrite_FileInfo_System_Int32_System_Nullable_FileStream___" data-uid="CarinaStudio.IO.FileInfoExtensions.TryOpenWrite(FileInfo,System.Int32,System.Nullable{FileStream}@)">TryOpenWrite(FileInfo, Int32, out Nullable&lt;FileStream&gt;)</h4>
   <div class="markdown level1 summary"><p>Try opening file for writing with given timeout.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryOpenWrite(this FileInfo fileInfo, int timeoutMillis, out FileStream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryOpenWrite(this FileInfo fileInfo, int timeoutMillis, out FileStream? stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,9 +314,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td><span class="xref">FileInfo</span></td>
         <td><span class="parametername">fileInfo</span></td>
-        <td><p><span class="xref">System.IO.FileInfo</span>.</p>
+        <td><p><see cref="!:FileInfo"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -330,7 +326,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.FileStream</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FileStream</span>&gt;</td>
         <td><span class="parametername">stream</span></td>
         <td><p>Opened stream.</p>
 </td>
@@ -360,6 +356,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_IO_FileInfoExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.IO.FileInfoExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/IO/FileInfoExtensions.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

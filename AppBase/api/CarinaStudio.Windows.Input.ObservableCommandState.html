@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Windows_Input_ObservableCommandState" data-uid="CarinaStudio.Windows.Input.ObservableCommandState" class="text-break">Class ObservableCommandState
   </h1>
-  <div class="markdown level0 summary"><p><span class="xref">System.IObservable&lt;T&gt;</span> which reflects <span class="xref">System.Windows.Input.ICommand.CanExecute(System.Object)</span>.</p>
+  <div class="markdown level0 summary"><p><see cref="!:IObservable&lt;T>"></see> which reflects <see cref="!:ICommand.CanExecute(object)"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,8 +84,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IEquatable</span>&lt;<span class="xref">System.Boolean</span>&gt;</div>
-    <div><span class="xref">System.IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;</div>
+    <div><span class="xref">IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -93,7 +92,7 @@
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals__0_">ObservableValue&lt;Boolean&gt;.Equals(Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Object_">ObservableValue&lt;Boolean&gt;.Equals(Object)</a>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Nullable_System_Object__">ObservableValue&lt;Boolean&gt;.Equals(Nullable&lt;Object&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode">ObservableValue&lt;Boolean&gt;.GetHashCode()</a>
@@ -108,7 +107,7 @@
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNull">ObservableValue&lt;Boolean&gt;.IsNull</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_System_IObserver__0__">ObservableValue&lt;Boolean&gt;.Subscribe(IObserver&lt;Boolean&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_IObserver__0__">ObservableValue&lt;Boolean&gt;.Subscribe(IObserver&lt;&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_ToString">ObservableValue&lt;Boolean&gt;.ToString()</a>
@@ -116,40 +115,33 @@
     <div>
       <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Value">ObservableValue&lt;Boolean&gt;.Value</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Windows.Input.html">CarinaStudio.Windows.Input</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
   <h5 id="CarinaStudio_Windows_Input_ObservableCommandState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ObservableCommandState : ObservableValue&lt;bool&gt;, IEquatable&lt;bool&gt;, IObservable&lt;bool&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ObservableCommandState : ObservableValue&lt;bool&gt;, IObservable&lt;bool&gt;</code></pre>
   </div>
   <h5 id="CarinaStudio_Windows_Input_ObservableCommandState_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p><a class="xref" href="CarinaStudio.Windows.Input.ObservableCommandState.html">ObservableCommandState</a> uses weak event handler to monitor state of <span class="xref">System.Windows.Input.ICommand</span> so it is not necessary to unbind from <span class="xref">System.Windows.Input.ICommand</span> explicitly.</p>
+  <div class="markdown level0 remarks"><p><a class="xref" href="CarinaStudio.Windows.Input.ObservableCommandState.html">ObservableCommandState</a> uses weak event handler to monitor state of <see cref="!:ICommand"></see> so it is not necessary to unbind from <see cref="!:ICommand"></see> explicitly.</p>
 </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState__ctor_System_Nullable_ICommand__System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState.%23ctor(System.Nullable%7BICommand%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L43">View Source</a>
+  </span>
   <a id="CarinaStudio_Windows_Input_ObservableCommandState__ctor_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.#ctor*"></a>
-  <h4 id="CarinaStudio_Windows_Input_ObservableCommandState__ctor_System_Windows_Input_ICommand_System_Boolean_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Windows.Input.ICommand,System.Boolean)">ObservableCommandState(ICommand, Boolean)</h4>
+  <h4 id="CarinaStudio_Windows_Input_ObservableCommandState__ctor_System_Nullable_ICommand__System_Boolean_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Nullable{ICommand},System.Boolean)">ObservableCommandState(Nullable&lt;ICommand&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Windows.Input.ObservableCommandState.html">ObservableCommandState</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCommandState(ICommand command = null, bool defaultValue = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableCommandState(ICommand? command = null, bool defaultValue = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,31 +154,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Input.ICommand</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ICommand</span>&gt;</td>
         <td><span class="parametername">command</span></td>
-        <td><p><span class="xref">System.Windows.Input.ICommand</span> to bind to.</p>
+        <td><p><see cref="!:ICommand"></see> to bind to.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default value used when no <span class="xref">System.Windows.Input.ICommand</span> bound.</p>
+        <td><p>Default value used when no <see cref="!:ICommand"></see> bound.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState_Command.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState.Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L85">View Source</a>
+  </span>
   <a id="CarinaStudio_Windows_Input_ObservableCommandState_Command_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Command*"></a>
   <h4 id="CarinaStudio_Windows_Input_ObservableCommandState_Command" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Command">Command</h4>
-  <div class="markdown level1 summary"><p>Get <span class="xref">System.Windows.Input.ICommand</span> currently bound by this instance.</p>
+  <div class="markdown level1 summary"><p>Get <see cref="!:ICommand"></see> currently bound by this instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand Command { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICommand? Command { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,18 +195,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Input.ICommand</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ICommand</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState_Bind_ICommand_.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState.Bind(ICommand)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L68">View Source</a>
+  </span>
   <a id="CarinaStudio_Windows_Input_ObservableCommandState_Bind_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Bind*"></a>
-  <h4 id="CarinaStudio_Windows_Input_ObservableCommandState_Bind_System_Windows_Input_ICommand_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Bind(System.Windows.Input.ICommand)">Bind(ICommand)</h4>
-  <div class="markdown level1 summary"><p>Bind to <span class="xref">System.Windows.Input.ICommand</span>.</p>
+  <h4 id="CarinaStudio_Windows_Input_ObservableCommandState_Bind_ICommand_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Bind(ICommand)">Bind(ICommand)</h4>
+  <div class="markdown level1 summary"><p>Bind to <see cref="!:ICommand"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -227,31 +229,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Input.ICommand</span></td>
+        <td><span class="xref">ICommand</span></td>
         <td><span class="parametername">command</span></td>
-        <td><p><span class="xref">System.Windows.Input.ICommand</span> to bind to.</p>
+        <td><p><see cref="!:ICommand"></see> to bind to.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.InvalidOperationException</span></td>
-        <td><p>Instance is already bound to another command.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState_Finalize.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L57">View Source</a>
+  </span>
   <a id="CarinaStudio_Windows_Input_ObservableCommandState_Finalize_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Finalize*"></a>
   <h4 id="CarinaStudio_Windows_Input_ObservableCommandState_Finalize" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"><p>Finalizer.</p>
@@ -261,11 +252,16 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState_Unbind.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState.Unbind%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L98">View Source</a>
+  </span>
   <a id="CarinaStudio_Windows_Input_ObservableCommandState_Unbind_" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Unbind*"></a>
   <h4 id="CarinaStudio_Windows_Input_ObservableCommandState_Unbind" data-uid="CarinaStudio.Windows.Input.ObservableCommandState.Unbind">Unbind()</h4>
-  <div class="markdown level1 summary"><p>Unbind from current <span class="xref">System.Windows.Input.ICommand</span>.</p>
+  <div class="markdown level1 summary"><p>Unbind from current <see cref="!:ICommand"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -274,65 +270,62 @@
   </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.IObservable&lt;T&gt;</span>
+      <span class="xref">IObservable&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -341,6 +334,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Windows_Input_ObservableCommandState.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.ObservableCommandState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application/Windows/Input/ObservableCommandState.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -85,42 +85,57 @@
     <h5>Implements</h5>
     <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Threading_ScheduledAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScheduledAction : ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ScheduledAction : object, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction__ctor_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.%23ctor(Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L45">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
-  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)">ScheduledAction(ISynchronizable, Action)</h4>
+  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(Action)">ScheduledAction(Action)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.%23ctor(CarinaStudio.Threading.ISynchronizable%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L34">View Source</a>
+  </span>
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,Action)">ScheduledAction(ISynchronizable, Action)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -145,46 +160,22 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>Action.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction__ctor_SynchronizationContext_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.%23ctor(SynchronizationContext%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L22">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
-  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)">ScheduledAction(Action)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScheduledAction(Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
-  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)">ScheduledAction(SynchronizationContext, Action)</h4>
+  <h4 id="CarinaStudio_Threading_ScheduledAction__ctor_SynchronizationContext_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(SynchronizationContext,Action)">ScheduledAction(SynchronizationContext, Action)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -203,13 +194,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
         <td><p><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>Action.</p>
 </td>
@@ -218,8 +209,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_IsScheduled.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.IsScheduled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L118">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_IsScheduled_" data-uid="CarinaStudio.Threading.ScheduledAction.IsScheduled*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_IsScheduled" data-uid="CarinaStudio.Threading.ScheduledAction.IsScheduled">IsScheduled</h4>
   <div class="markdown level1 summary"><p>Check whether execution has been scheduled or not.</p>
@@ -244,8 +240,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_SynchronizationContext.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.SynchronizationContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L196">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_SynchronizationContext_" data-uid="CarinaStudio.Threading.ScheduledAction.SynchronizationContext*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_SynchronizationContext" data-uid="CarinaStudio.Threading.ScheduledAction.SynchronizationContext">SynchronizationContext</h4>
   <div class="markdown level1 summary"><p><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
@@ -265,15 +266,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Cancel.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Cancel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L56">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Cancel_" data-uid="CarinaStudio.Threading.ScheduledAction.Cancel*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_Cancel" data-uid="CarinaStudio.Threading.ScheduledAction.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"><p>Cancel scheduled execution.</p>
@@ -299,8 +305,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Execute.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L76">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Execute_" data-uid="CarinaStudio.Threading.ScheduledAction.Execute*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_Execute" data-uid="CarinaStudio.Threading.ScheduledAction.Execute">Execute()</h4>
   <div class="markdown level1 summary"><p>Execute action on current thread immediately. The scheduled execution will be cancelled.</p>
@@ -310,8 +321,13 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L102">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled_" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled">ExecuteIfScheduled()</h4>
   <div class="markdown level1 summary"><p>Execute action on current thread immediately if execution has been scheduled. The scheduled execution will be cancelled.</p>
@@ -337,8 +353,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Reschedule_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L125">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Reschedule_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_Reschedule_System_Int32_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)">Reschedule(Int32)</h4>
   <div class="markdown level1 summary"><p>Reschedule execution. It will replace the previous scheduling.</p>
@@ -366,10 +387,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Reschedule_TimeSpan_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Reschedule(TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L145">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Reschedule_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule*"></a>
-  <h4 id="CarinaStudio_Threading_ScheduledAction_Reschedule_System_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule(System.TimeSpan)">Reschedule(TimeSpan)</h4>
+  <h4 id="CarinaStudio_Threading_ScheduledAction_Reschedule_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule(TimeSpan)">Reschedule(TimeSpan)</h4>
   <div class="markdown level1 summary"><p>Reschedule execution. It will replace the previous scheduling.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -388,15 +414,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>Delay time.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Schedule_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L161">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Schedule_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule*"></a>
   <h4 id="CarinaStudio_Threading_ScheduledAction_Schedule_System_Int32_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)">Schedule(Int32)</h4>
   <div class="markdown level1 summary"><p>Schedule execution. It won't be scheduled again if execution is already scheduled.</p>
@@ -424,10 +455,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction_Schedule_TimeSpan_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction.Schedule(TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L181">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_ScheduledAction_Schedule_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule*"></a>
-  <h4 id="CarinaStudio_Threading_ScheduledAction_Schedule_System_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule(System.TimeSpan)">Schedule(TimeSpan)</h4>
+  <h4 id="CarinaStudio_Threading_ScheduledAction_Schedule_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule(TimeSpan)">Schedule(TimeSpan)</h4>
   <div class="markdown level1 summary"><p>Schedule execution. It won't be scheduled again if execution is already scheduled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -446,7 +482,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>Delay time.</p>
 </td>
@@ -459,58 +495,58 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -519,6 +555,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_ScheduledAction.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.ScheduledAction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/ScheduledAction.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

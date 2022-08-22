@@ -90,10 +90,11 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><span class="xref">IDisposable</span></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
     <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
     <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
   </div>
@@ -112,13 +113,13 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Nullable_Exception__">BaseUpdaterComponent.OnCompletedOrCancelled(Nullable&lt;Exception&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnPropertyChanged_System_String_">BaseUpdaterComponent.OnPropertyChanged(String)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_System_Threading_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Progress">BaseUpdaterComponent.Progress</a>
@@ -162,38 +163,22 @@
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.html">CarinaStudio.AutoUpdate.Resolvers</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
   <h5 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BasePackageResolver : BaseUpdaterComponent, IApplicationObject, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BasePackageResolver : BaseUpdaterComponent, IApplicationObject, IDisposable, IPackageResolver, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor_CarinaStudio_IApplication_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.%23ctor(CarinaStudio.IApplication)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L28">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.#ctor(CarinaStudio.IApplication)">BasePackageResolver(IApplication)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.html">BasePackageResolver</a> instance.</p>
@@ -223,8 +208,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ApplicationName.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ApplicationName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L35">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ApplicationName_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ApplicationName*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ApplicationName" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ApplicationName">ApplicationName</h4>
   <div class="markdown level1 summary"><p>Get or set resolved application name.</p>
@@ -232,7 +222,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ApplicationName { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? ApplicationName { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -244,13 +234,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L52">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_MD5" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.MD5">MD5</h4>
   <div class="markdown level1 summary"><p>Get MD5 hash code of update package.</p>
@@ -258,7 +253,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MD5 { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? MD5 { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -270,13 +265,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L69">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageUri" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageUri">PackageUri</h4>
   <div class="markdown level1 summary"><p>Get or set resolved URI to download update package.</p>
@@ -284,7 +284,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri PackageUri { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Uri? PackageUri { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -296,13 +296,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Uri</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Uri</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageVersion.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L86">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageVersion_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageVersion*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PackageVersion" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PackageVersion">PackageVersion</h4>
   <div class="markdown level1 summary"><p>Get resolved version of update package.</p>
@@ -310,7 +315,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Version PackageVersion { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Version? PackageVersion { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,13 +327,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Version</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Version</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PageUri.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PageUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L103">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PageUri_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PageUri*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_PageUri" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.PageUri">PageUri</h4>
   <div class="markdown level1 summary"><p>Get resolved URI of web page.</p>
@@ -336,7 +346,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri PageUri { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Uri? PageUri { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -348,16 +358,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Uri</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Uri</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SelfContainedPackageOnly.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L118">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SelfContainedPackageOnly_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SelfContainedPackageOnly" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SelfContainedPackageOnly">SelfContainedPackageOnly</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get or set whether only self-contained package can be selected or not.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -378,8 +394,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L137">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA256" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA256">SHA256</h4>
   <div class="markdown level1 summary"><p>Get SHA256 hash code of update package.</p>
@@ -387,7 +408,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SHA256 { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? SHA256 { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -399,13 +420,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L154">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_SHA512" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.SHA512">SHA512</h4>
   <div class="markdown level1 summary"><p>Get SHA512 hash code of update package.</p>
@@ -413,7 +439,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SHA512 { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? SHA512 { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -425,13 +451,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L171">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_Source" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.Source">Source</h4>
   <div class="markdown level1 summary"><p>Get or set source <a class="xref" href="CarinaStudio.IO.IStreamProvider.html">IStreamProvider</a> to provide data of package manifest to be resolved.</p>
@@ -458,8 +489,13 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ValidateParametersToStart.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ValidateParametersToStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L191">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ValidateParametersToStart_" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ValidateParametersToStart*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver_ValidateParametersToStart" data-uid="CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver.ValidateParametersToStart">ValidateParametersToStart()</h4>
   <div class="markdown level1 summary"><p>Validate parameters to start performing operation.</p>
@@ -492,16 +528,19 @@
       <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
   </div>
   <div>
+      <span class="xref">IDisposable</span>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a>
   </div>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+      <span class="xref">INotifyPropertyChanged</span>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
@@ -511,73 +550,58 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsInitializing_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsInitializing(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsCompletedOrCancelled_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsCompletedOrCancelled(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsStartedOrCancelling_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsStartedOrCancelling(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -586,6 +610,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Resolvers_BasePackageResolver.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Resolvers.BasePackageResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Resolvers/BasePackageResolver.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

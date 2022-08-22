@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Threading_SynchronizationContextExtensions" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions" class="text-break">Class SynchronizationContextExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Threading.SynchronizationContext</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <see cref="!:SynchronizationContext"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,42 +81,23 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">SynchronizationContextExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Threading.html">CarinaStudio.Threading</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Threading_SynchronizationContextExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SynchronizationContextExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SynchronizationContextExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_SynchronizationContext_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(SynchronizationContext%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L71">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed*"></a>
-  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_System_Threading_SynchronizationContext_System_Object_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(System.Threading.SynchronizationContext,System.Object)">CancelDelayed(SynchronizationContext, Object)</h4>
+  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_CancelDelayed_SynchronizationContext_System_Object_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.CancelDelayed(SynchronizationContext,System.Object)">CancelDelayed(SynchronizationContext, Object)</h4>
   <div class="markdown level1 summary"><p>Cancel posted delayed call-back.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -135,15 +116,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
-        <td><p><span class="xref">System.Threading.SynchronizationContext</span>.</p>
+        <td><p><see cref="!:SynchronizationContext"></see>.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">token</span></td>
-        <td><p>Token returned from <a class="xref" href="CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_System_Threading_SynchronizationContext_System_Threading_SendOrPostCallback_System_Object_System_Int32_">PostDelayed(SynchronizationContext, SendOrPostCallback, Object, Int32)</a>.</p>
+        <td><p>Token returned from <a class="xref" href="CarinaStudio.Threading.SynchronizationContextExtensions.html#CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_SynchronizationContext_SendOrPostCallback_System_Nullable_System_Object__System_Int32_">PostDelayed(SynchronizationContext, SendOrPostCallback, Nullable&lt;Object&gt;, Int32)</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -164,10 +145,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions_Post_SynchronizationContext_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions.Post(SynchronizationContext%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L170">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_SynchronizationContextExtensions_Post_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Post*"></a>
-  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_Post_System_Threading_SynchronizationContext_System_Action_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Post(System.Threading.SynchronizationContext,System.Action)">Post(SynchronizationContext, Action)</h4>
+  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_Post_SynchronizationContext_Action_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Post(SynchronizationContext,Action)">Post(SynchronizationContext, Action)</h4>
   <div class="markdown level1 summary"><p>Post call-back.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -186,23 +172,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
-        <td><p><span class="xref">System.Threading.SynchronizationContext</span>.</p>
+        <td><p><see cref="!:SynchronizationContext"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td><p>Call-back.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_SynchronizationContext_Action_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(SynchronizationContext%2CAction%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L180">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed*"></a>
-  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_System_Threading_SynchronizationContext_System_Action_System_Int32_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Action,System.Int32)">PostDelayed(SynchronizationContext, Action, Int32)</h4>
+  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_SynchronizationContext_Action_System_Int32_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(SynchronizationContext,Action,System.Int32)">PostDelayed(SynchronizationContext, Action, Int32)</h4>
   <div class="markdown level1 summary"><p>Post delayed call-back.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -221,13 +212,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
-        <td><p><span class="xref">System.Threading.SynchronizationContext</span>.</p>
+        <td><p><see cref="!:SynchronizationContext"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td><p>Call-back.</p>
 </td>
@@ -256,16 +247,21 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_SynchronizationContext_SendOrPostCallback_System_Nullable_System_Object__System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(SynchronizationContext%2CSendOrPostCallback%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L191">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed*"></a>
-  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_System_Threading_SynchronizationContext_System_Threading_SendOrPostCallback_System_Object_System_Int32_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(System.Threading.SynchronizationContext,System.Threading.SendOrPostCallback,System.Object,System.Int32)">PostDelayed(SynchronizationContext, SendOrPostCallback, Object, Int32)</h4>
+  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_PostDelayed_SynchronizationContext_SendOrPostCallback_System_Nullable_System_Object__System_Int32_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.PostDelayed(SynchronizationContext,SendOrPostCallback,System.Nullable{System.Object},System.Int32)">PostDelayed(SynchronizationContext, SendOrPostCallback, Nullable&lt;Object&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>Post delayed call-back.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static object PostDelayed(this SynchronizationContext synchronizationContext, SendOrPostCallback callback, object state, int delayMillis)</code></pre>
+    <pre><code class="lang-csharp hljs">public static object PostDelayed(this SynchronizationContext synchronizationContext, SendOrPostCallback callback, object? state, int delayMillis)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,19 +274,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
-        <td><p><span class="xref">System.Threading.SynchronizationContext</span>.</p>
+        <td><p><see cref="!:SynchronizationContext"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.SendOrPostCallback</span></td>
+        <td><span class="xref">SendOrPostCallback</span></td>
         <td><span class="parametername">callback</span></td>
         <td><p>Call-back.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">state</span></td>
         <td><p>Custom state pass to call-back.</p>
 </td>
@@ -319,10 +315,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions_Send_SynchronizationContext_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions.Send(SynchronizationContext%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L258">View Source</a>
+  </span>
   <a id="CarinaStudio_Threading_SynchronizationContextExtensions_Send_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Send*"></a>
-  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_Send_System_Threading_SynchronizationContext_System_Action_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Send(System.Threading.SynchronizationContext,System.Action)">Send(SynchronizationContext, Action)</h4>
+  <h4 id="CarinaStudio_Threading_SynchronizationContextExtensions_Send_SynchronizationContext_Action_" data-uid="CarinaStudio.Threading.SynchronizationContextExtensions.Send(SynchronizationContext,Action)">Send(SynchronizationContext, Action)</h4>
   <div class="markdown level1 summary"><p>Call given call-back synchronously.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -341,13 +342,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
+        <td><span class="xref">SynchronizationContext</span></td>
         <td><span class="parametername">synchronizationContext</span></td>
-        <td><p><span class="xref">System.Threading.SynchronizationContext</span>.</p>
+        <td><p><see cref="!:SynchronizationContext"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td><p>Call-back.</p>
 </td>
@@ -361,6 +362,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Threading_SynchronizationContextExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Threading.SynchronizationContextExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Threading/SynchronizationContextExtensions.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

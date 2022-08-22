@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions" class="text-break">Class NotifyCollectionChangedExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <see cref="!:INotifyCollectionChanged"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,43 +81,24 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">NotifyCollectionChangedExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class NotifyCollectionChangedExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class NotifyCollectionChangedExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_INotifyCollectionChanged_NotifyCollectionChangedEventHandler_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(INotifyCollectionChanged%2CNotifyCollectionChangedEventHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/NotifyCollectionChangedExtensions.cs/#L63">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler*"></a>
-  <h4 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_System_Collections_Specialized_INotifyCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventHandler_" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(System.Collections.Specialized.INotifyCollectionChanged,System.Collections.Specialized.NotifyCollectionChangedEventHandler)">AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler to <span class="xref">System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged</span>.</p>
+  <h4 id="CarinaStudio_Collections_NotifyCollectionChangedExtensions_AddWeakCollectionChangedEventHandler_INotifyCollectionChanged_NotifyCollectionChangedEventHandler_" data-uid="CarinaStudio.Collections.NotifyCollectionChangedExtensions.AddWeakCollectionChangedEventHandler(INotifyCollectionChanged,NotifyCollectionChangedEventHandler)">AddWeakCollectionChangedEventHandler(INotifyCollectionChanged, NotifyCollectionChangedEventHandler)</h4>
+  <div class="markdown level1 summary"><p>Add weak event handler to <see cref="!:INotifyCollectionChanged.CollectionChanged"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -135,13 +116,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span></td>
+        <td><span class="xref">INotifyCollectionChanged</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p><span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+        <td><p><see cref="!:INotifyCollectionChanged"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Specialized.NotifyCollectionChangedEventHandler</span></td>
+        <td><span class="xref">NotifyCollectionChangedEventHandler</span></td>
         <td><span class="parametername">handler</span></td>
         <td><p>Event handler.</p>
 </td>
@@ -158,8 +139,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IDisposable</span></td>
-        <td><p><span class="xref">System.IDisposable</span> which represents added weak event handler. You can call <span class="xref">System.IDisposable.Dispose()</span> to remove weak event handler explicitly.</p>
+        <td><span class="xref">IDisposable</span></td>
+        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
 </td>
       </tr>
     </tbody>
@@ -171,6 +152,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_NotifyCollectionChangedExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.NotifyCollectionChangedExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/NotifyCollectionChangedExtensions.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

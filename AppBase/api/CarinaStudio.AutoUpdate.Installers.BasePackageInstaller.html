@@ -88,10 +88,11 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+    <div><span class="xref">IDisposable</span></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a></div>
     <div><a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a></div>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
     <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
     <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
   </div>
@@ -110,13 +111,13 @@
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Nullable_Exception__">BaseUpdaterComponent.OnCompletedOrCancelled(Nullable&lt;Exception&gt;)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnPropertyChanged_System_String_">BaseUpdaterComponent.OnPropertyChanged(String)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_System_Threading_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a>
+      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_CancellationToken_">BaseUpdaterComponent.PerformOperationAsync(CancellationToken)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Progress">BaseUpdaterComponent.Progress</a>
@@ -160,38 +161,22 @@
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.Installers.html">CarinaStudio.AutoUpdate.Installers</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
   <h5 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BasePackageInstaller : BaseUpdaterComponent, IApplicationObject, IPackageInstaller, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BasePackageInstaller : BaseUpdaterComponent, IApplicationObject, IDisposable, IPackageInstaller, IUpdaterComponent, IDisposable, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_CarinaStudio_IApplication_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.%23ctor(CarinaStudio.IApplication)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L25">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor(CarinaStudio.IApplication)">BasePackageInstaller(IApplication)</h4>
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html">BasePackageInstaller</a> instance.</p>
@@ -221,8 +206,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstalledFilePaths.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstalledFilePaths%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L34">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstalledFilePaths_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstalledFilePaths*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstalledFilePaths" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstalledFilePaths">InstalledFilePaths</h4>
   <div class="markdown level1 summary"><p>Get set of path of installed files.</p>
@@ -242,13 +232,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_PackageFileName.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.PackageFileName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L40">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_PackageFileName_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.PackageFileName*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_PackageFileName" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.PackageFileName">PackageFileName</h4>
   <div class="markdown level1 summary"><p>Get or set name of package file to install.</p>
@@ -256,7 +251,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PackageFileName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? PackageFileName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -268,13 +263,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_TargetDirectoryPath.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.TargetDirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L79">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_TargetDirectoryPath_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.TargetDirectoryPath*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_TargetDirectoryPath" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.TargetDirectoryPath">TargetDirectoryPath</h4>
   <div class="markdown level1 summary"><p>Get or set path of target directory to install package.</p>
@@ -282,7 +282,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TargetDirectoryPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? TargetDirectoryPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,15 +294,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ReportInstalledFilePath_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ReportInstalledFilePath(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L61">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ReportInstalledFilePath_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ReportInstalledFilePath*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ReportInstalledFilePath_System_String_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ReportInstalledFilePath(System.String)">ReportInstalledFilePath(String)</h4>
   <div class="markdown level1 summary"><p>Report path of installed file.</p>
@@ -333,8 +338,13 @@
   <h5 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ReportInstalledFilePath_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The method can be called in any thread.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ValidateParametersToStart.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ValidateParametersToStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L99">View Source</a>
+  </span>
   <a id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ValidateParametersToStart_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ValidateParametersToStart*"></a>
   <h4 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ValidateParametersToStart" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ValidateParametersToStart">ValidateParametersToStart()</h4>
   <div class="markdown level1 summary"><p>Validate parameters to start performing operation.</p>
@@ -367,16 +377,19 @@
       <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
   </div>
   <div>
+      <span class="xref">IDisposable</span>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.IUpdaterComponent.html">IUpdaterComponent</a>
   </div>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+      <span class="xref">INotifyPropertyChanged</span>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
@@ -386,73 +399,58 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsInitializing_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsInitializing(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsCompletedOrCancelled_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsCompletedOrCancelled(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_IsStartedOrCancelling_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.IsStartedOrCancelling(IUpdaterComponent)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_System_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
 </article>
           </div>
@@ -461,6 +459,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_AutoUpdate_Installers_BasePackageInstaller.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Installers.BasePackageInstaller%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/AutoUpdate/Installers/BasePackageInstaller.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

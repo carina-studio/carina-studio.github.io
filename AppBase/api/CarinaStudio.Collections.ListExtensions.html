@@ -73,7 +73,7 @@
   
   <h1 id="CarinaStudio_Collections_ListExtensions" data-uid="CarinaStudio.Collections.ListExtensions" class="text-break">Class ListExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> and <span class="xref">System.Collections.IList</span>.</p>
+  <div class="markdown level0 summary"><p>Extensions for <see cref="!:IList&lt;T>"></see> and <see cref="!:IList"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,43 +81,24 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ListExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
   <h5 id="CarinaStudio_Collections_ListExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ListExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ListExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_AsReadOnly__1_IList___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.AsReadOnly%60%601(IList%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L26">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_AsReadOnly_" data-uid="CarinaStudio.Collections.ListExtensions.AsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.AsReadOnly``1(System.Collections.Generic.IList{``0})">AsReadOnly&lt;T&gt;(IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Make given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> as read-only <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+  <h4 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.AsReadOnly``1(IList{``0})">AsReadOnly&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Make given <see cref="!:IList&lt;T>"></see> as read-only <see cref="!:IList&lt;T>"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -135,9 +116,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> to make as read-only.</p>
+        <td><p><see cref="!:IList&lt;T>"></see> to make as read-only.</p>
 </td>
       </tr>
     </tbody>
@@ -152,8 +133,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
-        <td><p>Read-only <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
+        <td><p>Read-only <see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -174,20 +155,24 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> then returned <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> will also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+  <h5 id="CarinaStudio_Collections_ListExtensions_AsReadOnly__1_IList___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <see cref="!:INotifyCollectionChanged"></see> then returned <see cref="!:IList&lt;T>"></see> will also implements <see cref="!:INotifyCollectionChanged"></see>.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.BinarySearch%60%601(IList%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L90">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0)">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(IList{``0},``0)">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"><p>Use binary-search to find given element.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this IList&lt;T&gt; list, T element)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -201,7 +186,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>List to find element.</p>
 </td>
@@ -246,83 +231,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_Comparison___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.BinarySearch%60%601(IList%7B%60%600%7D%2C%60%600%2CComparison%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L55">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Collections_Generic_IComparer___0__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Collections.Generic.IComparer{``0})">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, IComparer&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Use binary-search to find given element.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this IList&lt;T&gt; list, T element, IComparer&lt;T&gt; comparer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>List to find element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">element</span></td>
-        <td><p>Element to be found.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
-        <td><span class="parametername">comparer</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to compare elements.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Index of found element, or bitwise complement of index of proper position to put element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Comparison___0__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Comparison{``0})">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, Comparison&lt;T&gt;)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_Comparison___0__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(IList{``0},``0,Comparison{``0})">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, Comparison&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Use binary-search to find given element.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -341,7 +258,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>List to find element.</p>
 </td>
@@ -353,7 +270,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
+        <td><span class="xref">Comparison</span>&lt;T&gt;</td>
         <td><span class="parametername">comparison</span></td>
         <td><p>Comparison function.</p>
 </td>
@@ -392,17 +309,99 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_IComparer___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.BinarySearch%60%601(IList%7B%60%600%7D%2C%60%600%2CIComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L44">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__1_IList___0____0_IComparer___0__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``1(IList{``0},``0,IComparer{``0})">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, IComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Use binary-search to find given element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this IList&lt;T&gt; list, T element, IComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>List to find element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">element</span></td>
+        <td><p>Element to be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p><see cref="!:IComparer&lt;T>"></see> to compare elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Index of found element, or bitwise complement of index of proper position to put element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_BinarySearch__2_IList___0____1_Func___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.BinarySearch%60%602(IList%7B%60%600%7D%2C%60%601%2CFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L67">View Source</a>
+  </span>
+  <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_IList___0____1_Func___0___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(IList{``0},``1,Func{``0,``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;)</h4>
   <div class="markdown level1 summary"><p>Use binary-search to find given element by key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T, TKey&gt;(this IList&lt;T&gt; list, TKey key, Func&lt;T, TKey&gt; keyGetter)
-
     where TKey : IComparable&lt;TKey&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -416,7 +415,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>List to find element.</p>
 </td>
@@ -428,7 +427,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, TKey&gt;</td>
+        <td><span class="xref">Func</span>&lt;T, TKey&gt;</td>
         <td><span class="parametername">keyGetter</span></td>
         <td><p>Method to get key from element.</p>
 </td>
@@ -472,10 +471,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_BinarySearch__2_IList___0____1_Func___0___1__Comparison___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.BinarySearch%60%602(IList%7B%60%600%7D%2C%60%601%2CFunc%7B%60%600%2C%60%601%7D%2CComparison%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L80">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_BinarySearch_" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1__System_Comparison___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1},System.Comparison{``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;, Comparison&lt;TKey&gt;)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_BinarySearch__2_IList___0____1_Func___0___1__Comparison___1__" data-uid="CarinaStudio.Collections.ListExtensions.BinarySearch``2(IList{``0},``1,Func{``0,``1},Comparison{``1})">BinarySearch&lt;T, TKey&gt;(IList&lt;T&gt;, TKey, Func&lt;T, TKey&gt;, Comparison&lt;TKey&gt;)</h4>
   <div class="markdown level1 summary"><p>Use binary-search to find given element by key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -494,7 +498,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>List to find element.</p>
 </td>
@@ -506,13 +510,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, TKey&gt;</td>
+        <td><span class="xref">Func</span>&lt;T, TKey&gt;</td>
         <td><span class="parametername">keyGetter</span></td>
         <td><p>Method to get key from element.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Comparison</span>&lt;TKey&gt;</td>
+        <td><span class="xref">Comparison</span>&lt;TKey&gt;</td>
         <td><span class="parametername">comparison</span></td>
         <td><p>Comparison function.</p>
 </td>
@@ -556,10 +560,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_Cast__1_IList_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.Cast%60%601(IList)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L139">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_Cast_" data-uid="CarinaStudio.Collections.ListExtensions.Cast*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_Cast__1_System_Collections_IList_" data-uid="CarinaStudio.Collections.ListExtensions.Cast``1(System.Collections.IList)">Cast&lt;TOut&gt;(IList)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Cast__1_IList_" data-uid="CarinaStudio.Collections.ListExtensions.Cast``1(IList)">Cast&lt;TOut&gt;(IList)</h4>
   <div class="markdown level1 summary"><p>Case given list to generic typed list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -578,7 +587,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IList</span></td>
+        <td><span class="xref">IList</span></td>
         <td><span class="parametername">list</span></td>
         <td><p>List.</p>
 </td>
@@ -595,7 +604,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TOut&gt;</td>
+        <td><span class="xref">IList</span>&lt;TOut&gt;</td>
         <td><p>Generic typed list.</p>
 </td>
       </tr>
@@ -617,13 +626,18 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="CarinaStudio_Collections_ListExtensions_Cast__1_System_Collections_IList__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span> then returned <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> will also implements <span class="xref">System.Collections.Specialized.INotifyCollectionChanged</span>.</p>
+  <h5 id="CarinaStudio_Collections_ListExtensions_Cast__1_IList__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">list</code> implements <see cref="!:INotifyCollectionChanged"></see> then returned <see cref="!:IList&lt;T>"></see> will also implements <see cref="!:INotifyCollectionChanged"></see>.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_CopyTo__1_IList___0__System_Int32___0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.CopyTo%60%601(IList%7B%60%600%7D%2CSystem.Int32%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L160">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_CopyTo_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_CopyTo__1_System_Collections_Generic_IList___0__System_Int32___0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo``1(System.Collections.Generic.IList{``0},System.Int32,``0[],System.Int32,System.Int32)">CopyTo&lt;T&gt;(IList&lt;T&gt;, Int32, T[], Int32, Int32)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_CopyTo__1_IList___0__System_Int32___0___System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.CopyTo``1(IList{``0},System.Int32,``0[],System.Int32,System.Int32)">CopyTo&lt;T&gt;(IList&lt;T&gt;, Int32, T[], Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -642,9 +656,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -689,10 +703,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_GetRangeView__1_IList___0__System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.GetRangeView%60%601(IList%7B%60%600%7D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L192">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_GetRangeView_" data-uid="CarinaStudio.Collections.ListExtensions.GetRangeView*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.GetRangeView``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">GetRangeView&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.GetRangeView``1(IList{``0},System.Int32,System.Int32)">GetRangeView&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Get read-only view of range of source list which allows accessing elements from source list directly without copying.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -711,7 +730,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>Source list.</p>
 </td>
@@ -740,7 +759,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><p>View of range of source list.</p>
 </td>
       </tr>
@@ -762,20 +781,24 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_System_Collections_Generic_IList___0__System_Int32_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The element get from view and <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;.Count</span> of view may be changed if source list has been modified.</p>
+  <h5 id="CarinaStudio_Collections_ListExtensions_GetRangeView__1_IList___0__System_Int32_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The element get from view and <see cref="!:ICollection&lt;T>.Count"></see> of view may be changed if source list has been modified.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.IsSorted%60%601(IList%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L237">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(IList{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <see cref="!:IList&lt;T>"></see> is sorted or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -789,9 +812,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -807,7 +830,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
+        <td><p>True if elements in <see cref="!:IList&lt;T>"></see> is sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -828,78 +851,16 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__Comparison___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.IsSorted%60%601(IList%7B%60%600%7D%2CComparison%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L213">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Collections_Generic_IComparer___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IComparer{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, IComparer&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list, IComparer&lt;T&gt; comparer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
-        <td><span class="parametername">comparer</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to check order of elements.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of elements.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_System_Collections_Generic_IList___0__System_Comparison___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(System.Collections.Generic.IList{``0},System.Comparison{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, Comparison&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check whether elements in given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted or not.</p>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__Comparison___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(IList{``0},Comparison{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, Comparison&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <see cref="!:IList&lt;T>"></see> is sorted or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -917,13 +878,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
+        <td><span class="xref">Comparison</span>&lt;T&gt;</td>
         <td><span class="parametername">comparison</span></td>
         <td><p>Comparison method to check order of elements.</p>
 </td>
@@ -941,7 +902,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if elements in <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> is sorted.</p>
+        <td><p>True if elements in <see cref="!:IList&lt;T>"></see> is sorted.</p>
 </td>
       </tr>
     </tbody>
@@ -962,11 +923,88 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__IComparer___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.IsSorted%60%601(IList%7B%60%600%7D%2CIComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L203">View Source</a>
+  </span>
+  <a id="CarinaStudio_Collections_ListExtensions_IsSorted_" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted*"></a>
+  <h4 id="CarinaStudio_Collections_ListExtensions_IsSorted__1_IList___0__IComparer___0__" data-uid="CarinaStudio.Collections.ListExtensions.IsSorted``1(IList{``0},IComparer{``0})">IsSorted&lt;T&gt;(IList&lt;T&gt;, IComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether elements in given <see cref="!:IList&lt;T>"></see> is sorted or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSorted&lt;T&gt;(this IList&lt;T&gt; list, IComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p><see cref="!:IComparer&lt;T>"></see> to check order of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if elements in <see cref="!:IList&lt;T>"></see> is sorted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_IList___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.SelectRandomElement%60%601(IList%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L261">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_SelectRandomElement_" data-uid="CarinaStudio.Collections.ListExtensions.SelectRandomElement*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.SelectRandomElement``1(System.Collections.Generic.IList{``0})">SelectRandomElement&lt;T&gt;(IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Select an element from given <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> randomly.</p>
+  <h4 id="CarinaStudio_Collections_ListExtensions_SelectRandomElement__1_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.SelectRandomElement``1(IList{``0})">SelectRandomElement&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Select an element from given <see cref="!:IList&lt;T>"></see> randomly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -984,9 +1022,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -1002,7 +1040,7 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>Element selected from <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p>Element selected from <see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -1023,10 +1061,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_Shuffle__1_IList___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.Shuffle%60%601(IList%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L276">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_Shuffle_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0})">Shuffle&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_IList___0__" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(IList{``0})">Shuffle&lt;T&gt;(IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Shuffle elements in given list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1045,9 +1088,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -1068,10 +1111,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_Shuffle__1_IList___0__System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.Shuffle%60%601(IList%7B%60%600%7D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L286">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_Shuffle_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">Shuffle&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_Shuffle__1_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.Shuffle``1(IList{``0},System.Int32,System.Int32)">Shuffle&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Shuffle elements in given list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1090,9 +1138,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -1125,10 +1173,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions_ToArray__1_IList___0__System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions.ToArray%60%601(IList%7B%60%600%7D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L319">View Source</a>
+  </span>
   <a id="CarinaStudio_Collections_ListExtensions_ToArray_" data-uid="CarinaStudio.Collections.ListExtensions.ToArray*"></a>
-  <h4 id="CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.ToArray``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)">ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
+  <h4 id="CarinaStudio_Collections_ListExtensions_ToArray__1_IList___0__System_Int32_System_Int32_" data-uid="CarinaStudio.Collections.ListExtensions.ToArray``1(IList{``0},System.Int32,System.Int32)">ToArray&lt;T&gt;(IList&lt;T&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Copy elements to array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1147,9 +1200,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>.</p>
+        <td><p><see cref="!:IList&lt;T>"></see>.</p>
 </td>
       </tr>
       <tr>
@@ -1205,6 +1258,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Collections_ListExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.ListExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Core/Collections/ListExtensions.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
