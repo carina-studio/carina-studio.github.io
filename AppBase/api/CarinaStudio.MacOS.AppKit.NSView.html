@@ -1,0 +1,1893 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NSView
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NSView
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.MacOS.AppKit.NSView">
+  
+  
+  <h1 id="CarinaStudio_MacOS_AppKit_NSView" data-uid="CarinaStudio.MacOS.AppKit.NSView" class="text-break">Class NSView
+  </h1>
+  <div class="markdown level0 summary"><p>NSView.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSResponder.html">NSResponder</a></div>
+    <div class="level3"><span class="xref">NSView</span></div>
+      <div class="level4"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSControl.html">NSControl</a></div>
+      <div class="level4"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSProgressIndicator.html">NSProgressIndicator</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Class">NSObject.Class</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_CarinaStudio_MacOS_ObjectiveC_NSObject_">NSObject.Equals(NSObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_System_Nullable_System_Object__">NSObject.Equals(Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_IntPtr_System_Boolean_">NSObject.FromHandle(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle__1_IntPtr_System_Boolean_">NSObject.FromHandle&lt;T&gt;(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_Type_IntPtr_System_Boolean_">NSObject.FromHandle(Type, IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property_">NSObject.GetProperty&lt;T&gt;(Property)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetHashCode">NSObject.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(IntPtr, Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_Type_">NSObject.GetVariable(IntPtr, Variable, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Handle">NSObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Initialize_IntPtr_">NSObject.Initialize(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsDefaultInstance">NSObject.IsDefaultInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsReleased">NSObject.IsReleased</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_OnRelease">NSObject.OnRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release">NSObject.Release()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release_IntPtr_">NSObject.Release(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1">NSObject.Retain&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1_IntPtr_">NSObject.Retain&lt;T&gt;(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain_Type_IntPtr_">NSObject.Retain(Type, IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property___0_">NSObject.SetProperty&lt;T&gt;(Property, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(IntPtr, Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyClass_CarinaStudio_MacOS_ObjectiveC_Class_">NSObject.VerifyClass(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyReleased">NSObject.VerifyReleased()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.MacOS.AppKit.html">CarinaStudio.MacOS.AppKit</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.MacOS.dll</h6>
+  <h5 id="CarinaStudio_MacOS_AppKit_NSView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NSView : NSResponder, IEquatable&lt;NSObject&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView__ctor_CarinaStudio_MacOS_AppKit_NSRect_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.%23ctor(CarinaStudio.MacOS.AppKit.NSRect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L147">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView__ctor_CarinaStudio_MacOS_AppKit_NSRect_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor(CarinaStudio.MacOS.AppKit.NSRect)">NSView(NSRect)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSView(NSRect frame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>Frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView__ctor_CarinaStudio_MacOS_ObjectiveC_Class_IntPtr_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.%23ctor(CarinaStudio.MacOS.ObjectiveC.Class%2CIntPtr%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L179">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView__ctor_CarinaStudio_MacOS_ObjectiveC_Class_IntPtr_System_Boolean_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor(CarinaStudio.MacOS.ObjectiveC.Class,IntPtr,System.Boolean)">NSView(Class, IntPtr, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NSView(Class cls, IntPtr handle, bool ownsInstance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.Class.html">Class</a></td>
+        <td><span class="parametername">cls</span></td>
+        <td><p>Class of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ownsInstance</span></td>
+        <td><p>True to own the instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView__ctor_IntPtr_CarinaStudio_MacOS_AppKit_NSRect_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.%23ctor(IntPtr%2CCarinaStudio.MacOS.AppKit.NSRect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L156">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView__ctor_IntPtr_CarinaStudio_MacOS_AppKit_NSRect_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor(IntPtr,CarinaStudio.MacOS.AppKit.NSRect)">NSView(IntPtr, NSRect)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NSView(IntPtr handle, NSRect frame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of allocated instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>Frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView__ctor_IntPtr_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.%23ctor(IntPtr%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L166">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView__ctor_IntPtr_System_Boolean_System_Boolean_" data-uid="CarinaStudio.MacOS.AppKit.NSView.#ctor(IntPtr,System.Boolean,System.Boolean)">NSView(IntPtr, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NSView(IntPtr handle, bool verifyClass, bool ownsInstance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">verifyClass</span></td>
+        <td><p>True to verify whether instance is NSView or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ownsInstance</span></td>
+        <td><p>True to own the instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_BottomAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.BottomAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L236">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_BottomAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.BottomAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_BottomAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.BottomAnchor">BottomAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the bottom edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutYAxisAnchor BottomAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Bounds.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Bounds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L246">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Bounds_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Bounds*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Bounds" data-uid="CarinaStudio.MacOS.AppKit.NSView.Bounds">Bounds</h4>
+  <div class="markdown level1 summary"><p>Get or set bounds rectangle of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSRect Bounds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_BoundsRotation.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.BoundsRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L256">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_BoundsRotation_" data-uid="CarinaStudio.MacOS.AppKit.NSView.BoundsRotation*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_BoundsRotation" data-uid="CarinaStudio.MacOS.AppKit.NSView.BoundsRotation">BoundsRotation</h4>
+  <div class="markdown level1 summary"><p>Get or set rotation of bounds in degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double BoundsRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_CenterXAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.CenterXAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L266">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_CenterXAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.CenterXAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_CenterXAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.CenterXAnchor">CenterXAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the horizontal center of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutXAxisAnchor CenterXAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_CenterYAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.CenterYAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L276">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_CenterYAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.CenterYAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_CenterYAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.CenterYAnchor">CenterYAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the vertical center of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutYAxisAnchor CenterYAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Constraints.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Constraints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L286">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Constraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Constraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Constraints" data-uid="CarinaStudio.MacOS.AppKit.NSView.Constraints">Constraints</h4>
+  <div class="markdown level1 summary"><p>Get constraints held by the view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSArray&lt;NSLayoutConstraint&gt; Constraints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;<a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_FirstBaselineAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.FirstBaselineAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L292">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_FirstBaselineAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.FirstBaselineAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_FirstBaselineAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.FirstBaselineAnchor">FirstBaselineAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the baseline for the topmost line of text in the view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutYAxisAnchor FirstBaselineAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_FittingSize.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.FittingSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L302">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_FittingSize_" data-uid="CarinaStudio.MacOS.AppKit.NSView.FittingSize*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_FittingSize" data-uid="CarinaStudio.MacOS.AppKit.NSView.FittingSize">FittingSize</h4>
+  <div class="markdown level1 summary"><p>Get the minimum size of the view that satisfies the constraints it holds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSSize FittingSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSSize.html">NSSize</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Frame.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Frame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L308">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Frame_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Frame*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Frame" data-uid="CarinaStudio.MacOS.AppKit.NSView.Frame">Frame</h4>
+  <div class="markdown level1 summary"><p>Get or set frame of view in its superview’s coordinate system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSRect Frame { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_FrameRotation.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.FrameRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L318">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_FrameRotation_" data-uid="CarinaStudio.MacOS.AppKit.NSView.FrameRotation*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_FrameRotation" data-uid="CarinaStudio.MacOS.AppKit.NSView.FrameRotation">FrameRotation</h4>
+  <div class="markdown level1 summary"><p>Get or set rotation of frame in degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double FrameRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_HeightAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.HeightAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L328">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_HeightAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.HeightAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_HeightAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.HeightAnchor">HeightAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the height of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutDimension HeightAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutDimension.html">NSLayoutDimension</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_IntrinsicContentSize.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.IntrinsicContentSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L348">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_IntrinsicContentSize_" data-uid="CarinaStudio.MacOS.AppKit.NSView.IntrinsicContentSize*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_IntrinsicContentSize" data-uid="CarinaStudio.MacOS.AppKit.NSView.IntrinsicContentSize">IntrinsicContentSize</h4>
+  <div class="markdown level1 summary"><p>Get natural size of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSSize IntrinsicContentSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSSize.html">NSSize</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_IsFlipped.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.IsFlipped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L361">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_IsFlipped_" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsFlipped*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_IsFlipped" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsFlipped">IsFlipped</h4>
+  <div class="markdown level1 summary"><p>Check whether the view uses a flipped coordinate system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFlipped { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_IsHidden.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.IsHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L373">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_IsHidden_" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsHidden*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_IsHidden" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsHidden">IsHidden</h4>
+  <div class="markdown level1 summary"><p>Get or set whether view is hidden or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHidden { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_IsHiddenOrHasHiddenAncestor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.IsHiddenOrHasHiddenAncestor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L367">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_IsHiddenOrHasHiddenAncestor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsHiddenOrHasHiddenAncestor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_IsHiddenOrHasHiddenAncestor" data-uid="CarinaStudio.MacOS.AppKit.NSView.IsHiddenOrHasHiddenAncestor">IsHiddenOrHasHiddenAncestor</h4>
+  <div class="markdown level1 summary"><p>Check whether view or its ancestor is hidden or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHiddenOrHasHiddenAncestor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_LastBaselineAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.LastBaselineAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L383">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_LastBaselineAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.LastBaselineAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_LastBaselineAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.LastBaselineAnchor">LastBaselineAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the baseline for the bottommost line of text in the view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutYAxisAnchor LastBaselineAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_LeadingAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.LeadingAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L400">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_LeadingAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.LeadingAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_LeadingAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.LeadingAnchor">LeadingAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the leading edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutXAxisAnchor LeadingAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_LeftAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.LeftAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L410">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_LeftAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.LeftAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_LeftAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.LeftAnchor">LeftAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the left edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutXAxisAnchor LeftAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_NeedsLayout.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.NeedsLayout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L420">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_NeedsLayout_" data-uid="CarinaStudio.MacOS.AppKit.NSView.NeedsLayout*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_NeedsLayout" data-uid="CarinaStudio.MacOS.AppKit.NSView.NeedsLayout">NeedsLayout</h4>
+  <div class="markdown level1 summary"><p>Get or set whether the view needs a layout pass before it can be drawn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NeedsLayout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_RightAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.RightAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L464">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_RightAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RightAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_RightAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.RightAnchor">RightAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the right edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutXAxisAnchor RightAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_SafeAreaInsets.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.SafeAreaInsets%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L474">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_SafeAreaInsets_" data-uid="CarinaStudio.MacOS.AppKit.NSView.SafeAreaInsets*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_SafeAreaInsets" data-uid="CarinaStudio.MacOS.AppKit.NSView.SafeAreaInsets">SafeAreaInsets</h4>
+  <div class="markdown level1 summary"><p>Get distances from the edges of your view that define the safe area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSEdgeInsets SafeAreaInsets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSEdgeInsets.html">NSEdgeInsets</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_SafeAreaRect.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.SafeAreaRect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L480">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_SafeAreaRect_" data-uid="CarinaStudio.MacOS.AppKit.NSView.SafeAreaRect*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_SafeAreaRect" data-uid="CarinaStudio.MacOS.AppKit.NSView.SafeAreaRect">SafeAreaRect</h4>
+  <div class="markdown level1 summary"><p>A rectangle in the view’s coordinate system that contains the unobscured portion of the view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSRect SafeAreaRect { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_SubViews.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.SubViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L486">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_SubViews_" data-uid="CarinaStudio.MacOS.AppKit.NSView.SubViews*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_SubViews" data-uid="CarinaStudio.MacOS.AppKit.NSView.SubViews">SubViews</h4>
+  <div class="markdown level1 summary"><p>Get all child views.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSArray&lt;NSView&gt; SubViews { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;<a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_SuperView.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.SuperView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L492">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_SuperView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.SuperView*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_SuperView" data-uid="CarinaStudio.MacOS.AppKit.NSView.SuperView">SuperView</h4>
+  <div class="markdown level1 summary"><p>Get parent view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSView SuperView { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Tag.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Tag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L498">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Tag_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Tag*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Tag" data-uid="CarinaStudio.MacOS.AppKit.NSView.Tag">Tag</h4>
+  <div class="markdown level1 summary"><p>Get tag of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Tag { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_TopAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.TopAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L504">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_TopAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.TopAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_TopAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.TopAnchor">TopAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the top edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutYAxisAnchor TopAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_TrailingAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.TrailingAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L519">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_TrailingAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.TrailingAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_TrailingAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.TrailingAnchor">TrailingAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the trailing edge of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutXAxisAnchor TrailingAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_TranslatesAutoresizingMaskIntoConstraints.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.TranslatesAutoresizingMaskIntoConstraints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L529">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_TranslatesAutoresizingMaskIntoConstraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.TranslatesAutoresizingMaskIntoConstraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_TranslatesAutoresizingMaskIntoConstraints" data-uid="CarinaStudio.MacOS.AppKit.NSView.TranslatesAutoresizingMaskIntoConstraints">TranslatesAutoresizingMaskIntoConstraints</h4>
+  <div class="markdown level1 summary"><p>Get or set whether the view’s autoresizing mask is translated into constraints for the constraint-based layout system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TranslatesAutoresizingMaskIntoConstraints { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_VisibleRect.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.VisibleRect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L539">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_VisibleRect_" data-uid="CarinaStudio.MacOS.AppKit.NSView.VisibleRect*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_VisibleRect" data-uid="CarinaStudio.MacOS.AppKit.NSView.VisibleRect">VisibleRect</h4>
+  <div class="markdown level1 summary"><p>Get bounds of view which is not clipped by its super view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSRect VisibleRect { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_WidthAnchor.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.WidthAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L545">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_WidthAnchor_" data-uid="CarinaStudio.MacOS.AppKit.NSView.WidthAnchor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_WidthAnchor" data-uid="CarinaStudio.MacOS.AppKit.NSView.WidthAnchor">WidthAnchor</h4>
+  <div class="markdown level1 summary"><p>Get layout anchor representing the width of the view’s frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutDimension WidthAnchor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutDimension.html">NSLayoutDimension</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Window.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Window%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L555">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Window_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Window*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Window" data-uid="CarinaStudio.MacOS.AppKit.NSView.Window">Window</h4>
+  <div class="markdown level1 summary"><p>Get window which contains the view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSWindow Window { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSWindow.html">NSWindow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_AddConstraint_CarinaStudio_MacOS_AppKit_NSLayoutConstraint_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.AddConstraint(CarinaStudio.MacOS.AppKit.NSLayoutConstraint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L192">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_AddConstraint_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraint*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_AddConstraint_CarinaStudio_MacOS_AppKit_NSLayoutConstraint_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraint(CarinaStudio.MacOS.AppKit.NSLayoutConstraint)">AddConstraint(NSLayoutConstraint)</h4>
+  <div class="markdown level1 summary"><p>Add constraint on the layout of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConstraint(NSLayoutConstraint constraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><span class="parametername">constraint</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_AddConstraints_CarinaStudio_MacOS_AppKit_NSLayoutConstraint___.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.AddConstraints(CarinaStudio.MacOS.AppKit.NSLayoutConstraint%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L200">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_AddConstraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_AddConstraints_CarinaStudio_MacOS_AppKit_NSLayoutConstraint___" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraints(CarinaStudio.MacOS.AppKit.NSLayoutConstraint[])">AddConstraints(NSLayoutConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Add multiple constraints on the layout of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConstraints(params NSLayoutConstraint[] constraints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a>[]</td>
+        <td><span class="parametername">constraints</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_AddConstraints_CarinaStudio_MacOS_ObjectiveC_NSArray_CarinaStudio_MacOS_AppKit_NSLayoutConstraint__.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.AddConstraints(CarinaStudio.MacOS.ObjectiveC.NSArray%7BCarinaStudio.MacOS.AppKit.NSLayoutConstraint%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L211">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_AddConstraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_AddConstraints_CarinaStudio_MacOS_ObjectiveC_NSArray_CarinaStudio_MacOS_AppKit_NSLayoutConstraint__" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddConstraints(CarinaStudio.MacOS.ObjectiveC.NSArray{CarinaStudio.MacOS.AppKit.NSLayoutConstraint})">AddConstraints(NSArray&lt;NSLayoutConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add multiple constraints on the layout of view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConstraints(NSArray&lt;NSLayoutConstraint&gt; constraints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;<a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a>&gt;</td>
+        <td><span class="parametername">constraints</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_AddSubView_CarinaStudio_MacOS_AppKit_NSView_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.AddSubView(CarinaStudio.MacOS.AppKit.NSView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L219">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_AddSubView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddSubView*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_AddSubView_CarinaStudio_MacOS_AppKit_NSView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddSubView(CarinaStudio.MacOS.AppKit.NSView)">AddSubView(NSView)</h4>
+  <div class="markdown level1 summary"><p>Add given view as sub-view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSubView(NSView view)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a></td>
+        <td><span class="parametername">view</span></td>
+        <td><p>View.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_AddSubView_CarinaStudio_MacOS_AppKit_NSView_CarinaStudio_MacOS_AppKit_NSWindow_OrderingMode_CarinaStudio_MacOS_AppKit_NSView_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.AddSubView(CarinaStudio.MacOS.AppKit.NSView%2CCarinaStudio.MacOS.AppKit.NSWindow.OrderingMode%2CCarinaStudio.MacOS.AppKit.NSView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L229">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_AddSubView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddSubView*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_AddSubView_CarinaStudio_MacOS_AppKit_NSView_CarinaStudio_MacOS_AppKit_NSWindow_OrderingMode_CarinaStudio_MacOS_AppKit_NSView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.AddSubView(CarinaStudio.MacOS.AppKit.NSView,CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode,CarinaStudio.MacOS.AppKit.NSView)">AddSubView(NSView, NSWindow.OrderingMode, NSView)</h4>
+  <div class="markdown level1 summary"><p>Add given view as sub-view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSubView(NSView view, NSWindow.OrderingMode place, NSView otherView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a></td>
+        <td><span class="parametername">view</span></td>
+        <td><p>View.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode.html">NSWindow.OrderingMode</a></td>
+        <td><span class="parametername">place</span></td>
+        <td><p>Relation to other view.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a></td>
+        <td><span class="parametername">otherView</span></td>
+        <td><p>Other view which the sub-view relative to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Initialize_IntPtr_CarinaStudio_MacOS_AppKit_NSRect_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Initialize(IntPtr%2CCarinaStudio.MacOS.AppKit.NSRect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L341">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Initialize_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Initialize*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Initialize_IntPtr_CarinaStudio_MacOS_AppKit_NSRect_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Initialize(IntPtr,CarinaStudio.MacOS.AppKit.NSRect)">Initialize(IntPtr, NSRect)</h4>
+  <div class="markdown level1 summary"><p>Initialize <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a> with frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static IntPtr Initialize(IntPtr view, NSRect frame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">view</span></td>
+        <td><p>Handle of allocated <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSRect.html">NSRect</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>Frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><p>Handle of initialized <a class="xref" href="CarinaStudio.MacOS.AppKit.NSView.html">NSView</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_InvalidateIntrinsicContentSize.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.InvalidateIntrinsicContentSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L354">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_InvalidateIntrinsicContentSize_" data-uid="CarinaStudio.MacOS.AppKit.NSView.InvalidateIntrinsicContentSize*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_InvalidateIntrinsicContentSize" data-uid="CarinaStudio.MacOS.AppKit.NSView.InvalidateIntrinsicContentSize">InvalidateIntrinsicContentSize()</h4>
+  <div class="markdown level1 summary"><p>Invalidate the view’s intrinsic content size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidateIntrinsicContentSize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_Layout.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.Layout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L393">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_Layout_" data-uid="CarinaStudio.MacOS.AppKit.NSView.Layout*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_Layout" data-uid="CarinaStudio.MacOS.AppKit.NSView.Layout">Layout()</h4>
+  <div class="markdown level1 summary"><p>Perform layout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Layout()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_RemoveConstraint_CarinaStudio_MacOS_AppKit_NSLayoutConstraint_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.RemoveConstraint(CarinaStudio.MacOS.AppKit.NSLayoutConstraint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L431">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraint_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraint*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraint_CarinaStudio_MacOS_AppKit_NSLayoutConstraint_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraint(CarinaStudio.MacOS.AppKit.NSLayoutConstraint)">RemoveConstraint(NSLayoutConstraint)</h4>
+  <div class="markdown level1 summary"><p>Add constraint from view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveConstraint(NSLayoutConstraint constraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><span class="parametername">constraint</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_CarinaStudio_MacOS_AppKit_NSLayoutConstraint___.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints(CarinaStudio.MacOS.AppKit.NSLayoutConstraint%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L439">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_CarinaStudio_MacOS_AppKit_NSLayoutConstraint___" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints(CarinaStudio.MacOS.AppKit.NSLayoutConstraint[])">RemoveConstraints(NSLayoutConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Add multiple constraints from view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveConstraints(params NSLayoutConstraint[] constraints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a>[]</td>
+        <td><span class="parametername">constraints</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_CarinaStudio_MacOS_ObjectiveC_NSArray_CarinaStudio_MacOS_AppKit_NSLayoutConstraint__.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints(CarinaStudio.MacOS.ObjectiveC.NSArray%7BCarinaStudio.MacOS.AppKit.NSLayoutConstraint%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L450">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_RemoveConstraints_CarinaStudio_MacOS_ObjectiveC_NSArray_CarinaStudio_MacOS_AppKit_NSLayoutConstraint__" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveConstraints(CarinaStudio.MacOS.ObjectiveC.NSArray{CarinaStudio.MacOS.AppKit.NSLayoutConstraint})">RemoveConstraints(NSArray&lt;NSLayoutConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add multiple constraints from view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveConstraints(NSArray&lt;NSLayoutConstraint&gt; constraints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;<a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a>&gt;</td>
+        <td><span class="parametername">constraints</span></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_RemoveFromSuperView.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.RemoveFromSuperView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L457">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_RemoveFromSuperView_" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveFromSuperView*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_RemoveFromSuperView" data-uid="CarinaStudio.MacOS.AppKit.NSView.RemoveFromSuperView">RemoveFromSuperView()</h4>
+  <div class="markdown level1 summary"><p>Remove from its super view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFromSuperView()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView_ToString.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L512">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSView_ToString_" data-uid="CarinaStudio.MacOS.AppKit.NSView.ToString*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSView_ToString" data-uid="CarinaStudio.MacOS.AppKit.NSView.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_ToString">NSObject.ToString()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSView.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSView.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

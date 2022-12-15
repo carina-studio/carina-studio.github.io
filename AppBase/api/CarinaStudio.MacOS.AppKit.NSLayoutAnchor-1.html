@@ -1,0 +1,856 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NSLayoutAnchor&lt;TAnchor&gt;
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NSLayoutAnchor&lt;TAnchor&gt;
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1">
+  
+  
+  <h1 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1" class="text-break">Class NSLayoutAnchor&lt;TAnchor&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>NSLayoutAnchor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></div>
+    <div class="level2"><span class="xref">NSLayoutAnchor&lt;TAnchor&gt;</span></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutDimension.html">NSLayoutDimension</a></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutXAxisAnchor.html">NSLayoutXAxisAnchor</a></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutYAxisAnchor.html">NSLayoutYAxisAnchor</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Class">NSObject.Class</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_CarinaStudio_MacOS_ObjectiveC_NSObject_">NSObject.Equals(NSObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_System_Nullable_System_Object__">NSObject.Equals(Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_IntPtr_System_Boolean_">NSObject.FromHandle(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle__1_IntPtr_System_Boolean_">NSObject.FromHandle&lt;T&gt;(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_Type_IntPtr_System_Boolean_">NSObject.FromHandle(Type, IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property_">NSObject.GetProperty&lt;T&gt;(Property)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetHashCode">NSObject.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(IntPtr, Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_Type_">NSObject.GetVariable(IntPtr, Variable, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Handle">NSObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Initialize_IntPtr_">NSObject.Initialize(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsDefaultInstance">NSObject.IsDefaultInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsReleased">NSObject.IsReleased</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_OnRelease">NSObject.OnRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release">NSObject.Release()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release_IntPtr_">NSObject.Release(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1">NSObject.Retain&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1_IntPtr_">NSObject.Retain&lt;T&gt;(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain_Type_IntPtr_">NSObject.Retain(Type, IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property___0_">NSObject.SetProperty&lt;T&gt;(Property, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(IntPtr, Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyClass_CarinaStudio_MacOS_ObjectiveC_Class_">NSObject.VerifyClass(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyReleased">NSObject.VerifyReleased()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.MacOS.AppKit.html">CarinaStudio.MacOS.AppKit</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.MacOS.dll</h6>
+  <h5 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NSLayoutAnchor&lt;TAnchor&gt; : NSObject, IEquatable&lt;NSObject&gt; where TAnchor : NSLayoutAnchor&lt;TAnchor&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TAnchor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_CarinaStudio_MacOS_ObjectiveC_Class_IntPtr_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.%23ctor(CarinaStudio.MacOS.ObjectiveC.Class%2CIntPtr%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L59">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_CarinaStudio_MacOS_ObjectiveC_Class_IntPtr_System_Boolean_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.#ctor(CarinaStudio.MacOS.ObjectiveC.Class,IntPtr,System.Boolean)">NSLayoutAnchor(Class, IntPtr, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor&lt;TAnchor&gt;</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NSLayoutAnchor(Class cls, IntPtr handle, bool ownsInstance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.Class.html">Class</a></td>
+        <td><span class="parametername">cls</span></td>
+        <td><p>Class of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ownsInstance</span></td>
+        <td><p>True to own the instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_IntPtr_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.%23ctor(IntPtr%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L46">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.#ctor*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1__ctor_IntPtr_System_Boolean_System_Boolean_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.#ctor(IntPtr,System.Boolean,System.Boolean)">NSLayoutAnchor(IntPtr, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor&lt;TAnchor&gt;</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NSLayoutAnchor(IntPtr handle, bool verifyClass, bool ownsInstance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">verifyClass</span></td>
+        <td><p>True to verify whether instance is NSLayoutAnchor or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ownsInstance</span></td>
+        <td><p>True to own the instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Item.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.Item%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L114">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Item_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.Item*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Item" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.Item">Item</h4>
+  <div class="markdown level1 summary"><p>Get object which is used to calculate the anchor’s position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSObject Item { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Name.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L120">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Name_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.Name*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_Name" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Get name of anchor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L67">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualTo_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintEqualTo*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0})">ConstraintEqualTo(NSLayoutAnchor&lt;TAnchor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintEqualTo(NSLayoutAnchor&lt;TAnchor&gt; another)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L75">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualToWithConstant_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintEqualToWithConstant*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0},System.Single)">ConstraintEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt;, Single)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt; another, float offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintGreaterThanOrEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L83">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualTo_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintGreaterThanOrEqualTo*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintGreaterThanOrEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0})">ConstraintGreaterThanOrEqualTo(NSLayoutAnchor&lt;TAnchor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintGreaterThanOrEqualTo(NSLayoutAnchor&lt;TAnchor&gt; another)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintGreaterThanOrEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L91">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualToWithConstant_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintGreaterThanOrEqualToWithConstant*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintGreaterThanOrEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintGreaterThanOrEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0},System.Single)">ConstraintGreaterThanOrEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt;, Single)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintGreaterThanOrEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt; another, float offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintLessThanOrEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L99">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualTo_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintLessThanOrEqualTo*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualTo_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintLessThanOrEqualTo(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0})">ConstraintLessThanOrEqualTo(NSLayoutAnchor&lt;TAnchor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintLessThanOrEqualTo(NSLayoutAnchor&lt;TAnchor&gt; another)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ConstraintLessThanOrEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor%7B%600%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L107">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualToWithConstant_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintLessThanOrEqualToWithConstant*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ConstraintLessThanOrEqualToWithConstant_CarinaStudio_MacOS_AppKit_NSLayoutAnchor__0__System_Single_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ConstraintLessThanOrEqualToWithConstant(CarinaStudio.MacOS.AppKit.NSLayoutAnchor{`0},System.Single)">ConstraintLessThanOrEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt;, Single)</h4>
+  <div class="markdown level1 summary"><p>Define constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSLayoutConstraint ConstraintLessThanOrEqualToWithConstant(NSLayoutAnchor&lt;TAnchor&gt; another, float offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutAnchor-1.html">NSLayoutAnchor</a>&lt;TAnchor&gt;</td>
+        <td><span class="parametername">another</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSLayoutConstraint.html">NSLayoutConstraint</a></td>
+        <td><p>Constraint.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ToString.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L131">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ToString_" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ToString*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1_ToString" data-uid="CarinaStudio.MacOS.AppKit.NSLayoutAnchor`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_ToString">NSObject.ToString()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSLayoutAnchor_1.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSLayoutAnchor%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSLayoutAnchor.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

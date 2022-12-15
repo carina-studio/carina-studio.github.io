@@ -80,8 +80,9 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="CarinaStudio.Controls.Window.html">Window</a></div>
-    <div class="level2"><a class="xref" href="CarinaStudio.Controls.Dialog.html">Dialog</a></div>
-    <div class="level3"><span class="xref">Dialog&lt;TApp&gt;</span></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html">ApplicationWindow</a></div>
+    <div class="level3"><a class="xref" href="CarinaStudio.Controls.Dialog.html">Dialog</a></div>
+    <div class="level4"><span class="xref">Dialog&lt;TApp&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -92,16 +93,22 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_MeasureOverride_Size_">Dialog.MeasureOverride(Size)</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_OnClosed_EventArgs_">Dialog.OnClosed(EventArgs)</a>
-    </div>
-    <div>
       <a class="xref" href="CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_OnKeyUp_Avalonia_Input_KeyEventArgs_">Dialog.OnKeyUp(Avalonia.Input.KeyEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.Dialog.html#CarinaStudio_Controls_Dialog_OnOpened_EventArgs_">Dialog.OnOpened(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_Logger">ApplicationWindow.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_PersistentState">ApplicationWindow.PersistentState</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_Settings">ApplicationWindow.Settings</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_SynchronizationContext">ApplicationWindow.SynchronizationContext</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_HasDialogsProperty">Window.HasDialogsProperty</a>
@@ -122,16 +129,7 @@
       <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_IsOpened">Window.IsOpened</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_Logger">Window.Logger</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_PersistentState">Window.PersistentState</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_Settings">Window.Settings</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_SynchronizationContext">Window.SynchronizationContext</a>
+      <a class="xref" href="CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_OnClosed_EventArgs_">Window.OnClosed(EventArgs)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
@@ -160,10 +158,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Controls_Dialog_1_Application.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.Dialog%601.Application%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_Dialog_1_Application.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.Dialog%601.Application%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application.Avalonia/Controls/Dialog.cs/#L139">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/Dialog.cs/#L47">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_Dialog_1_Application_" data-uid="CarinaStudio.Controls.Dialog`1.Application*"></a>
   <h4 id="CarinaStudio_Controls_Dialog_1_Application" data-uid="CarinaStudio.Controls.Dialog`1.Application">Application</h4>
@@ -262,10 +260,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/1.6/apiSpec/new?filename=CarinaStudio_Controls_Dialog_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.Dialog%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_Dialog_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.Dialog%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Application.Avalonia/Controls/Dialog.cs/#L134" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/Dialog.cs/#L42" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

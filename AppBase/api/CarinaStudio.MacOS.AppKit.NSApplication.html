@@ -1,0 +1,659 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NSApplication
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NSApplication
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.MacOS.AppKit.NSApplication">
+  
+  
+  <h1 id="CarinaStudio_MacOS_AppKit_NSApplication" data-uid="CarinaStudio.MacOS.AppKit.NSApplication" class="text-break">Class NSApplication
+  </h1>
+  <div class="markdown level0 summary"><p>NSApplication.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></div>
+    <div class="level2"><a class="xref" href="CarinaStudio.MacOS.AppKit.NSResponder.html">NSResponder</a></div>
+    <div class="level3"><span class="xref">NSApplication</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Class">NSObject.Class</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_CarinaStudio_MacOS_ObjectiveC_NSObject_">NSObject.Equals(NSObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_System_Nullable_System_Object__">NSObject.Equals(Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_IntPtr_System_Boolean_">NSObject.FromHandle(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle__1_IntPtr_System_Boolean_">NSObject.FromHandle&lt;T&gt;(IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_Type_IntPtr_System_Boolean_">NSObject.FromHandle(Type, IntPtr, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property_">NSObject.GetProperty&lt;T&gt;(Property)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetHashCode">NSObject.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_">NSObject.GetVariable&lt;T&gt;(IntPtr, Variable)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_Type_">NSObject.GetVariable(IntPtr, Variable, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Handle">NSObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Initialize_IntPtr_">NSObject.Initialize(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsDefaultInstance">NSObject.IsDefaultInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_IsReleased">NSObject.IsReleased</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_OnRelease">NSObject.OnRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release">NSObject.Release()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Release_IntPtr_">NSObject.Release(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1">NSObject.Retain&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain__1_IntPtr_">NSObject.Retain&lt;T&gt;(IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Retain_Type_IntPtr_">NSObject.Retain(Type, IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessage__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessage&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object__">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SendMessageToSuper__1_IntPtr_CarinaStudio_MacOS_ObjectiveC_Selector_System_Nullable_System_Object____">NSObject.SendMessageToSuper&lt;T&gt;(IntPtr, Selector, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty__1_CarinaStudio_MacOS_ObjectiveC_Property___0_">NSObject.SetProperty&lt;T&gt;(Property, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_System_Nullable_System_Object__">NSObject.SetVariable(IntPtr, Variable, Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_ToString">NSObject.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyClass_CarinaStudio_MacOS_ObjectiveC_Class_">NSObject.VerifyClass(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_VerifyReleased">NSObject.VerifyReleased()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.MacOS.AppKit.html">CarinaStudio.MacOS.AppKit</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.MacOS.dll</h6>
+  <h5 id="CarinaStudio_MacOS_AppKit_NSApplication_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NSApplication : NSResponder, IEquatable&lt;NSObject&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_ApplicationIconImage.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.ApplicationIconImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L91">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_ApplicationIconImage_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.ApplicationIconImage*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_ApplicationIconImage" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.ApplicationIconImage">ApplicationIconImage</h4>
+  <div class="markdown level1 summary"><p>Get or set icon of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSImage ApplicationIconImage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSImage.html">NSImage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Current.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L121">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Current_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Current*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Current" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Current">Current</h4>
+  <div class="markdown level1 summary"><p>Get existing <a class="xref" href="CarinaStudio.MacOS.AppKit.NSApplication.html">NSApplication</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NSApplication Current { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSApplication.html">NSApplication</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Delegate.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Delegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L150">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Delegate_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Delegate*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Delegate" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Delegate">Delegate</h4>
+  <div class="markdown level1 summary"><p>Get or set object which conforms to NSApplicationDelegate protocol to receive call-back from application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSObject Delegate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_DockTile.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.DockTile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L160">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_DockTile_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.DockTile*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_DockTile" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.DockTile">DockTile</h4>
+  <div class="markdown level1 summary"><p>Get Dock tile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSDockTile DockTile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSDockTile.html">NSDockTile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_IsRunning.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.IsRunning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L177">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_IsRunning_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.IsRunning*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_IsRunning" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.IsRunning">IsRunning</h4>
+  <div class="markdown level1 summary"><p>Check whether the main event loop is runnig or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRunning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_MainWindow.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.MainWindow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L183">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_MainWindow_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.MainWindow*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_MainWindow" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.MainWindow">MainWindow</h4>
+  <div class="markdown level1 summary"><p>Get main window of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSObject MainWindow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html">NSObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Shared.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Shared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L211">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Shared_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Shared*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Shared" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Shared">Shared</h4>
+  <div class="markdown level1 summary"><p>Get the <a class="xref" href="CarinaStudio.MacOS.AppKit.NSApplication.html">NSApplication</a> instance or create one if it doesn’t exist yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NSApplication Shared { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.AppKit.NSApplication.html">NSApplication</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Windows.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Windows%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L234">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Windows_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Windows*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Windows" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Windows">Windows</h4>
+  <div class="markdown level1 summary"><p>Get array of windows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NSArray&lt;NSWindow&gt; Windows { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;<a class="xref" href="CarinaStudio.MacOS.AppKit.NSWindow.html">NSWindow</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Activate_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Activate(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L83">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Activate_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Activate*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Activate_System_Boolean_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Activate(System.Boolean)">Activate(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Activate the application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Activate(bool ignoreOtherApps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreOtherApps</span></td>
+        <td><p>True to active application regardless.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Deactivate.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Deactivate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L143">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Deactivate_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Deactivate*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Deactivate" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Deactivate">Deactivate()</h4>
+  <div class="markdown level1 summary"><p>Deactivate the application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deactivate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication_Run.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication.Run%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L204">View Source</a>
+  </span>
+  <a id="CarinaStudio_MacOS_AppKit_NSApplication_Run_" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Run*"></a>
+  <h4 id="CarinaStudio_MacOS_AppKit_NSApplication_Run" data-uid="CarinaStudio.MacOS.AppKit.NSApplication.Run">Run()</h4>
+  <div class="markdown level1 summary"><p>Start the main event loop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Run()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_MacOS_AppKit_NSApplication.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.AppKit.NSApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/MacOS/AppKit/NSApplication.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

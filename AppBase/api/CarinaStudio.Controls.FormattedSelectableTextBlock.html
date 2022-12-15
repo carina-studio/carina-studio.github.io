@@ -1,0 +1,895 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FormattedSelectableTextBlock
+   | AppBase </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FormattedSelectableTextBlock
+   | AppBase ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock">
+  
+  
+  <h1 id="CarinaStudio_Controls_FormattedSelectableTextBlock" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock" class="text-break">Class FormattedSelectableTextBlock
+  </h1>
+  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html">SelectableTextBlock</a> which shows formatted text on it.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html">SelectableTextBlock</a></div>
+    <div class="level2"><span class="xref">FormattedSelectableTextBlock</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IStyleable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_IsMultiLineTextProperty">SelectableTextBlock.IsMultiLineTextProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_IsTextTrimmedProperty">SelectableTextBlock.IsTextTrimmedProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_ShowToolTipWhenTextTrimmedProperty">SelectableTextBlock.ShowToolTipWhenTextTrimmedProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_ToolTipTemplateProperty">SelectableTextBlock.ToolTipTemplateProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_IsMultiLineText">SelectableTextBlock.IsMultiLineText</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_IsTextTrimmed">SelectableTextBlock.IsTextTrimmed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_MeasureOverride_Size_">SelectableTextBlock.MeasureOverride(Size)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_OnAttachedToLogicalTree_LogicalTreeAttachmentEventArgs_">SelectableTextBlock.OnAttachedToLogicalTree(LogicalTreeAttachmentEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_OnDetachedFromLogicalTree_LogicalTreeAttachmentEventArgs_">SelectableTextBlock.OnDetachedFromLogicalTree(LogicalTreeAttachmentEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_ShowToolTipWhenTextTrimmed">SelectableTextBlock.ShowToolTipWhenTextTrimmed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_ToolTipTemplate">SelectableTextBlock.ToolTipTemplate</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
+  <h5 id="CarinaStudio_Controls_FormattedSelectableTextBlock_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FormattedSelectableTextBlock : SelectableTextBlock, IStyleable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L63">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock__ctor_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.#ctor*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock__ctor" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.#ctor">FormattedSelectableTextBlock()</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html">FormattedSelectableTextBlock</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FormattedSelectableTextBlock()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg1Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L16">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg1Property">Arg1Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1">Arg1</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg1Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg2Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L20">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg2Property">Arg2Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2">Arg2</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg2Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg3Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L24">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg3Property">Arg3Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3">Arg3</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg3Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg4Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L28">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg4Property">Arg4Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4">Arg4</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg4Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg5Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L32">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg5Property">Arg5Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5">Arg5</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg5Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg6Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L36">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg6Property">Arg6Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6">Arg6</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg6Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg7Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L40">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg7Property">Arg7Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7">Arg7</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg7Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg8Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L44">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg8Property">Arg8Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8">Arg8</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg8Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9Property.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg9Property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L48">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9Property" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg9Property">Arg9Property</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9">Arg9</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;object?&gt; Arg9Property</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_FormatProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.FormatProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L52">View Source</a>
+  </span>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_FormatProperty" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.FormatProperty">FormatProperty</h4>
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.FormattedSelectableTextBlock.html#CarinaStudio_Controls_FormattedSelectableTextBlock_Format">Format</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;string?&gt; FormatProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L94">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg1*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg1" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg1">Arg1</h4>
+  <div class="markdown level1 summary"><p>Get or set 1st argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L104">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg2*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg2" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg2">Arg2</h4>
+  <div class="markdown level1 summary"><p>Get or set 2nd argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg3%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L114">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg3*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg3" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg3">Arg3</h4>
+  <div class="markdown level1 summary"><p>Get or set 3rd argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg3 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg4%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L124">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg4*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg4" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg4">Arg4</h4>
+  <div class="markdown level1 summary"><p>Get or set 4th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg4 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg5%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L134">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg5*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg5" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg5">Arg5</h4>
+  <div class="markdown level1 summary"><p>Get or set 5th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg5 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg6%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L144">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg6*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg6" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg6">Arg6</h4>
+  <div class="markdown level1 summary"><p>Get or set 6th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg6 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg7%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L154">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg7*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg7" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg7">Arg7</h4>
+  <div class="markdown level1 summary"><p>Get or set 7th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg7 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg8%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L164">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg8*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg8" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg8">Arg8</h4>
+  <div class="markdown level1 summary"><p>Get or set 8th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg8 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Arg9%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L174">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg9*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Arg9" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Arg9">Arg9</h4>
+  <div class="markdown level1 summary"><p>Get or set 9th argument to generate formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? Arg9 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Format.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Format%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L184">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Format_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Format*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Format" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Format">Format</h4>
+  <div class="markdown level1 summary"><p>Get or set string format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Format { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock_Text.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L194">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_FormattedSelectableTextBlock_Text_" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Text*"></a>
+  <h4 id="CarinaStudio_Controls_FormattedSelectableTextBlock_Text" data-uid="CarinaStudio.Controls.FormattedSelectableTextBlock.Text">Text</h4>
+  <div class="markdown level1 summary"><p>Get formatted text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Text { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IStyleable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_FormattedSelectableTextBlock.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.FormattedSelectableTextBlock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/FormattedSelectableTextBlock.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

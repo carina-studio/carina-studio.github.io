@@ -62,10 +62,11 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <p><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core"><img src="https://img.shields.io/nuget/v/CarinaStudio.AppBase.Core.svg" alt=""></a>
+<a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Core"><img src="https://img.shields.io/nuget/vpre/CarinaStudio.AppBase.Core?label=nuget%20%28Pre-Release%29" alt=""></a>
 <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt=""></a>
 <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt=""></a></p>
 <h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
-<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 7 packages providing the following functions:</p>
+<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 9 packages providing the following functions:</p>
 <p>📦<strong>CarinaStudio.AppBase.Core</strong></p>
 <ul>
 <li>Extensions for <code>System.Object</code> to make your code more elegant and clear. (<a href="articles/object_extensions.html">Learn more</a>)</li>
@@ -91,6 +92,11 @@
 <li><code>IApplication</code> to provide abstract interface to application instance no matter what UI framework you use.</li>
 <li><code>ViewModel</code> to provide base implementation of view-model including observable properties, logger, etc.</li>
 </ul>
+<p>📦<strong>CarinaStudio.AppBase.Android</strong></p>
+<ul>
+<li>Implementation of <code>IApplication</code> based-on <code>Android.App.Application</code>.</li>
+<li>Implementation of <code>ISettings</code> based-on <code>Android.Content.SharedPreferences</code>.</li>
+</ul>
 <p>📦<strong>CarinaStudio.AppBase.Avalonia</strong></p>
 <ul>
 <li>Extended controls such as <code>LinkTextBlock</code>, <code>DateTimeTextBox</code> for Avalonia application.</li>
@@ -106,6 +112,11 @@
 <li><code>Updater</code> to perform resolving, downloading and installing flow of application.</li>
 <li>Use <code>UpdatingSession</code> as view-model of <code>Updater</code> to build UI for auto-update quickly.</li>
 </ul>
+<p>📦<strong>CarinaStudio.AppBase.MacOS</strong></p>
+<ul>
+<li>.NET binding to macOS framework. For ex, <code>CFObject</code>, <code>CGImage</code>, <code>NSObject</code>, <code>NSView</code>, etc.</li>
+<li>Allow defining and creating your own type which extends from <code>NSObject</code>.</li>
+</ul>
 <p>📦<strong>CarinaStudio.AppBase.Tests</strong></p>
 <ul>
 <li>Provide random functions like generating random string or creating file with random name.</li>
@@ -119,8 +130,10 @@
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/">https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Avalonia/">https://www.nuget.org/packages/CarinaStudio.AppBase.Avalonia/</a></li>
+<li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Android/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Android/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Avalonia/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Avalonia/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/">https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/</a></li>
+<li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.MacOS/">https://www.nuget.org/packages/CarinaStudio.AppBase.MacOS/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Tests/">https://www.nuget.org/packages/CarinaStudio.AppBase.Tests/</a></li>
 </ul>
 <p>You can also install by Package Manager command:</p>
@@ -128,8 +141,10 @@
 Install-Package CarinaStudio.AppBase.Configuration
 Install-Package CarinaStudio.AppBase.Application
 Install-Package CarinaStudio.AppBase.Avalonia
+Install-Package CarinaStudio.AppBase.Application.Android
 Install-Package CarinaStudio.AppBase.Application.Avalonia
 Install-Package CarinaStudio.AppBase.AutoUpdate
+Install-Package CarinaStudio.AppBase.MacOS
 Install-Package CarinaStudio.AppBase.Tests
 </code></pre>
 <h1 id="source-code">📁Source code</h1>
@@ -142,7 +157,7 @@ Install-Package CarinaStudio.AppBase.Tests
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/1.6/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
