@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Observer&lt;T&gt;
+    <title>Class CachedObservableValue&lt;T&gt;
    | AppBase </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Observer&lt;T&gt;
+    <meta name="title" content="Class CachedObservableValue&lt;T&gt;
    | AppBase ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,24 +68,60 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Observer`1">
+            <article class="content wrap" id="_content" data-uid="CarinaStudio.CachedObservableValue`1">
   
   
-  <h1 id="CarinaStudio_Observer_1" data-uid="CarinaStudio.Observer`1" class="text-break">Class Observer&lt;T&gt;
+  <h1 id="CarinaStudio_CachedObservableValue_1" data-uid="CarinaStudio.CachedObservableValue`1" class="text-break">Class CachedObservableValue&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Simple adapter of <see cref="!:IObserver&lt;T>"></see> and methods.</p>
+  <div class="markdown level0 summary"><p><a class="xref" href="CarinaStudio.ObservableValue-1.html">ObservableValue&lt;T&gt;</a> which caches a local value from source.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Observer&lt;T&gt;</span></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.ObservableValue-1.html">ObservableValue</a>&lt;T&gt;</div>
+    <div class="level2"><span class="xref">CachedObservableValue&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.CachedResource-1.html">CachedResource&lt;T&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IObservable</span>&lt;T&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals__0_">ObservableValue&lt;T&gt;.Equals(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Nullable_System_Object__">ObservableValue&lt;T&gt;.Equals(Nullable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode">ObservableValue&lt;T&gt;.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_HasObservers">ObservableValue&lt;T&gt;.HasObservers</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNotNull">ObservableValue&lt;T&gt;.IsNotNull</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_IsNull">ObservableValue&lt;T&gt;.IsNull</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_IObserver__0__">ObservableValue&lt;T&gt;.Subscribe(IObserver&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_ToString">ObservableValue&lt;T&gt;.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Value">ObservableValue&lt;T&gt;.Value</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Observer_1_syntax">Syntax</h5>
+  <h5 id="CarinaStudio_CachedObservableValue_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Observer&lt;T&gt; : IObserver&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class CachedObservableValue&lt;T&gt; : ObservableValue&lt;T&gt;, IObservable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -98,7 +134,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>Type of value to observe.</p>
+        <td><p>Type of value.</p>
 </td>
       </tr>
     </tbody>
@@ -107,19 +143,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Observer_1__ctor_Action_System_Nullable_Action__System_Nullable_Action_Exception___.md&amp;value=---%0Auid%3A%20CarinaStudio.Observer%601.%23ctor(Action%2CSystem.Nullable%7BAction%7D%2CSystem.Nullable%7BAction%7BException%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_CachedObservableValue_1__ctor_Func__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.CachedObservableValue%601.%23ctor(Func%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/Observer.cs/#L23">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/CachedObservableValue.cs/#L49">View Source</a>
   </span>
-  <a id="CarinaStudio_Observer_1__ctor_" data-uid="CarinaStudio.Observer`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Observer_1__ctor_Action_System_Nullable_Action__System_Nullable_Action_Exception___" data-uid="CarinaStudio.Observer`1.#ctor(Action,System.Nullable{Action},System.Nullable{Action{Exception}})">Observer(Action, Nullable&lt;Action&gt;, Nullable&lt;Action&lt;Exception&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Observer-1.html">Observer&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_CachedObservableValue_1__ctor_" data-uid="CarinaStudio.CachedObservableValue`1.#ctor*"></a>
+  <h4 id="CarinaStudio_CachedObservableValue_1__ctor_Func__0__" data-uid="CarinaStudio.CachedObservableValue`1.#ctor(Func{`0})">CachedObservableValue(Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.CachedObservableValue-1.html">CachedObservableValue&lt;T&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Observer(Action onNext, Action? onCompleted = null, Action&lt;Exception&gt;? onError = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public CachedObservableValue(Func&lt;T&gt; updateValueFunc)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,40 +168,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">onNext</span></td>
-        <td><p>Action of perform when value changed.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&gt;</td>
-        <td><span class="parametername">onCompleted</span></td>
-        <td><p>Action of receiving <see cref="!:IObserver&lt;T>.OnCompleted"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">Exception</span>&gt;&gt;</td>
-        <td><span class="parametername">onError</span></td>
-        <td><p>Action of receiving <see cref="!:IObserver&lt;T>.OnError(Exception)"></see>.</p>
+        <td><span class="xref">Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">updateValueFunc</span></td>
+        <td><p>Function to get value from source.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Observer_1__ctor_Action__0__System_Nullable_Action__System_Nullable_Action_Exception___.md&amp;value=---%0Auid%3A%20CarinaStudio.Observer%601.%23ctor(Action%7B%600%7D%2CSystem.Nullable%7BAction%7D%2CSystem.Nullable%7BAction%7BException%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_CachedObservableValue_1__ctor_IObservable__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.CachedObservableValue%601.%23ctor(IObservable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/Observer.cs/#L37">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/CachedObservableValue.cs/#L63">View Source</a>
   </span>
-  <a id="CarinaStudio_Observer_1__ctor_" data-uid="CarinaStudio.Observer`1.#ctor*"></a>
-  <h4 id="CarinaStudio_Observer_1__ctor_Action__0__System_Nullable_Action__System_Nullable_Action_Exception___" data-uid="CarinaStudio.Observer`1.#ctor(Action{`0},System.Nullable{Action},System.Nullable{Action{Exception}})">Observer(Action&lt;T&gt;, Nullable&lt;Action&gt;, Nullable&lt;Action&lt;Exception&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Observer-1.html">Observer&lt;T&gt;</a> instance.</p>
+  <a id="CarinaStudio_CachedObservableValue_1__ctor_" data-uid="CarinaStudio.CachedObservableValue`1.#ctor*"></a>
+  <h4 id="CarinaStudio_CachedObservableValue_1__ctor_IObservable__0__" data-uid="CarinaStudio.CachedObservableValue`1.#ctor(IObservable{`0})">CachedObservableValue(IObservable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.CachedObservableValue-1.html">CachedObservableValue&lt;T&gt;</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Observer(Action&lt;T&gt; onNext, Action? onCompleted = null, Action&lt;Exception&gt;? onError = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public CachedObservableValue(IObservable&lt;T&gt; source)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,25 +202,54 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">onNext</span></td>
-        <td><p>Action of receiving <see cref="!:IObserver&lt;T>.OnNext(T)"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&gt;</td>
-        <td><span class="parametername">onCompleted</span></td>
-        <td><p>Action of receiving <see cref="!:IObserver&lt;T>.OnCompleted"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">Exception</span>&gt;&gt;</td>
-        <td><span class="parametername">onError</span></td>
-        <td><p>Action of receiving <see cref="!:IObserver&lt;T>.OnError(Exception)"></see>.</p>
+        <td><span class="xref">IObservable</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source value.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CarinaStudio_CachedObservableValue_1__ctor_IObservable__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The source will be observed with weak observer internally. The observer will be unsubscribed in the thread which creates the instance if possible.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_CachedObservableValue_1_Finalize.md&amp;value=---%0Auid%3A%20CarinaStudio.CachedObservableValue%601.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/CachedObservableValue.cs/#L73">View Source</a>
+  </span>
+  <a id="CarinaStudio_CachedObservableValue_1_Finalize_" data-uid="CarinaStudio.CachedObservableValue`1.Finalize*"></a>
+  <h4 id="CarinaStudio_CachedObservableValue_1_Finalize" data-uid="CarinaStudio.CachedObservableValue`1.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Finalizer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_CachedObservableValue_1_Invalidate.md&amp;value=---%0Auid%3A%20CarinaStudio.CachedObservableValue%601.Invalidate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/CachedObservableValue.cs/#L89">View Source</a>
+  </span>
+  <a id="CarinaStudio_CachedObservableValue_1_Invalidate_" data-uid="CarinaStudio.CachedObservableValue`1.Invalidate*"></a>
+  <h4 id="CarinaStudio_CachedObservableValue_1_Invalidate" data-uid="CarinaStudio.CachedObservableValue`1.Invalidate">Invalidate()</h4>
+  <div class="markdown level1 summary"><p>Invalidate cached value and update immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Invalidate()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IObservable&lt;&gt;</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
@@ -260,10 +313,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Observer_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Observer%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_CachedObservableValue_1.md&amp;value=---%0Auid%3A%20CarinaStudio.CachedObservableValue%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/Observer.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Core/CachedObservableValue.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

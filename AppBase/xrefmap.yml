@@ -4666,6 +4666,120 @@ references:
   fullName.vb: CarinaStudio.Buffers.PinnableExtensions.PinAs(Of TPtr1, TPtr2, R)(System.ValueTuple(Of IPinnable, IPinnable), System.Int32, System.Int32, CarinaStudio.PointerInFunc(Of TPtr1, TPtr2, R))
   nameWithType: PinnableExtensions.PinAs<TPtr1, TPtr2, R>((IPinnable, IPinnable), Int32, Int32, PointerInFunc<TPtr1, TPtr2, R>)
   nameWithType.vb: PinnableExtensions.PinAs(Of TPtr1, TPtr2, R)((IPinnable, IPinnable)(Of IPinnable, IPinnable), Int32, Int32, PointerInFunc(Of TPtr1, TPtr2, R))
+- uid: CarinaStudio.CachedObservableValue`1
+  name: CachedObservableValue<T>
+  href: api/CarinaStudio.CachedObservableValue-1.html
+  commentId: T:CarinaStudio.CachedObservableValue`1
+  name.vb: CachedObservableValue(Of T)
+  fullName: CarinaStudio.CachedObservableValue<T>
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T)
+  nameWithType: CachedObservableValue<T>
+  nameWithType.vb: CachedObservableValue(Of T)
+- uid: CarinaStudio.CachedObservableValue`1.#ctor(Func{`0})
+  name: CachedObservableValue(Func<T>)
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1__ctor_Func__0__
+  commentId: M:CarinaStudio.CachedObservableValue`1.#ctor(Func{`0})
+  name.vb: CachedObservableValue(Func(Of T))
+  fullName: CarinaStudio.CachedObservableValue<T>.CachedObservableValue(Func<T>)
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).CachedObservableValue(Func(Of T))
+  nameWithType: CachedObservableValue<T>.CachedObservableValue(Func<T>)
+  nameWithType.vb: CachedObservableValue(Of T).CachedObservableValue(Func(Of T))
+- uid: CarinaStudio.CachedObservableValue`1.#ctor(IObservable{`0})
+  name: CachedObservableValue(IObservable<T>)
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1__ctor_IObservable__0__
+  commentId: M:CarinaStudio.CachedObservableValue`1.#ctor(IObservable{`0})
+  name.vb: CachedObservableValue(IObservable(Of T))
+  fullName: CarinaStudio.CachedObservableValue<T>.CachedObservableValue(IObservable<T>)
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).CachedObservableValue(IObservable(Of T))
+  nameWithType: CachedObservableValue<T>.CachedObservableValue(IObservable<T>)
+  nameWithType.vb: CachedObservableValue(Of T).CachedObservableValue(IObservable(Of T))
+- uid: CarinaStudio.CachedObservableValue`1.#ctor*
+  name: CachedObservableValue
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1__ctor_
+  commentId: Overload:CarinaStudio.CachedObservableValue`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.CachedObservableValue<T>.CachedObservableValue
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).CachedObservableValue
+  nameWithType: CachedObservableValue<T>.CachedObservableValue
+  nameWithType.vb: CachedObservableValue(Of T).CachedObservableValue
+- uid: CarinaStudio.CachedObservableValue`1.Finalize
+  name: Finalize()
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1_Finalize
+  commentId: M:CarinaStudio.CachedObservableValue`1.Finalize
+  fullName: CarinaStudio.CachedObservableValue<T>.Finalize()
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).Finalize()
+  nameWithType: CachedObservableValue<T>.Finalize()
+  nameWithType.vb: CachedObservableValue(Of T).Finalize()
+- uid: CarinaStudio.CachedObservableValue`1.Finalize*
+  name: Finalize
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1_Finalize_
+  commentId: Overload:CarinaStudio.CachedObservableValue`1.Finalize
+  isSpec: "True"
+  fullName: CarinaStudio.CachedObservableValue<T>.Finalize
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).Finalize
+  nameWithType: CachedObservableValue<T>.Finalize
+  nameWithType.vb: CachedObservableValue(Of T).Finalize
+- uid: CarinaStudio.CachedObservableValue`1.Invalidate
+  name: Invalidate()
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1_Invalidate
+  commentId: M:CarinaStudio.CachedObservableValue`1.Invalidate
+  fullName: CarinaStudio.CachedObservableValue<T>.Invalidate()
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).Invalidate()
+  nameWithType: CachedObservableValue<T>.Invalidate()
+  nameWithType.vb: CachedObservableValue(Of T).Invalidate()
+- uid: CarinaStudio.CachedObservableValue`1.Invalidate*
+  name: Invalidate
+  href: api/CarinaStudio.CachedObservableValue-1.html#CarinaStudio_CachedObservableValue_1_Invalidate_
+  commentId: Overload:CarinaStudio.CachedObservableValue`1.Invalidate
+  isSpec: "True"
+  fullName: CarinaStudio.CachedObservableValue<T>.Invalidate
+  fullName.vb: CarinaStudio.CachedObservableValue(Of T).Invalidate
+  nameWithType: CachedObservableValue<T>.Invalidate
+  nameWithType.vb: CachedObservableValue(Of T).Invalidate
+- uid: CarinaStudio.CachedResource`1
+  name: CachedResource<T>
+  href: api/CarinaStudio.CachedResource-1.html
+  commentId: T:CarinaStudio.CachedResource`1
+  name.vb: CachedResource(Of T)
+  fullName: CarinaStudio.CachedResource<T>
+  fullName.vb: CarinaStudio.CachedResource(Of T)
+  nameWithType: CachedResource<T>
+  nameWithType.vb: CachedResource(Of T)
+- uid: CarinaStudio.CachedResource`1.#ctor(IResourceHost,System.Object,System.Nullable{Func{System.Nullable{System.Object},System.Nullable{System.Object}}})
+  name: CachedResource(IResourceHost, Object, Nullable<Func<Nullable<Object>, Nullable<Object>>>)
+  href: api/CarinaStudio.CachedResource-1.html#CarinaStudio_CachedResource_1__ctor_IResourceHost_System_Object_System_Nullable_Func_System_Nullable_System_Object__System_Nullable_System_Object____
+  commentId: M:CarinaStudio.CachedResource`1.#ctor(IResourceHost,System.Object,System.Nullable{Func{System.Nullable{System.Object},System.Nullable{System.Object}}})
+  name.vb: CachedResource(IResourceHost, Object, Nullable(Of Func(Of Nullable(Of Object), Nullable(Of Object))))
+  fullName: CarinaStudio.CachedResource<T>.CachedResource(IResourceHost, System.Object, System.Nullable<Func<System.Nullable<System.Object>, System.Nullable<System.Object>>>)
+  fullName.vb: CarinaStudio.CachedResource(Of T).CachedResource(IResourceHost, System.Object, System.Nullable(Of Func(Of System.Nullable(Of System.Object), System.Nullable(Of System.Object))))
+  nameWithType: CachedResource<T>.CachedResource(IResourceHost, Object, Nullable<Func<Nullable<Object>, Nullable<Object>>>)
+  nameWithType.vb: CachedResource(Of T).CachedResource(IResourceHost, Object, Nullable(Of Func(Of Nullable(Of Object), Nullable(Of Object))))
+- uid: CarinaStudio.CachedResource`1.#ctor*
+  name: CachedResource
+  href: api/CarinaStudio.CachedResource-1.html#CarinaStudio_CachedResource_1__ctor_
+  commentId: Overload:CarinaStudio.CachedResource`1.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.CachedResource<T>.CachedResource
+  fullName.vb: CarinaStudio.CachedResource(Of T).CachedResource
+  nameWithType: CachedResource<T>.CachedResource
+  nameWithType.vb: CachedResource(Of T).CachedResource
+- uid: CarinaStudio.CachedResource`1.ResourceKey
+  name: ResourceKey
+  href: api/CarinaStudio.CachedResource-1.html#CarinaStudio_CachedResource_1_ResourceKey
+  commentId: P:CarinaStudio.CachedResource`1.ResourceKey
+  fullName: CarinaStudio.CachedResource<T>.ResourceKey
+  fullName.vb: CarinaStudio.CachedResource(Of T).ResourceKey
+  nameWithType: CachedResource<T>.ResourceKey
+  nameWithType.vb: CachedResource(Of T).ResourceKey
+- uid: CarinaStudio.CachedResource`1.ResourceKey*
+  name: ResourceKey
+  href: api/CarinaStudio.CachedResource-1.html#CarinaStudio_CachedResource_1_ResourceKey_
+  commentId: Overload:CarinaStudio.CachedResource`1.ResourceKey
+  isSpec: "True"
+  fullName: CarinaStudio.CachedResource<T>.ResourceKey
+  fullName.vb: CarinaStudio.CachedResource(Of T).ResourceKey
+  nameWithType: CachedResource<T>.ResourceKey
+  nameWithType.vb: CachedResource(Of T).ResourceKey
 - uid: CarinaStudio.Collections
   name: CarinaStudio.Collections
   href: api/CarinaStudio.Collections.html
@@ -4818,6 +4932,31 @@ references:
   fullName.vb: CarinaStudio.Collections.DictionaryExtensions.AsReadOnly(Of TKey, TValue)(IDictionary(Of TKey, TValue))
   nameWithType: DictionaryExtensions.AsReadOnly<TKey, TValue>(IDictionary<TKey, TValue>)
   nameWithType.vb: DictionaryExtensions.AsReadOnly(Of TKey, TValue)(IDictionary(Of TKey, TValue))
+- uid: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_GetValueOrDefault_
+  commentId: Overload:CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault
+  nameWithType: DictionaryExtensions.GetValueOrDefault
+- uid: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0___1_
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,``1)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  fullName: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
+- uid: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,System.Nullable{``1})
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, Nullable<TValue>)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_GetValueOrDefault__2_IDictionary___0___1____0_System_Nullable___1__
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault``2(IDictionary{``0,``1},``0,System.Nullable{``1})
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, Nullable(Of TValue))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, System.Nullable<TValue>)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, System.Nullable(Of TValue))
+  nameWithType: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey, Nullable<TValue>)
+  nameWithType.vb: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, Nullable(Of TValue))
 - uid: CarinaStudio.Collections.DictionaryExtensions.TryGetValue*
   name: TryGetValue
   href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_TryGetValue_
@@ -8161,6 +8300,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.ComboBoxExtensions.TryFindComboBoxItem
   nameWithType: ComboBoxExtensions.TryFindComboBoxItem
+- uid: CarinaStudio.Controls.ControlExtensions
+  name: ControlExtensions
+  href: api/CarinaStudio.Controls.ControlExtensions.html
+  commentId: T:CarinaStudio.Controls.ControlExtensions
+  fullName: CarinaStudio.Controls.ControlExtensions
+  nameWithType: ControlExtensions
+- uid: CarinaStudio.Controls.ControlExtensions.RemoveFromParent(Control)
+  name: RemoveFromParent(Control)
+  href: api/CarinaStudio.Controls.ControlExtensions.html#CarinaStudio_Controls_ControlExtensions_RemoveFromParent_Control_
+  commentId: M:CarinaStudio.Controls.ControlExtensions.RemoveFromParent(Control)
+  fullName: CarinaStudio.Controls.ControlExtensions.RemoveFromParent(Control)
+  nameWithType: ControlExtensions.RemoveFromParent(Control)
+- uid: CarinaStudio.Controls.ControlExtensions.RemoveFromParent*
+  name: RemoveFromParent
+  href: api/CarinaStudio.Controls.ControlExtensions.html#CarinaStudio_Controls_ControlExtensions_RemoveFromParent_
+  commentId: Overload:CarinaStudio.Controls.ControlExtensions.RemoveFromParent
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ControlExtensions.RemoveFromParent
+  nameWithType: ControlExtensions.RemoveFromParent
 - uid: CarinaStudio.Controls.DateTimeTextBox
   name: DateTimeTextBox
   href: api/CarinaStudio.Controls.DateTimeTextBox.html
@@ -9388,6 +9546,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.LinkTextBlock.IsEnabledCore
   nameWithType: LinkTextBlock.IsEnabledCore
+- uid: CarinaStudio.Controls.LinkTextBlock.OnKeyDown(KeyEventArgs)
+  name: OnKeyDown(KeyEventArgs)
+  href: api/CarinaStudio.Controls.LinkTextBlock.html#CarinaStudio_Controls_LinkTextBlock_OnKeyDown_KeyEventArgs_
+  commentId: M:CarinaStudio.Controls.LinkTextBlock.OnKeyDown(KeyEventArgs)
+  fullName: CarinaStudio.Controls.LinkTextBlock.OnKeyDown(KeyEventArgs)
+  nameWithType: LinkTextBlock.OnKeyDown(KeyEventArgs)
+- uid: CarinaStudio.Controls.LinkTextBlock.OnKeyDown*
+  name: OnKeyDown
+  href: api/CarinaStudio.Controls.LinkTextBlock.html#CarinaStudio_Controls_LinkTextBlock_OnKeyDown_
+  commentId: Overload:CarinaStudio.Controls.LinkTextBlock.OnKeyDown
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.LinkTextBlock.OnKeyDown
+  nameWithType: LinkTextBlock.OnKeyDown
 - uid: CarinaStudio.Controls.LinkTextBlock.OnKeyUp(KeyEventArgs)
   name: OnKeyUp(KeyEventArgs)
   href: api/CarinaStudio.Controls.LinkTextBlock.html#CarinaStudio_Controls_LinkTextBlock_OnKeyUp_KeyEventArgs_
@@ -10006,6 +10177,22 @@ references:
   commentId: T:CarinaStudio.Controls.ResourceHostExtensions
   fullName: CarinaStudio.Controls.ResourceHostExtensions
   nameWithType: ResourceHostExtensions
+- uid: CarinaStudio.Controls.ResourceHostExtensions.BindToResource*
+  name: BindToResource
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource_
+  commentId: Overload:CarinaStudio.Controls.ResourceHostExtensions.BindToResource
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ResourceHostExtensions.BindToResource
+  nameWithType: ResourceHostExtensions.BindToResource
+- uid: CarinaStudio.Controls.ResourceHostExtensions.BindToResource``1(``0,AvaloniaProperty,System.Object)
+  name: BindToResource<T>(T, AvaloniaProperty, Object)
+  href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource__1___0_AvaloniaProperty_System_Object_
+  commentId: M:CarinaStudio.Controls.ResourceHostExtensions.BindToResource``1(``0,AvaloniaProperty,System.Object)
+  name.vb: BindToResource(Of T)(T, AvaloniaProperty, Object)
+  fullName: CarinaStudio.Controls.ResourceHostExtensions.BindToResource<T>(T, AvaloniaProperty, System.Object)
+  fullName.vb: CarinaStudio.Controls.ResourceHostExtensions.BindToResource(Of T)(T, AvaloniaProperty, System.Object)
+  nameWithType: ResourceHostExtensions.BindToResource<T>(T, AvaloniaProperty, Object)
+  nameWithType.vb: ResourceHostExtensions.BindToResource(Of T)(T, AvaloniaProperty, Object)
 - uid: CarinaStudio.Controls.ResourceHostExtensions.FindResourceOrDefault*
   name: FindResourceOrDefault
   href: api/CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_FindResourceOrDefault_
@@ -11024,6 +11211,25 @@ references:
   commentId: F:CarinaStudio.Controls.Window.IsOpenedProperty
   fullName: CarinaStudio.Controls.Window.IsOpenedProperty
   nameWithType: Window.IsOpenedProperty
+- uid: CarinaStudio.Controls.Window.IsShownAsDialog
+  name: IsShownAsDialog
+  href: api/CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_IsShownAsDialog
+  commentId: P:CarinaStudio.Controls.Window.IsShownAsDialog
+  fullName: CarinaStudio.Controls.Window.IsShownAsDialog
+  nameWithType: Window.IsShownAsDialog
+- uid: CarinaStudio.Controls.Window.IsShownAsDialog*
+  name: IsShownAsDialog
+  href: api/CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_IsShownAsDialog_
+  commentId: Overload:CarinaStudio.Controls.Window.IsShownAsDialog
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.Window.IsShownAsDialog
+  nameWithType: Window.IsShownAsDialog
+- uid: CarinaStudio.Controls.Window.IsShownAsDialogProperty
+  name: IsShownAsDialogProperty
+  href: api/CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_IsShownAsDialogProperty
+  commentId: F:CarinaStudio.Controls.Window.IsShownAsDialogProperty
+  fullName: CarinaStudio.Controls.Window.IsShownAsDialogProperty
+  nameWithType: Window.IsShownAsDialogProperty
 - uid: CarinaStudio.Controls.Window.OnClosed(EventArgs)
   name: OnClosed(EventArgs)
   href: api/CarinaStudio.Controls.Window.html#CarinaStudio_Controls_Window_OnClosed_EventArgs_
@@ -13725,6 +13931,36 @@ references:
   fullName.vb: CarinaStudio.IShareableDisposable(Of TSelf).Share
   nameWithType: IShareableDisposable<TSelf>.Share
   nameWithType.vb: IShareableDisposable(Of TSelf).Share
+- uid: CarinaStudio.LinuxDesktop
+  name: LinuxDesktop
+  href: api/CarinaStudio.LinuxDesktop.html
+  commentId: T:CarinaStudio.LinuxDesktop
+  fullName: CarinaStudio.LinuxDesktop
+  nameWithType: LinuxDesktop
+- uid: CarinaStudio.LinuxDesktop.Gnome
+  name: Gnome
+  href: api/CarinaStudio.LinuxDesktop.html#CarinaStudio_LinuxDesktop_Gnome
+  commentId: F:CarinaStudio.LinuxDesktop.Gnome
+  fullName: CarinaStudio.LinuxDesktop.Gnome
+  nameWithType: LinuxDesktop.Gnome
+- uid: CarinaStudio.LinuxDesktop.KDE
+  name: KDE
+  href: api/CarinaStudio.LinuxDesktop.html#CarinaStudio_LinuxDesktop_KDE
+  commentId: F:CarinaStudio.LinuxDesktop.KDE
+  fullName: CarinaStudio.LinuxDesktop.KDE
+  nameWithType: LinuxDesktop.KDE
+- uid: CarinaStudio.LinuxDesktop.Unity
+  name: Unity
+  href: api/CarinaStudio.LinuxDesktop.html#CarinaStudio_LinuxDesktop_Unity
+  commentId: F:CarinaStudio.LinuxDesktop.Unity
+  fullName: CarinaStudio.LinuxDesktop.Unity
+  nameWithType: LinuxDesktop.Unity
+- uid: CarinaStudio.LinuxDesktop.Unknown
+  name: Unknown
+  href: api/CarinaStudio.LinuxDesktop.html#CarinaStudio_LinuxDesktop_Unknown
+  commentId: F:CarinaStudio.LinuxDesktop.Unknown
+  fullName: CarinaStudio.LinuxDesktop.Unknown
+  nameWithType: LinuxDesktop.Unknown
 - uid: CarinaStudio.LinuxDistribution
   name: LinuxDistribution
   href: api/CarinaStudio.LinuxDistribution.html
@@ -13767,6 +14003,129 @@ references:
   commentId: N:CarinaStudio.MacOS.AppKit
   fullName: CarinaStudio.MacOS.AppKit
   nameWithType: CarinaStudio.MacOS.AppKit
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance
+  name: NSAppearance
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSAppearance
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance
+  nameWithType: NSAppearance
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua
+  name: AccessibilityHighContrastAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastAqua
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua
+  nameWithType: NSAppearance.AccessibilityHighContrastAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua*
+  name: AccessibilityHighContrastAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastAqua_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastAqua
+  nameWithType: NSAppearance.AccessibilityHighContrastAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua
+  name: AccessibilityHighContrastDarkAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastDarkAqua
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua
+  nameWithType: NSAppearance.AccessibilityHighContrastDarkAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua*
+  name: AccessibilityHighContrastDarkAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastDarkAqua_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastDarkAqua
+  nameWithType: NSAppearance.AccessibilityHighContrastDarkAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark
+  name: AccessibilityHighContrastVibrantDark
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastVibrantDark
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark
+  nameWithType: NSAppearance.AccessibilityHighContrastVibrantDark
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark*
+  name: AccessibilityHighContrastVibrantDark
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastVibrantDark_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantDark
+  nameWithType: NSAppearance.AccessibilityHighContrastVibrantDark
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight
+  name: AccessibilityHighContrastVibrantLight
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastVibrantLight
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight
+  nameWithType: NSAppearance.AccessibilityHighContrastVibrantLight
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight*
+  name: AccessibilityHighContrastVibrantLight
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_AccessibilityHighContrastVibrantLight_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.AccessibilityHighContrastVibrantLight
+  nameWithType: NSAppearance.AccessibilityHighContrastVibrantLight
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.Aqua
+  name: Aqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_Aqua
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.Aqua
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.Aqua
+  nameWithType: NSAppearance.Aqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.Aqua*
+  name: Aqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_Aqua_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.Aqua
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.Aqua
+  nameWithType: NSAppearance.Aqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua
+  name: DarkAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_DarkAqua
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua
+  nameWithType: NSAppearance.DarkAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua*
+  name: DarkAqua
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_DarkAqua_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.DarkAqua
+  nameWithType: NSAppearance.DarkAqua
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed(System.String)
+  name: GetNamed(String)
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_GetNamed_System_String_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed(System.String)
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed(System.String)
+  nameWithType: NSAppearance.GetNamed(String)
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed*
+  name: GetNamed
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_GetNamed_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.GetNamed
+  nameWithType: NSAppearance.GetNamed
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark
+  name: VibrantDark
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_VibrantDark
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark
+  nameWithType: NSAppearance.VibrantDark
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark*
+  name: VibrantDark
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_VibrantDark_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantDark
+  nameWithType: NSAppearance.VibrantDark
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight
+  name: VibrantLight
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_VibrantLight
+  commentId: P:CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight
+  nameWithType: NSAppearance.VibrantLight
+- uid: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight*
+  name: VibrantLight
+  href: api/CarinaStudio.MacOS.AppKit.NSAppearance.html#CarinaStudio_MacOS_AppKit_NSAppearance_VibrantLight_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSAppearance.VibrantLight
+  nameWithType: NSAppearance.VibrantLight
 - uid: CarinaStudio.MacOS.AppKit.NSApplication
   name: NSApplication
   href: api/CarinaStudio.MacOS.AppKit.NSApplication.html
@@ -13786,6 +14145,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.AppKit.NSApplication.Activate
   nameWithType: NSApplication.Activate
+- uid: CarinaStudio.MacOS.AppKit.NSApplication.Appearance
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSApplication.html#CarinaStudio_MacOS_AppKit_NSApplication_Appearance
+  commentId: P:CarinaStudio.MacOS.AppKit.NSApplication.Appearance
+  fullName: CarinaStudio.MacOS.AppKit.NSApplication.Appearance
+  nameWithType: NSApplication.Appearance
+- uid: CarinaStudio.MacOS.AppKit.NSApplication.Appearance*
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSApplication.html#CarinaStudio_MacOS_AppKit_NSApplication_Appearance_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSApplication.Appearance
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSApplication.Appearance
+  nameWithType: NSApplication.Appearance
 - uid: CarinaStudio.MacOS.AppKit.NSApplication.ApplicationIconImage
   name: ApplicationIconImage
   href: api/CarinaStudio.MacOS.AppKit.NSApplication.html#CarinaStudio_MacOS_AppKit_NSApplication_ApplicationIconImage
@@ -16843,6 +17215,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.AppKit.NSView.AddSubView
   nameWithType: NSView.AddSubView
+- uid: CarinaStudio.MacOS.AppKit.NSView.Appearance
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSView.html#CarinaStudio_MacOS_AppKit_NSView_Appearance
+  commentId: P:CarinaStudio.MacOS.AppKit.NSView.Appearance
+  fullName: CarinaStudio.MacOS.AppKit.NSView.Appearance
+  nameWithType: NSView.Appearance
+- uid: CarinaStudio.MacOS.AppKit.NSView.Appearance*
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSView.html#CarinaStudio_MacOS_AppKit_NSView_Appearance_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSView.Appearance
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSView.Appearance
+  nameWithType: NSView.Appearance
 - uid: CarinaStudio.MacOS.AppKit.NSView.BackgroundStyle
   name: NSView.BackgroundStyle
   href: api/CarinaStudio.MacOS.AppKit.NSView.BackgroundStyle.html
@@ -17416,6 +17801,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.AppKit.NSWindow.NSWindow
   nameWithType: NSWindow.NSWindow
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.Appearance
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_Appearance
+  commentId: P:CarinaStudio.MacOS.AppKit.NSWindow.Appearance
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.Appearance
+  nameWithType: NSWindow.Appearance
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.Appearance*
+  name: Appearance
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_Appearance_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.Appearance
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.Appearance
+  nameWithType: NSWindow.Appearance
 - uid: CarinaStudio.MacOS.AppKit.NSWindow.BackingStoreType
   name: NSWindow.BackingStoreType
   href: api/CarinaStudio.MacOS.AppKit.NSWindow.BackingStoreType.html
@@ -17511,6 +17909,58 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.AppKit.NSWindow.MakeKeyAndOrderFront
   nameWithType: NSWindow.MakeKeyAndOrderFront
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.Order(CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode,System.Int32)
+  name: Order(NSWindow.OrderingMode, Int32)
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_Order_CarinaStudio_MacOS_AppKit_NSWindow_OrderingMode_System_Int32_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSWindow.Order(CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode,System.Int32)
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.Order(CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode, System.Int32)
+  nameWithType: NSWindow.Order(NSWindow.OrderingMode, Int32)
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.Order*
+  name: Order
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_Order_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.Order
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.Order
+  nameWithType: NSWindow.Order
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderBack(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: OrderBack(NSObject)
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderBack_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSWindow.OrderBack(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderBack(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSWindow.OrderBack(NSObject)
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderBack*
+  name: OrderBack
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderBack_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.OrderBack
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderBack
+  nameWithType: NSWindow.OrderBack
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderFront(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: OrderFront(NSObject)
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderFront_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSWindow.OrderFront(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderFront(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSWindow.OrderFront(NSObject)
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderFront*
+  name: OrderFront
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderFront_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.OrderFront
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderFront
+  nameWithType: NSWindow.OrderFront
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless
+  name: OrderFrontRegardless()
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderFrontRegardless
+  commentId: M:CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless()
+  nameWithType: NSWindow.OrderFrontRegardless()
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless*
+  name: OrderFrontRegardless
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderFrontRegardless_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderFrontRegardless
+  nameWithType: NSWindow.OrderFrontRegardless
 - uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode
   name: NSWindow.OrderingMode
   href: api/CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode.html
@@ -17535,6 +17985,19 @@ references:
   commentId: F:CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode.Out
   fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderingMode.Out
   nameWithType: NSWindow.OrderingMode.Out
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderOut(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: OrderOut(NSObject)
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderOut_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSWindow.OrderOut(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderOut(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSWindow.OrderOut(NSObject)
+- uid: CarinaStudio.MacOS.AppKit.NSWindow.OrderOut*
+  name: OrderOut
+  href: api/CarinaStudio.MacOS.AppKit.NSWindow.html#CarinaStudio_MacOS_AppKit_NSWindow_OrderOut_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSWindow.OrderOut
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSWindow.OrderOut
+  nameWithType: NSWindow.OrderOut
 - uid: CarinaStudio.MacOS.AppKit.NSWindow.StyleMask
   name: NSWindow.StyleMask
   href: api/CarinaStudio.MacOS.AppKit.NSWindow.StyleMask.html
@@ -22961,6 +23424,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ObservableExtensions.Subscribe
   nameWithType: ObservableExtensions.Subscribe
+- uid: CarinaStudio.ObservableExtensions.Subscribe``1(IObservable{``0},Action)
+  name: Subscribe<T>(IObservable<T>, Action)
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Subscribe__1_IObservable___0__Action_
+  commentId: M:CarinaStudio.ObservableExtensions.Subscribe``1(IObservable{``0},Action)
+  name.vb: Subscribe(Of T)(IObservable(Of T), Action)
+  fullName: CarinaStudio.ObservableExtensions.Subscribe<T>(IObservable<T>, Action)
+  fullName.vb: CarinaStudio.ObservableExtensions.Subscribe(Of T)(IObservable(Of T), Action)
+  nameWithType: ObservableExtensions.Subscribe<T>(IObservable<T>, Action)
+  nameWithType.vb: ObservableExtensions.Subscribe(Of T)(IObservable(Of T), Action)
 - uid: CarinaStudio.ObservableExtensions.Subscribe``1(IObservable{``0},Action{``0})
   name: Subscribe<T>(IObservable<T>, Action<T>)
   href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Subscribe__1_IObservable___0__Action___0__
@@ -22979,6 +23451,31 @@ references:
   fullName.vb: CarinaStudio.ObservableExtensions.Subscribe(Of T, R)(IObservable(Of T), Func(Of T, R))
   nameWithType: ObservableExtensions.Subscribe<T, R>(IObservable<T>, Func<T, R>)
   nameWithType.vb: ObservableExtensions.Subscribe(Of T, R)(IObservable(Of T), Func(Of T, R))
+- uid: CarinaStudio.ObservableExtensions.Subscribe``2(IObservable{``0},Func{``1})
+  name: Subscribe<T, R>(IObservable<T>, Func<R>)
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Subscribe__2_IObservable___0__Func___1__
+  commentId: M:CarinaStudio.ObservableExtensions.Subscribe``2(IObservable{``0},Func{``1})
+  name.vb: Subscribe(Of T, R)(IObservable(Of T), Func(Of R))
+  fullName: CarinaStudio.ObservableExtensions.Subscribe<T, R>(IObservable<T>, Func<R>)
+  fullName.vb: CarinaStudio.ObservableExtensions.Subscribe(Of T, R)(IObservable(Of T), Func(Of R))
+  nameWithType: ObservableExtensions.Subscribe<T, R>(IObservable<T>, Func<R>)
+  nameWithType.vb: ObservableExtensions.Subscribe(Of T, R)(IObservable(Of T), Func(Of R))
+- uid: CarinaStudio.ObservableExtensions.WeakSubscribe*
+  name: WeakSubscribe
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_WeakSubscribe_
+  commentId: Overload:CarinaStudio.ObservableExtensions.WeakSubscribe
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableExtensions.WeakSubscribe
+  nameWithType: ObservableExtensions.WeakSubscribe
+- uid: CarinaStudio.ObservableExtensions.WeakSubscribe``1(IObservable{``0},IObserver{``0})
+  name: WeakSubscribe<T>(IObservable<T>, IObserver<T>)
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_WeakSubscribe__1_IObservable___0__IObserver___0__
+  commentId: M:CarinaStudio.ObservableExtensions.WeakSubscribe``1(IObservable{``0},IObserver{``0})
+  name.vb: WeakSubscribe(Of T)(IObservable(Of T), IObserver(Of T))
+  fullName: CarinaStudio.ObservableExtensions.WeakSubscribe<T>(IObservable<T>, IObserver<T>)
+  fullName.vb: CarinaStudio.ObservableExtensions.WeakSubscribe(Of T)(IObservable(Of T), IObserver(Of T))
+  nameWithType: ObservableExtensions.WeakSubscribe<T>(IObservable<T>, IObserver<T>)
+  nameWithType.vb: ObservableExtensions.WeakSubscribe(Of T)(IObservable(Of T), IObserver(Of T))
 - uid: CarinaStudio.ObservableValue`1
   name: ObservableValue<T>
   href: api/CarinaStudio.ObservableValue-1.html
@@ -23233,6 +23730,15 @@ references:
   fullName.vb: CarinaStudio.Observer(Of T)
   nameWithType: Observer<T>
   nameWithType.vb: Observer(Of T)
+- uid: CarinaStudio.Observer`1.#ctor(Action,System.Nullable{Action},System.Nullable{Action{Exception}})
+  name: Observer(Action, Nullable<Action>, Nullable<Action<Exception>>)
+  href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1__ctor_Action_System_Nullable_Action__System_Nullable_Action_Exception___
+  commentId: M:CarinaStudio.Observer`1.#ctor(Action,System.Nullable{Action},System.Nullable{Action{Exception}})
+  name.vb: Observer(Action, Nullable(Of Action), Nullable(Of Action(Of Exception)))
+  fullName: CarinaStudio.Observer<T>.Observer(Action, System.Nullable<Action>, System.Nullable<Action<Exception>>)
+  fullName.vb: CarinaStudio.Observer(Of T).Observer(Action, System.Nullable(Of Action), System.Nullable(Of Action(Of Exception)))
+  nameWithType: Observer<T>.Observer(Action, Nullable<Action>, Nullable<Action<Exception>>)
+  nameWithType.vb: Observer(Of T).Observer(Action, Nullable(Of Action), Nullable(Of Action(Of Exception)))
 - uid: CarinaStudio.Observer`1.#ctor(Action{`0},System.Nullable{Action},System.Nullable{Action{Exception}})
   name: Observer(Action<T>, Nullable<Action>, Nullable<Action<Exception>>)
   href: api/CarinaStudio.Observer-1.html#CarinaStudio_Observer_1__ctor_Action__0__System_Nullable_Action__System_Nullable_Action_Exception___
@@ -23432,6 +23938,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Platform.IsWindows8OrAbove
   nameWithType: Platform.IsWindows8OrAbove
+- uid: CarinaStudio.Platform.LinuxDesktop
+  name: LinuxDesktop
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_LinuxDesktop
+  commentId: P:CarinaStudio.Platform.LinuxDesktop
+  fullName: CarinaStudio.Platform.LinuxDesktop
+  nameWithType: Platform.LinuxDesktop
+- uid: CarinaStudio.Platform.LinuxDesktop*
+  name: LinuxDesktop
+  href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_LinuxDesktop_
+  commentId: Overload:CarinaStudio.Platform.LinuxDesktop
+  isSpec: "True"
+  fullName: CarinaStudio.Platform.LinuxDesktop
+  nameWithType: Platform.LinuxDesktop
 - uid: CarinaStudio.Platform.LinuxDistribution
   name: LinuxDistribution
   href: api/CarinaStudio.Platform.html#CarinaStudio_Platform_LinuxDistribution
