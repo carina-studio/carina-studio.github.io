@@ -2432,6 +2432,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.BasePackageInstaller
   nameWithType: BasePackageInstaller.BasePackageInstaller
+- uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons
+  name: DeleteOldApplicationIcons
+  href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_DeleteOldApplicationIcons
+  commentId: P:CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons
+  fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons
+  nameWithType: BasePackageInstaller.DeleteOldApplicationIcons
+- uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons*
+  name: DeleteOldApplicationIcons
+  href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_DeleteOldApplicationIcons_
+  commentId: Overload:CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.DeleteOldApplicationIcons
+  nameWithType: BasePackageInstaller.DeleteOldApplicationIcons
 - uid: CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstalledFilePaths
   name: InstalledFilePaths
   href: api/CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstalledFilePaths
@@ -2522,6 +2535,19 @@ references:
   commentId: T:CarinaStudio.AutoUpdate.Installers.IPackageInstaller
   fullName: CarinaStudio.AutoUpdate.Installers.IPackageInstaller
   nameWithType: IPackageInstaller
+- uid: CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons
+  name: DeleteOldApplicationIcons
+  href: api/CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_IPackageInstaller_DeleteOldApplicationIcons
+  commentId: P:CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons
+  fullName: CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons
+  nameWithType: IPackageInstaller.DeleteOldApplicationIcons
+- uid: CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons*
+  name: DeleteOldApplicationIcons
+  href: api/CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_IPackageInstaller_DeleteOldApplicationIcons_
+  commentId: Overload:CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons
+  isSpec: "True"
+  fullName: CarinaStudio.AutoUpdate.Installers.IPackageInstaller.DeleteOldApplicationIcons
+  nameWithType: IPackageInstaller.DeleteOldApplicationIcons
 - uid: CarinaStudio.AutoUpdate.Installers.IPackageInstaller.InstalledFilePaths
   name: InstalledFilePaths
   href: api/CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html#CarinaStudio_AutoUpdate_Installers_IPackageInstaller_InstalledFilePaths
@@ -8338,6 +8364,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.DateTimeTextBox.DateTimeTextBox
   nameWithType: DateTimeTextBox.DateTimeTextBox
+- uid: CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable{DateTime},System.Nullable{DateTime})
+  name: RaiseValueChanged(Nullable<DateTime>, Nullable<DateTime>)
+  href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_System_Nullable_DateTime__System_Nullable_DateTime__
+  commentId: M:CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable{DateTime},System.Nullable{DateTime})
+  name.vb: RaiseValueChanged(Nullable(Of DateTime), Nullable(Of DateTime))
+  fullName: CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable<DateTime>, System.Nullable<DateTime>)
+  fullName.vb: CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable(Of DateTime), System.Nullable(Of DateTime))
+  nameWithType: DateTimeTextBox.RaiseValueChanged(Nullable<DateTime>, Nullable<DateTime>)
+  nameWithType.vb: DateTimeTextBox.RaiseValueChanged(Nullable(Of DateTime), Nullable(Of DateTime))
+- uid: CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_
+  commentId: Overload:CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged
+  nameWithType: DateTimeTextBox.RaiseValueChanged
 - uid: CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue(System.String,System.Nullable{DateTime}@)
   name: TryConvertToValue(String, out Nullable<DateTime>)
   href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_TryConvertToValue_System_String_System_Nullable_DateTime___
@@ -8354,6 +8396,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue
   nameWithType: DateTimeTextBox.TryConvertToValue
+- uid: CarinaStudio.Controls.DateTimeTextBox.Value
+  name: Value
+  href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_Value
+  commentId: P:CarinaStudio.Controls.DateTimeTextBox.Value
+  fullName: CarinaStudio.Controls.DateTimeTextBox.Value
+  nameWithType: DateTimeTextBox.Value
+- uid: CarinaStudio.Controls.DateTimeTextBox.Value*
+  name: Value
+  href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_Value_
+  commentId: Overload:CarinaStudio.Controls.DateTimeTextBox.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.DateTimeTextBox.Value
+  nameWithType: DateTimeTextBox.Value
+- uid: CarinaStudio.Controls.DateTimeTextBox.ValueProperty
+  name: ValueProperty
+  href: api/CarinaStudio.Controls.DateTimeTextBox.html#CarinaStudio_Controls_DateTimeTextBox_ValueProperty
+  commentId: F:CarinaStudio.Controls.DateTimeTextBox.ValueProperty
+  fullName: CarinaStudio.Controls.DateTimeTextBox.ValueProperty
+  nameWithType: DateTimeTextBox.ValueProperty
 - uid: CarinaStudio.Controls.Dialog
   name: Dialog
   href: api/CarinaStudio.Controls.Dialog.html
@@ -9361,6 +9422,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.IntegerTextBox.OnTextInput
   nameWithType: IntegerTextBox.OnTextInput
+- uid: CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged(System.Nullable{System.Int64},System.Nullable{System.Int64})
+  name: RaiseValueChanged(Nullable<Int64>, Nullable<Int64>)
+  href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_RaiseValueChanged_System_Nullable_System_Int64__System_Nullable_System_Int64__
+  commentId: M:CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged(System.Nullable{System.Int64},System.Nullable{System.Int64})
+  name.vb: RaiseValueChanged(Nullable(Of Int64), Nullable(Of Int64))
+  fullName: CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged(System.Nullable<System.Int64>, System.Nullable<System.Int64>)
+  fullName.vb: CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged(System.Nullable(Of System.Int64), System.Nullable(Of System.Int64))
+  nameWithType: IntegerTextBox.RaiseValueChanged(Nullable<Int64>, Nullable<Int64>)
+  nameWithType.vb: IntegerTextBox.RaiseValueChanged(Nullable(Of Int64), Nullable(Of Int64))
+- uid: CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_RaiseValueChanged_
+  commentId: Overload:CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.IntegerTextBox.RaiseValueChanged
+  nameWithType: IntegerTextBox.RaiseValueChanged
 - uid: CarinaStudio.Controls.IntegerTextBox.TryConvertToValue(System.String,System.Nullable{System.Int64}@)
   name: TryConvertToValue(String, out Nullable<Int64>)
   href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_TryConvertToValue_System_String_System_Nullable_System_Int64___
@@ -9377,6 +9454,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.IntegerTextBox.TryConvertToValue
   nameWithType: IntegerTextBox.TryConvertToValue
+- uid: CarinaStudio.Controls.IntegerTextBox.Value
+  name: Value
+  href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_Value
+  commentId: P:CarinaStudio.Controls.IntegerTextBox.Value
+  fullName: CarinaStudio.Controls.IntegerTextBox.Value
+  nameWithType: IntegerTextBox.Value
+- uid: CarinaStudio.Controls.IntegerTextBox.Value*
+  name: Value
+  href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_Value_
+  commentId: Overload:CarinaStudio.Controls.IntegerTextBox.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.IntegerTextBox.Value
+  nameWithType: IntegerTextBox.Value
+- uid: CarinaStudio.Controls.IntegerTextBox.ValueProperty
+  name: ValueProperty
+  href: api/CarinaStudio.Controls.IntegerTextBox.html#CarinaStudio_Controls_IntegerTextBox_ValueProperty
+  commentId: F:CarinaStudio.Controls.IntegerTextBox.ValueProperty
+  fullName: CarinaStudio.Controls.IntegerTextBox.ValueProperty
+  nameWithType: IntegerTextBox.ValueProperty
 - uid: CarinaStudio.Controls.IPAddressTextBox
   name: IPAddressTextBox
   href: api/CarinaStudio.Controls.IPAddressTextBox.html
@@ -9415,6 +9511,25 @@ references:
   commentId: F:CarinaStudio.Controls.IPAddressTextBox.IPv4OnlyProperty
   fullName: CarinaStudio.Controls.IPAddressTextBox.IPv4OnlyProperty
   nameWithType: IPAddressTextBox.IPv4OnlyProperty
+- uid: CarinaStudio.Controls.IPAddressTextBox.Object
+  name: Object
+  href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_Object
+  commentId: P:CarinaStudio.Controls.IPAddressTextBox.Object
+  fullName: CarinaStudio.Controls.IPAddressTextBox.Object
+  nameWithType: IPAddressTextBox.Object
+- uid: CarinaStudio.Controls.IPAddressTextBox.Object*
+  name: Object
+  href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_Object_
+  commentId: Overload:CarinaStudio.Controls.IPAddressTextBox.Object
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.IPAddressTextBox.Object
+  nameWithType: IPAddressTextBox.Object
+- uid: CarinaStudio.Controls.IPAddressTextBox.ObjectProperty
+  name: ObjectProperty
+  href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_ObjectProperty
+  commentId: F:CarinaStudio.Controls.IPAddressTextBox.ObjectProperty
+  fullName: CarinaStudio.Controls.IPAddressTextBox.ObjectProperty
+  nameWithType: IPAddressTextBox.ObjectProperty
 - uid: CarinaStudio.Controls.IPAddressTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
@@ -9441,6 +9556,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.IPAddressTextBox.OnTextInput
   nameWithType: IPAddressTextBox.OnTextInput
+- uid: CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged(System.Nullable{IPAddress},System.Nullable{IPAddress})
+  name: RaiseObjectChanged(Nullable<IPAddress>, Nullable<IPAddress>)
+  href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_RaiseObjectChanged_System_Nullable_IPAddress__System_Nullable_IPAddress__
+  commentId: M:CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged(System.Nullable{IPAddress},System.Nullable{IPAddress})
+  name.vb: RaiseObjectChanged(Nullable(Of IPAddress), Nullable(Of IPAddress))
+  fullName: CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged(System.Nullable<IPAddress>, System.Nullable<IPAddress>)
+  fullName.vb: CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged(System.Nullable(Of IPAddress), System.Nullable(Of IPAddress))
+  nameWithType: IPAddressTextBox.RaiseObjectChanged(Nullable<IPAddress>, Nullable<IPAddress>)
+  nameWithType.vb: IPAddressTextBox.RaiseObjectChanged(Nullable(Of IPAddress), Nullable(Of IPAddress))
+- uid: CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged*
+  name: RaiseObjectChanged
+  href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_RaiseObjectChanged_
+  commentId: Overload:CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.IPAddressTextBox.RaiseObjectChanged
+  nameWithType: IPAddressTextBox.RaiseObjectChanged
 - uid: CarinaStudio.Controls.IPAddressTextBox.TryConvertToObject(System.String,System.Nullable{IPAddress}@)
   name: TryConvertToObject(String, out Nullable<IPAddress>)
   href: api/CarinaStudio.Controls.IPAddressTextBox.html#CarinaStudio_Controls_IPAddressTextBox_TryConvertToObject_System_String_System_Nullable_IPAddress___
@@ -9639,6 +9770,166 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.ListBoxExtensions.TryFindListBoxItem
   nameWithType: ListBoxExtensions.TryFindListBoxItem
+- uid: CarinaStudio.Controls.ObjectTextBox
+  name: ObjectTextBox
+  href: api/CarinaStudio.Controls.ObjectTextBox.html
+  commentId: T:CarinaStudio.Controls.ObjectTextBox
+  fullName: CarinaStudio.Controls.ObjectTextBox
+  nameWithType: ObjectTextBox
+- uid: CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name: CheckObjectEquality(Nullable<Object>, Nullable<Object>)
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_CheckObjectEquality_System_Nullable_System_Object__System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name.vb: CheckObjectEquality(Nullable(Of Object), Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality(System.Nullable<System.Object>, System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality(System.Nullable(Of System.Object), System.Nullable(Of System.Object))
+  nameWithType: ObjectTextBox.CheckObjectEquality(Nullable<Object>, Nullable<Object>)
+  nameWithType.vb: ObjectTextBox.CheckObjectEquality(Nullable(Of Object), Nullable(Of Object))
+- uid: CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality*
+  name: CheckObjectEquality
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_CheckObjectEquality_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.CheckObjectEquality
+  nameWithType: ObjectTextBox.CheckObjectEquality
+- uid: CarinaStudio.Controls.ObjectTextBox.ConvertToText(System.Object)
+  name: ConvertToText(Object)
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ConvertToText_System_Object_
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.ConvertToText(System.Object)
+  fullName: CarinaStudio.Controls.ObjectTextBox.ConvertToText(System.Object)
+  nameWithType: ObjectTextBox.ConvertToText(Object)
+- uid: CarinaStudio.Controls.ObjectTextBox.ConvertToText*
+  name: ConvertToText
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ConvertToText_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.ConvertToText
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.ConvertToText
+  nameWithType: ObjectTextBox.ConvertToText
+- uid: CarinaStudio.Controls.ObjectTextBox.IsTextValid
+  name: IsTextValid
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsTextValid
+  commentId: P:CarinaStudio.Controls.ObjectTextBox.IsTextValid
+  fullName: CarinaStudio.Controls.ObjectTextBox.IsTextValid
+  nameWithType: ObjectTextBox.IsTextValid
+- uid: CarinaStudio.Controls.ObjectTextBox.IsTextValid*
+  name: IsTextValid
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsTextValid_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.IsTextValid
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.IsTextValid
+  nameWithType: ObjectTextBox.IsTextValid
+- uid: CarinaStudio.Controls.ObjectTextBox.IsTextValidProperty
+  name: IsTextValidProperty
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsTextValidProperty
+  commentId: F:CarinaStudio.Controls.ObjectTextBox.IsTextValidProperty
+  fullName: CarinaStudio.Controls.ObjectTextBox.IsTextValidProperty
+  nameWithType: ObjectTextBox.IsTextValidProperty
+- uid: CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled
+  name: IsValidationScheduled
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsValidationScheduled
+  commentId: P:CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled
+  fullName: CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled
+  nameWithType: ObjectTextBox.IsValidationScheduled
+- uid: CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled*
+  name: IsValidationScheduled
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsValidationScheduled_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.IsValidationScheduled
+  nameWithType: ObjectTextBox.IsValidationScheduled
+- uid: CarinaStudio.Controls.ObjectTextBox.Object
+  name: Object
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_Object
+  commentId: P:CarinaStudio.Controls.ObjectTextBox.Object
+  fullName: CarinaStudio.Controls.ObjectTextBox.Object
+  nameWithType: ObjectTextBox.Object
+- uid: CarinaStudio.Controls.ObjectTextBox.Object*
+  name: Object
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_Object_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.Object
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.Object
+  nameWithType: ObjectTextBox.Object
+- uid: CarinaStudio.Controls.ObjectTextBox.ObjectProperty
+  name: ObjectProperty
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ObjectProperty
+  commentId: F:CarinaStudio.Controls.ObjectTextBox.ObjectProperty
+  fullName: CarinaStudio.Controls.ObjectTextBox.ObjectProperty
+  nameWithType: ObjectTextBox.ObjectProperty
+- uid: CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  fullName: CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  nameWithType: ObjectTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+- uid: CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnPropertyChanged_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.OnPropertyChanged
+  nameWithType: ObjectTextBox.OnPropertyChanged
+- uid: CarinaStudio.Controls.ObjectTextBox.OnTextInput(TextInputEventArgs)
+  name: OnTextInput(TextInputEventArgs)
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnTextInput_TextInputEventArgs_
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.OnTextInput(TextInputEventArgs)
+  fullName: CarinaStudio.Controls.ObjectTextBox.OnTextInput(TextInputEventArgs)
+  nameWithType: ObjectTextBox.OnTextInput(TextInputEventArgs)
+- uid: CarinaStudio.Controls.ObjectTextBox.OnTextInput*
+  name: OnTextInput
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnTextInput_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.OnTextInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.OnTextInput
+  nameWithType: ObjectTextBox.OnTextInput
+- uid: CarinaStudio.Controls.ObjectTextBox.TryConvertToObject(System.String,System.Nullable{System.Object}@)
+  name: TryConvertToObject(String, out Nullable<Object>)
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_TryConvertToObject_System_String_System_Nullable_System_Object___
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.TryConvertToObject(System.String,System.Nullable{System.Object}@)
+  name.vb: TryConvertToObject(String, ByRef Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ObjectTextBox.TryConvertToObject(System.String, out System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox.TryConvertToObject(System.String, ByRef System.Nullable(Of System.Object))
+  nameWithType: ObjectTextBox.TryConvertToObject(String, out Nullable<Object>)
+  nameWithType.vb: ObjectTextBox.TryConvertToObject(String, ByRef Nullable(Of Object))
+- uid: CarinaStudio.Controls.ObjectTextBox.TryConvertToObject*
+  name: TryConvertToObject
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_TryConvertToObject_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.TryConvertToObject
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.TryConvertToObject
+  nameWithType: ObjectTextBox.TryConvertToObject
+- uid: CarinaStudio.Controls.ObjectTextBox.Validate
+  name: Validate()
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_Validate
+  commentId: M:CarinaStudio.Controls.ObjectTextBox.Validate
+  fullName: CarinaStudio.Controls.ObjectTextBox.Validate()
+  nameWithType: ObjectTextBox.Validate()
+- uid: CarinaStudio.Controls.ObjectTextBox.Validate*
+  name: Validate
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_Validate_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.Validate
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.Validate
+  nameWithType: ObjectTextBox.Validate
+- uid: CarinaStudio.Controls.ObjectTextBox.ValidationDelay
+  name: ValidationDelay
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ValidationDelay
+  commentId: P:CarinaStudio.Controls.ObjectTextBox.ValidationDelay
+  fullName: CarinaStudio.Controls.ObjectTextBox.ValidationDelay
+  nameWithType: ObjectTextBox.ValidationDelay
+- uid: CarinaStudio.Controls.ObjectTextBox.ValidationDelay*
+  name: ValidationDelay
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ValidationDelay_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox.ValidationDelay
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ObjectTextBox.ValidationDelay
+  nameWithType: ObjectTextBox.ValidationDelay
+- uid: CarinaStudio.Controls.ObjectTextBox.ValidationDelayProperty
+  name: ValidationDelayProperty
+  href: api/CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ValidationDelayProperty
+  commentId: F:CarinaStudio.Controls.ObjectTextBox.ValidationDelayProperty
+  fullName: CarinaStudio.Controls.ObjectTextBox.ValidationDelayProperty
+  nameWithType: ObjectTextBox.ValidationDelayProperty
 - uid: CarinaStudio.Controls.ObjectTextBox`1
   name: ObjectTextBox<T>
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html
@@ -9673,6 +9964,15 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).CheckObjectEquality(T, T)
   nameWithType: ObjectTextBox<T>.CheckObjectEquality(T, T)
   nameWithType.vb: ObjectTextBox(Of T).CheckObjectEquality(T, T)
+- uid: CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name: CheckObjectEquality(Nullable<Object>, Nullable<Object>)
+  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_System_Nullable_System_Object__System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name.vb: CheckObjectEquality(Nullable(Of Object), Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ObjectTextBox<T>.CheckObjectEquality(System.Nullable<System.Object>, System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).CheckObjectEquality(System.Nullable(Of System.Object), System.Nullable(Of System.Object))
+  nameWithType: ObjectTextBox<T>.CheckObjectEquality(Nullable<Object>, Nullable<Object>)
+  nameWithType.vb: ObjectTextBox(Of T).CheckObjectEquality(Nullable(Of Object), Nullable(Of Object))
 - uid: CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality*
   name: CheckObjectEquality
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_
@@ -9690,6 +9990,14 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ConvertToText(T)
   nameWithType: ObjectTextBox<T>.ConvertToText(T)
   nameWithType.vb: ObjectTextBox(Of T).ConvertToText(T)
+- uid: CarinaStudio.Controls.ObjectTextBox`1.ConvertToText(System.Object)
+  name: ConvertToText(Object)
+  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_System_Object_
+  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.ConvertToText(System.Object)
+  fullName: CarinaStudio.Controls.ObjectTextBox<T>.ConvertToText(System.Object)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ConvertToText(System.Object)
+  nameWithType: ObjectTextBox<T>.ConvertToText(Object)
+  nameWithType.vb: ObjectTextBox(Of T).ConvertToText(Object)
 - uid: CarinaStudio.Controls.ObjectTextBox`1.ConvertToText*
   name: ConvertToText
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_
@@ -9699,48 +10007,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ConvertToText
   nameWithType: ObjectTextBox<T>.ConvertToText
   nameWithType.vb: ObjectTextBox(Of T).ConvertToText
-- uid: CarinaStudio.Controls.ObjectTextBox`1.IsTextValid
-  name: IsTextValid
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsTextValid
-  commentId: P:CarinaStudio.Controls.ObjectTextBox`1.IsTextValid
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.IsTextValid
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).IsTextValid
-  nameWithType: ObjectTextBox<T>.IsTextValid
-  nameWithType.vb: ObjectTextBox(Of T).IsTextValid
-- uid: CarinaStudio.Controls.ObjectTextBox`1.IsTextValid*
-  name: IsTextValid
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsTextValid_
-  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.IsTextValid
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.IsTextValid
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).IsTextValid
-  nameWithType: ObjectTextBox<T>.IsTextValid
-  nameWithType.vb: ObjectTextBox(Of T).IsTextValid
-- uid: CarinaStudio.Controls.ObjectTextBox`1.IsTextValidProperty
-  name: IsTextValidProperty
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsTextValidProperty
-  commentId: F:CarinaStudio.Controls.ObjectTextBox`1.IsTextValidProperty
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.IsTextValidProperty
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).IsTextValidProperty
-  nameWithType: ObjectTextBox<T>.IsTextValidProperty
-  nameWithType.vb: ObjectTextBox(Of T).IsTextValidProperty
-- uid: CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled
-  name: IsValidationScheduled
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsValidationScheduled
-  commentId: P:CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.IsValidationScheduled
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).IsValidationScheduled
-  nameWithType: ObjectTextBox<T>.IsValidationScheduled
-  nameWithType.vb: ObjectTextBox(Of T).IsValidationScheduled
-- uid: CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled*
-  name: IsValidationScheduled
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsValidationScheduled_
-  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.IsValidationScheduled
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).IsValidationScheduled
-  nameWithType: ObjectTextBox<T>.IsValidationScheduled
-  nameWithType.vb: ObjectTextBox(Of T).IsValidationScheduled
 - uid: CarinaStudio.Controls.ObjectTextBox`1.Object
   name: Object
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_Object
@@ -9758,14 +10024,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).Object
   nameWithType: ObjectTextBox<T>.Object
   nameWithType.vb: ObjectTextBox(Of T).Object
-- uid: CarinaStudio.Controls.ObjectTextBox`1.ObjectProperty
-  name: ObjectProperty
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ObjectProperty
-  commentId: F:CarinaStudio.Controls.ObjectTextBox`1.ObjectProperty
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.ObjectProperty
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ObjectProperty
-  nameWithType: ObjectTextBox<T>.ObjectProperty
-  nameWithType.vb: ObjectTextBox(Of T).ObjectProperty
 - uid: CarinaStudio.Controls.ObjectTextBox`1.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
@@ -9783,23 +10041,23 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).OnPropertyChanged
   nameWithType: ObjectTextBox<T>.OnPropertyChanged
   nameWithType.vb: ObjectTextBox(Of T).OnPropertyChanged
-- uid: CarinaStudio.Controls.ObjectTextBox`1.OnTextInput(TextInputEventArgs)
-  name: OnTextInput(TextInputEventArgs)
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_OnTextInput_TextInputEventArgs_
-  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.OnTextInput(TextInputEventArgs)
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.OnTextInput(TextInputEventArgs)
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).OnTextInput(TextInputEventArgs)
-  nameWithType: ObjectTextBox<T>.OnTextInput(TextInputEventArgs)
-  nameWithType.vb: ObjectTextBox(Of T).OnTextInput(TextInputEventArgs)
-- uid: CarinaStudio.Controls.ObjectTextBox`1.OnTextInput*
-  name: OnTextInput
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_OnTextInput_
-  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.OnTextInput
+- uid: CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged(`0,`0)
+  name: RaiseObjectChanged(T, T)
+  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_RaiseObjectChanged__0__0_
+  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged(`0,`0)
+  fullName: CarinaStudio.Controls.ObjectTextBox<T>.RaiseObjectChanged(T, T)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).RaiseObjectChanged(T, T)
+  nameWithType: ObjectTextBox<T>.RaiseObjectChanged(T, T)
+  nameWithType.vb: ObjectTextBox(Of T).RaiseObjectChanged(T, T)
+- uid: CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged*
+  name: RaiseObjectChanged
+  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_RaiseObjectChanged_
+  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged
   isSpec: "True"
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.OnTextInput
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).OnTextInput
-  nameWithType: ObjectTextBox<T>.OnTextInput
-  nameWithType.vb: ObjectTextBox(Of T).OnTextInput
+  fullName: CarinaStudio.Controls.ObjectTextBox<T>.RaiseObjectChanged
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).RaiseObjectChanged
+  nameWithType: ObjectTextBox<T>.RaiseObjectChanged
+  nameWithType.vb: ObjectTextBox(Of T).RaiseObjectChanged
 - uid: CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject(System.String,`0@)
   name: TryConvertToObject(String, out T)
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String__0__
@@ -9809,6 +10067,15 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).TryConvertToObject(System.String, ByRef T)
   nameWithType: ObjectTextBox<T>.TryConvertToObject(String, out T)
   nameWithType.vb: ObjectTextBox(Of T).TryConvertToObject(String, ByRef T)
+- uid: CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject(System.String,System.Nullable{System.Object}@)
+  name: TryConvertToObject(String, out Nullable<Object>)
+  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String_System_Nullable_System_Object___
+  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject(System.String,System.Nullable{System.Object}@)
+  name.vb: TryConvertToObject(String, ByRef Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ObjectTextBox<T>.TryConvertToObject(System.String, out System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).TryConvertToObject(System.String, ByRef System.Nullable(Of System.Object))
+  nameWithType: ObjectTextBox<T>.TryConvertToObject(String, out Nullable<Object>)
+  nameWithType.vb: ObjectTextBox(Of T).TryConvertToObject(String, ByRef Nullable(Of Object))
 - uid: CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject*
   name: TryConvertToObject
   href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_
@@ -9818,48 +10085,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).TryConvertToObject
   nameWithType: ObjectTextBox<T>.TryConvertToObject
   nameWithType.vb: ObjectTextBox(Of T).TryConvertToObject
-- uid: CarinaStudio.Controls.ObjectTextBox`1.Validate
-  name: Validate()
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_Validate
-  commentId: M:CarinaStudio.Controls.ObjectTextBox`1.Validate
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.Validate()
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).Validate()
-  nameWithType: ObjectTextBox<T>.Validate()
-  nameWithType.vb: ObjectTextBox(Of T).Validate()
-- uid: CarinaStudio.Controls.ObjectTextBox`1.Validate*
-  name: Validate
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_Validate_
-  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.Validate
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.Validate
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).Validate
-  nameWithType: ObjectTextBox<T>.Validate
-  nameWithType.vb: ObjectTextBox(Of T).Validate
-- uid: CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay
-  name: ValidationDelay
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay
-  commentId: P:CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.ValidationDelay
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ValidationDelay
-  nameWithType: ObjectTextBox<T>.ValidationDelay
-  nameWithType.vb: ObjectTextBox(Of T).ValidationDelay
-- uid: CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay*
-  name: ValidationDelay
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay_
-  commentId: Overload:CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.ValidationDelay
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ValidationDelay
-  nameWithType: ObjectTextBox<T>.ValidationDelay
-  nameWithType.vb: ObjectTextBox(Of T).ValidationDelay
-- uid: CarinaStudio.Controls.ObjectTextBox`1.ValidationDelayProperty
-  name: ValidationDelayProperty
-  href: api/CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ValidationDelayProperty
-  commentId: F:CarinaStudio.Controls.ObjectTextBox`1.ValidationDelayProperty
-  fullName: CarinaStudio.Controls.ObjectTextBox<T>.ValidationDelayProperty
-  fullName.vb: CarinaStudio.Controls.ObjectTextBox(Of T).ValidationDelayProperty
-  nameWithType: ObjectTextBox<T>.ValidationDelayProperty
-  nameWithType.vb: ObjectTextBox(Of T).ValidationDelayProperty
 - uid: CarinaStudio.Controls.Presenters
   name: CarinaStudio.Controls.Presenters
   href: api/CarinaStudio.Controls.Presenters.html
@@ -10171,6 +10396,172 @@ references:
   commentId: F:CarinaStudio.Controls.ProgressRing.RingThicknessProperty
   fullName: CarinaStudio.Controls.ProgressRing.RingThicknessProperty
   nameWithType: ProgressRing.RingThicknessProperty
+- uid: CarinaStudio.Controls.RealNumberTextBox
+  name: RealNumberTextBox
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html
+  commentId: T:CarinaStudio.Controls.RealNumberTextBox
+  fullName: CarinaStudio.Controls.RealNumberTextBox
+  nameWithType: RealNumberTextBox
+- uid: CarinaStudio.Controls.RealNumberTextBox.#ctor
+  name: RealNumberTextBox()
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox__ctor
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.#ctor
+  fullName: CarinaStudio.Controls.RealNumberTextBox.RealNumberTextBox()
+  nameWithType: RealNumberTextBox.RealNumberTextBox()
+- uid: CarinaStudio.Controls.RealNumberTextBox.#ctor*
+  name: RealNumberTextBox
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox__ctor_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.RealNumberTextBox
+  nameWithType: RealNumberTextBox.RealNumberTextBox
+- uid: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed
+  name: IsNaNAllowed
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed
+  commentId: P:CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed
+  fullName: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed
+  nameWithType: RealNumberTextBox.IsNaNAllowed
+- uid: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed*
+  name: IsNaNAllowed
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed
+  nameWithType: RealNumberTextBox.IsNaNAllowed
+- uid: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty
+  name: IsNaNAllowedProperty
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowedProperty
+  commentId: F:CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty
+  fullName: CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty
+  nameWithType: RealNumberTextBox.IsNaNAllowedProperty
+- uid: CarinaStudio.Controls.RealNumberTextBox.Maximum
+  name: Maximum
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Maximum
+  commentId: P:CarinaStudio.Controls.RealNumberTextBox.Maximum
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Maximum
+  nameWithType: RealNumberTextBox.Maximum
+- uid: CarinaStudio.Controls.RealNumberTextBox.Maximum*
+  name: Maximum
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Maximum_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.Maximum
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Maximum
+  nameWithType: RealNumberTextBox.Maximum
+- uid: CarinaStudio.Controls.RealNumberTextBox.MaximumProperty
+  name: MaximumProperty
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_MaximumProperty
+  commentId: F:CarinaStudio.Controls.RealNumberTextBox.MaximumProperty
+  fullName: CarinaStudio.Controls.RealNumberTextBox.MaximumProperty
+  nameWithType: RealNumberTextBox.MaximumProperty
+- uid: CarinaStudio.Controls.RealNumberTextBox.Minimum
+  name: Minimum
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Minimum
+  commentId: P:CarinaStudio.Controls.RealNumberTextBox.Minimum
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Minimum
+  nameWithType: RealNumberTextBox.Minimum
+- uid: CarinaStudio.Controls.RealNumberTextBox.Minimum*
+  name: Minimum
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Minimum_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.Minimum
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Minimum
+  nameWithType: RealNumberTextBox.Minimum
+- uid: CarinaStudio.Controls.RealNumberTextBox.MinimumProperty
+  name: MinimumProperty
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_MinimumProperty
+  commentId: F:CarinaStudio.Controls.RealNumberTextBox.MinimumProperty
+  fullName: CarinaStudio.Controls.RealNumberTextBox.MinimumProperty
+  nameWithType: RealNumberTextBox.MinimumProperty
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(KeyEventArgs)
+  name: OnKeyDown(KeyEventArgs)
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_KeyEventArgs_
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(KeyEventArgs)
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(KeyEventArgs)
+  nameWithType: RealNumberTextBox.OnKeyDown(KeyEventArgs)
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnKeyDown*
+  name: OnKeyDown
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.OnKeyDown
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnKeyDown
+  nameWithType: RealNumberTextBox.OnKeyDown
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  nameWithType: RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged
+  nameWithType: RealNumberTextBox.OnPropertyChanged
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnTextInput(TextInputEventArgs)
+  name: OnTextInput(TextInputEventArgs)
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnTextInput_TextInputEventArgs_
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.OnTextInput(TextInputEventArgs)
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnTextInput(TextInputEventArgs)
+  nameWithType: RealNumberTextBox.OnTextInput(TextInputEventArgs)
+- uid: CarinaStudio.Controls.RealNumberTextBox.OnTextInput*
+  name: OnTextInput
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_OnTextInput_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.OnTextInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.OnTextInput
+  nameWithType: RealNumberTextBox.OnTextInput
+- uid: CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable{System.Double},System.Nullable{System.Double})
+  name: RaiseValueChanged(Nullable<Double>, Nullable<Double>)
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_System_Nullable_System_Double__System_Nullable_System_Double__
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable{System.Double},System.Nullable{System.Double})
+  name.vb: RaiseValueChanged(Nullable(Of Double), Nullable(Of Double))
+  fullName: CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable<System.Double>, System.Nullable<System.Double>)
+  fullName.vb: CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  nameWithType: RealNumberTextBox.RaiseValueChanged(Nullable<Double>, Nullable<Double>)
+  nameWithType.vb: RealNumberTextBox.RaiseValueChanged(Nullable(Of Double), Nullable(Of Double))
+- uid: CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged
+  nameWithType: RealNumberTextBox.RaiseValueChanged
+- uid: CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String,System.Nullable{System.Double}@)
+  name: TryConvertToValue(String, out Nullable<Double>)
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_System_String_System_Nullable_System_Double___
+  commentId: M:CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String,System.Nullable{System.Double}@)
+  name.vb: TryConvertToValue(String, ByRef Nullable(Of Double))
+  fullName: CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String, out System.Nullable<System.Double>)
+  fullName.vb: CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String, ByRef System.Nullable(Of System.Double))
+  nameWithType: RealNumberTextBox.TryConvertToValue(String, out Nullable<Double>)
+  nameWithType.vb: RealNumberTextBox.TryConvertToValue(String, ByRef Nullable(Of Double))
+- uid: CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue*
+  name: TryConvertToValue
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue
+  nameWithType: RealNumberTextBox.TryConvertToValue
+- uid: CarinaStudio.Controls.RealNumberTextBox.Value
+  name: Value
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Value
+  commentId: P:CarinaStudio.Controls.RealNumberTextBox.Value
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Value
+  nameWithType: RealNumberTextBox.Value
+- uid: CarinaStudio.Controls.RealNumberTextBox.Value*
+  name: Value
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Value_
+  commentId: Overload:CarinaStudio.Controls.RealNumberTextBox.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.RealNumberTextBox.Value
+  nameWithType: RealNumberTextBox.Value
+- uid: CarinaStudio.Controls.RealNumberTextBox.ValueProperty
+  name: ValueProperty
+  href: api/CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_ValueProperty
+  commentId: F:CarinaStudio.Controls.RealNumberTextBox.ValueProperty
+  fullName: CarinaStudio.Controls.RealNumberTextBox.ValueProperty
+  nameWithType: RealNumberTextBox.ValueProperty
 - uid: CarinaStudio.Controls.ResourceHostExtensions
   name: ResourceHostExtensions
   href: api/CarinaStudio.Controls.ResourceHostExtensions.html
@@ -10271,12 +10662,12 @@ references:
   commentId: T:CarinaStudio.Controls.ScrollViewerExtensions
   fullName: CarinaStudio.Controls.ScrollViewerExtensions
   nameWithType: ScrollViewerExtensions
-- uid: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,IControl)
-  name: ScrollIntoView(ScrollViewer, IControl)
-  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_IControl_
-  commentId: M:CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,IControl)
-  fullName: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer, IControl)
-  nameWithType: ScrollViewerExtensions.ScrollIntoView(ScrollViewer, IControl)
+- uid: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,Control)
+  name: ScrollIntoView(ScrollViewer, Control)
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Control_
+  commentId: M:CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,Control)
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer, Control)
+  nameWithType: ScrollViewerExtensions.ScrollIntoView(ScrollViewer, Control)
 - uid: CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView*
   name: ScrollIntoView
   href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_
@@ -10303,6 +10694,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.SelectableTextBlock.SelectableTextBlock
   nameWithType: SelectableTextBlock.SelectableTextBlock
+- uid: CarinaStudio.Controls.SelectableTextBlock.DebugLogger
+  name: DebugLogger
+  href: api/CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_DebugLogger
+  commentId: P:CarinaStudio.Controls.SelectableTextBlock.DebugLogger
+  fullName: CarinaStudio.Controls.SelectableTextBlock.DebugLogger
+  nameWithType: SelectableTextBlock.DebugLogger
+- uid: CarinaStudio.Controls.SelectableTextBlock.DebugLogger*
+  name: DebugLogger
+  href: api/CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_DebugLogger_
+  commentId: Overload:CarinaStudio.Controls.SelectableTextBlock.DebugLogger
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.SelectableTextBlock.DebugLogger
+  nameWithType: SelectableTextBlock.DebugLogger
 - uid: CarinaStudio.Controls.SelectableTextBlock.IsMultiLineText
   name: IsMultiLineText
   href: api/CarinaStudio.Controls.SelectableTextBlock.html#CarinaStudio_Controls_SelectableTextBlock_IsMultiLineText
@@ -10517,6 +10921,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.TextBlock.TextBlock
   nameWithType: TextBlock.TextBlock
+- uid: CarinaStudio.Controls.TextBlock.DebugLogger
+  name: DebugLogger
+  href: api/CarinaStudio.Controls.TextBlock.html#CarinaStudio_Controls_TextBlock_DebugLogger
+  commentId: P:CarinaStudio.Controls.TextBlock.DebugLogger
+  fullName: CarinaStudio.Controls.TextBlock.DebugLogger
+  nameWithType: TextBlock.DebugLogger
+- uid: CarinaStudio.Controls.TextBlock.DebugLogger*
+  name: DebugLogger
+  href: api/CarinaStudio.Controls.TextBlock.html#CarinaStudio_Controls_TextBlock_DebugLogger_
+  commentId: Overload:CarinaStudio.Controls.TextBlock.DebugLogger
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.TextBlock.DebugLogger
+  nameWithType: TextBlock.DebugLogger
 - uid: CarinaStudio.Controls.TextBlock.IsMultiLineText
   name: IsMultiLineText
   href: api/CarinaStudio.Controls.TextBlock.html#CarinaStudio_Controls_TextBlock_IsMultiLineText
@@ -10651,6 +11068,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.TimeSpanTextBox.TimeSpanTextBox
   nameWithType: TimeSpanTextBox.TimeSpanTextBox
+- uid: CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged(System.Nullable{TimeSpan},System.Nullable{TimeSpan})
+  name: RaiseValueChanged(Nullable<TimeSpan>, Nullable<TimeSpan>)
+  href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_RaiseValueChanged_System_Nullable_TimeSpan__System_Nullable_TimeSpan__
+  commentId: M:CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged(System.Nullable{TimeSpan},System.Nullable{TimeSpan})
+  name.vb: RaiseValueChanged(Nullable(Of TimeSpan), Nullable(Of TimeSpan))
+  fullName: CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged(System.Nullable<TimeSpan>, System.Nullable<TimeSpan>)
+  fullName.vb: CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged(System.Nullable(Of TimeSpan), System.Nullable(Of TimeSpan))
+  nameWithType: TimeSpanTextBox.RaiseValueChanged(Nullable<TimeSpan>, Nullable<TimeSpan>)
+  nameWithType.vb: TimeSpanTextBox.RaiseValueChanged(Nullable(Of TimeSpan), Nullable(Of TimeSpan))
+- uid: CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_RaiseValueChanged_
+  commentId: Overload:CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.TimeSpanTextBox.RaiseValueChanged
+  nameWithType: TimeSpanTextBox.RaiseValueChanged
 - uid: CarinaStudio.Controls.TimeSpanTextBox.TryConvertToValue(System.String,System.Nullable{TimeSpan}@)
   name: TryConvertToValue(String, out Nullable<TimeSpan>)
   href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_TryConvertToValue_System_String_System_Nullable_TimeSpan___
@@ -10667,6 +11100,25 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.TimeSpanTextBox.TryConvertToValue
   nameWithType: TimeSpanTextBox.TryConvertToValue
+- uid: CarinaStudio.Controls.TimeSpanTextBox.Value
+  name: Value
+  href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_Value
+  commentId: P:CarinaStudio.Controls.TimeSpanTextBox.Value
+  fullName: CarinaStudio.Controls.TimeSpanTextBox.Value
+  nameWithType: TimeSpanTextBox.Value
+- uid: CarinaStudio.Controls.TimeSpanTextBox.Value*
+  name: Value
+  href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_Value_
+  commentId: Overload:CarinaStudio.Controls.TimeSpanTextBox.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.TimeSpanTextBox.Value
+  nameWithType: TimeSpanTextBox.Value
+- uid: CarinaStudio.Controls.TimeSpanTextBox.ValueProperty
+  name: ValueProperty
+  href: api/CarinaStudio.Controls.TimeSpanTextBox.html#CarinaStudio_Controls_TimeSpanTextBox_ValueProperty
+  commentId: F:CarinaStudio.Controls.TimeSpanTextBox.ValueProperty
+  fullName: CarinaStudio.Controls.TimeSpanTextBox.ValueProperty
+  nameWithType: TimeSpanTextBox.ValueProperty
 - uid: CarinaStudio.Controls.UriTextBox
   name: UriTextBox
   href: api/CarinaStudio.Controls.UriTextBox.html
@@ -10705,6 +11157,25 @@ references:
   commentId: F:CarinaStudio.Controls.UriTextBox.DefaultUriSchemeProperty
   fullName: CarinaStudio.Controls.UriTextBox.DefaultUriSchemeProperty
   nameWithType: UriTextBox.DefaultUriSchemeProperty
+- uid: CarinaStudio.Controls.UriTextBox.Object
+  name: Object
+  href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_Object
+  commentId: P:CarinaStudio.Controls.UriTextBox.Object
+  fullName: CarinaStudio.Controls.UriTextBox.Object
+  nameWithType: UriTextBox.Object
+- uid: CarinaStudio.Controls.UriTextBox.Object*
+  name: Object
+  href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_Object_
+  commentId: Overload:CarinaStudio.Controls.UriTextBox.Object
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UriTextBox.Object
+  nameWithType: UriTextBox.Object
+- uid: CarinaStudio.Controls.UriTextBox.ObjectProperty
+  name: ObjectProperty
+  href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_ObjectProperty
+  commentId: F:CarinaStudio.Controls.UriTextBox.ObjectProperty
+  fullName: CarinaStudio.Controls.UriTextBox.ObjectProperty
+  nameWithType: UriTextBox.ObjectProperty
 - uid: CarinaStudio.Controls.UriTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
@@ -10718,6 +11189,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.UriTextBox.OnPropertyChanged
   nameWithType: UriTextBox.OnPropertyChanged
+- uid: CarinaStudio.Controls.UriTextBox.RaiseObjectChanged(System.Nullable{Uri},System.Nullable{Uri})
+  name: RaiseObjectChanged(Nullable<Uri>, Nullable<Uri>)
+  href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_RaiseObjectChanged_System_Nullable_Uri__System_Nullable_Uri__
+  commentId: M:CarinaStudio.Controls.UriTextBox.RaiseObjectChanged(System.Nullable{Uri},System.Nullable{Uri})
+  name.vb: RaiseObjectChanged(Nullable(Of Uri), Nullable(Of Uri))
+  fullName: CarinaStudio.Controls.UriTextBox.RaiseObjectChanged(System.Nullable<Uri>, System.Nullable<Uri>)
+  fullName.vb: CarinaStudio.Controls.UriTextBox.RaiseObjectChanged(System.Nullable(Of Uri), System.Nullable(Of Uri))
+  nameWithType: UriTextBox.RaiseObjectChanged(Nullable<Uri>, Nullable<Uri>)
+  nameWithType.vb: UriTextBox.RaiseObjectChanged(Nullable(Of Uri), Nullable(Of Uri))
+- uid: CarinaStudio.Controls.UriTextBox.RaiseObjectChanged*
+  name: RaiseObjectChanged
+  href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_RaiseObjectChanged_
+  commentId: Overload:CarinaStudio.Controls.UriTextBox.RaiseObjectChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UriTextBox.RaiseObjectChanged
+  nameWithType: UriTextBox.RaiseObjectChanged
 - uid: CarinaStudio.Controls.UriTextBox.TryConvertToObject(System.String,System.Nullable{Uri}@)
   name: TryConvertToObject(String, out Nullable<Uri>)
   href: api/CarinaStudio.Controls.UriTextBox.html#CarinaStudio_Controls_UriTextBox_TryConvertToObject_System_String_System_Nullable_Uri___
@@ -10863,6 +11350,236 @@ references:
   fullName.vb: CarinaStudio.Controls.UserControl(Of TApp).Application
   nameWithType: UserControl<TApp>.Application
   nameWithType.vb: UserControl(Of TApp).Application
+- uid: CarinaStudio.Controls.ValueTextBox
+  name: ValueTextBox
+  href: api/CarinaStudio.Controls.ValueTextBox.html
+  commentId: T:CarinaStudio.Controls.ValueTextBox
+  fullName: CarinaStudio.Controls.ValueTextBox
+  nameWithType: ValueTextBox
+- uid: CarinaStudio.Controls.ValueTextBox.CheckValueEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name: CheckValueEquality(Nullable<Object>, Nullable<Object>)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Controls.ValueTextBox.CheckValueEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name.vb: CheckValueEquality(Nullable(Of Object), Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ValueTextBox.CheckValueEquality(System.Nullable<System.Object>, System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox.CheckValueEquality(System.Nullable(Of System.Object), System.Nullable(Of System.Object))
+  nameWithType: ValueTextBox.CheckValueEquality(Nullable<Object>, Nullable<Object>)
+  nameWithType.vb: ValueTextBox.CheckValueEquality(Nullable(Of Object), Nullable(Of Object))
+- uid: CarinaStudio.Controls.ValueTextBox.CheckValueEquality*
+  name: CheckValueEquality
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CheckValueEquality_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.CheckValueEquality
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.CheckValueEquality
+  nameWithType: ValueTextBox.CheckValueEquality
+- uid: CarinaStudio.Controls.ValueTextBox.CoerceValue(System.Object)
+  name: CoerceValue(Object)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValue_System_Object_
+  commentId: M:CarinaStudio.Controls.ValueTextBox.CoerceValue(System.Object)
+  fullName: CarinaStudio.Controls.ValueTextBox.CoerceValue(System.Object)
+  nameWithType: ValueTextBox.CoerceValue(Object)
+- uid: CarinaStudio.Controls.ValueTextBox.CoerceValue*
+  name: CoerceValue
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValue_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.CoerceValue
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.CoerceValue
+  nameWithType: ValueTextBox.CoerceValue
+- uid: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus
+  name: CoerceValueWhenLostFocus
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocus
+  commentId: P:CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus
+  fullName: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus
+  nameWithType: ValueTextBox.CoerceValueWhenLostFocus
+- uid: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus*
+  name: CoerceValueWhenLostFocus
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocus_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocus
+  nameWithType: ValueTextBox.CoerceValueWhenLostFocus
+- uid: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocusProperty
+  name: CoerceValueWhenLostFocusProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocusProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocusProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.CoerceValueWhenLostFocusProperty
+  nameWithType: ValueTextBox.CoerceValueWhenLostFocusProperty
+- uid: CarinaStudio.Controls.ValueTextBox.ConvertToText(System.Object)
+  name: ConvertToText(Object)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ConvertToText_System_Object_
+  commentId: M:CarinaStudio.Controls.ValueTextBox.ConvertToText(System.Object)
+  fullName: CarinaStudio.Controls.ValueTextBox.ConvertToText(System.Object)
+  nameWithType: ValueTextBox.ConvertToText(Object)
+- uid: CarinaStudio.Controls.ValueTextBox.ConvertToText*
+  name: ConvertToText
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ConvertToText_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.ConvertToText
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.ConvertToText
+  nameWithType: ValueTextBox.ConvertToText
+- uid: CarinaStudio.Controls.ValueTextBox.DefaultValue
+  name: DefaultValue
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_DefaultValue
+  commentId: P:CarinaStudio.Controls.ValueTextBox.DefaultValue
+  fullName: CarinaStudio.Controls.ValueTextBox.DefaultValue
+  nameWithType: ValueTextBox.DefaultValue
+- uid: CarinaStudio.Controls.ValueTextBox.DefaultValue*
+  name: DefaultValue
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_DefaultValue_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.DefaultValue
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.DefaultValue
+  nameWithType: ValueTextBox.DefaultValue
+- uid: CarinaStudio.Controls.ValueTextBox.DefaultValueProperty
+  name: DefaultValueProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_DefaultValueProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.DefaultValueProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.DefaultValueProperty
+  nameWithType: ValueTextBox.DefaultValueProperty
+- uid: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed
+  name: IsNullValueAllowed
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsNullValueAllowed
+  commentId: P:CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed
+  fullName: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed
+  nameWithType: ValueTextBox.IsNullValueAllowed
+- uid: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed*
+  name: IsNullValueAllowed
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsNullValueAllowed_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowed
+  nameWithType: ValueTextBox.IsNullValueAllowed
+- uid: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowedProperty
+  name: IsNullValueAllowedProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsNullValueAllowedProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.IsNullValueAllowedProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.IsNullValueAllowedProperty
+  nameWithType: ValueTextBox.IsNullValueAllowedProperty
+- uid: CarinaStudio.Controls.ValueTextBox.IsTextValid
+  name: IsTextValid
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsTextValid
+  commentId: P:CarinaStudio.Controls.ValueTextBox.IsTextValid
+  fullName: CarinaStudio.Controls.ValueTextBox.IsTextValid
+  nameWithType: ValueTextBox.IsTextValid
+- uid: CarinaStudio.Controls.ValueTextBox.IsTextValid*
+  name: IsTextValid
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsTextValid_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.IsTextValid
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.IsTextValid
+  nameWithType: ValueTextBox.IsTextValid
+- uid: CarinaStudio.Controls.ValueTextBox.IsTextValidProperty
+  name: IsTextValidProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsTextValidProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.IsTextValidProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.IsTextValidProperty
+  nameWithType: ValueTextBox.IsTextValidProperty
+- uid: CarinaStudio.Controls.ValueTextBox.OnLostFocus(RoutedEventArgs)
+  name: OnLostFocus(RoutedEventArgs)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_RoutedEventArgs_
+  commentId: M:CarinaStudio.Controls.ValueTextBox.OnLostFocus(RoutedEventArgs)
+  fullName: CarinaStudio.Controls.ValueTextBox.OnLostFocus(RoutedEventArgs)
+  nameWithType: ValueTextBox.OnLostFocus(RoutedEventArgs)
+- uid: CarinaStudio.Controls.ValueTextBox.OnLostFocus*
+  name: OnLostFocus
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.OnLostFocus
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.OnLostFocus
+  nameWithType: ValueTextBox.OnLostFocus
+- uid: CarinaStudio.Controls.ValueTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
+  commentId: M:CarinaStudio.Controls.ValueTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  fullName: CarinaStudio.Controls.ValueTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  nameWithType: ValueTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+- uid: CarinaStudio.Controls.ValueTextBox.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPropertyChanged_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.OnPropertyChanged
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.OnPropertyChanged
+  nameWithType: ValueTextBox.OnPropertyChanged
+- uid: CarinaStudio.Controls.ValueTextBox.OnTextInput(TextInputEventArgs)
+  name: OnTextInput(TextInputEventArgs)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnTextInput_TextInputEventArgs_
+  commentId: M:CarinaStudio.Controls.ValueTextBox.OnTextInput(TextInputEventArgs)
+  fullName: CarinaStudio.Controls.ValueTextBox.OnTextInput(TextInputEventArgs)
+  nameWithType: ValueTextBox.OnTextInput(TextInputEventArgs)
+- uid: CarinaStudio.Controls.ValueTextBox.OnTextInput*
+  name: OnTextInput
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnTextInput_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.OnTextInput
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.OnTextInput
+  nameWithType: ValueTextBox.OnTextInput
+- uid: CarinaStudio.Controls.ValueTextBox.TryConvertToValue(System.String,System.Nullable{System.Object}@)
+  name: TryConvertToValue(String, out Nullable<Object>)
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_TryConvertToValue_System_String_System_Nullable_System_Object___
+  commentId: M:CarinaStudio.Controls.ValueTextBox.TryConvertToValue(System.String,System.Nullable{System.Object}@)
+  name.vb: TryConvertToValue(String, ByRef Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ValueTextBox.TryConvertToValue(System.String, out System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox.TryConvertToValue(System.String, ByRef System.Nullable(Of System.Object))
+  nameWithType: ValueTextBox.TryConvertToValue(String, out Nullable<Object>)
+  nameWithType.vb: ValueTextBox.TryConvertToValue(String, ByRef Nullable(Of Object))
+- uid: CarinaStudio.Controls.ValueTextBox.TryConvertToValue*
+  name: TryConvertToValue
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_TryConvertToValue_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.TryConvertToValue
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.TryConvertToValue
+  nameWithType: ValueTextBox.TryConvertToValue
+- uid: CarinaStudio.Controls.ValueTextBox.Validate
+  name: Validate()
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Validate
+  commentId: M:CarinaStudio.Controls.ValueTextBox.Validate
+  fullName: CarinaStudio.Controls.ValueTextBox.Validate()
+  nameWithType: ValueTextBox.Validate()
+- uid: CarinaStudio.Controls.ValueTextBox.Validate*
+  name: Validate
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Validate_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.Validate
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.Validate
+  nameWithType: ValueTextBox.Validate
+- uid: CarinaStudio.Controls.ValueTextBox.ValidationDelay
+  name: ValidationDelay
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValidationDelay
+  commentId: P:CarinaStudio.Controls.ValueTextBox.ValidationDelay
+  fullName: CarinaStudio.Controls.ValueTextBox.ValidationDelay
+  nameWithType: ValueTextBox.ValidationDelay
+- uid: CarinaStudio.Controls.ValueTextBox.ValidationDelay*
+  name: ValidationDelay
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValidationDelay_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.ValidationDelay
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.ValidationDelay
+  nameWithType: ValueTextBox.ValidationDelay
+- uid: CarinaStudio.Controls.ValueTextBox.ValidationDelayProperty
+  name: ValidationDelayProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValidationDelayProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.ValidationDelayProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.ValidationDelayProperty
+  nameWithType: ValueTextBox.ValidationDelayProperty
+- uid: CarinaStudio.Controls.ValueTextBox.Value
+  name: Value
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Value
+  commentId: P:CarinaStudio.Controls.ValueTextBox.Value
+  fullName: CarinaStudio.Controls.ValueTextBox.Value
+  nameWithType: ValueTextBox.Value
+- uid: CarinaStudio.Controls.ValueTextBox.Value*
+  name: Value
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Value_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox.Value
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ValueTextBox.Value
+  nameWithType: ValueTextBox.Value
+- uid: CarinaStudio.Controls.ValueTextBox.ValueProperty
+  name: ValueProperty
+  href: api/CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValueProperty
+  commentId: F:CarinaStudio.Controls.ValueTextBox.ValueProperty
+  fullName: CarinaStudio.Controls.ValueTextBox.ValueProperty
+  nameWithType: ValueTextBox.ValueProperty
 - uid: CarinaStudio.Controls.ValueTextBox`1
   name: ValueTextBox<T>
   href: api/CarinaStudio.Controls.ValueTextBox-1.html
@@ -10898,6 +11615,15 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).CheckValueEquality(System.Nullable(Of T), System.Nullable(Of T))
   nameWithType: ValueTextBox<T>.CheckValueEquality(Nullable<T>, Nullable<T>)
   nameWithType.vb: ValueTextBox(Of T).CheckValueEquality(Nullable(Of T), Nullable(Of T))
+- uid: CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name: CheckValueEquality(Nullable<Object>, Nullable<Object>)
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality(System.Nullable{System.Object},System.Nullable{System.Object})
+  name.vb: CheckValueEquality(Nullable(Of Object), Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.CheckValueEquality(System.Nullable<System.Object>, System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).CheckValueEquality(System.Nullable(Of System.Object), System.Nullable(Of System.Object))
+  nameWithType: ValueTextBox<T>.CheckValueEquality(Nullable<Object>, Nullable<Object>)
+  nameWithType.vb: ValueTextBox(Of T).CheckValueEquality(Nullable(Of Object), Nullable(Of Object))
 - uid: CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality*
   name: CheckValueEquality
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_
@@ -10915,6 +11641,14 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).CoerceValue(T)
   nameWithType: ValueTextBox<T>.CoerceValue(T)
   nameWithType.vb: ValueTextBox(Of T).CoerceValue(T)
+- uid: CarinaStudio.Controls.ValueTextBox`1.CoerceValue(System.Object)
+  name: CoerceValue(Object)
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_
+  commentId: M:CarinaStudio.Controls.ValueTextBox`1.CoerceValue(System.Object)
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.CoerceValue(System.Object)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).CoerceValue(System.Object)
+  nameWithType: ValueTextBox<T>.CoerceValue(Object)
+  nameWithType.vb: ValueTextBox(Of T).CoerceValue(Object)
 - uid: CarinaStudio.Controls.ValueTextBox`1.CoerceValue*
   name: CoerceValue
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue_
@@ -10932,6 +11666,14 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ConvertToText(T)
   nameWithType: ValueTextBox<T>.ConvertToText(T)
   nameWithType.vb: ValueTextBox(Of T).ConvertToText(T)
+- uid: CarinaStudio.Controls.ValueTextBox`1.ConvertToText(System.Object)
+  name: ConvertToText(Object)
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_
+  commentId: M:CarinaStudio.Controls.ValueTextBox`1.ConvertToText(System.Object)
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.ConvertToText(System.Object)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ConvertToText(System.Object)
+  nameWithType: ValueTextBox<T>.ConvertToText(Object)
+  nameWithType.vb: ValueTextBox(Of T).ConvertToText(Object)
 - uid: CarinaStudio.Controls.ValueTextBox`1.ConvertToText*
   name: ConvertToText
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText_
@@ -10958,64 +11700,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).DefaultValue
   nameWithType: ValueTextBox<T>.DefaultValue
   nameWithType.vb: ValueTextBox(Of T).DefaultValue
-- uid: CarinaStudio.Controls.ValueTextBox`1.DefaultValueProperty
-  name: DefaultValueProperty
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_DefaultValueProperty
-  commentId: F:CarinaStudio.Controls.ValueTextBox`1.DefaultValueProperty
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.DefaultValueProperty
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).DefaultValueProperty
-  nameWithType: ValueTextBox<T>.DefaultValueProperty
-  nameWithType.vb: ValueTextBox(Of T).DefaultValueProperty
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowed
-  name: IsNullValueAllowed
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsNullValueAllowed
-  commentId: P:CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowed
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsNullValueAllowed
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsNullValueAllowed
-  nameWithType: ValueTextBox<T>.IsNullValueAllowed
-  nameWithType.vb: ValueTextBox(Of T).IsNullValueAllowed
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowed*
-  name: IsNullValueAllowed
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsNullValueAllowed_
-  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowed
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsNullValueAllowed
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsNullValueAllowed
-  nameWithType: ValueTextBox<T>.IsNullValueAllowed
-  nameWithType.vb: ValueTextBox(Of T).IsNullValueAllowed
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowedProperty
-  name: IsNullValueAllowedProperty
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsNullValueAllowedProperty
-  commentId: F:CarinaStudio.Controls.ValueTextBox`1.IsNullValueAllowedProperty
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsNullValueAllowedProperty
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsNullValueAllowedProperty
-  nameWithType: ValueTextBox<T>.IsNullValueAllowedProperty
-  nameWithType.vb: ValueTextBox(Of T).IsNullValueAllowedProperty
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsTextValid
-  name: IsTextValid
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsTextValid
-  commentId: P:CarinaStudio.Controls.ValueTextBox`1.IsTextValid
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsTextValid
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsTextValid
-  nameWithType: ValueTextBox<T>.IsTextValid
-  nameWithType.vb: ValueTextBox(Of T).IsTextValid
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsTextValid*
-  name: IsTextValid
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsTextValid_
-  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.IsTextValid
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsTextValid
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsTextValid
-  nameWithType: ValueTextBox<T>.IsTextValid
-  nameWithType.vb: ValueTextBox(Of T).IsTextValid
-- uid: CarinaStudio.Controls.ValueTextBox`1.IsTextValidProperty
-  name: IsTextValidProperty
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_IsTextValidProperty
-  commentId: F:CarinaStudio.Controls.ValueTextBox`1.IsTextValidProperty
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.IsTextValidProperty
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).IsTextValidProperty
-  nameWithType: ValueTextBox<T>.IsTextValidProperty
-  nameWithType.vb: ValueTextBox(Of T).IsTextValidProperty
 - uid: CarinaStudio.Controls.ValueTextBox`1.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_
@@ -11033,23 +11717,24 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).OnPropertyChanged
   nameWithType: ValueTextBox<T>.OnPropertyChanged
   nameWithType.vb: ValueTextBox(Of T).OnPropertyChanged
-- uid: CarinaStudio.Controls.ValueTextBox`1.OnTextInput(TextInputEventArgs)
-  name: OnTextInput(TextInputEventArgs)
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_OnTextInput_TextInputEventArgs_
-  commentId: M:CarinaStudio.Controls.ValueTextBox`1.OnTextInput(TextInputEventArgs)
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.OnTextInput(TextInputEventArgs)
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).OnTextInput(TextInputEventArgs)
-  nameWithType: ValueTextBox<T>.OnTextInput(TextInputEventArgs)
-  nameWithType.vb: ValueTextBox(Of T).OnTextInput(TextInputEventArgs)
-- uid: CarinaStudio.Controls.ValueTextBox`1.OnTextInput*
-  name: OnTextInput
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_OnTextInput_
-  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.OnTextInput
+- uid: CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged(System.Nullable{`0},System.Nullable{`0})
+  name: RaiseValueChanged(Nullable<T>, Nullable<T>)
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_System_Nullable__0__System_Nullable__0__
+  commentId: M:CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged(System.Nullable{`0},System.Nullable{`0})
+  name.vb: RaiseValueChanged(Nullable(Of T), Nullable(Of T))
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.RaiseValueChanged(System.Nullable<T>, System.Nullable<T>)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).RaiseValueChanged(System.Nullable(Of T), System.Nullable(Of T))
+  nameWithType: ValueTextBox<T>.RaiseValueChanged(Nullable<T>, Nullable<T>)
+  nameWithType.vb: ValueTextBox(Of T).RaiseValueChanged(Nullable(Of T), Nullable(Of T))
+- uid: CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_
+  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged
   isSpec: "True"
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.OnTextInput
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).OnTextInput
-  nameWithType: ValueTextBox<T>.OnTextInput
-  nameWithType.vb: ValueTextBox(Of T).OnTextInput
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.RaiseValueChanged
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).RaiseValueChanged
+  nameWithType: ValueTextBox<T>.RaiseValueChanged
+  nameWithType.vb: ValueTextBox(Of T).RaiseValueChanged
 - uid: CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue(System.String,System.Nullable{`0}@)
   name: TryConvertToValue(String, out Nullable<T>)
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable__0___
@@ -11059,6 +11744,15 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).TryConvertToValue(System.String, ByRef System.Nullable(Of T))
   nameWithType: ValueTextBox<T>.TryConvertToValue(String, out Nullable<T>)
   nameWithType.vb: ValueTextBox(Of T).TryConvertToValue(String, ByRef Nullable(Of T))
+- uid: CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue(System.String,System.Nullable{System.Object}@)
+  name: TryConvertToValue(String, out Nullable<Object>)
+  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___
+  commentId: M:CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue(System.String,System.Nullable{System.Object}@)
+  name.vb: TryConvertToValue(String, ByRef Nullable(Of Object))
+  fullName: CarinaStudio.Controls.ValueTextBox<T>.TryConvertToValue(System.String, out System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).TryConvertToValue(System.String, ByRef System.Nullable(Of System.Object))
+  nameWithType: ValueTextBox<T>.TryConvertToValue(String, out Nullable<Object>)
+  nameWithType.vb: ValueTextBox(Of T).TryConvertToValue(String, ByRef Nullable(Of Object))
 - uid: CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue*
   name: TryConvertToValue
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_
@@ -11068,48 +11762,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).TryConvertToValue
   nameWithType: ValueTextBox<T>.TryConvertToValue
   nameWithType.vb: ValueTextBox(Of T).TryConvertToValue
-- uid: CarinaStudio.Controls.ValueTextBox`1.Validate
-  name: Validate()
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Validate
-  commentId: M:CarinaStudio.Controls.ValueTextBox`1.Validate
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.Validate()
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).Validate()
-  nameWithType: ValueTextBox<T>.Validate()
-  nameWithType.vb: ValueTextBox(Of T).Validate()
-- uid: CarinaStudio.Controls.ValueTextBox`1.Validate*
-  name: Validate
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Validate_
-  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.Validate
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.Validate
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).Validate
-  nameWithType: ValueTextBox<T>.Validate
-  nameWithType.vb: ValueTextBox(Of T).Validate
-- uid: CarinaStudio.Controls.ValueTextBox`1.ValidationDelay
-  name: ValidationDelay
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ValidationDelay
-  commentId: P:CarinaStudio.Controls.ValueTextBox`1.ValidationDelay
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.ValidationDelay
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ValidationDelay
-  nameWithType: ValueTextBox<T>.ValidationDelay
-  nameWithType.vb: ValueTextBox(Of T).ValidationDelay
-- uid: CarinaStudio.Controls.ValueTextBox`1.ValidationDelay*
-  name: ValidationDelay
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ValidationDelay_
-  commentId: Overload:CarinaStudio.Controls.ValueTextBox`1.ValidationDelay
-  isSpec: "True"
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.ValidationDelay
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ValidationDelay
-  nameWithType: ValueTextBox<T>.ValidationDelay
-  nameWithType.vb: ValueTextBox(Of T).ValidationDelay
-- uid: CarinaStudio.Controls.ValueTextBox`1.ValidationDelayProperty
-  name: ValidationDelayProperty
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ValidationDelayProperty
-  commentId: F:CarinaStudio.Controls.ValueTextBox`1.ValidationDelayProperty
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.ValidationDelayProperty
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ValidationDelayProperty
-  nameWithType: ValueTextBox<T>.ValidationDelayProperty
-  nameWithType.vb: ValueTextBox(Of T).ValidationDelayProperty
 - uid: CarinaStudio.Controls.ValueTextBox`1.Value
   name: Value
   href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value
@@ -11127,14 +11779,6 @@ references:
   fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).Value
   nameWithType: ValueTextBox<T>.Value
   nameWithType.vb: ValueTextBox(Of T).Value
-- uid: CarinaStudio.Controls.ValueTextBox`1.ValueProperty
-  name: ValueProperty
-  href: api/CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ValueProperty
-  commentId: F:CarinaStudio.Controls.ValueTextBox`1.ValueProperty
-  fullName: CarinaStudio.Controls.ValueTextBox<T>.ValueProperty
-  fullName.vb: CarinaStudio.Controls.ValueTextBox(Of T).ValueProperty
-  nameWithType: ValueTextBox<T>.ValueProperty
-  nameWithType.vb: ValueTextBox(Of T).ValueProperty
 - uid: CarinaStudio.Controls.Window
   name: Window
   href: api/CarinaStudio.Controls.Window.html
@@ -11262,6 +11906,38 @@ references:
   commentId: T:CarinaStudio.Controls.WindowExtensions
   fullName: CarinaStudio.Controls.WindowExtensions
   nameWithType: WindowExtensions
+- uid: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner(Avalonia.Controls.Window)
+  name: MoveToCenterOfOwner(Avalonia.Controls.Window)
+  href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_MoveToCenterOfOwner_Avalonia_Controls_Window_
+  commentId: M:CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner(Avalonia.Controls.Window)
+  fullName: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner(Avalonia.Controls.Window)
+  nameWithType: WindowExtensions.MoveToCenterOfOwner(Avalonia.Controls.Window)
+- uid: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner*
+  name: MoveToCenterOfOwner
+  href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_MoveToCenterOfOwner_
+  commentId: Overload:CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfOwner
+  nameWithType: WindowExtensions.MoveToCenterOfOwner
+- uid: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window)
+  name: MoveToCenterOfScreen(Avalonia.Controls.Window)
+  href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_MoveToCenterOfScreen_Avalonia_Controls_Window_
+  commentId: M:CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window)
+  fullName: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window)
+  nameWithType: WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window)
+- uid: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window,Avalonia.Platform.Screen)
+  name: MoveToCenterOfScreen(Avalonia.Controls.Window, Avalonia.Platform.Screen)
+  href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_MoveToCenterOfScreen_Avalonia_Controls_Window_Avalonia_Platform_Screen_
+  commentId: M:CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window,Avalonia.Platform.Screen)
+  fullName: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window, Avalonia.Platform.Screen)
+  nameWithType: WindowExtensions.MoveToCenterOfScreen(Avalonia.Controls.Window, Avalonia.Platform.Screen)
+- uid: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen*
+  name: MoveToCenterOfScreen
+  href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_MoveToCenterOfScreen_
+  commentId: Overload:CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.WindowExtensions.MoveToCenterOfScreen
+  nameWithType: WindowExtensions.MoveToCenterOfScreen
 - uid: CarinaStudio.Controls.WindowExtensions.ShowDialog*
   name: ShowDialog
   href: api/CarinaStudio.Controls.WindowExtensions.html#CarinaStudio_Controls_WindowExtensions_ShowDialog_
@@ -12033,6 +12709,54 @@ references:
   fullName.vb: CarinaStudio.EventHandler(Of TSender, TArgs)
   nameWithType: EventHandler<TSender, TArgs>
   nameWithType.vb: EventHandler(Of TSender, TArgs)
+- uid: CarinaStudio.FixedObservableValue
+  name: FixedObservableValue
+  href: api/CarinaStudio.FixedObservableValue.html
+  commentId: T:CarinaStudio.FixedObservableValue
+  fullName: CarinaStudio.FixedObservableValue
+  nameWithType: FixedObservableValue
+- uid: CarinaStudio.FixedObservableValue.False
+  name: "False"
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_False
+  commentId: F:CarinaStudio.FixedObservableValue.False
+  fullName: CarinaStudio.FixedObservableValue.False
+  nameWithType: FixedObservableValue.False
+- uid: CarinaStudio.FixedObservableValue.Null
+  name: "Null"
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_Null
+  commentId: F:CarinaStudio.FixedObservableValue.Null
+  fullName: CarinaStudio.FixedObservableValue.Null
+  nameWithType: FixedObservableValue.Null
+- uid: CarinaStudio.FixedObservableValue.True
+  name: "True"
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_True
+  commentId: F:CarinaStudio.FixedObservableValue.True
+  fullName: CarinaStudio.FixedObservableValue.True
+  nameWithType: FixedObservableValue.True
+- uid: CarinaStudio.FixedObservableValue.ZeroInDouble
+  name: ZeroInDouble
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_ZeroInDouble
+  commentId: F:CarinaStudio.FixedObservableValue.ZeroInDouble
+  fullName: CarinaStudio.FixedObservableValue.ZeroInDouble
+  nameWithType: FixedObservableValue.ZeroInDouble
+- uid: CarinaStudio.FixedObservableValue.ZeroInInt32
+  name: ZeroInInt32
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_ZeroInInt32
+  commentId: F:CarinaStudio.FixedObservableValue.ZeroInInt32
+  fullName: CarinaStudio.FixedObservableValue.ZeroInInt32
+  nameWithType: FixedObservableValue.ZeroInInt32
+- uid: CarinaStudio.FixedObservableValue.ZeroInInt64
+  name: ZeroInInt64
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_ZeroInInt64
+  commentId: F:CarinaStudio.FixedObservableValue.ZeroInInt64
+  fullName: CarinaStudio.FixedObservableValue.ZeroInInt64
+  nameWithType: FixedObservableValue.ZeroInInt64
+- uid: CarinaStudio.FixedObservableValue.ZeroInSingle
+  name: ZeroInSingle
+  href: api/CarinaStudio.FixedObservableValue.html#CarinaStudio_FixedObservableValue_ZeroInSingle
+  commentId: F:CarinaStudio.FixedObservableValue.ZeroInSingle
+  fullName: CarinaStudio.FixedObservableValue.ZeroInSingle
+  nameWithType: FixedObservableValue.ZeroInSingle
 - uid: CarinaStudio.FixedObservableValue`1
   name: FixedObservableValue<T>
   href: api/CarinaStudio.FixedObservableValue-1.html
@@ -12059,22 +12783,6 @@ references:
   fullName.vb: CarinaStudio.FixedObservableValue(Of T).FixedObservableValue
   nameWithType: FixedObservableValue<T>.FixedObservableValue
   nameWithType.vb: FixedObservableValue(Of T).FixedObservableValue
-- uid: CarinaStudio.FixedObservableValue`1.False
-  name: "False"
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_False
-  commentId: F:CarinaStudio.FixedObservableValue`1.False
-  fullName: CarinaStudio.FixedObservableValue<T>.False
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).False
-  nameWithType: FixedObservableValue<T>.False
-  nameWithType.vb: FixedObservableValue(Of T).False
-- uid: CarinaStudio.FixedObservableValue`1.Null
-  name: "Null"
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_Null
-  commentId: F:CarinaStudio.FixedObservableValue`1.Null
-  fullName: CarinaStudio.FixedObservableValue<T>.Null
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).Null
-  nameWithType: FixedObservableValue<T>.Null
-  nameWithType.vb: FixedObservableValue(Of T).Null
 - uid: CarinaStudio.FixedObservableValue`1.Subscribe(IObserver{`0})
   name: Subscribe(IObserver<T>)
   href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_Subscribe_IObserver__0__
@@ -12093,14 +12801,6 @@ references:
   fullName.vb: CarinaStudio.FixedObservableValue(Of T).Subscribe
   nameWithType: FixedObservableValue<T>.Subscribe
   nameWithType.vb: FixedObservableValue(Of T).Subscribe
-- uid: CarinaStudio.FixedObservableValue`1.True
-  name: "True"
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_True
-  commentId: F:CarinaStudio.FixedObservableValue`1.True
-  fullName: CarinaStudio.FixedObservableValue<T>.True
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).True
-  nameWithType: FixedObservableValue<T>.True
-  nameWithType.vb: FixedObservableValue(Of T).True
 - uid: CarinaStudio.FixedObservableValue`1.Value
   name: Value
   href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_Value
@@ -12118,38 +12818,6 @@ references:
   fullName.vb: CarinaStudio.FixedObservableValue(Of T).Value
   nameWithType: FixedObservableValue<T>.Value
   nameWithType.vb: FixedObservableValue(Of T).Value
-- uid: CarinaStudio.FixedObservableValue`1.ZeroInDouble
-  name: ZeroInDouble
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_ZeroInDouble
-  commentId: F:CarinaStudio.FixedObservableValue`1.ZeroInDouble
-  fullName: CarinaStudio.FixedObservableValue<T>.ZeroInDouble
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).ZeroInDouble
-  nameWithType: FixedObservableValue<T>.ZeroInDouble
-  nameWithType.vb: FixedObservableValue(Of T).ZeroInDouble
-- uid: CarinaStudio.FixedObservableValue`1.ZeroInInt32
-  name: ZeroInInt32
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_ZeroInInt32
-  commentId: F:CarinaStudio.FixedObservableValue`1.ZeroInInt32
-  fullName: CarinaStudio.FixedObservableValue<T>.ZeroInInt32
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).ZeroInInt32
-  nameWithType: FixedObservableValue<T>.ZeroInInt32
-  nameWithType.vb: FixedObservableValue(Of T).ZeroInInt32
-- uid: CarinaStudio.FixedObservableValue`1.ZeroInInt64
-  name: ZeroInInt64
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_ZeroInInt64
-  commentId: F:CarinaStudio.FixedObservableValue`1.ZeroInInt64
-  fullName: CarinaStudio.FixedObservableValue<T>.ZeroInInt64
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).ZeroInInt64
-  nameWithType: FixedObservableValue<T>.ZeroInInt64
-  nameWithType.vb: FixedObservableValue(Of T).ZeroInInt64
-- uid: CarinaStudio.FixedObservableValue`1.ZeroInSingle
-  name: ZeroInSingle
-  href: api/CarinaStudio.FixedObservableValue-1.html#CarinaStudio_FixedObservableValue_1_ZeroInSingle
-  commentId: F:CarinaStudio.FixedObservableValue`1.ZeroInSingle
-  fullName: CarinaStudio.FixedObservableValue<T>.ZeroInSingle
-  fullName.vb: CarinaStudio.FixedObservableValue(Of T).ZeroInSingle
-  nameWithType: FixedObservableValue<T>.ZeroInSingle
-  nameWithType.vb: FixedObservableValue(Of T).ZeroInSingle
 - uid: CarinaStudio.FormattedString
   name: FormattedString
   href: api/CarinaStudio.FormattedString.html
@@ -12525,19 +13193,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ForwardedObservableBoolean.Detach
   nameWithType: ForwardedObservableBoolean.Detach
-- uid: CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
-  name: Equals(Boolean)
-  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Equals_System_Boolean_
-  commentId: M:CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
-  fullName: CarinaStudio.ForwardedObservableBoolean.Equals(System.Boolean)
-  nameWithType: ForwardedObservableBoolean.Equals(Boolean)
-- uid: CarinaStudio.ForwardedObservableBoolean.Equals*
-  name: Equals
-  href: api/CarinaStudio.ForwardedObservableBoolean.html#CarinaStudio_ForwardedObservableBoolean_Equals_
-  commentId: Overload:CarinaStudio.ForwardedObservableBoolean.Equals
-  isSpec: "True"
-  fullName: CarinaStudio.ForwardedObservableBoolean.Equals
-  nameWithType: ForwardedObservableBoolean.Equals
 - uid: CarinaStudio.Global
   name: Global
   href: api/CarinaStudio.Global.html
@@ -13119,12 +13774,50 @@ references:
   commentId: N:CarinaStudio.IO
   fullName: CarinaStudio.IO
   nameWithType: CarinaStudio.IO
+- uid: CarinaStudio.IO.Directory
+  name: Directory
+  href: api/CarinaStudio.IO.Directory.html
+  commentId: T:CarinaStudio.IO.Directory
+  fullName: CarinaStudio.IO.Directory
+  nameWithType: Directory
+- uid: CarinaStudio.IO.Directory.ExistsAsync(System.Nullable{System.String},CancellationToken)
+  name: ExistsAsync(Nullable<String>, CancellationToken)
+  href: api/CarinaStudio.IO.Directory.html#CarinaStudio_IO_Directory_ExistsAsync_System_Nullable_System_String__CancellationToken_
+  commentId: M:CarinaStudio.IO.Directory.ExistsAsync(System.Nullable{System.String},CancellationToken)
+  name.vb: ExistsAsync(Nullable(Of String), CancellationToken)
+  fullName: CarinaStudio.IO.Directory.ExistsAsync(System.Nullable<System.String>, CancellationToken)
+  fullName.vb: CarinaStudio.IO.Directory.ExistsAsync(System.Nullable(Of System.String), CancellationToken)
+  nameWithType: Directory.ExistsAsync(Nullable<String>, CancellationToken)
+  nameWithType.vb: Directory.ExistsAsync(Nullable(Of String), CancellationToken)
+- uid: CarinaStudio.IO.Directory.ExistsAsync*
+  name: ExistsAsync
+  href: api/CarinaStudio.IO.Directory.html#CarinaStudio_IO_Directory_ExistsAsync_
+  commentId: Overload:CarinaStudio.IO.Directory.ExistsAsync
+  isSpec: "True"
+  fullName: CarinaStudio.IO.Directory.ExistsAsync
+  nameWithType: Directory.ExistsAsync
 - uid: CarinaStudio.IO.File
   name: File
   href: api/CarinaStudio.IO.File.html
   commentId: T:CarinaStudio.IO.File
   fullName: CarinaStudio.IO.File
   nameWithType: File
+- uid: CarinaStudio.IO.File.ExistsAsync(System.Nullable{System.String},CancellationToken)
+  name: ExistsAsync(Nullable<String>, CancellationToken)
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_ExistsAsync_System_Nullable_System_String__CancellationToken_
+  commentId: M:CarinaStudio.IO.File.ExistsAsync(System.Nullable{System.String},CancellationToken)
+  name.vb: ExistsAsync(Nullable(Of String), CancellationToken)
+  fullName: CarinaStudio.IO.File.ExistsAsync(System.Nullable<System.String>, CancellationToken)
+  fullName.vb: CarinaStudio.IO.File.ExistsAsync(System.Nullable(Of System.String), CancellationToken)
+  nameWithType: File.ExistsAsync(Nullable<String>, CancellationToken)
+  nameWithType.vb: File.ExistsAsync(Nullable(Of String), CancellationToken)
+- uid: CarinaStudio.IO.File.ExistsAsync*
+  name: ExistsAsync
+  href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_ExistsAsync_
+  commentId: Overload:CarinaStudio.IO.File.ExistsAsync
+  isSpec: "True"
+  fullName: CarinaStudio.IO.File.ExistsAsync
+  nameWithType: File.ExistsAsync
 - uid: CarinaStudio.IO.File.TryOpen(System.String,FileMode,FileAccess,System.Int32,System.Nullable{FileStream}@)
   name: TryOpen(String, FileMode, FileAccess, Int32, out Nullable<FileStream>)
   href: api/CarinaStudio.IO.File.html#CarinaStudio_IO_File_TryOpen_System_String_FileMode_FileAccess_System_Int32_System_Nullable_FileStream___
@@ -13528,6 +14221,62 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.IO.PathEqualityComparer.GetHashCode
   nameWithType: PathEqualityComparer.GetHashCode
+- uid: CarinaStudio.IO.PathExtensions
+  name: PathExtensions
+  href: api/CarinaStudio.IO.PathExtensions.html
+  commentId: T:CarinaStudio.IO.PathExtensions
+  fullName: CarinaStudio.IO.PathExtensions
+  nameWithType: PathExtensions
+- uid: CarinaStudio.IO.PathExtensions.IsValidFileName(ReadOnlySpan{System.Char})
+  name: IsValidFileName(ReadOnlySpan<Char>)
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFileName_ReadOnlySpan_System_Char__
+  commentId: M:CarinaStudio.IO.PathExtensions.IsValidFileName(ReadOnlySpan{System.Char})
+  name.vb: IsValidFileName(ReadOnlySpan(Of Char))
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFileName(ReadOnlySpan<System.Char>)
+  fullName.vb: CarinaStudio.IO.PathExtensions.IsValidFileName(ReadOnlySpan(Of System.Char))
+  nameWithType: PathExtensions.IsValidFileName(ReadOnlySpan<Char>)
+  nameWithType.vb: PathExtensions.IsValidFileName(ReadOnlySpan(Of Char))
+- uid: CarinaStudio.IO.PathExtensions.IsValidFileName(System.Nullable{System.String})
+  name: IsValidFileName(Nullable<String>)
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFileName_System_Nullable_System_String__
+  commentId: M:CarinaStudio.IO.PathExtensions.IsValidFileName(System.Nullable{System.String})
+  name.vb: IsValidFileName(Nullable(Of String))
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFileName(System.Nullable<System.String>)
+  fullName.vb: CarinaStudio.IO.PathExtensions.IsValidFileName(System.Nullable(Of System.String))
+  nameWithType: PathExtensions.IsValidFileName(Nullable<String>)
+  nameWithType.vb: PathExtensions.IsValidFileName(Nullable(Of String))
+- uid: CarinaStudio.IO.PathExtensions.IsValidFileName*
+  name: IsValidFileName
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFileName_
+  commentId: Overload:CarinaStudio.IO.PathExtensions.IsValidFileName
+  isSpec: "True"
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFileName
+  nameWithType: PathExtensions.IsValidFileName
+- uid: CarinaStudio.IO.PathExtensions.IsValidFilePath(ReadOnlySpan{System.Char})
+  name: IsValidFilePath(ReadOnlySpan<Char>)
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFilePath_ReadOnlySpan_System_Char__
+  commentId: M:CarinaStudio.IO.PathExtensions.IsValidFilePath(ReadOnlySpan{System.Char})
+  name.vb: IsValidFilePath(ReadOnlySpan(Of Char))
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFilePath(ReadOnlySpan<System.Char>)
+  fullName.vb: CarinaStudio.IO.PathExtensions.IsValidFilePath(ReadOnlySpan(Of System.Char))
+  nameWithType: PathExtensions.IsValidFilePath(ReadOnlySpan<Char>)
+  nameWithType.vb: PathExtensions.IsValidFilePath(ReadOnlySpan(Of Char))
+- uid: CarinaStudio.IO.PathExtensions.IsValidFilePath(System.Nullable{System.String})
+  name: IsValidFilePath(Nullable<String>)
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFilePath_System_Nullable_System_String__
+  commentId: M:CarinaStudio.IO.PathExtensions.IsValidFilePath(System.Nullable{System.String})
+  name.vb: IsValidFilePath(Nullable(Of String))
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFilePath(System.Nullable<System.String>)
+  fullName.vb: CarinaStudio.IO.PathExtensions.IsValidFilePath(System.Nullable(Of System.String))
+  nameWithType: PathExtensions.IsValidFilePath(Nullable<String>)
+  nameWithType.vb: PathExtensions.IsValidFilePath(Nullable(Of String))
+- uid: CarinaStudio.IO.PathExtensions.IsValidFilePath*
+  name: IsValidFilePath
+  href: api/CarinaStudio.IO.PathExtensions.html#CarinaStudio_IO_PathExtensions_IsValidFilePath_
+  commentId: Overload:CarinaStudio.IO.PathExtensions.IsValidFilePath
+  isSpec: "True"
+  fullName: CarinaStudio.IO.PathExtensions.IsValidFilePath
+  nameWithType: PathExtensions.IsValidFilePath
 - uid: CarinaStudio.IO.StreamAccess
   name: StreamAccess
   href: api/CarinaStudio.IO.StreamAccess.html
@@ -13967,6 +14716,18 @@ references:
   commentId: T:CarinaStudio.LinuxDistribution
   fullName: CarinaStudio.LinuxDistribution
   nameWithType: LinuxDistribution
+- uid: CarinaStudio.LinuxDistribution.Alpine
+  name: Alpine
+  href: api/CarinaStudio.LinuxDistribution.html#CarinaStudio_LinuxDistribution_Alpine
+  commentId: F:CarinaStudio.LinuxDistribution.Alpine
+  fullName: CarinaStudio.LinuxDistribution.Alpine
+  nameWithType: LinuxDistribution.Alpine
+- uid: CarinaStudio.LinuxDistribution.CentOS
+  name: CentOS
+  href: api/CarinaStudio.LinuxDistribution.html#CarinaStudio_LinuxDistribution_CentOS
+  commentId: F:CarinaStudio.LinuxDistribution.CentOS
+  fullName: CarinaStudio.LinuxDistribution.CentOS
+  nameWithType: LinuxDistribution.CentOS
 - uid: CarinaStudio.LinuxDistribution.Debian
   name: Debian
   href: api/CarinaStudio.LinuxDistribution.html#CarinaStudio_LinuxDistribution_Debian
@@ -13979,6 +14740,12 @@ references:
   commentId: F:CarinaStudio.LinuxDistribution.Fedora
   fullName: CarinaStudio.LinuxDistribution.Fedora
   nameWithType: LinuxDistribution.Fedora
+- uid: CarinaStudio.LinuxDistribution.RedHat
+  name: RedHat
+  href: api/CarinaStudio.LinuxDistribution.html#CarinaStudio_LinuxDistribution_RedHat
+  commentId: F:CarinaStudio.LinuxDistribution.RedHat
+  fullName: CarinaStudio.LinuxDistribution.RedHat
+  nameWithType: LinuxDistribution.RedHat
 - uid: CarinaStudio.LinuxDistribution.Ubuntu
   name: Ubuntu
   href: api/CarinaStudio.LinuxDistribution.html#CarinaStudio_LinuxDistribution_Ubuntu
@@ -18272,6 +19039,67 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.CoreFoundation.CFData.Length
   nameWithType: CFData.Length
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary
+  name: CFDictionary
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html
+  commentId: T:CarinaStudio.MacOS.CoreFoundation.CFDictionary
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary
+  nameWithType: CFDictionary
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  name: ContainsKey(CFObject)
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_ContainsKey_CarinaStudio_MacOS_CoreFoundation_CFObject_
+  commentId: M:CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  nameWithType: CFDictionary.ContainsKey(CFObject)
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey*
+  name: ContainsKey
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_ContainsKey_
+  commentId: Overload:CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsKey
+  nameWithType: CFDictionary.ContainsKey
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  name: ContainsValue(CFObject)
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_ContainsValue_CarinaStudio_MacOS_CoreFoundation_CFObject_
+  commentId: M:CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue(CarinaStudio.MacOS.CoreFoundation.CFObject)
+  nameWithType: CFDictionary.ContainsValue(CFObject)
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue*
+  name: ContainsValue
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_ContainsValue_
+  commentId: Overload:CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.ContainsValue
+  nameWithType: CFDictionary.ContainsValue
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count
+  name: Count
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_Count
+  commentId: P:CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count
+  nameWithType: CFDictionary.Count
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count*
+  name: Count
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_Count_
+  commentId: Overload:CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.Count
+  nameWithType: CFDictionary.Count
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue(CarinaStudio.MacOS.CoreFoundation.CFString,CarinaStudio.MacOS.CoreFoundation.CFObject@)
+  name: TryGetValue(CFString, out CFObject)
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_TryGetValue_CarinaStudio_MacOS_CoreFoundation_CFString_CarinaStudio_MacOS_CoreFoundation_CFObject__
+  commentId: M:CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue(CarinaStudio.MacOS.CoreFoundation.CFString,CarinaStudio.MacOS.CoreFoundation.CFObject@)
+  name.vb: TryGetValue(CFString, ByRef CFObject)
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue(CarinaStudio.MacOS.CoreFoundation.CFString, out CarinaStudio.MacOS.CoreFoundation.CFObject)
+  fullName.vb: CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue(CarinaStudio.MacOS.CoreFoundation.CFString, ByRef CarinaStudio.MacOS.CoreFoundation.CFObject)
+  nameWithType: CFDictionary.TryGetValue(CFString, out CFObject)
+  nameWithType.vb: CFDictionary.TryGetValue(CFString, ByRef CFObject)
+- uid: CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue*
+  name: TryGetValue
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFDictionary.html#CarinaStudio_MacOS_CoreFoundation_CFDictionary_TryGetValue_
+  commentId: Overload:CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFDictionary.TryGetValue
+  nameWithType: CFDictionary.TryGetValue
 - uid: CarinaStudio.MacOS.CoreFoundation.CFMutableData
   name: CFMutableData
   href: api/CarinaStudio.MacOS.CoreFoundation.CFMutableData.html
@@ -20046,6 +20874,96 @@ references:
   commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.RGBCIF10
   fullName: CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.RGBCIF10
   nameWithType: CGImagePixelFormatInfo.RGBCIF10
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties
+  name: CGImageProperties
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html
+  commentId: T:CarinaStudio.MacOS.CoreGraphics.CGImageProperties
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties
+  nameWithType: CGImageProperties
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModel
+  name: ColorModel
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ColorModel
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModel
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModel
+  nameWithType: CGImageProperties.ColorModel
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelCMYK
+  name: ColorModelCMYK
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ColorModelCMYK
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelCMYK
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelCMYK
+  nameWithType: CGImageProperties.ColorModelCMYK
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelGray
+  name: ColorModelGray
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ColorModelGray
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelGray
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelGray
+  nameWithType: CGImageProperties.ColorModelGray
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelLab
+  name: ColorModelLab
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ColorModelLab
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelLab
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelLab
+  nameWithType: CGImageProperties.ColorModelLab
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelRGB
+  name: ColorModelRGB
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ColorModelRGB
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelRGB
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ColorModelRGB
+  nameWithType: CGImageProperties.ColorModelRGB
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Depth
+  name: Depth
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_Depth
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Depth
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Depth
+  nameWithType: CGImageProperties.Depth
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.HasAlpha
+  name: HasAlpha
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_HasAlpha
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.HasAlpha
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.HasAlpha
+  nameWithType: CGImageProperties.HasAlpha
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ImageCount
+  name: ImageCount
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_ImageCount
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ImageCount
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.ImageCount
+  nameWithType: CGImageProperties.ImageCount
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.NamedColorSpace
+  name: NamedColorSpace
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_NamedColorSpace
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.NamedColorSpace
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.NamedColorSpace
+  nameWithType: CGImageProperties.NamedColorSpace
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Orientation
+  name: Orientation
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_Orientation
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Orientation
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.Orientation
+  nameWithType: CGImageProperties.Orientation
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelFormat
+  name: PixelFormat
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_PixelFormat
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelFormat
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelFormat
+  nameWithType: CGImageProperties.PixelFormat
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelHeight
+  name: PixelHeight
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_PixelHeight
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelHeight
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelHeight
+  nameWithType: CGImageProperties.PixelHeight
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelWidth
+  name: PixelWidth
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_PixelWidth
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelWidth
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PixelWidth
+  nameWithType: CGImageProperties.PixelWidth
+- uid: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PrimaryImage
+  name: PrimaryImage
+  href: api/CarinaStudio.MacOS.CoreGraphics.CGImageProperties.html#CarinaStudio_MacOS_CoreGraphics_CGImageProperties_PrimaryImage
+  commentId: F:CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PrimaryImage
+  fullName: CarinaStudio.MacOS.CoreGraphics.CGImageProperties.PrimaryImage
+  nameWithType: CGImageProperties.PrimaryImage
 - uid: CarinaStudio.MacOS.CoreGraphics.CGPoint
   name: CGPoint
   href: api/CarinaStudio.MacOS.CoreGraphics.CGPoint.html
@@ -20429,6 +21347,19 @@ references:
   commentId: T:CarinaStudio.MacOS.ImageIO.CGImageSource
   fullName: CarinaStudio.MacOS.ImageIO.CGImageSource
   nameWithType: CGImageSource
+- uid: CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex(System.Int32,CarinaStudio.MacOS.CoreFoundation.CFDictionary)
+  name: CopyPropertiesAtIndex(Int32, CFDictionary)
+  href: api/CarinaStudio.MacOS.ImageIO.CGImageSource.html#CarinaStudio_MacOS_ImageIO_CGImageSource_CopyPropertiesAtIndex_System_Int32_CarinaStudio_MacOS_CoreFoundation_CFDictionary_
+  commentId: M:CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex(System.Int32,CarinaStudio.MacOS.CoreFoundation.CFDictionary)
+  fullName: CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex(System.Int32, CarinaStudio.MacOS.CoreFoundation.CFDictionary)
+  nameWithType: CGImageSource.CopyPropertiesAtIndex(Int32, CFDictionary)
+- uid: CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex*
+  name: CopyPropertiesAtIndex
+  href: api/CarinaStudio.MacOS.ImageIO.CGImageSource.html#CarinaStudio_MacOS_ImageIO_CGImageSource_CopyPropertiesAtIndex_
+  commentId: Overload:CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ImageIO.CGImageSource.CopyPropertiesAtIndex
+  nameWithType: CGImageSource.CopyPropertiesAtIndex
 - uid: CarinaStudio.MacOS.ImageIO.CGImageSource.CreateImage
   name: CreateImage()
   href: api/CarinaStudio.MacOS.ImageIO.CGImageSource.html#CarinaStudio_MacOS_ImageIO_CGImageSource_CreateImage
@@ -22665,19 +23596,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableBoolean.MutableObservableBoolean
   nameWithType: MutableObservableBoolean.MutableObservableBoolean
-- uid: CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
-  name: Equals(Boolean)
-  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Equals_System_Boolean_
-  commentId: M:CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
-  fullName: CarinaStudio.MutableObservableBoolean.Equals(System.Boolean)
-  nameWithType: MutableObservableBoolean.Equals(Boolean)
-- uid: CarinaStudio.MutableObservableBoolean.Equals*
-  name: Equals
-  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_Equals_
-  commentId: Overload:CarinaStudio.MutableObservableBoolean.Equals
+- uid: CarinaStudio.MutableObservableBoolean.CheckValuesEquality(System.Boolean,System.Boolean)
+  name: CheckValuesEquality(Boolean, Boolean)
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_CheckValuesEquality_System_Boolean_System_Boolean_
+  commentId: M:CarinaStudio.MutableObservableBoolean.CheckValuesEquality(System.Boolean,System.Boolean)
+  fullName: CarinaStudio.MutableObservableBoolean.CheckValuesEquality(System.Boolean, System.Boolean)
+  nameWithType: MutableObservableBoolean.CheckValuesEquality(Boolean, Boolean)
+- uid: CarinaStudio.MutableObservableBoolean.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.MutableObservableBoolean.CheckValuesEquality
   isSpec: "True"
-  fullName: CarinaStudio.MutableObservableBoolean.Equals
-  nameWithType: MutableObservableBoolean.Equals
+  fullName: CarinaStudio.MutableObservableBoolean.CheckValuesEquality
+  nameWithType: MutableObservableBoolean.CheckValuesEquality
 - uid: CarinaStudio.MutableObservableBoolean.op_False(CarinaStudio.MutableObservableBoolean)
   name: False(MutableObservableBoolean)
   href: api/CarinaStudio.MutableObservableBoolean.html#CarinaStudio_MutableObservableBoolean_op_False_CarinaStudio_MutableObservableBoolean_
@@ -22717,6 +23648,64 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableBoolean.Toggle
   nameWithType: MutableObservableBoolean.Toggle
+- uid: CarinaStudio.MutableObservableDouble
+  name: MutableObservableDouble
+  href: api/CarinaStudio.MutableObservableDouble.html
+  commentId: T:CarinaStudio.MutableObservableDouble
+  fullName: CarinaStudio.MutableObservableDouble
+  nameWithType: MutableObservableDouble
+- uid: CarinaStudio.MutableObservableDouble.#ctor(System.Double)
+  name: MutableObservableDouble(Double)
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble__ctor_System_Double_
+  commentId: M:CarinaStudio.MutableObservableDouble.#ctor(System.Double)
+  fullName: CarinaStudio.MutableObservableDouble.MutableObservableDouble(System.Double)
+  nameWithType: MutableObservableDouble.MutableObservableDouble(Double)
+- uid: CarinaStudio.MutableObservableDouble.#ctor*
+  name: MutableObservableDouble
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableDouble.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableDouble.MutableObservableDouble
+  nameWithType: MutableObservableDouble.MutableObservableDouble
+- uid: CarinaStudio.MutableObservableDouble.CheckValuesEquality(System.Double,System.Double)
+  name: CheckValuesEquality(Double, Double)
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_CheckValuesEquality_System_Double_System_Double_
+  commentId: M:CarinaStudio.MutableObservableDouble.CheckValuesEquality(System.Double,System.Double)
+  fullName: CarinaStudio.MutableObservableDouble.CheckValuesEquality(System.Double, System.Double)
+  nameWithType: MutableObservableDouble.CheckValuesEquality(Double, Double)
+- uid: CarinaStudio.MutableObservableDouble.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.MutableObservableDouble.CheckValuesEquality
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableDouble.CheckValuesEquality
+  nameWithType: MutableObservableDouble.CheckValuesEquality
+- uid: CarinaStudio.MutableObservableDouble.Decrease(System.Double)
+  name: Decrease(Double)
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_Decrease_System_Double_
+  commentId: M:CarinaStudio.MutableObservableDouble.Decrease(System.Double)
+  fullName: CarinaStudio.MutableObservableDouble.Decrease(System.Double)
+  nameWithType: MutableObservableDouble.Decrease(Double)
+- uid: CarinaStudio.MutableObservableDouble.Decrease*
+  name: Decrease
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_Decrease_
+  commentId: Overload:CarinaStudio.MutableObservableDouble.Decrease
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableDouble.Decrease
+  nameWithType: MutableObservableDouble.Decrease
+- uid: CarinaStudio.MutableObservableDouble.Increase(System.Double)
+  name: Increase(Double)
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_Increase_System_Double_
+  commentId: M:CarinaStudio.MutableObservableDouble.Increase(System.Double)
+  fullName: CarinaStudio.MutableObservableDouble.Increase(System.Double)
+  nameWithType: MutableObservableDouble.Increase(Double)
+- uid: CarinaStudio.MutableObservableDouble.Increase*
+  name: Increase
+  href: api/CarinaStudio.MutableObservableDouble.html#CarinaStudio_MutableObservableDouble_Increase_
+  commentId: Overload:CarinaStudio.MutableObservableDouble.Increase
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableDouble.Increase
+  nameWithType: MutableObservableDouble.Increase
 - uid: CarinaStudio.MutableObservableInt32
   name: MutableObservableInt32
   href: api/CarinaStudio.MutableObservableInt32.html
@@ -22736,6 +23725,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableInt32.MutableObservableInt32
   nameWithType: MutableObservableInt32.MutableObservableInt32
+- uid: CarinaStudio.MutableObservableInt32.CheckValuesEquality(System.Int32,System.Int32)
+  name: CheckValuesEquality(Int32, Int32)
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_CheckValuesEquality_System_Int32_System_Int32_
+  commentId: M:CarinaStudio.MutableObservableInt32.CheckValuesEquality(System.Int32,System.Int32)
+  fullName: CarinaStudio.MutableObservableInt32.CheckValuesEquality(System.Int32, System.Int32)
+  nameWithType: MutableObservableInt32.CheckValuesEquality(Int32, Int32)
+- uid: CarinaStudio.MutableObservableInt32.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.MutableObservableInt32.CheckValuesEquality
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt32.CheckValuesEquality
+  nameWithType: MutableObservableInt32.CheckValuesEquality
 - uid: CarinaStudio.MutableObservableInt32.Decrease(System.Int32)
   name: Decrease(Int32)
   href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Decrease_System_Int32_
@@ -22749,19 +23751,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableInt32.Decrease
   nameWithType: MutableObservableInt32.Decrease
-- uid: CarinaStudio.MutableObservableInt32.Equals(System.Int32)
-  name: Equals(Int32)
-  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Equals_System_Int32_
-  commentId: M:CarinaStudio.MutableObservableInt32.Equals(System.Int32)
-  fullName: CarinaStudio.MutableObservableInt32.Equals(System.Int32)
-  nameWithType: MutableObservableInt32.Equals(Int32)
-- uid: CarinaStudio.MutableObservableInt32.Equals*
-  name: Equals
-  href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Equals_
-  commentId: Overload:CarinaStudio.MutableObservableInt32.Equals
-  isSpec: "True"
-  fullName: CarinaStudio.MutableObservableInt32.Equals
-  nameWithType: MutableObservableInt32.Equals
 - uid: CarinaStudio.MutableObservableInt32.Increase(System.Int32)
   name: Increase(Int32)
   href: api/CarinaStudio.MutableObservableInt32.html#CarinaStudio_MutableObservableInt32_Increase_System_Int32_
@@ -22820,6 +23809,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableInt64.MutableObservableInt64
   nameWithType: MutableObservableInt64.MutableObservableInt64
+- uid: CarinaStudio.MutableObservableInt64.CheckValuesEquality(System.Int64,System.Int64)
+  name: CheckValuesEquality(Int64, Int64)
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_CheckValuesEquality_System_Int64_System_Int64_
+  commentId: M:CarinaStudio.MutableObservableInt64.CheckValuesEquality(System.Int64,System.Int64)
+  fullName: CarinaStudio.MutableObservableInt64.CheckValuesEquality(System.Int64, System.Int64)
+  nameWithType: MutableObservableInt64.CheckValuesEquality(Int64, Int64)
+- uid: CarinaStudio.MutableObservableInt64.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.MutableObservableInt64.CheckValuesEquality
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableInt64.CheckValuesEquality
+  nameWithType: MutableObservableInt64.CheckValuesEquality
 - uid: CarinaStudio.MutableObservableInt64.Decrease(System.Int64)
   name: Decrease(Int64)
   href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Decrease_System_Int64_
@@ -22833,19 +23835,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableInt64.Decrease
   nameWithType: MutableObservableInt64.Decrease
-- uid: CarinaStudio.MutableObservableInt64.Equals(System.Int64)
-  name: Equals(Int64)
-  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Equals_System_Int64_
-  commentId: M:CarinaStudio.MutableObservableInt64.Equals(System.Int64)
-  fullName: CarinaStudio.MutableObservableInt64.Equals(System.Int64)
-  nameWithType: MutableObservableInt64.Equals(Int64)
-- uid: CarinaStudio.MutableObservableInt64.Equals*
-  name: Equals
-  href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Equals_
-  commentId: Overload:CarinaStudio.MutableObservableInt64.Equals
-  isSpec: "True"
-  fullName: CarinaStudio.MutableObservableInt64.Equals
-  nameWithType: MutableObservableInt64.Equals
 - uid: CarinaStudio.MutableObservableInt64.Increase(System.Int64)
   name: Increase(Int64)
   href: api/CarinaStudio.MutableObservableInt64.html#CarinaStudio_MutableObservableInt64_Increase_System_Int64_
@@ -22885,6 +23874,64 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableInt64.Increment
   nameWithType: MutableObservableInt64.Increment
+- uid: CarinaStudio.MutableObservableSingle
+  name: MutableObservableSingle
+  href: api/CarinaStudio.MutableObservableSingle.html
+  commentId: T:CarinaStudio.MutableObservableSingle
+  fullName: CarinaStudio.MutableObservableSingle
+  nameWithType: MutableObservableSingle
+- uid: CarinaStudio.MutableObservableSingle.#ctor(System.Single)
+  name: MutableObservableSingle(Single)
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle__ctor_System_Single_
+  commentId: M:CarinaStudio.MutableObservableSingle.#ctor(System.Single)
+  fullName: CarinaStudio.MutableObservableSingle.MutableObservableSingle(System.Single)
+  nameWithType: MutableObservableSingle.MutableObservableSingle(Single)
+- uid: CarinaStudio.MutableObservableSingle.#ctor*
+  name: MutableObservableSingle
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle__ctor_
+  commentId: Overload:CarinaStudio.MutableObservableSingle.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableSingle.MutableObservableSingle
+  nameWithType: MutableObservableSingle.MutableObservableSingle
+- uid: CarinaStudio.MutableObservableSingle.CheckValuesEquality(System.Single,System.Single)
+  name: CheckValuesEquality(Single, Single)
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_CheckValuesEquality_System_Single_System_Single_
+  commentId: M:CarinaStudio.MutableObservableSingle.CheckValuesEquality(System.Single,System.Single)
+  fullName: CarinaStudio.MutableObservableSingle.CheckValuesEquality(System.Single, System.Single)
+  nameWithType: MutableObservableSingle.CheckValuesEquality(Single, Single)
+- uid: CarinaStudio.MutableObservableSingle.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.MutableObservableSingle.CheckValuesEquality
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableSingle.CheckValuesEquality
+  nameWithType: MutableObservableSingle.CheckValuesEquality
+- uid: CarinaStudio.MutableObservableSingle.Decrease(System.Single)
+  name: Decrease(Single)
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_Decrease_System_Single_
+  commentId: M:CarinaStudio.MutableObservableSingle.Decrease(System.Single)
+  fullName: CarinaStudio.MutableObservableSingle.Decrease(System.Single)
+  nameWithType: MutableObservableSingle.Decrease(Single)
+- uid: CarinaStudio.MutableObservableSingle.Decrease*
+  name: Decrease
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_Decrease_
+  commentId: Overload:CarinaStudio.MutableObservableSingle.Decrease
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableSingle.Decrease
+  nameWithType: MutableObservableSingle.Decrease
+- uid: CarinaStudio.MutableObservableSingle.Increase(System.Single)
+  name: Increase(Single)
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_Increase_System_Single_
+  commentId: M:CarinaStudio.MutableObservableSingle.Increase(System.Single)
+  fullName: CarinaStudio.MutableObservableSingle.Increase(System.Single)
+  nameWithType: MutableObservableSingle.Increase(Single)
+- uid: CarinaStudio.MutableObservableSingle.Increase*
+  name: Increase
+  href: api/CarinaStudio.MutableObservableSingle.html#CarinaStudio_MutableObservableSingle_Increase_
+  commentId: Overload:CarinaStudio.MutableObservableSingle.Increase
+  isSpec: "True"
+  fullName: CarinaStudio.MutableObservableSingle.Increase
+  nameWithType: MutableObservableSingle.Increase
 - uid: CarinaStudio.MutableObservableString
   name: MutableObservableString
   href: api/CarinaStudio.MutableObservableString.html
@@ -22907,22 +23954,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MutableObservableString.MutableObservableString
   nameWithType: MutableObservableString.MutableObservableString
-- uid: CarinaStudio.MutableObservableString.Equals(System.Nullable{System.String})
-  name: Equals(Nullable<String>)
-  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Equals_System_Nullable_System_String__
-  commentId: M:CarinaStudio.MutableObservableString.Equals(System.Nullable{System.String})
-  name.vb: Equals(Nullable(Of String))
-  fullName: CarinaStudio.MutableObservableString.Equals(System.Nullable<System.String>)
-  fullName.vb: CarinaStudio.MutableObservableString.Equals(System.Nullable(Of System.String))
-  nameWithType: MutableObservableString.Equals(Nullable<String>)
-  nameWithType.vb: MutableObservableString.Equals(Nullable(Of String))
-- uid: CarinaStudio.MutableObservableString.Equals*
-  name: Equals
-  href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_Equals_
-  commentId: Overload:CarinaStudio.MutableObservableString.Equals
-  isSpec: "True"
-  fullName: CarinaStudio.MutableObservableString.Equals
-  nameWithType: MutableObservableString.Equals
 - uid: CarinaStudio.MutableObservableString.IsNullOrEmpty
   name: IsNullOrEmpty
   href: api/CarinaStudio.MutableObservableString.html#CarinaStudio_MutableObservableString_IsNullOrEmpty
@@ -23094,6 +24125,12 @@ references:
   commentId: T:CarinaStudio.ObjectExtensions
   fullName: CarinaStudio.ObjectExtensions
   nameWithType: ObjectExtensions
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,Action)
+  name: AddWeakEventHandler(Object, String, Action)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,Action)
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object, System.String, Action)
+  nameWithType: ObjectExtensions.AddWeakEventHandler(Object, String, Action)
 - uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,CarinaStudio.EventHandler)
   name: AddWeakEventHandler(Object, String, EventHandler)
   href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_
@@ -23107,6 +24144,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler
   nameWithType: ObjectExtensions.AddWeakEventHandler
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,Action{``0})
+  name: AddWeakEventHandler<TArg>(Object, String, Action<TArg>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,Action{``0})
+  name.vb: AddWeakEventHandler(Of TArg)(Object, String, Action(Of TArg))
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler<TArg>(System.Object, System.String, Action<TArg>)
+  fullName.vb: CarinaStudio.ObjectExtensions.AddWeakEventHandler(Of TArg)(System.Object, System.String, Action(Of TArg))
+  nameWithType: ObjectExtensions.AddWeakEventHandler<TArg>(Object, String, Action<TArg>)
+  nameWithType.vb: ObjectExtensions.AddWeakEventHandler(Of TArg)(Object, String, Action(Of TArg))
 - uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,CarinaStudio.EventHandler{``0})
   name: AddWeakEventHandler<TArgs>(Object, String, EventHandler<TArgs>)
   href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__
@@ -23116,6 +24162,24 @@ references:
   fullName.vb: CarinaStudio.ObjectExtensions.AddWeakEventHandler(Of TArgs)(System.Object, System.String, CarinaStudio.EventHandler(Of TArgs))
   nameWithType: ObjectExtensions.AddWeakEventHandler<TArgs>(Object, String, EventHandler<TArgs>)
   nameWithType.vb: ObjectExtensions.AddWeakEventHandler(Of TArgs)(Object, String, EventHandler(Of TArgs))
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler``2(System.Object,System.String,Action{``0,``1})
+  name: AddWeakEventHandler<TArg1, TArg2>(Object, String, Action<TArg1, TArg2>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler``2(System.Object,System.String,Action{``0,``1})
+  name.vb: AddWeakEventHandler(Of TArg1, TArg2)(Object, String, Action(Of TArg1, TArg2))
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler<TArg1, TArg2>(System.Object, System.String, Action<TArg1, TArg2>)
+  fullName.vb: CarinaStudio.ObjectExtensions.AddWeakEventHandler(Of TArg1, TArg2)(System.Object, System.String, Action(Of TArg1, TArg2))
+  nameWithType: ObjectExtensions.AddWeakEventHandler<TArg1, TArg2>(Object, String, Action<TArg1, TArg2>)
+  nameWithType.vb: ObjectExtensions.AddWeakEventHandler(Of TArg1, TArg2)(Object, String, Action(Of TArg1, TArg2))
+- uid: CarinaStudio.ObjectExtensions.AddWeakEventHandler``3(System.Object,System.String,Action{``0,``1,``2})
+  name: AddWeakEventHandler<TArg1, TArg2, TArg3>(Object, String, Action<TArg1, TArg2, TArg3>)
+  href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__
+  commentId: M:CarinaStudio.ObjectExtensions.AddWeakEventHandler``3(System.Object,System.String,Action{``0,``1,``2})
+  name.vb: AddWeakEventHandler(Of TArg1, TArg2, TArg3)(Object, String, Action(Of TArg1, TArg2, TArg3))
+  fullName: CarinaStudio.ObjectExtensions.AddWeakEventHandler<TArg1, TArg2, TArg3>(System.Object, System.String, Action<TArg1, TArg2, TArg3>)
+  fullName.vb: CarinaStudio.ObjectExtensions.AddWeakEventHandler(Of TArg1, TArg2, TArg3)(System.Object, System.String, Action(Of TArg1, TArg2, TArg3))
+  nameWithType: ObjectExtensions.AddWeakEventHandler<TArg1, TArg2, TArg3>(Object, String, Action<TArg1, TArg2, TArg3>)
+  nameWithType.vb: ObjectExtensions.AddWeakEventHandler(Of TArg1, TArg2, TArg3)(Object, String, Action(Of TArg1, TArg2, TArg3))
 - uid: CarinaStudio.ObjectExtensions.Also*
   name: Also
   href: api/CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also_
@@ -23502,49 +24566,23 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).ObservableValue
   nameWithType: ObservableValue<T>.ObservableValue
   nameWithType.vb: ObservableValue(Of T).ObservableValue
-- uid: CarinaStudio.ObservableValue`1.Equals(`0)
-  name: Equals(T)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals__0_
-  commentId: M:CarinaStudio.ObservableValue`1.Equals(`0)
-  fullName: CarinaStudio.ObservableValue<T>.Equals(T)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals(T)
-  nameWithType: ObservableValue<T>.Equals(T)
-  nameWithType.vb: ObservableValue(Of T).Equals(T)
-- uid: CarinaStudio.ObservableValue`1.Equals(System.Nullable{System.Object})
-  name: Equals(Nullable<Object>)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_System_Nullable_System_Object__
-  commentId: M:CarinaStudio.ObservableValue`1.Equals(System.Nullable{System.Object})
-  name.vb: Equals(Nullable(Of Object))
-  fullName: CarinaStudio.ObservableValue<T>.Equals(System.Nullable<System.Object>)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals(System.Nullable(Of System.Object))
-  nameWithType: ObservableValue<T>.Equals(Nullable<Object>)
-  nameWithType.vb: ObservableValue(Of T).Equals(Nullable(Of Object))
-- uid: CarinaStudio.ObservableValue`1.Equals*
-  name: Equals
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Equals_
-  commentId: Overload:CarinaStudio.ObservableValue`1.Equals
+- uid: CarinaStudio.ObservableValue`1.CheckValuesEquality(`0,`0)
+  name: CheckValuesEquality(T, T)
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_CheckValuesEquality__0__0_
+  commentId: M:CarinaStudio.ObservableValue`1.CheckValuesEquality(`0,`0)
+  fullName: CarinaStudio.ObservableValue<T>.CheckValuesEquality(T, T)
+  fullName.vb: CarinaStudio.ObservableValue(Of T).CheckValuesEquality(T, T)
+  nameWithType: ObservableValue<T>.CheckValuesEquality(T, T)
+  nameWithType.vb: ObservableValue(Of T).CheckValuesEquality(T, T)
+- uid: CarinaStudio.ObservableValue`1.CheckValuesEquality*
+  name: CheckValuesEquality
+  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_CheckValuesEquality_
+  commentId: Overload:CarinaStudio.ObservableValue`1.CheckValuesEquality
   isSpec: "True"
-  fullName: CarinaStudio.ObservableValue<T>.Equals
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equals
-  nameWithType: ObservableValue<T>.Equals
-  nameWithType.vb: ObservableValue(Of T).Equals
-- uid: CarinaStudio.ObservableValue`1.GetHashCode
-  name: GetHashCode()
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode
-  commentId: M:CarinaStudio.ObservableValue`1.GetHashCode
-  fullName: CarinaStudio.ObservableValue<T>.GetHashCode()
-  fullName.vb: CarinaStudio.ObservableValue(Of T).GetHashCode()
-  nameWithType: ObservableValue<T>.GetHashCode()
-  nameWithType.vb: ObservableValue(Of T).GetHashCode()
-- uid: CarinaStudio.ObservableValue`1.GetHashCode*
-  name: GetHashCode
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_GetHashCode_
-  commentId: Overload:CarinaStudio.ObservableValue`1.GetHashCode
-  isSpec: "True"
-  fullName: CarinaStudio.ObservableValue<T>.GetHashCode
-  fullName.vb: CarinaStudio.ObservableValue(Of T).GetHashCode
-  nameWithType: ObservableValue<T>.GetHashCode
-  nameWithType.vb: ObservableValue(Of T).GetHashCode
+  fullName: CarinaStudio.ObservableValue<T>.CheckValuesEquality
+  fullName.vb: CarinaStudio.ObservableValue(Of T).CheckValuesEquality
+  nameWithType: ObservableValue<T>.CheckValuesEquality
+  nameWithType.vb: ObservableValue(Of T).CheckValuesEquality
 - uid: CarinaStudio.ObservableValue`1.HasObservers
   name: HasObservers
   href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_HasObservers
@@ -23596,33 +24634,6 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).IsNull
   nameWithType: ObservableValue<T>.IsNull
   nameWithType.vb: ObservableValue(Of T).IsNull
-- uid: CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},`0)
-  name: Equality(ObservableValue<T>, T)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_CarinaStudio_ObservableValue__0___0_
-  commentId: M:CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},`0)
-  name.vb: Equality(ObservableValue(Of T), T)
-  fullName: CarinaStudio.ObservableValue<T>.Equality(CarinaStudio.ObservableValue<T>, T)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality(CarinaStudio.ObservableValue(Of T), T)
-  nameWithType: ObservableValue<T>.Equality(ObservableValue<T>, T)
-  nameWithType.vb: ObservableValue(Of T).Equality(ObservableValue(Of T), T)
-- uid: CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
-  name: Equality(ObservableValue<T>, ObservableValue<T>)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_CarinaStudio_ObservableValue__0__CarinaStudio_ObservableValue__0__
-  commentId: M:CarinaStudio.ObservableValue`1.op_Equality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
-  name.vb: Equality(ObservableValue(Of T), ObservableValue(Of T))
-  fullName: CarinaStudio.ObservableValue<T>.Equality(CarinaStudio.ObservableValue<T>, CarinaStudio.ObservableValue<T>)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality(CarinaStudio.ObservableValue(Of T), CarinaStudio.ObservableValue(Of T))
-  nameWithType: ObservableValue<T>.Equality(ObservableValue<T>, ObservableValue<T>)
-  nameWithType.vb: ObservableValue(Of T).Equality(ObservableValue(Of T), ObservableValue(Of T))
-- uid: CarinaStudio.ObservableValue`1.op_Equality*
-  name: Equality
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Equality_
-  commentId: Overload:CarinaStudio.ObservableValue`1.op_Equality
-  isSpec: "True"
-  fullName: CarinaStudio.ObservableValue<T>.Equality
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Equality
-  nameWithType: ObservableValue<T>.Equality
-  nameWithType.vb: ObservableValue(Of T).Equality
 - uid: CarinaStudio.ObservableValue`1.op_Explicit(CarinaStudio.ObservableValue{`0})~`0
   name: Explicit(ObservableValue<T> to T)
   href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Explicit_CarinaStudio_ObservableValue__0____0
@@ -23642,33 +24653,6 @@ references:
   fullName.vb: CarinaStudio.ObservableValue(Of T).Narrowing
   nameWithType: ObservableValue<T>.Explicit
   nameWithType.vb: ObservableValue(Of T).Narrowing
-- uid: CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},`0)
-  name: Inequality(ObservableValue<T>, T)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_CarinaStudio_ObservableValue__0___0_
-  commentId: M:CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},`0)
-  name.vb: Inequality(ObservableValue(Of T), T)
-  fullName: CarinaStudio.ObservableValue<T>.Inequality(CarinaStudio.ObservableValue<T>, T)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality(CarinaStudio.ObservableValue(Of T), T)
-  nameWithType: ObservableValue<T>.Inequality(ObservableValue<T>, T)
-  nameWithType.vb: ObservableValue(Of T).Inequality(ObservableValue(Of T), T)
-- uid: CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
-  name: Inequality(ObservableValue<T>, ObservableValue<T>)
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_CarinaStudio_ObservableValue__0__CarinaStudio_ObservableValue__0__
-  commentId: M:CarinaStudio.ObservableValue`1.op_Inequality(CarinaStudio.ObservableValue{`0},CarinaStudio.ObservableValue{`0})
-  name.vb: Inequality(ObservableValue(Of T), ObservableValue(Of T))
-  fullName: CarinaStudio.ObservableValue<T>.Inequality(CarinaStudio.ObservableValue<T>, CarinaStudio.ObservableValue<T>)
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality(CarinaStudio.ObservableValue(Of T), CarinaStudio.ObservableValue(Of T))
-  nameWithType: ObservableValue<T>.Inequality(ObservableValue<T>, ObservableValue<T>)
-  nameWithType.vb: ObservableValue(Of T).Inequality(ObservableValue(Of T), ObservableValue(Of T))
-- uid: CarinaStudio.ObservableValue`1.op_Inequality*
-  name: Inequality
-  href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_op_Inequality_
-  commentId: Overload:CarinaStudio.ObservableValue`1.op_Inequality
-  isSpec: "True"
-  fullName: CarinaStudio.ObservableValue<T>.Inequality
-  fullName.vb: CarinaStudio.ObservableValue(Of T).Inequality
-  nameWithType: ObservableValue<T>.Inequality
-  nameWithType.vb: ObservableValue(Of T).Inequality
 - uid: CarinaStudio.ObservableValue`1.Subscribe(IObserver{`0})
   name: Subscribe(IObserver<T>)
   href: api/CarinaStudio.ObservableValue-1.html#CarinaStudio_ObservableValue_1_Subscribe_IObserver__0__
@@ -26279,15 +27263,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName
   nameWithType: VisualExtensions.FindDescendantOfTypeAndName
-- uid: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(IVisual,System.String,System.Boolean)
-  name: FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
-  href: api/CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_IVisual_System_String_System_Boolean_
-  commentId: M:CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(IVisual,System.String,System.Boolean)
-  name.vb: FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
-  fullName: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName<T>(IVisual, System.String, System.Boolean)
-  fullName.vb: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName(Of T)(IVisual, System.String, System.Boolean)
-  nameWithType: VisualExtensions.FindDescendantOfTypeAndName<T>(IVisual, String, Boolean)
-  nameWithType.vb: VisualExtensions.FindDescendantOfTypeAndName(Of T)(IVisual, String, Boolean)
+- uid: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Visual,System.String,System.Boolean)
+  name: FindDescendantOfTypeAndName<T>(Visual, String, Boolean)
+  href: api/CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Visual_System_String_System_Boolean_
+  commentId: M:CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName``1(Visual,System.String,System.Boolean)
+  name.vb: FindDescendantOfTypeAndName(Of T)(Visual, String, Boolean)
+  fullName: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName<T>(Visual, System.String, System.Boolean)
+  fullName.vb: CarinaStudio.VisualTree.VisualExtensions.FindDescendantOfTypeAndName(Of T)(Visual, System.String, System.Boolean)
+  nameWithType: VisualExtensions.FindDescendantOfTypeAndName<T>(Visual, String, Boolean)
+  nameWithType.vb: VisualExtensions.FindDescendantOfTypeAndName(Of T)(Visual, String, Boolean)
 - uid: CarinaStudio.Windows.Input
   name: CarinaStudio.Windows.Input
   href: api/CarinaStudio.Windows.Input.html
@@ -26354,6 +27338,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Windows.Input.BaseCommand.Execute
   nameWithType: BaseCommand.Execute
+- uid: CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute
+  name: InvalidateCanExecute()
+  href: api/CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_InvalidateCanExecute
+  commentId: M:CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute
+  fullName: CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute()
+  nameWithType: BaseCommand.InvalidateCanExecute()
+- uid: CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute*
+  name: InvalidateCanExecute
+  href: api/CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_InvalidateCanExecute_
+  commentId: Overload:CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.BaseCommand.InvalidateCanExecute
+  nameWithType: BaseCommand.InvalidateCanExecute
 - uid: CarinaStudio.Windows.Input.Command
   name: Command
   href: api/CarinaStudio.Windows.Input.Command.html
@@ -26369,6 +27366,15 @@ references:
   fullName.vb: CarinaStudio.Windows.Input.Command.Command(Action, System.Nullable(Of IObservable(Of System.Boolean)))
   nameWithType: Command.Command(Action, Nullable<IObservable<Boolean>>)
   nameWithType.vb: Command.Command(Action, Nullable(Of IObservable(Of Boolean)))
+- uid: CarinaStudio.Windows.Input.Command.#ctor(Func{Task},System.Nullable{IObservable{System.Boolean}})
+  name: Command(Func<Task>, Nullable<IObservable<Boolean>>)
+  href: api/CarinaStudio.Windows.Input.Command.html#CarinaStudio_Windows_Input_Command__ctor_Func_Task__System_Nullable_IObservable_System_Boolean___
+  commentId: M:CarinaStudio.Windows.Input.Command.#ctor(Func{Task},System.Nullable{IObservable{System.Boolean}})
+  name.vb: Command(Func(Of Task), Nullable(Of IObservable(Of Boolean)))
+  fullName: CarinaStudio.Windows.Input.Command.Command(Func<Task>, System.Nullable<IObservable<System.Boolean>>)
+  fullName.vb: CarinaStudio.Windows.Input.Command.Command(Func(Of Task), System.Nullable(Of IObservable(Of System.Boolean)))
+  nameWithType: Command.Command(Func<Task>, Nullable<IObservable<Boolean>>)
+  nameWithType.vb: Command.Command(Func(Of Task), Nullable(Of IObservable(Of Boolean)))
 - uid: CarinaStudio.Windows.Input.Command.#ctor*
   name: Command
   href: api/CarinaStudio.Windows.Input.Command.html#CarinaStudio_Windows_Input_Command__ctor_
@@ -26376,6 +27382,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Windows.Input.Command.Command
   nameWithType: Command.Command
+- uid: CarinaStudio.Windows.Input.Command.CanExecute(System.Nullable{System.Object})
+  name: CanExecute(Nullable<Object>)
+  href: api/CarinaStudio.Windows.Input.Command.html#CarinaStudio_Windows_Input_Command_CanExecute_System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Windows.Input.Command.CanExecute(System.Nullable{System.Object})
+  name.vb: CanExecute(Nullable(Of Object))
+  fullName: CarinaStudio.Windows.Input.Command.CanExecute(System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Windows.Input.Command.CanExecute(System.Nullable(Of System.Object))
+  nameWithType: Command.CanExecute(Nullable<Object>)
+  nameWithType.vb: Command.CanExecute(Nullable(Of Object))
+- uid: CarinaStudio.Windows.Input.Command.CanExecute*
+  name: CanExecute
+  href: api/CarinaStudio.Windows.Input.Command.html#CarinaStudio_Windows_Input_Command_CanExecute_
+  commentId: Overload:CarinaStudio.Windows.Input.Command.CanExecute
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.Command.CanExecute
+  nameWithType: Command.CanExecute
 - uid: CarinaStudio.Windows.Input.Command.Execute(System.Nullable{System.Object})
   name: Execute(Nullable<Object>)
   href: api/CarinaStudio.Windows.Input.Command.html#CarinaStudio_Windows_Input_Command_Execute_System_Nullable_System_Object__
@@ -26410,6 +27432,15 @@ references:
   fullName.vb: CarinaStudio.Windows.Input.Command(Of TParam).Command(Action(Of TParam), System.Nullable(Of IObservable(Of System.Boolean)))
   nameWithType: Command<TParam>.Command(Action<TParam>, Nullable<IObservable<Boolean>>)
   nameWithType.vb: Command(Of TParam).Command(Action(Of TParam), Nullable(Of IObservable(Of Boolean)))
+- uid: CarinaStudio.Windows.Input.Command`1.#ctor(Func{`0,Task},System.Nullable{IObservable{System.Boolean}})
+  name: Command(Func<TParam, Task>, Nullable<IObservable<Boolean>>)
+  href: api/CarinaStudio.Windows.Input.Command-1.html#CarinaStudio_Windows_Input_Command_1__ctor_Func__0_Task__System_Nullable_IObservable_System_Boolean___
+  commentId: M:CarinaStudio.Windows.Input.Command`1.#ctor(Func{`0,Task},System.Nullable{IObservable{System.Boolean}})
+  name.vb: Command(Func(Of TParam, Task), Nullable(Of IObservable(Of Boolean)))
+  fullName: CarinaStudio.Windows.Input.Command<TParam>.Command(Func<TParam, Task>, System.Nullable<IObservable<System.Boolean>>)
+  fullName.vb: CarinaStudio.Windows.Input.Command(Of TParam).Command(Func(Of TParam, Task), System.Nullable(Of IObservable(Of System.Boolean)))
+  nameWithType: Command<TParam>.Command(Func<TParam, Task>, Nullable<IObservable<Boolean>>)
+  nameWithType.vb: Command(Of TParam).Command(Func(Of TParam, Task), Nullable(Of IObservable(Of Boolean)))
 - uid: CarinaStudio.Windows.Input.Command`1.#ctor*
   name: Command
   href: api/CarinaStudio.Windows.Input.Command-1.html#CarinaStudio_Windows_Input_Command_1__ctor_
@@ -26419,6 +27450,24 @@ references:
   fullName.vb: CarinaStudio.Windows.Input.Command(Of TParam).Command
   nameWithType: Command<TParam>.Command
   nameWithType.vb: Command(Of TParam).Command
+- uid: CarinaStudio.Windows.Input.Command`1.CanExecute(System.Nullable{System.Object})
+  name: CanExecute(Nullable<Object>)
+  href: api/CarinaStudio.Windows.Input.Command-1.html#CarinaStudio_Windows_Input_Command_1_CanExecute_System_Nullable_System_Object__
+  commentId: M:CarinaStudio.Windows.Input.Command`1.CanExecute(System.Nullable{System.Object})
+  name.vb: CanExecute(Nullable(Of Object))
+  fullName: CarinaStudio.Windows.Input.Command<TParam>.CanExecute(System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.Windows.Input.Command(Of TParam).CanExecute(System.Nullable(Of System.Object))
+  nameWithType: Command<TParam>.CanExecute(Nullable<Object>)
+  nameWithType.vb: Command(Of TParam).CanExecute(Nullable(Of Object))
+- uid: CarinaStudio.Windows.Input.Command`1.CanExecute*
+  name: CanExecute
+  href: api/CarinaStudio.Windows.Input.Command-1.html#CarinaStudio_Windows_Input_Command_1_CanExecute_
+  commentId: Overload:CarinaStudio.Windows.Input.Command`1.CanExecute
+  isSpec: "True"
+  fullName: CarinaStudio.Windows.Input.Command<TParam>.CanExecute
+  fullName.vb: CarinaStudio.Windows.Input.Command(Of TParam).CanExecute
+  nameWithType: Command<TParam>.CanExecute
+  nameWithType.vb: Command(Of TParam).CanExecute
 - uid: CarinaStudio.Windows.Input.Command`1.Execute(System.Nullable{System.Object})
   name: Execute(Nullable<Object>)
   href: api/CarinaStudio.Windows.Input.Command-1.html#CarinaStudio_Windows_Input_Command_1_Execute_System_Nullable_System_Object__
@@ -26459,80 +27508,101 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Windows.Input.CommandExtensions.TryExecute
   nameWithType: CommandExtensions.TryExecute
-- uid: CarinaStudio.Windows.Input.ObservableCommandState
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1
+  name: ObservableCommandState<TParameter>
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html
+  commentId: T:CarinaStudio.Windows.Input.ObservableCommandState`1
+  name.vb: ObservableCommandState(Of TParameter)
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter)
+  nameWithType: ObservableCommandState<TParameter>
+  nameWithType.vb: ObservableCommandState(Of TParameter)
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.#ctor(System.Nullable{ICommand},`0,System.Boolean)
+  name: ObservableCommandState(Nullable<ICommand>, TParameter, Boolean)
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1__ctor_System_Nullable_ICommand___0_System_Boolean_
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState`1.#ctor(System.Nullable{ICommand},`0,System.Boolean)
+  name.vb: ObservableCommandState(Nullable(Of ICommand), TParameter, Boolean)
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.ObservableCommandState(System.Nullable<ICommand>, TParameter, System.Boolean)
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).ObservableCommandState(System.Nullable(Of ICommand), TParameter, System.Boolean)
+  nameWithType: ObservableCommandState<TParameter>.ObservableCommandState(Nullable<ICommand>, TParameter, Boolean)
+  nameWithType.vb: ObservableCommandState(Of TParameter).ObservableCommandState(Nullable(Of ICommand), TParameter, Boolean)
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.#ctor*
   name: ObservableCommandState
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html
-  commentId: T:CarinaStudio.Windows.Input.ObservableCommandState
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState
-  nameWithType: ObservableCommandState
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Nullable{ICommand},System.Boolean)
-  name: ObservableCommandState(Nullable<ICommand>, Boolean)
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState__ctor_System_Nullable_ICommand__System_Boolean_
-  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.#ctor(System.Nullable{ICommand},System.Boolean)
-  name.vb: ObservableCommandState(Nullable(Of ICommand), Boolean)
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.ObservableCommandState(System.Nullable<ICommand>, System.Boolean)
-  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState.ObservableCommandState(System.Nullable(Of ICommand), System.Boolean)
-  nameWithType: ObservableCommandState.ObservableCommandState(Nullable<ICommand>, Boolean)
-  nameWithType.vb: ObservableCommandState.ObservableCommandState(Nullable(Of ICommand), Boolean)
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.#ctor*
-  name: ObservableCommandState
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState__ctor_
-  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.#ctor
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1__ctor_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState`1.#ctor
   isSpec: "True"
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.ObservableCommandState
-  nameWithType: ObservableCommandState.ObservableCommandState
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Bind(ICommand)
-  name: Bind(ICommand)
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Bind_ICommand_
-  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Bind(ICommand)
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Bind(ICommand)
-  nameWithType: ObservableCommandState.Bind(ICommand)
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Bind*
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.ObservableCommandState
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).ObservableCommandState
+  nameWithType: ObservableCommandState<TParameter>.ObservableCommandState
+  nameWithType.vb: ObservableCommandState(Of TParameter).ObservableCommandState
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Bind(ICommand,`0)
+  name: Bind(ICommand, TParameter)
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Bind_ICommand__0_
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState`1.Bind(ICommand,`0)
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Bind(ICommand, TParameter)
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Bind(ICommand, TParameter)
+  nameWithType: ObservableCommandState<TParameter>.Bind(ICommand, TParameter)
+  nameWithType.vb: ObservableCommandState(Of TParameter).Bind(ICommand, TParameter)
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Bind*
   name: Bind
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Bind_
-  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Bind
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Bind_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState`1.Bind
   isSpec: "True"
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Bind
-  nameWithType: ObservableCommandState.Bind
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Command
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Bind
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Bind
+  nameWithType: ObservableCommandState<TParameter>.Bind
+  nameWithType.vb: ObservableCommandState(Of TParameter).Bind
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Command
   name: Command
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Command
-  commentId: P:CarinaStudio.Windows.Input.ObservableCommandState.Command
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Command
-  nameWithType: ObservableCommandState.Command
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Command*
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Command
+  commentId: P:CarinaStudio.Windows.Input.ObservableCommandState`1.Command
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Command
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Command
+  nameWithType: ObservableCommandState<TParameter>.Command
+  nameWithType.vb: ObservableCommandState(Of TParameter).Command
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Command*
   name: Command
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Command_
-  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Command
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Command_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState`1.Command
   isSpec: "True"
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Command
-  nameWithType: ObservableCommandState.Command
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Command
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Command
+  nameWithType: ObservableCommandState<TParameter>.Command
+  nameWithType.vb: ObservableCommandState(Of TParameter).Command
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Finalize
   name: Finalize()
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Finalize
-  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Finalize
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Finalize()
-  nameWithType: ObservableCommandState.Finalize()
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Finalize*
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Finalize
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState`1.Finalize
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Finalize()
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Finalize()
+  nameWithType: ObservableCommandState<TParameter>.Finalize()
+  nameWithType.vb: ObservableCommandState(Of TParameter).Finalize()
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Finalize*
   name: Finalize
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Finalize_
-  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Finalize
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Finalize_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState`1.Finalize
   isSpec: "True"
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Finalize
-  nameWithType: ObservableCommandState.Finalize
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Finalize
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Finalize
+  nameWithType: ObservableCommandState<TParameter>.Finalize
+  nameWithType.vb: ObservableCommandState(Of TParameter).Finalize
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Unbind
   name: Unbind()
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Unbind
-  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState.Unbind
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Unbind()
-  nameWithType: ObservableCommandState.Unbind()
-- uid: CarinaStudio.Windows.Input.ObservableCommandState.Unbind*
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Unbind
+  commentId: M:CarinaStudio.Windows.Input.ObservableCommandState`1.Unbind
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Unbind()
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Unbind()
+  nameWithType: ObservableCommandState<TParameter>.Unbind()
+  nameWithType.vb: ObservableCommandState(Of TParameter).Unbind()
+- uid: CarinaStudio.Windows.Input.ObservableCommandState`1.Unbind*
   name: Unbind
-  href: api/CarinaStudio.Windows.Input.ObservableCommandState.html#CarinaStudio_Windows_Input_ObservableCommandState_Unbind_
-  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState.Unbind
+  href: api/CarinaStudio.Windows.Input.ObservableCommandState-1.html#CarinaStudio_Windows_Input_ObservableCommandState_1_Unbind_
+  commentId: Overload:CarinaStudio.Windows.Input.ObservableCommandState`1.Unbind
   isSpec: "True"
-  fullName: CarinaStudio.Windows.Input.ObservableCommandState.Unbind
-  nameWithType: ObservableCommandState.Unbind
+  fullName: CarinaStudio.Windows.Input.ObservableCommandState<TParameter>.Unbind
+  fullName.vb: CarinaStudio.Windows.Input.ObservableCommandState(Of TParameter).Unbind
+  nameWithType: ObservableCommandState<TParameter>.Unbind
+  nameWithType.vb: ObservableCommandState(Of TParameter).Unbind
 - uid: CarinaStudio.WindowsVersion
   name: WindowsVersion
   href: api/CarinaStudio.WindowsVersion.html

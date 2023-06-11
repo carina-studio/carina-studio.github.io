@@ -79,19 +79,47 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ObjectTextBox&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Controls.IPAddressTextBox.html">IPAddressTextBox</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.Controls.UriTextBox.html">UriTextBox</a></div>
+    <div class="level1"><a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html">ObjectTextBox</a></div>
+    <div class="level2"><span class="xref">ObjectTextBox&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.Controls.IPAddressTextBox.html">IPAddressTextBox</a></div>
+      <div class="level3"><a class="xref" href="CarinaStudio.Controls.UriTextBox.html">UriTextBox</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IStyleable</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsTextValidProperty">ObjectTextBox.IsTextValidProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ObjectProperty">ObjectTextBox.ObjectProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ValidationDelayProperty">ObjectTextBox.ValidationDelayProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsTextValid">ObjectTextBox.IsTextValid</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_IsValidationScheduled">ObjectTextBox.IsValidationScheduled</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnTextInput_TextInputEventArgs_">ObjectTextBox.OnTextInput(TextInputEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_Validate">ObjectTextBox.Validate()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ValidationDelay">ObjectTextBox.ValidationDelay</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Controls_ObjectTextBox_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ObjectTextBox&lt;T&gt; : TextBox, IStyleable where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ObjectTextBox&lt;T&gt; : ObjectTextBox, IStyleable where T : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,10 +141,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L38">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L246">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1__ctor_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.#ctor*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1__ctor" data-uid="CarinaStudio.Controls.ObjectTextBox`1.#ctor">ObjectTextBox()</h4>
@@ -127,168 +155,14 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected ObjectTextBox()</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_IsTextValidProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.IsTextValidProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L19">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_IsTextValidProperty" data-uid="CarinaStudio.Controls.ObjectTextBox`1.IsTextValidProperty">IsTextValidProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_IsTextValid">IsTextValid</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly DirectProperty&lt;ObjectTextBox&lt;T&gt;, bool&gt; IsTextValidProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DirectProperty</span>&lt;<a class="xref" href="CarinaStudio.Controls.ObjectTextBox-1.html">ObjectTextBox</a>&lt;T&gt;, <span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ObjectProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ObjectProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L23">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_ObjectProperty" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ObjectProperty">ObjectProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_Object">Object</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;T&gt; ObjectProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StyledProperty</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ValidationDelayProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ValidationDelayProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L27">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_ValidationDelayProperty" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ValidationDelayProperty">ValidationDelayProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay">ValidationDelay</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;int&gt; ValidationDelayProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_IsTextValid.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.IsTextValid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_Object.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.Object%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L64">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_ObjectTextBox_1_IsTextValid_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.IsTextValid*"></a>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_IsTextValid" data-uid="CarinaStudio.Controls.ObjectTextBox`1.IsTextValid">IsTextValid</h4>
-  <div class="markdown level1 summary"><p>Get whether input <see cref="!:TextBox.Text"></see> represent a valid object or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsTextValid { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_IsValidationScheduled.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.IsValidationScheduled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L70">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_ObjectTextBox_1_IsValidationScheduled_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled*"></a>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_IsValidationScheduled" data-uid="CarinaStudio.Controls.ObjectTextBox`1.IsValidationScheduled">IsValidationScheduled</h4>
-  <div class="markdown level1 summary"><p>Check whether text validation is scheduled or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsValidationScheduled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_Object.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.Object%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L76">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L280">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1_Object_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.Object*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1_Object" data-uid="CarinaStudio.Controls.ObjectTextBox`1.Object">Object</h4>
@@ -297,7 +171,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Object { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract T Object { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -314,45 +188,14 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ValidationDelay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L216">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay*"></a>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_ValidationDelay" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ValidationDelay">ValidationDelay</h4>
-  <div class="markdown level1 summary"><p>Get or set the delay of validating text after user typing in milliseconds.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ValidationDelay { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality__0__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.CheckObjectEquality(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality__0__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.CheckObjectEquality(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L50">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L261">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality__0__0_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality(`0,`0)">CheckObjectEquality(T, T)</h4>
@@ -398,17 +241,75 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if two objects are equalvant.</p>
+        <td><p>True if two objects are equivalent.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ConvertToText__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ConvertToText(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_System_Nullable_System_Object__System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.CheckObjectEquality(System.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L58">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L251">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality*"></a>
+  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_CheckObjectEquality_System_Nullable_System_Object__System_Nullable_System_Object__" data-uid="CarinaStudio.Controls.ObjectTextBox`1.CheckObjectEquality(System.Nullable{System.Object},System.Nullable{System.Object})">CheckObjectEquality(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check equality of objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected sealed override bool CheckObjectEquality(object? x, object? y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">x</span></td>
+        <td><p>First object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Second object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if two objects are equivalent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_CheckObjectEquality_System_Nullable_System_Object__System_Nullable_System_Object__">ObjectTextBox.CheckObjectEquality(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ConvertToText__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ConvertToText(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L274">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ConvertToText*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1_ConvertToText__0_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ConvertToText(`0)">ConvertToText(T)</h4>
@@ -455,10 +356,62 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.ConvertToText(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L88">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L265">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ConvertToText*"></a>
+  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_ConvertToText_System_Object_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.ConvertToText(System.Object)">ConvertToText(Object)</h4>
+  <div class="markdown level1 summary"><p>Convert object to text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected sealed override string? ConvertToText(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Converted text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_ConvertToText_System_Object_">ObjectTextBox.ConvertToText(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L284">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1_OnPropertyChanged_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.OnPropertyChanged*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)">OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</h4>
@@ -485,20 +438,23 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_">ObjectTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_OnTextInput_TextInputEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.OnTextInput(TextInputEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_RaiseObjectChanged__0__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.RaiseObjectChanged(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L125">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L297">View Source</a>
   </span>
-  <a id="CarinaStudio_Controls_ObjectTextBox_1_OnTextInput_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.OnTextInput*"></a>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_OnTextInput_TextInputEventArgs_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.OnTextInput(TextInputEventArgs)">OnTextInput(TextInputEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CarinaStudio_Controls_ObjectTextBox_1_RaiseObjectChanged_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged*"></a>
+  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_RaiseObjectChanged__0__0_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.RaiseObjectChanged(`0,`0)">RaiseObjectChanged(T, T)</h4>
+  <div class="markdown level1 summary"><p>Raise property changed event of <a class="xref" href="CarinaStudio.Controls.ObjectTextBox-1.html#CarinaStudio_Controls_ObjectTextBox_1_Object">Object</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnTextInput(TextInputEventArgs e)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void RaiseObjectChanged(T oldValue, T newValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -511,18 +467,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextInputEventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">oldValue</span></td>
+        <td><p>Old value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>New value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.TryConvertToObject(System.String%2C%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.TryConvertToObject(System.String%2C%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L143">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L319">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject*"></a>
   <h4 id="CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String__0__" data-uid="CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject(System.String,`0@)">TryConvertToObject(String, out T)</h4>
@@ -575,20 +538,44 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_Validate.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.Validate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601.TryConvertToObject(System.String%2CSystem.Nullable%7BSystem.Object%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L150">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L301">View Source</a>
   </span>
-  <a id="CarinaStudio_Controls_ObjectTextBox_1_Validate_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.Validate*"></a>
-  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_Validate" data-uid="CarinaStudio.Controls.ObjectTextBox`1.Validate">Validate()</h4>
-  <div class="markdown level1 summary"><p>Validate input <see cref="!:TextBox.Text"></see> and generate corresponding object.</p>
+  <a id="CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_" data-uid="CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject*"></a>
+  <h4 id="CarinaStudio_Controls_ObjectTextBox_1_TryConvertToObject_System_String_System_Nullable_System_Object___" data-uid="CarinaStudio.Controls.ObjectTextBox`1.TryConvertToObject(System.String,System.Nullable{System.Object}@)">TryConvertToObject(String, out Nullable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Try converting text to object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Validate()</code></pre>
+    <pre><code class="lang-csharp hljs">protected sealed override bool TryConvertToObject(string text, out object? obj)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Converted object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -600,11 +587,13 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if input <see cref="!:TextBox.Text"></see> generates a valid object.</p>
+        <td><p>True if conversion succeeded.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Controls.ObjectTextBox.html#CarinaStudio_Controls_ObjectTextBox_TryConvertToObject_System_String_System_Nullable_System_Object___">ObjectTextBox.TryConvertToObject(String, out Nullable&lt;Object&gt;)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IStyleable</span>
@@ -615,6 +604,18 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
@@ -672,10 +673,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ObjectTextBox_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ObjectTextBox%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ObjectTextBox.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ObjectTextBox.cs/#L241" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

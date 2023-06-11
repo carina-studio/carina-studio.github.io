@@ -85,10 +85,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_CanExecute_System_Nullable_System_Object__">BaseCommand.CanExecute(Nullable&lt;Object&gt;)</a>
+      <a class="xref" href="CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_CanExecuteChanged">BaseCommand.CanExecuteChanged</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_CanExecuteChanged">BaseCommand.CanExecuteChanged</a>
+      <a class="xref" href="CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_InvalidateCanExecute">BaseCommand.InvalidateCanExecute()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Windows.Input.html">CarinaStudio.Windows.Input</a></h6>
@@ -116,10 +116,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1__ctor_Action__0__System_Nullable_IObservable_System_Boolean___.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.%23ctor(Action%7B%600%7D%2CSystem.Nullable%7BIObservable%7BSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1__ctor_Action__0__System_Nullable_IObservable_System_Boolean___.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.%23ctor(Action%7B%600%7D%2CSystem.Nullable%7BIObservable%7BSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application/Windows/Input/Command.cs/#L52">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application/Windows/Input/Command.cs/#L91">View Source</a>
   </span>
   <a id="CarinaStudio_Windows_Input_Command_1__ctor_" data-uid="CarinaStudio.Windows.Input.Command`1.#ctor*"></a>
   <h4 id="CarinaStudio_Windows_Input_Command_1__ctor_Action__0__System_Nullable_IObservable_System_Boolean___" data-uid="CarinaStudio.Windows.Input.Command`1.#ctor(Action{`0},System.Nullable{IObservable{System.Boolean}})">Command(Action&lt;TParam&gt;, Nullable&lt;IObservable&lt;Boolean&gt;&gt;)</h4>
@@ -154,14 +154,105 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1__ctor_Func__0_Task__System_Nullable_IObservable_System_Boolean___.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.%23ctor(Func%7B%600%2CTask%7D%2CSystem.Nullable%7BIObservable%7BSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application/Windows/Input/Command.cs/#L103">View Source</a>
+  </span>
+  <a id="CarinaStudio_Windows_Input_Command_1__ctor_" data-uid="CarinaStudio.Windows.Input.Command`1.#ctor*"></a>
+  <h4 id="CarinaStudio_Windows_Input_Command_1__ctor_Func__0_Task__System_Nullable_IObservable_System_Boolean___" data-uid="CarinaStudio.Windows.Input.Command`1.#ctor(Func{`0,Task},System.Nullable{IObservable{System.Boolean}})">Command(Func&lt;TParam, Task&gt;, Nullable&lt;IObservable&lt;Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Windows.Input.Command.html">Command</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Command(Func&lt;TParam, Task&gt; asyncExecute, IObservable&lt;bool&gt;? canExecute = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TParam, <span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">asyncExecute</span></td>
+        <td><p>Asynchronous action to execute command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IObservable</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">canExecute</span></td>
+        <td><p><see cref="!:IObservable&lt;T>"></see> to indicate whether command can be executed or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1_Execute_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.Execute(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1_CanExecute_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.CanExecute(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application/Windows/Input/Command.cs/#L64">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application/Windows/Input/Command.cs/#L111">View Source</a>
+  </span>
+  <a id="CarinaStudio_Windows_Input_Command_1_CanExecute_" data-uid="CarinaStudio.Windows.Input.Command`1.CanExecute*"></a>
+  <h4 id="CarinaStudio_Windows_Input_Command_1_CanExecute_System_Nullable_System_Object__" data-uid="CarinaStudio.Windows.Input.Command`1.CanExecute(System.Nullable{System.Object})">CanExecute(Nullable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Check whether command can be executed or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanExecute(object? parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>Parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="CarinaStudio.Windows.Input.BaseCommand.html#CarinaStudio_Windows_Input_BaseCommand_CanExecute_System_Nullable_System_Object__">BaseCommand.CanExecute(Nullable&lt;Object&gt;)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1_Execute_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601.Execute(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application/Windows/Input/Command.cs/#L136">View Source</a>
   </span>
   <a id="CarinaStudio_Windows_Input_Command_1_Execute_" data-uid="CarinaStudio.Windows.Input.Command`1.Execute*"></a>
   <h4 id="CarinaStudio_Windows_Input_Command_1_Execute_System_Nullable_System_Object__" data-uid="CarinaStudio.Windows.Input.Command`1.Execute(System.Nullable{System.Object})">Execute(Nullable&lt;Object&gt;)</h4>
@@ -170,7 +261,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Execute(object? parameter)</code></pre>
+    <pre><code class="lang-csharp hljs">public override async void Execute(object? parameter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,6 +289,18 @@
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
@@ -255,10 +358,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Windows_Input_Command_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Windows.Input.Command%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application/Windows/Input/Command.cs/#L41" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application/Windows/Input/Command.cs/#L78" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
