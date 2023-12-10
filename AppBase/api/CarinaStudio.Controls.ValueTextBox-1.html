@@ -86,12 +86,11 @@
       <div class="level3"><a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html">RealNumberTextBox</a></div>
       <div class="level3"><a class="xref" href="CarinaStudio.Controls.TimeSpanTextBox.html">TimeSpanTextBox</a></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IStyleable</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_AcceptsWhiteSpacesProperty">ValueTextBox.AcceptsWhiteSpacesProperty</a>
+    </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocusProperty">ValueTextBox.CoerceValueWhenLostFocusProperty</a>
     </div>
@@ -111,6 +110,9 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValueProperty">ValueTextBox.ValueProperty</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_AcceptsWhiteSpaces">ValueTextBox.AcceptsWhiteSpaces</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocus">ValueTextBox.CoerceValueWhenLostFocus</a>
     </div>
     <div>
@@ -123,7 +125,13 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_RoutedEventArgs_">ValueTextBox.OnLostFocus(RoutedEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPastingFromClipboard_System_Nullable_System_String__">ValueTextBox.OnPastingFromClipboard(Nullable&lt;String&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnTextInput_TextInputEventArgs_">ValueTextBox.OnTextInput(TextInputEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_StyleKeyOverride">ValueTextBox.StyleKeyOverride</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Validate">ValueTextBox.Validate()</a>
@@ -136,7 +144,7 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Controls_ValueTextBox_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ValueTextBox&lt;T&gt; : ValueTextBox, IStyleable where T : struct</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ValueTextBox&lt;T&gt; : ValueTextBox where T : struct</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,10 +166,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L402">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L457">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1__ctor_" data-uid="CarinaStudio.Controls.ValueTextBox`1.#ctor*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1__ctor" data-uid="CarinaStudio.Controls.ValueTextBox`1.#ctor">ValueTextBox()</h4>
@@ -176,10 +184,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_DefaultValue.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.DefaultValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_DefaultValue.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.DefaultValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L453">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L508">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_DefaultValue_" data-uid="CarinaStudio.Controls.ValueTextBox`1.DefaultValue*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_DefaultValue" data-uid="CarinaStudio.Controls.ValueTextBox`1.DefaultValue">DefaultValue</h4>
@@ -207,10 +215,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_Value.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_Value.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L502">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L557">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_Value_" data-uid="CarinaStudio.Controls.ValueTextBox`1.Value*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_Value" data-uid="CarinaStudio.Controls.ValueTextBox`1.Value">Value</h4>
@@ -240,10 +248,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable__0__System_Nullable__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CheckValueEquality(System.Nullable%7B%600%7D%2CSystem.Nullable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable__0__System_Nullable__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CheckValueEquality(System.Nullable%7B%600%7D%2CSystem.Nullable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L423">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L478">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable__0__System_Nullable__0__" data-uid="CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality(System.Nullable{`0},System.Nullable{`0})">CheckValueEquality(Nullable&lt;T&gt;, Nullable&lt;T&gt;)</h4>
@@ -296,10 +304,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CheckValueEquality(System.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CheckValueEquality(System.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L409">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L464">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__" data-uid="CarinaStudio.Controls.ValueTextBox`1.CheckValueEquality(System.Nullable{System.Object},System.Nullable{System.Object})">CheckValueEquality(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</h4>
@@ -354,10 +362,10 @@
   <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__">ValueTextBox.CheckValueEquality(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CoerceValue__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CoerceValue(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CoerceValue__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CoerceValue(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L436">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L491">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_CoerceValue_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CoerceValue*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_CoerceValue__0_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CoerceValue(`0)">CoerceValue(T)</h4>
@@ -404,10 +412,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CoerceValue(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.CoerceValue(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L427">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L482">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_CoerceValue_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CoerceValue*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_" data-uid="CarinaStudio.Controls.ValueTextBox`1.CoerceValue(System.Object)">CoerceValue(Object)</h4>
@@ -456,10 +464,10 @@
   <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValue_System_Object_">ValueTextBox.CoerceValue(Object)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_ConvertToText__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.ConvertToText(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_ConvertToText__0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.ConvertToText(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L449">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L504">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_ConvertToText_" data-uid="CarinaStudio.Controls.ValueTextBox`1.ConvertToText*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_ConvertToText__0_" data-uid="CarinaStudio.Controls.ValueTextBox`1.ConvertToText(`0)">ConvertToText(T)</h4>
@@ -506,10 +514,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.ConvertToText(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.ConvertToText(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L440">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L495">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_ConvertToText_" data-uid="CarinaStudio.Controls.ValueTextBox`1.ConvertToText*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_" data-uid="CarinaStudio.Controls.ValueTextBox`1.ConvertToText(System.Object)">ConvertToText(Object)</h4>
@@ -558,10 +566,10 @@
   <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ConvertToText_System_Object_">ValueTextBox.ConvertToText(Object)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L461">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L516">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_OnPropertyChanged_" data-uid="CarinaStudio.Controls.ValueTextBox`1.OnPropertyChanged*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_" data-uid="CarinaStudio.Controls.ValueTextBox`1.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)">OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</h4>
@@ -592,10 +600,10 @@
   <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_">ValueTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_System_Nullable__0__System_Nullable__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.RaiseValueChanged(System.Nullable%7B%600%7D%2CSystem.Nullable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_System_Nullable__0__System_Nullable__0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.RaiseValueChanged(System.Nullable%7B%600%7D%2CSystem.Nullable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L474">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L529">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_" data-uid="CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_RaiseValueChanged_System_Nullable__0__System_Nullable__0__" data-uid="CarinaStudio.Controls.ValueTextBox`1.RaiseValueChanged(System.Nullable{`0},System.Nullable{`0})">RaiseValueChanged(Nullable&lt;T&gt;, Nullable&lt;T&gt;)</h4>
@@ -632,10 +640,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable__0___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.TryConvertToValue(System.String%2CSystem.Nullable%7B%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable__0___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.TryConvertToValue(System.String%2CSystem.Nullable%7B%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L496">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L551">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_" data-uid="CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable__0___" data-uid="CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue(System.String,System.Nullable{`0}@)">TryConvertToValue(String, out Nullable&lt;T&gt;)</h4>
@@ -688,10 +696,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.TryConvertToValue(System.String%2CSystem.Nullable%7BSystem.Object%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601.TryConvertToValue(System.String%2CSystem.Nullable%7BSystem.Object%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L478">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L533">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_" data-uid="CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue*"></a>
   <h4 id="CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___" data-uid="CarinaStudio.Controls.ValueTextBox`1.TryConvertToValue(System.String,System.Nullable{System.Object}@)">TryConvertToValue(String, out Nullable&lt;Object&gt;)</h4>
@@ -744,10 +752,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_TryConvertToValue_System_String_System_Nullable_System_Object___">ValueTextBox.TryConvertToValue(String, out Nullable&lt;Object&gt;)</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IStyleable</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
@@ -823,10 +827,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ValueTextBox_1.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ValueTextBox%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ValueTextBox.cs/#L397" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/ValueTextBox.cs/#L452" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

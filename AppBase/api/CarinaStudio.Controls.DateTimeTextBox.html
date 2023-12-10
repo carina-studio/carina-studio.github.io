@@ -83,10 +83,6 @@
     <div class="level2"><a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html">ValueTextBox</a>&lt;<span class="xref">DateTime</span>&gt;</div>
     <div class="level3"><span class="xref">DateTimeTextBox</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IStyleable</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -117,6 +113,9 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___">ValueTextBox&lt;DateTime&gt;.TryConvertToValue(String, Nullable&lt;Object&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_AcceptsWhiteSpacesProperty">ValueTextBox.AcceptsWhiteSpacesProperty</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocusProperty">ValueTextBox.CoerceValueWhenLostFocusProperty</a>
     </div>
     <div>
@@ -132,6 +131,9 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValidationDelayProperty">ValueTextBox.ValidationDelayProperty</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_AcceptsWhiteSpaces">ValueTextBox.AcceptsWhiteSpaces</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_CoerceValueWhenLostFocus">ValueTextBox.CoerceValueWhenLostFocus</a>
     </div>
     <div>
@@ -144,7 +146,13 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_RoutedEventArgs_">ValueTextBox.OnLostFocus(RoutedEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPastingFromClipboard_System_Nullable_System_String__">ValueTextBox.OnPastingFromClipboard(Nullable&lt;String&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnTextInput_TextInputEventArgs_">ValueTextBox.OnTextInput(TextInputEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_StyleKeyOverride">ValueTextBox.StyleKeyOverride</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_Validate">ValueTextBox.Validate()</a>
@@ -157,16 +165,16 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Controls_DateTimeTextBox_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DateTimeTextBox : ValueTextBox&lt;DateTime&gt;, IStyleable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DateTimeTextBox : ValueTextBox&lt;DateTime&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L35">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L35">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_DateTimeTextBox__ctor_" data-uid="CarinaStudio.Controls.DateTimeTextBox.#ctor*"></a>
   <h4 id="CarinaStudio_Controls_DateTimeTextBox__ctor" data-uid="CarinaStudio.Controls.DateTimeTextBox.#ctor">DateTimeTextBox()</h4>
@@ -181,10 +189,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_ValueProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.ValueProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_ValueProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.ValueProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L17">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L17">View Source</a>
   </span>
   <h4 id="CarinaStudio_Controls_DateTimeTextBox_ValueProperty" data-uid="CarinaStudio.Controls.DateTimeTextBox.ValueProperty">ValueProperty</h4>
   <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value">Value</a>.</p>
@@ -213,10 +221,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_Value.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_Value.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L135">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L136">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_DateTimeTextBox_Value_" data-uid="CarinaStudio.Controls.DateTimeTextBox.Value*"></a>
   <h4 id="CarinaStudio_Controls_DateTimeTextBox_Value" data-uid="CarinaStudio.Controls.DateTimeTextBox.Value">Value</h4>
@@ -248,10 +256,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_System_Nullable_DateTime__System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_System_Nullable_DateTime__System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable%7BDateTime%7D%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L43">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L44">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_" data-uid="CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged*"></a>
   <h4 id="CarinaStudio_Controls_DateTimeTextBox_RaiseValueChanged_System_Nullable_DateTime__System_Nullable_DateTime__" data-uid="CarinaStudio.Controls.DateTimeTextBox.RaiseValueChanged(System.Nullable{DateTime},System.Nullable{DateTime})">RaiseValueChanged(Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
@@ -288,10 +296,10 @@
   <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;DateTime&gt;.RaiseValueChanged(System.Nullable&lt;DateTime&gt;, System.Nullable&lt;DateTime&gt;)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_TryConvertToValue_System_String_System_Nullable_DateTime___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue(System.String%2CSystem.Nullable%7BDateTime%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox_TryConvertToValue_System_String_System_Nullable_DateTime___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue(System.String%2CSystem.Nullable%7BDateTime%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L48">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L49">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_DateTimeTextBox_TryConvertToValue_" data-uid="CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue*"></a>
   <h4 id="CarinaStudio_Controls_DateTimeTextBox_TryConvertToValue_System_String_System_Nullable_DateTime___" data-uid="CarinaStudio.Controls.DateTimeTextBox.TryConvertToValue(System.String,System.Nullable{DateTime}@)">TryConvertToValue(String, out Nullable&lt;DateTime&gt;)</h4>
@@ -343,10 +351,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;DateTime&gt;.TryConvertToValue(System.String, System.Nullable&lt;DateTime&gt;)</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IStyleable</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
@@ -422,10 +426,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_DateTimeTextBox.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.DateTimeTextBox%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/DateTimeTextBox.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Avalonia/Controls/DateTimeTextBox.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

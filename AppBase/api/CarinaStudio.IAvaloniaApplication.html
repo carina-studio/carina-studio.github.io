@@ -119,25 +119,25 @@
   <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
   <h5 id="CarinaStudio_IAvaloniaApplication_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAvaloniaApplication : IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable, IResourceNode, IResourceHost</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAvaloniaApplication : IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication_Clipboard.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication.Clipboard%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication_Current.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application.Avalonia/IAvaloniaApplication.cs/#L17">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/IAvaloniaApplication.cs/#L17">View Source</a>
   </span>
-  <a id="CarinaStudio_IAvaloniaApplication_Clipboard_" data-uid="CarinaStudio.IAvaloniaApplication.Clipboard*"></a>
-  <h4 id="CarinaStudio_IAvaloniaApplication_Clipboard" data-uid="CarinaStudio.IAvaloniaApplication.Clipboard">Clipboard</h4>
-  <div class="markdown level1 summary"><p>Get clipboard.</p>
+  <a id="CarinaStudio_IAvaloniaApplication_Current_" data-uid="CarinaStudio.IAvaloniaApplication.Current*"></a>
+  <h4 id="CarinaStudio_IAvaloniaApplication_Current" data-uid="CarinaStudio.IAvaloniaApplication.Current">Current</h4>
+  <div class="markdown level1 summary"><p>Get instance of <a class="xref" href="CarinaStudio.IAvaloniaApplication.html">IAvaloniaApplication</a> of current process.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IClipboard? Clipboard { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">static IAvaloniaApplication Current { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,12 +149,187 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IClipboard</span>&gt;</td>
+        <td><a class="xref" href="CarinaStudio.IAvaloniaApplication.html">IAvaloniaApplication</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication_CurrentOrNull.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication.CurrentOrNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/IAvaloniaApplication.cs/#L23">View Source</a>
+  </span>
+  <a id="CarinaStudio_IAvaloniaApplication_CurrentOrNull_" data-uid="CarinaStudio.IAvaloniaApplication.CurrentOrNull*"></a>
+  <h4 id="CarinaStudio_IAvaloniaApplication_CurrentOrNull" data-uid="CarinaStudio.IAvaloniaApplication.CurrentOrNull">CurrentOrNull</h4>
+  <div class="markdown level1 summary"><p>Get instance of <a class="xref" href="CarinaStudio.IAvaloniaApplication.html">IAvaloniaApplication</a> of current process, or Null if instance doesn't exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">static IAvaloniaApplication CurrentOrNull { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CarinaStudio.IAvaloniaApplication.html">IAvaloniaApplication</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication_GetResourceObservable_System_Object_System_Nullable_Func_System_Nullable_System_Object__System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication.GetResourceObservable(System.Object%2CSystem.Nullable%7BFunc%7BSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/IAvaloniaApplication.cs/#L33">View Source</a>
+  </span>
+  <a id="CarinaStudio_IAvaloniaApplication_GetResourceObservable_" data-uid="CarinaStudio.IAvaloniaApplication.GetResourceObservable*"></a>
+  <h4 id="CarinaStudio_IAvaloniaApplication_GetResourceObservable_System_Object_System_Nullable_Func_System_Nullable_System_Object__System_Nullable_System_Object____" data-uid="CarinaStudio.IAvaloniaApplication.GetResourceObservable(System.Object,System.Nullable{Func{System.Nullable{System.Object},System.Nullable{System.Object}}})">GetResourceObservable(Object, Nullable&lt;Func&lt;Nullable&lt;Object&gt;, Nullable&lt;Object&gt;&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get observable resource with given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IObservable&lt;object?&gt; GetResourceObservable(object key, Func&lt;object?, object?&gt;? converter = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;&gt;</td>
+        <td><span class="parametername">converter</span></td>
+        <td><p>Value converter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IObservable</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>Observable value of resource.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_IAvaloniaApplication_GetResourceObservable_System_Object_System_Nullable_Func_System_Nullable_System_Object__System_Nullable_System_Object_____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should be a thread-safe method.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication_TryFindResource_System_Object_System_Nullable_ThemeVariant__System_Nullable_System_Object___.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication.TryFindResource(System.Object%2CSystem.Nullable%7BThemeVariant%7D%2CSystem.Nullable%7BSystem.Object%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/IAvaloniaApplication.cs/#L46">View Source</a>
+  </span>
+  <a id="CarinaStudio_IAvaloniaApplication_TryFindResource_" data-uid="CarinaStudio.IAvaloniaApplication.TryFindResource*"></a>
+  <h4 id="CarinaStudio_IAvaloniaApplication_TryFindResource_System_Object_System_Nullable_ThemeVariant__System_Nullable_System_Object___" data-uid="CarinaStudio.IAvaloniaApplication.TryFindResource(System.Object,System.Nullable{ThemeVariant},System.Nullable{System.Object}@)">TryFindResource(Object, Nullable&lt;ThemeVariant&gt;, out Nullable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Try finding resource within the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryFindResource(object key, ThemeVariant? theme, out object? value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The resource key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ThemeVariant</span>&gt;</td>
+        <td><span class="parametername">theme</span></td>
+        <td><p>Theme used to select theme dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value with given key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the resource found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CarinaStudio_IAvaloniaApplication_TryFindResource_System_Object_System_Nullable_ThemeVariant__System_Nullable_System_Object____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should be a thread-safe method.</p>
+</div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_FindResourceOrDefault__1_CarinaStudio_IAvaloniaApplication_System_Object___0_">AvaloniaApplicationExtensions.FindResourceOrDefault&lt;T&gt;(IAvaloniaApplication, Object, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_FindResourceOrDefault__1_CarinaStudio_IAvaloniaApplication_System_Object_System_Nullable_ThemeVariant____0_">AvaloniaApplicationExtensions.FindResourceOrDefault&lt;T&gt;(IAvaloniaApplication, Object, Nullable&lt;ThemeVariant&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_TryFindResource__1_CarinaStudio_IAvaloniaApplication_System_Object___0__">AvaloniaApplicationExtensions.TryFindResource&lt;T&gt;(IAvaloniaApplication, Object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_TryFindResource__1_CarinaStudio_IAvaloniaApplication_System_Object_System_Nullable_ThemeVariant____0__">AvaloniaApplicationExtensions.TryFindResource&lt;T&gt;(IAvaloniaApplication, Object, Nullable&lt;ThemeVariant&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_TryFindResource__1_CarinaStudio_IAvaloniaApplication_System_Object_System_Nullable___0___">AvaloniaApplicationExtensions.TryFindResource&lt;T&gt;(IAvaloniaApplication, Object, out Nullable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaApplicationExtensions.html#CarinaStudio_AvaloniaApplicationExtensions_TryFindResource__1_CarinaStudio_IAvaloniaApplication_System_Object_System_Nullable_ThemeVariant__System_Nullable___0___">AvaloniaApplicationExtensions.TryFindResource&lt;T&gt;(IAvaloniaApplication, Object, Nullable&lt;ThemeVariant&gt;, out Nullable&lt;T&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
   </div>
@@ -229,10 +404,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_IAvaloniaApplication.md&amp;value=---%0Auid%3A%20CarinaStudio.IAvaloniaApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Application.Avalonia/IAvaloniaApplication.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/IAvaloniaApplication.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

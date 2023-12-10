@@ -82,7 +82,7 @@
     <div class="level1"><span class="xref">ScrollViewerExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
+  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Avalonia.dll</h6>
   <h5 id="CarinaStudio_Controls_ScrollViewerExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ScrollViewerExtensions : object</code></pre>
@@ -91,19 +91,69 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Control_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer%2CControl)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_IsSmoothScrolling_ScrollViewer_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.IsSmoothScrolling(ScrollViewer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ScrollViewerExtensions.cs/#L17">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L28">View Source</a>
   </span>
-  <a id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView*"></a>
-  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Control_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,Control)">ScrollIntoView(ScrollViewer, Control)</h4>
-  <div class="markdown level1 summary"><p>Scroll given control in <see cref="!:ScrollViewer"></see> into view.</p>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_IsSmoothScrolling_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.IsSmoothScrolling*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_IsSmoothScrolling_ScrollViewer_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.IsSmoothScrolling(ScrollViewer)">IsSmoothScrolling(ScrollViewer)</h4>
+  <div class="markdown level1 summary"><p>Check whether given <see cref="!:ScrollViewer"></see> is performing smooth scrolling or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ScrollIntoView(this ScrollViewer scrollViewer, Control control)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsSmoothScrolling(this ScrollViewer scrollViewer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScrollViewer</span></td>
+        <td><span class="parametername">scrollViewer</span></td>
+        <td><p><see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if <see cref="!:ScrollViewer"></see> is performing smooth scrolling.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Visual_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer%2CVisual)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L38">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Visual_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,Visual)">ScrollIntoView(ScrollViewer, Visual)</h4>
+  <div class="markdown level1 summary"><p>Scroll given <see cref="!:Visual"></see> in <see cref="!:ScrollViewer"></see> into view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ScrollIntoView(this ScrollViewer scrollViewer, Visual visual)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,9 +172,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Control</span></td>
-        <td><span class="parametername">control</span></td>
-        <td><p>Control inside <see cref="!:ScrollViewer"></see>.</p>
+        <td><span class="xref">Visual</span></td>
+        <td><span class="parametername">visual</span></td>
+        <td><p><see cref="!:Visual"></see> inside <see cref="!:ScrollViewer"></see>.</p>
 </td>
       </tr>
     </tbody>
@@ -140,7 +190,199 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if control has been scrolled into view.</p>
+        <td><p>True if visual has been scrolled into view.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Visual_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer%2CVisual%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L49">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_ScrollIntoView_ScrollViewer_Visual_System_Boolean_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.ScrollIntoView(ScrollViewer,Visual,System.Boolean)">ScrollIntoView(ScrollViewer, Visual, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Scroll given <see cref="!:Visual"></see> in <see cref="!:ScrollViewer"></see> into view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ScrollIntoView(this ScrollViewer scrollViewer, Visual visual, bool scrollToCenter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScrollViewer</span></td>
+        <td><span class="parametername">scrollViewer</span></td>
+        <td><p><see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Visual</span></td>
+        <td><span class="parametername">visual</span></td>
+        <td><p><see cref="!:Visual"></see> inside <see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">scrollToCenter</span></td>
+        <td><p>True to try scrolling <see cref="!:Visual"></see> to center of viewport.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if visual has been scrolled into view.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_ScrollViewer_Visual_TimeSpan_System_Nullable_Func_System_Double_System_Double___System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView(ScrollViewer%2CVisual%2CTimeSpan%2CSystem.Nullable%7BFunc%7BSystem.Double%2CSystem.Double%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L214">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_ScrollViewer_Visual_TimeSpan_System_Nullable_Func_System_Double_System_Double___System_Boolean_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView(ScrollViewer,Visual,TimeSpan,System.Nullable{Func{System.Double,System.Double}},System.Boolean)">SmoothScrollIntoView(ScrollViewer, Visual, TimeSpan, Nullable&lt;Func&lt;Double, Double&gt;&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Scroll given <see cref="!:Visual"></see> smoothly into viewport of <see cref="!:ScrollViewer"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SmoothScrollIntoView(this ScrollViewer scrollViewer, Visual visual, TimeSpan duration, Func&lt;double, double&gt;? interpolator = null, bool scrollToCenter = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScrollViewer</span></td>
+        <td><span class="parametername">scrollViewer</span></td>
+        <td><p><see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Visual</span></td>
+        <td><span class="parametername">visual</span></td>
+        <td><p><see cref="!:Visual"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration of smooth scrolling.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.Double</span>&gt;&gt;</td>
+        <td><span class="parametername">interpolator</span></td>
+        <td><p>Interpolator of smooth scrolling.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">scrollToCenter</span></td>
+        <td><p>True to scroll content to center of viewport.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if smooth scrolling starts successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_ScrollViewer_Vector__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset(ScrollViewer%2CVector%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L224">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_ScrollViewer_Vector__" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset(ScrollViewer,Vector@)">TryGetSmoothScrollingTargetOffset(ScrollViewer, out Vector)</h4>
+  <div class="markdown level1 summary"><p>Try getting target offset of smooth scrolling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetSmoothScrollingTargetOffset(this ScrollViewer scrollViewer, out Vector offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScrollViewer</span></td>
+        <td><span class="parametername">scrollViewer</span></td>
+        <td><p><see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Target offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if tar offset got successfully.</p>
 </td>
       </tr>
     </tbody>
@@ -153,10 +395,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.0/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.0/Avalonia/Controls/ScrollViewerExtensions.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
