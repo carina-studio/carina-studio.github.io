@@ -13337,6 +13337,22 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.DisposeAndReturnNull(Of T)(T)
   nameWithType: DisposableExtensions.DisposeAndReturnNull<T>(T)
   nameWithType.vb: DisposableExtensions.DisposeAndReturnNull(Of T)(T)
+- uid: CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync*
+  name: DisposeAndReturnNullAsync
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNullAsync_
+  commentId: Overload:CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync
+  nameWithType: DisposableExtensions.DisposeAndReturnNullAsync
+- uid: CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync``1(``0)
+  name: DisposeAndReturnNullAsync<T>(T)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNullAsync__1___0_
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync``1(``0)
+  name.vb: DisposeAndReturnNullAsync(Of T)(T)
+  fullName: CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync<T>(T)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync(Of T)(T)
+  nameWithType: DisposableExtensions.DisposeAndReturnNullAsync<T>(T)
+  nameWithType.vb: DisposableExtensions.DisposeAndReturnNullAsync(Of T)(T)
 - uid: CarinaStudio.DisposableExtensions.Exchange*
   name: Exchange
   href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange_
@@ -13387,6 +13403,56 @@ references:
   fullName.vb: CarinaStudio.DisposableExtensions.ExchangeAsync(Of T, R)(T, Func(Of Task(Of R)))
   nameWithType: DisposableExtensions.ExchangeAsync<T, R>(T, Func<Task<R>>)
   nameWithType.vb: DisposableExtensions.ExchangeAsync(Of T, R)(T, Func(Of Task(Of R)))
+- uid: CarinaStudio.DisposableExtensions.Setup*
+  name: Setup
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup_
+  commentId: Overload:CarinaStudio.DisposableExtensions.Setup
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.Setup
+  nameWithType: DisposableExtensions.Setup
+- uid: CarinaStudio.DisposableExtensions.Setup``1(``0,Action)
+  name: Setup<T>(T, Action)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_Action_
+  commentId: M:CarinaStudio.DisposableExtensions.Setup``1(``0,Action)
+  name.vb: Setup(Of T)(T, Action)
+  fullName: CarinaStudio.DisposableExtensions.Setup<T>(T, Action)
+  fullName.vb: CarinaStudio.DisposableExtensions.Setup(Of T)(T, Action)
+  nameWithType: DisposableExtensions.Setup<T>(T, Action)
+  nameWithType.vb: DisposableExtensions.Setup(Of T)(T, Action)
+- uid: CarinaStudio.DisposableExtensions.Setup``1(``0,Action{``0})
+  name: Setup<T>(T, Action<T>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_Action___0__
+  commentId: M:CarinaStudio.DisposableExtensions.Setup``1(``0,Action{``0})
+  name.vb: Setup(Of T)(T, Action(Of T))
+  fullName: CarinaStudio.DisposableExtensions.Setup<T>(T, Action<T>)
+  fullName.vb: CarinaStudio.DisposableExtensions.Setup(Of T)(T, Action(Of T))
+  nameWithType: DisposableExtensions.Setup<T>(T, Action<T>)
+  nameWithType.vb: DisposableExtensions.Setup(Of T)(T, Action(Of T))
+- uid: CarinaStudio.DisposableExtensions.SetupAsync*
+  name: SetupAsync
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync_
+  commentId: Overload:CarinaStudio.DisposableExtensions.SetupAsync
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.SetupAsync
+  nameWithType: DisposableExtensions.SetupAsync
+- uid: CarinaStudio.DisposableExtensions.SetupAsync``1(``0,Func{``0,Task})
+  name: SetupAsync<T>(T, Func<T, Task>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_Func___0_Task__
+  commentId: M:CarinaStudio.DisposableExtensions.SetupAsync``1(``0,Func{``0,Task})
+  name.vb: SetupAsync(Of T)(T, Func(Of T, Task))
+  fullName: CarinaStudio.DisposableExtensions.SetupAsync<T>(T, Func<T, Task>)
+  fullName.vb: CarinaStudio.DisposableExtensions.SetupAsync(Of T)(T, Func(Of T, Task))
+  nameWithType: DisposableExtensions.SetupAsync<T>(T, Func<T, Task>)
+  nameWithType.vb: DisposableExtensions.SetupAsync(Of T)(T, Func(Of T, Task))
+- uid: CarinaStudio.DisposableExtensions.SetupAsync``1(``0,Func{Task})
+  name: SetupAsync<T>(T, Func<Task>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_Func_Task__
+  commentId: M:CarinaStudio.DisposableExtensions.SetupAsync``1(``0,Func{Task})
+  name.vb: SetupAsync(Of T)(T, Func(Of Task))
+  fullName: CarinaStudio.DisposableExtensions.SetupAsync<T>(T, Func<Task>)
+  fullName.vb: CarinaStudio.DisposableExtensions.SetupAsync(Of T)(T, Func(Of Task))
+  nameWithType: DisposableExtensions.SetupAsync<T>(T, Func<Task>)
+  nameWithType.vb: DisposableExtensions.SetupAsync(Of T)(T, Func(Of Task))
 - uid: CarinaStudio.DisposableExtensions.Use*
   name: Use
   href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use_
@@ -25107,6 +25173,73 @@ references:
   commentId: N:CarinaStudio.Net
   fullName: CarinaStudio.Net
   nameWithType: CarinaStudio.Net
+- uid: CarinaStudio.Net.Http
+  name: CarinaStudio.Net.Http
+  href: api/CarinaStudio.Net.Http.html
+  commentId: N:CarinaStudio.Net.Http
+  fullName: CarinaStudio.Net.Http
+  nameWithType: CarinaStudio.Net.Http
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider
+  name: HttpResponseStreamProvider
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html
+  commentId: T:CarinaStudio.Net.Http.HttpResponseStreamProvider
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider
+  nameWithType: HttpResponseStreamProvider
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(Func{HttpRequestMessage},System.Nullable{TimeSpan},System.Nullable{HttpMessageHandler},System.Nullable{System.Int64})
+  name: HttpResponseStreamProvider(Func<HttpRequestMessage>, Nullable<TimeSpan>, Nullable<HttpMessageHandler>, Nullable<Int64>)
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_Func_HttpRequestMessage__System_Nullable_TimeSpan__System_Nullable_HttpMessageHandler__System_Nullable_System_Int64__
+  commentId: M:CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(Func{HttpRequestMessage},System.Nullable{TimeSpan},System.Nullable{HttpMessageHandler},System.Nullable{System.Int64})
+  name.vb: HttpResponseStreamProvider(Func(Of HttpRequestMessage), Nullable(Of TimeSpan), Nullable(Of HttpMessageHandler), Nullable(Of Int64))
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.HttpResponseStreamProvider(Func<HttpRequestMessage>, System.Nullable<TimeSpan>, System.Nullable<HttpMessageHandler>, System.Nullable<System.Int64>)
+  fullName.vb: CarinaStudio.Net.Http.HttpResponseStreamProvider.HttpResponseStreamProvider(Func(Of HttpRequestMessage), System.Nullable(Of TimeSpan), System.Nullable(Of HttpMessageHandler), System.Nullable(Of System.Int64))
+  nameWithType: HttpResponseStreamProvider.HttpResponseStreamProvider(Func<HttpRequestMessage>, Nullable<TimeSpan>, Nullable<HttpMessageHandler>, Nullable<Int64>)
+  nameWithType.vb: HttpResponseStreamProvider.HttpResponseStreamProvider(Func(Of HttpRequestMessage), Nullable(Of TimeSpan), Nullable(Of HttpMessageHandler), Nullable(Of Int64))
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor*
+  name: HttpResponseStreamProvider
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_
+  commentId: Overload:CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.HttpResponseStreamProvider
+  nameWithType: HttpResponseStreamProvider.HttpResponseStreamProvider
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess(CarinaStudio.IO.StreamAccess)
+  name: CheckStreamAccess(StreamAccess)
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_CheckStreamAccess_CarinaStudio_IO_StreamAccess_
+  commentId: M:CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess(CarinaStudio.IO.StreamAccess)
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess(CarinaStudio.IO.StreamAccess)
+  nameWithType: HttpResponseStreamProvider.CheckStreamAccess(StreamAccess)
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess*
+  name: CheckStreamAccess
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_CheckStreamAccess_
+  commentId: Overload:CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess
+  isSpec: "True"
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess
+  nameWithType: HttpResponseStreamProvider.CheckStreamAccess
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_Dispose_System_Boolean_
+  commentId: M:CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose(System.Boolean)
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose(System.Boolean)
+  nameWithType: HttpResponseStreamProvider.Dispose(Boolean)
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_Dispose_
+  commentId: Overload:CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose
+  nameWithType: HttpResponseStreamProvider.Dispose
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync(CarinaStudio.IO.StreamAccess,CancellationToken)
+  name: OpenStreamAsync(StreamAccess, CancellationToken)
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_OpenStreamAsync_CarinaStudio_IO_StreamAccess_CancellationToken_
+  commentId: M:CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync(CarinaStudio.IO.StreamAccess,CancellationToken)
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync(CarinaStudio.IO.StreamAccess, CancellationToken)
+  nameWithType: HttpResponseStreamProvider.OpenStreamAsync(StreamAccess, CancellationToken)
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync*
+  name: OpenStreamAsync
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider_OpenStreamAsync_
+  commentId: Overload:CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync
+  nameWithType: HttpResponseStreamProvider.OpenStreamAsync
 - uid: CarinaStudio.Net.WebRequestStreamProvider
   name: WebRequestStreamProvider
   href: api/CarinaStudio.Net.WebRequestStreamProvider.html
@@ -25530,6 +25663,22 @@ references:
   fullName.vb: CarinaStudio.ObservableExtensions.Cast(Of TIn, TOut)(IObservable(Of TIn))
   nameWithType: ObservableExtensions.Cast<TIn, TOut>(IObservable<TIn>)
   nameWithType.vb: ObservableExtensions.Cast(Of TIn, TOut)(IObservable(Of TIn))
+- uid: CarinaStudio.ObservableExtensions.Invert(IObservable{System.Boolean})
+  name: Invert(IObservable<Boolean>)
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Invert_IObservable_System_Boolean__
+  commentId: M:CarinaStudio.ObservableExtensions.Invert(IObservable{System.Boolean})
+  name.vb: Invert(IObservable(Of Boolean))
+  fullName: CarinaStudio.ObservableExtensions.Invert(IObservable<System.Boolean>)
+  fullName.vb: CarinaStudio.ObservableExtensions.Invert(IObservable(Of System.Boolean))
+  nameWithType: ObservableExtensions.Invert(IObservable<Boolean>)
+  nameWithType.vb: ObservableExtensions.Invert(IObservable(Of Boolean))
+- uid: CarinaStudio.ObservableExtensions.Invert*
+  name: Invert
+  href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Invert_
+  commentId: Overload:CarinaStudio.ObservableExtensions.Invert
+  isSpec: "True"
+  fullName: CarinaStudio.ObservableExtensions.Invert
+  nameWithType: ObservableExtensions.Invert
 - uid: CarinaStudio.ObservableExtensions.Subscribe*
   name: Subscribe
   href: api/CarinaStudio.ObservableExtensions.html#CarinaStudio_ObservableExtensions_Subscribe_
