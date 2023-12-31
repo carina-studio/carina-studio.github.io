@@ -262,7 +262,7 @@
     <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_ScrollViewer_Visual_TimeSpan_System_Nullable_Func_System_Double_System_Double___System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView(ScrollViewer%2CVisual%2CTimeSpan%2CSystem.Nullable%7BFunc%7BSystem.Double%2CSystem.Double%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L214">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L226">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView*"></a>
   <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollIntoView_ScrollViewer_Visual_TimeSpan_System_Nullable_Func_System_Double_System_Double___System_Boolean_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView(ScrollViewer,Visual,TimeSpan,System.Nullable{Func{System.Double,System.Double}},System.Boolean)">SmoothScrollIntoView(ScrollViewer, Visual, TimeSpan, Nullable&lt;Func&lt;Double, Double&gt;&gt;, Boolean)</h4>
@@ -333,10 +333,78 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollTo_ScrollViewer_Vector_TimeSpan_System_Nullable_Func_System_Double_System_Double___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer%2CVector%2CTimeSpan%2CSystem.Nullable%7BFunc%7BSystem.Double%2CSystem.Double%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L238">View Source</a>
+  </span>
+  <a id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollTo_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo*"></a>
+  <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollTo_ScrollViewer_Vector_TimeSpan_System_Nullable_Func_System_Double_System_Double___" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer,Vector,TimeSpan,System.Nullable{Func{System.Double,System.Double}})">SmoothScrollTo(ScrollViewer, Vector, TimeSpan, Nullable&lt;Func&lt;Double, Double&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Scroll <see cref="!:ScrollViewer"></see> to given offset smoothly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SmoothScrollTo(this ScrollViewer scrollViewer, Vector offset, TimeSpan duration, Func&lt;double, double&gt;? interpolator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScrollViewer</span></td>
+        <td><span class="parametername">scrollViewer</span></td>
+        <td><p><see cref="!:ScrollViewer"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Target offset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration of smooth scrolling.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.Double</span>&gt;&gt;</td>
+        <td><span class="parametername">interpolator</span></td>
+        <td><p>Interpolator of smooth scrolling.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if smooth scrolling starts successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/carina-studio/AppBase/new/master-dev/apiSpec/new?filename=CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_ScrollViewer_Vector__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset(ScrollViewer%2CVector%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L224">View Source</a>
+    <a href="https://github.com/carina-studio/AppBase/blob/master-dev/Application.Avalonia/Controls/ScrollViewerExtensions.cs/#L248">View Source</a>
   </span>
   <a id="CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset*"></a>
   <h4 id="CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_ScrollViewer_Vector__" data-uid="CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset(ScrollViewer,Vector@)">TryGetSmoothScrollingTargetOffset(ScrollViewer, out Vector)</h4>

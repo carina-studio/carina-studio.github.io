@@ -11285,6 +11285,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollIntoView
   nameWithType: ScrollViewerExtensions.SmoothScrollIntoView
+- uid: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer,Vector,TimeSpan,System.Nullable{Func{System.Double,System.Double}})
+  name: SmoothScrollTo(ScrollViewer, Vector, TimeSpan, Nullable<Func<Double, Double>>)
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollTo_ScrollViewer_Vector_TimeSpan_System_Nullable_Func_System_Double_System_Double___
+  commentId: M:CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer,Vector,TimeSpan,System.Nullable{Func{System.Double,System.Double}})
+  name.vb: SmoothScrollTo(ScrollViewer, Vector, TimeSpan, Nullable(Of Func(Of Double, Double)))
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer, Vector, TimeSpan, System.Nullable<Func<System.Double, System.Double>>)
+  fullName.vb: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo(ScrollViewer, Vector, TimeSpan, System.Nullable(Of Func(Of System.Double, System.Double)))
+  nameWithType: ScrollViewerExtensions.SmoothScrollTo(ScrollViewer, Vector, TimeSpan, Nullable<Func<Double, Double>>)
+  nameWithType.vb: ScrollViewerExtensions.SmoothScrollTo(ScrollViewer, Vector, TimeSpan, Nullable(Of Func(Of Double, Double)))
+- uid: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo*
+  name: SmoothScrollTo
+  href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_SmoothScrollTo_
+  commentId: Overload:CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ScrollViewerExtensions.SmoothScrollTo
+  nameWithType: ScrollViewerExtensions.SmoothScrollTo
 - uid: CarinaStudio.Controls.ScrollViewerExtensions.TryGetSmoothScrollingTargetOffset(ScrollViewer,Vector@)
   name: TryGetSmoothScrollingTargetOffset(ScrollViewer, out Vector)
   href: api/CarinaStudio.Controls.ScrollViewerExtensions.html#CarinaStudio_Controls_ScrollViewerExtensions_TryGetSmoothScrollingTargetOffset_ScrollViewer_Vector__
@@ -27011,6 +27027,15 @@ references:
   fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T)(ReadOnlySpan(Of T), Action(Of IntPtr))
   nameWithType: SpanExtensions.Pin<T>(ReadOnlySpan<T>, Action<IntPtr>)
   nameWithType.vb: SpanExtensions.Pin(Of T)(ReadOnlySpan(Of T), Action(Of IntPtr))
+- uid: CarinaStudio.SpanExtensions.Pin``1(ReadOnlySpan{``0},CarinaStudio.PointerAction{``0})
+  name: Pin<T>(ReadOnlySpan<T>, PointerAction<T>)
+  href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__1_ReadOnlySpan___0__CarinaStudio_PointerAction___0__
+  commentId: M:CarinaStudio.SpanExtensions.Pin``1(ReadOnlySpan{``0},CarinaStudio.PointerAction{``0})
+  name.vb: Pin(Of T)(ReadOnlySpan(Of T), PointerAction(Of T))
+  fullName: CarinaStudio.SpanExtensions.Pin<T>(ReadOnlySpan<T>, CarinaStudio.PointerAction<T>)
+  fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T)(ReadOnlySpan(Of T), CarinaStudio.PointerAction(Of T))
+  nameWithType: SpanExtensions.Pin<T>(ReadOnlySpan<T>, PointerAction<T>)
+  nameWithType.vb: SpanExtensions.Pin(Of T)(ReadOnlySpan(Of T), PointerAction(Of T))
 - uid: CarinaStudio.SpanExtensions.Pin``1(Span{``0},Action{IntPtr,System.Int32})
   name: Pin<T>(Span<T>, Action<IntPtr, Int32>)
   href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__1_Span___0__Action_IntPtr_System_Int32__
@@ -27029,6 +27054,15 @@ references:
   fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T)(Span(Of T), Action(Of IntPtr))
   nameWithType: SpanExtensions.Pin<T>(Span<T>, Action<IntPtr>)
   nameWithType.vb: SpanExtensions.Pin(Of T)(Span(Of T), Action(Of IntPtr))
+- uid: CarinaStudio.SpanExtensions.Pin``2(ReadOnlySpan{``0},CarinaStudio.PointerInFunc{``0,``1})
+  name: Pin<T, R>(ReadOnlySpan<T>, PointerInFunc<T, R>)
+  href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__2_ReadOnlySpan___0__CarinaStudio_PointerInFunc___0___1__
+  commentId: M:CarinaStudio.SpanExtensions.Pin``2(ReadOnlySpan{``0},CarinaStudio.PointerInFunc{``0,``1})
+  name.vb: Pin(Of T, R)(ReadOnlySpan(Of T), PointerInFunc(Of T, R))
+  fullName: CarinaStudio.SpanExtensions.Pin<T, R>(ReadOnlySpan<T>, CarinaStudio.PointerInFunc<T, R>)
+  fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T, R)(ReadOnlySpan(Of T), CarinaStudio.PointerInFunc(Of T, R))
+  nameWithType: SpanExtensions.Pin<T, R>(ReadOnlySpan<T>, PointerInFunc<T, R>)
+  nameWithType.vb: SpanExtensions.Pin(Of T, R)(ReadOnlySpan(Of T), PointerInFunc(Of T, R))
 - uid: CarinaStudio.SpanExtensions.Pin``2(ReadOnlySpan{``0},Func{IntPtr,``1})
   name: Pin<T, R>(ReadOnlySpan<T>, Func<IntPtr, R>)
   href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__2_ReadOnlySpan___0__Func_IntPtr___1__
@@ -27047,6 +27081,15 @@ references:
   fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T, R)(ReadOnlySpan(Of T), Func(Of IntPtr, System.Int32, R))
   nameWithType: SpanExtensions.Pin<T, R>(ReadOnlySpan<T>, Func<IntPtr, Int32, R>)
   nameWithType.vb: SpanExtensions.Pin(Of T, R)(ReadOnlySpan(Of T), Func(Of IntPtr, Int32, R))
+- uid: CarinaStudio.SpanExtensions.Pin``2(Span{``0},CarinaStudio.PointerInFunc{``0,``1})
+  name: Pin<T, R>(Span<T>, PointerInFunc<T, R>)
+  href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__2_Span___0__CarinaStudio_PointerInFunc___0___1__
+  commentId: M:CarinaStudio.SpanExtensions.Pin``2(Span{``0},CarinaStudio.PointerInFunc{``0,``1})
+  name.vb: Pin(Of T, R)(Span(Of T), PointerInFunc(Of T, R))
+  fullName: CarinaStudio.SpanExtensions.Pin<T, R>(Span<T>, CarinaStudio.PointerInFunc<T, R>)
+  fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T, R)(Span(Of T), CarinaStudio.PointerInFunc(Of T, R))
+  nameWithType: SpanExtensions.Pin<T, R>(Span<T>, PointerInFunc<T, R>)
+  nameWithType.vb: SpanExtensions.Pin(Of T, R)(Span(Of T), PointerInFunc(Of T, R))
 - uid: CarinaStudio.SpanExtensions.Pin``2(Span{``0},Func{IntPtr,``1})
   name: Pin<T, R>(Span<T>, Func<IntPtr, R>)
   href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_Pin__2_Span___0__Func_IntPtr___1__
@@ -27065,6 +27108,22 @@ references:
   fullName.vb: CarinaStudio.SpanExtensions.Pin(Of T, R)(Span(Of T), Func(Of IntPtr, System.Int32, R))
   nameWithType: SpanExtensions.Pin<T, R>(Span<T>, Func<IntPtr, Int32, R>)
   nameWithType.vb: SpanExtensions.Pin(Of T, R)(Span(Of T), Func(Of IntPtr, Int32, R))
+- uid: CarinaStudio.SpanExtensions.PinAs*
+  name: PinAs
+  href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_PinAs_
+  commentId: Overload:CarinaStudio.SpanExtensions.PinAs
+  isSpec: "True"
+  fullName: CarinaStudio.SpanExtensions.PinAs
+  nameWithType: SpanExtensions.PinAs
+- uid: CarinaStudio.SpanExtensions.PinAs``1(Span{``0},CarinaStudio.PointerAction{``0})
+  name: PinAs<T>(Span<T>, PointerAction<T>)
+  href: api/CarinaStudio.SpanExtensions.html#CarinaStudio_SpanExtensions_PinAs__1_Span___0__CarinaStudio_PointerAction___0__
+  commentId: M:CarinaStudio.SpanExtensions.PinAs``1(Span{``0},CarinaStudio.PointerAction{``0})
+  name.vb: PinAs(Of T)(Span(Of T), PointerAction(Of T))
+  fullName: CarinaStudio.SpanExtensions.PinAs<T>(Span<T>, CarinaStudio.PointerAction<T>)
+  fullName.vb: CarinaStudio.SpanExtensions.PinAs(Of T)(Span(Of T), CarinaStudio.PointerAction(Of T))
+  nameWithType: SpanExtensions.PinAs<T>(Span<T>, PointerAction<T>)
+  nameWithType.vb: SpanExtensions.PinAs(Of T)(Span(Of T), PointerAction(Of T))
 - uid: CarinaStudio.StringExtensions
   name: StringExtensions
   href: api/CarinaStudio.StringExtensions.html
@@ -27123,6 +27182,49 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.StringExtensions.LineCount
   nameWithType: StringExtensions.LineCount
+- uid: CarinaStudio.StringExtensions.Pin(System.String,Action{IntPtr})
+  name: Pin(String, Action<IntPtr>)
+  href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_Pin_System_String_Action_IntPtr__
+  commentId: M:CarinaStudio.StringExtensions.Pin(System.String,Action{IntPtr})
+  name.vb: Pin(String, Action(Of IntPtr))
+  fullName: CarinaStudio.StringExtensions.Pin(System.String, Action<IntPtr>)
+  fullName.vb: CarinaStudio.StringExtensions.Pin(System.String, Action(Of IntPtr))
+  nameWithType: StringExtensions.Pin(String, Action<IntPtr>)
+  nameWithType.vb: StringExtensions.Pin(String, Action(Of IntPtr))
+- uid: CarinaStudio.StringExtensions.Pin(System.String,CarinaStudio.PointerAction{System.Char})
+  name: Pin(String, PointerAction<Char>)
+  href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_Pin_System_String_CarinaStudio_PointerAction_System_Char__
+  commentId: M:CarinaStudio.StringExtensions.Pin(System.String,CarinaStudio.PointerAction{System.Char})
+  name.vb: Pin(String, PointerAction(Of Char))
+  fullName: CarinaStudio.StringExtensions.Pin(System.String, CarinaStudio.PointerAction<System.Char>)
+  fullName.vb: CarinaStudio.StringExtensions.Pin(System.String, CarinaStudio.PointerAction(Of System.Char))
+  nameWithType: StringExtensions.Pin(String, PointerAction<Char>)
+  nameWithType.vb: StringExtensions.Pin(String, PointerAction(Of Char))
+- uid: CarinaStudio.StringExtensions.Pin*
+  name: Pin
+  href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_Pin_
+  commentId: Overload:CarinaStudio.StringExtensions.Pin
+  isSpec: "True"
+  fullName: CarinaStudio.StringExtensions.Pin
+  nameWithType: StringExtensions.Pin
+- uid: CarinaStudio.StringExtensions.Pin``1(System.String,CarinaStudio.PointerInFunc{System.Char,``0})
+  name: Pin<R>(String, PointerInFunc<Char, R>)
+  href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_Pin__1_System_String_CarinaStudio_PointerInFunc_System_Char___0__
+  commentId: M:CarinaStudio.StringExtensions.Pin``1(System.String,CarinaStudio.PointerInFunc{System.Char,``0})
+  name.vb: Pin(Of R)(String, PointerInFunc(Of Char, R))
+  fullName: CarinaStudio.StringExtensions.Pin<R>(System.String, CarinaStudio.PointerInFunc<System.Char, R>)
+  fullName.vb: CarinaStudio.StringExtensions.Pin(Of R)(System.String, CarinaStudio.PointerInFunc(Of System.Char, R))
+  nameWithType: StringExtensions.Pin<R>(String, PointerInFunc<Char, R>)
+  nameWithType.vb: StringExtensions.Pin(Of R)(String, PointerInFunc(Of Char, R))
+- uid: CarinaStudio.StringExtensions.Pin``1(System.String,Func{IntPtr,``0})
+  name: Pin<R>(String, Func<IntPtr, R>)
+  href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_Pin__1_System_String_Func_IntPtr___0__
+  commentId: M:CarinaStudio.StringExtensions.Pin``1(System.String,Func{IntPtr,``0})
+  name.vb: Pin(Of R)(String, Func(Of IntPtr, R))
+  fullName: CarinaStudio.StringExtensions.Pin<R>(System.String, Func<IntPtr, R>)
+  fullName.vb: CarinaStudio.StringExtensions.Pin(Of R)(System.String, Func(Of IntPtr, R))
+  nameWithType: StringExtensions.Pin<R>(String, Func<IntPtr, R>)
+  nameWithType.vb: StringExtensions.Pin(Of R)(String, Func(Of IntPtr, R))
 - uid: CarinaStudio.StringExtensions.RemoveLineBreaks(System.String,System.Boolean)
   name: RemoveLineBreaks(String, Boolean)
   href: api/CarinaStudio.StringExtensions.html#CarinaStudio_StringExtensions_RemoveLineBreaks_System_String_System_Boolean_
