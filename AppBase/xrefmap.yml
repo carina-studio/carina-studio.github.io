@@ -3827,11 +3827,11 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CancelUpdatingCommand
   nameWithType: UpdatingSession.CancelUpdatingCommand
-- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(CarinaStudio.IO.IStreamProvider)
+- uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(IStreamProvider)
   name: CreatePackageResolver(IStreamProvider)
-  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CreatePackageResolver_CarinaStudio_IO_IStreamProvider_
-  commentId: M:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(CarinaStudio.IO.IStreamProvider)
-  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(CarinaStudio.IO.IStreamProvider)
+  href: api/CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html#CarinaStudio_AutoUpdate_ViewModels_UpdatingSession_CreatePackageResolver_IStreamProvider_
+  commentId: M:CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(IStreamProvider)
+  fullName: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver(IStreamProvider)
   nameWithType: UpdatingSession.CreatePackageResolver(IStreamProvider)
 - uid: CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.CreatePackageResolver*
   name: CreatePackageResolver
@@ -13006,13 +13006,27 @@ references:
 - uid: CarinaStudio.Data.Converters.EnumConverters.Parsing
   name: Parsing
   href: api/CarinaStudio.Data.Converters.EnumConverters.html#CarinaStudio_Data_Converters_EnumConverters_Parsing
-  commentId: F:CarinaStudio.Data.Converters.EnumConverters.Parsing
+  commentId: P:CarinaStudio.Data.Converters.EnumConverters.Parsing
+  fullName: CarinaStudio.Data.Converters.EnumConverters.Parsing
+  nameWithType: EnumConverters.Parsing
+- uid: CarinaStudio.Data.Converters.EnumConverters.Parsing*
+  name: Parsing
+  href: api/CarinaStudio.Data.Converters.EnumConverters.html#CarinaStudio_Data_Converters_EnumConverters_Parsing_
+  commentId: Overload:CarinaStudio.Data.Converters.EnumConverters.Parsing
+  isSpec: "True"
   fullName: CarinaStudio.Data.Converters.EnumConverters.Parsing
   nameWithType: EnumConverters.Parsing
 - uid: CarinaStudio.Data.Converters.EnumConverters.Values
   name: Values
   href: api/CarinaStudio.Data.Converters.EnumConverters.html#CarinaStudio_Data_Converters_EnumConverters_Values
-  commentId: F:CarinaStudio.Data.Converters.EnumConverters.Values
+  commentId: P:CarinaStudio.Data.Converters.EnumConverters.Values
+  fullName: CarinaStudio.Data.Converters.EnumConverters.Values
+  nameWithType: EnumConverters.Values
+- uid: CarinaStudio.Data.Converters.EnumConverters.Values*
+  name: Values
+  href: api/CarinaStudio.Data.Converters.EnumConverters.html#CarinaStudio_Data_Converters_EnumConverters_Values_
+  commentId: Overload:CarinaStudio.Data.Converters.EnumConverters.Values
+  isSpec: "True"
   fullName: CarinaStudio.Data.Converters.EnumConverters.Values
   nameWithType: EnumConverters.Values
 - uid: CarinaStudio.Data.Converters.FilePathConverters
@@ -22647,6 +22661,156 @@ references:
   commentId: F:CarinaStudio.MacOS.NativeLibraryNames.System
   fullName: CarinaStudio.MacOS.NativeLibraryNames.System
   nameWithType: NativeLibraryNames.System
+- uid: CarinaStudio.MacOS.NativeTypeConversion
+  name: NativeTypeConversion
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html
+  commentId: T:CarinaStudio.MacOS.NativeTypeConversion
+  fullName: CarinaStudio.MacOS.NativeTypeConversion
+  nameWithType: NativeTypeConversion
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter(System.Object,Type)
+  name: FromNativeParameter(Object, Type)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromNativeParameter_System_Object_Type_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter(System.Object,Type)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter(System.Object, Type)
+  nameWithType: NativeTypeConversion.FromNativeParameter(Object, Type)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter*
+  name: FromNativeParameter
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromNativeParameter_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromNativeParameter
+  nameWithType: NativeTypeConversion.FromNativeParameter
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue(System.Byte*,System.Int32,Type,System.Int32@)
+  name: FromNativeValue(Byte*, Int32, Type, out Int32)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromNativeValue_System_Byte__System_Int32_Type_System_Int32__
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue(System.Byte*,System.Int32,Type,System.Int32@)
+  name.vb: FromNativeValue(Byte*, Int32, Type, ByRef Int32)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue(System.Byte*, System.Int32, Type, out System.Int32)
+  fullName.vb: CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue(System.Byte*, System.Int32, Type, ByRef System.Int32)
+  nameWithType: NativeTypeConversion.FromNativeValue(Byte*, Int32, Type, out Int32)
+  nameWithType.vb: NativeTypeConversion.FromNativeValue(Byte*, Int32, Type, ByRef Int32)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue*
+  name: FromNativeValue
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromNativeValue_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromNativeValue
+  nameWithType: NativeTypeConversion.FromNativeValue
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding(System.String,System.Int32@)
+  name: FromTypeEncoding(String, out Int32)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromTypeEncoding_System_String_System_Int32__
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding(System.String,System.Int32@)
+  name.vb: FromTypeEncoding(String, ByRef Int32)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding(System.String, out System.Int32)
+  fullName.vb: CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding(System.String, ByRef System.Int32)
+  nameWithType: NativeTypeConversion.FromTypeEncoding(String, out Int32)
+  nameWithType.vb: NativeTypeConversion.FromTypeEncoding(String, ByRef Int32)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding*
+  name: FromTypeEncoding
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_FromTypeEncoding_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.FromTypeEncoding
+  nameWithType: NativeTypeConversion.FromTypeEncoding
+- uid: CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize(Type)
+  name: GetNativeValueSize(Type)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_GetNativeValueSize_Type_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize(Type)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize(Type)
+  nameWithType: NativeTypeConversion.GetNativeValueSize(Type)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize*
+  name: GetNativeValueSize
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_GetNativeValueSize_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.GetNativeValueSize
+  nameWithType: NativeTypeConversion.GetNativeValueSize
+- uid: CarinaStudio.MacOS.NativeTypeConversion.IsNativeType(Type)
+  name: IsNativeType(Type)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_IsNativeType_Type_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.IsNativeType(Type)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.IsNativeType(Type)
+  nameWithType: NativeTypeConversion.IsNativeType(Type)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.IsNativeType*
+  name: IsNativeType
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_IsNativeType_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.IsNativeType
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.IsNativeType
+  nameWithType: NativeTypeConversion.IsNativeType
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter(System.Nullable{System.Object})
+  name: ToNativeParameter(Nullable<Object>)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeParameter_System_Nullable_System_Object__
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter(System.Nullable{System.Object})
+  name.vb: ToNativeParameter(Nullable(Of Object))
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter(System.Nullable<System.Object>)
+  fullName.vb: CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter(System.Nullable(Of System.Object))
+  nameWithType: NativeTypeConversion.ToNativeParameter(Nullable<Object>)
+  nameWithType.vb: NativeTypeConversion.ToNativeParameter(Nullable(Of Object))
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter*
+  name: ToNativeParameter
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeParameter_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeParameter
+  nameWithType: NativeTypeConversion.ToNativeParameter
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeType(Type)
+  name: ToNativeType(Type)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeType_Type_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToNativeType(Type)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeType(Type)
+  nameWithType: NativeTypeConversion.ToNativeType(Type)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeType*
+  name: ToNativeType
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeType_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.ToNativeType
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeType
+  nameWithType: NativeTypeConversion.ToNativeType
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue(System.Nullable{System.Object},System.Byte*)
+  name: ToNativeValue(Nullable<Object>, Byte*)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeValue_System_Nullable_System_Object__System_Byte__
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue(System.Nullable{System.Object},System.Byte*)
+  name.vb: ToNativeValue(Nullable(Of Object), Byte*)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue(System.Nullable<System.Object>, System.Byte*)
+  fullName.vb: CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue(System.Nullable(Of System.Object), System.Byte*)
+  nameWithType: NativeTypeConversion.ToNativeValue(Nullable<Object>, Byte*)
+  nameWithType.vb: NativeTypeConversion.ToNativeValue(Nullable(Of Object), Byte*)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue*
+  name: ToNativeValue
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToNativeValue_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToNativeValue
+  nameWithType: NativeTypeConversion.ToNativeValue
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(System.Object)
+  name: ToTypeEncoding(Object)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToTypeEncoding_System_Object_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(System.Object)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(System.Object)
+  nameWithType: NativeTypeConversion.ToTypeEncoding(Object)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(Type,System.Int32)
+  name: ToTypeEncoding(Type, Int32)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToTypeEncoding_Type_System_Int32_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(Type,System.Int32)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(Type, System.Int32)
+  nameWithType: NativeTypeConversion.ToTypeEncoding(Type, Int32)
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding*
+  name: ToTypeEncoding
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToTypeEncoding_
+  commentId: Overload:CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding
+  nameWithType: NativeTypeConversion.ToTypeEncoding
+- uid: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding``1(System.Int32)
+  name: ToTypeEncoding<T>(Int32)
+  href: api/CarinaStudio.MacOS.NativeTypeConversion.html#CarinaStudio_MacOS_NativeTypeConversion_ToTypeEncoding__1_System_Int32_
+  commentId: M:CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding``1(System.Int32)
+  name.vb: ToTypeEncoding(Of T)(Int32)
+  fullName: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding<T>(System.Int32)
+  fullName.vb: CarinaStudio.MacOS.NativeTypeConversion.ToTypeEncoding(Of T)(System.Int32)
+  nameWithType: NativeTypeConversion.ToTypeEncoding<T>(Int32)
+  nameWithType.vb: NativeTypeConversion.ToTypeEncoding(Of T)(Int32)
 - uid: CarinaStudio.MacOS.ObjectiveC
   name: CarinaStudio.MacOS.ObjectiveC
   href: api/CarinaStudio.MacOS.ObjectiveC.html
@@ -23031,19 +23195,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetClass
   nameWithType: Class.GetClass
-- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable(System.String)
-  name: GetClassVriable(String)
-  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetClassVriable_System_String_
-  commentId: M:CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable(System.String)
-  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable(System.String)
-  nameWithType: Class.GetClassVriable(String)
-- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable*
-  name: GetClassVriable
-  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetClassVriable_
-  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable
+- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable(System.String)
+  name: GetClassVariable(String)
+  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetClassVariable_System_String_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable(System.String)
+  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable(System.String)
+  nameWithType: Class.GetClassVariable(String)
+- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable*
+  name: GetClassVariable
+  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetClassVariable_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable
   isSpec: "True"
-  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVriable
-  nameWithType: Class.GetClassVriable
+  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetClassVariable
+  nameWithType: Class.GetClassVariable
 - uid: CarinaStudio.MacOS.ObjectiveC.Class.GetHashCode
   name: GetHashCode()
   href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetHashCode
@@ -23057,6 +23221,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetHashCode
   nameWithType: Class.GetHashCode
+- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable(System.String)
+  name: GetInstanceVariable(String)
+  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetInstanceVariable_System_String_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable(System.String)
+  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable(System.String)
+  nameWithType: Class.GetInstanceVariable(String)
+- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable*
+  name: GetInstanceVariable
+  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetInstanceVariable_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariable
+  nameWithType: Class.GetInstanceVariable
 - uid: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariables
   name: GetInstanceVariables()
   href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetInstanceVariables
@@ -23070,19 +23247,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVariables
   nameWithType: Class.GetInstanceVariables
-- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable(System.String)
-  name: GetInstanceVriable(String)
-  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetInstanceVriable_System_String_
-  commentId: M:CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable(System.String)
-  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable(System.String)
-  nameWithType: Class.GetInstanceVriable(String)
-- uid: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable*
-  name: GetInstanceVriable
-  href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetInstanceVriable_
-  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable
-  isSpec: "True"
-  fullName: CarinaStudio.MacOS.ObjectiveC.Class.GetInstanceVriable
-  nameWithType: Class.GetInstanceVriable
 - uid: CarinaStudio.MacOS.ObjectiveC.Class.GetMethod(CarinaStudio.MacOS.ObjectiveC.Selector)
   name: GetMethod(Selector)
   href: api/CarinaStudio.MacOS.ObjectiveC.Class.html#CarinaStudio_MacOS_ObjectiveC_Class_GetMethod_CarinaStudio_MacOS_ObjectiveC_Selector_
@@ -23665,6 +23829,32 @@ references:
   fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.FromHandle(Of T)(IntPtr, System.Boolean)
   nameWithType: NSObject.FromHandle<T>(IntPtr, Boolean)
   nameWithType.vb: NSObject.FromHandle(Of T)(IntPtr, Boolean)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetBooleanProperty(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetBooleanProperty_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetBooleanProperty(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty*
+  name: GetBooleanProperty
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetBooleanProperty_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetBooleanProperty
+  nameWithType: NSObject.GetBooleanProperty
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetDoubleProperty(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetDoubleProperty_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetDoubleProperty(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty*
+  name: GetDoubleProperty
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetDoubleProperty_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetDoubleProperty
+  nameWithType: NSObject.GetDoubleProperty
 - uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetHashCode
   name: GetHashCode()
   href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetHashCode
@@ -23678,6 +23868,48 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetHashCode
   nameWithType: NSObject.GetHashCode
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetInt32Property(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetInt32Property_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetInt32Property(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property*
+  name: GetInt32Property
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetInt32Property_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetInt32Property
+  nameWithType: NSObject.GetInt32Property
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetIntPtrProperty(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetIntPtrProperty_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetIntPtrProperty(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty*
+  name: GetIntPtrProperty
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetIntPtrProperty_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetIntPtrProperty
+  nameWithType: NSObject.GetIntPtrProperty
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty*
+  name: GetNSObjectProperty
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetNSObjectProperty_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty
+  nameWithType: NSObject.GetNSObjectProperty
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty``1(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetNSObjectProperty<T>(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetNSObjectProperty__1_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty``1(CarinaStudio.MacOS.ObjectiveC.Property)
+  name.vb: GetNSObjectProperty(Of T)(Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty<T>(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.GetNSObjectProperty(Of T)(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetNSObjectProperty<T>(Property)
+  nameWithType.vb: NSObject.GetNSObjectProperty(Of T)(Property)
 - uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetProperty*
   name: GetProperty
   href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetProperty_
@@ -23694,6 +23926,32 @@ references:
   fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.GetProperty(Of T)(CarinaStudio.MacOS.ObjectiveC.Property)
   nameWithType: NSObject.GetProperty<T>(Property)
   nameWithType.vb: NSObject.GetProperty(Of T)(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetSingleProperty(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetSingleProperty_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetSingleProperty(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty*
+  name: GetSingleProperty
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetSingleProperty_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetSingleProperty
+  nameWithType: NSObject.GetSingleProperty
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  name: GetUInt32Property(Property)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetUInt32Property_CarinaStudio_MacOS_ObjectiveC_Property_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property(CarinaStudio.MacOS.ObjectiveC.Property)
+  nameWithType: NSObject.GetUInt32Property(Property)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property*
+  name: GetUInt32Property
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetUInt32Property_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.GetUInt32Property
+  nameWithType: NSObject.GetUInt32Property
 - uid: CarinaStudio.MacOS.ObjectiveC.NSObject.GetVariable(IntPtr,CarinaStudio.MacOS.ObjectiveC.Variable,Type)
   name: GetVariable(IntPtr, Variable, Type)
   href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_GetVariable_IntPtr_CarinaStudio_MacOS_ObjectiveC_Variable_Type_
@@ -24048,6 +24306,48 @@ references:
   fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.SendMessageToSuper(Of T)(IntPtr, CarinaStudio.MacOS.ObjectiveC.Selector, System.Nullable(Of System.Object)())
   nameWithType: NSObject.SendMessageToSuper<T>(IntPtr, Selector, Nullable<Object>[])
   nameWithType.vb: NSObject.SendMessageToSuper(Of T)(IntPtr, Selector, Nullable(Of Object)())
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: SetProperty(Property, NSObject)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSObject.SetProperty(Property, NSObject)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Boolean)
+  name: SetProperty(Property, Boolean)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_Boolean_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Boolean)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.Boolean)
+  nameWithType: NSObject.SetProperty(Property, Boolean)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Double)
+  name: SetProperty(Property, Double)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_Double_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Double)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.Double)
+  nameWithType: NSObject.SetProperty(Property, Double)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Int32)
+  name: SetProperty(Property, Int32)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_Int32_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Int32)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.Int32)
+  nameWithType: NSObject.SetProperty(Property, Int32)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.IntPtr)
+  name: SetProperty(Property, IntPtr)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_IntPtr_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.IntPtr)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.IntPtr)
+  nameWithType: NSObject.SetProperty(Property, IntPtr)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Single)
+  name: SetProperty(Property, Single)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_Single_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.Single)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.Single)
+  nameWithType: NSObject.SetProperty(Property, Single)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.UInt32)
+  name: SetProperty(Property, UInt32)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_CarinaStudio_MacOS_ObjectiveC_Property_System_UInt32_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property,System.UInt32)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty(CarinaStudio.MacOS.ObjectiveC.Property, System.UInt32)
+  nameWithType: NSObject.SetProperty(Property, UInt32)
 - uid: CarinaStudio.MacOS.ObjectiveC.NSObject.SetProperty*
   name: SetProperty
   href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_SetProperty_
@@ -27544,6 +27844,72 @@ references:
   commentId: N:CarinaStudio.Threading
   fullName: CarinaStudio.Threading
   nameWithType: CarinaStudio.Threading
+- uid: CarinaStudio.Threading.DispatcherScheduledAction
+  name: DispatcherScheduledAction
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html
+  commentId: T:CarinaStudio.Threading.DispatcherScheduledAction
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction
+  nameWithType: DispatcherScheduledAction
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.#ctor(CarinaStudio.Threading.DispatcherSynchronizationContext,Action)
+  name: DispatcherScheduledAction(DispatcherSynchronizationContext, Action)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction__ctor_CarinaStudio_Threading_DispatcherSynchronizationContext_Action_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.#ctor(CarinaStudio.Threading.DispatcherSynchronizationContext,Action)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.DispatcherScheduledAction(CarinaStudio.Threading.DispatcherSynchronizationContext, Action)
+  nameWithType: DispatcherScheduledAction.DispatcherScheduledAction(DispatcherSynchronizationContext, Action)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.#ctor(CarinaStudio.Threading.DispatcherSynchronizationContext,Action,DispatcherPriority)
+  name: DispatcherScheduledAction(DispatcherSynchronizationContext, Action, DispatcherPriority)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction__ctor_CarinaStudio_Threading_DispatcherSynchronizationContext_Action_DispatcherPriority_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.#ctor(CarinaStudio.Threading.DispatcherSynchronizationContext,Action,DispatcherPriority)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.DispatcherScheduledAction(CarinaStudio.Threading.DispatcherSynchronizationContext, Action, DispatcherPriority)
+  nameWithType: DispatcherScheduledAction.DispatcherScheduledAction(DispatcherSynchronizationContext, Action, DispatcherPriority)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.#ctor(ISynchronizable,Action)
+  name: DispatcherScheduledAction(ISynchronizable, Action)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction__ctor_ISynchronizable_Action_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.#ctor(ISynchronizable,Action)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.DispatcherScheduledAction(ISynchronizable, Action)
+  nameWithType: DispatcherScheduledAction.DispatcherScheduledAction(ISynchronizable, Action)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.#ctor(ISynchronizable,Action,DispatcherPriority)
+  name: DispatcherScheduledAction(ISynchronizable, Action, DispatcherPriority)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction__ctor_ISynchronizable_Action_DispatcherPriority_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.#ctor(ISynchronizable,Action,DispatcherPriority)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.DispatcherScheduledAction(ISynchronizable, Action, DispatcherPriority)
+  nameWithType: DispatcherScheduledAction.DispatcherScheduledAction(ISynchronizable, Action, DispatcherPriority)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.#ctor*
+  name: DispatcherScheduledAction
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction__ctor_
+  commentId: Overload:CarinaStudio.Threading.DispatcherScheduledAction.#ctor
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.DispatcherScheduledAction
+  nameWithType: DispatcherScheduledAction.DispatcherScheduledAction
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.CancelAction(System.Object)
+  name: CancelAction(Object)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_CancelAction_System_Object_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.CancelAction(System.Object)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.CancelAction(System.Object)
+  nameWithType: DispatcherScheduledAction.CancelAction(Object)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.CancelAction*
+  name: CancelAction
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_CancelAction_
+  commentId: Overload:CarinaStudio.Threading.DispatcherScheduledAction.CancelAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.CancelAction
+  nameWithType: DispatcherScheduledAction.CancelAction
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.PostAction(SendOrPostCallback,System.Nullable{System.Object},System.Int32)
+  name: PostAction(SendOrPostCallback, Nullable<Object>, Int32)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_PostAction_SendOrPostCallback_System_Nullable_System_Object__System_Int32_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.PostAction(SendOrPostCallback,System.Nullable{System.Object},System.Int32)
+  name.vb: PostAction(SendOrPostCallback, Nullable(Of Object), Int32)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.PostAction(SendOrPostCallback, System.Nullable<System.Object>, System.Int32)
+  fullName.vb: CarinaStudio.Threading.DispatcherScheduledAction.PostAction(SendOrPostCallback, System.Nullable(Of System.Object), System.Int32)
+  nameWithType: DispatcherScheduledAction.PostAction(SendOrPostCallback, Nullable<Object>, Int32)
+  nameWithType.vb: DispatcherScheduledAction.PostAction(SendOrPostCallback, Nullable(Of Object), Int32)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.PostAction*
+  name: PostAction
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_PostAction_
+  commentId: Overload:CarinaStudio.Threading.DispatcherScheduledAction.PostAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.PostAction
+  nameWithType: DispatcherScheduledAction.PostAction
 - uid: CarinaStudio.Threading.DispatcherSynchronizationContext
   name: DispatcherSynchronizationContext
   href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html
@@ -27563,6 +27929,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.DispatcherSynchronizationContext
   nameWithType: DispatcherSynchronizationContext.DispatcherSynchronizationContext
+- uid: CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed(System.Object)
+  name: CancelDelayed(Object)
+  href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_CancelDelayed_System_Object_
+  commentId: M:CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed(System.Object)
+  fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed(System.Object)
+  nameWithType: DispatcherSynchronizationContext.CancelDelayed(Object)
+- uid: CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed*
+  name: CancelDelayed
+  href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_CancelDelayed_
+  commentId: Overload:CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.CancelDelayed
+  nameWithType: DispatcherSynchronizationContext.CancelDelayed
 - uid: CarinaStudio.Threading.DispatcherSynchronizationContext.Dispatcher
   name: Dispatcher
   href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_Dispatcher
@@ -27607,6 +27986,28 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.Post
   nameWithType: DispatcherSynchronizationContext.Post
+- uid: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(Action,DispatcherPriority,System.Int32)
+  name: PostDelayed(Action, DispatcherPriority, Int32)
+  href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_PostDelayed_Action_DispatcherPriority_System_Int32_
+  commentId: M:CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(Action,DispatcherPriority,System.Int32)
+  fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(Action, DispatcherPriority, System.Int32)
+  nameWithType: DispatcherSynchronizationContext.PostDelayed(Action, DispatcherPriority, Int32)
+- uid: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback,System.Nullable{System.Object},DispatcherPriority,System.Int32)
+  name: PostDelayed(SendOrPostCallback, Nullable<Object>, DispatcherPriority, Int32)
+  href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_PostDelayed_SendOrPostCallback_System_Nullable_System_Object__DispatcherPriority_System_Int32_
+  commentId: M:CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback,System.Nullable{System.Object},DispatcherPriority,System.Int32)
+  name.vb: PostDelayed(SendOrPostCallback, Nullable(Of Object), DispatcherPriority, Int32)
+  fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback, System.Nullable<System.Object>, DispatcherPriority, System.Int32)
+  fullName.vb: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback, System.Nullable(Of System.Object), DispatcherPriority, System.Int32)
+  nameWithType: DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback, Nullable<Object>, DispatcherPriority, Int32)
+  nameWithType.vb: DispatcherSynchronizationContext.PostDelayed(SendOrPostCallback, Nullable(Of Object), DispatcherPriority, Int32)
+- uid: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed*
+  name: PostDelayed
+  href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_PostDelayed_
+  commentId: Overload:CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherSynchronizationContext.PostDelayed
+  nameWithType: DispatcherSynchronizationContext.PostDelayed
 - uid: CarinaStudio.Threading.DispatcherSynchronizationContext.Send(Action,DispatcherPriority)
   name: Send(Action, DispatcherPriority)
   href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html#CarinaStudio_Threading_DispatcherSynchronizationContext_Send_Action_DispatcherPriority_
@@ -27733,6 +28134,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ScheduledAction.Cancel
   nameWithType: ScheduledAction.Cancel
+- uid: CarinaStudio.Threading.ScheduledAction.CancelAction(System.Object)
+  name: CancelAction(Object)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_CancelAction_System_Object_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.CancelAction(System.Object)
+  fullName: CarinaStudio.Threading.ScheduledAction.CancelAction(System.Object)
+  nameWithType: ScheduledAction.CancelAction(Object)
+- uid: CarinaStudio.Threading.ScheduledAction.CancelAction*
+  name: CancelAction
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_CancelAction_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.CancelAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.CancelAction
+  nameWithType: ScheduledAction.CancelAction
 - uid: CarinaStudio.Threading.ScheduledAction.Execute
   name: Execute()
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Execute
@@ -27772,6 +28186,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ScheduledAction.IsScheduled
   nameWithType: ScheduledAction.IsScheduled
+- uid: CarinaStudio.Threading.ScheduledAction.PostAction(SendOrPostCallback,System.Nullable{System.Object},System.Int32)
+  name: PostAction(SendOrPostCallback, Nullable<Object>, Int32)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_PostAction_SendOrPostCallback_System_Nullable_System_Object__System_Int32_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.PostAction(SendOrPostCallback,System.Nullable{System.Object},System.Int32)
+  name.vb: PostAction(SendOrPostCallback, Nullable(Of Object), Int32)
+  fullName: CarinaStudio.Threading.ScheduledAction.PostAction(SendOrPostCallback, System.Nullable<System.Object>, System.Int32)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.PostAction(SendOrPostCallback, System.Nullable(Of System.Object), System.Int32)
+  nameWithType: ScheduledAction.PostAction(SendOrPostCallback, Nullable<Object>, Int32)
+  nameWithType.vb: ScheduledAction.PostAction(SendOrPostCallback, Nullable(Of Object), Int32)
+- uid: CarinaStudio.Threading.ScheduledAction.PostAction*
+  name: PostAction
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_PostAction_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.PostAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.PostAction
+  nameWithType: ScheduledAction.PostAction
 - uid: CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)
   name: Reschedule(Int32)
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_Reschedule_System_Int32_
@@ -28025,6 +28455,15 @@ references:
   commentId: M:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.#ctor(System.Int32,System.Boolean)
   fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.FixedThreadsTaskFactory(System.Int32, System.Boolean)
   nameWithType: FixedThreadsTaskFactory.FixedThreadsTaskFactory(Int32, Boolean)
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.#ctor(System.Nullable{System.String},System.Int32,System.Boolean)
+  name: FixedThreadsTaskFactory(Nullable<String>, Int32, Boolean)
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory__ctor_System_Nullable_System_String__System_Int32_System_Boolean_
+  commentId: M:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.#ctor(System.Nullable{System.String},System.Int32,System.Boolean)
+  name.vb: FixedThreadsTaskFactory(Nullable(Of String), Int32, Boolean)
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.FixedThreadsTaskFactory(System.Nullable<System.String>, System.Int32, System.Boolean)
+  fullName.vb: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.FixedThreadsTaskFactory(System.Nullable(Of System.String), System.Int32, System.Boolean)
+  nameWithType: FixedThreadsTaskFactory.FixedThreadsTaskFactory(Nullable<String>, Int32, Boolean)
+  nameWithType.vb: FixedThreadsTaskFactory.FixedThreadsTaskFactory(Nullable(Of String), Int32, Boolean)
 - uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.#ctor*
   name: FixedThreadsTaskFactory
   href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory__ctor_
@@ -28058,6 +28497,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.MaximumConcurrencyLevel
   nameWithType: FixedThreadsTaskFactory.MaximumConcurrencyLevel
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name
+  name: Name
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory_Name
+  commentId: P:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name
+  nameWithType: FixedThreadsTaskFactory.Name
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name*
+  name: Name
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory_Name_
+  commentId: Overload:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.Name
+  nameWithType: FixedThreadsTaskFactory.Name
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString
+  name: ToString()
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory_ToString
+  commentId: M:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString()
+  nameWithType: FixedThreadsTaskFactory.ToString()
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString*
+  name: ToString
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskFactory_ToString_
+  commentId: Overload:CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskFactory.ToString
+  nameWithType: FixedThreadsTaskFactory.ToString
 - uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler
   name: FixedThreadsTaskScheduler
   href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html
@@ -28070,6 +28535,15 @@ references:
   commentId: M:CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.#ctor(System.Int32,System.Boolean)
   fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(System.Int32, System.Boolean)
   nameWithType: FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(Int32, Boolean)
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.#ctor(System.Nullable{System.String},System.Int32,System.Boolean)
+  name: FixedThreadsTaskScheduler(Nullable<String>, Int32, Boolean)
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskScheduler__ctor_System_Nullable_System_String__System_Int32_System_Boolean_
+  commentId: M:CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.#ctor(System.Nullable{System.String},System.Int32,System.Boolean)
+  name.vb: FixedThreadsTaskScheduler(Nullable(Of String), Int32, Boolean)
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(System.Nullable<System.String>, System.Int32, System.Boolean)
+  fullName.vb: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(System.Nullable(Of System.String), System.Int32, System.Boolean)
+  nameWithType: FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(Nullable<String>, Int32, Boolean)
+  nameWithType.vb: FixedThreadsTaskScheduler.FixedThreadsTaskScheduler(Nullable(Of String), Int32, Boolean)
 - uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.#ctor*
   name: FixedThreadsTaskScheduler
   href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskScheduler__ctor_
@@ -28155,6 +28629,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.MaximumConcurrencyLevel
   nameWithType: FixedThreadsTaskScheduler.MaximumConcurrencyLevel
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name
+  name: Name
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskScheduler_Name
+  commentId: P:CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name
+  nameWithType: FixedThreadsTaskScheduler.Name
+- uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name*
+  name: Name
+  href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskScheduler_Name_
+  commentId: Overload:CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.Name
+  nameWithType: FixedThreadsTaskScheduler.Name
 - uid: CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.QueueTask(Task)
   name: QueueTask(Task)
   href: api/CarinaStudio.Threading.Tasks.FixedThreadsTaskScheduler.html#CarinaStudio_Threading_Tasks_FixedThreadsTaskScheduler_QueueTask_Task_
