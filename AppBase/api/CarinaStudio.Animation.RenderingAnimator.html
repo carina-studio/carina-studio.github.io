@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RenderingAnimator | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RenderingAnimator | AppBase ">
+      
+      <meta name="description" content="General purpose animator which is synchronized with rendering event.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Animation_RenderingAnimator.md&amp;value=---%0Auid%3A%20CarinaStudio.Animation.RenderingAnimator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CarinaStudio.Animation.RenderingAnimator">
+
+
+
+  <h1 id="CarinaStudio_Animation_RenderingAnimator" data-uid="CarinaStudio.Animation.RenderingAnimator" class="text-break">
+Class RenderingAnimator  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Animation.html">Animation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Application.Avalonia.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>General purpose animator which is synchronized with rendering event.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RenderingAnimator</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RenderingAnimator</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html">ValueRenderingAnimator&lt;T&gt;</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator__ctor_" data-uid="CarinaStudio.Animation.RenderingAnimator.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator__ctor_Avalonia_Controls_TopLevel_" data-uid="CarinaStudio.Animation.RenderingAnimator.#ctor(Avalonia.Controls.TopLevel)">
+  RenderingAnimator(TopLevel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html">RenderingAnimator</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderingAnimator(TopLevel topLevel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topLevel</code> <span class="xref">TopLevel</span></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_TopLevel">TopLevel</a> to provide synchronization with rendering event.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Delay_" data-uid="CarinaStudio.Animation.RenderingAnimator.Delay*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Delay" data-uid="CarinaStudio.Animation.RenderingAnimator.Delay">
+  Delay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set duration before starting animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Delay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Duration_" data-uid="CarinaStudio.Animation.RenderingAnimator.Duration*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Duration" data-uid="CarinaStudio.Animation.RenderingAnimator.Duration">
+  Duration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set duration of animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Interpolator_" data-uid="CarinaStudio.Animation.RenderingAnimator.Interpolator*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Interpolator" data-uid="CarinaStudio.Animation.RenderingAnimator.Interpolator">
+  Interpolator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func&lt;T, TResult&gt;</a> to interpolate progress when animating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;double, double&gt; Interpolator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_IsStarted_" data-uid="CarinaStudio.Animation.RenderingAnimator.IsStarted*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_IsStarted" data-uid="CarinaStudio.Animation.RenderingAnimator.IsStarted">
+  IsStarted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether animation is started or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStarted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Progress_" data-uid="CarinaStudio.Animation.RenderingAnimator.Progress*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Progress" data-uid="CarinaStudio.Animation.RenderingAnimator.Progress">
+  Progress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get progress of current animation. The default range is [0.0, 1.0].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Progress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_TopLevel_" data-uid="CarinaStudio.Animation.RenderingAnimator.TopLevel*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_TopLevel" data-uid="CarinaStudio.Animation.RenderingAnimator.TopLevel">
+  TopLevel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_TopLevel">TopLevel</a> to provide synchronization with rendering event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TopLevel TopLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TopLevel</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Cancel_" data-uid="CarinaStudio.Animation.RenderingAnimator.Cancel*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Cancel" data-uid="CarinaStudio.Animation.RenderingAnimator.Cancel">
+  Cancel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel current animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_OnCancelled_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnCancelled*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_OnCancelled_System_EventArgs_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnCancelled(System.EventArgs)">
+  OnCancelled(EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Cancelled">Cancelled</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCancelled(EventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_OnCompleted_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnCompleted*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_OnCompleted_System_EventArgs_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnCompleted(System.EventArgs)">
+  OnCompleted(EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Completed">Completed</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCompleted(EventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_OnProgressChanged_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnProgressChanged*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_OnProgressChanged_System_EventArgs_" data-uid="CarinaStudio.Animation.RenderingAnimator.OnProgressChanged(System.EventArgs)">
+  OnProgressChanged(EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_ProgressChanged">ProgressChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnProgressChanged(EventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_Start_" data-uid="CarinaStudio.Animation.RenderingAnimator.Start*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Start" data-uid="CarinaStudio.Animation.RenderingAnimator.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start animation. The current animation will be cancelled before starting new one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_VerifyAccess_" data-uid="CarinaStudio.Animation.RenderingAnimator.VerifyAccess*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_VerifyAccess" data-uid="CarinaStudio.Animation.RenderingAnimator.VerifyAccess">
+  VerifyAccess()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Throw exception if current thread is not the UI thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void VerifyAccess()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync_" data-uid="CarinaStudio.Animation.RenderingAnimator.WaitForCompletionAsync*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync" data-uid="CarinaStudio.Animation.RenderingAnimator.WaitForCompletionAsync">
+  WaitForCompletionAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wait for completion or cancellation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WaitForCompletionAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of waiting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync_" data-uid="CarinaStudio.Animation.RenderingAnimator.WaitForCompletionAsync*"></a>
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.Animation.RenderingAnimator.WaitForCompletionAsync(System.Threading.CancellationToken)">
+  WaitForCompletionAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wait for completion or cancellation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WaitForCompletionAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>Cancellation token.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of waiting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Cancelled" data-uid="CarinaStudio.Animation.RenderingAnimator.Cancelled">
+  Cancelled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when current animation has been cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? Cancelled</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_Completed" data-uid="CarinaStudio.Animation.RenderingAnimator.Completed">
+  Completed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when current animation has just completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? Completed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Animation_RenderingAnimator_ProgressChanged" data-uid="CarinaStudio.Animation.RenderingAnimator.ProgressChanged">
+  ProgressChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Progress">Progress</a> changed when animating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? ProgressChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/RenderingAnimator.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

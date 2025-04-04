@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DoubleRenderingAnimator | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DoubleRenderingAnimator | AppBase ">
+      
+      <meta name="description" content="to animate .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Animation_DoubleRenderingAnimator.md&amp;value=---%0Auid%3A%20CarinaStudio.Animation.DoubleRenderingAnimator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CarinaStudio.Animation.DoubleRenderingAnimator">
+
+
+
+  <h1 id="CarinaStudio_Animation_DoubleRenderingAnimator" data-uid="CarinaStudio.Animation.DoubleRenderingAnimator" class="text-break">
+Class DoubleRenderingAnimator  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/DoubleRenderingAnimator.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Animation.html">Animation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Application.Avalonia.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html">RenderingAnimator</a> to animate <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DoubleRenderingAnimator : ValueRenderingAnimator&lt;double&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html">RenderingAnimator</a></div>
+      <div><a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html">ValueRenderingAnimator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</div>
+      <div><span class="xref">DoubleRenderingAnimator</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_EndValue">ValueRenderingAnimator&lt;double&gt;.EndValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_OnCancelled_System_EventArgs_">ValueRenderingAnimator&lt;double&gt;.OnCancelled(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_OnCompleted_System_EventArgs_">ValueRenderingAnimator&lt;double&gt;.OnCompleted(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_OnProgressChanged_System_EventArgs_">ValueRenderingAnimator&lt;double&gt;.OnProgressChanged(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_StartValue">ValueRenderingAnimator&lt;double&gt;.StartValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.ValueRenderingAnimator-1.html#CarinaStudio_Animation_ValueRenderingAnimator_1_Value">ValueRenderingAnimator&lt;double&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Cancel">RenderingAnimator.Cancel()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Cancelled">RenderingAnimator.Cancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Completed">RenderingAnimator.Completed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Delay">RenderingAnimator.Delay</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Duration">RenderingAnimator.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Interpolator">RenderingAnimator.Interpolator</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_IsStarted">RenderingAnimator.IsStarted</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Progress">RenderingAnimator.Progress</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_ProgressChanged">RenderingAnimator.ProgressChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_Start">RenderingAnimator.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_TopLevel">RenderingAnimator.TopLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_VerifyAccess">RenderingAnimator.VerifyAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync">RenderingAnimator.WaitForCompletionAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.Animation.RenderingAnimator.html#CarinaStudio_Animation_RenderingAnimator_WaitForCompletionAsync_System_Threading_CancellationToken_">RenderingAnimator.WaitForCompletionAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_Animation_DoubleRenderingAnimator__ctor_" data-uid="CarinaStudio.Animation.DoubleRenderingAnimator.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Animation_DoubleRenderingAnimator__ctor_Avalonia_Controls_TopLevel_System_Double_System_Double_" data-uid="CarinaStudio.Animation.DoubleRenderingAnimator.#ctor(Avalonia.Controls.TopLevel,System.Double,System.Double)">
+  DoubleRenderingAnimator(TopLevel, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/DoubleRenderingAnimator.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Animation.DoubleRenderingAnimator.html">DoubleRenderingAnimator</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DoubleRenderingAnimator(TopLevel topLevel, double startValue, double endValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topLevel</code> <span class="xref">TopLevel</span></dt>
+    <dd><p><span class="xref">Avalonia.Controls.TopLevel</span> to provide synchronization with rendering event.</p>
+</dd>
+    <dt><code>startValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Start value.</p>
+</dd>
+    <dt><code>endValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>End value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Animation_DoubleRenderingAnimator_GenerateValue_" data-uid="CarinaStudio.Animation.DoubleRenderingAnimator.GenerateValue*"></a>
+
+  <h3 id="CarinaStudio_Animation_DoubleRenderingAnimator_GenerateValue_System_Double_" data-uid="CarinaStudio.Animation.DoubleRenderingAnimator.GenerateValue(System.Double)">
+  GenerateValue(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/DoubleRenderingAnimator.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate value by progress of animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override double GenerateValue(double progress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>progress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Progress.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Animation/DoubleRenderingAnimator.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
