@@ -1,905 +1,937 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PersistentSettings
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PersistentSettings
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class PersistentSettings | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PersistentSettings | AppBase ">
+      
+      <meta name="description" content="Base implementation of  which can be loaded/saved from/to file. This is thread-safe class.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Configuration.PersistentSettings">
-  
-  
-  <h1 id="CarinaStudio_Configuration_PersistentSettings" data-uid="CarinaStudio.Configuration.PersistentSettings" class="text-break">Class PersistentSettings
+
+        <article data-uid="CarinaStudio.Configuration.PersistentSettings">
+
+
+
+  <h1 id="CarinaStudio_Configuration_PersistentSettings" data-uid="CarinaStudio.Configuration.PersistentSettings" class="text-break">
+Class PersistentSettings  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p>Base implementation of <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> which can be loaded/saved from/to file. This is thread-safe class.</p>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Configuration.html">Configuration</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Configuration.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Base implementation of <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> which can be loaded/saved from/to file. This is thread-safe class.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PersistentSettings</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Configuration.html">CarinaStudio.Configuration</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Configuration.dll</h6>
-  <h5 id="CarinaStudio_Configuration_PersistentSettings_syntax">Syntax</h5>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PersistentSettings : object, ISettings</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PersistentSettings : ISettings</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettingsSerializer_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.%23ctor(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.ISettingsSerializer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L42">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings__ctor_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettingsSerializer)">PersistentSettings(ISettings, ISettingsSerializer)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PersistentSettings(ISettings template, ISettingsSerializer serializer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">template</span></td>
-        <td><p>Template settings to initialize values.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></td>
-        <td><span class="parametername">serializer</span></td>
-        <td><p>Settings serializer.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.%23ctor(CarinaStudio.Configuration.ISettingsSerializer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L31">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings__ctor_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)">PersistentSettings(ISettingsSerializer)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PersistentSettings(ISettingsSerializer serializer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></td>
-        <td><span class="parametername">serializer</span></td>
-        <td><p>Settings serializer.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Keys.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L74">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Keys_" data-uid="CarinaStudio.Configuration.PersistentSettings.Keys*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Keys" data-uid="CarinaStudio.Configuration.PersistentSettings.Keys">Keys</h4>
-  <div class="markdown level1 summary"><p>Get all setting keys.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SettingKey&gt; Keys { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Version.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L334">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Version_" data-uid="CarinaStudio.Configuration.PersistentSettings.Version*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Version" data-uid="CarinaStudio.Configuration.PersistentSettings.Version">Version</h4>
-  <div class="markdown level1 summary"><p>Get version of settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract int Version { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L64">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_GetRawValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.GetRawValue*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)">GetRawValue(SettingKey)</h4>
-  <div class="markdown level1 summary"><p>Get raw value stored in settings no matter what type of value specified by key.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object? GetRawValue(SettingKey key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><p>Raw setting value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Load_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Load(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L112">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Load_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Load_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load(Stream)">Load(Stream)</h4>
-  <div class="markdown level1 summary"><p>Load settings from given stream synchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Load(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see> to load settings from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Load_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Load(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L81">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Load_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Load_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load(System.String)">Load(String)</h4>
-  <div class="markdown level1 summary"><p>Load settings from file synchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Load(string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Name of file to load settings from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_LoadAsync_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.LoadAsync(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L160">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync(Stream)">LoadAsync(Stream)</h4>
-  <div class="markdown level1 summary"><p>Load settings from given stream asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task LoadAsync(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see> to load settings from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p><see cref="!:Task"></see> of asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L152">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)">LoadAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Load settings from file asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task LoadAsync(string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Name of file to load settings from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p><see cref="!:Task"></see> of asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_OnUpgrade_System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L167">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_OnUpgrade_" data-uid="CarinaStudio.Configuration.PersistentSettings.OnUpgrade*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_OnUpgrade_System_Int32_" data-uid="CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)">OnUpgrade(Int32)</h4>
-  <div class="markdown level1 summary"><p>Called to upgrade settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void OnUpgrade(int oldVersion)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">oldVersion</span></td>
-        <td><p>Old version to upgrade from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_ResetValue_CarinaStudio_Configuration_SettingKey_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L175">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_ResetValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.ResetValue*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_ResetValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)">ResetValue(SettingKey)</h4>
-  <div class="markdown level1 summary"><p>Reset setting to default value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetValue(SettingKey key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Save_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Save(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L262">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Save_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Save_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save(Stream)">Save(Stream)</h4>
-  <div class="markdown level1 summary"><p>Save settings to given stream synchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see> to save settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_Save_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.Save(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L219">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_Save_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_Save_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save(System.String)">Save(String)</h4>
-  <div class="markdown level1 summary"><p>Save settings to file synchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save(string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Name of file to save settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_SaveAsync_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.SaveAsync(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L282">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync(Stream)">SaveAsync(Stream)</h4>
-  <div class="markdown level1 summary"><p>Save settings to given stream asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task SaveAsync(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p><see cref="!:Stream"></see> to save settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p><see cref="!:Task"></see> of asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L274">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)">SaveAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Save settings to file asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task SaveAsync(string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Name of file to save settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p><see cref="!:Task"></see> of asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L290">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_PersistentSettings_SetValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.SetValue*"></a>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_" data-uid="CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)">SetValue(SettingKey, Object)</h4>
-  <div class="markdown level1 summary"><p>Set value of setting.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetValue(SettingKey key, object value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key og setting.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>New value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_SettingChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.SettingChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L182">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_SettingChanged" data-uid="CarinaStudio.Configuration.PersistentSettings.SettingChanged">SettingChanged</h4>
-  <div class="markdown level1 summary"><p>Raised after changing setting.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangedEventArgs&gt;? SettingChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CarinaStudio.EventHandler</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings_SettingChanging.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings.SettingChanging%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L200">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Configuration_PersistentSettings_SettingChanging" data-uid="CarinaStudio.Configuration.PersistentSettings.SettingChanging">SettingChanging</h4>
-  <div class="markdown level1 summary"><p>Raised before changing setting.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangingEventArgs&gt;? SettingChanging</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CarinaStudio.EventHandler</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangingEventArgs.html">SettingChangingEventArgs</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PersistentSettings</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
-      <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_">SettingsExtensions.GetValueOrDefault(ISettings?, SettingKey)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0__">SettingsExtensions.GetValueOrDefault&lt;T&gt;(ISettings?, SettingKey&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_IsFalse_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__">SettingsExtensions.IsFalse(ISettings, SettingKey&lt;bool&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_IsTrue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__">SettingsExtensions.IsTrue(ISettings, SettingKey&lt;bool&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_">SettingsExtensions.ResetValues(ISettings)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__">SettingsExtensions.ResetValues(ISettings, IEnumerable&lt;SettingKey&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_SetValue__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0____0_">SettingsExtensions.SetValue&lt;T&gt;(ISettings, SettingKey&lt;T&gt;, T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ToggleValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__">SettingsExtensions.ToggleValue(ISettings, SettingKey&lt;bool&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettings_">SettingsExtensions.ValuesEqual(ISettings, ISettings)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.Configuration.SettingsExtensions.html#CarinaStudio_Configuration_SettingsExtensions_VerifyValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_">SettingsExtensions.VerifyValue(ISettings, SettingKey)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings__ctor_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettingsSerializer)">
+  PersistentSettings(ISettings, ISettingsSerializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PersistentSettings(ISettings template, ISettingsSerializer serializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>template</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p>Template settings to initialize values.</p>
+</dd>
+    <dt><code>serializer</code> <a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></dt>
+    <dd><p>Settings serializer.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings__ctor_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings__ctor_CarinaStudio_Configuration_ISettingsSerializer_" data-uid="CarinaStudio.Configuration.PersistentSettings.#ctor(CarinaStudio.Configuration.ISettingsSerializer)">
+  PersistentSettings(ISettingsSerializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Configuration.PersistentSettings.html">PersistentSettings</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PersistentSettings(ISettingsSerializer serializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serializer</code> <a class="xref" href="CarinaStudio.Configuration.ISettingsSerializer.html">ISettingsSerializer</a></dt>
+    <dd><p>Settings serializer.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Keys_" data-uid="CarinaStudio.Configuration.PersistentSettings.Keys*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Keys" data-uid="CarinaStudio.Configuration.PersistentSettings.Keys">
+  Keys
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all setting keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SettingKey&gt; Keys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Version_" data-uid="CarinaStudio.Configuration.PersistentSettings.Version*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Version" data-uid="CarinaStudio.Configuration.PersistentSettings.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get version of settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int Version { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_GetRawValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.GetRawValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_GetRawValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.PersistentSettings.GetRawValue(CarinaStudio.Configuration.SettingKey)">
+  GetRawValue(SettingKey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get raw value stored in settings no matter what type of value specified by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object? GetRawValue(SettingKey key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Raw setting value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Load_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Load_System_IO_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load(System.IO.Stream)">
+  Load(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load settings from given stream synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a> to load settings from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Load_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Load_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.Load(System.String)">
+  Load(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load settings from file synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of file to load settings from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_IO_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.IO.Stream)">
+  LoadAsync(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load settings from given stream asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a> to load settings from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> of asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_LoadAsync_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.LoadAsync(System.String)">
+  LoadAsync(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load settings from file asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LoadAsync(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of file to load settings from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> of asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_OnUpgrade_" data-uid="CarinaStudio.Configuration.PersistentSettings.OnUpgrade*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_OnUpgrade_System_Int32_" data-uid="CarinaStudio.Configuration.PersistentSettings.OnUpgrade(System.Int32)">
+  OnUpgrade(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called to upgrade settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnUpgrade(int oldVersion)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldVersion</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Old version to upgrade from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_ResetValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.ResetValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_ResetValue_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.PersistentSettings.ResetValue(CarinaStudio.Configuration.SettingKey)">
+  ResetValue(SettingKey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset setting to default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetValue(SettingKey key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Save_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Save_System_IO_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save(System.IO.Stream)">
+  Save(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save settings to given stream synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a> to save settings.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_Save_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_Save_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.Save(System.String)">
+  Save(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save settings to file synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of file to save settings.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_IO_Stream_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)">
+  SaveAsync(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save settings to given stream asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a> to save settings.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> of asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_" data-uid="CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)">
+  SaveAsync(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save settings to file asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveAsync(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of file to save settings.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> of asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_PersistentSettings_SetValue_" data-uid="CarinaStudio.Configuration.PersistentSettings.SetValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_SetValue_CarinaStudio_Configuration_SettingKey_System_Object_" data-uid="CarinaStudio.Configuration.PersistentSettings.SetValue(CarinaStudio.Configuration.SettingKey,System.Object)">
+  SetValue(SettingKey, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set value of setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Try using generic SetValue() instead, unless you don&#39;t know the type of value.&quot;)]
+public void SetValue(SettingKey key, object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></dt>
+    <dd><p>Key og setting.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>New value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_SettingChanged" data-uid="CarinaStudio.Configuration.PersistentSettings.SettingChanged">
+  SettingChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised after changing setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangedEventArgs&gt;? SettingChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Configuration_PersistentSettings_SettingChanging" data-uid="CarinaStudio.Configuration.PersistentSettings.SettingChanging">
+  SettingChanging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised before changing setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangingEventArgs&gt;? SettingChanging</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingChangingEventArgs.html">SettingChangingEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_PersistentSettings.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.PersistentSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/PersistentSettings.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Configuration/PersistentSettings.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

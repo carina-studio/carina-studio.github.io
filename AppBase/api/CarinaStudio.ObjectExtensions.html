@@ -1,2339 +1,1750 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ObjectExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ObjectExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class ObjectExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ObjectExtensions | AppBase ">
+      
+      <meta name="description" content="Extensions for all types.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_ObjectExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.ObjectExtensions">
-  
-  
-  <h1 id="CarinaStudio_ObjectExtensions" data-uid="CarinaStudio.ObjectExtensions" class="text-break">Class ObjectExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extensions for all types.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ObjectExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_ObjectExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ObjectExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object%2CSystem.String%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L203">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,Action)">AddWeakEventHandler(Object, String, Action)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler(this object target, string eventName, Action handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object%2CSystem.String%2CCarinaStudio.EventHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L181">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler(System.Object,System.String,CarinaStudio.EventHandler)">AddWeakEventHandler(Object, String, EventHandler)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler(this object target, string eventName, EventHandler handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">CarinaStudio.EventHandler</span></td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler%60%601(System.Object%2CSystem.String%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L214">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,Action{``0})">AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArg&gt;(this object target, string eventName, Action&lt;TArg&gt; handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;TArg&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TArg</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler%60%601(System.Object%2CSystem.String%2CCarinaStudio.EventHandler%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L192">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(System.Object,System.String,CarinaStudio.EventHandler{``0})">AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArgs&gt;(this object target, string eventName, EventHandler&lt;TArgs&gt; handler)
-    where TArgs : EventArgs</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">CarinaStudio.EventHandler</span>&lt;TArgs&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TArgs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler%60%602(System.Object%2CSystem.String%2CAction%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L225">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``2(System.Object,System.String,Action{``0,``1})">AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArg1, TArg2&gt;(this object target, string eventName, Action&lt;TArg1, TArg2&gt; handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;TArg1, TArg2&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TArg1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TArg2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AddWeakEventHandler%60%603(System.Object%2CSystem.String%2CAction%7B%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L236">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``3(System.Object,System.String,Action{``0,``1,``2})">AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add weak event handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(this object target, string eventName, Action&lt;TArg1, TArg2, TArg3&gt; handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p><see cref="!:System.Object"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>Name of event.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;TArg1, TArg2, TArg3&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td><p>Event handler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><p><see cref="!:IDisposable"></see> which represents added weak event handler. You can call <see cref="!:IDisposable.Dispose"></see> to remove weak event handler explicitly.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TArg1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TArg2</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TArg3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Also__1___0_Action___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Also%60%601(%60%600%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L277">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Also__1___0_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Also``1(``0,Action{``0})">Also&lt;T&gt;(T, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, Action&lt;T&gt; action)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Also__1___0_CarinaStudio_RefAction___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Also%60%601(%60%600%2CCarinaStudio.RefAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L247">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Also__1___0_CarinaStudio_RefAction___0__" data-uid="CarinaStudio.ObjectExtensions.Also``1(``0,CarinaStudio.RefAction{``0})">Also&lt;T&gt;(T, RefAction&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, RefAction&lt;T&gt; action)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefAction-1.html">RefAction</a>&lt;T&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Also__1_System_Nullable___0__CarinaStudio_RefAction_System_Nullable___0___.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Also%60%601(System.Nullable%7B%60%600%7D%2CCarinaStudio.RefAction%7BSystem.Nullable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L262">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Also__1_System_Nullable___0__CarinaStudio_RefAction_System_Nullable___0___" data-uid="CarinaStudio.ObjectExtensions.Also``1(System.Nullable{``0},CarinaStudio.RefAction{System.Nullable{``0}})">Also&lt;T&gt;(Nullable&lt;T&gt;, RefAction&lt;Nullable&lt;T&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T? Also&lt;T&gt;(this T? value, RefAction&lt;T?&gt; action)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefAction-1.html">RefAction</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
-        <td><p>Value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AlsoAsync__1___0_CarinaStudio_RefInFunc___0_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AlsoAsync%60%601(%60%600%2CCarinaStudio.RefInFunc%7B%60%600%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L292">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AlsoAsync__1___0_CarinaStudio_RefInFunc___0_Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(``0,CarinaStudio.RefInFunc{``0,Task})">AlsoAsync&lt;T&gt;(T, RefInFunc&lt;T, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, RefInFunc&lt;T, Task&gt; action)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefInFunc-2.html">RefInFunc</a>&lt;T, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Asynchronous action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;T&gt;</td>
-        <td><p>Task of asynchronous action. The result value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AlsoAsync%60%601(%60%600%2CFunc%7B%60%600%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L322">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(``0,Func{``0,Task})">AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, Func&lt;T, Task&gt; action)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Asynchronous action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;T&gt;</td>
-        <td><p>Task of asynchronous action. The result value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AlsoAsync__1_System_Nullable___0__CarinaStudio_RefInFunc_System_Nullable___0__Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AlsoAsync%60%601(System.Nullable%7B%60%600%7D%2CCarinaStudio.RefInFunc%7BSystem.Nullable%7B%60%600%7D%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L307">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AlsoAsync__1_System_Nullable___0__CarinaStudio_RefInFunc_System_Nullable___0__Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(System.Nullable{``0},CarinaStudio.RefInFunc{System.Nullable{``0},Task})">AlsoAsync&lt;T&gt;(Nullable&lt;T&gt;, RefInFunc&lt;Nullable&lt;T&gt;, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;T?&gt; AlsoAsync&lt;T&gt;(this T? value, RefInFunc&lt;T?, Task&gt; action)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefInFunc-2.html">RefInFunc</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Asynchronous action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><p>Task of asynchronous action. The result value which is same as <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_AsNonNull__1___0_.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.AsNonNull%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L336">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_AsNonNull_" data-uid="CarinaStudio.ObjectExtensions.AsNonNull*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_AsNonNull__1___0_" data-uid="CarinaStudio.ObjectExtensions.AsNonNull``1(``0)">AsNonNull&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Treat given nullable value as non-null value, or throw <see cref="!:NullReferenceException"></see>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T AsNonNull&lt;T&gt;(this T obj)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Given nullable value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Non-null value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Let__1___0_Action___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Let%60%601(%60%600%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L346">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Let__1___0_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Let``1(``0,Action{``0})">Let&lt;T&gt;(T, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Let&lt;T&gt;(this T value, Action&lt;T&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Let%60%602(%60%600%2CCarinaStudio.RefOutFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L370">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.ObjectExtensions.Let``2(``0,CarinaStudio.RefOutFunc{``0,``1})">Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value, and return a reference to custom variable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ref R Let&lt;T, R&gt;(this T value, RefOutFunc&lt;T, R&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefOutFunc-2.html">RefOutFunc</a>&lt;T, R&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Reference to custom variable.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Let%60%602(%60%600%2CFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L358">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.Let``2(``0,Func{``0,``1})">Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform action on the given value, and return a custom value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Let&lt;T, R&gt;(this T value, Func&lt;T, R&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Custom return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.LetAsync%60%601(%60%600%2CFunc%7B%60%600%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L381">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_LetAsync_" data-uid="CarinaStudio.ObjectExtensions.LetAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__" data-uid="CarinaStudio.ObjectExtensions.LetAsync``1(``0,Func{``0,Task})">LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task LetAsync&lt;T&gt;(this T value, Func&lt;T, Task&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Asynchronous action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>Task of asynchronous action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.LetAsync%60%602(%60%600%2CFunc%7B%60%600%2CTask%7B%60%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L393">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_LetAsync_" data-uid="CarinaStudio.ObjectExtensions.LetAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LetAsync``2(``0,Func{``0,Task{``1}})">LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return a custom value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; LetAsync&lt;T, R&gt;(this T value, Func&lt;T, Task&lt;R&gt;&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Asynchronous action to perform on <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Task of asynchronous action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of return value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Lock%60%601(%60%600%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L404">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Lock``1(``0,Action{``0})">Lock&lt;T&gt;(T, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and perform action before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Lock&lt;T&gt;(this T obj, Action&lt;T&gt; action)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Lock%60%602(%60%600%2CCarinaStudio.RefOutFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L496">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,CarinaStudio.RefOutFunc{``0,``1})">Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate reference to value before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;T, R&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefOutFunc-2.html">RefOutFunc</a>&lt;T, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Lock%60%602(%60%600%2CCarinaStudio.RefOutFunc%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L450">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,CarinaStudio.RefOutFunc{``1})">Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate reference to value before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;R&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefOutFunc-1.html">RefOutFunc</a>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Lock%60%602(%60%600%2CFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L473">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,Func{``0,``1})">Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;T, R&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.Lock%60%602(%60%600%2CFunc%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L427">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,Func{``1})">Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;R&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.LockAsync%60%601(%60%600%2CFunc%7B%60%600%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L518">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__" data-uid="CarinaStudio.ObjectExtensions.LockAsync``1(``0,Func{``0,Task})">LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and perform asynchronous action before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task LockAsync&lt;T&gt;(this T obj, Func&lt;T, Task&gt; action)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>Task of asynchronous action to generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.LockAsync%60%602(%60%600%2CFunc%7B%60%600%2CTask%7B%60%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L564">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LockAsync``2(``0,Func{``0,Task{``1}})">LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value asynchronously before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;T, Task&lt;R&gt;&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Task of generating value asynchronously.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.LockAsync%60%602(%60%600%2CFunc%7BTask%7B%60%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L541">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LockAsync``2(``0,Func{Task{``1}})">LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value asynchronously before releasing lock.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;Task&lt;R&gt;&gt; func)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object to acquire lock on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Task of generating value asynchronously.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of given object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Nullable_System_Object__Action___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.TryCastAndRun%60%601(System.Nullable%7BSystem.Object%7D%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L586">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_TryCastAndRun_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Nullable_System_Object__Action___0__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun``1(System.Nullable{System.Object},Action{``0})">TryCastAndRun&lt;T&gt;(Nullable&lt;Object&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Try casting given object to target type then perform the action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryCastAndRun&lt;T&gt;(this object? obj, Action&lt;T&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Nullable_System_Object__Func___0___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.TryCastAndRun%60%602(System.Nullable%7BSystem.Object%7D%2CFunc%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L606">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_TryCastAndRun_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Nullable_System_Object__Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun``2(System.Nullable{System.Object},Func{``0,``1})">TryCastAndRun&lt;T, R&gt;(Nullable&lt;Object&gt;, Func&lt;T, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Try casting given object to target type then generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R TryCastAndRun&lt;T, R&gt;(this object? obj, Func&lt;T, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Target type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Nullable_System_Object__Func___0_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.TryCastAndRunAsync%60%601(System.Nullable%7BSystem.Object%7D%2CFunc%7B%60%600%2CTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L622">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Nullable_System_Object__Func___0_Task__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync``1(System.Nullable{System.Object},Func{``0,Task})">TryCastAndRunAsync&lt;T&gt;(Nullable&lt;Object&gt;, Func&lt;T, Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Try casting given object to target type then perform an asynchronous action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;bool&gt; TryCastAndRunAsync&lt;T&gt;(this object? obj, Func&lt;T, Task&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>Task of performing action. The result is True if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Nullable_System_Object__Func___0_Task___1___.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions.TryCastAndRunAsync%60%602(System.Nullable%7BSystem.Object%7D%2CFunc%7B%60%600%2CTask%7B%60%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L642">View Source</a>
-  </span>
-  <a id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync*"></a>
-  <h4 id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Nullable_System_Object__Func___0_Task___1___" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync``2(System.Nullable{System.Object},Func{``0,Task{``1}})">TryCastAndRunAsync&lt;T, R&gt;(Nullable&lt;Object&gt;, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Try casting given object to target type then generate a value asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; TryCastAndRunAsync&lt;T, R&gt;(this object? obj, Func&lt;T, Task&lt;R&gt;&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>Object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value if object can be casted to target type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Task of generating value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Target type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ObjectExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.ObjectExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ObjectExtensions.cs/#L13" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.ObjectExtensions">
+
+
+
+  <h1 id="CarinaStudio_ObjectExtensions" data-uid="CarinaStudio.ObjectExtensions" class="text-break">
+Class ObjectExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extensions for all types.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ObjectExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ObjectExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(``0,System.String,System.Action)">
+  AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject&gt;(this TObject target, string eventName, Action handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``1(``0,System.String,System.EventHandler)">
+  AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject&gt;(this TObject target, string eventName, EventHandler handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``2(``0,System.String,System.Action{``1})">
+  AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject, TArg&gt;(this TObject target, string eventName, Action&lt;TArg&gt; handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TArg&gt;</dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+    <dt><code>TArg</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``2(``0,System.String,System.EventHandler{``1})">
+  AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject, TArgs&gt;(this TObject target, string eventName, EventHandler&lt;TArgs&gt; handler) where TArgs : EventArgs</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;TArgs&gt;</dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+    <dt><code>TArgs</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``3(``0,System.String,System.Action{``1,``2})">
+  AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(this TObject target, string eventName, Action&lt;TArg1, TArg2&gt; handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;TArg1, TArg2&gt;</dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+    <dt><code>TArg1</code></dt>
+    <dd></dd>
+    <dt><code>TArg2</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AddWeakEventHandler_" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__" data-uid="CarinaStudio.ObjectExtensions.AddWeakEventHandler``4(``0,System.String,System.Action{``1,``2,``3})">
+  AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add weak event handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(this TObject target, string eventName, Action&lt;TArg1, TArg2, TArg3&gt; handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">TObject</span></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of event.</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;TArg1, TArg2, TArg3&gt;</dt>
+    <dd><p>Event handler.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> which represents added weak event handler. You can call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> to remove weak event handler explicitly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObject</code></dt>
+    <dd></dd>
+    <dt><code>TArg1</code></dt>
+    <dd></dd>
+    <dt><code>TArg2</code></dt>
+    <dd></dd>
+    <dt><code>TArg3</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AlsoAsync__1_System_Nullable___0__CarinaStudio_RefInFunc_System_Nullable___0__System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(System.Nullable{``0},CarinaStudio.RefInFunc{System.Nullable{``0},System.Threading.Tasks.Task})">
+  AlsoAsync&lt;T&gt;(T?, RefInFunc&lt;T?, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T?&gt; AlsoAsync&lt;T&gt;(this T? value, RefInFunc&lt;T?, Task&gt; action) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> T?</dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.RefInFunc-2.html">RefInFunc</a>&lt;T?, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T?&gt;</dt>
+    <dd><p>Task of asynchronous action. The result value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AlsoAsync__1___0_CarinaStudio_RefInFunc___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(``0,CarinaStudio.RefInFunc{``0,System.Threading.Tasks.Task})">
+  AlsoAsync&lt;T&gt;(T, RefInFunc&lt;T, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, RefInFunc&lt;T, Task&gt; action) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.RefInFunc-2.html">RefInFunc</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd><p>Task of asynchronous action. The result value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AlsoAsync_" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.AlsoAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
+  AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; AlsoAsync&lt;T&gt;(this T value, Func&lt;T, Task&gt; action) where T : class?</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd><p>Task of asynchronous action. The result value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Also__1_System_Nullable___0__CarinaStudio_RefAction_System_Nullable___0___" data-uid="CarinaStudio.ObjectExtensions.Also``1(System.Nullable{``0},CarinaStudio.RefAction{System.Nullable{``0}})">
+  Also&lt;T&gt;(T?, RefAction&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T? Also&lt;T&gt;(this T? value, RefAction&lt;T?&gt; action) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> T?</dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.RefAction-1.html">RefAction</a>&lt;T?&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>T?</dt>
+    <dd><p>Value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Also__1___0_CarinaStudio_RefAction___0__" data-uid="CarinaStudio.ObjectExtensions.Also``1(``0,CarinaStudio.RefAction{``0})">
+  Also&lt;T&gt;(T, RefAction&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, RefAction&lt;T&gt; action) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.RefAction-1.html">RefAction</a>&lt;T&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Also_" data-uid="CarinaStudio.ObjectExtensions.Also*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Also``1(``0,System.Action{``0})">
+  Also&lt;T&gt;(T, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value, and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Also&lt;T&gt;(this T value, Action&lt;T&gt; action) where T : class?</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Value which is same as <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_AsNonNull_" data-uid="CarinaStudio.ObjectExtensions.AsNonNull*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_AsNonNull__1___0_" data-uid="CarinaStudio.ObjectExtensions.AsNonNull``1(``0)">
+  AsNonNull&lt;T&gt;(T?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Treat given nullable value as non-null value, or throw <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AsNonNull&lt;T&gt;(this T? obj) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Given nullable value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Non-null value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LetAsync_" data-uid="CarinaStudio.ObjectExtensions.LetAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.LetAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
+  LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task LetAsync&lt;T&gt;(this T value, Func&lt;T, Task&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of asynchronous action.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LetAsync_" data-uid="CarinaStudio.ObjectExtensions.LetAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LetAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform asynchronous action on the given value, and return a custom value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; LetAsync&lt;T, R&gt;(this T value, Func&lt;T, Task&lt;R&gt;&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Asynchronous action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Task of asynchronous action.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given value.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of return value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Let``1(``0,System.Action{``0})">
+  Let&lt;T&gt;(T, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Let&lt;T&gt;(this T value, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.ObjectExtensions.Let``2(``0,CarinaStudio.RefOutFunc{``0,``1})">
+  Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value, and return a reference to custom variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Let&lt;T, R&gt;(this T value, RefOutFunc&lt;T, R&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.RefOutFunc-2.html">RefOutFunc</a>&lt;T, R&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Reference to custom variable.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given value.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of return value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Let_" data-uid="CarinaStudio.ObjectExtensions.Let*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.Let``2(``0,System.Func{``0,``1})">
+  Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Perform action on the given value, and return a custom value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Let&lt;T, R&gt;(this T value, Func&lt;T, R&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Given value.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, R&gt;</dt>
+    <dd><p>Action to perform on <code class="paramref">value</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Custom return value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given value.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of return value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.LockAsync``1(``0,System.Func{System.Threading.Tasks.Task})">
+  LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L603"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and perform asynchronous action before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task LockAsync&lt;T&gt;(this T obj, Func&lt;Task&gt; action) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of asynchronous action to generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.LockAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
+  LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L640"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and perform asynchronous action before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task LockAsync&lt;T&gt;(this T obj, Func&lt;T, Task&gt; action) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of asynchronous action to generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LockAsync``2(``0,System.Func{System.Threading.Tasks.Task{``1}})">
+  LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L678"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value asynchronously before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;Task&lt;R&gt;&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Task of generating value asynchronously.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_LockAsync_" data-uid="CarinaStudio.ObjectExtensions.LockAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.ObjectExtensions.LockAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L715"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value asynchronously before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; LockAsync&lt;T, R&gt;(this T obj, Func&lt;T, Task&lt;R&gt;&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Task of generating value asynchronously.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_" data-uid="CarinaStudio.ObjectExtensions.Lock``1(``0,System.Action)">
+  Lock&lt;T&gt;(T, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and perform action before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Lock&lt;T&gt;(this T obj, Action action) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__" data-uid="CarinaStudio.ObjectExtensions.Lock``1(``0,System.Action{``0})">
+  Lock&lt;T&gt;(T, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L418"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and perform action before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Lock&lt;T&gt;(this T obj, Action&lt;T&gt; action) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,CarinaStudio.RefOutFunc{``0,``1})">
+  Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L567"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate reference to value before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;T, R&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.RefOutFunc-2.html">RefOutFunc</a>&lt;T, R&gt;</dt>
+    <dd><p>Function to generate reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,CarinaStudio.RefOutFunc{``1})">
+  Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate reference to value before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Lock&lt;T, R&gt;(this T obj, RefOutFunc&lt;R&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.RefOutFunc-1.html">RefOutFunc</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``0,``1})">
+  Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;T, R&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_Lock_" data-uid="CarinaStudio.ObjectExtensions.Lock*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__" data-uid="CarinaStudio.ObjectExtensions.Lock``2(``0,System.Func{``1})">
+  Lock&lt;T, R&gt;(T, Func&lt;R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acquire lock on given object and generate value before releasing lock.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Lock&lt;T, R&gt;(this T obj, Func&lt;R&gt; func) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object to acquire lock on.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of given object.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync``1(System.Object,System.Func{``0,System.Threading.Tasks.Task})">
+  TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L787"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try casting given object to target type then perform an asynchronous action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;bool&gt; TryCastAndRunAsync&lt;T&gt;(this object? obj, Func&lt;T, Task&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Object.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Action to perform if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Task of performing action. The result is True if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Target type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRunAsync``2(System.Object,System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try casting given object to target type then generate a value asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; TryCastAndRunAsync&lt;T, R&gt;(this object? obj, Func&lt;T, Task&lt;R&gt;&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Object.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Function to generate value if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Task of generating value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Target type.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_TryCastAndRun_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun``1(System.Object,System.Action{``0})">
+  TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L751"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try casting given object to target type then perform the action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCastAndRun&lt;T&gt;(this object? obj, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Object.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>Action to perform if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Target type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ObjectExtensions_TryCastAndRun_" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun*"></a>
+
+  <h3 id="CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__" data-uid="CarinaStudio.ObjectExtensions.TryCastAndRun``2(System.Object,System.Func{``0,``1})">
+  TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L771"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try casting given object to target type then generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R? TryCastAndRun&lt;T, R&gt;(this object? obj, Func&lt;T, R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Object.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, R&gt;</dt>
+    <dd><p>Function to generate value if object can be casted to target type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Target type.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/ObjectExtensions.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,256 +1,398 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SetExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SetExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class SetExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SetExtensions | AppBase ">
+      
+      <meta name="description" content="Extensions for .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Collections_SetExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.SetExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Collections.SetExtensions">
-  
-  
-  <h1 id="CarinaStudio_Collections_SetExtensions" data-uid="CarinaStudio.Collections.SetExtensions" class="text-break">Class SetExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:ISet&lt;T>"></see>.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SetExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Collections.html">CarinaStudio.Collections</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Collections_SetExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SetExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Collections_SetExtensions_AddAll__1_ISet___0__IEnumerable___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.SetExtensions.AddAll%60%601(ISet%7B%60%600%7D%2CIEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Collections/SetExtensions.cs/#L16">View Source</a>
-  </span>
-  <a id="CarinaStudio_Collections_SetExtensions_AddAll_" data-uid="CarinaStudio.Collections.SetExtensions.AddAll*"></a>
-  <h4 id="CarinaStudio_Collections_SetExtensions_AddAll__1_ISet___0__IEnumerable___0__" data-uid="CarinaStudio.Collections.SetExtensions.AddAll``1(ISet{``0},IEnumerable{``0})">AddAll&lt;T&gt;(ISet&lt;T&gt;, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add all given elements to the set.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddAll&lt;T&gt;(this ISet&lt;T&gt; set, IEnumerable&lt;T&gt; elements)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ISet</span>&lt;T&gt;</td>
-        <td><span class="parametername">set</span></td>
-        <td><p><see cref="!:ISet&lt;T>"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td><span class="parametername">elements</span></td>
-        <td><p>Elements to add.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Collections_SetExtensions_AsReadOnly__1_ISet___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.SetExtensions.AsReadOnly%60%601(ISet%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Collections/SetExtensions.cs/#L29">View Source</a>
-  </span>
-  <a id="CarinaStudio_Collections_SetExtensions_AsReadOnly_" data-uid="CarinaStudio.Collections.SetExtensions.AsReadOnly*"></a>
-  <h4 id="CarinaStudio_Collections_SetExtensions_AsReadOnly__1_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.AsReadOnly``1(ISet{``0})">AsReadOnly&lt;T&gt;(ISet&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Make <see cref="!:ISet&lt;T>"></see> as read-only.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ISet&lt;T&gt; AsReadOnly&lt;T&gt;(this ISet&lt;T&gt; set)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ISet</span>&lt;T&gt;</td>
-        <td><span class="parametername">set</span></td>
-        <td><p><see cref="!:ISet&lt;T>"></see>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ISet</span>&lt;T&gt;</td>
-        <td><p>Read-only <see cref="!:ISet&lt;T>"></see>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Collections_SetExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Collections.SetExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Collections/SetExtensions.cs/#L8" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.Collections.SetExtensions">
+
+
+
+  <h1 id="CarinaStudio_Collections_SetExtensions" data-uid="CarinaStudio.Collections.SetExtensions" class="text-break">
+Class SetExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Collections.html">Collections</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extensions for <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SetExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SetExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_AddAll_" data-uid="CarinaStudio.Collections.SetExtensions.AddAll*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_AddAll__1_System_Collections_Generic_ISet___0__System_Collections_Generic_IEnumerable___0__" data-uid="CarinaStudio.Collections.SetExtensions.AddAll``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.IEnumerable{``0})">
+  AddAll&lt;T&gt;(ISet&lt;T&gt;, IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add all given elements to the set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddAll&lt;T&gt;(this ISet&lt;T&gt; set, IEnumerable&lt;T&gt; elements)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a>.</p>
+</dd>
+    <dt><code>elements</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>Elements to add.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_AsReadOnly_" data-uid="CarinaStudio.Collections.SetExtensions.AsReadOnly*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_AsReadOnly__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.AsReadOnly``1(System.Collections.Generic.ISet{``0})">
+  AsReadOnly&lt;T&gt;(ISet&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a> as read-only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISet&lt;T&gt; AsReadOnly&lt;T&gt;(this ISet&lt;T&gt; set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p>Read-only <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.ISet{``0})">
+  IsEmpty&lt;T&gt;(ISet&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this ISet&lt;T&gt; set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNotEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.ISet{``0})">
+  IsNotEmpty&lt;T&gt;(ISet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is not empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(ISet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is not empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.ISet{``0})">
+  IsNullOrEmpty&lt;T&gt;(ISet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether given set is null/empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(ISet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is null or empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

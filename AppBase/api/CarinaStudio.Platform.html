@@ -1,1018 +1,1023 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Platform
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Platform
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class Platform | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Platform | AppBase ">
+      
+      <meta name="description" content="Utility class to provide platform specific functions.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Platform.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Platform">
-  
-  
-  <h1 id="CarinaStudio_Platform" data-uid="CarinaStudio.Platform" class="text-break">Class Platform
-  </h1>
-  <div class="markdown level0 summary"><p>Utility class to provide platform specific functions.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Platform</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Platform_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Platform : object</code></pre>
-  </div>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsAndroid.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsAndroid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L104">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsAndroid_" data-uid="CarinaStudio.Platform.IsAndroid*"></a>
-  <h4 id="CarinaStudio_Platform_IsAndroid" data-uid="CarinaStudio.Platform.IsAndroid">IsAndroid</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is Android of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsAndroid { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsGnome.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsGnome%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L110">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsGnome_" data-uid="CarinaStudio.Platform.IsGnome*"></a>
-  <h4 id="CarinaStudio_Platform_IsGnome" data-uid="CarinaStudio.Platform.IsGnome">IsGnome</h4>
-  <div class="markdown level1 summary"><p>Check whether the desktop environment is GNOME or not if current operating system is Linux.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsGnome { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsIOS.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsIOS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L117">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsIOS_" data-uid="CarinaStudio.Platform.IsIOS*"></a>
-  <h4 id="CarinaStudio_Platform_IsIOS" data-uid="CarinaStudio.Platform.IsIOS">IsIOS</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is iOS of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsIOS { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsLinux.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsLinux%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L124">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsLinux_" data-uid="CarinaStudio.Platform.IsLinux*"></a>
-  <h4 id="CarinaStudio_Platform_IsLinux" data-uid="CarinaStudio.Platform.IsLinux">IsLinux</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is Linux of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsLinux { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="CarinaStudio_Platform_IsLinux_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Please noted that the value is also True on Android platform.</p>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsMacOS.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsMacOS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L130">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsMacOS_" data-uid="CarinaStudio.Platform.IsMacOS*"></a>
-  <h4 id="CarinaStudio_Platform_IsMacOS" data-uid="CarinaStudio.Platform.IsMacOS">IsMacOS</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is macOS of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsMacOS { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsNotAndroid.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsNotAndroid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L136">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsNotAndroid_" data-uid="CarinaStudio.Platform.IsNotAndroid*"></a>
-  <h4 id="CarinaStudio_Platform_IsNotAndroid" data-uid="CarinaStudio.Platform.IsNotAndroid">IsNotAndroid</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is not Android of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotAndroid { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsNotIOS.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsNotIOS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L142">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsNotIOS_" data-uid="CarinaStudio.Platform.IsNotIOS*"></a>
-  <h4 id="CarinaStudio_Platform_IsNotIOS" data-uid="CarinaStudio.Platform.IsNotIOS">IsNotIOS</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is not iOS of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotIOS { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsNotLinux.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsNotLinux%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L148">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsNotLinux_" data-uid="CarinaStudio.Platform.IsNotLinux*"></a>
-  <h4 id="CarinaStudio_Platform_IsNotLinux" data-uid="CarinaStudio.Platform.IsNotLinux">IsNotLinux</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is not Linux of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotLinux { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsNotMacOS.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsNotMacOS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L154">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsNotMacOS_" data-uid="CarinaStudio.Platform.IsNotMacOS*"></a>
-  <h4 id="CarinaStudio_Platform_IsNotMacOS" data-uid="CarinaStudio.Platform.IsNotMacOS">IsNotMacOS</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is not macOS of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotMacOS { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsNotWindows.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsNotWindows%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L160">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsNotWindows_" data-uid="CarinaStudio.Platform.IsNotWindows*"></a>
-  <h4 id="CarinaStudio_Platform_IsNotWindows" data-uid="CarinaStudio.Platform.IsNotWindows">IsNotWindows</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is not Windows of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotWindows { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsOpeningFileManagerSupported.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsOpeningFileManagerSupported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L166">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsOpeningFileManagerSupported_" data-uid="CarinaStudio.Platform.IsOpeningFileManagerSupported*"></a>
-  <h4 id="CarinaStudio_Platform_IsOpeningFileManagerSupported" data-uid="CarinaStudio.Platform.IsOpeningFileManagerSupported">IsOpeningFileManagerSupported</h4>
-  <div class="markdown level1 summary"><p>Check whether opening system file manager is supported or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsOpeningFileManagerSupported { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsOpeningLinkSupported.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsOpeningLinkSupported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L189">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsOpeningLinkSupported_" data-uid="CarinaStudio.Platform.IsOpeningLinkSupported*"></a>
-  <h4 id="CarinaStudio_Platform_IsOpeningLinkSupported" data-uid="CarinaStudio.Platform.IsOpeningLinkSupported">IsOpeningLinkSupported</h4>
-  <div class="markdown level1 summary"><p>Check whether opening URI by default browser is supported on current platform or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsOpeningLinkSupported { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsWindows.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsWindows%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L205">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsWindows_" data-uid="CarinaStudio.Platform.IsWindows*"></a>
-  <h4 id="CarinaStudio_Platform_IsWindows" data-uid="CarinaStudio.Platform.IsWindows">IsWindows</h4>
-  <div class="markdown level1 summary"><p>Check whether current operating system is Windows of not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWindows { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsWindows10OrAbove.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsWindows10OrAbove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L211">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsWindows10OrAbove_" data-uid="CarinaStudio.Platform.IsWindows10OrAbove*"></a>
-  <h4 id="CarinaStudio_Platform_IsWindows10OrAbove" data-uid="CarinaStudio.Platform.IsWindows10OrAbove">IsWindows10OrAbove</h4>
-  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 10+ or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWindows10OrAbove { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsWindows11OrAbove.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsWindows11OrAbove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L217">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsWindows11OrAbove_" data-uid="CarinaStudio.Platform.IsWindows11OrAbove*"></a>
-  <h4 id="CarinaStudio_Platform_IsWindows11OrAbove" data-uid="CarinaStudio.Platform.IsWindows11OrAbove">IsWindows11OrAbove</h4>
-  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 11+ or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWindows11OrAbove { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_IsWindows8OrAbove.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.IsWindows8OrAbove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L223">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_IsWindows8OrAbove_" data-uid="CarinaStudio.Platform.IsWindows8OrAbove*"></a>
-  <h4 id="CarinaStudio_Platform_IsWindows8OrAbove" data-uid="CarinaStudio.Platform.IsWindows8OrAbove">IsWindows8OrAbove</h4>
-  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 8+ or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWindows8OrAbove { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_LinuxDesktop.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.LinuxDesktop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L229">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_LinuxDesktop_" data-uid="CarinaStudio.Platform.LinuxDesktop*"></a>
-  <h4 id="CarinaStudio_Platform_LinuxDesktop" data-uid="CarinaStudio.Platform.LinuxDesktop">LinuxDesktop</h4>
-  <div class="markdown level1 summary"><p>Get current desktop environment running on Linux.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LinuxDesktop LinuxDesktop { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.LinuxDesktop.html">LinuxDesktop</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_LinuxDistribution.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.LinuxDistribution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L262">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_LinuxDistribution_" data-uid="CarinaStudio.Platform.LinuxDistribution*"></a>
-  <h4 id="CarinaStudio_Platform_LinuxDistribution" data-uid="CarinaStudio.Platform.LinuxDistribution">LinuxDistribution</h4>
-  <div class="markdown level1 summary"><p>Get Linux distribution if current operating system is Linux.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LinuxDistribution LinuxDistribution { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.LinuxDistribution.html">LinuxDistribution</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_WindowsVersion.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.WindowsVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L447">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_WindowsVersion_" data-uid="CarinaStudio.Platform.WindowsVersion*"></a>
-  <h4 id="CarinaStudio_Platform_WindowsVersion" data-uid="CarinaStudio.Platform.WindowsVersion">WindowsVersion</h4>
-  <div class="markdown level1 summary"><p>Get version of Windows currently running on.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static WindowsVersion WindowsVersion { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.WindowsVersion.html">WindowsVersion</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_GetInstalledRuntimeVersion_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L30">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersion_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersion*"></a>
-  <h4 id="CarinaStudio_Platform_GetInstalledRuntimeVersion_System_Boolean_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)">GetInstalledRuntimeVersion(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Version? GetInstalledRuntimeVersion(bool stableVersionOnly = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">stableVersionOnly</span></td>
-        <td><p>True to include stable version only.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Version</span>&gt;</td>
-        <td><p>Installed .NET Runtime version, or null if .NET Runtime is not installed on device.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L87">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync*"></a>
-  <h4 id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)">GetInstalledRuntimeVersionAsync(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;Version?&gt; GetInstalledRuntimeVersionAsync(bool stableVersionOnly = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">stableVersionOnly</span></td>
-        <td><p>True to include stable version only.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">Version</span>&gt;&gt;</td>
-        <td><p>Task of getting version. The result will be null if .NET Runtime is not installed on device.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_CancellationToken_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L97">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync*"></a>
-  <h4 id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_CancellationToken_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean,CancellationToken)">GetInstalledRuntimeVersionAsync(Boolean, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;Version?&gt; GetInstalledRuntimeVersionAsync(bool stableVersionOnly, CancellationToken cancellationToken)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">stableVersionOnly</span></td>
-        <td><p>True to include stable version only.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Cancellation token.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">Version</span>&gt;&gt;</td>
-        <td><p>Task of getting version. The result will be null if .NET Runtime is not installed on device.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_OpenFileManager_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.OpenFileManager(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L328">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_OpenFileManager_" data-uid="CarinaStudio.Platform.OpenFileManager*"></a>
-  <h4 id="CarinaStudio_Platform_OpenFileManager_System_String_" data-uid="CarinaStudio.Platform.OpenFileManager(System.String)">OpenFileManager(String)</h4>
-  <div class="markdown level1 summary"><p>Open system file manager and show given file or directory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void OpenFileManager(string path)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
-        <td><p>Path of file or directory to show.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_OpenLink_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.OpenLink(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L412">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_OpenLink_" data-uid="CarinaStudio.Platform.OpenLink*"></a>
-  <h4 id="CarinaStudio_Platform_OpenLink_System_String_" data-uid="CarinaStudio.Platform.OpenLink(System.String)">OpenLink(String)</h4>
-  <div class="markdown level1 summary"><p>Open given URI by default browser.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool OpenLink(string uri)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">uri</span></td>
-        <td><p>URI to open.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if URI opened successfully.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform_OpenLink_Uri_.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform.OpenLink(Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L420">View Source</a>
-  </span>
-  <a id="CarinaStudio_Platform_OpenLink_" data-uid="CarinaStudio.Platform.OpenLink*"></a>
-  <h4 id="CarinaStudio_Platform_OpenLink_Uri_" data-uid="CarinaStudio.Platform.OpenLink(Uri)">OpenLink(Uri)</h4>
-  <div class="markdown level1 summary"><p>Open given <see cref="!:Uri"></see> by default browser.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool OpenLink(Uri uri)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Uri</span></td>
-        <td><span class="parametername">uri</span></td>
-        <td><p><see cref="!:Uri"></see> to open.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if URI opened successfully.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Platform.md&amp;value=---%0Auid%3A%20CarinaStudio.Platform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Platform.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.Platform">
+
+
+
+  <h1 id="CarinaStudio_Platform" data-uid="CarinaStudio.Platform" class="text-break">
+Class Platform  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Utility class to provide platform specific functions.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Platform</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Platform</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_Platform_IsAndroid_" data-uid="CarinaStudio.Platform.IsAndroid*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsAndroid" data-uid="CarinaStudio.Platform.IsAndroid">
+  IsAndroid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is Android of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAndroid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsGnome_" data-uid="CarinaStudio.Platform.IsGnome*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsGnome" data-uid="CarinaStudio.Platform.IsGnome">
+  IsGnome
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the desktop environment is GNOME or not if current operating system is Linux.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use LinuxDesktop instead.&quot;)]
+public static bool IsGnome { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsIOS_" data-uid="CarinaStudio.Platform.IsIOS*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsIOS" data-uid="CarinaStudio.Platform.IsIOS">
+  IsIOS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is iOS of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsIOS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsLinux_" data-uid="CarinaStudio.Platform.IsLinux*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsLinux" data-uid="CarinaStudio.Platform.IsLinux">
+  IsLinux
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is Linux of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLinux { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Platform_IsLinux_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Please noted that the value is also True on Android platform.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Platform_IsMacOS_" data-uid="CarinaStudio.Platform.IsMacOS*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsMacOS" data-uid="CarinaStudio.Platform.IsMacOS">
+  IsMacOS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is macOS of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMacOS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsNotAndroid_" data-uid="CarinaStudio.Platform.IsNotAndroid*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsNotAndroid" data-uid="CarinaStudio.Platform.IsNotAndroid">
+  IsNotAndroid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is not Android of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotAndroid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsNotIOS_" data-uid="CarinaStudio.Platform.IsNotIOS*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsNotIOS" data-uid="CarinaStudio.Platform.IsNotIOS">
+  IsNotIOS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is not iOS of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotIOS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsNotLinux_" data-uid="CarinaStudio.Platform.IsNotLinux*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsNotLinux" data-uid="CarinaStudio.Platform.IsNotLinux">
+  IsNotLinux
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is not Linux of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotLinux { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsNotMacOS_" data-uid="CarinaStudio.Platform.IsNotMacOS*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsNotMacOS" data-uid="CarinaStudio.Platform.IsNotMacOS">
+  IsNotMacOS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is not macOS of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotMacOS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsNotWindows_" data-uid="CarinaStudio.Platform.IsNotWindows*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsNotWindows" data-uid="CarinaStudio.Platform.IsNotWindows">
+  IsNotWindows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is not Windows of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotWindows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsOpeningFileManagerSupported_" data-uid="CarinaStudio.Platform.IsOpeningFileManagerSupported*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsOpeningFileManagerSupported" data-uid="CarinaStudio.Platform.IsOpeningFileManagerSupported">
+  IsOpeningFileManagerSupported
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether opening system file manager is supported or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOpeningFileManagerSupported { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsOpeningLinkSupported_" data-uid="CarinaStudio.Platform.IsOpeningLinkSupported*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsOpeningLinkSupported" data-uid="CarinaStudio.Platform.IsOpeningLinkSupported">
+  IsOpeningLinkSupported
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether opening URI by default browser is supported on current platform or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOpeningLinkSupported { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsWindows_" data-uid="CarinaStudio.Platform.IsWindows*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsWindows" data-uid="CarinaStudio.Platform.IsWindows">
+  IsWindows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current operating system is Windows of not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWindows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsWindows10OrAbove_" data-uid="CarinaStudio.Platform.IsWindows10OrAbove*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsWindows10OrAbove" data-uid="CarinaStudio.Platform.IsWindows10OrAbove">
+  IsWindows10OrAbove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 10+ or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWindows10OrAbove { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsWindows11OrAbove_" data-uid="CarinaStudio.Platform.IsWindows11OrAbove*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsWindows11OrAbove" data-uid="CarinaStudio.Platform.IsWindows11OrAbove">
+  IsWindows11OrAbove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 11+ or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWindows11OrAbove { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_IsWindows8OrAbove_" data-uid="CarinaStudio.Platform.IsWindows8OrAbove*"></a>
+
+  <h3 id="CarinaStudio_Platform_IsWindows8OrAbove" data-uid="CarinaStudio.Platform.IsWindows8OrAbove">
+  IsWindows8OrAbove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the version of Windows is Windows 8+ or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWindows8OrAbove { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_LinuxDesktop_" data-uid="CarinaStudio.Platform.LinuxDesktop*"></a>
+
+  <h3 id="CarinaStudio_Platform_LinuxDesktop" data-uid="CarinaStudio.Platform.LinuxDesktop">
+  LinuxDesktop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get current desktop environment running on Linux.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LinuxDesktop LinuxDesktop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.LinuxDesktop.html">LinuxDesktop</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_LinuxDistribution_" data-uid="CarinaStudio.Platform.LinuxDistribution*"></a>
+
+  <h3 id="CarinaStudio_Platform_LinuxDistribution" data-uid="CarinaStudio.Platform.LinuxDistribution">
+  LinuxDistribution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Linux distribution if current operating system is Linux.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LinuxDistribution LinuxDistribution { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.LinuxDistribution.html">LinuxDistribution</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_WindowsVersion_" data-uid="CarinaStudio.Platform.WindowsVersion*"></a>
+
+  <h3 id="CarinaStudio_Platform_WindowsVersion" data-uid="CarinaStudio.Platform.WindowsVersion">
+  WindowsVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L448"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get version of Windows currently running on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WindowsVersion WindowsVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.WindowsVersion.html">WindowsVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersion_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersion*"></a>
+
+  <h3 id="CarinaStudio_Platform_GetInstalledRuntimeVersion_System_Boolean_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersion(System.Boolean)">
+  GetInstalledRuntimeVersion(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version? GetInstalledRuntimeVersion(bool stableVersionOnly = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stableVersionOnly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to include stable version only.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a></dt>
+    <dd><p>Installed .NET Runtime version, or null if .NET Runtime is not installed on device.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync*"></a>
+
+  <h3 id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean)">
+  GetInstalledRuntimeVersionAsync(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Version?&gt; GetInstalledRuntimeVersionAsync(bool stableVersionOnly = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stableVersionOnly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to include stable version only.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a>&gt;</dt>
+    <dd><p>Task of getting version. The result will be null if .NET Runtime is not installed on device.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync*"></a>
+
+  <h3 id="CarinaStudio_Platform_GetInstalledRuntimeVersionAsync_System_Boolean_System_Threading_CancellationToken_" data-uid="CarinaStudio.Platform.GetInstalledRuntimeVersionAsync(System.Boolean,System.Threading.CancellationToken)">
+  GetInstalledRuntimeVersionAsync(bool, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the latest version of .NET Runtime installed on device</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Version?&gt; GetInstalledRuntimeVersionAsync(bool stableVersionOnly, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stableVersionOnly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to include stable version only.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>Cancellation token.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a>&gt;</dt>
+    <dd><p>Task of getting version. The result will be null if .NET Runtime is not installed on device.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_OpenFileManager_" data-uid="CarinaStudio.Platform.OpenFileManager*"></a>
+
+  <h3 id="CarinaStudio_Platform_OpenFileManager_System_String_" data-uid="CarinaStudio.Platform.OpenFileManager(System.String)">
+  OpenFileManager(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Open system file manager and show given file or directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OpenFileManager(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path of file or directory to show.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_OpenLink_" data-uid="CarinaStudio.Platform.OpenLink*"></a>
+
+  <h3 id="CarinaStudio_Platform_OpenLink_System_String_" data-uid="CarinaStudio.Platform.OpenLink(System.String)">
+  OpenLink(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Open given URI by default browser.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool OpenLink(string uri)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>URI to open.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if URI opened successfully.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Platform_OpenLink_" data-uid="CarinaStudio.Platform.OpenLink*"></a>
+
+  <h3 id="CarinaStudio_Platform_OpenLink_System_Uri_" data-uid="CarinaStudio.Platform.OpenLink(System.Uri)">
+  OpenLink(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Open given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a> by default browser.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool OpenLink(Uri uri)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a> to open.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if URI opened successfully.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Platform.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

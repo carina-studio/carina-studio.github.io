@@ -1,949 +1,1808 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Application
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Application
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class Application | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Application | AppBase ">
+      
+      <meta name="description" content="Implementation of  based-on .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Android_Application.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Android.Application">
-  
-  
-  <h1 id="CarinaStudio_Android_Application" data-uid="CarinaStudio.Android.Application" class="text-break">Class Application
+
+        <article data-uid="CarinaStudio.Android.Application">
+
+
+
+  <h1 id="CarinaStudio_Android_Application" data-uid="CarinaStudio.Android.Application" class="text-break">
+Class Application  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p>Implementation of <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> based-on <see cref="!:global::Android.App.Application"></see>.</p>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Android.html">Android</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Application.Android.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Implementation of <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> based-on <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application">Application</a>.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Application</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.Android.IAndroidApplication.html">IAndroidApplication</a></div>
-    <div><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></div>
-    <div><span class="xref">INotifyPropertyChanged</span></div>
-    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
-    <div><span class="xref">ISynchronizable</span></div>
-    <div><a class="xref" href="CarinaStudio.Android.IContextObject.html">IContextObject</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Android.html">CarinaStudio.Android</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.Android.dll</h6>
-  <h5 id="CarinaStudio_Android_Application_syntax">Syntax</h5>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Application : Android.App.Application, IAndroidApplication, IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable, IContextObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Application : Application, IComponentCallbacks2, IComponentCallbacks, IJavaObject, IJavaPeerable, IDisposable, IAndroidApplication, IApplication, INotifyPropertyChanged, IThreadDependent, ISynchronizable, IContextObject</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application__ctor_IntPtr_JniHandleOwnership_.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.%23ctor(IntPtr%2CJniHandleOwnership)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L41">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application__ctor_" data-uid="CarinaStudio.Android.Application.#ctor*"></a>
-  <h4 id="CarinaStudio_Android_Application__ctor_IntPtr_JniHandleOwnership_" data-uid="CarinaStudio.Android.Application.#ctor(IntPtr,JniHandleOwnership)">Application(IntPtr, JniHandleOwnership)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Application(IntPtr javaReference, JniHandleOwnership transfer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IntPtr</span></td>
-        <td><span class="parametername">javaReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">JniHandleOwnership</span></td>
-        <td><span class="parametername">transfer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_Assembly.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.Assembly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L50">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_Assembly_" data-uid="CarinaStudio.Android.Application.Assembly*"></a>
-  <h4 id="CarinaStudio_Android_Application_Assembly" data-uid="CarinaStudio.Android.Application.Assembly">Assembly</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Assembly Assembly { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Assembly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_CultureInfo.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.CultureInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L63">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_CultureInfo_" data-uid="CarinaStudio.Android.Application.CultureInfo*"></a>
-  <h4 id="CarinaStudio_Android_Application_CultureInfo" data-uid="CarinaStudio.Android.Application.CultureInfo">CultureInfo</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CultureInfo CultureInfo { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CultureInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_Current.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L69">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_Current_" data-uid="CarinaStudio.Android.Application.Current*"></a>
-  <h4 id="CarinaStudio_Android_Application_Current" data-uid="CarinaStudio.Android.Application.Current">Current</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance of current process.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Application Current { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Android.Application.html">Application</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_CurrentOrNull.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.CurrentOrNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L75">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_CurrentOrNull_" data-uid="CarinaStudio.Android.Application.CurrentOrNull*"></a>
-  <h4 id="CarinaStudio_Android_Application_CurrentOrNull" data-uid="CarinaStudio.Android.Application.CurrentOrNull">CurrentOrNull</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance of current process. Return Null if there is no instance created in current process.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Application CurrentOrNull { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Android.Application.html">Application</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_IsDebuggable.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.IsDebuggable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L104">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_IsDebuggable_" data-uid="CarinaStudio.Android.Application.IsDebuggable*"></a>
-  <h4 id="CarinaStudio_Android_Application_IsDebuggable" data-uid="CarinaStudio.Android.Application.IsDebuggable">IsDebuggable</h4>
-  <div class="markdown level1 summary"><p>Check whether the process is debuggable or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDebuggable { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_Logger.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.Logger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L114">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_Logger_" data-uid="CarinaStudio.Android.Application.Logger*"></a>
-  <h4 id="CarinaStudio_Android_Application_Logger" data-uid="CarinaStudio.Android.Application.Logger">Logger</h4>
-  <div class="markdown level1 summary"><p>Get logger.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ILogger</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_LoggerFactory.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.LoggerFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L118">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_LoggerFactory_" data-uid="CarinaStudio.Android.Application.LoggerFactory*"></a>
-  <h4 id="CarinaStudio_Android_Application_LoggerFactory" data-uid="CarinaStudio.Android.Application.LoggerFactory">LoggerFactory</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ILoggerFactory LoggerFactory { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ILoggerFactory</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_PersistentState.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.PersistentState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L197">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_PersistentState_" data-uid="CarinaStudio.Android.Application.PersistentState*"></a>
-  <h4 id="CarinaStudio_Android_Application_PersistentState" data-uid="CarinaStudio.Android.Application.PersistentState">PersistentState</h4>
-  <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISettings PersistentState { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_RootPrivateDirectoryPath.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.RootPrivateDirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L205">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_RootPrivateDirectoryPath_" data-uid="CarinaStudio.Android.Application.RootPrivateDirectoryPath*"></a>
-  <h4 id="CarinaStudio_Android_Application_RootPrivateDirectoryPath" data-uid="CarinaStudio.Android.Application.RootPrivateDirectoryPath">RootPrivateDirectoryPath</h4>
-  <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string RootPrivateDirectoryPath { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_Settings.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.Settings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L216">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_Settings_" data-uid="CarinaStudio.Android.Application.Settings*"></a>
-  <h4 id="CarinaStudio_Android_Application_Settings" data-uid="CarinaStudio.Android.Application.Settings">Settings</h4>
-  <div class="markdown level1 summary"><p>Get default application level user settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ISettings Settings { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_SynchronizationContext.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.SynchronizationContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L226">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_SynchronizationContext_" data-uid="CarinaStudio.Android.Application.SynchronizationContext*"></a>
-  <h4 id="CarinaStudio_Android_Application_SynchronizationContext" data-uid="CarinaStudio.Android.Application.SynchronizationContext">SynchronizationContext</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Threading.LooperSynchronizationContext.html">LooperSynchronizationContext</a> of main thread.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LooperSynchronizationContext SynchronizationContext { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Android.Threading.LooperSynchronizationContext.html">LooperSynchronizationContext</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_CheckAccess.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.CheckAccess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L54">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_CheckAccess_" data-uid="CarinaStudio.Android.Application.CheckAccess*"></a>
-  <h4 id="CarinaStudio_Android_Application_CheckAccess" data-uid="CarinaStudio.Android.Application.CheckAccess">CheckAccess()</h4>
-  <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if current thread is the thread which object depends on.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_GetObservableString_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.GetObservableString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L79">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_GetObservableString_" data-uid="CarinaStudio.Android.Application.GetObservableString*"></a>
-  <h4 id="CarinaStudio_Android_Application_GetObservableString_System_String_" data-uid="CarinaStudio.Android.Application.GetObservableString(System.String)">GetObservableString(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IObservable&lt;string?&gt; GetObservableString(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IObservable</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_GetString_System_String_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.GetString(System.String%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L84">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_GetString_" data-uid="CarinaStudio.Android.Application.GetString*"></a>
-  <h4 id="CarinaStudio_Android_Application_GetString_System_String_System_Nullable_System_String__" data-uid="CarinaStudio.Android.Application.GetString(System.String,System.Nullable{System.String})">GetString(String, Nullable&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get string from resources according to given key and current settings or system language.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string? GetString(string key, string? defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of string to get.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>String.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_OnConfigurationChanged_Android_Content_Res_Configuration_.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.OnConfigurationChanged(Android.Content.Res.Configuration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L122">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_OnConfigurationChanged_" data-uid="CarinaStudio.Android.Application.OnConfigurationChanged*"></a>
-  <h4 id="CarinaStudio_Android_Application_OnConfigurationChanged_Android_Content_Res_Configuration_" data-uid="CarinaStudio.Android.Application.OnConfigurationChanged(Android.Content.Res.Configuration)">OnConfigurationChanged(Android.Content.Res.Configuration)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Android.Content.Res.Configuration</span></td>
-        <td><span class="parametername">newConfig</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_OnCreate.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.OnCreate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L148">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_OnCreate_" data-uid="CarinaStudio.Android.Application.OnCreate*"></a>
-  <h4 id="CarinaStudio_Android_Application_OnCreate" data-uid="CarinaStudio.Android.Application.OnCreate">OnCreate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnCreate()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L192">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_OnPropertyChanged_" data-uid="CarinaStudio.Android.Application.OnPropertyChanged*"></a>
-  <h4 id="CarinaStudio_Android_Application_OnPropertyChanged_System_String_" data-uid="CarinaStudio.Android.Application.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Android.Application.html#CarinaStudio_Android_Application_PropertyChanged">PropertyChanged</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">propertyName</span></td>
-        <td><p>Property name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_PropertyChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L201">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Android_Application_PropertyChanged" data-uid="CarinaStudio.Android.Application.PropertyChanged">PropertyChanged</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_StringsUpdated.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.StringsUpdated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L220">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Android_Application_StringsUpdated" data-uid="CarinaStudio.Android.Application.StringsUpdated">StringsUpdated</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler? StringsUpdated</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CarinaStudio.EventHandler</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_CarinaStudio_Android_IContextObject_Context.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.CarinaStudio%23Android%23IContextObject%23Context%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L59">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_CarinaStudio_Android_IContextObject_Context_" data-uid="CarinaStudio.Android.Application.CarinaStudio#Android#IContextObject#Context*"></a>
-  <h4 id="CarinaStudio_Android_Application_CarinaStudio_Android_IContextObject_Context" data-uid="CarinaStudio.Android.Application.CarinaStudio#Android#IContextObject#Context">IContextObject.Context</h4>
-  <div class="markdown level1 summary"><p>Get related <a class="xref" href="CarinaStudio.Android.IContextObject.html#CarinaStudio_Android_IContextObject_Context">Context</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Context IContextObject.Context { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application_CarinaStudio_IApplication_IsShutdownStarted.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application.CarinaStudio%23IApplication%23IsShutdownStarted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L108">View Source</a>
-  </span>
-  <a id="CarinaStudio_Android_Application_CarinaStudio_IApplication_IsShutdownStarted_" data-uid="CarinaStudio.Android.Application.CarinaStudio#IApplication#IsShutdownStarted*"></a>
-  <h4 id="CarinaStudio_Android_Application_CarinaStudio_IApplication_IsShutdownStarted" data-uid="CarinaStudio.Android.Application.CarinaStudio#IApplication#IsShutdownStarted">IApplication.IsShutdownStarted</h4>
-  <div class="markdown level1 summary"><p>Whether application shutdown has been started or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IApplication.IsShutdownStarted { get; }</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object">Object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context">Context</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper">ContextWrapper</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application">Application</a></div>
+      <div><span class="xref">Application</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.icomponentcallbacks2">IComponentCallbacks2</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.icomponentcallbacks">IComponentCallbacks</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.runtime.ijavaobject">IJavaObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/java.interop.ijavapeerable">IJavaPeerable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="CarinaStudio.Android.IAndroidApplication.html">IAndroidApplication</a></div>
+      <div><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+      <div><a class="xref" href="CarinaStudio.Android.IContextObject.html">IContextObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.onlowmemory">Application.OnLowMemory()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.onterminate">Application.OnTerminate()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.ontrimmemory">Application.OnTrimMemory(TrimMemory)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.registeractivitylifecyclecallbacks">Application.RegisterActivityLifecycleCallbacks(Application.IActivityLifecycleCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.registeronprovideassistdatalistener">Application.RegisterOnProvideAssistDataListener(Application.IOnProvideAssistDataListener)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.unregisteractivitylifecyclecallbacks">Application.UnregisterActivityLifecycleCallbacks(Application.IActivityLifecycleCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.unregisteronprovideassistdatalistener">Application.UnregisterOnProvideAssistDataListener(Application.IOnProvideAssistDataListener)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.processname">Application.ProcessName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.application.context">Application.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.attachbasecontext">ContextWrapper.AttachBaseContext(Context)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.bindservice">ContextWrapper.BindService(Intent, IServiceConnection, Bind)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingorselfpermission">ContextWrapper.CheckCallingOrSelfPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingorselfuripermission">ContextWrapper.CheckCallingOrSelfUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingpermission">ContextWrapper.CheckCallingPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallinguripermission">ContextWrapper.CheckCallingUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkpermission">ContextWrapper.CheckPermission(string, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkselfpermission">ContextWrapper.CheckSelfPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkuripermission#android-content-contextwrapper-checkuripermission(android-net-uri-system-int32-system-int32-android-content-activityflags)">ContextWrapper.CheckUriPermission(Uri, int, int, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkuripermission#android-content-contextwrapper-checkuripermission(android-net-uri-system-string-system-string-system-int32-system-int32-android-content-activityflags)">ContextWrapper.CheckUriPermission(Uri, string, string, int, int, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.clearwallpaper">ContextWrapper.ClearWallpaper()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createconfigurationcontext">ContextWrapper.CreateConfigurationContext(Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createcontextforsplit">ContextWrapper.CreateContextForSplit(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createdeviceprotectedstoragecontext">ContextWrapper.CreateDeviceProtectedStorageContext()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createdisplaycontext">ContextWrapper.CreateDisplayContext(Display)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createpackagecontext">ContextWrapper.CreatePackageContext(string, PackageContextFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.databaselist">ContextWrapper.DatabaseList()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletedatabase">ContextWrapper.DeleteDatabase(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletefile">ContextWrapper.DeleteFile(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletesharedpreferences">ContextWrapper.DeleteSharedPreferences(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingorselfpermission">ContextWrapper.EnforceCallingOrSelfPermission(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingorselfuripermission">ContextWrapper.EnforceCallingOrSelfUriPermission(Uri, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingpermission">ContextWrapper.EnforceCallingPermission(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallinguripermission">ContextWrapper.EnforceCallingUriPermission(Uri, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcepermission">ContextWrapper.EnforcePermission(string, int, int, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforceuripermission#android-content-contextwrapper-enforceuripermission(android-net-uri-system-int32-system-int32-android-content-activityflags-system-string)">ContextWrapper.EnforceUriPermission(Uri, int, int, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforceuripermission#android-content-contextwrapper-enforceuripermission(android-net-uri-system-string-system-string-system-int32-system-int32-android-content-activityflags-system-string)">ContextWrapper.EnforceUriPermission(Uri, string, string, int, int, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.filelist">ContextWrapper.FileList()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getdatabasepath">ContextWrapper.GetDatabasePath(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getdir">ContextWrapper.GetDir(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalcachedirs">ContextWrapper.GetExternalCacheDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalfilesdir">ContextWrapper.GetExternalFilesDir(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalfilesdirs">ContextWrapper.GetExternalFilesDirs(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalmediadirs">ContextWrapper.GetExternalMediaDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getfilestreampath">ContextWrapper.GetFileStreamPath(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getobbdirs">ContextWrapper.GetObbDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsharedpreferences">ContextWrapper.GetSharedPreferences(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsystemservice">ContextWrapper.GetSystemService(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsystemservicename">ContextWrapper.GetSystemServiceName(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.granturipermission">ContextWrapper.GrantUriPermission(string, Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.movedatabasefrom">ContextWrapper.MoveDatabaseFrom(Context, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.movesharedpreferencesfrom">ContextWrapper.MoveSharedPreferencesFrom(Context, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openfileinput">ContextWrapper.OpenFileInput(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openfileoutput">ContextWrapper.OpenFileOutput(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openorcreatedatabase#android-content-contextwrapper-openorcreatedatabase(system-string-android-content-filecreationmode-android-database-sqlite-sqlitedatabase-icursorfactory-android-database-idatabaseerrorhandler)">ContextWrapper.OpenOrCreateDatabase(string, FileCreationMode, SQLiteDatabase.ICursorFactory, IDatabaseErrorHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openorcreatedatabase#android-content-contextwrapper-openorcreatedatabase(system-string-android-content-filecreationmode-android-database-sqlite-sqlitedatabase-icursorfactory)">ContextWrapper.OpenOrCreateDatabase(string, FileCreationMode, SQLiteDatabase.ICursorFactory)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.peekwallpaper">ContextWrapper.PeekWallpaper()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-android-content-activityflags)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler-android-content-activityflags)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.removestickybroadcast">ContextWrapper.RemoveStickyBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.removestickybroadcastasuser">ContextWrapper.RemoveStickyBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.revokeuripermission#android-content-contextwrapper-revokeuripermission(android-net-uri-android-content-activityflags)">ContextWrapper.RevokeUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.revokeuripermission#android-content-contextwrapper-revokeuripermission(system-string-android-net-uri-android-content-activityflags)">ContextWrapper.RevokeUriPermission(string, Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcast#android-content-contextwrapper-sendbroadcast(android-content-intent-system-string)">ContextWrapper.SendBroadcast(Intent, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcast#android-content-contextwrapper-sendbroadcast(android-content-intent)">ContextWrapper.SendBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcastasuser#android-content-contextwrapper-sendbroadcastasuser(android-content-intent-android-os-userhandle-system-string)">ContextWrapper.SendBroadcastAsUser(Intent, UserHandle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcastasuser#android-content-contextwrapper-sendbroadcastasuser(android-content-intent-android-os-userhandle)">ContextWrapper.SendBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-int32-system-string-system-string-android-content-broadcastreceiver-android-os-handler-system-string-android-os-bundle-android-os-bundle)">ContextWrapper.SendOrderedBroadcast(Intent, int, string, string, BroadcastReceiver, Handler, string, Bundle, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-string-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">ContextWrapper.SendOrderedBroadcast(Intent, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-string)">ContextWrapper.SendOrderedBroadcast(Intent, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcastasuser">ContextWrapper.SendOrderedBroadcastAsUser(Intent, UserHandle, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickybroadcast">ContextWrapper.SendStickyBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickybroadcastasuser">ContextWrapper.SendStickyBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickyorderedbroadcast">ContextWrapper.SendStickyOrderedBroadcast(Intent, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickyorderedbroadcastasuser">ContextWrapper.SendStickyOrderedBroadcastAsUser(Intent, UserHandle, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.settheme">ContextWrapper.SetTheme(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.setwallpaper#android-content-contextwrapper-setwallpaper(android-graphics-bitmap)">ContextWrapper.SetWallpaper(Bitmap)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.setwallpaper#android-content-contextwrapper-setwallpaper(system-io-stream)">ContextWrapper.SetWallpaper(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivities#android-content-contextwrapper-startactivities(android-content-intent()-android-os-bundle)">ContextWrapper.StartActivities(Intent[], Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivities#android-content-contextwrapper-startactivities(android-content-intent())">ContextWrapper.StartActivities(Intent[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivity#android-content-contextwrapper-startactivity(android-content-intent-android-os-bundle)">ContextWrapper.StartActivity(Intent, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivity#android-content-contextwrapper-startactivity(android-content-intent)">ContextWrapper.StartActivity(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startforegroundservice">ContextWrapper.StartForegroundService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startinstrumentation">ContextWrapper.StartInstrumentation(ComponentName, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startintentsender#android-content-contextwrapper-startintentsender(android-content-intentsender-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32-android-os-bundle)">ContextWrapper.StartIntentSender(IntentSender, Intent, ActivityFlags, ActivityFlags, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startintentsender#android-content-contextwrapper-startintentsender(android-content-intentsender-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32)">ContextWrapper.StartIntentSender(IntentSender, Intent, ActivityFlags, ActivityFlags, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startservice">ContextWrapper.StartService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.stopservice">ContextWrapper.StopService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.unbindservice">ContextWrapper.UnbindService(IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.unregisterreceiver">ContextWrapper.UnregisterReceiver(BroadcastReceiver)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.applicationcontext">ContextWrapper.ApplicationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.applicationinfo">ContextWrapper.ApplicationInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.assets">ContextWrapper.Assets</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.basecontext">ContextWrapper.BaseContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.cachedir">ContextWrapper.CacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.classloader">ContextWrapper.ClassLoader</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.codecachedir">ContextWrapper.CodeCacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.contentresolver">ContextWrapper.ContentResolver</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.datadir">ContextWrapper.DataDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.externalcachedir">ContextWrapper.ExternalCacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.filesdir">ContextWrapper.FilesDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.isdeviceprotectedstorage">ContextWrapper.IsDeviceProtectedStorage</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.mainlooper">ContextWrapper.MainLooper</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.nobackupfilesdir">ContextWrapper.NoBackupFilesDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.obbdir">ContextWrapper.ObbDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagecodepath">ContextWrapper.PackageCodePath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagemanager">ContextWrapper.PackageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagename">ContextWrapper.PackageName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packageresourcepath">ContextWrapper.PackageResourcePath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.resources">ContextWrapper.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.theme">ContextWrapper.Theme</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaper">ContextWrapper.Wallpaper</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaperdesiredminimumheight">ContextWrapper.WallpaperDesiredMinimumHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaperdesiredminimumwidth">ContextWrapper.WallpaperDesiredMinimumWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.accessibilityservice">Context.AccessibilityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.accountservice">Context.AccountService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.activityservice">Context.ActivityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.alarmservice">Context.AlarmService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appopsservice">Context.AppOpsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appsearchservice">Context.AppSearchService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appwidgetservice">Context.AppwidgetService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.audioservice">Context.AudioService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.batteryservice">Context.BatteryService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindallowactivitystarts">Context.BindAllowActivityStarts</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindexternalservicelong">Context.BindExternalServiceLong</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindnotperceptible">Context.BindNotPerceptible</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindsharedisolatedprocess">Context.BindSharedIsolatedProcess</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.biometricservice">Context.BiometricService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.blobstoreservice">Context.BlobStoreService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bluetoothservice">Context.BluetoothService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bugreportservice">Context.BugreportService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.cameraservice">Context.CameraService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.captioningservice">Context.CaptioningService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.carrierconfigservice">Context.CarrierConfigService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.clipboardservice">Context.ClipboardService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.companiondeviceservice">Context.CompanionDeviceService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.connectivitydiagnosticsservice">Context.ConnectivityDiagnosticsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.connectivityservice">Context.ConnectivityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.consumerirservice">Context.ConsumerIrService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.credentialservice">Context.CredentialService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.crossprofileappsservice">Context.CrossProfileAppsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceiddefault">Context.DeviceIdDefault</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceidinvalid">Context.DeviceIdInvalid</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.devicelockservice">Context.DeviceLockService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.devicepolicyservice">Context.DevicePolicyService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.displayhashservice">Context.DisplayHashService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.displayservice">Context.DisplayService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.domainverificationservice">Context.DomainVerificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.downloadservice">Context.DownloadService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.dropboxservice">Context.DropboxService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.euiccservice">Context.EuiccService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.fileintegrityservice">Context.FileIntegrityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.fingerprintservice">Context.FingerprintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gameservice">Context.GameService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.grammaticalinflectionservice">Context.GrammaticalInflectionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.hardwarepropertiesservice">Context.HardwarePropertiesService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.healthconnectservice">Context.HealthconnectService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.inputmethodservice">Context.InputMethodService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.inputservice">Context.InputService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.ipsecservice">Context.IpsecService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.jobschedulerservice">Context.JobSchedulerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.keyguardservice">Context.KeyguardService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.launcherappsservice">Context.LauncherAppsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.layoutinflaterservice">Context.LayoutInflaterService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.localeservice">Context.LocaleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.locationservice">Context.LocationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediacommunicationservice">Context.MediaCommunicationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediametricsservice">Context.MediaMetricsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediaprojectionservice">Context.MediaProjectionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediarouterservice">Context.MediaRouterService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediasessionservice">Context.MediaSessionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.midiservice">Context.MidiService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.networkstatsservice">Context.NetworkStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.nfcservice">Context.NfcService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.notificationservice">Context.NotificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.nsdservice">Context.NsdService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.overlayservice">Context.OverlayService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.peopleservice">Context.PeopleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.performancehintservice">Context.PerformanceHintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.powerservice">Context.PowerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.printservice">Context.PrintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receiverexported">Context.ReceiverExported</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receivernotexported">Context.ReceiverNotExported</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.restrictionsservice">Context.RestrictionsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.roleservice">Context.RoleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.searchservice">Context.SearchService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sensorservice">Context.SensorService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.shortcutservice">Context.ShortcutService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.statusbarservice">Context.StatusBarService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.storageservice">Context.StorageService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.storagestatsservice">Context.StorageStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.systemhealthservice">Context.SystemHealthService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telecomservice">Context.TelecomService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonyimsservice">Context.TelephonyImsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonyservice">Context.TelephonyService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonysubscriptionservice">Context.TelephonySubscriptionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.textclassificationservice">Context.TextClassificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.textservicesmanagerservice">Context.TextServicesManagerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.tvinputservice">Context.TvInputService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.tvinteractiveappservice">Context.TvInteractiveAppService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.uimodeservice">Context.UiModeService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.usagestatsservice">Context.UsageStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.usbservice">Context.UsbService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.userservice">Context.UserService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vibratormanagerservice">Context.VibratorManagerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vibratorservice">Context.VibratorService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.virtualdeviceservice">Context.VirtualDeviceService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vpnmanagementservice">Context.VpnManagementService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wallpaperservice">Context.WallpaperService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifiawareservice">Context.WifiAwareService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifip2pservice">Context.WifiP2pService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifirttrangingservice">Context.WifiRttRangingService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifiservice">Context.WifiService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.windowservice">Context.WindowService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receivervisibletoinstantapps">Context.ReceiverVisibleToInstantApps</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-context-bindserviceflags-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindService(Intent, Context.BindServiceFlags, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-iserviceconnection-android-content-context-bindserviceflags)">Context.BindService(Intent, IServiceConnection, Context.BindServiceFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-bind-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindService(Intent, Bind, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindserviceasuser#android-content-context-bindserviceasuser(android-content-intent-android-content-iserviceconnection-android-content-context-bindserviceflags-android-os-userhandle)">Context.BindServiceAsUser(Intent, IServiceConnection, Context.BindServiceFlags, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindserviceasuser#android-content-context-bindserviceasuser(android-content-intent-android-content-iserviceconnection-system-int32-android-os-userhandle)">Context.BindServiceAsUser(Intent, IServiceConnection, int, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkcallingorselfuripermissions">Context.CheckCallingOrSelfUriPermissions(IList&lt;Uri&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkcallinguripermissions">Context.CheckCallingUriPermissions(IList&lt;Uri&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkuripermissions">Context.CheckUriPermissions(IList&lt;Uri&gt;, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createattributioncontext">Context.CreateAttributionContext(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createcontext">Context.CreateContext(ContextParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createdevicecontext">Context.CreateDeviceContext(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createwindowcontext#android-content-context-createwindowcontext(android-views-display-system-int32-android-os-bundle)">Context.CreateWindowContext(Display, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createwindowcontext#android-content-context-createwindowcontext(system-int32-android-os-bundle)">Context.CreateWindowContext(int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getcolor">Context.GetColor(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getcolorstatelist">Context.GetColorStateList(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getdrawable">Context.GetDrawable(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getstring#android-content-context-getstring(system-int32-java-lang-object())">Context.GetString(int, params Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getstring#android-content-context-getstring(system-int32)">Context.GetString(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getsystemservice#android-content-context-getsystemservice(java-lang-class)">Context.GetSystemService(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gettextformatted">Context.GetTextFormatted(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gettext">Context.GetText(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(android-util-iattributeset-system-int32()-system-int32-system-int32)">Context.ObtainStyledAttributes(IAttributeSet, int[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(android-util-iattributeset-system-int32())">Context.ObtainStyledAttributes(IAttributeSet, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(system-int32-system-int32())">Context.ObtainStyledAttributes(int, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(system-int32())">Context.ObtainStyledAttributes(int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registercomponentcallbacks">Context.RegisterComponentCallbacks(IComponentCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerdeviceidchangelistener">Context.RegisterDeviceIdChangeListener(IExecutor, IIntConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.revokeselfpermissiononkill">Context.RevokeSelfPermissionOnKill(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.revokeselfpermissionsonkill">Context.RevokeSelfPermissionsOnKill(ICollection&lt;string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendbroadcast#android-content-context-sendbroadcast(android-content-intent-system-string-android-os-bundle)">Context.SendBroadcast(Intent, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendbroadcastwithmultiplepermissions">Context.SendBroadcastWithMultiplePermissions(Intent, string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-android-os-bundle-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, Bundle, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-system-string-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendstickybroadcast#android-content-context-sendstickybroadcast(android-content-intent-android-os-bundle)">Context.SendStickyBroadcast(Intent, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.unregistercomponentcallbacks">Context.UnregisterComponentCallbacks(IComponentCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.unregisterdeviceidchangelistener">Context.UnregisterDeviceIdChangeListener(IIntConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.updateservicegroup">Context.UpdateServiceGroup(IServiceConnection, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.startactivity#android-content-context-startactivity(system-type)">Context.StartActivity(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerreceiver#android-content-context-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-android-content-receiverflags)">Context.RegisterReceiver(BroadcastReceiver, IntentFilter, ReceiverFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerreceiver#android-content-context-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler-android-content-receiverflags)">Context.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler, ReceiverFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.attributionsource">Context.AttributionSource</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.attributiontag">Context.AttributionTag</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceid">Context.DeviceId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.display">Context.Display</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.isrestricted">Context.IsRestricted</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.isuicontext">Context.IsUiContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mainexecutor">Context.MainExecutor</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.oppackagename">Context.OpPackageName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.params">Context.Params</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.clone">Object.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.equals">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.javafinalize">Object.JavaFinalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.notify">Object.Notify()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.notifyall">Object.NotifyAll()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait">Object.Wait()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait(system-int64-system-int32)">Object.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait(system-int64)">Object.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.dispose#java-lang-object-dispose">Object.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.dispose#java-lang-object-dispose(system-boolean)">Object.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.getobject#java-lang-object-getobject-1(system-intptr-system-intptr-android-runtime-jnihandleownership)">Object.GetObject&lt;T&gt;(nint, nint, JniHandleOwnership)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.getobject#java-lang-object-getobject-1(system-intptr-android-runtime-jnihandleownership)">Object.GetObject&lt;T&gt;(nint, JniHandleOwnership)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.fromarray">Object.FromArray&lt;T&gt;(T[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.class">Object.Class</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
-      <a class="xref" href="CarinaStudio.Android.IAndroidApplication.html">IAndroidApplication</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
   </div>
   <div>
-      <span class="xref">INotifyPropertyChanged</span>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
   </div>
   <div>
-      <span class="xref">ISynchronizable</span>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.Android.IContextObject.html">IContextObject</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_Android_Application__ctor_" data-uid="CarinaStudio.Android.Application.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Android_Application__ctor_System_IntPtr_Android_Runtime_JniHandleOwnership_" data-uid="CarinaStudio.Android.Application.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+  Application(nint, JniHandleOwnership)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Application(nint javaReference, JniHandleOwnership transfer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>javaReference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+    <dt><code>transfer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.runtime.jnihandleownership">JniHandleOwnership</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_Android_Application_Assembly_" data-uid="CarinaStudio.Android.Application.Assembly*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_Assembly" data-uid="CarinaStudio.Android.Application.Assembly">
+  Assembly
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html#CarinaStudio_IApplication_Assembly">Assembly</a> of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Assembly Assembly { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_CultureInfo_" data-uid="CarinaStudio.Android.Application.CultureInfo*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_CultureInfo" data-uid="CarinaStudio.Android.Application.CultureInfo">
+  CultureInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html#CarinaStudio_IApplication_CultureInfo">CultureInfo</a> currently used by application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CultureInfo CultureInfo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_Current_" data-uid="CarinaStudio.Android.Application.Current*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_Current" data-uid="CarinaStudio.Android.Application.Current">
+  Current
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance of current process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Application Current { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Android.Application.html">Application</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_CurrentOrNull_" data-uid="CarinaStudio.Android.Application.CurrentOrNull*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_CurrentOrNull" data-uid="CarinaStudio.Android.Application.CurrentOrNull">
+  CurrentOrNull
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Application.html">Application</a> instance of current process. Return Null if there is no instance created in current process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Application? CurrentOrNull { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Android.Application.html">Application</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_IsDebuggable_" data-uid="CarinaStudio.Android.Application.IsDebuggable*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_IsDebuggable" data-uid="CarinaStudio.Android.Application.IsDebuggable">
+  IsDebuggable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the process is debuggable or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDebuggable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_Logger_" data-uid="CarinaStudio.Android.Application.Logger*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_Logger" data-uid="CarinaStudio.Android.Application.Logger">
+  Logger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_LoggerFactory_" data-uid="CarinaStudio.Android.Application.LoggerFactory*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_LoggerFactory" data-uid="CarinaStudio.Android.Application.LoggerFactory">
+  LoggerFactory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a> to create logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ILoggerFactory LoggerFactory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_PersistentState_" data-uid="CarinaStudio.Android.Application.PersistentState*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_PersistentState" data-uid="CarinaStudio.Android.Application.PersistentState">
+  PersistentState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISettings PersistentState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_RootPrivateDirectoryPath_" data-uid="CarinaStudio.Android.Application.RootPrivateDirectoryPath*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_RootPrivateDirectoryPath" data-uid="CarinaStudio.Android.Application.RootPrivateDirectoryPath">
+  RootPrivateDirectoryPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string RootPrivateDirectoryPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_Settings_" data-uid="CarinaStudio.Android.Application.Settings*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_Settings" data-uid="CarinaStudio.Android.Application.Settings">
+  Settings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get default application level user settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ISettings Settings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_SynchronizationContext_" data-uid="CarinaStudio.Android.Application.SynchronizationContext*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_SynchronizationContext" data-uid="CarinaStudio.Android.Application.SynchronizationContext">
+  SynchronizationContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Android.Threading.LooperSynchronizationContext.html">LooperSynchronizationContext</a> of main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LooperSynchronizationContext SynchronizationContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Android.Threading.LooperSynchronizationContext.html">LooperSynchronizationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Android_Application_CheckAccess_" data-uid="CarinaStudio.Android.Application.CheckAccess*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_CheckAccess" data-uid="CarinaStudio.Android.Application.CheckAccess">
+  CheckAccess()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if current thread is the thread which object depends on.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_GetObservableString_" data-uid="CarinaStudio.Android.Application.GetObservableString*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_GetObservableString_System_String_" data-uid="CarinaStudio.Android.Application.GetObservableString(System.String)">
+  GetObservableString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get string from resources according to given key as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IObservable&lt;string?&gt; GetObservableString(string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of string to get.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_GetString_" data-uid="CarinaStudio.Android.Application.GetString*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_GetString_System_String_System_String_" data-uid="CarinaStudio.Android.Application.GetString(System.String,System.String)">
+  GetString(string, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get string from resources according to given key and current settings or system language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string? GetString(string key, string? defaultValue = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of string to get.</p>
+</dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Default string.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Android_Application_OnConfigurationChanged_" data-uid="CarinaStudio.Android.Application.OnConfigurationChanged*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_OnConfigurationChanged_Android_Content_Res_Configuration_" data-uid="CarinaStudio.Android.Application.OnConfigurationChanged(Android.Content.Res.Configuration)">
+  OnConfigurationChanged(Configuration)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called by the system when the device configuration changes while your
+component is running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnConfigurationChanged(Configuration newConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newConfig</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.res.configuration">Configuration</a></dt>
+    <dd><p>The new device configuration.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Android_Application_OnConfigurationChanged_Android_Content_Res_Configuration__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Portions of this page are modifications based on work created and shared by the <format type="text/html"><a href="https://developers.google.com/terms/site-policies" title="Android Open Source Project">Android Open Source Project</a></format> and used according to terms described in the <format type="text/html"><a href="https://creativecommons.org/licenses/by/2.5/" title="Creative Commons 2.5 Attribution License">Creative Commons 2.5 Attribution License.</a></format></p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Android_Application_OnCreate_" data-uid="CarinaStudio.Android.Application.OnCreate*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_OnCreate" data-uid="CarinaStudio.Android.Application.OnCreate">
+  OnCreate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the application is starting, before any activity, service,
+or receiver objects (excluding content providers) have been created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCreate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Android_Application_OnCreate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+    <format type="text/html">
+        <a href="https://developer.android.com/reference/android/app/Application#onCreate()" title="Reference documentation">Java documentation for <pre><code class="lang-csharp">android.app.Application.onCreate()</code></pre>.</a>
+    </format>
+</p>
+<p>
+    Portions of this page are modifications based on work created and shared by the 
+    <format type="text/html"><a href="https://developers.google.com/terms/site-policies" title="Android Open Source Project">Android Open Source Project</a></format>
+     and used according to terms described in the 
+    <format type="text/html"><a href="https://creativecommons.org/licenses/by/2.5/" title="Creative Commons 2.5 Attribution License">Creative Commons 2.5 Attribution License.</a></format></p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Android_Application_OnPropertyChanged_" data-uid="CarinaStudio.Android.Application.OnPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_Android_Application_OnPropertyChanged_System_String_" data-uid="CarinaStudio.Android.Application.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Android.Application.html#CarinaStudio_Android_Application_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Property name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CarinaStudio_Android_Application_PropertyChanged" data-uid="CarinaStudio.Android.Application.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Android_Application_StringsUpdated" data-uid="CarinaStudio.Android.Application.StringsUpdated">
+  StringsUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when string resources updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? StringsUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Android_Application.md&amp;value=---%0Auid%3A%20CarinaStudio.Android.Application%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application.Android/Application.cs/#L22" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application.Android/Application.cs/#L22" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

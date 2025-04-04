@@ -1,626 +1,548 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StringExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StringExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class StringExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class StringExtensions | AppBase ">
+      
+      <meta name="description" content="Extensions for .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_StringExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.StringExtensions">
-  
-  
-  <h1 id="CarinaStudio_StringExtensions" data-uid="CarinaStudio.StringExtensions" class="text-break">Class StringExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:System.String"></see>.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">StringExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_StringExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StringExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_GetFirstLine_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.GetFirstLine(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L18">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_GetFirstLine_" data-uid="CarinaStudio.StringExtensions.GetFirstLine*"></a>
-  <h4 id="CarinaStudio_StringExtensions_GetFirstLine_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.GetFirstLine(System.String,System.Boolean)">GetFirstLine(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get the first line of he string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetFirstLine(this string s, bool includeCarriageReturns = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p>The string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">includeCarriageReturns</span></td>
-        <td><p>True to include Carriage Returns (CR) in the line.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The first line of he string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_GetLastLine_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.GetLastLine(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L65">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_GetLastLine_" data-uid="CarinaStudio.StringExtensions.GetLastLine*"></a>
-  <h4 id="CarinaStudio_StringExtensions_GetLastLine_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.GetLastLine(System.String,System.Boolean)">GetLastLine(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get the last line of he string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetLastLine(this string s, bool includeCarriageReturns = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p>The string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">includeCarriageReturns</span></td>
-        <td><p>True to include Carriage Returns (CR) in the line.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The last line of he string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_HasMultipleLines_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.HasMultipleLines(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L109">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_HasMultipleLines_" data-uid="CarinaStudio.StringExtensions.HasMultipleLines*"></a>
-  <h4 id="CarinaStudio_StringExtensions_HasMultipleLines_System_String_" data-uid="CarinaStudio.StringExtensions.HasMultipleLines(System.String)">HasMultipleLines(String)</h4>
-  <div class="markdown level1 summary"><p>Check whether the string consist of more than one lines or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasMultipleLines(this string s)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p>The string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the string consist of more than one lines.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_LineCount_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.LineCount(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L136">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_LineCount_" data-uid="CarinaStudio.StringExtensions.LineCount*"></a>
-  <h4 id="CarinaStudio_StringExtensions_LineCount_System_String_" data-uid="CarinaStudio.StringExtensions.LineCount(System.String)">LineCount(String)</h4>
-  <div class="markdown level1 summary"><p>Count number of lines of the string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int LineCount(this string s)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p>The string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Number of lines of the string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_Pin_System_String_Action_IntPtr__.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.Pin(System.String%2CAction%7BIntPtr%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L164">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_StringExtensions_Pin_System_String_Action_IntPtr__" data-uid="CarinaStudio.StringExtensions.Pin(System.String,Action{IntPtr})">Pin(String, Action&lt;IntPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get address of characters in given <see cref="!:String"></see> and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin(this string s, Action&lt;IntPtr&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p><see cref="!:String"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">IntPtr</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_Pin_System_String_CarinaStudio_PointerAction_System_Char__.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.Pin(System.String%2CCarinaStudio.PointerAction%7BSystem.Char%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L192">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_StringExtensions_Pin_System_String_CarinaStudio_PointerAction_System_Char__" data-uid="CarinaStudio.StringExtensions.Pin(System.String,CarinaStudio.PointerAction{System.Char})">Pin(String, PointerAction&lt;Char&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get address of characters in given <see cref="!:String"></see> and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin(this string s, PointerAction&lt;char&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p><see cref="!:String"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;<span class="xref">System.Char</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to perform.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_Pin__1_System_String_CarinaStudio_PointerInFunc_System_Char___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.Pin%60%601(System.String%2CCarinaStudio.PointerInFunc%7BSystem.Char%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L207">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_StringExtensions_Pin__1_System_String_CarinaStudio_PointerInFunc_System_Char___0__" data-uid="CarinaStudio.StringExtensions.Pin``1(System.String,CarinaStudio.PointerInFunc{System.Char,``0})">Pin&lt;R&gt;(String, PointerInFunc&lt;Char, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get address of characters in given <see cref="!:String"></see> and generate value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;R&gt;(this string s, PointerInFunc&lt;char, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p><see cref="!:String"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;<span class="xref">System.Char</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_Pin__1_System_String_Func_IntPtr___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.Pin%60%601(System.String%2CFunc%7BIntPtr%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L179">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_StringExtensions_Pin__1_System_String_Func_IntPtr___0__" data-uid="CarinaStudio.StringExtensions.Pin``1(System.String,Func{IntPtr,``0})">Pin&lt;R&gt;(String, Func&lt;IntPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get address of characters in given <see cref="!:String"></see> and generate value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;R&gt;(this string s, Func&lt;IntPtr, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p><see cref="!:String"></see>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">IntPtr</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions_RemoveLineBreaks_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions.RemoveLineBreaks(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L221">View Source</a>
-  </span>
-  <a id="CarinaStudio_StringExtensions_RemoveLineBreaks_" data-uid="CarinaStudio.StringExtensions.RemoveLineBreaks*"></a>
-  <h4 id="CarinaStudio_StringExtensions_RemoveLineBreaks_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.RemoveLineBreaks(System.String,System.Boolean)">RemoveLineBreaks(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Remove all line breaks from the string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string RemoveLineBreaks(this string s, bool removeCarriageReturns = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">s</span></td>
-        <td><p>The string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">removeCarriageReturns</span></td>
-        <td><p>True to remove Carriage Returns (CR) also.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The string without line breaks.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_StringExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.StringExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/StringExtensions.cs/#L10" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.StringExtensions">
+
+
+
+  <h1 id="CarinaStudio_StringExtensions" data-uid="CarinaStudio.StringExtensions" class="text-break">
+Class StringExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extensions for <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">StringExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_StringExtensions_GetFirstLine_" data-uid="CarinaStudio.StringExtensions.GetFirstLine*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_GetFirstLine_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.GetFirstLine(System.String,System.Boolean)">
+  GetFirstLine(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the first line of he string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetFirstLine(this string s, bool includeCarriageReturns = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string.</p>
+</dd>
+    <dt><code>includeCarriageReturns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to include Carriage Returns (CR) in the line.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The first line of he string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_GetLastLine_" data-uid="CarinaStudio.StringExtensions.GetLastLine*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_GetLastLine_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.GetLastLine(System.String,System.Boolean)">
+  GetLastLine(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the last line of he string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetLastLine(this string s, bool includeCarriageReturns = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string.</p>
+</dd>
+    <dt><code>includeCarriageReturns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to include Carriage Returns (CR) in the line.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The last line of he string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_HasMultipleLines_" data-uid="CarinaStudio.StringExtensions.HasMultipleLines*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_HasMultipleLines_System_String_" data-uid="CarinaStudio.StringExtensions.HasMultipleLines(System.String)">
+  HasMultipleLines(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the string consist of more than one lines or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasMultipleLines(this string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the string consist of more than one lines.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_LineCount_" data-uid="CarinaStudio.StringExtensions.LineCount*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_LineCount_System_String_" data-uid="CarinaStudio.StringExtensions.LineCount(System.String)">
+  LineCount(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Count number of lines of the string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int LineCount(this string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of lines of the string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_Pin_System_String_CarinaStudio_PointerAction_System_Char__" data-uid="CarinaStudio.StringExtensions.Pin(System.String,CarinaStudio.PointerAction{System.Char})">
+  Pin(string, PointerAction&lt;char&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get address of characters in given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Pin(this string s, PointerAction&lt;char&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>&gt;</dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_Pin_System_String_System_Action_System_IntPtr__" data-uid="CarinaStudio.StringExtensions.Pin(System.String,System.Action{System.IntPtr})">
+  Pin(string, Action&lt;IntPtr&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get address of characters in given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Pin(this string s, Action&lt;IntPtr&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>&gt;</dt>
+    <dd><p>Action to perform.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_Pin__1_System_String_CarinaStudio_PointerInFunc_System_Char___0__" data-uid="CarinaStudio.StringExtensions.Pin``1(System.String,CarinaStudio.PointerInFunc{System.Char,``0})">
+  Pin&lt;R&gt;(string, PointerInFunc&lt;char, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get address of characters in given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> and generate value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Pin&lt;R&gt;(this string s, PointerInFunc&lt;char, R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>, R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_Pin_" data-uid="CarinaStudio.StringExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_Pin__1_System_String_System_Func_System_IntPtr___0__" data-uid="CarinaStudio.StringExtensions.Pin``1(System.String,System.Func{System.IntPtr,``0})">
+  Pin&lt;R&gt;(string, Func&lt;IntPtr, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get address of characters in given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> and generate value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Pin&lt;R&gt;(this string s, Func&lt;IntPtr, R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>, R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_StringExtensions_RemoveLineBreaks_" data-uid="CarinaStudio.StringExtensions.RemoveLineBreaks*"></a>
+
+  <h3 id="CarinaStudio_StringExtensions_RemoveLineBreaks_System_String_System_Boolean_" data-uid="CarinaStudio.StringExtensions.RemoveLineBreaks(System.String,System.Boolean)">
+  RemoveLineBreaks(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove all line breaks from the string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RemoveLineBreaks(this string s, bool removeCarriageReturns = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string.</p>
+</dd>
+    <dt><code>removeCarriageReturns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to remove Carriage Returns (CR) also.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string without line breaks.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/StringExtensions.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,98 +1,134 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Updater
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Updater
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class Updater | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Updater | AppBase ">
+      
+      <meta name="description" content="Core object to perform auto/self update.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.AutoUpdate.Updater">
-  
-  
-  <h1 id="CarinaStudio_AutoUpdate_Updater" data-uid="CarinaStudio.AutoUpdate.Updater" class="text-break">Class Updater
+
+        <article data-uid="CarinaStudio.AutoUpdate.Updater">
+
+
+
+  <h1 id="CarinaStudio_AutoUpdate_Updater" data-uid="CarinaStudio.AutoUpdate.Updater" class="text-break">
+Class Updater  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p>Core object to perform auto/self update.</p>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.AutoUpdate.html">AutoUpdate</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.AutoUpdate.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Core object to perform auto/self update.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a></div>
-    <div class="level2"><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html">BaseDisposableApplicationObject</a></div>
-    <div class="level3"><span class="xref">Updater</span></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Updater : BaseDisposableApplicationObject, IApplicationObject, IThreadDependent, ISynchronizable, IDisposable, INotifyPropertyChanged</code></pre>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
-    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
-    <div><span class="xref">ISynchronizable</span></div>
-    <div><span class="xref">IDisposable</span></div>
-    <div><span class="xref">INotifyPropertyChanged</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a></div>
+      <div><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html">BaseDisposableApplicationObject</a></div>
+      <div><span class="xref">Updater</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose">BaseDisposableApplicationObject.Dispose()</a>
     </div>
@@ -117,767 +153,865 @@
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_SynchronizationContext">BaseApplicationObject.SynchronizationContext</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.AutoUpdate.html">CarinaStudio.AutoUpdate</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.AutoUpdate.dll</h6>
-  <h5 id="CarinaStudio_AutoUpdate_Updater_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Updater : BaseDisposableApplicationObject, IApplicationObject, IThreadDependent, ISynchronizable, IDisposable, INotifyPropertyChanged</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater__ctor_CarinaStudio_IApplication_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.%23ctor(CarinaStudio.IApplication)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L36">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater__ctor_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor(CarinaStudio.IApplication)">Updater(IApplication)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Updater(IApplication app)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
-        <td><span class="parametername">app</span></td>
-        <td><p>Application.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_ApplicationDirectoryPath.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.ApplicationDirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L45">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_ApplicationDirectoryPath_" data-uid="CarinaStudio.AutoUpdate.Updater.ApplicationDirectoryPath*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_ApplicationDirectoryPath" data-uid="CarinaStudio.AutoUpdate.Updater.ApplicationDirectoryPath">ApplicationDirectoryPath</h4>
-  <div class="markdown level1 summary"><p>Get or set path of application directory to update.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? ApplicationDirectoryPath { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_BackUpApplicationCompletely.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.BackUpApplicationCompletely%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L115">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_BackUpApplicationCompletely_" data-uid="CarinaStudio.AutoUpdate.Updater.BackUpApplicationCompletely*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_BackUpApplicationCompletely" data-uid="CarinaStudio.AutoUpdate.Updater.BackUpApplicationCompletely">BackUpApplicationCompletely</h4>
-  <div class="markdown level1 summary"><p>Get or set whether application should be backed-up completely before installation or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool BackUpApplicationCompletely { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_DownloadedPackageSize.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.DownloadedPackageSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L363">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_DownloadedPackageSize_" data-uid="CarinaStudio.AutoUpdate.Updater.DownloadedPackageSize*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_DownloadedPackageSize" data-uid="CarinaStudio.AutoUpdate.Updater.DownloadedPackageSize">DownloadedPackageSize</h4>
-  <div class="markdown level1 summary"><p>Get size of downloaded package in bytes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long DownloadedPackageSize { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_Exception.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.Exception%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L481">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_Exception_" data-uid="CarinaStudio.AutoUpdate.Updater.Exception*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_Exception" data-uid="CarinaStudio.AutoUpdate.Updater.Exception">Exception</h4>
-  <div class="markdown level1 summary"><p>Get latest exception occurred while updating.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Exception? Exception { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Exception</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_IsCancellable.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.IsCancellable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L564">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_IsCancellable_" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancellable*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_IsCancellable" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancellable">IsCancellable</h4>
-  <div class="markdown level1 summary"><p>Check whether updating process is cancellable or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCancellable { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_IsCancelling.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.IsCancelling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L570">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_IsCancelling_" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancelling*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_IsCancelling" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancelling">IsCancelling</h4>
-  <div class="markdown level1 summary"><p>Check whether updating process is cancelling or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCancelling { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_IsUpdating.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.IsUpdating%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L576">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_IsUpdating_" data-uid="CarinaStudio.AutoUpdate.Updater.IsUpdating*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_IsUpdating" data-uid="CarinaStudio.AutoUpdate.Updater.IsUpdating">IsUpdating</h4>
-  <div class="markdown level1 summary"><p>Check whether updating process is on-going or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsUpdating { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_PackageInstaller.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.PackageInstaller%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L589">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_PackageInstaller_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageInstaller*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_PackageInstaller" data-uid="CarinaStudio.AutoUpdate.Updater.PackageInstaller">PackageInstaller</h4>
-  <div class="markdown level1 summary"><p>Get or set <a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a> to install downloaded package.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPackageInstaller PackageInstaller { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_PackageResolver.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.PackageResolver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L610">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_PackageResolver_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageResolver*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_PackageResolver" data-uid="CarinaStudio.AutoUpdate.Updater.PackageResolver">PackageResolver</h4>
-  <div class="markdown level1 summary"><p>Get or set <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a> to resolve package to download.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPackageResolver PackageResolver { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="CarinaStudio_AutoUpdate_Updater_PackageResolver_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>You need to setup <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_Source">Source</a> before calling <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_Start">Start()</a>.</p>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_PackageSize.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.PackageSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L630">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_PackageSize_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageSize*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_PackageSize" data-uid="CarinaStudio.AutoUpdate.Updater.PackageSize">PackageSize</h4>
-  <div class="markdown level1 summary"><p>Get size of package in bytes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? PackageSize { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_Progress.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.Progress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L636">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_Progress_" data-uid="CarinaStudio.AutoUpdate.Updater.Progress*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_Progress" data-uid="CarinaStudio.AutoUpdate.Updater.Progress">Progress</h4>
-  <div class="markdown level1 summary"><p>Get current progress of updating. Range is [0.0, 1.0] or <see cref="!:double.NaN"></see> if progress is unavailable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Progress { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_State.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L811">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_State_" data-uid="CarinaStudio.AutoUpdate.Updater.State*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_State" data-uid="CarinaStudio.AutoUpdate.Updater.State">State</h4>
-  <div class="markdown level1 summary"><p>Get current state.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UpdaterState State { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.AutoUpdate.UpdaterState.html">UpdaterState</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_Cancel.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.Cancel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L135">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_Cancel_" data-uid="CarinaStudio.AutoUpdate.Updater.Cancel*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_Cancel" data-uid="CarinaStudio.AutoUpdate.Updater.Cancel">Cancel()</h4>
-  <div class="markdown level1 summary"><p>Cancel updating process.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cancel()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if cancellation has been accepted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L341">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_Dispose_" data-uid="CarinaStudio.AutoUpdate.Updater.Dispose*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_Dispose_System_Boolean_" data-uid="CarinaStudio.AutoUpdate.Updater.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Dispose instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to dispose managed resources.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.BaseDisposableApplicationObject.html#CarinaStudio_BaseDisposableApplicationObject_Dispose_System_Boolean_">BaseDisposableApplicationObject.Dispose(Boolean)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L583">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_" data-uid="CarinaStudio.AutoUpdate.Updater.OnPropertyChanged*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_System_String_" data-uid="CarinaStudio.AutoUpdate.Updater.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_PropertyChanged">PropertyChanged</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">propertyName</span></td>
-        <td><p>Name of changed property.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_Start.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L741">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_Start_" data-uid="CarinaStudio.AutoUpdate.Updater.Start*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_Start" data-uid="CarinaStudio.AutoUpdate.Updater.Start">Start()</h4>
-  <div class="markdown level1 summary"><p>Start updating application.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Start()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if updating process has been started successfully.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_StartAndWaitAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.StartAndWaitAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L782">View Source</a>
-  </span>
-  <a id="CarinaStudio_AutoUpdate_Updater_StartAndWaitAsync_" data-uid="CarinaStudio.AutoUpdate.Updater.StartAndWaitAsync*"></a>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_StartAndWaitAsync_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Updater.StartAndWaitAsync(CancellationToken)">StartAndWaitAsync(CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Start updating application and wait for completion asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; StartAndWaitAsync(CancellationToken cancellationToken)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>Cancellation token.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>True if updating process has been started successfully.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater_PropertyChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L642">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_AutoUpdate_Updater_PropertyChanged" data-uid="CarinaStudio.AutoUpdate.Updater.PropertyChanged">PropertyChanged</h4>
-  <div class="markdown level1 summary"><p>Raise when property changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
-      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <span class="xref">ISynchronizable</span>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <span class="xref">IDisposable</span>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R?&gt;)</a>
   </div>
   <div>
-      <span class="xref">INotifyPropertyChanged</span>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R?&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action_">DisposableExtensions.Setup&lt;T&gt;(T, Action)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action___0__">DisposableExtensions.Setup&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__">DisposableExtensions.Use&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_">NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, string, object?, int, CancellationToken?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater__ctor_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Updater.#ctor(CarinaStudio.IApplication)">
+  Updater(IApplication)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html">Updater</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Updater(IApplication app)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>app</code> <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></dt>
+    <dd><p>Application.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_ApplicationDirectoryPath_" data-uid="CarinaStudio.AutoUpdate.Updater.ApplicationDirectoryPath*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_ApplicationDirectoryPath" data-uid="CarinaStudio.AutoUpdate.Updater.ApplicationDirectoryPath">
+  ApplicationDirectoryPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set path of application directory to update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ApplicationDirectoryPath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_BackUpApplicationCompletely_" data-uid="CarinaStudio.AutoUpdate.Updater.BackUpApplicationCompletely*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_BackUpApplicationCompletely" data-uid="CarinaStudio.AutoUpdate.Updater.BackUpApplicationCompletely">
+  BackUpApplicationCompletely
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set whether application should be backed-up completely before installation or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BackUpApplicationCompletely { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_DownloadedPackageSize_" data-uid="CarinaStudio.AutoUpdate.Updater.DownloadedPackageSize*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_DownloadedPackageSize" data-uid="CarinaStudio.AutoUpdate.Updater.DownloadedPackageSize">
+  DownloadedPackageSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get size of downloaded package in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long DownloadedPackageSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_Exception_" data-uid="CarinaStudio.AutoUpdate.Updater.Exception*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_Exception" data-uid="CarinaStudio.AutoUpdate.Updater.Exception">
+  Exception
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get latest exception occurred while updating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Exception? Exception { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_IsCancellable_" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancellable*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_IsCancellable" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancellable">
+  IsCancellable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L583"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether updating process is cancellable or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCancellable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_IsCancelling_" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancelling*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_IsCancelling" data-uid="CarinaStudio.AutoUpdate.Updater.IsCancelling">
+  IsCancelling
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L589"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether updating process is cancelling or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCancelling { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_IsUpdating_" data-uid="CarinaStudio.AutoUpdate.Updater.IsUpdating*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_IsUpdating" data-uid="CarinaStudio.AutoUpdate.Updater.IsUpdating">
+  IsUpdating
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L595"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether updating process is on-going or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdating { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_PackageInstaller_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageInstaller*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_PackageInstaller" data-uid="CarinaStudio.AutoUpdate.Updater.PackageInstaller">
+  PackageInstaller
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set <a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a> to install downloaded package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPackageInstaller? PackageInstaller { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.AutoUpdate.Installers.IPackageInstaller.html">IPackageInstaller</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_PackageRequestHeaders_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageRequestHeaders*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_PackageRequestHeaders" data-uid="CarinaStudio.AutoUpdate.Updater.PackageRequestHeaders">
+  PackageRequestHeaders
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L608"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get collection of custom headers for requesting package download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, string&gt; PackageRequestHeaders { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_PackageResolver_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageResolver*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_PackageResolver" data-uid="CarinaStudio.AutoUpdate.Updater.PackageResolver">
+  PackageResolver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L635"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a> to resolve package to download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPackageResolver? PackageResolver { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html">IPackageResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CarinaStudio_AutoUpdate_Updater_PackageResolver_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You need to setup <a class="xref" href="CarinaStudio.AutoUpdate.Resolvers.IPackageResolver.html#CarinaStudio_AutoUpdate_Resolvers_IPackageResolver_Source">Source</a> before calling <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_Start">Start()</a>.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_PackageSize_" data-uid="CarinaStudio.AutoUpdate.Updater.PackageSize*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_PackageSize" data-uid="CarinaStudio.AutoUpdate.Updater.PackageSize">
+  PackageSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L655"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get size of package in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? PackageSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_Progress_" data-uid="CarinaStudio.AutoUpdate.Updater.Progress*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_Progress" data-uid="CarinaStudio.AutoUpdate.Updater.Progress">
+  Progress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L661"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get current progress of updating. Range is [0.0, 1.0] or <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double.nan">NaN</a> if progress is unavailable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Progress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_State_" data-uid="CarinaStudio.AutoUpdate.Updater.State*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_State" data-uid="CarinaStudio.AutoUpdate.Updater.State">
+  State
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L836"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdaterState State { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.AutoUpdate.UpdaterState.html">UpdaterState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_Cancel_" data-uid="CarinaStudio.AutoUpdate.Updater.Cancel*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_Cancel" data-uid="CarinaStudio.AutoUpdate.Updater.Cancel">
+  Cancel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel updating process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cancel()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if cancellation has been accepted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_Dispose_" data-uid="CarinaStudio.AutoUpdate.Updater.Dispose*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_Dispose_System_Boolean_" data-uid="CarinaStudio.AutoUpdate.Updater.Dispose(System.Boolean)">
+  Dispose(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L344"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to dispose managed resources.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_" data-uid="CarinaStudio.AutoUpdate.Updater.OnPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_OnPropertyChanged_System_String_" data-uid="CarinaStudio.AutoUpdate.Updater.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L602"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.AutoUpdate.Updater.html#CarinaStudio_AutoUpdate_Updater_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of changed property.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_Start_" data-uid="CarinaStudio.AutoUpdate.Updater.Start*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_Start" data-uid="CarinaStudio.AutoUpdate.Updater.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L766"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start updating application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Start()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if updating process has been started successfully.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_AutoUpdate_Updater_StartAndWaitAsync_" data-uid="CarinaStudio.AutoUpdate.Updater.StartAndWaitAsync*"></a>
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_StartAndWaitAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Updater.StartAndWaitAsync(System.Threading.CancellationToken)">
+  StartAndWaitAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start updating application and wait for completion asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; StartAndWaitAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>Cancellation token.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>True if updating process has been started successfully.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CarinaStudio_AutoUpdate_Updater_PropertyChanged" data-uid="CarinaStudio.AutoUpdate.Updater.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L667"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_AutoUpdate_Updater.md&amp;value=---%0Auid%3A%20CarinaStudio.AutoUpdate.Updater%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/AutoUpdate/Updater.cs/#L18" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Updater.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

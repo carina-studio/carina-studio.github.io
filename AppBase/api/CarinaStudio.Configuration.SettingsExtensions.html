@@ -1,677 +1,590 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SettingsExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SettingsExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class SettingsExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SettingsExtensions | AppBase ">
+      
+      <meta name="description" content="Extensions for .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Configuration.SettingsExtensions">
-  
-  
-  <h1 id="CarinaStudio_Configuration_SettingsExtensions" data-uid="CarinaStudio.Configuration.SettingsExtensions" class="text-break">Class SettingsExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extensions for <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SettingsExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Configuration.html">CarinaStudio.Configuration</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Configuration.dll</h6>
-  <h5 id="CarinaStudio_Configuration_SettingsExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SettingsExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L71">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)">GetValueOrDefault(ISettings, SettingKey)</h4>
-  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static object GetValueOrDefault(this ISettings settings, SettingKey key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>. The reference can be Null.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><p>Setting value, or default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault%60%601(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L134">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0__" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0})">GetValueOrDefault&lt;T&gt;(ISettings, SettingKey&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T GetValueOrDefault&lt;T&gt;(this ISettings settings, SettingKey&lt;T&gt; key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>. The reference can be Null.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Setting value, or default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_IsFalse_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.IsFalse(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L145">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_IsFalse_" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsFalse*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_IsFalse_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsFalse(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">IsFalse(ISettings, SettingKey&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check whether the value is False or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsFalse(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the value is False.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_IsTrue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.IsTrue(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L155">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_IsTrue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsTrue*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_IsTrue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsTrue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">IsTrue(ISettings, SettingKey&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check whether the value is True or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsTrue(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the value is True.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L163">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)">ResetValues(ISettings)</h4>
-  <div class="markdown level1 summary"><p>Reset all values to default.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ResetValues(this ISettings settings)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_IEnumerable_CarinaStudio_Configuration_SettingKey__.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings%2CIEnumerable%7BCarinaStudio.Configuration.SettingKey%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L172">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_IEnumerable_CarinaStudio_Configuration_SettingKey__" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings,IEnumerable{CarinaStudio.Configuration.SettingKey})">ResetValues(ISettings, IEnumerable&lt;SettingKey&gt;)</h4>
-  <div class="markdown level1 summary"><p>Reset specific set of values to default.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ResetValues(this ISettings settings, IEnumerable&lt;SettingKey&gt; keys)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</td>
-        <td><span class="parametername">keys</span></td>
-        <td><p>Key of settings to reset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_SetValue__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.SetValue%60%601(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L187">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_SetValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.SetValue*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_SetValue__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0____0_" data-uid="CarinaStudio.Configuration.SettingsExtensions.SetValue``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0},``0)">SetValue&lt;T&gt;(ISettings, SettingKey&lt;T&gt;, T)</h4>
-  <div class="markdown level1 summary"><p>Set value of setting.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetValue&lt;T&gt;(this ISettings settings, SettingKey&lt;T&gt; key, T value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>New value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_ToggleValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.ToggleValue(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L198">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_ToggleValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ToggleValue*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_ToggleValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.ToggleValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">ToggleValue(ISettings, SettingKey&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Toggle the boolean value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ToggleValue(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Toggled value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettings_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.ISettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L212">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ValuesEqual*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettings_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettings)">ValuesEqual(ISettings, ISettings)</h4>
-  <div class="markdown level1 summary"><p>Check whether values in two <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> are same or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ValuesEqual(this ISettings settings, ISettings another)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">another</span></td>
-        <td><p>Another <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions_VerifyValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings%2CCarinaStudio.Configuration.SettingKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L236">View Source</a>
-  </span>
-  <a id="CarinaStudio_Configuration_SettingsExtensions_VerifyValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.VerifyValue*"></a>
-  <h4 id="CarinaStudio_Configuration_SettingsExtensions_VerifyValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)">VerifyValue(ISettings, SettingKey)</h4>
-  <div class="markdown level1 summary"><p>Check whether type of value of given setting is correct or not. You can get raw value by calling <a class="xref" href="CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_GetRawValue_CarinaStudio_Configuration_SettingKey_">GetRawValue(SettingKey)</a> if type is incorrect.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool VerifyValue(this ISettings settings, SettingKey key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>Key of setting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if type of value of given setting is correct.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Configuration_SettingsExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.Configuration.SettingsExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Configuration/ISettings.cs/#L63" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.Configuration.SettingsExtensions">
+
+
+
+  <h1 id="CarinaStudio_Configuration_SettingsExtensions" data-uid="CarinaStudio.Configuration.SettingsExtensions" class="text-break">
+Class SettingsExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Configuration.html">Configuration</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Configuration.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extensions for <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SettingsExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SettingsExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)">
+  GetValueOrDefault(ISettings?, SettingKey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Try using generic GetValueOrDefault() instead, unless you don&#39;t know the type of value.&quot;)]
+public static object GetValueOrDefault(this ISettings? settings, SettingKey key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>. The reference can be Null.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Setting value, or default value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault_" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_GetValueOrDefault__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0__" data-uid="CarinaStudio.Configuration.SettingsExtensions.GetValueOrDefault``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0})">
+  GetValueOrDefault&lt;T&gt;(ISettings?, SettingKey&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get setting value as type specified by key, or get default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetValueOrDefault&lt;T&gt;(this ISettings? settings, SettingKey&lt;T&gt; key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>. The reference can be Null.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Setting value, or default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_IsFalse_" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsFalse*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_IsFalse_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsFalse(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">
+  IsFalse(ISettings, SettingKey&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the value is False or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFalse(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the value is False.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_IsTrue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsTrue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_IsTrue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.IsTrue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">
+  IsTrue(ISettings, SettingKey&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the value is True or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTrue(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the value is True.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings)">
+  ResetValues(ISettings)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset all values to default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetValues(this ISettings settings)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_ResetValues_CarinaStudio_Configuration_ISettings_System_Collections_Generic_IEnumerable_CarinaStudio_Configuration_SettingKey__" data-uid="CarinaStudio.Configuration.SettingsExtensions.ResetValues(CarinaStudio.Configuration.ISettings,System.Collections.Generic.IEnumerable{CarinaStudio.Configuration.SettingKey})">
+  ResetValues(ISettings, IEnumerable&lt;SettingKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset specific set of values to default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetValues(this ISettings settings, IEnumerable&lt;SettingKey&gt; keys)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a>&gt;</dt>
+    <dd><p>Key of settings to reset.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_SetValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.SetValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_SetValue__1_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey___0____0_" data-uid="CarinaStudio.Configuration.SettingsExtensions.SetValue``1(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{``0},``0)">
+  SetValue&lt;T&gt;(ISettings, SettingKey&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set value of setting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetValue&lt;T&gt;(this ISettings settings, SettingKey&lt;T&gt; key, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;T&gt;</dt>
+    <dd><p>Key of setting.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>New value.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_ToggleValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ToggleValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_ToggleValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_System_Boolean__" data-uid="CarinaStudio.Configuration.SettingsExtensions.ToggleValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey{System.Boolean})">
+  ToggleValue(ISettings, SettingKey&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Toggle the boolean value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ToggleValue(this ISettings settings, SettingKey&lt;bool&gt; key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey-1.html">SettingKey</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Toggled value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ValuesEqual*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_ValuesEqual_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_ISettings_" data-uid="CarinaStudio.Configuration.SettingsExtensions.ValuesEqual(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.ISettings)">
+  ValuesEqual(ISettings, ISettings)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether values in two <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> are same or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ValuesEqual(this ISettings settings, ISettings another)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>another</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p>Another <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Configuration_SettingsExtensions_VerifyValue_" data-uid="CarinaStudio.Configuration.SettingsExtensions.VerifyValue*"></a>
+
+  <h3 id="CarinaStudio_Configuration_SettingsExtensions_VerifyValue_CarinaStudio_Configuration_ISettings_CarinaStudio_Configuration_SettingKey_" data-uid="CarinaStudio.Configuration.SettingsExtensions.VerifyValue(CarinaStudio.Configuration.ISettings,CarinaStudio.Configuration.SettingKey)">
+  VerifyValue(ISettings, SettingKey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether type of value of given setting is correct or not. You can get raw value by calling <a class="xref" href="CarinaStudio.Configuration.ISettings.html#CarinaStudio_Configuration_ISettings_GetRawValue_CarinaStudio_Configuration_SettingKey_">GetRawValue(SettingKey)</a> if type is incorrect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool VerifyValue(this ISettings settings, SettingKey key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a>.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="CarinaStudio.Configuration.SettingKey.html">SettingKey</a></dt>
+    <dd><p>Key of setting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if type of value of given setting is correct.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Configuration/ISettings.cs/#L63" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

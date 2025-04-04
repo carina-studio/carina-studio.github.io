@@ -1,113 +1,177 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RealNumberTextBox
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RealNumberTextBox
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class RealNumberTextBox | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RealNumberTextBox | AppBase ">
+      
+      <meta name="description" content="to let user input a real number.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Controls.RealNumberTextBox">
-  
-  
-  <h1 id="CarinaStudio_Controls_RealNumberTextBox" data-uid="CarinaStudio.Controls.RealNumberTextBox" class="text-break">Class RealNumberTextBox
+
+        <article data-uid="CarinaStudio.Controls.RealNumberTextBox">
+
+
+
+  <h1 id="CarinaStudio_Controls_RealNumberTextBox" data-uid="CarinaStudio.Controls.RealNumberTextBox" class="text-break">
+Class RealNumberTextBox  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p><see cref="!:TextBox"></see> to let user input a real number.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html">ValueTextBox</a></div>
-    <div class="level2"><a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html">ValueTextBox</a>&lt;<span class="xref">System.Double</span>&gt;</div>
-    <div class="level3"><span class="xref">RealNumberTextBox</span></div>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.Controls.html">Controls</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Avalonia.dll</dd></dl>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+  <div class="markdown summary"><p><span class="xref">Avalonia.Controls.TextBox</span> to let user input a real number.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RealNumberTextBox : ValueTextBox&lt;double&gt;, INotifyPropertyChanged, IDataContextProvider, ILogical, IThemeVariantHost, IResourceHost, IResourceNode, IStyleHost, ISetLogicalParent, ISetInheritanceParent, ISupportInitialize, IStyleable, IInputElement, IDataTemplateHost, INamed, ISetterValue</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AvaloniaObject</span></div>
+      <div><span class="xref">Animatable</span></div>
+      <div><span class="xref">StyledElement</span></div>
+      <div><span class="xref">Visual</span></div>
+      <div><span class="xref">Layoutable</span></div>
+      <div><span class="xref">Interactive</span></div>
+      <div><span class="xref">InputElement</span></div>
+      <div><span class="xref">Control</span></div>
+      <div><span class="xref">TemplatedControl</span></div>
+      <div><span class="xref">TextBox</span></div>
+      <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html">ValueTextBox</a></div>
+      <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html">ValueTextBox</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</div>
+      <div><span class="xref">RealNumberTextBox</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><span class="xref">IDataContextProvider</span></div>
+      <div><span class="xref">ILogical</span></div>
+      <div><span class="xref">IThemeVariantHost</span></div>
+      <div><span class="xref">IResourceHost</span></div>
+      <div><span class="xref">IResourceNode</span></div>
+      <div><span class="xref">IStyleHost</span></div>
+      <div><span class="xref">ISetLogicalParent</span></div>
+      <div><span class="xref">ISetInheritanceParent</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a></div>
+      <div><span class="xref">IStyleable</span></div>
+      <div><span class="xref">IInputElement</span></div>
+      <div><span class="xref">IDataTemplateHost</span></div>
+      <div><span class="xref">INamed</span></div>
+      <div><span class="xref">ISetterValue</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable_System_Object__System_Nullable_System_Object__">ValueTextBox&lt;Double&gt;.CheckValueEquality(Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Object_System_Object_">ValueTextBox&lt;double&gt;.CheckValueEquality(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable__0__System_Nullable__0__">ValueTextBox&lt;Double&gt;.CheckValueEquality(Nullable&lt;Double&gt;, Nullable&lt;Double&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CheckValueEquality_System_Nullable__0__System_Nullable__0__">ValueTextBox&lt;double&gt;.CheckValueEquality(double?, double?)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_">ValueTextBox&lt;Double&gt;.CoerceValue(Object)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue_System_Object_">ValueTextBox&lt;double&gt;.CoerceValue(object)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue__0_">ValueTextBox&lt;Double&gt;.CoerceValue(Double)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_CoerceValue__0_">ValueTextBox&lt;double&gt;.CoerceValue(double)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_">ValueTextBox&lt;Double&gt;.ConvertToText(Object)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText_System_Object_">ValueTextBox&lt;double&gt;.ConvertToText(object)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText__0_">ValueTextBox&lt;Double&gt;.ConvertToText(Double)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_ConvertToText__0_">ValueTextBox&lt;double&gt;.ConvertToText(double)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_DefaultValue">ValueTextBox&lt;Double&gt;.DefaultValue</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_DefaultValue">ValueTextBox&lt;double&gt;.DefaultValue</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Nullable_System_Object___">ValueTextBox&lt;Double&gt;.TryConvertToValue(String, Nullable&lt;Object&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_TryConvertToValue_System_String_System_Object__">ValueTextBox&lt;double&gt;.TryConvertToValue(string, out object)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_AcceptsWhiteSpacesProperty">ValueTextBox.AcceptsWhiteSpacesProperty</a>
@@ -140,7 +204,7 @@
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_IsTextValid">ValueTextBox.IsTextValid</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_RoutedEventArgs_">ValueTextBox.OnLostFocus(RoutedEventArgs)</a>
+      <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnLostFocus_Avalonia_Interactivity_RoutedEventArgs_">ValueTextBox.OnLostFocus(RoutedEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_StyleKeyOverride">ValueTextBox.StyleKeyOverride</a>
@@ -151,623 +215,1810 @@
     <div>
       <a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_ValidationDelay">ValueTextBox.ValidationDelay</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.Controls.html">CarinaStudio.Controls</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Avalonia.dll</h6>
-  <h5 id="CarinaStudio_Controls_RealNumberTextBox_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RealNumberTextBox : ValueTextBox&lt;double&gt;</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox__ctor.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L36">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox__ctor_" data-uid="CarinaStudio.Controls.RealNumberTextBox.#ctor*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox__ctor" data-uid="CarinaStudio.Controls.RealNumberTextBox.#ctor">RealNumberTextBox()</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html">RealNumberTextBox</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RealNumberTextBox()</code></pre>
-  </div>
-  <h3 id="fields">Fields
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowedProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L18">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowedProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty">IsNaNAllowedProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed">IsNaNAllowed</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;bool&gt; IsNaNAllowedProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_MaximumProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.MaximumProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L22">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_MaximumProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.MaximumProperty">MaximumProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Maximum">Maximum</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;double&gt; MaximumProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_MinimumProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.MinimumProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L26">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_MinimumProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.MinimumProperty">MinimumProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Minimum">Minimum</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;double&gt; MinimumProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StyledProperty</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_ValueProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.ValueProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L30">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_ValueProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.ValueProperty">ValueProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value">Value</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly DirectProperty&lt;RealNumberTextBox, double?&gt; ValueProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DirectProperty</span>&lt;<a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html">RealNumberTextBox</a>, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L43">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed_" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed">IsNaNAllowed</h4>
-  <div class="markdown level1 summary"><p>Get or set whether <see cref="!:double.NaN"></see> is allowed or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsNaNAllowed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_Maximum.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.Maximum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L53">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_Maximum_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Maximum*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_Maximum" data-uid="CarinaStudio.Controls.RealNumberTextBox.Maximum">Maximum</h4>
-  <div class="markdown level1 summary"><p>Get or set maximum value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Maximum { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_Minimum.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.Minimum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L68">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_Minimum_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Minimum*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_Minimum" data-uid="CarinaStudio.Controls.RealNumberTextBox.Minimum">Minimum</h4>
-  <div class="markdown level1 summary"><p>Get or set minimum value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Minimum { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_Value.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L330">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_Value_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Value*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_Value" data-uid="CarinaStudio.Controls.RealNumberTextBox.Value">Value</h4>
-  <div class="markdown level1 summary"><p>Get or set value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override double? Value { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;System.Double&gt;.Value</span></div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_KeyEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(KeyEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L81">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnKeyDown*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_KeyEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(KeyEventArgs)">OnKeyDown(KeyEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnKeyDown(KeyEventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">KeyEventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_OnPastingFromClipboard_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.OnPastingFromClipboard(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L120">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_OnPastingFromClipboard_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPastingFromClipboard*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_OnPastingFromClipboard_System_Nullable_System_String__" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPastingFromClipboard(System.Nullable{System.String})">OnPastingFromClipboard(Nullable&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Called when pasting text from clipboard</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnPastingFromClipboard(string? text)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">text</span></td>
-        <td><p>The text from clipboard.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnPastingFromClipboard_System_Nullable_System_String__">ValueTextBox.OnPastingFromClipboard(Nullable&lt;String&gt;)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L167">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_AvaloniaPropertyChangedEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)">OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AvaloniaPropertyChangedEventArgs</span></td>
-        <td><span class="parametername">change</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;System.Double&gt;.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_OnTextInput_TextInputEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.OnTextInput(TextInputEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L257">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_OnTextInput_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnTextInput*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_OnTextInput_TextInputEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnTextInput(TextInputEventArgs)">OnTextInput(TextInputEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnTextInput(TextInputEventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TextInputEventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.Controls.ValueTextBox.html#CarinaStudio_Controls_ValueTextBox_OnTextInput_TextInputEventArgs_">ValueTextBox.OnTextInput(TextInputEventArgs)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_System_Nullable_System_Double__System_Nullable_System_Double__.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable%7BSystem.Double%7D%2CSystem.Nullable%7BSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L287">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_" data-uid="CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_System_Nullable_System_Double__System_Nullable_System_Double__" data-uid="CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable{System.Double},System.Nullable{System.Double})">RaiseValueChanged(Nullable&lt;Double&gt;, Nullable&lt;Double&gt;)</h4>
-  <div class="markdown level1 summary"><p>Raise property changed event of <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value">Value</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RaiseValueChanged(double? oldValue, double? newValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">oldValue</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">newValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;System.Double&gt;.RaiseValueChanged(System.Nullable&lt;System.Double&gt;, System.Nullable&lt;System.Double&gt;)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_System_String_System_Nullable_System_Double___.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String%2CSystem.Nullable%7BSystem.Double%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L292">View Source</a>
-  </span>
-  <a id="CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_" data-uid="CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue*"></a>
-  <h4 id="CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_System_String_System_Nullable_System_Double___" data-uid="CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String,System.Nullable{System.Double}@)">TryConvertToValue(String, out Nullable&lt;Double&gt;)</h4>
-  <div class="markdown level1 summary"><p>Try converting text to value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override bool TryConvertToValue(string text, out double? value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">text</span></td>
-        <td><p>Text.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if conversion succeeded.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CarinaStudio.Controls.ValueTextBox&lt;System.Double&gt;.TryConvertToValue(System.String, System.Nullable&lt;System.Double&gt;)</span></div>
-  <h3 id="extensionmethods">Extension Methods</h3>
+    <div>
+      <span class="xref">TextBox.AcceptsReturnProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.AcceptsTabProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CaretIndexProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.IsReadOnlyProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.PasswordCharProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionBrushProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionForegroundBrushProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CaretBrushProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionStartProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionEndProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.MaxLengthProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.MaxLinesProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextAlignmentProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.HorizontalContentAlignmentProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.VerticalContentAlignmentProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextWrappingProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.LineHeightProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.LetterSpacingProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.WatermarkProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.UseFloatingWatermarkProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.NewLineProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.InnerLeftContentProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.InnerRightContentProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.RevealPasswordProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanCutProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanCopyProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanPasteProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.IsUndoEnabledProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.UndoLimitProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanUndoProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanRedoProperty</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CopyingToClipboardEvent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CuttingToClipboardEvent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.PastingFromClipboardEvent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextChangedEvent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextChangingEvent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.ClearSelection()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnApplyTemplate(TemplateAppliedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnGotFocus(GotFocusEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Cut()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Copy()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Paste()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnPointerPressed(PointerPressedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnPointerMoved(PointerEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnPointerReleased(PointerReleasedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.OnCreateAutomationPeer()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">TextBox.UpdateDataValidation(AvaloniaProperty, BindingValueType, Exception)</a>
+    </div>
+    <div>
+      <span class="xref">TextBox.Clear()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TextBox.ScrollToLine(int)</a>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectAll()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Undo()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Redo()</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.MeasureOverride(Size)</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CutGesture</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CopyGesture</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.PasteGesture</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.AcceptsReturn</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.AcceptsTab</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CaretIndex</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.PasswordChar</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionBrush</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionForegroundBrush</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CaretBrush</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionStart</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectionEnd</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.MaxLength</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.MaxLines</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.LetterSpacing</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.LineHeight</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Text</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.SelectedText</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.HorizontalContentAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.VerticalContentAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextAlignment</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.Watermark</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.UseFloatingWatermark</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.InnerLeftContent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.InnerRightContent</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.RevealPassword</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextWrapping</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.NewLine</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanCut</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanCopy</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanPaste</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.IsUndoEnabled</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.UndoLimit</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanUndo</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CanRedo</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CopyingToClipboard</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.CuttingToClipboard</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.PastingFromClipboard</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextChanged</span>
+    </div>
+    <div>
+      <span class="xref">TextBox.TextChanging</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.BackgroundProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.BorderBrushProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.BorderThicknessProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.CornerRadiusProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontFamilyProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontSizeProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontStyleProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontWeightProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontStretchProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.ForegroundProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.PaddingProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.TemplateProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.IsTemplateFocusTargetProperty</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.TemplateAppliedEvent</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.GetIsTemplateFocusTarget(Control)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TemplatedControl.SetIsTemplateFocusTarget(Control, bool)</a>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.ApplyTemplate()</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.GetTemplateFocusTarget()</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.OnAttachedToLogicalTree(LogicalTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.OnDetachedFromLogicalTree(LogicalTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.OnTemplateChanged(AvaloniaPropertyChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.Background</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.BorderBrush</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.BorderThickness</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.CornerRadius</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontFamily</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontSize</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontStyle</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontWeight</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.FontStretch</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.Foreground</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.Padding</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.Template</span>
+    </div>
+    <div>
+      <span class="xref">TemplatedControl.TemplateApplied</span>
+    </div>
+    <div>
+      <span class="xref">Control.FocusAdornerProperty</span>
+    </div>
+    <div>
+      <span class="xref">Control.TagProperty</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextMenuProperty</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextFlyoutProperty</span>
+    </div>
+    <div>
+      <span class="xref">Control.RequestBringIntoViewEvent</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextRequestedEvent</span>
+    </div>
+    <div>
+      <span class="xref">Control.LoadedEvent</span>
+    </div>
+    <div>
+      <span class="xref">Control.UnloadedEvent</span>
+    </div>
+    <div>
+      <span class="xref">Control.SizeChangedEvent</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnLoaded(RoutedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnUnloaded(RoutedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnSizeChanged(SizeChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnAttachedToVisualTreeCore(VisualTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnDetachedFromVisualTreeCore(VisualTreeAttachmentEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.OnKeyUp(KeyEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Control.FocusAdorner</span>
+    </div>
+    <div>
+      <span class="xref">Control.DataTemplates</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextMenu</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextFlyout</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsLoaded</span>
+    </div>
+    <div>
+      <span class="xref">Control.Tag</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextRequested</span>
+    </div>
+    <div>
+      <span class="xref">Control.Loaded</span>
+    </div>
+    <div>
+      <span class="xref">Control.Unloaded</span>
+    </div>
+    <div>
+      <span class="xref">Control.SizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.FocusableProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsEnabledProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsEffectivelyEnabledProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.CursorProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsKeyboardFocusWithinProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsFocusedProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsHitTestVisibleProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsPointerOverProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsTabStopProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.GotFocusEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.LostFocusEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.KeyDownEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.KeyUpEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TabIndexProperty</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TextInputEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TextInputMethodClientRequestedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerEnteredEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerExitedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerMovedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerPressedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerReleasedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerCaptureLostEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerWheelChangedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TappedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.HoldingEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.DoubleTappedEvent</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.Focus(NavigationMethod, KeyModifiers)</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.OnPointerEntered(PointerEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.OnPointerExited(PointerEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.OnPointerCaptureLost(PointerCaptureLostEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.OnPointerWheelChanged(PointerWheelEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.UpdateIsEffectivelyEnabled()</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.Focusable</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsEnabled</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.Cursor</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsKeyboardFocusWithin</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsFocused</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsHitTestVisible</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsPointerOver</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsTabStop</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsEffectivelyEnabled</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TabIndex</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.KeyBindings</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.IsEnabledCore</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.GestureRecognizers</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.GotFocus</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.LostFocus</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.KeyDown</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.KeyUp</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TextInput</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.TextInputMethodClientRequested</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerEntered</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerExited</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerMoved</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerPressed</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerReleased</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerCaptureLost</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.PointerWheelChanged</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.Tapped</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.Holding</span>
+    </div>
+    <div>
+      <span class="xref">InputElement.DoubleTapped</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Interactive.AddHandler(RoutedEvent, Delegate, RoutingStrategies, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">Interactive.AddHandler&lt;TEventArgs&gt;(RoutedEvent&lt;TEventArgs&gt;, EventHandler&lt;TEventArgs&gt;, RoutingStrategies, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Interactive.RemoveHandler(RoutedEvent, Delegate)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">Interactive.RemoveHandler&lt;TEventArgs&gt;(RoutedEvent&lt;TEventArgs&gt;, EventHandler&lt;TEventArgs&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Interactive.RaiseEvent(RoutedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Interactive.BuildEventRoute(RoutedEvent)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.DesiredSizeProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.WidthProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.HeightProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MinWidthProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MaxWidthProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MinHeightProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MaxHeightProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MarginProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.HorizontalAlignmentProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.VerticalAlignmentProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.UseLayoutRoundingProperty</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.UpdateLayout()</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.Measure(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.Arrange(Rect)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.InvalidateMeasure()</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.InvalidateArrange()</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.AffectsMeasure&lt;T&gt;(params AvaloniaProperty[])</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.AffectsArrange&lt;T&gt;(params AvaloniaProperty[])</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MeasureCore(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.ArrangeCore(Rect)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.ArrangeOverride(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.OnMeasureInvalidated()</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.OnVisualParentChanged(Visual, Visual)</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.Width</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.Height</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MinWidth</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MaxWidth</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MinHeight</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.MaxHeight</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.Margin</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.HorizontalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.VerticalAlignment</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.DesiredSize</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.IsMeasureValid</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.IsArrangeValid</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.UseLayoutRounding</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.EffectiveViewportChanged</span>
+    </div>
+    <div>
+      <span class="xref">Layoutable.LayoutUpdated</span>
+    </div>
+    <div>
+      <span class="xref">Visual.BoundsProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.ClipToBoundsProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.ClipProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.IsVisibleProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.OpacityProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.OpacityMaskProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.EffectProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.HasMirrorTransformProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.RenderTransformProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.RenderTransformOriginProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.FlowDirectionProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.VisualParentProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.ZIndexProperty</span>
+    </div>
+    <div>
+      <span class="xref">Visual.GetFlowDirection(Visual)</span>
+    </div>
+    <div>
+      <span class="xref">Visual.SetFlowDirection(Visual, FlowDirection)</span>
+    </div>
+    <div>
+      <span class="xref">Visual.InvalidateVisual()</span>
+    </div>
+    <div>
+      <span class="xref">Visual.Render(DrawingContext)</span>
+    </div>
+    <div>
+      <span class="xref">Visual.AffectsRender&lt;T&gt;(params AvaloniaProperty[])</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Visual.LogicalChildrenCollectionChanged(object, NotifyCollectionChangedEventArgs)</a>
+    </div>
+    <div>
+      <span class="xref">Visual.InvalidateMirrorTransform()</span>
+    </div>
+    <div>
+      <span class="xref">Visual.Bounds</span>
+    </div>
+    <div>
+      <span class="xref">Visual.ClipToBounds</span>
+    </div>
+    <div>
+      <span class="xref">Visual.Clip</span>
+    </div>
+    <div>
+      <span class="xref">Visual.IsEffectivelyVisible</span>
+    </div>
+    <div>
+      <span class="xref">Visual.IsVisible</span>
+    </div>
+    <div>
+      <span class="xref">Visual.Opacity</span>
+    </div>
+    <div>
+      <span class="xref">Visual.OpacityMask</span>
+    </div>
+    <div>
+      <span class="xref">Visual.Effect</span>
+    </div>
+    <div>
+      <span class="xref">Visual.HasMirrorTransform</span>
+    </div>
+    <div>
+      <span class="xref">Visual.RenderTransform</span>
+    </div>
+    <div>
+      <span class="xref">Visual.RenderTransformOrigin</span>
+    </div>
+    <div>
+      <span class="xref">Visual.FlowDirection</span>
+    </div>
+    <div>
+      <span class="xref">Visual.ZIndex</span>
+    </div>
+    <div>
+      <span class="xref">Visual.VisualChildren</span>
+    </div>
+    <div>
+      <span class="xref">Visual.VisualRoot</span>
+    </div>
+    <div>
+      <span class="xref">Visual.BypassFlowDirectionPolicies</span>
+    </div>
+    <div>
+      <span class="xref">Visual.AttachedToVisualTree</span>
+    </div>
+    <div>
+      <span class="xref">Visual.DetachedFromVisualTree</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.DataContextProperty</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.NameProperty</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ParentProperty</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.TemplatedParentProperty</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ThemeProperty</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.BeginInit()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.EndInit()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ApplyStyling()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.InitializeIfNeeded()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">StyledElement.TryGetResource(object, ThemeVariant, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">StyledElement.OnDataContextChanged(EventArgs)</a>
+    </div>
+    <div>
+      <span class="xref">StyledElement.OnDataContextBeginUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.OnDataContextEndUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.OnInitialized()</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Name</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Classes</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.DataContext</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.IsInitialized</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Styles</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.StyleKey</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Resources</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.TemplatedParent</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Theme</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.LogicalChildren</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.PseudoClasses</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Parent</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ActualThemeVariant</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.AttachedToLogicalTree</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.DetachedFromLogicalTree</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.DataContextChanged</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.Initialized</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ResourcesChanged</span>
+    </div>
+    <div>
+      <span class="xref">StyledElement.ActualThemeVariantChanged</span>
+    </div>
+    <div>
+      <span class="xref">Animatable.TransitionsProperty</span>
+    </div>
+    <div>
+      <span class="xref">Animatable.OnPropertyChangedCore(AvaloniaPropertyChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">Animatable.Transitions</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.CheckAccess()</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.VerifyAccess()</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.ClearValue(AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(AvaloniaProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.ClearValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.GetValue(AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.GetValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.GetValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.GetBaseValue&lt;T&gt;(StyledProperty&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.IsAnimating(AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.IsSet(AvaloniaProperty)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.SetValue(AvaloniaProperty, object, BindingPriority)</a>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.SetValue&lt;T&gt;(StyledProperty&lt;T&gt;, T, BindingPriority)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.SetValue&lt;T&gt;(DirectPropertyBase&lt;T&gt;, T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">AvaloniaObject.SetCurrentValue(AvaloniaProperty, object)</a>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.SetCurrentValue&lt;T&gt;(StyledProperty&lt;T&gt;, T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind(AvaloniaProperty, IObservable&lt;object&gt;, BindingPriority)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;object&gt;, BindingPriority)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;T&gt;, BindingPriority)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(StyledProperty&lt;T&gt;, IObservable&lt;BindingValue&lt;T&gt;&gt;, BindingPriority)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">AvaloniaObject.Bind&lt;T&gt;(DirectPropertyBase&lt;T&gt;, IObservable&lt;BindingValue&lt;T&gt;&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.CoerceValue(AvaloniaProperty)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.RaisePropertyChanged&lt;T&gt;(DirectPropertyBase&lt;T&gt;, T, T)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.SetAndRaise&lt;T&gt;(DirectPropertyBase&lt;T&gt;, ref T, T)</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.InheritanceParent</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.this[AvaloniaProperty]</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.this[IndexerDescriptor]</span>
+    </div>
+    <div>
+      <span class="xref">AvaloniaObject.PropertyChanged</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_BindToResource_Avalonia_AvaloniaObject_Avalonia_AvaloniaProperty_Avalonia_Controls_IResourceHost_System_Object_">AvaloniaObjectExtensions.BindToResource(AvaloniaObject, AvaloniaProperty, IResourceHost, object)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ControlExtensions.html#CarinaStudio_Controls_ControlExtensions_RemoveFromParent_Avalonia_Controls_Control_">ControlExtensions.RemoveFromParent(Control)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_FindResourceOrDefault__1_Avalonia_Controls_IResourceHost_System_Object_Avalonia_Styling_ThemeVariant___0_">ResourceHostExtensions.FindResourceOrDefault&lt;T&gt;(IResourceHost, object, ThemeVariant?, T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_FindResourceOrDefault__1_Avalonia_Controls_IResourceHost_System_Object___0_">ResourceHostExtensions.FindResourceOrDefault&lt;T&gt;(IResourceHost, object, T)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object_Avalonia_Styling_ThemeVariant_System_Nullable___0___">ResourceHostExtensions.TryFindResource&lt;T&gt;(IResourceHost, object, ThemeVariant?, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object_Avalonia_Styling_ThemeVariant___0__">ResourceHostExtensions.TryFindResource&lt;T&gt;(IResourceHost, object, ThemeVariant?, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object_System_Nullable___0___">ResourceHostExtensions.TryFindResource&lt;T&gt;(IResourceHost, object, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_TryFindResource__1_Avalonia_Controls_IResourceHost_System_Object___0__">ResourceHostExtensions.TryFindResource&lt;T&gt;(IResourceHost, object, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_Avalonia_Styling_ThemeVariant_System_Object_System_Nullable___0___">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, ThemeVariant?, object, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_Avalonia_Styling_ThemeVariant_System_Object___0__">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, ThemeVariant?, object, out T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object_System_Nullable___0___">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, object, out T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object___0__">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, object, out T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Input.InputElementExtensions.html#CarinaStudio_Input_InputElementExtensions_InputHitTest__1_Avalonia_Input_IInputElement_Avalonia_Point_">InputElementExtensions.InputHitTest&lt;T&gt;(IInputElement, Point)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Controls.LayoutableExtensions.html#CarinaStudio_Controls_LayoutableExtensions_RequestLayoutCallback_Avalonia_Layout_Layoutable_System_Action_System_Boolean_">LayoutableExtensions.RequestLayoutCallback(Layoutable, Action, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindAncestor_Avalonia_Visual_CarinaStudio_InterruptiblePredicate_Avalonia_Visual__System_Boolean_">VisualExtensions.FindAncestor(Visual, InterruptiblePredicate&lt;Visual&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindAncestor_Avalonia_Visual_System_Predicate_Avalonia_Visual__System_Boolean_">VisualExtensions.FindAncestor(Visual, Predicate&lt;Visual&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendant_Avalonia_Visual_System_Predicate_Avalonia_Visual__System_Boolean_">VisualExtensions.FindDescendant(Visual, Predicate&lt;Visual&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_Visual_System_String_System_Boolean_">VisualExtensions.FindDescendantOfTypeAndName&lt;T&gt;(Visual, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource__1___0_Avalonia_AvaloniaProperty_System_Object_">ResourceHostExtensions.BindToResource&lt;T&gt;(T, AvaloniaProperty, object)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_">NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, string, object?, int, CancellationToken?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox__ctor_" data-uid="CarinaStudio.Controls.RealNumberTextBox.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox__ctor" data-uid="CarinaStudio.Controls.RealNumberTextBox.#ctor">
+  RealNumberTextBox()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html">RealNumberTextBox</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RealNumberTextBox()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowedProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowedProperty">
+  IsNaNAllowedProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed">IsNaNAllowed</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;bool&gt; IsNaNAllowedProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">StyledProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_MaximumProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.MaximumProperty">
+  MaximumProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Maximum">Maximum</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;double&gt; MaximumProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">StyledProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_MinimumProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.MinimumProperty">
+  MinimumProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html#CarinaStudio_Controls_RealNumberTextBox_Minimum">Minimum</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;double&gt; MinimumProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">StyledProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_ValueProperty" data-uid="CarinaStudio.Controls.RealNumberTextBox.ValueProperty">
+  ValueProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value">Value</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly DirectProperty&lt;RealNumberTextBox, double?&gt; ValueProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DirectProperty</span>&lt;<a class="xref" href="CarinaStudio.Controls.RealNumberTextBox.html">RealNumberTextBox</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed_" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_IsNaNAllowed" data-uid="CarinaStudio.Controls.RealNumberTextBox.IsNaNAllowed">
+  IsNaNAllowed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set whether <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double.nan">NaN</a> is allowed or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNaNAllowed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_Maximum_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Maximum*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_Maximum" data-uid="CarinaStudio.Controls.RealNumberTextBox.Maximum">
+  Maximum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set maximum value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Maximum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_Minimum_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Minimum*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_Minimum" data-uid="CarinaStudio.Controls.RealNumberTextBox.Minimum">
+  Minimum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set minimum value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Minimum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_Value_" data-uid="CarinaStudio.Controls.RealNumberTextBox.Value*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_Value" data-uid="CarinaStudio.Controls.RealNumberTextBox.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double? Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnKeyDown*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_OnKeyDown_Avalonia_Input_KeyEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnKeyDown(Avalonia.Input.KeyEventArgs)">
+  OnKeyDown(KeyEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called before the <span class="xref">Avalonia.Input.InputElement.KeyDown</span> event occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnKeyDown(KeyEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <span class="xref">KeyEventArgs</span></dt>
+    <dd><p>The event args.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_OnPastingFromClipboard_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPastingFromClipboard*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_OnPastingFromClipboard_System_String_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPastingFromClipboard(System.String)">
+  OnPastingFromClipboard(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when pasting text from clipboard</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPastingFromClipboard(string? text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text from clipboard.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_OnPropertyChanged_Avalonia_AvaloniaPropertyChangedEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)">
+  OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when a avalonia property changes on the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>change</code> <span class="xref">AvaloniaPropertyChangedEventArgs</span></dt>
+    <dd><p>The property change details.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_OnTextInput_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnTextInput*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_OnTextInput_Avalonia_Input_TextInputEventArgs_" data-uid="CarinaStudio.Controls.RealNumberTextBox.OnTextInput(Avalonia.Input.TextInputEventArgs)">
+  OnTextInput(TextInputEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called before the <span class="xref">Avalonia.Input.InputElement.TextInput</span> event occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnTextInput(TextInputEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <span class="xref">TextInputEventArgs</span></dt>
+    <dd><p>The event args.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_" data-uid="CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_RaiseValueChanged_System_Nullable_System_Double__System_Nullable_System_Double__" data-uid="CarinaStudio.Controls.RealNumberTextBox.RaiseValueChanged(System.Nullable{System.Double},System.Nullable{System.Double})">
+  RaiseValueChanged(double?, double?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise property changed event of <a class="xref" href="CarinaStudio.Controls.ValueTextBox-1.html#CarinaStudio_Controls_ValueTextBox_1_Value">Value</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RaiseValueChanged(double? oldValue, double? newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>Old value.</p>
+</dd>
+    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>New value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_" data-uid="CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue*"></a>
+
+  <h3 id="CarinaStudio_Controls_RealNumberTextBox_TryConvertToValue_System_String_System_Nullable_System_Double___" data-uid="CarinaStudio.Controls.RealNumberTextBox.TryConvertToValue(System.String,System.Nullable{System.Double}@)">
+  TryConvertToValue(string, out double?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try converting text to value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool TryConvertToValue(string text, out double? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>Converted value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if conversion succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Controls_RealNumberTextBox.md&amp;value=---%0Auid%3A%20CarinaStudio.Controls.RealNumberTextBox%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Avalonia/Controls/RealNumberTextBox.cs/#L13" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Avalonia/Controls/RealNumberTextBox.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

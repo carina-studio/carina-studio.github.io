@@ -1,816 +1,658 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Global
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Global
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class Global | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Global | AppBase ">
+      
+      <meta name="description" content="Global utility methods.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_Global.md&amp;value=---%0Auid%3A%20CarinaStudio.Global%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.Global">
-  
-  
-  <h1 id="CarinaStudio_Global" data-uid="CarinaStudio.Global" class="text-break">Class Global
-  </h1>
-  <div class="markdown level0 summary"><p>Global utility methods.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Global</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_Global_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Global : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_Run__1_CarinaStudio_PointerOutFunc___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.Run%60%601(CarinaStudio.PointerOutFunc%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L69">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
-  <h4 id="CarinaStudio_Global_Run__1_CarinaStudio_PointerOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.PointerOutFunc{``0})">Run&lt;R&gt;(PointerOutFunc&lt;R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Generate a pointer of unmanaged type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R*Run&lt;R&gt;(PointerOutFunc&lt;R&gt; func)
-    where R : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerOutFunc-1.html">PointerOutFunc</a>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate pointer of unmanaged type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>R*</td>
-        <td><p>Generated pointer of unmanaged type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Unmanaged type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_Run__1_CarinaStudio_RefOutFunc___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.Run%60%601(CarinaStudio.RefOutFunc%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L59">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
-  <h4 id="CarinaStudio_Global_Run__1_CarinaStudio_RefOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.RefOutFunc{``0})">Run&lt;R&gt;(RefOutFunc&lt;R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Generate a reference to value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ref R Run&lt;R&gt;(RefOutFunc&lt;R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.RefOutFunc-1.html">RefOutFunc</a>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated reference to value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_Run__1_Func___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.Run%60%601(Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L49">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
-  <h4 id="CarinaStudio_Global_Run__1_Func___0__" data-uid="CarinaStudio.Global.Run``1(Func{``0})">Run&lt;R&gt;(Func&lt;R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Run&lt;R&gt;(Func&lt;R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunCatching__1_Func___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunCatching%60%601(Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L170">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunCatching_" data-uid="CarinaStudio.Global.RunCatching*"></a>
-  <h4 id="CarinaStudio_Global_RunCatching__1_Func___0__" data-uid="CarinaStudio.Global.RunCatching``1(Func{``0})">RunCatching&lt;T&gt;(Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Generate value and catch exception if occurred.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Global.RunCatchingResult&lt;T&gt; RunCatching&lt;T&gt;(Func&lt;T&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;T&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">Global.RunCatchingResult</a>&lt;T&gt;</td>
-        <td><p><a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">Global.RunCatchingResult&lt;T&gt;</a> contains the result and exception occurred.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunOrDefault__1_Func___0____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunOrDefault%60%601(Func%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L81">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
-  <h4 id="CarinaStudio_Global_RunOrDefault__1_Func___0____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(Func{``0},``0)">RunOrDefault&lt;R&gt;(Func&lt;R&gt;, R)</h4>
-  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, R defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunOrDefault__1_Func___0__Action_Exception____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunOrDefault%60%601(Func%7B%60%600%7D%2CAction%7BException%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L103">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
-  <h4 id="CarinaStudio_Global_RunOrDefault__1_Func___0__Action_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(Func{``0},Action{Exception},``0)">RunOrDefault&lt;R&gt;(Func&lt;R&gt;, Action&lt;Exception&gt;, R)</h4>
-  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">Exception</span>&gt;</td>
-        <td><span class="parametername">errorHandler</span></td>
-        <td><p>Action to handle occurred error.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunOrDefaultAsync__1_Func_Task___0_____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunOrDefaultAsync%60%601(Func%7BTask%7B%60%600%7D%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L125">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
-  <h4 id="CarinaStudio_Global_RunOrDefaultAsync__1_Func_Task___0_____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(Func{Task{``0}},``0)">RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, R)</h4>
-  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, R defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunOrDefaultAsync__1_Func_Task___0___Action_Exception____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunOrDefaultAsync%60%601(Func%7BTask%7B%60%600%7D%7D%2CAction%7BException%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L147">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
-  <h4 id="CarinaStudio_Global_RunOrDefaultAsync__1_Func_Task___0___Action_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(Func{Task{``0}},Action{Exception},``0)">RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, Action&lt;Exception&gt;, R)</h4>
-  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;R&gt;&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to generate value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">Exception</span>&gt;</td>
-        <td><span class="parametername">errorHandler</span></td>
-        <td><p>Action to handle occurred error.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>Default value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;R&gt;</td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunWithoutError_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunWithoutError(Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L189">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunWithoutError_" data-uid="CarinaStudio.Global.RunWithoutError*"></a>
-  <h4 id="CarinaStudio_Global_RunWithoutError_Action_" data-uid="CarinaStudio.Global.RunWithoutError(Action)">RunWithoutError(Action)</h4>
-  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunWithoutError(Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to run.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunWithoutErrorAsync_Action_.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunWithoutErrorAsync(Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L207">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunWithoutErrorAsync_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync*"></a>
-  <h4 id="CarinaStudio_Global_RunWithoutErrorAsync_Action_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync(Action)">RunWithoutErrorAsync(Action)</h4>
-  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunWithoutErrorAsync(Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to run.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global_RunWithoutErrorAsync_Func_Task__.md&amp;value=---%0Auid%3A%20CarinaStudio.Global.RunWithoutErrorAsync(Func%7BTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L225">View Source</a>
-  </span>
-  <a id="CarinaStudio_Global_RunWithoutErrorAsync_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync*"></a>
-  <h4 id="CarinaStudio_Global_RunWithoutErrorAsync_Func_Task__" data-uid="CarinaStudio.Global.RunWithoutErrorAsync(Func{Task})">RunWithoutErrorAsync(Func&lt;Task&gt;)</h4>
-  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred asynchronously.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task RunWithoutErrorAsync(Func&lt;Task&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Action to run.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_Global.md&amp;value=---%0Auid%3A%20CarinaStudio.Global%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Global.cs/#L10" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.Global">
+
+
+
+  <h1 id="CarinaStudio_Global" data-uid="CarinaStudio.Global" class="text-break">
+Class Global  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Global utility methods.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Global</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Global</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_Global_RunCatching_" data-uid="CarinaStudio.Global.RunCatching*"></a>
+
+  <h3 id="CarinaStudio_Global_RunCatching__1_System_Func___0__" data-uid="CarinaStudio.Global.RunCatching``1(System.Func{``0})">
+  RunCatching&lt;T&gt;(Func&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate value and catch exception if occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Global.RunCatchingResult&lt;T&gt; RunCatching&lt;T&gt;(Func&lt;T&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Global.html">Global</a>.<a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">RunCatchingResult</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="CarinaStudio.Global.RunCatchingResult-1.html">Global.RunCatchingResult&lt;T&gt;</a> contains the result and exception occurred.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
+
+  <h3 id="CarinaStudio_Global_RunOrDefaultAsync__1_System_Func_System_Threading_Tasks_Task___0___System_Action_System_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Action{System.Exception},``0)">
+  RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, Action&lt;Exception&gt;, R)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+    <dt><code>errorHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</dt>
+    <dd><p>Action to handle occurred error.</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">R</span></dt>
+    <dd><p>Default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunOrDefaultAsync_" data-uid="CarinaStudio.Global.RunOrDefaultAsync*"></a>
+
+  <h3 id="CarinaStudio_Global_RunOrDefaultAsync__1_System_Func_System_Threading_Tasks_Task___0_____0_" data-uid="CarinaStudio.Global.RunOrDefaultAsync``1(System.Func{System.Threading.Tasks.Task{``0}},``0)">
+  RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt;, R)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try generating value asynchronously or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; RunOrDefaultAsync&lt;R&gt;(Func&lt;Task&lt;R&gt;&gt; func, R defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">R</span></dt>
+    <dd><p>Default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;R&gt;</dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
+
+  <h3 id="CarinaStudio_Global_RunOrDefault__1_System_Func___0__System_Action_System_Exception____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(System.Func{``0},System.Action{System.Exception},``0)">
+  RunOrDefault&lt;R&gt;(Func&lt;R&gt;, Action&lt;Exception&gt;, R)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, Action&lt;Exception&gt; errorHandler, R defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+    <dt><code>errorHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</dt>
+    <dd><p>Action to handle occurred error.</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">R</span></dt>
+    <dd><p>Default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunOrDefault_" data-uid="CarinaStudio.Global.RunOrDefault*"></a>
+
+  <h3 id="CarinaStudio_Global_RunOrDefault__1_System_Func___0____0_" data-uid="CarinaStudio.Global.RunOrDefault``1(System.Func{``0},``0)">
+  RunOrDefault&lt;R&gt;(Func&lt;R&gt;, R)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try generating value or return default value if error occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R RunOrDefault&lt;R&gt;(Func&lt;R&gt; func, R defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">R</span></dt>
+    <dd><p>Default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunWithoutError_" data-uid="CarinaStudio.Global.RunWithoutError*"></a>
+
+  <h3 id="CarinaStudio_Global_RunWithoutError_System_Action_" data-uid="CarinaStudio.Global.RunWithoutError(System.Action)">
+  RunWithoutError(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RunWithoutError(Action action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to run.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunWithoutErrorAsync_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync*"></a>
+
+  <h3 id="CarinaStudio_Global_RunWithoutErrorAsync_System_Action_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync(System.Action)">
+  RunWithoutErrorAsync(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RunWithoutErrorAsync(Action action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to run.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_RunWithoutErrorAsync_" data-uid="CarinaStudio.Global.RunWithoutErrorAsync*"></a>
+
+  <h3 id="CarinaStudio_Global_RunWithoutErrorAsync_System_Func_System_Threading_Tasks_Task__" data-uid="CarinaStudio.Global.RunWithoutErrorAsync(System.Func{System.Threading.Tasks.Task})">
+  RunWithoutErrorAsync(Func&lt;Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run given action and ignore any error occurred asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunWithoutErrorAsync(Func&lt;Task&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Action to run.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+
+  <h3 id="CarinaStudio_Global_Run__1_CarinaStudio_PointerOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.PointerOutFunc{``0})">
+  Run&lt;R&gt;(PointerOutFunc&lt;R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate a pointer of unmanaged type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R* Run&lt;R&gt;(PointerOutFunc&lt;R&gt; func) where R : unmanaged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.PointerOutFunc-1.html">PointerOutFunc</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate pointer of unmanaged type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>R*</dt>
+    <dd><p>Generated pointer of unmanaged type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Unmanaged type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+
+  <h3 id="CarinaStudio_Global_Run__1_CarinaStudio_RefOutFunc___0__" data-uid="CarinaStudio.Global.Run``1(CarinaStudio.RefOutFunc{``0})">
+  Run&lt;R&gt;(RefOutFunc&lt;R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate a reference to value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ref R Run&lt;R&gt;(RefOutFunc&lt;R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.RefOutFunc-1.html">RefOutFunc</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated reference to value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Global_Run_" data-uid="CarinaStudio.Global.Run*"></a>
+
+  <h3 id="CarinaStudio_Global_Run__1_System_Func___0__" data-uid="CarinaStudio.Global.Run``1(System.Func{``0})">
+  Run&lt;R&gt;(Func&lt;R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Run&lt;R&gt;(Func&lt;R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;R&gt;</dt>
+    <dd><p>Function to generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Global.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

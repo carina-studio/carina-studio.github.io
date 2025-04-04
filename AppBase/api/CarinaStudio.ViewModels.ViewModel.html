@@ -1,1439 +1,1669 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ViewModel
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ViewModel
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class ViewModel | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ViewModel | AppBase ">
+      
+      <meta name="description" content="Base class for view-model.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.ViewModels.ViewModel">
-  
-  
-  <h1 id="CarinaStudio_ViewModels_ViewModel" data-uid="CarinaStudio.ViewModels.ViewModel" class="text-break">Class ViewModel
+
+        <article data-uid="CarinaStudio.ViewModels.ViewModel">
+
+
+
+  <h1 id="CarinaStudio_ViewModels_ViewModel" data-uid="CarinaStudio.ViewModels.ViewModel" class="text-break">
+Class ViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p>Base class for view-model.</p>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.ViewModels.html">ViewModels</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Base class for view-model.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ViewModel</span></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html">UpdatingSession</a></div>
-      <div class="level2"><a class="xref" href="CarinaStudio.ViewModels.ViewModel-1.html">ViewModel&lt;TApplication&gt;</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
-    <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
-    <div><span class="xref">ISynchronizable</span></div>
-    <div><span class="xref">INotifyPropertyChanged</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.ViewModels.html">CarinaStudio.ViewModels</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Application.dll</h6>
-  <h5 id="CarinaStudio_ViewModels_ViewModel_syntax">Syntax</h5>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ViewModel : BaseDisposable, IApplicationObject, IThreadDependent, ISynchronizable, INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ViewModel : BaseDisposable, IDisposable, IApplicationObject, IThreadDependent, ISynchronizable, INotifyPropertyChanged</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_IApplication_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.%23ctor(CarinaStudio.IApplication)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L55">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel__ctor_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)">ViewModel(IApplication)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ViewModel(IApplication app)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
-        <td><span class="parametername">app</span></td>
-        <td><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_HasNecessaryTasksProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L21">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasksProperty" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty">HasNecessaryTasksProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks">HasNecessaryTasks</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; HasNecessaryTasksProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OwnerProperty.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OwnerProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L25">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OwnerProperty" data-uid="CarinaStudio.ViewModels.ViewModel.OwnerProperty">OwnerProperty</h4>
-  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner">Owner</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;ViewModel&gt; OwnerProperty</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Application.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Application%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L83">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Application_" data-uid="CarinaStudio.ViewModels.ViewModel.Application*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Application" data-uid="CarinaStudio.ViewModels.ViewModel.Application">Application</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IApplication Application { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L191">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks_" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks">HasNecessaryTasks</h4>
-  <div class="markdown level1 summary"><p>Check whether at least one necessary task is not completed yet or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasNecessaryTasks { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Id.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L197">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Id_" data-uid="CarinaStudio.ViewModels.ViewModel.Id*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Id" data-uid="CarinaStudio.ViewModels.ViewModel.Id">Id</h4>
-  <div class="markdown level1 summary"><p>Get unique ID of view-model instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Logger.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Logger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L203">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Logger_" data-uid="CarinaStudio.ViewModels.ViewModel.Logger*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Logger" data-uid="CarinaStudio.ViewModels.ViewModel.Logger">Logger</h4>
-  <div class="markdown level1 summary"><p>Logger of this instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ILogger</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OwnedViewModels.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OwnedViewModels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L312">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels_" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels">OwnedViewModels</h4>
-  <div class="markdown level1 summary"><p>Get list of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IList&lt;ViewModel&gt; OwnedViewModels { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Owner.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Owner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L318">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Owner_" data-uid="CarinaStudio.ViewModels.ViewModel.Owner*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Owner" data-uid="CarinaStudio.ViewModels.ViewModel.Owner">Owner</h4>
-  <div class="markdown level1 summary"><p>Get or set owner of this view-model.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ViewModel Owner { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_PersistentState.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.PersistentState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L328">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_PersistentState_" data-uid="CarinaStudio.ViewModels.ViewModel.PersistentState*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_PersistentState" data-uid="CarinaStudio.ViewModels.ViewModel.PersistentState">PersistentState</h4>
-  <div class="markdown level1 summary"><p>Get persistent application state.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ISettings PersistentState { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Settings.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Settings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L349">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Settings_" data-uid="CarinaStudio.ViewModels.ViewModel.Settings*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Settings" data-uid="CarinaStudio.ViewModels.ViewModel.Settings">Settings</h4>
-  <div class="markdown level1 summary"><p>Get application user settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ISettings Settings { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_SynchronizationContext.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.SynchronizationContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L396">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_SynchronizationContext_" data-uid="CarinaStudio.ViewModels.ViewModel.SynchronizationContext*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_SynchronizationContext" data-uid="CarinaStudio.ViewModels.ViewModel.SynchronizationContext">SynchronizationContext</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext">SynchronizationContext</a> on thread which view-model depends on.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SynchronizationContext</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_CheckAccess.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.CheckAccess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L90">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_CheckAccess_" data-uid="CarinaStudio.ViewModels.ViewModel.CheckAccess*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_CheckAccess" data-uid="CarinaStudio.ViewModels.ViewModel.CheckAccess">CheckAccess()</h4>
-  <div class="markdown level1 summary"><p>Check whether current thread is the thread which view-model depends on or not.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if current thread is the thread which view-model depends on.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_CoerceValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.CoerceValue%60%601(CarinaStudio.ViewModels.ObservableProperty%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L109">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_CoerceValue_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_CoerceValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)">CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)</h4>
-  <div class="markdown level1 summary"><p>Coerce value for given property.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected T CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt; property, T value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
-        <td><span class="parametername">property</span></td>
-        <td><p>Property.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Coerced value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of property value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L122">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_Dispose_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Dispose the view-model.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to release managed resources.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.GetValue%60%601(CarinaStudio.ViewModels.ObservableProperty%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L162">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_GetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.GetValue*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.GetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})">GetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get property value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T GetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
-        <td><span class="parametername">property</span></td>
-        <td><p>Property to get.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>Value of property.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.GetValueAsObservable%60%601(CarinaStudio.ViewModels.ObservableProperty%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L177">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_GetValueAsObservable_" data-uid="CarinaStudio.ViewModels.ViewModel.GetValueAsObservable*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.GetValueAsObservable``1(CarinaStudio.ViewModels.ObservableProperty{``0})">GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get property value as <see cref="!:IObservable&lt;T>"></see>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IObservable&lt;T&gt; GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
-        <td><span class="parametername">property</span></td>
-        <td><p>Property to get.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IObservable</span>&lt;T&gt;</td>
-        <td><p><see cref="!:IObservable&lt;T>"></see> represents value of property.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_PropertyChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(PropertyChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L214">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_PropertyChangedEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(PropertyChangedEventArgs)">OnApplicationPropertyChanged(PropertyChangedEventArgs)</h4>
-  <div class="markdown level1 summary"><p>Called when property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Application">Application</a> has been changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnApplicationPropertyChanged(PropertyChangedEventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PropertyChangedEventArgs</span></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L225">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated">OnApplicationStringsUpdated()</h4>
-  <div class="markdown level1 summary"><p>Called when application string resources updated.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnApplicationStringsUpdated()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_CarinaStudio_ViewModels_ViewModel_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L242">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)">OnOwnedViewModelAdded(ViewModel)</h4>
-  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been added.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelAdded(ViewModel viewModel)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
-        <td><span class="parametername">viewModel</span></td>
-        <td><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_CarinaStudio_ViewModels_ViewModel_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L252">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)">OnOwnedViewModelRemoved(ViewModel)</h4>
-  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been removed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelRemoved(ViewModel viewModel)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
-        <td><span class="parametername">viewModel</span></td>
-        <td><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_CarinaStudio_ViewModels_ViewModel_CarinaStudio_ViewModels_ViewModel_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel%2CCarinaStudio.ViewModels.ViewModel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L234">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnerChanged*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_CarinaStudio_ViewModels_ViewModel_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel,CarinaStudio.ViewModels.ViewModel)">OnOwnerChanged(ViewModel, ViewModel)</h4>
-  <div class="markdown level1 summary"><p>Called when owner of the view-model has been changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnOwnerChanged(ViewModel prevOwner, ViewModel newOwner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
-        <td><span class="parametername">prevOwner</span></td>
-        <td><p>Previous owner.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></td>
-        <td><span class="parametername">newOwner</span></td>
-        <td><p>New owner.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Nullable_System_Object__System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L264">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Nullable_System_Object__System_Nullable_System_Object__" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Nullable{System.Object},System.Nullable{System.Object})">OnPropertyChanged(ObservableProperty, Nullable&lt;Object&gt;, Nullable&lt;Object&gt;)</h4>
-  <div class="markdown level1 summary"><p>Called when property changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(ObservableProperty property, object? oldValue, object? newValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a></td>
-        <td><span class="parametername">property</span></td>
-        <td><p>Changed property.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">oldValue</span></td>
-        <td><p>Old value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">newValue</span></td>
-        <td><p>New value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L282">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
-  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged">PropertyChanged</a> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">propertyName</span></td>
-        <td><p>Name of changed property.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L293">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnSettingChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanged*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)">OnSettingChanged(SettingChangedEventArgs)</h4>
-  <div class="markdown level1 summary"><p>Called when application setting has been changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnSettingChanged(SettingChangedEventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L305">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_OnSettingChanging_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanging*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)">OnSettingChanging(SettingChangingEventArgs)</h4>
-  <div class="markdown level1 summary"><p>Called when application setting is changing.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnSettingChanging(SettingChangingEventArgs e)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Configuration.SettingChangingEventArgs.html">SettingChangingEventArgs</a></td>
-        <td><span class="parametername">e</span></td>
-        <td><p>Event data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_ResetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.ResetValue%60%601(CarinaStudio.ViewModels.ObservableProperty%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L342">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_ResetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.ResetValue*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_ResetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.ResetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})">ResetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Reset value of given <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a> to its default value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void ResetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
-        <td><span class="parametername">property</span></td>
-        <td><p><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a> to reset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.SetValue%60%601(CarinaStudio.ViewModels.ObservableProperty%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L358">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_SetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.SetValue*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_" data-uid="CarinaStudio.ViewModels.ViewModel.SetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)">SetValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)</h4>
-  <div class="markdown level1 summary"><p>Set property value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property, T value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</td>
-        <td><span class="parametername">property</span></td>
-        <td><p>Property to set.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_ToString.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L403">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_ToString_" data-uid="CarinaStudio.ViewModels.ViewModel.ToString*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_ToString" data-uid="CarinaStudio.ViewModels.ViewModel.ToString">ToString()</h4>
-  <div class="markdown level1 summary"><p>Get readable string represents this view-model.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>String represents this view-model.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_Task_.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(Task)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L412">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_Task_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(Task)">WaitForNecessaryTaskAsync(Task)</h4>
-  <div class="markdown level1 summary"><p>Treat given task as necessary task and wait for completion.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected async Task WaitForNecessaryTaskAsync(Task task)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><span class="parametername">task</span></td>
-        <td><p>Task.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>Task or waiting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_Task__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The task will also be waited by <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync">WaitForNecessaryTasksAsync()</a> after calling this method.</p>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L437">View Source</a>
-  </span>
-  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync*"></a>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync">WaitForNecessaryTasksAsync()</h4>
-  <div class="markdown level1 summary"><p>Wait for completion of all necessary asynchronous tasks.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual async Task WaitForNecessaryTasksAsync()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td><p>Task of waiting.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Error generated by tasks will be ignored.</p>
-</div>
-  <h3 id="events">Events
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel_PropertyChanged.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L334">View Source</a>
-  </span>
-  <h4 id="CarinaStudio_ViewModels_ViewModel_PropertyChanged" data-uid="CarinaStudio.ViewModels.ViewModel.PropertyChanged">PropertyChanged</h4>
-  <div class="markdown level1 summary"><p>Raised when property changed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PropertyChangedEventHandler</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a>
-  </div>
-  <div>
-      <a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a>
-  </div>
-  <div>
-      <span class="xref">ISynchronizable</span>
-  </div>
-  <div>
-      <span class="xref">INotifyPropertyChanged</span>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CarinaStudio.BaseDisposable.html">BaseDisposable</a></div>
+      <div><span class="xref">ViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="CarinaStudio.IApplicationObject.html">IApplicationObject</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.IThreadDependent.html">IThreadDependent</a></div>
+      <div><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CarinaStudio.AutoUpdate.ViewModels.UpdatingSession.html">UpdatingSession</a></div>
+      <div><a class="xref" href="CarinaStudio.ViewModels.ViewModel-1.html">ViewModel&lt;TApplication&gt;</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_Dispose">BaseDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_IsDisposed">BaseDisposable.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseDisposable.html#CarinaStudio_BaseDisposable_VerifyDisposed">BaseDisposable.VerifyDisposed()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
       <a class="xref" href="CarinaStudio.Threading.ThreadDependentExtensions.html#CarinaStudio_Threading_ThreadDependentExtensions_VerifyAccess_CarinaStudio_Threading_IThreadDependent_">ThreadDependentExtensions.VerifyAccess(IThreadDependent)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R?&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R?&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action_">DisposableExtensions.Setup&lt;T&gt;(T, Action)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action___0__">DisposableExtensions.Setup&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__">DisposableExtensions.Use&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_">NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.Tests.NotifyPropertyChangedExtensions.html#CarinaStudio_Tests_NotifyPropertyChangedExtensions_WaitForPropertyAsync_System_ComponentModel_INotifyPropertyChanged_System_String_System_Object_System_Int32_System_Nullable_System_Threading_CancellationToken__">NotifyPropertyChangedExtensions.WaitForPropertyAsync(INotifyPropertyChanged, string, object?, int, CancellationToken?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel__ctor_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.ViewModels.ViewModel.#ctor(CarinaStudio.IApplication)">
+  ViewModel(IApplication)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ViewModel(IApplication app)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>app</code> <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasksProperty" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasksProperty">
+  HasNecessaryTasksProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks">HasNecessaryTasks</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;bool&gt; HasNecessaryTasksProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OwnerProperty" data-uid="CarinaStudio.ViewModels.ViewModel.OwnerProperty">
+  OwnerProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Owner">Owner</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ObservableProperty&lt;ViewModel?&gt; OwnerProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;<a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Application_" data-uid="CarinaStudio.ViewModels.ViewModel.Application*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Application" data-uid="CarinaStudio.ViewModels.ViewModel.Application">
+  Application
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which view-model belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IApplication Application { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.IApplication.html">IApplication</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks_" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_HasNecessaryTasks" data-uid="CarinaStudio.ViewModels.ViewModel.HasNecessaryTasks">
+  HasNecessaryTasks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether at least one necessary task is not completed yet or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNecessaryTasks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Id_" data-uid="CarinaStudio.ViewModels.ViewModel.Id*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Id" data-uid="CarinaStudio.ViewModels.ViewModel.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get unique ID of view-model instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Logger_" data-uid="CarinaStudio.ViewModels.ViewModel.Logger*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Logger" data-uid="CarinaStudio.ViewModels.ViewModel.Logger">
+  Logger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L343"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Logger of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels_" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OwnedViewModels" data-uid="CarinaStudio.ViewModels.ViewModel.OwnedViewModels">
+  OwnedViewModels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get list of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IList&lt;ViewModel&gt; OwnedViewModels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Owner_" data-uid="CarinaStudio.ViewModels.ViewModel.Owner*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Owner" data-uid="CarinaStudio.ViewModels.ViewModel.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set owner of this view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ViewModel? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_PersistentState_" data-uid="CarinaStudio.ViewModels.ViewModel.PersistentState*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_PersistentState" data-uid="CarinaStudio.ViewModels.ViewModel.PersistentState">
+  PersistentState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get persistent application state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ISettings PersistentState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Settings_" data-uid="CarinaStudio.ViewModels.ViewModel.Settings*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Settings" data-uid="CarinaStudio.ViewModels.ViewModel.Settings">
+  Settings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L498"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get application user settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ISettings Settings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_SynchronizationContext_" data-uid="CarinaStudio.ViewModels.ViewModel.SynchronizationContext*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_SynchronizationContext" data-uid="CarinaStudio.ViewModels.ViewModel.SynchronizationContext">
+  SynchronizationContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_SynchronizationContext">SynchronizationContext</a> on thread which view-model depends on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext">SynchronizationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResource_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResource_System_Action_System_Action_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource(System.Action,System.Action)">
+  AddResource(Action, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resource which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResource(Action setup, Action dispose)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>setup</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to set up resource.</p>
+</dd>
+    <dt><code>dispose</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to dispose resource.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResource_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResource_System_Func_System_Threading_Tasks_Task__System_Func_System_Threading_Tasks_Task__" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource(System.Func{System.Threading.Tasks.Task},System.Func{System.Threading.Tasks.Task})">
+  AddResource(Func&lt;Task&gt;, Func&lt;Task&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resource which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResource(Func&lt;Task&gt; setupAsync, Func&lt;Task&gt; disposeAsync)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>setupAsync</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to set up resource.</p>
+</dd>
+    <dt><code>disposeAsync</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action to dispose resource.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResource_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResource_System_IAsyncDisposable_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource(System.IAsyncDisposable)">
+  AddResource(IAsyncDisposable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resource which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResource(IAsyncDisposable resource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></dt>
+    <dd><p>Resource to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResource_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResource_System_IDisposable_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResource(System.IDisposable)">
+  AddResource(IDisposable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resource which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResource(IDisposable resource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></dt>
+    <dd><p>Resource to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResources_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResources*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResources_System_IAsyncDisposable___" data-uid="CarinaStudio.ViewModels.ViewModel.AddResources(System.IAsyncDisposable[])">
+  AddResources(params IAsyncDisposable[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resources which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResources(params IAsyncDisposable[] resources)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a>[]</dt>
+    <dd><p>Resources to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_AddResources_" data-uid="CarinaStudio.ViewModels.ViewModel.AddResources*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_AddResources_System_IDisposable___" data-uid="CarinaStudio.ViewModels.ViewModel.AddResources(System.IDisposable[])">
+  AddResources(params IDisposable[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add resources which will be disposed when disposing the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddResources(params IDisposable[] resources)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>[]</dt>
+    <dd><p>Resources to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_CheckAccess_" data-uid="CarinaStudio.ViewModels.ViewModel.CheckAccess*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_CheckAccess" data-uid="CarinaStudio.ViewModels.ViewModel.CheckAccess">
+  CheckAccess()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether current thread is the thread which view-model depends on or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CheckAccess()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if current thread is the thread which view-model depends on.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_CoerceValue_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_CoerceValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_" data-uid="CarinaStudio.ViewModels.ViewModel.CoerceValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)">
+  CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Coerce value for given property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T CoerceValue&lt;T&gt;(ObservableProperty&lt;T&gt; property, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</dt>
+    <dd><p>Property.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Coerced value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of property value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_Dispose_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_Dispose_System_Boolean_" data-uid="CarinaStudio.ViewModels.ViewModel.Dispose(System.Boolean)">
+  Dispose(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose the view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to release managed resources.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_GetValueAsObservable_" data-uid="CarinaStudio.ViewModels.ViewModel.GetValueAsObservable*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_GetValueAsObservable__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.GetValueAsObservable``1(CarinaStudio.ViewModels.ObservableProperty{``0})">
+  GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get property value as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;T&gt; GetValueAsObservable&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</dt>
+    <dd><p>Property to get.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a> represents value of property.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_GetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.GetValue*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_GetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.GetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})">
+  GetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</dt>
+    <dd><p>Property to get.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>Value of property.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+  OnApplicationPropertyChanged(PropertyChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when property of <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_Application">Application</a> has been changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnApplicationPropertyChanged(PropertyChangedEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs">PropertyChangedEventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated_" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnApplicationStringsUpdated" data-uid="CarinaStudio.ViewModels.ViewModel.OnApplicationStringsUpdated">
+  OnApplicationStringsUpdated()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when application string resources updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnApplicationStringsUpdated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelAdded_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelAdded(CarinaStudio.ViewModels.ViewModel)">
+  OnOwnedViewModelAdded(ViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelAdded(ViewModel viewModel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>viewModel</code> <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnOwnedViewModelRemoved_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnedViewModelRemoved(CarinaStudio.ViewModels.ViewModel)">
+  OnOwnedViewModelRemoved(ViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a> which is owned by this instance has been removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnOwnedViewModelRemoved(ViewModel viewModel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>viewModel</code> <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnerChanged*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnOwnerChanged_CarinaStudio_ViewModels_ViewModel_CarinaStudio_ViewModels_ViewModel_" data-uid="CarinaStudio.ViewModels.ViewModel.OnOwnerChanged(CarinaStudio.ViewModels.ViewModel,CarinaStudio.ViewModels.ViewModel)">
+  OnOwnerChanged(ViewModel?, ViewModel?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when owner of the view-model has been changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnOwnerChanged(ViewModel? prevOwner, ViewModel? newOwner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prevOwner</code> <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></dt>
+    <dd><p>Previous owner.</p>
+</dd>
+    <dt><code>newOwner</code> <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html">ViewModel</a></dt>
+    <dd><p>New owner.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_CarinaStudio_ViewModels_ObservableProperty_System_Object_System_Object_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(CarinaStudio.ViewModels.ObservableProperty,System.Object,System.Object)">
+  OnPropertyChanged(ObservableProperty, object?, object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(ObservableProperty property, object? oldValue, object? newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a></dt>
+    <dd><p>Changed property.</p>
+</dd>
+    <dt><code>oldValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Old value.</p>
+</dd>
+    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>New value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnPropertyChanged_System_String_" data-uid="CarinaStudio.ViewModels.ViewModel.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_PropertyChanged">PropertyChanged</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of changed property.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnSettingChanged_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanged*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnSettingChanged_CarinaStudio_Configuration_SettingChangedEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanged(CarinaStudio.Configuration.SettingChangedEventArgs)">
+  OnSettingChanged(SettingChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L434"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when application setting has been changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSettingChanged(SettingChangedEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="CarinaStudio.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_OnSettingChanging_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanging*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_OnSettingChanging_CarinaStudio_Configuration_SettingChangingEventArgs_" data-uid="CarinaStudio.ViewModels.ViewModel.OnSettingChanging(CarinaStudio.Configuration.SettingChangingEventArgs)">
+  OnSettingChanging(SettingChangingEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when application setting is changing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSettingChanging(SettingChangingEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="CarinaStudio.Configuration.SettingChangingEventArgs.html">SettingChangingEventArgs</a></dt>
+    <dd><p>Event data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_ResetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.ResetValue*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_ResetValue__1_CarinaStudio_ViewModels_ObservableProperty___0__" data-uid="CarinaStudio.ViewModels.ViewModel.ResetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0})">
+  ResetValue&lt;T&gt;(ObservableProperty&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L491"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset value of given <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a> to its default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="CarinaStudio.ViewModels.ObservableProperty.html">ObservableProperty</a> to reset.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_SetValue_" data-uid="CarinaStudio.ViewModels.ViewModel.SetValue*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_SetValue__1_CarinaStudio_ViewModels_ObservableProperty___0____0_" data-uid="CarinaStudio.ViewModels.ViewModel.SetValue``1(CarinaStudio.ViewModels.ObservableProperty{``0},``0)">
+  SetValue&lt;T&gt;(ObservableProperty&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetValue&lt;T&gt;(ObservableProperty&lt;T&gt; property, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="CarinaStudio.ViewModels.ObservableProperty-1.html">ObservableProperty</a>&lt;T&gt;</dt>
+    <dd><p>Property to set.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Value.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_ToString_" data-uid="CarinaStudio.ViewModels.ViewModel.ToString*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_ToString" data-uid="CarinaStudio.ViewModels.ViewModel.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get readable string represents this view-model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String represents this view-model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTaskAsync(System.Threading.Tasks.Task)">
+  WaitForNecessaryTaskAsync(Task)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Treat given task as necessary task and wait for completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task WaitForNecessaryTaskAsync(Task task)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>task</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task or waiting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTaskAsync_System_Threading_Tasks_Task__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The task will also be waited by <a class="xref" href="CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync">WaitForNecessaryTasksAsync()</a> after calling this method.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync*"></a>
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync" data-uid="CarinaStudio.ViewModels.ViewModel.WaitForNecessaryTasksAsync">
+  WaitForNecessaryTasksAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L587"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wait for completion of all necessary asynchronous tasks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task WaitForNecessaryTasksAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of waiting.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_ViewModels_ViewModel_WaitForNecessaryTasksAsync_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Error generated by tasks will be ignored.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CarinaStudio_ViewModels_ViewModel_PropertyChanged" data-uid="CarinaStudio.ViewModels.ViewModel.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when property changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ViewModels_ViewModel.md&amp;value=---%0Auid%3A%20CarinaStudio.ViewModels.ViewModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Application/ViewModels/ViewModel.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application/ViewModels/ViewModel.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

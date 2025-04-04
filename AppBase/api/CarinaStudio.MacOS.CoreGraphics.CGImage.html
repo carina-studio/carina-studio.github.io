@@ -1,96 +1,132 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CGImage
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CGImage
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class CGImage | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CGImage | AppBase ">
+      
+      <meta name="description" content="CGImage.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage">
-  
-  
-  <h1 id="CarinaStudio_MacOS_CoreGraphics_CGImage" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage" class="text-break">Class CGImage
+
+        <article data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage">
+
+
+
+  <h1 id="CarinaStudio_MacOS_CoreGraphics_CGImage" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage" class="text-break">
+Class CGImage  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
-  <div class="markdown level0 summary"><p>CGImage.</p>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a>.<a class="xref" href="CarinaStudio.MacOS.html">MacOS</a>.<a class="xref" href="CarinaStudio.MacOS.CoreGraphics.html">CoreGraphics</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.MacOS.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>CGImage.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html">CFObject</a></div>
-    <div class="level2"><span class="xref">CGImage</span></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CGImage : CFObject, IShareableDisposable&lt;CFObject&gt;, IDisposable</code></pre>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable</a>&lt;<a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html">CFObject</a>&gt;</div>
-    <div><span class="xref">IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html">CFObject</a></div>
+      <div><span class="xref">CGImage</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable</a>&lt;<a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html">CFObject</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Equals_System_Nullable_System_Object__">CFObject.Equals(Nullable&lt;Object&gt;)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Equals_System_Object_">CFObject.Equals(object)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_GetHashCode">CFObject.GetHashCode()</a>
@@ -99,19 +135,16 @@
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Handle">CFObject.Handle</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_IntPtr_System_Boolean_">CFObject.FromHandle(IntPtr, Boolean)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_System_IntPtr_System_Boolean_">CFObject.FromHandle(IntPtr, bool)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle__1_IntPtr_System_Boolean_">CFObject.FromHandle&lt;T&gt;(IntPtr, Boolean)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle__1_System_IntPtr_System_Boolean_">CFObject.FromHandle&lt;T&gt;(IntPtr, bool)</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_Type_IntPtr_System_Boolean_">CFObject.FromHandle(Type, IntPtr, Boolean)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_System_Type_System_IntPtr_System_Boolean_">CFObject.FromHandle(Type, IntPtr, bool)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_IsDefaultInstance">CFObject.IsDefaultInstance</a>
-    </div>
-    <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_CarinaStudio_IShareableDisposable_CarinaStudio_MacOS_CoreFoundation_CFObject__Share">CFObject.IShareableDisposable&lt;CFObject&gt;.Share()</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_IsReleased">CFObject.IsReleased</a>
@@ -120,7 +153,7 @@
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Release">CFObject.Release()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Release_IntPtr_">CFObject.Release(IntPtr)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Release_System_IntPtr_">CFObject.Release(IntPtr)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Retain">CFObject.Retain()</a>
@@ -129,7 +162,7 @@
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Retain__1">CFObject.Retain&lt;T&gt;()</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Retain_IntPtr_">CFObject.Retain(IntPtr)</a>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Retain_System_IntPtr_">CFObject.Retain(IntPtr)</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_ToString">CFObject.ToString()</a>
@@ -143,870 +176,846 @@
     <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_VerifyReleased">CFObject.VerifyReleased()</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.html">CarinaStudio.MacOS.CoreGraphics</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.MacOS.dll</h6>
-  <h5 id="CarinaStudio_MacOS_CoreGraphics_CGImage_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CGImage : CFObject, IShareableDisposable&lt;CFObject&gt;, IDisposable</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.%23ctor(CarinaStudio.MacOS.CoreGraphics.CGImage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L164">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(CarinaStudio.MacOS.CoreGraphics.CGImage)">CGImage(CGImage)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImage(CGImage source)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source image to copy.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.%23ctor(CarinaStudio.MacOS.CoreGraphics.CGImage%2CCarinaStudio.MacOS.CoreGraphics.CGColorSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L177">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(CarinaStudio.MacOS.CoreGraphics.CGImage,CarinaStudio.MacOS.CoreGraphics.CGColorSpace)">CGImage(CGImage, CGColorSpace)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImage(CGImage source, CGColorSpace colorSpace)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source image to copy.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></td>
-        <td><span class="parametername">colorSpace</span></td>
-        <td><p>Color space.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.%23ctor(System.Int32%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGColorSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L58">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGColorSpace)">CGImage(Int32, Int32, CGColorSpace)</h4>
-  <div class="markdown level1 summary"><p>Initialize new empty <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance with <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html#CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_Packed">Packed</a> pixel format and 8-bit component.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGColorSpace colorSpace)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>Width in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td><p>Height in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></td>
-        <td><span class="parametername">colorSpace</span></td>
-        <td><p>Color space.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.%23ctor(System.Int32%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo%2CCarinaStudio.MacOS.CoreGraphics.CGColorSpace%2CCarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L74">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo,CarinaStudio.MacOS.CoreGraphics.CGColorSpace,CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)">CGImage(Int32, Int32, CGImagePixelFormatInfo, Int32, CGImageByteOrderInfo, Int32, CGImageAlphaInfo, CGColorSpace, CGColorRenderingIntent)</h4>
-  <div class="markdown level1 summary"><p>Initialize new empty <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGImagePixelFormatInfo pixelFormat, int bitsPerComponent, CGImageByteOrderInfo byteOrder, int bytesPerRow, CGImageAlphaInfo alphaInfo, CGColorSpace colorSpace, CGColorRenderingIntent renderingIntent = CGColorRenderingIntent.Default)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>Width in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td><p>Height in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></td>
-        <td><span class="parametername">pixelFormat</span></td>
-        <td><p>Pixel format.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">bitsPerComponent</span></td>
-        <td><p>Bits per component.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></td>
-        <td><span class="parametername">byteOrder</span></td>
-        <td><p>Byte order.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">bytesPerRow</span></td>
-        <td><p>Bytes per row.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></td>
-        <td><span class="parametername">alphaInfo</span></td>
-        <td><p>Alpha info.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></td>
-        <td><span class="parametername">colorSpace</span></td>
-        <td><p>Color space.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent.html">CGColorRenderingIntent</a></td>
-        <td><span class="parametername">renderingIntent</span></td>
-        <td><p>Rendering intent.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGDataProvider_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.%23ctor(System.Int32%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo%2CSystem.Int32%2CCarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo%2CCarinaStudio.MacOS.CoreGraphics.CGDataProvider%2CCarinaStudio.MacOS.CoreGraphics.CGColorSpace%2CCarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L102">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGDataProvider_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo,CarinaStudio.MacOS.CoreGraphics.CGDataProvider,CarinaStudio.MacOS.CoreGraphics.CGColorSpace,CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)">CGImage(Int32, Int32, CGImagePixelFormatInfo, Int32, CGImageByteOrderInfo, Int32, CGImageAlphaInfo, CGDataProvider, CGColorSpace, CGColorRenderingIntent)</h4>
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGImagePixelFormatInfo pixelFormat, int bitsPerComponent, CGImageByteOrderInfo byteOrder, int bytesPerRow, CGImageAlphaInfo alphaInfo, CGDataProvider dataProvider, CGColorSpace colorSpace, CGColorRenderingIntent renderingIntent = CGColorRenderingIntent.Default)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>Width in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td><p>Height in pixels.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></td>
-        <td><span class="parametername">pixelFormat</span></td>
-        <td><p>Pixel format.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">bitsPerComponent</span></td>
-        <td><p>Bits per component.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></td>
-        <td><span class="parametername">byteOrder</span></td>
-        <td><p>Byte order.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">bytesPerRow</span></td>
-        <td><p>Bytes per row.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></td>
-        <td><span class="parametername">alphaInfo</span></td>
-        <td><p>Alpha info.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a></td>
-        <td><span class="parametername">dataProvider</span></td>
-        <td><p>Provider of data of image.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></td>
-        <td><span class="parametername">colorSpace</span></td>
-        <td><p>Color space.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent.html">CGColorRenderingIntent</a></td>
-        <td><span class="parametername">renderingIntent</span></td>
-        <td><p>Rendering intent.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_AlphaInfo.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.AlphaInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L198">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_AlphaInfo_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.AlphaInfo*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_AlphaInfo" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.AlphaInfo">AlphaInfo</h4>
-  <div class="markdown level1 summary"><p>Get alpha information of image.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImageAlphaInfo AlphaInfo { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_BitsPerPixel.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.BitsPerPixel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L211">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_BitsPerPixel_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BitsPerPixel*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_BitsPerPixel" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BitsPerPixel">BitsPerPixel</h4>
-  <div class="markdown level1 summary"><p>Get number of bits for each pixel.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int BitsPerPixel { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_ByteOrder.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.ByteOrder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L224">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_ByteOrder_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ByteOrder*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_ByteOrder" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ByteOrder">ByteOrder</h4>
-  <div class="markdown level1 summary"><p>Get byte order.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImageByteOrderInfo ByteOrder { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_BytesPerRow.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.BytesPerRow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L237">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_BytesPerRow_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BytesPerRow*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_BytesPerRow" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BytesPerRow">BytesPerRow</h4>
-  <div class="markdown level1 summary"><p>Get number of bytes for each row of image.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int BytesPerRow { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_ColorSpace.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.ColorSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L250">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_ColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ColorSpace*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_ColorSpace" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ColorSpace">ColorSpace</h4>
-  <div class="markdown level1 summary"><p>Get color space of image.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGColorSpace ColorSpace { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_DataProvider.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.DataProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L264">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_DataProvider_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.DataProvider*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_DataProvider" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.DataProvider">DataProvider</h4>
-  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a> to access data of image.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGDataProvider DataProvider { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_Height.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L316">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_Height_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Height*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_Height" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Height">Height</h4>
-  <div class="markdown level1 summary"><p>Get height of image in pixels.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_PixelFormat.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.PixelFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L338">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_PixelFormat_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.PixelFormat*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_PixelFormat" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.PixelFormat">PixelFormat</h4>
-  <div class="markdown level1 summary"><p>Get pixel format.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CGImagePixelFormatInfo PixelFormat { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_Width.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L351">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_Width_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Width*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_Width" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Width">Width</h4>
-  <div class="markdown level1 summary"><p>Get width of image in pixels.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_FromData_CarinaStudio_MacOS_CoreFoundation_CFData_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.FromData(CarinaStudio.MacOS.CoreFoundation.CFData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L282">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromData_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromData*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromData_CarinaStudio_MacOS_CoreFoundation_CFData_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromData(CarinaStudio.MacOS.CoreFoundation.CFData)">FromData(CFData)</h4>
-  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from data.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromData(CFData data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFData.html">CFData</a></td>
-        <td><span class="parametername">data</span></td>
-        <td><p>Data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></td>
-        <td><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_FromFile_System_String_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.FromFile(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L294">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromFile_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromFile*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromFile_System_String_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromFile(System.String)">FromFile(String)</h4>
-  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from file.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromFile(string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>File name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></td>
-        <td><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_FromStream_Stream_.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.FromStream(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L306">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromStream_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromStream*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromStream_Stream_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromStream(Stream)">FromStream(Stream)</h4>
-  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from data.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromStream(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p>Stream.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></td>
-        <td><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage_OnRelease.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage.OnRelease%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L327">View Source</a>
-  </span>
-  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_OnRelease_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.OnRelease*"></a>
-  <h4 id="CarinaStudio_MacOS_CoreGraphics_CGImage_OnRelease" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.OnRelease">OnRelease()</h4>
-  <div class="markdown level1 summary"><p>Called when releasing instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_OnRelease">CFObject.OnRelease()</a></div>
-  <h3 id="implements">Implements</h3>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
   <div>
-      <a class="xref" href="CarinaStudio.IShareableDisposable-1.html">IShareableDisposable&lt;TSelf&gt;</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
   </div>
   <div>
-      <span class="xref">IDisposable</span>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_CarinaStudio_EventHandler_">ObjectExtensions.AddWeakEventHandler(Object, String, EventHandler)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_CarinaStudio_EventHandler___0__">ObjectExtensions.AddWeakEventHandler&lt;TArgs&gt;(Object, String, EventHandler&lt;TArgs&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">DisposableExtensions.ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R?&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler_System_Object_System_String_Action_">ObjectExtensions.AddWeakEventHandler(Object, String, Action)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;T, R?&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1_System_Object_System_String_Action___0__">ObjectExtensions.AddWeakEventHandler&lt;TArg&gt;(Object, String, Action&lt;TArg&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__">DisposableExtensions.Exchange&lt;T, R&gt;(T, Func&lt;R?&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2_System_Object_System_String_Action___0___1__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2&gt;(Object, String, Action&lt;TArg1, TArg2&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3_System_Object_System_String_Action___0___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TArg1, TArg2, TArg3&gt;(Object, String, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func_System_Threading_Tasks_Task__">DisposableExtensions.SetupAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action_">DisposableExtensions.Setup&lt;T&gt;(T, Action)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_Func___0_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Setup__1___0_System_Action___0__">DisposableExtensions.Setup&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">DisposableExtensions.UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">DisposableExtensions.UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__">DisposableExtensions.Use&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__">DisposableExtensions.Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_EventHandler_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, EventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_Action___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg&gt;(TObject, string, Action&lt;TArg&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__2___0_System_String_System_EventHandler___1__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArgs&gt;(TObject, string, EventHandler&lt;TArgs&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__3___0_System_String_System_Action___1___2__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2&gt;(TObject, string, Action&lt;TArg1, TArg2&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__4___0_System_String_System_Action___1___2___3__">ObjectExtensions.AddWeakEventHandler&lt;TObject, TArg1, TArg2, TArg3&gt;(TObject, string, Action&lt;TArg1, TArg2, TArg3&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AlsoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.AlsoAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Also__1___0_System_Action___0__">ObjectExtensions.Also&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AsNonNull__1___0_">ObjectExtensions.AsNonNull&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__1___0_System_Action___0__">ObjectExtensions.Let&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__1___0_Func___0_Task__">ObjectExtensions.LetAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Let__2___0_System_Func___0___1__">ObjectExtensions.Let&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LetAsync__2___0_Func___0_Task___1___">ObjectExtensions.LetAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_System_Func_System_Threading_Tasks_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_System_Func_System_Threading_Tasks_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action_">ObjectExtensions.Lock&lt;T&gt;(T, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__1___0_System_Action___0__">ObjectExtensions.Lock&lt;T&gt;(T, Action&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__1___0_Func___0_Task__">ObjectExtensions.LockAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_CarinaStudio_RefOutFunc___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, RefOutFunc&lt;R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___0___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_LockAsync__2___0_Func___0_Task___1___">ObjectExtensions.LockAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_Lock__2___0_System_Func___1__">ObjectExtensions.Lock&lt;T, R&gt;(T, Func&lt;R&gt;)</a>
   </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__1_System_Object_System_Func___0_System_Threading_Tasks_Task__">ObjectExtensions.TryCastAndRunAsync&lt;T&gt;(object?, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRunAsync__2_System_Object_System_Func___0_System_Threading_Tasks_Task___1___">ObjectExtensions.TryCastAndRunAsync&lt;T, R&gt;(object?, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__1_System_Object_System_Action___0__">ObjectExtensions.TryCastAndRun&lt;T&gt;(object?, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_TryCastAndRun__2_System_Object_System_Func___0___1__">ObjectExtensions.TryCastAndRun&lt;T, R&gt;(object?, Func&lt;T, R&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(CarinaStudio.MacOS.CoreGraphics.CGImage)">
+  CGImage(CGImage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImage(CGImage source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
+    <dd><p>Source image to copy.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_CarinaStudio_MacOS_CoreGraphics_CGImage_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(CarinaStudio.MacOS.CoreGraphics.CGImage,CarinaStudio.MacOS.CoreGraphics.CGColorSpace)">
+  CGImage(CGImage, CGColorSpace)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImage(CGImage source, CGColorSpace colorSpace)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
+    <dd><p>Source image to copy.</p>
+</dd>
+    <dt><code>colorSpace</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></dt>
+    <dd><p>Color space.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGColorSpace)">
+  CGImage(int, int, CGColorSpace)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new empty <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance with <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html#CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_Packed">Packed</a> pixel format and 8-bit component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGColorSpace colorSpace)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height in pixels.</p>
+</dd>
+    <dt><code>colorSpace</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></dt>
+    <dd><p>Color space.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo,CarinaStudio.MacOS.CoreGraphics.CGColorSpace,CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)">
+  CGImage(int, int, CGImagePixelFormatInfo, int, CGImageByteOrderInfo, int, CGImageAlphaInfo, CGColorSpace, CGColorRenderingIntent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new empty <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGImagePixelFormatInfo pixelFormat, int bitsPerComponent, CGImageByteOrderInfo byteOrder, int bytesPerRow, CGImageAlphaInfo alphaInfo, CGColorSpace colorSpace, CGColorRenderingIntent renderingIntent = CGColorRenderingIntent.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height in pixels.</p>
+</dd>
+    <dt><code>pixelFormat</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></dt>
+    <dd><p>Pixel format.</p>
+</dd>
+    <dt><code>bitsPerComponent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Bits per component.</p>
+</dd>
+    <dt><code>byteOrder</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></dt>
+    <dd><p>Byte order.</p>
+</dd>
+    <dt><code>bytesPerRow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Bytes per row.</p>
+</dd>
+    <dt><code>alphaInfo</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></dt>
+    <dd><p>Alpha info.</p>
+</dd>
+    <dt><code>colorSpace</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></dt>
+    <dd><p>Color space.</p>
+</dd>
+    <dt><code>renderingIntent</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent.html">CGColorRenderingIntent</a></dt>
+    <dd><p>Rendering intent.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage__ctor_System_Int32_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImagePixelFormatInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageByteOrderInfo_System_Int32_CarinaStudio_MacOS_CoreGraphics_CGImageAlphaInfo_CarinaStudio_MacOS_CoreGraphics_CGDataProvider_CarinaStudio_MacOS_CoreGraphics_CGColorSpace_CarinaStudio_MacOS_CoreGraphics_CGColorRenderingIntent_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.#ctor(System.Int32,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo,System.Int32,CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo,CarinaStudio.MacOS.CoreGraphics.CGDataProvider,CarinaStudio.MacOS.CoreGraphics.CGColorSpace,CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent)">
+  CGImage(int, int, CGImagePixelFormatInfo, int, CGImageByteOrderInfo, int, CGImageAlphaInfo, CGDataProvider, CGColorSpace, CGColorRenderingIntent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImage(int width, int height, CGImagePixelFormatInfo pixelFormat, int bitsPerComponent, CGImageByteOrderInfo byteOrder, int bytesPerRow, CGImageAlphaInfo alphaInfo, CGDataProvider dataProvider, CGColorSpace colorSpace, CGColorRenderingIntent renderingIntent = CGColorRenderingIntent.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width in pixels.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height in pixels.</p>
+</dd>
+    <dt><code>pixelFormat</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></dt>
+    <dd><p>Pixel format.</p>
+</dd>
+    <dt><code>bitsPerComponent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Bits per component.</p>
+</dd>
+    <dt><code>byteOrder</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></dt>
+    <dd><p>Byte order.</p>
+</dd>
+    <dt><code>bytesPerRow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Bytes per row.</p>
+</dd>
+    <dt><code>alphaInfo</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></dt>
+    <dd><p>Alpha info.</p>
+</dd>
+    <dt><code>dataProvider</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a></dt>
+    <dd><p>Provider of data of image.</p>
+</dd>
+    <dt><code>colorSpace</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></dt>
+    <dd><p>Color space.</p>
+</dd>
+    <dt><code>renderingIntent</code> <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorRenderingIntent.html">CGColorRenderingIntent</a></dt>
+    <dd><p>Rendering intent.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_AlphaInfo_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.AlphaInfo*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_AlphaInfo" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.AlphaInfo">
+  AlphaInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get alpha information of image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImageAlphaInfo AlphaInfo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageAlphaInfo.html">CGImageAlphaInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_BitsPerPixel_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BitsPerPixel*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_BitsPerPixel" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BitsPerPixel">
+  BitsPerPixel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get number of bits for each pixel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BitsPerPixel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_ByteOrder_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ByteOrder*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_ByteOrder" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ByteOrder">
+  ByteOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get byte order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImageByteOrderInfo ByteOrder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImageByteOrderInfo.html">CGImageByteOrderInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_BytesPerRow_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BytesPerRow*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_BytesPerRow" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.BytesPerRow">
+  BytesPerRow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get number of bytes for each row of image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BytesPerRow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_ColorSpace_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ColorSpace*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_ColorSpace" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.ColorSpace">
+  ColorSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get color space of image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGColorSpace? ColorSpace { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGColorSpace.html">CGColorSpace</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_DataProvider_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.DataProvider*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_DataProvider" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.DataProvider">
+  DataProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a> to access data of image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGDataProvider DataProvider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGDataProvider.html">CGDataProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_Height_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Height*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_Height" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get height of image in pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_PixelFormat_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.PixelFormat*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_PixelFormat" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.PixelFormat">
+  PixelFormat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get pixel format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGImagePixelFormatInfo PixelFormat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImagePixelFormatInfo.html">CGImagePixelFormatInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_Width_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Width*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_Width" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get width of image in pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromData_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromData*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromData_CarinaStudio_MacOS_CoreFoundation_CFData_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromData(CarinaStudio.MacOS.CoreFoundation.CFData)">
+  FromData(CFData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CGImage FromData(CFData data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFData.html">CFData</a></dt>
+    <dd><p>Data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromFile_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromFile*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromFile_System_String_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromFile(System.String)">
+  FromFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CGImage FromFile(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>File name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromStream_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromStream*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_FromStream_System_IO_Stream_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.FromStream(System.IO.Stream)">
+  FromStream(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create <a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a> from data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CGImage FromStream(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p>Stream.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_MacOS_CoreGraphics_CGImage_OnRelease_" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.OnRelease*"></a>
+
+  <h3 id="CarinaStudio_MacOS_CoreGraphics_CGImage_OnRelease" data-uid="CarinaStudio.MacOS.CoreGraphics.CGImage.OnRelease">
+  OnRelease()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when releasing instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_MacOS_CoreGraphics_CGImage.md&amp;value=---%0Auid%3A%20CarinaStudio.MacOS.CoreGraphics.CGImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/MacOS/CoreGraphics/CGImage.cs/#L11" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/MacOS/CoreGraphics/CGImage.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

@@ -1,720 +1,764 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ArrayExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ArrayExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class ArrayExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ArrayExtensions | AppBase ">
+      
+      <meta name="description" content="Extensions for array.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_ArrayExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.ArrayExtensions">
-  
-  
-  <h1 id="CarinaStudio_ArrayExtensions" data-uid="CarinaStudio.ArrayExtensions" class="text-break">Class ArrayExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extensions for array.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ArrayExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_ArrayExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ArrayExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_Pin__1___0___Action_IntPtr__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.Pin%60%601(%60%600%5B%5D%2CAction%7BIntPtr%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L18">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_Pin__1___0___Action_IntPtr__" data-uid="CarinaStudio.ArrayExtensions.Pin``1(``0[],Action{IntPtr})">Pin&lt;T&gt;(T[], Action&lt;IntPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin&lt;T&gt;(this T[] array, Action&lt;IntPtr&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td><p>Array.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">IntPtr</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive address of array and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of array element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_Pin__2___0___Func_IntPtr___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.Pin%60%602(%60%600%5B%5D%2CFunc%7BIntPtr%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L66">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_Pin__2___0___Func_IntPtr___1__" data-uid="CarinaStudio.ArrayExtensions.Pin``2(``0[],Func{IntPtr,``1})">Pin&lt;T, R&gt;(T[], Func&lt;IntPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;T, R&gt;(this T[] array, Func&lt;IntPtr, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td><p>Array.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">IntPtr</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive address of array and generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_Pin__2_System_ValueTuple___0_____1____Action_IntPtr_IntPtr__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.Pin%60%602(System.ValueTuple%7B%60%600%5B%5D%2C%60%601%5B%5D%7D%2CAction%7BIntPtr%2CIntPtr%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L40">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_Pin__2_System_ValueTuple___0_____1____Action_IntPtr_IntPtr__" data-uid="CarinaStudio.ArrayExtensions.Pin``2(System.ValueTuple{``0[],``1[]},Action{IntPtr,IntPtr})">Pin&lt;T1, T2&gt;((T1[], T2[]), Action&lt;IntPtr, IntPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pin&lt;T1, T2&gt;(this (T1[], T2[]) arrays, Action&lt;IntPtr, IntPtr&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
-        <td><span class="parametername">arrays</span></td>
-        <td><p>Arrays.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">IntPtr</span>, <span class="xref">IntPtr</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive addresses of arrays and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
-        <td><p>Type of 1st array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">T2</span></td>
-        <td><p>Type of 2nd array element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_Pin__3_System_ValueTuple___0_____1____Func_IntPtr_IntPtr___2__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.Pin%60%603(System.ValueTuple%7B%60%600%5B%5D%2C%60%601%5B%5D%7D%2CFunc%7BIntPtr%2CIntPtr%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L90">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_Pin__3_System_ValueTuple___0_____1____Func_IntPtr_IntPtr___2__" data-uid="CarinaStudio.ArrayExtensions.Pin``3(System.ValueTuple{``0[],``1[]},Func{IntPtr,IntPtr,``2})">Pin&lt;T1, T2, R&gt;((T1[], T2[]), Func&lt;IntPtr, IntPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R Pin&lt;T1, T2, R&gt;(this (T1[], T2[]) arrays, Func&lt;IntPtr, IntPtr, R&gt; func)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
-        <td><span class="parametername">arrays</span></td>
-        <td><p>Arrays.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">IntPtr</span>, <span class="xref">IntPtr</span>, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive addresses of arrays and generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
-        <td><p>Type of 1st array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">T2</span></td>
-        <td><p>Type of 2nd array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_PinAs__2___0___CarinaStudio_PointerAction___1__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.PinAs%60%602(%60%600%5B%5D%2CCarinaStudio.PointerAction%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L115">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_PinAs__2___0___CarinaStudio_PointerAction___1__" data-uid="CarinaStudio.ArrayExtensions.PinAs``2(``0[],CarinaStudio.PointerAction{``1})">PinAs&lt;T, TPtr&gt;(T[], PointerAction&lt;TPtr&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this T[] array, PointerAction&lt;TPtr&gt; action)
-    where TPtr : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td><p>Array.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;TPtr&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive address of array and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr</span></td>
-        <td><p>Type of pointer of pinned array element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_PinAs__3___0___CarinaStudio_PointerInFunc___1___2__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.PinAs%60%603(%60%600%5B%5D%2CCarinaStudio.PointerInFunc%7B%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L166">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_PinAs__3___0___CarinaStudio_PointerInFunc___1___2__" data-uid="CarinaStudio.ArrayExtensions.PinAs``3(``0[],CarinaStudio.PointerInFunc{``1,``2})">PinAs&lt;T, TPtr, R&gt;(T[], PointerInFunc&lt;TPtr, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this T[] array, PointerInFunc&lt;TPtr, R&gt; func)
-    where TPtr : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td><p>Array.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;TPtr, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive address of array and generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr</span></td>
-        <td><p>Type of pointer of pinned array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_PinAs__4_System_ValueTuple___0_____1____CarinaStudio_PointerAction___2___3__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.PinAs%60%604(System.ValueTuple%7B%60%600%5B%5D%2C%60%601%5B%5D%7D%2CCarinaStudio.PointerAction%7B%60%602%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L139">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_PinAs__4_System_ValueTuple___0_____1____CarinaStudio_PointerAction___2___3__" data-uid="CarinaStudio.ArrayExtensions.PinAs``4(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerAction{``2,``3})">PinAs&lt;T1, T2, TPtr1, TPtr2&gt;((T1[], T2[]), PointerAction&lt;TPtr1, TPtr2&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and perform action.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (T1[], T2[]) arrays, PointerAction&lt;TPtr1, TPtr2&gt; action)
-    where TPtr1 : struct where TPtr2 : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
-        <td><span class="parametername">arrays</span></td>
-        <td><p>Arrays.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerAction-2.html">PointerAction</a>&lt;TPtr1, TPtr2&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Method to receive addresses of arrays and perform action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
-        <td><p>Type of 1st array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">T2</span></td>
-        <td><p>Type of 2nd array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr1</span></td>
-        <td><p>Type of 1st pointer of pinned array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr2</span></td>
-        <td><p>Type of 2nd pointer of pinned array element.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions_PinAs__5_System_ValueTuple___0_____1____CarinaStudio_PointerInFunc___2___3___4__.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions.PinAs%60%605(System.ValueTuple%7B%60%600%5B%5D%2C%60%601%5B%5D%7D%2CCarinaStudio.PointerInFunc%7B%60%602%2C%60%603%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L192">View Source</a>
-  </span>
-  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
-  <h4 id="CarinaStudio_ArrayExtensions_PinAs__5_System_ValueTuple___0_____1____CarinaStudio_PointerInFunc___2___3___4__" data-uid="CarinaStudio.ArrayExtensions.PinAs``5(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerInFunc{``2,``3,``4})">PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;((T1[], T2[]), PointerInFunc&lt;TPtr1, TPtr2, R&gt;)</h4>
-  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and generate a value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (T1[], T2[]) arrays, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func)
-    where TPtr1 : struct where TPtr2 : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ValueTuple</span>&lt;T1[], T2[]&gt;</td>
-        <td><span class="parametername">arrays</span></td>
-        <td><p>Arrays.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.PointerInFunc-3.html">PointerInFunc</a>&lt;TPtr1, TPtr2, R&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>Function to receive addresses of arrays and generate value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">R</span></td>
-        <td><p>Generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
-        <td><p>Type of 1st array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">T2</span></td>
-        <td><p>Type of 2nd array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr1</span></td>
-        <td><p>Type of 1st pointer of pinned array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TPtr2</span></td>
-        <td><p>Type of 2nd pointer of pinned array element.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">R</span></td>
-        <td><p>Type of generated value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_ArrayExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.ArrayExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/ArrayExtensions.cs/#L10" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.ArrayExtensions">
+
+
+
+  <h1 id="CarinaStudio_ArrayExtensions" data-uid="CarinaStudio.ArrayExtensions" class="text-break">
+Class ArrayExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extensions for array.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ArrayExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ArrayExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_ArrayExtensions_GetRangeView_" data-uid="CarinaStudio.ArrayExtensions.GetRangeView*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_GetRangeView__1___0___System_Int32_System_Int32_" data-uid="CarinaStudio.ArrayExtensions.GetRangeView``1(``0[],System.Int32,System.Int32)">
+  GetRangeView&lt;T&gt;(T[], int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get read-only view of range of source array which allows accessing elements from source array directly without copying.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;T&gt; GetRangeView&lt;T&gt;(this T[] array, int start, int count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Source array.</p>
+</dd>
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Start index of range.</p>
+</dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of elements needed to be included.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p>View of range of source array.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_IsEmpty_" data-uid="CarinaStudio.ArrayExtensions.IsEmpty*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_IsEmpty__1___0___" data-uid="CarinaStudio.ArrayExtensions.IsEmpty``1(``0[])">
+  IsEmpty&lt;T&gt;(T[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given array is empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this T[] array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the array is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_IsNotEmpty_" data-uid="CarinaStudio.ArrayExtensions.IsNotEmpty*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_IsNotEmpty__1___0___" data-uid="CarinaStudio.ArrayExtensions.IsNotEmpty``1(``0[])">
+  IsNotEmpty&lt;T&gt;(T[]?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given array is not empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this T[]? array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the array is not empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_IsNullOrEmpty_" data-uid="CarinaStudio.ArrayExtensions.IsNullOrEmpty*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_IsNullOrEmpty__1___0___" data-uid="CarinaStudio.ArrayExtensions.IsNullOrEmpty``1(``0[])">
+  IsNullOrEmpty&lt;T&gt;(T[]?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether given array is null/empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this T[]? array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the array is null or empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_PinAs__2___0___CarinaStudio_PointerAction___1__" data-uid="CarinaStudio.ArrayExtensions.PinAs``2(``0[],CarinaStudio.PointerAction{``1})">
+  PinAs&lt;T, TPtr&gt;(T[], PointerAction&lt;TPtr&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T, TPtr&gt;(this T[] array, PointerAction&lt;TPtr&gt; action) where TPtr : unmanaged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.PointerAction-1.html">PointerAction</a>&lt;TPtr&gt;</dt>
+    <dd><p>Method to receive address of array and perform action.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of array element.</p>
+</dd>
+    <dt><code>TPtr</code></dt>
+    <dd><p>Type of pointer of pinned array element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_PinAs__3___0___CarinaStudio_PointerInFunc___1___2__" data-uid="CarinaStudio.ArrayExtensions.PinAs``3(``0[],CarinaStudio.PointerInFunc{``1,``2})">
+  PinAs&lt;T, TPtr, R&gt;(T[], PointerInFunc&lt;TPtr, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T, TPtr, R&gt;(this T[] array, PointerInFunc&lt;TPtr, R&gt; func) where TPtr : unmanaged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.PointerInFunc-2.html">PointerInFunc</a>&lt;TPtr, R&gt;</dt>
+    <dd><p>Function to receive address of array and generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of array element.</p>
+</dd>
+    <dt><code>TPtr</code></dt>
+    <dd><p>Type of pointer of pinned array element.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_PinAs__4_System_ValueTuple___0_____1____CarinaStudio_PointerAction___2___3__" data-uid="CarinaStudio.ArrayExtensions.PinAs``4(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerAction{``2,``3})">
+  PinAs&lt;T1, T2, TPtr1, TPtr2&gt;((T1[], T2[]), PointerAction&lt;TPtr1, TPtr2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PinAs&lt;T1, T2, TPtr1, TPtr2&gt;(this (T1[], T2[]) arrays, PointerAction&lt;TPtr1, TPtr2&gt; action) where TPtr1 : unmanaged where TPtr2 : unmanaged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arrays</code> (T1[], T2[])</dt>
+    <dd><p>Arrays.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="CarinaStudio.PointerAction-2.html">PointerAction</a>&lt;TPtr1, TPtr2&gt;</dt>
+    <dd><p>Method to receive addresses of arrays and perform action.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T1</code></dt>
+    <dd><p>Type of 1st array element.</p>
+</dd>
+    <dt><code>T2</code></dt>
+    <dd><p>Type of 2nd array element.</p>
+</dd>
+    <dt><code>TPtr1</code></dt>
+    <dd><p>Type of 1st pointer of pinned array element.</p>
+</dd>
+    <dt><code>TPtr2</code></dt>
+    <dd><p>Type of 2nd pointer of pinned array element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_PinAs_" data-uid="CarinaStudio.ArrayExtensions.PinAs*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_PinAs__5_System_ValueTuple___0_____1____CarinaStudio_PointerInFunc___2___3___4__" data-uid="CarinaStudio.ArrayExtensions.PinAs``5(System.ValueTuple{``0[],``1[]},CarinaStudio.PointerInFunc{``2,``3,``4})">
+  PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;((T1[], T2[]), PointerInFunc&lt;TPtr1, TPtr2, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R PinAs&lt;T1, T2, TPtr1, TPtr2, R&gt;(this (T1[], T2[]) arrays, PointerInFunc&lt;TPtr1, TPtr2, R&gt; func) where TPtr1 : unmanaged where TPtr2 : unmanaged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arrays</code> (T1[], T2[])</dt>
+    <dd><p>Arrays.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="CarinaStudio.PointerInFunc-3.html">PointerInFunc</a>&lt;TPtr1, TPtr2, R&gt;</dt>
+    <dd><p>Function to receive addresses of arrays and generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T1</code></dt>
+    <dd><p>Type of 1st array element.</p>
+</dd>
+    <dt><code>T2</code></dt>
+    <dd><p>Type of 2nd array element.</p>
+</dd>
+    <dt><code>TPtr1</code></dt>
+    <dd><p>Type of 1st pointer of pinned array element.</p>
+</dd>
+    <dt><code>TPtr2</code></dt>
+    <dd><p>Type of 2nd pointer of pinned array element.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_Pin__1___0___System_Action_System_IntPtr__" data-uid="CarinaStudio.ArrayExtensions.Pin``1(``0[],System.Action{System.IntPtr})">
+  Pin&lt;T&gt;(T[], Action&lt;IntPtr&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Pin&lt;T&gt;(this T[] array, Action&lt;IntPtr&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>&gt;</dt>
+    <dd><p>Method to receive address of array and perform action.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of array element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_Pin__2_System_ValueTuple___0_____1____System_Action_System_IntPtr_System_IntPtr__" data-uid="CarinaStudio.ArrayExtensions.Pin``2(System.ValueTuple{``0[],``1[]},System.Action{System.IntPtr,System.IntPtr})">
+  Pin&lt;T1, T2&gt;((T1[], T2[]), Action&lt;IntPtr, IntPtr&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and perform action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Pin&lt;T1, T2&gt;(this (T1[], T2[]) arrays, Action&lt;IntPtr, IntPtr&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arrays</code> (T1[], T2[])</dt>
+    <dd><p>Arrays.</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>&gt;</dt>
+    <dd><p>Method to receive addresses of arrays and perform action.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T1</code></dt>
+    <dd><p>Type of 1st array element.</p>
+</dd>
+    <dt><code>T2</code></dt>
+    <dd><p>Type of 2nd array element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_Pin__2___0___System_Func_System_IntPtr___1__" data-uid="CarinaStudio.ArrayExtensions.Pin``2(``0[],System.Func{System.IntPtr,``1})">
+  Pin&lt;T, R&gt;(T[], Func&lt;IntPtr, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given array, get memory address of array and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Pin&lt;T, R&gt;(this T[] array, Func&lt;IntPtr, R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> T[]</dt>
+    <dd><p>Array.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>, R&gt;</dt>
+    <dd><p>Function to receive address of array and generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of array element.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_ArrayExtensions_Pin_" data-uid="CarinaStudio.ArrayExtensions.Pin*"></a>
+
+  <h3 id="CarinaStudio_ArrayExtensions_Pin__3_System_ValueTuple___0_____1____System_Func_System_IntPtr_System_IntPtr___2__" data-uid="CarinaStudio.ArrayExtensions.Pin``3(System.ValueTuple{``0[],``1[]},System.Func{System.IntPtr,System.IntPtr,``2})">
+  Pin&lt;T1, T2, R&gt;((T1[], T2[]), Func&lt;IntPtr, IntPtr, R&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pin given arrays, get memory addresses of arrays and generate a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static R Pin&lt;T1, T2, R&gt;(this (T1[], T2[]) arrays, Func&lt;IntPtr, IntPtr, R&gt; func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arrays</code> (T1[], T2[])</dt>
+    <dd><p>Arrays.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a>, R&gt;</dt>
+    <dd><p>Function to receive addresses of arrays and generate value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">R</span></dt>
+    <dd><p>Generated value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T1</code></dt>
+    <dd><p>Type of 1st array element.</p>
+</dd>
+    <dt><code>T2</code></dt>
+    <dd><p>Type of 2nd array element.</p>
+</dd>
+    <dt><code>R</code></dt>
+    <dd><p>Type of generated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/ArrayExtensions.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

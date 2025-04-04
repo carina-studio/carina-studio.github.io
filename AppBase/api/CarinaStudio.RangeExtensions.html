@@ -1,1371 +1,1113 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RangeExtensions
-   | AppBase </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RangeExtensions
-   | AppBase ">
-    <meta name="generator" content="docfx 2.58.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <title>Class RangeExtensions | AppBase </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RangeExtensions | AppBase ">
+      
+      <meta name="description" content="Extension methods for .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/carina-studio/AppBase/new/master/apiSpec/new?filename=CarinaStudio_RangeExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="">
-              </a>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CarinaStudio.RangeExtensions">
-  
-  
-  <h1 id="CarinaStudio_RangeExtensions" data-uid="CarinaStudio.RangeExtensions" class="text-break">Class RangeExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extension methods for <a class="xref" href="CarinaStudio.Range-1.html">Range&lt;T&gt;</a>.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RangeExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CarinaStudio.html">CarinaStudio</a></h6>
-  <h6><strong>Assembly</strong>: CarinaStudio.AppBase.Core.dll</h6>
-  <h5 id="CarinaStudio_RangeExtensions_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class RangeExtensions : object</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_DateTime__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L387">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_DateTime__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{DateTime})">Length(Range&lt;DateTime&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TimeSpan Length(this Range&lt;DateTime&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">DateTime</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Byte__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L374">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Byte__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Byte})">Length(Range&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;byte&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Double__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L400">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Double__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Double})">Length(Range&lt;Double&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double Length(this Range&lt;double&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int16__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Int16%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L473">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int16__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int16})">Length(Range&lt;Int16&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;short&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int16</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int32__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L426">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int32__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int32})">Length(Range&lt;Int32&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static uint Length(this Range&lt;int&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int64__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Int64%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L439">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int64__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int64})">Length(Range&lt;Int64&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ulong Length(this Range&lt;long&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UInt64</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_SByte__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.SByte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L460">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_SByte__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.SByte})">Length(Range&lt;SByte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;sbyte&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.SByte</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Single__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L413">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Single__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Single})">Length(Range&lt;Single&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Length(this Range&lt;float&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt16__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.UInt16%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L512">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt16__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt16})">Length(Range&lt;UInt16&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;ushort&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt16</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt32__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.UInt32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L486">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt32__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt32})">Length(Range&lt;UInt32&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static uint Length(this Range&lt;uint&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt32</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt64__.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Length(CarinaStudio.Range%7BSystem.UInt64%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L499">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt64__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt64})">Length(Range&lt;UInt64&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get length of the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ulong Length(this Range&lt;ulong&gt; range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt64</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UInt64</span></td>
-        <td><p>Length of  the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_DateTime__TimeSpan_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BDateTime%7D%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L568">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_DateTime__TimeSpan_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{DateTime},TimeSpan)">Offsets(Range&lt;DateTime&gt;, TimeSpan)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;DateTime&gt; Offsets(this Range&lt;DateTime&gt; range, TimeSpan offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">DateTime</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">DateTime</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L526">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Byte__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Byte},System.Int32)">Offsets(Range&lt;Byte&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;byte&gt; Offsets(this Range&lt;byte&gt; range, int offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Double__System_Double_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Double%7D%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L582">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Double__System_Double_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Double},System.Double)">Offsets(Range&lt;Double&gt;, Double)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;double&gt; Offsets(this Range&lt;double&gt; range, double offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int16__System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Int16%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L736">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int16__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int16},System.Int32)">Offsets(Range&lt;Int16&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;short&gt; Offsets(this Range&lt;short&gt; range, int offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int16</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int16</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int32__System_Int64_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Int32%7D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L610">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int32__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int32},System.Int64)">Offsets(Range&lt;Int32&gt;, Int64)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;int&gt; Offsets(this Range&lt;int&gt; range, long offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int64__System_Int64_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Int64%7D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L652">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int64__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int64},System.Int64)">Offsets(Range&lt;Int64&gt;, Int64)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;long&gt; Offsets(this Range&lt;long&gt; range, long offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_SByte__System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.SByte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L694">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_SByte__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.SByte},System.Int32)">Offsets(Range&lt;SByte&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;sbyte&gt; Offsets(this Range&lt;sbyte&gt; range, int offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.SByte</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.SByte</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Single__System_Single_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.Single%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L596">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Single__System_Single_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Single},System.Single)">Offsets(Range&lt;Single&gt;, Single)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;float&gt; Offsets(this Range&lt;float&gt; range, float offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt16__System_Int32_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.UInt16%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L864">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt16__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt16},System.Int32)">Offsets(Range&lt;UInt16&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;ushort&gt; Offsets(this Range&lt;ushort&gt; range, int offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt16</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt16</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt32__System_Int64_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.UInt32%7D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L778">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt32__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt32},System.Int64)">Offsets(Range&lt;UInt32&gt;, Int64)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;uint&gt; Offsets(this Range&lt;uint&gt; range, long offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt32</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt32</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt64__System_Int64_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range%7BSystem.UInt64%7D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L820">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt64__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt64},System.Int64)">Offsets(Range&lt;UInt64&gt;, Int64)</h4>
-  <div class="markdown level1 summary"><p>Offset the range.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;ulong&gt; Offsets(this Range&lt;ulong&gt; range, long offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt64</span>&gt;</td>
-        <td><span class="parametername">range</span></td>
-        <td><p>Range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>Offset.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<span class="xref">System.UInt64</span>&gt;</td>
-        <td><p>New range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions_ToRange__1___0___0_.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions.ToRange%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L905">View Source</a>
-  </span>
-  <a id="CarinaStudio_RangeExtensions_ToRange_" data-uid="CarinaStudio.RangeExtensions.ToRange*"></a>
-  <h4 id="CarinaStudio_RangeExtensions_ToRange__1___0___0_" data-uid="CarinaStudio.RangeExtensions.ToRange``1(``0,``0)">ToRange&lt;T&gt;(T, T)</h4>
-  <div class="markdown level1 summary"><p>Create range from this value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Range&lt;T&gt; ToRange&lt;T&gt;(this T value, T another)
-    where T : struct, IComparable&lt;T&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>Value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">another</span></td>
-        <td><p>Another value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/new/2.1/apiSpec/new?filename=CarinaStudio_RangeExtensions.md&amp;value=---%0Auid%3A%20CarinaStudio.RangeExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/carina-studio/AppBase/blob/2.1/Core/Range.cs/#L367" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            ©2021 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-      </footer>
+
+        <article data-uid="CarinaStudio.RangeExtensions">
+
+
+
+  <h1 id="CarinaStudio_RangeExtensions" data-uid="CarinaStudio.RangeExtensions" class="text-break">
+Class RangeExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CarinaStudio.html">CarinaStudio</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CarinaStudio.AppBase.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extension methods for <a class="xref" href="CarinaStudio.Range-1.html">Range&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class RangeExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RangeExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Byte__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Byte})">
+  Length(Range&lt;byte&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;byte&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_DateTime__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.DateTime})">
+  Length(Range&lt;DateTime&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeSpan Length(this Range&lt;DateTime&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Double__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Double})">
+  Length(Range&lt;double&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Length(this Range&lt;double&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int16__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int16})">
+  Length(Range&lt;short&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;short&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int32__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int32})">
+  Length(Range&lt;int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L426"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint Length(this Range&lt;int&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Int64__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Int64})">
+  Length(Range&lt;long&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong Length(this Range&lt;long&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_SByte__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.SByte})">
+  Length(Range&lt;sbyte&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L460"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;sbyte&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_Single__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.Single})">
+  Length(Range&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Length(this Range&lt;float&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt16__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt16})">
+  Length(Range&lt;ushort&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Length(this Range&lt;ushort&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt32__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt32})">
+  Length(Range&lt;uint&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint Length(this Range&lt;uint&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Length_" data-uid="CarinaStudio.RangeExtensions.Length*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Length_CarinaStudio_Range_System_UInt64__" data-uid="CarinaStudio.RangeExtensions.Length(CarinaStudio.Range{System.UInt64})">
+  Length(Range&lt;ulong&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get length of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong Length(this Range&lt;ulong&gt; range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>Length of  the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Byte__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Byte},System.Int32)">
+  Offsets(Range&lt;byte&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L526"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;byte&gt; Offsets(this Range&lt;byte&gt; range, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_DateTime__System_TimeSpan_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.DateTime},System.TimeSpan)">
+  Offsets(Range&lt;DateTime&gt;, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L568"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;DateTime&gt; Offsets(this Range&lt;DateTime&gt; range, TimeSpan offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Double__System_Double_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Double},System.Double)">
+  Offsets(Range&lt;double&gt;, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L582"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;double&gt; Offsets(this Range&lt;double&gt; range, double offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int16__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int16},System.Int32)">
+  Offsets(Range&lt;short&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L736"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;short&gt; Offsets(this Range&lt;short&gt; range, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int32__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int32},System.Int64)">
+  Offsets(Range&lt;int&gt;, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L610"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;int&gt; Offsets(this Range&lt;int&gt; range, long offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Int64__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Int64},System.Int64)">
+  Offsets(Range&lt;long&gt;, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L652"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;long&gt; Offsets(this Range&lt;long&gt; range, long offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_SByte__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.SByte},System.Int32)">
+  Offsets(Range&lt;sbyte&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L694"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;sbyte&gt; Offsets(this Range&lt;sbyte&gt; range, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_Single__System_Single_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.Single},System.Single)">
+  Offsets(Range&lt;float&gt;, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L596"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;float&gt; Offsets(this Range&lt;float&gt; range, float offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt16__System_Int32_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt16},System.Int32)">
+  Offsets(Range&lt;ushort&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L864"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;ushort&gt; Offsets(this Range&lt;ushort&gt; range, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt32__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt32},System.Int64)">
+  Offsets(Range&lt;uint&gt;, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L778"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;uint&gt; Offsets(this Range&lt;uint&gt; range, long offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_Offsets_" data-uid="CarinaStudio.RangeExtensions.Offsets*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_Offsets_CarinaStudio_Range_System_UInt64__System_Int64_" data-uid="CarinaStudio.RangeExtensions.Offsets(CarinaStudio.Range{System.UInt64},System.Int64)">
+  Offsets(Range&lt;ulong&gt;, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L820"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offset the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;ulong&gt; Offsets(this Range&lt;ulong&gt; range, long offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>range</code> <a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>Range.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Offset.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>New range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_RangeExtensions_ToRange_" data-uid="CarinaStudio.RangeExtensions.ToRange*"></a>
+
+  <h3 id="CarinaStudio_RangeExtensions_ToRange__1___0___0_" data-uid="CarinaStudio.RangeExtensions.ToRange``1(``0,``0)">
+  ToRange&lt;T&gt;(T, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L905"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create range from this value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Range&lt;T&gt; ToRange&lt;T&gt;(this T value, T another) where T : struct, IComparable&lt;T&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>Value.</p>
+</dd>
+    <dt><code>another</code> <span class="xref">T</span></dt>
+    <dd><p>Another value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CarinaStudio.Range-1.html">Range</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Range.cs/#L367" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
