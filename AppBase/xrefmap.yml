@@ -5954,6 +5954,87 @@ references:
   commentId: N:CarinaStudio.Collections
   fullName: CarinaStudio.Collections
   nameWithType: CarinaStudio.Collections
+- uid: CarinaStudio.Collections.AvaloniaListExtensions
+  name: AvaloniaListExtensions
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html
+  commentId: T:CarinaStudio.Collections.AvaloniaListExtensions
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions
+  nameWithType: AvaloniaListExtensions
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty*
+  name: IsEmpty
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsEmpty_
+  commentId: Overload:CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty
+  nameWithType: AvaloniaListExtensions.IsEmpty
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name: IsEmpty<T>(AvaloniaList<T>)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsEmpty__1_Avalonia_Collections_AvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name.vb: IsEmpty(Of T)(AvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty<T>(Avalonia.Collections.AvaloniaList<T>)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty(Of T)(Avalonia.Collections.AvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsEmpty<T>(AvaloniaList<T>)
+  nameWithType.vb: AvaloniaListExtensions.IsEmpty(Of T)(AvaloniaList(Of T))
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name: IsEmpty<T>(IAvaloniaList<T>)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsEmpty__1_Avalonia_Collections_IAvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name.vb: IsEmpty(Of T)(IAvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty<T>(Avalonia.Collections.IAvaloniaList<T>)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsEmpty(Of T)(Avalonia.Collections.IAvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsEmpty<T>(IAvaloniaList<T>)
+  nameWithType.vb: AvaloniaListExtensions.IsEmpty(Of T)(IAvaloniaList(Of T))
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty*
+  name: IsNotEmpty
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNotEmpty_
+  commentId: Overload:CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty
+  nameWithType: AvaloniaListExtensions.IsNotEmpty
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name: IsNotEmpty<T>(AvaloniaList<T>?)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNotEmpty__1_Avalonia_Collections_AvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name.vb: IsNotEmpty(Of T)(AvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty<T>(Avalonia.Collections.AvaloniaList<T>?)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty(Of T)(Avalonia.Collections.AvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsNotEmpty<T>(AvaloniaList<T>?)
+  nameWithType.vb: AvaloniaListExtensions.IsNotEmpty(Of T)(AvaloniaList(Of T))
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name: IsNotEmpty<T>(IAvaloniaList<T>?)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNotEmpty__1_Avalonia_Collections_IAvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name.vb: IsNotEmpty(Of T)(IAvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty<T>(Avalonia.Collections.IAvaloniaList<T>?)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsNotEmpty(Of T)(Avalonia.Collections.IAvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsNotEmpty<T>(IAvaloniaList<T>?)
+  nameWithType.vb: AvaloniaListExtensions.IsNotEmpty(Of T)(IAvaloniaList(Of T))
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNullOrEmpty_
+  commentId: Overload:CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty
+  isSpec: "True"
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty
+  nameWithType: AvaloniaListExtensions.IsNullOrEmpty
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name: IsNullOrEmpty<T>(AvaloniaList<T>?)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNullOrEmpty__1_Avalonia_Collections_AvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty``1(Avalonia.Collections.AvaloniaList{``0})
+  name.vb: IsNullOrEmpty(Of T)(AvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty<T>(Avalonia.Collections.AvaloniaList<T>?)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty(Of T)(Avalonia.Collections.AvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsNullOrEmpty<T>(AvaloniaList<T>?)
+  nameWithType.vb: AvaloniaListExtensions.IsNullOrEmpty(Of T)(AvaloniaList(Of T))
+- uid: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name: IsNullOrEmpty<T>(IAvaloniaList<T>?)
+  href: api/CarinaStudio.Collections.AvaloniaListExtensions.html#CarinaStudio_Collections_AvaloniaListExtensions_IsNullOrEmpty__1_Avalonia_Collections_IAvaloniaList___0__
+  commentId: M:CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty``1(Avalonia.Collections.IAvaloniaList{``0})
+  name.vb: IsNullOrEmpty(Of T)(IAvaloniaList(Of T))
+  fullName: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty<T>(Avalonia.Collections.IAvaloniaList<T>?)
+  fullName.vb: CarinaStudio.Collections.AvaloniaListExtensions.IsNullOrEmpty(Of T)(Avalonia.Collections.IAvaloniaList(Of T))
+  nameWithType: AvaloniaListExtensions.IsNullOrEmpty<T>(IAvaloniaList<T>?)
+  nameWithType.vb: AvaloniaListExtensions.IsNullOrEmpty(Of T)(IAvaloniaList(Of T))
 - uid: CarinaStudio.Collections.CollectionExtensions
   name: CollectionExtensions
   href: api/CarinaStudio.Collections.CollectionExtensions.html
@@ -6159,6 +6240,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.DictionaryExtensions.IsEmpty
   nameWithType: DictionaryExtensions.IsEmpty
+- uid: CarinaStudio.Collections.DictionaryExtensions.IsEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name: IsEmpty<TKey, TValue>(Dictionary<TKey, TValue>)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_Dictionary___0___1__
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.IsEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name.vb: IsEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.IsEmpty<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.IsEmpty(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.IsEmpty<TKey, TValue>(Dictionary<TKey, TValue>)
+  nameWithType.vb: DictionaryExtensions.IsEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
 - uid: CarinaStudio.Collections.DictionaryExtensions.IsEmpty``2(System.Collections.Generic.IDictionary{``0,``1})
   name: IsEmpty<TKey, TValue>(IDictionary<TKey, TValue>)
   href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_IDictionary___0___1__
@@ -6175,6 +6265,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty
   nameWithType: DictionaryExtensions.IsNotEmpty
+- uid: CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name: IsNotEmpty<TKey, TValue>(Dictionary<TKey, TValue>?)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_Dictionary___0___1__
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name.vb: IsNotEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>?)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.IsNotEmpty<TKey, TValue>(Dictionary<TKey, TValue>?)
+  nameWithType.vb: DictionaryExtensions.IsNotEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
 - uid: CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty``2(System.Collections.Generic.IDictionary{``0,``1})
   name: IsNotEmpty<TKey, TValue>(IDictionary<TKey, TValue>?)
   href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_IDictionary___0___1__
@@ -6191,6 +6290,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty
   nameWithType: DictionaryExtensions.IsNullOrEmpty
+- uid: CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name: IsNullOrEmpty<TKey, TValue>(Dictionary<TKey, TValue>?)
+  href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_Dictionary___0___1__
+  commentId: M:CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty``2(System.Collections.Generic.Dictionary{``0,``1})
+  name.vb: IsNullOrEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
+  fullName: CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>?)
+  fullName.vb: CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue))
+  nameWithType: DictionaryExtensions.IsNullOrEmpty<TKey, TValue>(Dictionary<TKey, TValue>?)
+  nameWithType.vb: DictionaryExtensions.IsNullOrEmpty(Of TKey, TValue)(Dictionary(Of TKey, TValue))
 - uid: CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty``2(System.Collections.Generic.IDictionary{``0,``1})
   name: IsNullOrEmpty<TKey, TValue>(IDictionary<TKey, TValue>?)
   href: api/CarinaStudio.Collections.DictionaryExtensions.html#CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_IDictionary___0___1__
@@ -8132,6 +8240,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.SetExtensions.IsEmpty
   nameWithType: SetExtensions.IsEmpty
+- uid: CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.HashSet{``0})
+  name: IsEmpty<T>(HashSet<T>)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_HashSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.HashSet{``0})
+  name.vb: IsEmpty(Of T)(HashSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsEmpty<T>(System.Collections.Generic.HashSet<T>)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsEmpty(Of T)(System.Collections.Generic.HashSet(Of T))
+  nameWithType: SetExtensions.IsEmpty<T>(HashSet<T>)
+  nameWithType.vb: SetExtensions.IsEmpty(Of T)(HashSet(Of T))
 - uid: CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.ISet{``0})
   name: IsEmpty<T>(ISet<T>)
   href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_ISet___0__
@@ -8141,6 +8258,15 @@ references:
   fullName.vb: CarinaStudio.Collections.SetExtensions.IsEmpty(Of T)(System.Collections.Generic.ISet(Of T))
   nameWithType: SetExtensions.IsEmpty<T>(ISet<T>)
   nameWithType.vb: SetExtensions.IsEmpty(Of T)(ISet(Of T))
+- uid: CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name: IsEmpty<T>(SortedSet<T>)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_SortedSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name.vb: IsEmpty(Of T)(SortedSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsEmpty<T>(System.Collections.Generic.SortedSet<T>)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsEmpty(Of T)(System.Collections.Generic.SortedSet(Of T))
+  nameWithType: SetExtensions.IsEmpty<T>(SortedSet<T>)
+  nameWithType.vb: SetExtensions.IsEmpty(Of T)(SortedSet(Of T))
 - uid: CarinaStudio.Collections.SetExtensions.IsNotEmpty*
   name: IsNotEmpty
   href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNotEmpty_
@@ -8148,6 +8274,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.SetExtensions.IsNotEmpty
   nameWithType: SetExtensions.IsNotEmpty
+- uid: CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.HashSet{``0})
+  name: IsNotEmpty<T>(HashSet<T>?)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_HashSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.HashSet{``0})
+  name.vb: IsNotEmpty(Of T)(HashSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsNotEmpty<T>(System.Collections.Generic.HashSet<T>?)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsNotEmpty(Of T)(System.Collections.Generic.HashSet(Of T))
+  nameWithType: SetExtensions.IsNotEmpty<T>(HashSet<T>?)
+  nameWithType.vb: SetExtensions.IsNotEmpty(Of T)(HashSet(Of T))
 - uid: CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.ISet{``0})
   name: IsNotEmpty<T>(ISet<T>?)
   href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_ISet___0__
@@ -8157,6 +8292,15 @@ references:
   fullName.vb: CarinaStudio.Collections.SetExtensions.IsNotEmpty(Of T)(System.Collections.Generic.ISet(Of T))
   nameWithType: SetExtensions.IsNotEmpty<T>(ISet<T>?)
   nameWithType.vb: SetExtensions.IsNotEmpty(Of T)(ISet(Of T))
+- uid: CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name: IsNotEmpty<T>(SortedSet<T>?)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_SortedSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name.vb: IsNotEmpty(Of T)(SortedSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsNotEmpty<T>(System.Collections.Generic.SortedSet<T>?)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsNotEmpty(Of T)(System.Collections.Generic.SortedSet(Of T))
+  nameWithType: SetExtensions.IsNotEmpty<T>(SortedSet<T>?)
+  nameWithType.vb: SetExtensions.IsNotEmpty(Of T)(SortedSet(Of T))
 - uid: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty*
   name: IsNullOrEmpty
   href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNullOrEmpty_
@@ -8164,6 +8308,15 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty
   nameWithType: SetExtensions.IsNullOrEmpty
+- uid: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.HashSet{``0})
+  name: IsNullOrEmpty<T>(HashSet<T>?)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_HashSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.HashSet{``0})
+  name.vb: IsNullOrEmpty(Of T)(HashSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty<T>(System.Collections.Generic.HashSet<T>?)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.HashSet(Of T))
+  nameWithType: SetExtensions.IsNullOrEmpty<T>(HashSet<T>?)
+  nameWithType.vb: SetExtensions.IsNullOrEmpty(Of T)(HashSet(Of T))
 - uid: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.ISet{``0})
   name: IsNullOrEmpty<T>(ISet<T>?)
   href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_ISet___0__
@@ -8173,6 +8326,15 @@ references:
   fullName.vb: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ISet(Of T))
   nameWithType: SetExtensions.IsNullOrEmpty<T>(ISet<T>?)
   nameWithType.vb: SetExtensions.IsNullOrEmpty(Of T)(ISet(Of T))
+- uid: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name: IsNullOrEmpty<T>(SortedSet<T>?)
+  href: api/CarinaStudio.Collections.SetExtensions.html#CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_SortedSet___0__
+  commentId: M:CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.SortedSet{``0})
+  name.vb: IsNullOrEmpty(Of T)(SortedSet(Of T))
+  fullName: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty<T>(System.Collections.Generic.SortedSet<T>?)
+  fullName.vb: CarinaStudio.Collections.SetExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.SortedSet(Of T))
+  nameWithType: SetExtensions.IsNullOrEmpty<T>(SortedSet<T>?)
+  nameWithType.vb: SetExtensions.IsNullOrEmpty(Of T)(SortedSet(Of T))
 - uid: CarinaStudio.Collections.SortedObservableList`1
   name: SortedObservableList<T>
   href: api/CarinaStudio.Collections.SortedObservableList-1.html

@@ -914,6 +914,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Collections.AvaloniaListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Collections.AvaloniaListExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Collections.AvaloniaListExtensions",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Collections.AvaloniaListExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Avalonia.Collections.AvaloniaList%601\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Avalonia.Collections.IAvaloniaList%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Collections.CollectionExtensions.yml",
       "output": {
         ".html": {

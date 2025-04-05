@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_Collections_SetExtensions" data-uid="CarinaStudio.Collections.SetExtensions" class="text-break">
-Class SetExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class SetExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,7 +153,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
   <h3 id="CarinaStudio_Collections_SetExtensions_AddAll__1_System_Collections_Generic_ISet___0__System_Collections_Generic_IEnumerable___0__" data-uid="CarinaStudio.Collections.SetExtensions.AddAll``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.IEnumerable{``0})">
   AddAll&lt;T&gt;(ISet&lt;T&gt;, IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add all given elements to the set.</p>
@@ -195,7 +195,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
   <h3 id="CarinaStudio_Collections_SetExtensions_AsReadOnly__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.AsReadOnly``1(System.Collections.Generic.ISet{``0})">
   AsReadOnly&lt;T&gt;(ISet&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Make <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1">ISet&lt;T&gt;</a> as read-only.</p>
@@ -238,9 +238,57 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
   <a id="CarinaStudio_Collections_SetExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty*"></a>
 
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_HashSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.HashSet{``0})">
+  IsEmpty&lt;T&gt;(HashSet&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this HashSet&lt;T&gt; set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_HashSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty*"></a>
+
   <h3 id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.ISet{``0})">
   IsEmpty&lt;T&gt;(ISet&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given set is empty or not.</p>
@@ -277,6 +325,105 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_ISet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_SortedSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsEmpty``1(System.Collections.Generic.SortedSet{``0})">
+  IsEmpty&lt;T&gt;(SortedSet&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this SortedSet&lt;T&gt; set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1">SortedSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsEmpty__1_System_Collections_Generic_SortedSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNotEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_HashSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.HashSet{``0})">
+  IsNotEmpty&lt;T&gt;(HashSet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is not empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this HashSet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is not empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_HashSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -285,7 +432,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
   <h3 id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.ISet{``0})">
   IsNotEmpty&lt;T&gt;(ISet&lt;T&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given set is not empty or not.</p>
@@ -293,7 +440,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(ISet&lt;T&gt;? set)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this ISet&lt;T&gt;? set)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -322,6 +469,105 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_ISet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNotEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_SortedSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNotEmpty``1(System.Collections.Generic.SortedSet{``0})">
+  IsNotEmpty&lt;T&gt;(SortedSet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given set is not empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this SortedSet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1">SortedSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is not empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNotEmpty__1_System_Collections_Generic_SortedSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_HashSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.HashSet{``0})">
+  IsNullOrEmpty&lt;T&gt;(HashSet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether given set is null/empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this HashSet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is null or empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_HashSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -330,7 +576,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
   <h3 id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_ISet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.ISet{``0})">
   IsNullOrEmpty&lt;T&gt;(ISet&lt;T&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether given set is null/empty or not.</p>
@@ -338,7 +584,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(ISet&lt;T&gt;? set)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this ISet&lt;T&gt;? set)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -367,6 +613,57 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_ISet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty_" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_SortedSet___0__" data-uid="CarinaStudio.Collections.SetExtensions.IsNullOrEmpty``1(System.Collections.Generic.SortedSet{``0})">
+  IsNullOrEmpty&lt;T&gt;(SortedSet&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether given set is null/empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this SortedSet&lt;T&gt;? set)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>set</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset-1">SortedSet</a>&lt;T&gt;</dt>
+    <dd><p>Set to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the set is null or empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of element of set.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_SetExtensions_IsNullOrEmpty__1_System_Collections_Generic_SortedSet___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -375,7 +672,7 @@ Class SetExtensions  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/SetExtensions.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

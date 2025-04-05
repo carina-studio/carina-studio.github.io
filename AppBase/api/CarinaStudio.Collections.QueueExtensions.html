@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_Collections_QueueExtensions" data-uid="CarinaStudio.Collections.QueueExtensions" class="text-break">
-Class QueueExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class QueueExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,7 +153,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Collections_QueueExtensions_IsEmpty__1_System_Collections_Generic_Queue___0__" data-uid="CarinaStudio.Collections.QueueExtensions.IsEmpty``1(System.Collections.Generic.Queue{``0})">
   IsEmpty&lt;T&gt;(Queue&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given queue is empty or not.</p>
@@ -190,6 +190,9 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_QueueExtensions_IsEmpty__1_System_Collections_Generic_Queue___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -198,7 +201,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Collections_QueueExtensions_IsNotEmpty__1_System_Collections_Generic_Queue___0__" data-uid="CarinaStudio.Collections.QueueExtensions.IsNotEmpty``1(System.Collections.Generic.Queue{``0})">
   IsNotEmpty&lt;T&gt;(Queue&lt;T&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given queue is not empty or not.</p>
@@ -206,7 +209,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(Queue&lt;T&gt;? queue)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this Queue&lt;T&gt;? queue)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -235,6 +238,9 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_QueueExtensions_IsNotEmpty__1_System_Collections_Generic_Queue___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -243,7 +249,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Collections_QueueExtensions_IsNullOrEmpty__1_System_Collections_Generic_Queue___0__" data-uid="CarinaStudio.Collections.QueueExtensions.IsNullOrEmpty``1(System.Collections.Generic.Queue{``0})">
   IsNullOrEmpty&lt;T&gt;(Queue&lt;T&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether given queue is null/empty or not.</p>
@@ -251,7 +257,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(Queue&lt;T&gt;? queue)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this Queue&lt;T&gt;? queue)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -280,6 +286,9 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_QueueExtensions_IsNullOrEmpty__1_System_Collections_Generic_Queue___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -288,7 +297,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Collections_QueueExtensions_TryDequeue__2_System_Collections_Generic_Queue___0____1__" data-uid="CarinaStudio.Collections.QueueExtensions.TryDequeue``2(System.Collections.Generic.Queue{``0},``1@)">
   TryDequeue&lt;T, TOut&gt;(Queue&lt;T&gt;, out TOut)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Try dequeuing value from queue as given type.</p>
@@ -339,7 +348,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Collections_QueueExtensions_TryPeek__2_System_Collections_Generic_Queue___0____1__" data-uid="CarinaStudio.Collections.QueueExtensions.TryPeek``2(System.Collections.Generic.Queue{``0},``1@)">
   TryPeek&lt;T, TOut&gt;(Queue&lt;T&gt;, out TOut)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Try peeking value in queue as given type.</p>
@@ -390,7 +399,7 @@ Class QueueExtensions  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/QueueExtensions.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

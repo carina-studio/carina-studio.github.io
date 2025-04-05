@@ -353,9 +353,60 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
   <a id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsEmpty*"></a>
 
+  <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_Dictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsEmpty``2(System.Collections.Generic.Dictionary{``0,``1})">
+  IsEmpty&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given dictionary is empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt; dictionary) where TKey : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dictionary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</dt>
+    <dd><p>Dictionary to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the dictionary is empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of key in dictionary.</p>
+</dd>
+    <dt><code>TValue</code></dt>
+    <dd><p>Type of value in dictionary.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_Dictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty_" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsEmpty*"></a>
+
   <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_IDictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsEmpty``2(System.Collections.Generic.IDictionary{``0,``1})">
   IsEmpty&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given dictionary is empty or not.</p>
@@ -395,6 +446,60 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsEmpty__2_System_Collections_Generic_IDictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty_" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_Dictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty``2(System.Collections.Generic.Dictionary{``0,``1})">
+  IsNotEmpty&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the given dictionary is not empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt;? dictionary) where TKey : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dictionary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</dt>
+    <dd><p>Dictionary to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the dictionary is not empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of key in dictionary.</p>
+</dd>
+    <dt><code>TValue</code></dt>
+    <dd><p>Type of value in dictionary.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_Dictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -403,7 +508,7 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
   <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_IDictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNotEmpty``2(System.Collections.Generic.IDictionary{``0,``1})">
   IsNotEmpty&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether the given dictionary is not empty or not.</p>
@@ -411,7 +516,7 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;? dictionary)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;TKey, TValue&gt;(this IDictionary&lt;TKey, TValue&gt;? dictionary)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -443,6 +548,60 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsNotEmpty__2_System_Collections_Generic_IDictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
+
+
+
+
+  <a id="CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty_" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty*"></a>
+
+  <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_Dictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty``2(System.Collections.Generic.Dictionary{``0,``1})">
+  IsNullOrEmpty&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether given dictionary is null/empty or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt;? dictionary) where TKey : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dictionary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</dt>
+    <dd><p>Dictionary to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the dictionary is null or empty.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of key in dictionary.</p>
+</dd>
+    <dt><code>TValue</code></dt>
+    <dd><p>Type of value in dictionary.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_Dictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -451,7 +610,7 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
   <h3 id="CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_IDictionary___0___1__" data-uid="CarinaStudio.Collections.DictionaryExtensions.IsNullOrEmpty``2(System.Collections.Generic.IDictionary{``0,``1})">
   IsNullOrEmpty&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether given dictionary is null/empty or not.</p>
@@ -459,7 +618,7 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;? dictionary)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;TKey, TValue&gt;(this IDictionary&lt;TKey, TValue&gt;? dictionary)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -491,6 +650,9 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
 
 
+  <h4 class="section" id="CarinaStudio_Collections_DictionaryExtensions_IsNullOrEmpty__2_System_Collections_Generic_IDictionary___0___1___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method is available for target framework before .NET 9.</p>
+</div>
 
 
 
@@ -499,7 +661,7 @@ public static IDictionary&lt;TKey, TValue&gt; AsReadOnly&lt;TKey, TValue&gt;(thi
 
   <h3 id="CarinaStudio_Collections_DictionaryExtensions_TryGetValue__3_System_Collections_Generic_IDictionary___0___1____0___2__" data-uid="CarinaStudio.Collections.DictionaryExtensions.TryGetValue``3(System.Collections.Generic.IDictionary{``0,``1},``0,``2@)">
   TryGetValue&lt;TKey, TValue, TOut&gt;(IDictionary&lt;TKey, TValue&gt;, TKey, out TOut)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Collections/DictionaryExtensions.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Try getting value from dictionary as given type.</p>
