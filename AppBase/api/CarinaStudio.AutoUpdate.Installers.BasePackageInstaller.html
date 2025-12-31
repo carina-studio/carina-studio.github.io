@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller" class="text-break">
-Class BasePackageInstaller  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class BasePackageInstaller  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,9 +148,6 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Exception">BaseUpdaterComponent.Exception</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
-    </div>
-    <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
     </div>
     <div>
@@ -191,6 +188,12 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
     </div>
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Logger">BaseApplicationObject.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_LoggerCategoryName">BaseApplicationObject.LoggerCategoryName</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
@@ -241,6 +244,9 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
   </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
@@ -391,7 +397,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.#ctor(CarinaStudio.IApplication)">
   BasePackageInstaller(IApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html">BasePackageInstaller</a> instance.</p>
@@ -428,7 +434,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstalledFilePaths" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstalledFilePaths">
   InstalledFilePaths
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get set of path of installed files.</p>
@@ -460,7 +466,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_IsApplicationIconUpdated" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.IsApplicationIconUpdated">
   IsApplicationIconUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether application icon has been updated after installation or not.</p>
@@ -492,7 +498,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_PackageFileName" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.PackageFileName">
   PackageFileName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get or set name of package file to install.</p>
@@ -524,7 +530,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_TargetDirectoryPath" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.TargetDirectoryPath">
   TargetDirectoryPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get or set path of target directory to install package.</p>
@@ -560,7 +566,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_OnInstallingFile_System_String_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.OnInstallingFile(System.String)">
   OnInstallingFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.html#CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstallingFile">InstallingFile</a> event.</p>
@@ -599,7 +605,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ReportInstalledFilePath_System_String_" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ReportInstalledFilePath(System.String)">
   ReportInstalledFilePath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Report path of installed file.</p>
@@ -635,7 +641,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_ValidateParametersToStart" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.ValidateParametersToStart">
   ValidateParametersToStart()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate parameters to start performing operation.</p>
@@ -671,7 +677,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_BasePackageInstaller_InstallingFile" data-uid="CarinaStudio.AutoUpdate.Installers.BasePackageInstaller.InstallingFile">
   InstallingFile
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised before installing a file.</p>
@@ -703,7 +709,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/BasePackageInstaller.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -718,7 +724,7 @@ Class BasePackageInstaller  <a class="header-action link-secondary" title="View 
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

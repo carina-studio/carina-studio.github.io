@@ -143,6 +143,9 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="CarinaStudio.ApplicationExtensions.html#CarinaStudio_ApplicationExtensions_TryCreatePrivateDirectory_CarinaStudio_IApplication_System_String_System_IO_DirectoryInfo__">ApplicationExtensions.TryCreatePrivateDirectory(IApplication, string, out DirectoryInfo?)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.ObjectExtensions.html#CarinaStudio_ObjectExtensions_AddWeakEventHandler__1___0_System_String_System_Action_">ObjectExtensions.AddWeakEventHandler&lt;TObject&gt;(TObject, string, Action)</a>
   </div>
   <div>
@@ -281,7 +284,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_CultureInfo" data-uid="CarinaStudio.IApplication.CultureInfo">
   CultureInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html#CarinaStudio_IApplication_CultureInfo">CultureInfo</a> currently used by application.</p>
@@ -313,7 +316,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_IsShutdownStarted" data-uid="CarinaStudio.IApplication.IsShutdownStarted">
   IsShutdownStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether application shutdown has been started or not.</p>
@@ -345,7 +348,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_LoggerFactory" data-uid="CarinaStudio.IApplication.LoggerFactory">
   LoggerFactory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a> to create logger.</p>
@@ -377,7 +380,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_PersistentState" data-uid="CarinaStudio.IApplication.PersistentState">
   PersistentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
@@ -409,7 +412,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_RootPrivateDirectoryPath" data-uid="CarinaStudio.IApplication.RootPrivateDirectoryPath">
   RootPrivateDirectoryPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
@@ -441,7 +444,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_Settings" data-uid="CarinaStudio.IApplication.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get default application level user settings.</p>
@@ -477,7 +480,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_GetObservableString_System_String_" data-uid="CarinaStudio.IApplication.GetObservableString(System.String)">
   GetObservableString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get string from resources according to given key as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a>.</p>
@@ -516,7 +519,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_GetString_System_String_System_String_" data-uid="CarinaStudio.IApplication.GetString(System.String,System.String)">
   GetString(string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get string from resources according to given key and current settings or system language.</p>
@@ -561,7 +564,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
 
   <h3 id="CarinaStudio_IApplication_StringsUpdated" data-uid="CarinaStudio.IApplication.StringsUpdated">
   StringsUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/IApplication.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised when string resources updated.</p>
@@ -608,7 +611,7 @@ Interface IApplication  <a class="header-action link-secondary" title="View sour
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

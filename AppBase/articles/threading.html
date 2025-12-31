@@ -117,7 +117,9 @@ taskScheduler.Dispose();
 <ul>
 <li><code>Cancel()</code> to cancel scheduled execution.</li>
 <li><code>Execute()</code> to cancel scheduled execution and execute immediately.</li>
+<li><code>ExecuteAsync()</code> to cancel scheduled execution and execute asynchronously.</li>
 <li><code>ExecuteIfScheduled()</code> to execute immediately if it has been scheduled (scheduled execution will be cancelled).</li>
+<li><code>ExecuteAsyncIfScheduled()</code> to execute asynchronously if it has been scheduled (scheduled execution will be cancelled).</li>
 <li><code>Reschedule()</code> to override scheduled execution.</li>
 </ul>
 <p>The class is designed to help you to eliminate unnecessary action execution to improve performance.</p>
@@ -143,6 +145,17 @@ protected override void OnWindowClosing()
     ...
 }
 </code></pre>
+<h2 id="asynchronous-action">Asynchronous Action</h2>
+<p>Starting from v2.2 you can pass an asynchronous action, which returns <code>Task</code>, to <code>ScheduledAction</code>.
+There are 2 type of asynchronous actions supported by <code>ScheduledAction</code>:</p>
+<ul>
+<li><code>Func&lt;Task&gt;</code></li>
+<li><code>Func&lt;CancellationToken, Task&gt;</code></li>
+</ul>
+<p>To execute the asynchronous action and wait for its completion you can call <code>ExecuteAsync()</code> or <code>ExecuteAsyncIfScheduled()</code>. To check whether the action is being executed you can use <code>IsExecuting</code> property.</p>
+<h2 id="reentrant-of-action">Reentrant of Action</h2>
+<p>By default, the action hosted by <code>ScheduledAction</code> cannot be reentrant, which means that you will get <code>False</code> from <code>Execute()</code>/<code>ExecuteAsync()</code> if the action is not completed yet.
+To enable reentrant of action, you can set <code>allowReentrant</code> to <code>True</code> when constructing <code>ScheduledAction</code> instance.</p>
 
 </article>
 
@@ -163,7 +176,7 @@ protected override void OnWindowClosing()
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions" data-uid="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions" class="text-break">
-Class NotifyPropertyChangedExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class NotifyPropertyChangedExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,7 +153,7 @@ Class NotifyPropertyChangedExtensions  <a class="header-action link-secondary" t
 
   <h3 id="CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_AddWeakPropertyChangedEventHandler_System_ComponentModel_INotifyPropertyChanged_System_ComponentModel_PropertyChangedEventHandler_" data-uid="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler(System.ComponentModel.INotifyPropertyChanged,System.ComponentModel.PropertyChangedEventHandler)">
   AddWeakPropertyChangedEventHandler(INotifyPropertyChanged, PropertyChangedEventHandler)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add weak event handler to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged">PropertyChanged</a>.</p>
@@ -191,11 +191,65 @@ Class NotifyPropertyChangedExtensions  <a class="header-action link-secondary" t
 
 
 
+  <a id="CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync_" data-uid="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync*"></a>
+
+  <h3 id="CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_" data-uid="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync``1(``0,System.String,System.Predicate{``0},System.Threading.CancellationToken)">
+  WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wait for the property changing to desired value asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WaitForPropertyChangeAsync&lt;T&gt;(this T obj, string propertyName, Predicate&lt;T&gt; checkPropertyValue, CancellationToken cancellationToken = default) where T : INotifyPropertyChanged</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd><p>Object owns the property.</p>
+</dd>
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of property.</p>
+</dd>
+    <dt><code>checkPropertyValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd><p>Function to check whether the value is desired one or not.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> to cancel waiting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>Task of waiting for property value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of object owns the property.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/ComponentModel/NotifyPropertyChangedExtensions.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -210,7 +264,7 @@ Class NotifyPropertyChangedExtensions  <a class="header-action link-secondary" t
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

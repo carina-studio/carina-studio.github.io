@@ -73,7 +73,7 @@
 <a href="https://github.com/carina-studio/AppBase/blob/master/LICENSE"><img src="https://img.shields.io/github/license/carina-studio/AppBase" alt=""></a>
 <a href="https://github.com/carina-studio/AppBase/releases"><img src="https://img.shields.io/github/release-date-pre/carina-studio/AppBase" alt=""></a></p>
 <h1 id="introduction-of-appbase">👋Introduction of AppBase</h1>
-<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. Currently there are 9 packages providing the following functions:</p>
+<p><strong>AppBase</strong> is a set of libraries designed for .NET based application. There are 8 packages providing the following functions:</p>
 <p>📦<strong>CarinaStudio.AppBase.Core</strong></p>
 <ul>
 <li>Extensions for <code>System.Object</code> to make your code more elegant and clear. (<a href="articles/object_extensions.html">Learn more</a>)</li>
@@ -99,11 +99,6 @@
 <li><code>IApplication</code> to provide abstract interface to application instance no matter what UI framework you use.</li>
 <li><code>ViewModel</code> to provide base implementation of view-model including observable properties, logger, etc.</li>
 </ul>
-<p>📦<strong>CarinaStudio.AppBase.Android</strong></p>
-<ul>
-<li>Implementation of <code>IApplication</code> based-on <code>Android.App.Application</code>.</li>
-<li>Implementation of <code>ISettings</code> based-on <code>Android.Content.SharedPreferences</code>.</li>
-</ul>
 <p>📦<strong>CarinaStudio.AppBase.Avalonia</strong></p>
 <ul>
 <li>Extended controls such as <code>LinkTextBlock</code>, <code>DateTimeTextBox</code> for Avalonia application.</li>
@@ -128,7 +123,6 @@
 <ul>
 <li>Provide random functions like generating random string or creating file with random name.</li>
 <li><code>EventMonitor&lt;T&gt;</code> to monitor and track event raising.</li>
-<li><code>INotifyPropertyChanged.WaitForPropertyAsync()</code> to wait for specfic property to be given value.</li>
 </ul>
 <h1 id="install-to-your-project">📥Install to your project</h1>
 <p>AppBase has been uploaded to <strong>NuGet</strong>, you can find it on:</p>
@@ -137,7 +131,6 @@
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/">https://www.nuget.org/packages/CarinaStudio.AppBase.Configuration/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Avalonia/">https://www.nuget.org/packages/CarinaStudio.AppBase.Avalonia/</a></li>
-<li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Android/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Android/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Avalonia/">https://www.nuget.org/packages/CarinaStudio.AppBase.Application.Avalonia/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/">https://www.nuget.org/packages/CarinaStudio.AppBase.AutoUpdate/</a></li>
 <li><a href="https://www.nuget.org/packages/CarinaStudio.AppBase.MacOS/">https://www.nuget.org/packages/CarinaStudio.AppBase.MacOS/</a></li>
@@ -148,7 +141,6 @@
 Install-Package CarinaStudio.AppBase.Configuration
 Install-Package CarinaStudio.AppBase.Application
 Install-Package CarinaStudio.AppBase.Avalonia
-Install-Package CarinaStudio.AppBase.Application.Android
 Install-Package CarinaStudio.AppBase.Application.Avalonia
 Install-Package CarinaStudio.AppBase.AutoUpdate
 Install-Package CarinaStudio.AppBase.MacOS
@@ -176,7 +168,7 @@ Install-Package CarinaStudio.AppBase.Tests
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

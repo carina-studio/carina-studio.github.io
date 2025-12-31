@@ -315,7 +315,7 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
 
   <h3 id="CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_System_Func_System_Net_Http_HttpRequestMessage__System_Nullable_System_TimeSpan__System_Net_Http_HttpMessageHandler_System_Nullable_System_Int64__" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(System.Func{System.Net.Http.HttpRequestMessage},System.Nullable{System.TimeSpan},System.Net.Http.HttpMessageHandler,System.Nullable{System.Int64})">
   HttpResponseStreamProvider(Func&lt;HttpRequestMessage&gt;, TimeSpan?, HttpMessageHandler?, long?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Net.Http.HttpResponseStreamProvider.html">HttpResponseStreamProvider</a> instance.</p>
@@ -353,6 +353,48 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
 
 
 
+  <a id="CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_System_Net_Http_HttpRequestMessage_System_Nullable_System_TimeSpan__System_Net_Http_HttpMessageHandler_System_Nullable_System_Int64__" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(System.Net.Http.HttpRequestMessage,System.Nullable{System.TimeSpan},System.Net.Http.HttpMessageHandler,System.Nullable{System.Int64})">
+  HttpResponseStreamProvider(HttpRequestMessage, TimeSpan?, HttpMessageHandler?, long?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Net.Http.HttpResponseStreamProvider.html">HttpResponseStreamProvider</a> instance.</p>
+<param name="request"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage">HttpRequestMessage</a>.
+<param name="timeout">Timeout of getting HTTP response.
+<param name="messageHandler">The HTTP handler stack to use for sending requests.
+<param name="maxResponseContentBufferSize">Maximum buffer size for response content.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpResponseStreamProvider(HttpRequestMessage request, TimeSpan? timeout = null, HttpMessageHandler? messageHandler = null, long? maxResponseContentBufferSize = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage">HttpRequestMessage</a></dt>
+    <dd></dd>
+    <dt><code>timeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>?</dt>
+    <dd></dd>
+    <dt><code>messageHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler">HttpMessageHandler</a></dt>
+    <dd></dd>
+    <dt><code>maxResponseContentBufferSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -361,7 +403,7 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
 
   <h3 id="CarinaStudio_Net_Http_HttpResponseStreamProvider_CheckStreamAccess_CarinaStudio_IO_StreamAccess_" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.CheckStreamAccess(CarinaStudio.IO.StreamAccess)">
   CheckStreamAccess(StreamAccess)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether given access to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a> is supported by this provider or not.</p>
@@ -400,7 +442,7 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
 
   <h3 id="CarinaStudio_Net_Http_HttpResponseStreamProvider_Dispose_System_Boolean_" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.Dispose(System.Boolean)">
   Dispose(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called to dispose instance.</p>
@@ -433,7 +475,7 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
 
   <h3 id="CarinaStudio_Net_Http_HttpResponseStreamProvider_OpenStreamAsync_CarinaStudio_IO_StreamAccess_System_Threading_CancellationToken_" data-uid="CarinaStudio.Net.Http.HttpResponseStreamProvider.OpenStreamAsync(CarinaStudio.IO.StreamAccess,System.Threading.CancellationToken)">
   OpenStreamAsync(StreamAccess, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Net/Http/HttpResponseStreamProvider.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Open stream asynchronously.</p>
@@ -490,7 +532,7 @@ Class HttpResponseStreamProvider  <a class="header-action link-secondary" title=
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

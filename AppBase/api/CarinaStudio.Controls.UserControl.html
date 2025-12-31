@@ -1120,6 +1120,15 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_Visual_System_String_System_Boolean_">VisualExtensions.FindDescendantOfTypeAndName&lt;T&gt;(Visual, string, bool)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__1___0_Avalonia_AvaloniaProperty_System_Object_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj&gt;(TObj, AvaloniaProperty, object?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__2___0_Avalonia_AvaloniaProperty___1____1_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj, TValue&gt;(TObj, AvaloniaProperty&lt;TValue&gt;, TValue?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource__1___0_Avalonia_AvaloniaProperty_System_Object_">ResourceHostExtensions.BindToResource&lt;T&gt;(T, AvaloniaProperty, object)</a>
   </div>
   <div>
@@ -1260,7 +1269,7 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Controls_UserControl_Application" data-uid="CarinaStudio.Controls.UserControl.Application">
   Application
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which object belongs to.</p>
@@ -1292,7 +1301,7 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Controls_UserControl_Logger" data-uid="CarinaStudio.Controls.UserControl.Logger">
   Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get logger.</p>
@@ -1320,11 +1329,43 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="CarinaStudio_Controls_UserControl_LoggerCategoryName_" data-uid="CarinaStudio.Controls.UserControl.LoggerCategoryName*"></a>
+
+  <h3 id="CarinaStudio_Controls_UserControl_LoggerCategoryName" data-uid="CarinaStudio.Controls.UserControl.LoggerCategoryName">
+  LoggerCategoryName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get name of category for logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string LoggerCategoryName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_Controls_UserControl_PersistentState_" data-uid="CarinaStudio.Controls.UserControl.PersistentState*"></a>
 
   <h3 id="CarinaStudio_Controls_UserControl_PersistentState" data-uid="CarinaStudio.Controls.UserControl.PersistentState">
   PersistentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get persistent state.</p>
@@ -1356,7 +1397,7 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Controls_UserControl_Settings" data-uid="CarinaStudio.Controls.UserControl.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get application settings.</p>
@@ -1388,7 +1429,7 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Controls_UserControl_SynchronizationContext" data-uid="CarinaStudio.Controls.UserControl.SynchronizationContext">
   SynchronizationContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/UserControl.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.DispatcherSynchronizationContext.html">DispatcherSynchronizationContext</a> for UI thread.</p>
@@ -1435,7 +1476,7 @@ Class UserControl  <a class="header-action link-secondary" title="View source" h
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

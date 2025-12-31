@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_Controls_ApplicationWindow" data-uid="CarinaStudio.Controls.ApplicationWindow" class="text-break">
-Class ApplicationWindow  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class ApplicationWindow  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -1485,6 +1485,15 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="CarinaStudio.VisualTree.VisualExtensions.html#CarinaStudio_VisualTree_VisualExtensions_FindDescendantOfTypeAndName__1_Avalonia_Visual_System_String_System_Boolean_">VisualExtensions.FindDescendantOfTypeAndName&lt;T&gt;(Visual, string, bool)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__1___0_Avalonia_AvaloniaProperty_System_Object_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj&gt;(TObj, AvaloniaProperty, object?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__2___0_Avalonia_AvaloniaProperty___1____1_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj, TValue&gt;(TObj, AvaloniaProperty&lt;TValue&gt;, TValue?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource__1___0_Avalonia_AvaloniaProperty_System_Object_">ResourceHostExtensions.BindToResource&lt;T&gt;(T, AvaloniaProperty, object)</a>
   </div>
   <div>
@@ -1594,7 +1603,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="CarinaStudio_Controls_ApplicationWindow__ctor" data-uid="CarinaStudio.Controls.ApplicationWindow.#ctor">
   ApplicationWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Controls.ApplicationWindow.html">ApplicationWindow</a> instance.</p>
@@ -1625,7 +1634,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="CarinaStudio_Controls_ApplicationWindow_Application" data-uid="CarinaStudio.Controls.ApplicationWindow.Application">
   Application
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get application instance.</p>
@@ -1657,7 +1666,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="CarinaStudio_Controls_ApplicationWindow_Logger" data-uid="CarinaStudio.Controls.ApplicationWindow.Logger">
   Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get logger.</p>
@@ -1685,11 +1694,43 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="CarinaStudio_Controls_ApplicationWindow_LoggerCategoryName_" data-uid="CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName*"></a>
+
+  <h3 id="CarinaStudio_Controls_ApplicationWindow_LoggerCategoryName" data-uid="CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName">
+  LoggerCategoryName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get name of category for logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string LoggerCategoryName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_Controls_ApplicationWindow_PersistentState_" data-uid="CarinaStudio.Controls.ApplicationWindow.PersistentState*"></a>
 
   <h3 id="CarinaStudio_Controls_ApplicationWindow_PersistentState" data-uid="CarinaStudio.Controls.ApplicationWindow.PersistentState">
   PersistentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get persistent state.</p>
@@ -1721,7 +1762,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="CarinaStudio_Controls_ApplicationWindow_Settings" data-uid="CarinaStudio.Controls.ApplicationWindow.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get application settings.</p>
@@ -1753,7 +1794,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Controls/ApplicationWindow.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -1768,7 +1809,7 @@ Class ApplicationWindow  <a class="header-action link-secondary" title="View sou
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

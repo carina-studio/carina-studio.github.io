@@ -135,6 +135,12 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Handle">CFObject.Handle</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1_System_IntPtr_System_String_">CFObject.FromExport&lt;T&gt;(IntPtr, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1___0__System_IntPtr_System_String_">CFObject.FromExport&lt;T&gt;(ref T, IntPtr, string)</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_System_IntPtr_System_Boolean_">CFObject.FromHandle(IntPtr, bool)</a>
     </div>
     <div>
@@ -862,7 +868,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromData(CFData data)</code></pre>
+    <pre><code class="lang-csharp hljs">public static CGImage? FromData(CFData data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -875,7 +881,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
-    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>, or Null if error occurred.</p>
 </dd>
   </dl>
 
@@ -901,7 +907,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromFile(string fileName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static CGImage? FromFile(string fileName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -914,7 +920,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
-    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>, or Null if error occurred.</p>
 </dd>
   </dl>
 
@@ -940,7 +946,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CGImage FromStream(Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public static CGImage? FromStream(Stream stream)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -953,7 +959,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a></dt>
-    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>.</p>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreGraphics.CGImage.html">CGImage</a>, or Null if error occurred.</p>
 </dd>
   </dl>
 
@@ -1013,7 +1019,7 @@ Class CGImage  <a class="header-action link-secondary" title="View source" href=
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

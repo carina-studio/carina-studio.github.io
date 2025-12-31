@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_Threading_ScheduledAction" data-uid="CarinaStudio.Threading.ScheduledAction" class="text-break">
-Class ScheduledAction  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class ScheduledAction  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -251,9 +251,9 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
 
-  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)">
-  ScheduledAction(ISynchronizable, Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action,System.Boolean)">
+  ScheduledAction(ISynchronizable, Action, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
@@ -261,7 +261,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScheduledAction(ISynchronizable synchronizable, Action action)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScheduledAction(ISynchronizable synchronizable, Action action, bool allowReentrant = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -272,38 +272,8 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
     <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
     <dd><p>Action.</p>
 </dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
-
-  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)">
-  ScheduledAction(Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L45"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScheduledAction(Action action)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd><p>Action.</p>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
 </dd>
   </dl>
 
@@ -320,9 +290,9 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
 
-  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)">
-  ScheduledAction(SynchronizationContext, Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(ISynchronizable, Func&lt;CancellationToken, Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
@@ -330,7 +300,193 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScheduledAction(SynchronizationContext synchronizationContext, Action action)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScheduledAction(ISynchronizable synchronizable, Func&lt;CancellationToken, Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>synchronizable</code> <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a> to provide <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
+</dd>
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Func_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(ISynchronizable, Func&lt;Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(ISynchronizable synchronizable, Func&lt;Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>synchronizable</code> <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Threading.ISynchronizable.html">ISynchronizable</a> to provide <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
+</dd>
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Action_System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Action,System.Boolean)">
+  ScheduledAction(Action, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(Action action, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(Func&lt;CancellationToken, Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(Func&lt;CancellationToken, Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Func_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(Func&lt;Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance with current <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(Func&lt;Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action,System.Boolean)">
+  ScheduledAction(SynchronizationContext, Action, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(SynchronizationContext synchronizationContext, Action action, bool allowReentrant = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -340,6 +496,87 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 </dd>
     <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
     <dd><p>Action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(SynchronizationContext, Func&lt;CancellationToken, Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(SynchronizationContext synchronizationContext, Func&lt;CancellationToken, Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>synchronizationContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext">SynchronizationContext</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
+</dd>
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction__ctor_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Func_System_Threading_Tasks_Task__System_Boolean_" data-uid="CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.Tasks.Task},System.Boolean)">
+  ScheduledAction(SynchronizationContext, Func&lt;Task&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Threading.ScheduledAction.html">ScheduledAction</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledAction(SynchronizationContext synchronizationContext, Func&lt;Task&gt; asyncAction, bool allowReentrant = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>synchronizationContext</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext">SynchronizationContext</a></dt>
+    <dd><p><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
+</dd>
+    <dt><code>asyncAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>Asynchronous action.</p>
+</dd>
+    <dt><code>allowReentrant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow action being reentrant.</p>
 </dd>
   </dl>
 
@@ -358,11 +595,75 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="CarinaStudio_Threading_ScheduledAction_IsAsynchronous_" data-uid="CarinaStudio.Threading.ScheduledAction.IsAsynchronous*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction_IsAsynchronous" data-uid="CarinaStudio.Threading.ScheduledAction.IsAsynchronous">
+  IsAsynchronous
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the action to be executed is asynchronous or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAsynchronous { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction_IsExecuting_" data-uid="CarinaStudio.Threading.ScheduledAction.IsExecuting*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction_IsExecuting" data-uid="CarinaStudio.Threading.ScheduledAction.IsExecuting">
+  IsExecuting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check whether the action is currently being executed or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExecuting { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_Threading_ScheduledAction_IsScheduled_" data-uid="CarinaStudio.Threading.ScheduledAction.IsScheduled*"></a>
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_IsScheduled" data-uid="CarinaStudio.Threading.ScheduledAction.IsScheduled">
   IsScheduled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L424"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether execution has been scheduled or not.</p>
@@ -394,7 +695,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_SynchronizationContext" data-uid="CarinaStudio.Threading.ScheduledAction.SynchronizationContext">
   SynchronizationContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L553"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a class="xref" href="CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext">SynchronizationContext</a> to perform action.</p>
@@ -430,7 +731,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Cancel" data-uid="CarinaStudio.Threading.ScheduledAction.Cancel">
   Cancel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cancel scheduled execution.</p>
@@ -463,7 +764,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_CancelAction_System_Object_" data-uid="CarinaStudio.Threading.ScheduledAction.CancelAction(System.Object)">
   CancelAction(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cancel posted action.</p>
@@ -502,7 +803,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Execute" data-uid="CarinaStudio.Threading.ScheduledAction.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Execute action on current thread immediately. The scheduled execution will be cancelled.</p>
@@ -510,10 +811,93 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Execute()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the action has been executed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction_ExecuteAsync_" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteAsync*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction_ExecuteAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteAsync(System.Threading.CancellationToken)">
+  ExecuteAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Execute action on current thread asynchronously. The scheduled execution will be cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; ExecuteAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> to cancel the action.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Task of execution. The result will be True if action has been executed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Threading_ScheduledAction_ExecuteAsyncIfScheduled_" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction_ExecuteAsyncIfScheduled_System_Threading_CancellationToken_" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled(System.Threading.CancellationToken)">
+  ExecuteAsyncIfScheduled(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Execute action on current thread asynchronously if execution has been scheduled. The scheduled execution will be cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; ExecuteAsyncIfScheduled(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>Task of execution. The result will be True if action has been executed.</p>
+</dd>
+  </dl>
 
 
 
@@ -529,7 +913,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled" data-uid="CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled">
   ExecuteIfScheduled()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L362"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Execute action on current thread immediately if execution has been scheduled. The scheduled execution will be cancelled.</p>
@@ -562,7 +946,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_PostAction_System_Threading_SendOrPostCallback_System_Object_System_Int32_" data-uid="CarinaStudio.Threading.ScheduledAction.PostAction(System.Threading.SendOrPostCallback,System.Object,System.Int32)">
   PostAction(SendOrPostCallback, object?, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Post action to underlying synchronization context.</p>
@@ -607,7 +991,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Reschedule" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule">
   Reschedule()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L453"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reschedule execution. It will replace the previous scheduling.</p>
@@ -634,7 +1018,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Reschedule_System_Int32_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule(System.Int32)">
   Reschedule(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L461"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reschedule execution. It will replace the previous scheduling.</p>
@@ -667,7 +1051,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Reschedule_System_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Reschedule(System.TimeSpan)">
   Reschedule(TimeSpan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L482"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reschedule execution. It will replace the previous scheduling.</p>
@@ -700,7 +1084,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Schedule" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule">
   Schedule()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L498"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Schedule execution. It won't be scheduled again if execution is already scheduled.</p>
@@ -727,7 +1111,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Schedule_System_Int32_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule(System.Int32)">
   Schedule(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L506"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Schedule execution. It won't be scheduled again if execution is already scheduled.</p>
@@ -760,7 +1144,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="CarinaStudio_Threading_ScheduledAction_Schedule_System_TimeSpan_" data-uid="CarinaStudio.Threading.ScheduledAction.Schedule(System.TimeSpan)">
   Schedule(TimeSpan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L527"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Schedule execution. It won't be scheduled again if execution is already scheduled.</p>
@@ -789,11 +1173,47 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="CarinaStudio_Threading_ScheduledAction_SendAction_" data-uid="CarinaStudio.Threading.ScheduledAction.SendAction*"></a>
+
+  <h3 id="CarinaStudio_Threading_ScheduledAction_SendAction_System_Threading_SendOrPostCallback_System_Object_" data-uid="CarinaStudio.Threading.ScheduledAction.SendAction(System.Threading.SendOrPostCallback,System.Object)">
+  SendAction(SendOrPostCallback, object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send action to underlying synchronization context and wait for completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SendAction(SendOrPostCallback action, object? state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.sendorpostcallback">SendOrPostCallback</a></dt>
+    <dd><p>Action.</p>
+</dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>State.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/Threading/ScheduledAction.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -808,7 +1228,7 @@ Class ScheduledAction  <a class="header-action link-secondary" title="View sourc
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

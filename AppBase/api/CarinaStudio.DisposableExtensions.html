@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_DisposableExtensions" data-uid="CarinaStudio.DisposableExtensions" class="text-break">
-Class DisposableExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class DisposableExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -149,11 +149,201 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 </h2>
 
 
+  <a id="CarinaStudio_DisposableExtensions_DisposeAllAndClear_" data-uid="CarinaStudio.DisposableExtensions.DisposeAllAndClear*"></a>
+
+  <h3 id="CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_ICollection___0__" data-uid="CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.ICollection{``0})">
+  DisposeAllAndClear&lt;T&gt;(ICollection&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose all non-Null <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s and clear the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisposeAllAndClear&lt;T&gt;(this ICollection&lt;T?&gt; disposables) where T : IDisposable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a> contains <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_DisposableExtensions_DisposeAllAndClear_" data-uid="CarinaStudio.DisposableExtensions.DisposeAllAndClear*"></a>
+
+  <h3 id="CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.IList{``0})">
+  DisposeAllAndClear&lt;T&gt;(IList&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose all non-Null <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s and clear the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisposeAllAndClear&lt;T&gt;(this IList&lt;T?&gt; disposables) where T : IDisposable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a> contains <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_DisposableExtensions_DisposeAll_" data-uid="CarinaStudio.DisposableExtensions.DisposeAll*"></a>
+
+  <h3 id="CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IEnumerable___0__" data-uid="CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IEnumerable{``0})">
+  DisposeAll&lt;T&gt;(IEnumerable&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose all non-Null <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisposeAll&lt;T&gt;(this IEnumerable&lt;T?&gt; disposables) where T : IDisposable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_DisposableExtensions_DisposeAll_" data-uid="CarinaStudio.DisposableExtensions.DisposeAll*"></a>
+
+  <h3 id="CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IList___0__" data-uid="CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IList{``0})">
+  DisposeAll&lt;T&gt;(IList&lt;T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose all non-Null <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisposeAll&lt;T&gt;(this IList&lt;T?&gt; disposables) where T : IDisposable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_DisposableExtensions_DisposeAll_" data-uid="CarinaStudio.DisposableExtensions.DisposeAll*"></a>
+
+  <h3 id="CarinaStudio_DisposableExtensions_DisposeAll__1___0___" data-uid="CarinaStudio.DisposableExtensions.DisposeAll``1(``0[])">
+  DisposeAll&lt;T&gt;(T?[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dispose all non-Null <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisposeAll&lt;T&gt;(this T?[] disposables) where T : IDisposable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposables</code> T[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>s.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_DisposableExtensions_DisposeAndReturnNullAsync_" data-uid="CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync*"></a>
 
   <h3 id="CarinaStudio_DisposableExtensions_DisposeAndReturnNullAsync__1___0_" data-uid="CarinaStudio.DisposableExtensions.DisposeAndReturnNullAsync``1(``0)">
   DisposeAndReturnNullAsync&lt;T&gt;(T?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> and return null.</p>
@@ -198,7 +388,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_" data-uid="CarinaStudio.DisposableExtensions.DisposeAndReturnNull``1(``0)">
   DisposeAndReturnNull&lt;T&gt;(T?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> and return null.</p>
@@ -243,7 +433,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync``2(``0,System.Func{System.Threading.Tasks.Task{``1}})">
   ExchangeAsync&lt;T, R&gt;(T, Func&lt;Task&lt;R?&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Exchange the source <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> with another one asynchronously.</p>
@@ -294,7 +484,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_ExchangeAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.ExchangeAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">
   ExchangeAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R?&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Exchange the source <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> with another one asynchronously.</p>
@@ -345,7 +535,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___0___1__" data-uid="CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``0,``1})">
   Exchange&lt;T, R&gt;(T, Func&lt;T, R?&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Exchange the source <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> with another one.</p>
@@ -396,7 +586,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Exchange__2___0_System_Func___1__" data-uid="CarinaStudio.DisposableExtensions.Exchange``2(``0,System.Func{``1})">
   Exchange&lt;T, R&gt;(T, Func&lt;R?&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Exchange the source <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> with another one.</p>
@@ -447,7 +637,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func_System_Threading_Tasks_Task__" data-uid="CarinaStudio.DisposableExtensions.SetupAsync``1(``0,System.Func{System.Threading.Tasks.Task})">
   SetupAsync&lt;T&gt;(T, Func&lt;Task&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Setup given instance of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> asynchronously and make sure that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> will be called if exception occurs during setup.</p>
@@ -495,7 +685,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_SetupAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.DisposableExtensions.SetupAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
   SetupAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L304"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Setup given instance of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> asynchronously and make sure that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> will be called if exception occurs during setup.</p>
@@ -543,7 +733,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Setup__1___0_System_Action_" data-uid="CarinaStudio.DisposableExtensions.Setup``1(``0,System.Action)">
   Setup&lt;T&gt;(T, Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Setup given instance of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> and make sure that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> will be called if exception occurs during setup.</p>
@@ -560,7 +750,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
     <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to setup.</p>
 </dd>
     <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd><p>Action to setup.</p>
+    <dd><p>Action to set up.</p>
 </dd>
   </dl>
 
@@ -591,7 +781,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Setup__1___0_System_Action___0__" data-uid="CarinaStudio.DisposableExtensions.Setup``1(``0,System.Action{``0})">
   Setup&lt;T&gt;(T, Action&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Setup given instance of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> and make sure that <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable.dispose">Dispose()</a> will be called if exception occurs during setup.</p>
@@ -639,7 +829,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_UseAsync__1___0_System_Func___0_System_Threading_Tasks_Task__" data-uid="CarinaStudio.DisposableExtensions.UseAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
   UseAsync&lt;T&gt;(T, Func&lt;T, Task&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L391"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Use the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to perform action asynchronously then dispose it before returning from method.</p>
@@ -687,7 +877,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_UseAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="CarinaStudio.DisposableExtensions.UseAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})">
   UseAsync&lt;T, R&gt;(T, Func&lt;T, Task&lt;R&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L416"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Use the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to generate value asynchronously then dispose it before returning from method.</p>
@@ -738,7 +928,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Use__1___0_System_Action___0__" data-uid="CarinaStudio.DisposableExtensions.Use``1(``0,System.Action{``0})">
   Use&lt;T&gt;(T, Action&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L326"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Use the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to perform action then dispose it before returning from method.</p>
@@ -780,7 +970,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Use__2___0_CarinaStudio_RefOutFunc___0___1__" data-uid="CarinaStudio.DisposableExtensions.Use``2(``0,CarinaStudio.RefOutFunc{``0,``1})">
   Use&lt;T, R&gt;(T, RefOutFunc&lt;T, R&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L370"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Use the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to generate reference to value then dispose it before returning from method.</p>
@@ -831,7 +1021,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_DisposableExtensions_Use__2___0_System_Func___0___1__" data-uid="CarinaStudio.DisposableExtensions.Use``2(``0,System.Func{``0,``1})">
   Use&lt;T, R&gt;(T, Func&lt;T, R&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L348"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Use the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a> to generate value then dispose it before returning from method.</p>
@@ -882,7 +1072,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Core/DisposableExtensions.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -897,7 +1087,7 @@ Class DisposableExtensions  <a class="header-action link-secondary" title="View 
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

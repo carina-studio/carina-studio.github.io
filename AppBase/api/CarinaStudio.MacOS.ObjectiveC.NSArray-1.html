@@ -144,6 +144,12 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_Equals_System_Object_">NSObject.Equals(object)</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromExport__1_System_IntPtr_System_String_">NSObject.FromExport&lt;T&gt;(IntPtr, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromExport__1___0__System_IntPtr_System_String_">NSObject.FromExport&lt;T&gt;(ref T, IntPtr, string)</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_System_IntPtr_System_Boolean_">NSObject.FromHandle(IntPtr, bool)</a>
     </div>
     <div>
@@ -461,6 +467,12 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="CarinaStudio.Collections.CollectionExtensions.html#CarinaStudio_Collections_CollectionExtensions_RemoveAll__1_System_Collections_Generic_ICollection___0__System_Predicate___0__">CollectionExtensions.RemoveAll&lt;T&gt;(ICollection&lt;T&gt;, Predicate&lt;T&gt;)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_ICollection___0__">DisposableExtensions.DisposeAllAndClear&lt;T&gt;(ICollection&lt;T?&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IEnumerable___0__">DisposableExtensions.DisposeAll&lt;T&gt;(IEnumerable&lt;T?&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_AsReadOnly__1_System_Collections_Generic_IList___0__">ListExtensions.AsReadOnly&lt;T&gt;(IList&lt;T&gt;)</a>
   </div>
   <div>
@@ -504,6 +516,12 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Collections.ListExtensions.html#CarinaStudio_Collections_ListExtensions_ToArray__1_System_Collections_Generic_IList___0__System_Int32_System_Int32_">ListExtensions.ToArray&lt;T&gt;(IList&lt;T&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_IList___0__">DisposableExtensions.DisposeAllAndClear&lt;T&gt;(IList&lt;T?&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IList___0__">DisposableExtensions.DisposeAll&lt;T&gt;(IList&lt;T?&gt;)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.Collections.EnumerableExtensions.html#CarinaStudio_Collections_EnumerableExtensions_ContentToString_System_Collections_IEnumerable_System_Int32_">EnumerableExtensions.ContentToString(IEnumerable, int)</a>
@@ -837,7 +855,7 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
     <dd><p>Handle of allocated instance.</p>
 </dd>
     <dt><code>array</code> <a class="xref" href="CarinaStudio.MacOS.ObjectiveC.NSArray-1.html">NSArray</a>&lt;T&gt;</dt>
@@ -847,7 +865,7 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
     <dd><p>Handle of initialized instance.</p>
 </dd>
   </dl>
@@ -879,7 +897,7 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
     <dd><p>Handle of allocated instance.</p>
 </dd>
     <dt><code>objects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
@@ -889,7 +907,7 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
     <dd><p>Handle of initialized instance.</p>
 </dd>
   </dl>
@@ -956,7 +974,7 @@ Class NSArray&lt;T&gt;  <a class="header-action link-secondary" title="View sour
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

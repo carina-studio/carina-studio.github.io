@@ -135,6 +135,12 @@ Class CGColorSpace  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_Handle">CFObject.Handle</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1_System_IntPtr_System_String_">CFObject.FromExport&lt;T&gt;(IntPtr, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1___0__System_IntPtr_System_String_">CFObject.FromExport&lt;T&gt;(ref T, IntPtr, string)</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_System_IntPtr_System_Boolean_">CFObject.FromHandle(IntPtr, bool)</a>
     </div>
     <div>
@@ -743,14 +749,14 @@ Class CGColorSpace  <a class="header-action link-secondary" title="View source" 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CFData ToIccProfile()</code></pre>
+    <pre><code class="lang-csharp hljs">public CFData? ToIccProfile()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFData.html">CFData</a></dt>
-    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFData.html">CFData</a> contains ICC profile.</p>
+    <dd><p><a class="xref" href="CarinaStudio.MacOS.CoreFoundation.CFData.html">CFData</a> contains ICC profile, or Null if the color space does not have an ICC data profile.</p>
 </dd>
   </dl>
 
@@ -816,7 +822,7 @@ Class CGColorSpace  <a class="header-action link-secondary" title="View source" 
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

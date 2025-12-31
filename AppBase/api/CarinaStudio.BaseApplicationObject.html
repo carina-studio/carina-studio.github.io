@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_BaseApplicationObject" data-uid="CarinaStudio.BaseApplicationObject" class="text-break">
-Class BaseApplicationObject  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class BaseApplicationObject  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -259,7 +259,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
   <h3 id="CarinaStudio_BaseApplicationObject__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.BaseApplicationObject.#ctor(CarinaStudio.IApplication)">
   BaseApplicationObject(IApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.BaseApplicationObject.html">BaseApplicationObject</a> instance.</p>
@@ -296,7 +296,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
   <h3 id="CarinaStudio_BaseApplicationObject_Application" data-uid="CarinaStudio.BaseApplicationObject.Application">
   Application
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.IApplication.html">IApplication</a> which object belongs to.</p>
@@ -324,11 +324,75 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
 
 
+  <a id="CarinaStudio_BaseApplicationObject_Logger_" data-uid="CarinaStudio.BaseApplicationObject.Logger*"></a>
+
+  <h3 id="CarinaStudio_BaseApplicationObject_Logger" data-uid="CarinaStudio.BaseApplicationObject.Logger">
+  Logger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Logger of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_BaseApplicationObject_LoggerCategoryName_" data-uid="CarinaStudio.BaseApplicationObject.LoggerCategoryName*"></a>
+
+  <h3 id="CarinaStudio_BaseApplicationObject_LoggerCategoryName" data-uid="CarinaStudio.BaseApplicationObject.LoggerCategoryName">
+  LoggerCategoryName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get name of category for logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string LoggerCategoryName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_BaseApplicationObject_PersistentState_" data-uid="CarinaStudio.BaseApplicationObject.PersistentState*"></a>
 
   <h3 id="CarinaStudio_BaseApplicationObject_PersistentState" data-uid="CarinaStudio.BaseApplicationObject.PersistentState">
   PersistentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get persistent state of application.</p>
@@ -360,7 +424,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
   <h3 id="CarinaStudio_BaseApplicationObject_Settings" data-uid="CarinaStudio.BaseApplicationObject.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get settings of application.</p>
@@ -392,7 +456,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
   <h3 id="CarinaStudio_BaseApplicationObject_SynchronizationContext" data-uid="CarinaStudio.BaseApplicationObject.SynchronizationContext">
   SynchronizationContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.ISynchronizable.html#CarinaStudio_Threading_ISynchronizable_SynchronizationContext">SynchronizationContext</a> which the instance relates to.</p>
@@ -428,7 +492,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 
   <h3 id="CarinaStudio_BaseApplicationObject_CheckAccess" data-uid="CarinaStudio.BaseApplicationObject.CheckAccess">
   CheckAccess()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether current thread is the thread which object depends on or not.</p>
@@ -461,7 +525,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/Application/BaseApplicationObject.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -476,7 +540,7 @@ Class BaseApplicationObject  <a class="header-action link-secondary" title="View
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

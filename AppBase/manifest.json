@@ -2846,6 +2846,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MacOS.AppKit.NSDictionary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.MacOS.AppKit.NSDictionary",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSDictionary.yml\" sourcestartlinenumber=\"1\">NSDictionary.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSDockTile.yml",
       "output": {
         ".html": {
@@ -2871,6 +2885,62 @@
       "IsMRef": true,
       "Title": "CarinaStudio.MacOS.AppKit.NSEdgeInsets",
       "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSEdgeInsets.yml\" sourcestartlinenumber=\"1\">NSEdgeInsets.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.MacOS.AppKit.NSFont.TextStyle",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.yml\" sourcestartlinenumber=\"1\">Text styles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MacOS.AppKit.NSFont.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.MacOS.AppKit.NSFont",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSFont.yml\" sourcestartlinenumber=\"1\">NSFont.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.yml\" sourcestartlinenumber=\"1\">AttributeName.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.MacOS.AppKit.NSFontDescriptor",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.yml\" sourcestartlinenumber=\"1\">NSFontDescriptor.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4368,7 +4438,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CarinaStudio.StringPool",
-      "Summary": "<p sourcefile=\"api/CarinaStudio.StringPool.yml\" sourcestartlinenumber=\"1\">Pool of <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> to share <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> instances and reduce redundent <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> instances. This is thread-safe class.</p>\n"
+      "Summary": "<p sourcefile=\"api/CarinaStudio.StringPool.yml\" sourcestartlinenumber=\"1\">Pool of <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> to share <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> instances and reduce redundant <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> instances. This is thread-safe class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4442,6 +4512,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.CalledOnBackgroundThreadAttribute",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the method will/should be called on a thread which is different from main/primary thread.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CarinaStudio.Threading.DispatcherScheduledAction.yml",
       "output": {
         ".html": {
@@ -4495,6 +4579,48 @@
       "IsMRef": true,
       "Title": "CarinaStudio.Threading.IThreadDependent",
       "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.IThreadDependent.yml\" sourcestartlinenumber=\"1\">Object which depends on specific thread.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ReaderLockScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ReaderLockScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.ReaderLockScope",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.ReaderLockScope.yml\" sourcestartlinenumber=\"1\">Represents a scope with reader lock of <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref> acquired.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ReaderLockScopeSlim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ReaderLockScopeSlim.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.ReaderLockScopeSlim",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.ReaderLockScopeSlim.yml\" sourcestartlinenumber=\"1\">Represents a scope with reader lock of <xref href=\"System.Threading.ReaderWriterLockSlim\" data-throw-if-not-resolved=\"false\"></xref> acquired.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ReaderWriterLockExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ReaderWriterLockExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.ReaderWriterLockExtensions",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.ReaderWriterLockExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Threading.ReaderWriterLockSlim\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4593,6 +4719,76 @@
       "IsMRef": true,
       "Title": "CarinaStudio.Threading.ThreadDependentExtensions",
       "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.ThreadDependentExtensions.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"CarinaStudio.Threading.IThreadDependent\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.ThreadSafeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.ThreadSafeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.ThreadSafeAttribute",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.ThreadSafeAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the type or member is thread-safe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.UpgradeableReaderLockScopeSlim",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.yml\" sourcestartlinenumber=\"1\">Represents a scope with upgradeable reader lock of <xref href=\"System.Threading.ReaderWriterLockSlim\" data-throw-if-not-resolved=\"false\"></xref> acquired.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.UsedOnBackgroundThreadAttribute",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the field or property will/should be used on a thread which is different from main/primary thread.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.WriterLockScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.WriterLockScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.WriterLockScope",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.WriterLockScope.yml\" sourcestartlinenumber=\"1\">Represents a scope with writer lock of <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref> acquired.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CarinaStudio.Threading.WriterLockScopeSlim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CarinaStudio.Threading.WriterLockScopeSlim.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CarinaStudio.Threading.WriterLockScopeSlim",
+      "Summary": "<p sourcefile=\"api/CarinaStudio.Threading.WriterLockScopeSlim.yml\" sourcestartlinenumber=\"1\">Represents a scope with writer lock of <xref href=\"System.Threading.ReaderWriterLockSlim\" data-throw-if-not-resolved=\"false\"></xref> acquired.</p>\n"
     },
     {
       "type": "ManagedReference",

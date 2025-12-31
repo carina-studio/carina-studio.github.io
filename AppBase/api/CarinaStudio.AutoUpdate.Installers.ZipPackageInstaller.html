@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller" data-uid="CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller" class="text-break">
-Class ZipPackageInstaller  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class ZipPackageInstaller  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -164,9 +164,6 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Exception">BaseUpdaterComponent.Exception</a>
     </div>
     <div>
-      <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger">BaseUpdaterComponent.Logger</a>
-    </div>
-    <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_">BaseUpdaterComponent.OnCompletedOrCancelled(Exception)</a>
     </div>
     <div>
@@ -204,6 +201,12 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
     </div>
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Logger">BaseApplicationObject.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_LoggerCategoryName">BaseApplicationObject.LoggerCategoryName</a>
     </div>
     <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
@@ -254,6 +257,9 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
   </div>
   <div>
       <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentExtensions.html#CarinaStudio_AutoUpdate_UpdaterComponentExtensions_StartAndWaitAsync_CarinaStudio_AutoUpdate_IUpdaterComponent_System_Threading_CancellationToken_">UpdaterComponentExtensions.StartAndWaitAsync(IUpdaterComponent, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
   </div>
   <div>
       <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
@@ -404,7 +410,7 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.#ctor(CarinaStudio.IApplication)">
   ZipPackageInstaller(IApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.html">ZipPackageInstaller</a> instance.</p>
@@ -441,7 +447,7 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller_IsApplicationIconUpdated" data-uid="CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.IsApplicationIconUpdated">
   IsApplicationIconUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check whether application icon has been updated after installation or not.</p>
@@ -477,7 +483,7 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
 
   <h3 id="CarinaStudio_AutoUpdate_Installers_ZipPackageInstaller_PerformOperationAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.Installers.ZipPackageInstaller.PerformOperationAsync(System.Threading.CancellationToken)">
   PerformOperationAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Perform operation asynchronously.</p>
@@ -516,7 +522,7 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L19" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/Installers/ZipPackageInstaller.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -531,7 +537,7 @@ Class ZipPackageInstaller  <a class="header-action link-secondary" title="View s
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

@@ -357,6 +357,15 @@ Class Application  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="CarinaStudio.Controls.ResourceNodeExtensions.html#CarinaStudio_Controls_ResourceNodeExtensions_TryGetResource__1_Avalonia_Controls_IResourceNode_System_Object___0__">ResourceNodeExtensions.TryGetResource&lt;T&gt;(IResourceNode, object, out T?)</a>
   </div>
   <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__1___0_Avalonia_AvaloniaProperty_System_Object_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj&gt;(TObj, AvaloniaProperty, object?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__2___0_Avalonia_AvaloniaProperty___1____1_System_Threading_CancellationToken_">AvaloniaObjectExtensions.WaitForPropertyChangeAsync&lt;TObj, TValue&gt;(TObj, AvaloniaProperty&lt;TValue&gt;, TValue?, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
+  </div>
+  <div>
       <a class="xref" href="CarinaStudio.Controls.ResourceHostExtensions.html#CarinaStudio_Controls_ResourceHostExtensions_BindToResource__1___0_Avalonia_AvaloniaProperty_System_Object_">ResourceHostExtensions.BindToResource&lt;T&gt;(T, AvaloniaProperty, object)</a>
   </div>
   <div>
@@ -502,7 +511,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application__ctor" data-uid="CarinaStudio.Application.#ctor">
   Application()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.Application.html">Application</a> instance.</p>
@@ -533,7 +542,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_Assembly" data-uid="CarinaStudio.Application.Assembly">
   Assembly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_Assembly">Assembly</a> of application.</p>
@@ -565,7 +574,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_CultureInfo" data-uid="CarinaStudio.Application.CultureInfo">
   CultureInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_CultureInfo">CultureInfo</a> currently used by application.</p>
@@ -597,7 +606,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_Current" data-uid="CarinaStudio.Application.Current">
   Current
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html">Application</a> instance for current process.</p>
@@ -629,7 +638,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_CurrentOrNull" data-uid="CarinaStudio.Application.CurrentOrNull">
   CurrentOrNull
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Application.html">Application</a> instance for current process, or null if <a class="xref" href="CarinaStudio.Application.html">Application</a> is not ready yet.</p>
@@ -661,7 +670,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_IsShutdownStarted" data-uid="CarinaStudio.Application.IsShutdownStarted">
   IsShutdownStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Whether application shutdown has been started or not.</p>
@@ -689,11 +698,75 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="CarinaStudio_Application_Logger_" data-uid="CarinaStudio.Application.Logger*"></a>
+
+  <h3 id="CarinaStudio_Application_Logger" data-uid="CarinaStudio.Application.Logger">
+  Logger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Logger of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CarinaStudio_Application_LoggerCategoryName_" data-uid="CarinaStudio.Application.LoggerCategoryName*"></a>
+
+  <h3 id="CarinaStudio_Application_LoggerCategoryName" data-uid="CarinaStudio.Application.LoggerCategoryName">
+  LoggerCategoryName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get name of category for logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string LoggerCategoryName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CarinaStudio_Application_LoggerFactory_" data-uid="CarinaStudio.Application.LoggerFactory*"></a>
 
   <h3 id="CarinaStudio_Application_LoggerFactory" data-uid="CarinaStudio.Application.LoggerFactory">
   LoggerFactory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a> to create logger.</p>
@@ -725,7 +798,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_PersistentState" data-uid="CarinaStudio.Application.PersistentState">
   PersistentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get default <a class="xref" href="CarinaStudio.Configuration.ISettings.html">ISettings</a> to keep persistent state of application.</p>
@@ -757,7 +830,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_RootPrivateDirectoryPath" data-uid="CarinaStudio.Application.RootPrivateDirectoryPath">
   RootPrivateDirectoryPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Path to root of private directory which is suitable to be accessed by this application.</p>
@@ -789,7 +862,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_Settings" data-uid="CarinaStudio.Application.Settings">
   Settings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get default application level user settings.</p>
@@ -821,7 +894,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_SynchronizationContext" data-uid="CarinaStudio.Application.SynchronizationContext">
   SynchronizationContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.Threading.DispatcherSynchronizationContext.html">DispatcherSynchronizationContext</a> of UI thread.</p>
@@ -857,7 +930,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_GetObservableString_System_String_" data-uid="CarinaStudio.Application.GetObservableString(System.String)">
   GetObservableString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get string from resources according to given key as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable&lt;T&gt;</a>.</p>
@@ -896,7 +969,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_GetResourceObservable_System_Object_System_Func_System_Object_System_Object__" data-uid="CarinaStudio.Application.GetResourceObservable(System.Object,System.Func{System.Object,System.Object})">
   GetResourceObservable(object, Func&lt;object?, object?&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get observable resource with given key.</p>
@@ -941,7 +1014,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_GetString_System_String_System_String_" data-uid="CarinaStudio.Application.GetString(System.String,System.String)">
   GetString(string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get string from resources according to given key and current settings or system language.</p>
@@ -983,7 +1056,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_OnFrameworkInitializationCompleted" data-uid="CarinaStudio.Application.OnFrameworkInitializationCompleted">
   OnFrameworkInitializationCompleted()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when Avalonia framework initialized.</p>
@@ -1010,7 +1083,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_OnPropertyChanged_System_String_" data-uid="CarinaStudio.Application.OnPropertyChanged(System.String)">
   OnPropertyChanged(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raise <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged">PropertyChanged</a> event.</p>
@@ -1043,7 +1116,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_OnStringUpdated_System_EventArgs_" data-uid="CarinaStudio.Application.OnStringUpdated(System.EventArgs)">
   OnStringUpdated(EventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.Application.html#CarinaStudio_Application_StringsUpdated">StringsUpdated</a> event.</p>
@@ -1076,7 +1149,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_TryFindResource_System_Object_Avalonia_Styling_ThemeVariant_System_Object__" data-uid="CarinaStudio.Application.TryFindResource(System.Object,Avalonia.Styling.ThemeVariant,System.Object@)">
   TryFindResource(object, ThemeVariant?, out object?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Try finding resource within the object.</p>
@@ -1127,7 +1200,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="CarinaStudio_Application_StringsUpdated" data-uid="CarinaStudio.Application.StringsUpdated">
   StringsUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/Application.Avalonia/Application.cs/#L215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raised when string resources updated.</p>
@@ -1174,7 +1247,7 @@ Class Application  <a class="header-action link-secondary" title="View source" h
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>

@@ -2606,6 +2606,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Application.IsShutdownStarted
   nameWithType: Application.IsShutdownStarted
+- uid: CarinaStudio.Application.Logger
+  name: Logger
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_Logger
+  commentId: P:CarinaStudio.Application.Logger
+  fullName: CarinaStudio.Application.Logger
+  nameWithType: Application.Logger
+- uid: CarinaStudio.Application.Logger*
+  name: Logger
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_Logger_
+  commentId: Overload:CarinaStudio.Application.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.Application.Logger
+  nameWithType: Application.Logger
+- uid: CarinaStudio.Application.LoggerCategoryName
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_LoggerCategoryName
+  commentId: P:CarinaStudio.Application.LoggerCategoryName
+  fullName: CarinaStudio.Application.LoggerCategoryName
+  nameWithType: Application.LoggerCategoryName
+- uid: CarinaStudio.Application.LoggerCategoryName*
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Application.html#CarinaStudio_Application_LoggerCategoryName_
+  commentId: Overload:CarinaStudio.Application.LoggerCategoryName
+  isSpec: "True"
+  fullName: CarinaStudio.Application.LoggerCategoryName
+  nameWithType: Application.LoggerCategoryName
 - uid: CarinaStudio.Application.LoggerFactory
   name: LoggerFactory
   href: api/CarinaStudio.Application.html#CarinaStudio_Application_LoggerFactory
@@ -3059,19 +3085,6 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Exception
   nameWithType: BaseUpdaterComponent.Exception
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
-  name: Logger
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger
-  commentId: P:CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
-  nameWithType: BaseUpdaterComponent.Logger
-- uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger*
-  name: Logger
-  href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger_
-  commentId: Overload:CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
-  isSpec: "True"
-  fullName: CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger
-  nameWithType: BaseUpdaterComponent.Logger
 - uid: CarinaStudio.AutoUpdate.BaseUpdaterComponent.OnCompletedOrCancelled(System.Exception)
   name: OnCompletedOrCancelled(Exception?)
   href: api/CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_
@@ -5123,6 +5136,31 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.AvaloniaObjectExtensions.BindToResource
   nameWithType: AvaloniaObjectExtensions.BindToResource
+- uid: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync*
+  name: WaitForPropertyChangeAsync
+  href: api/CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync_
+  commentId: Overload:CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync
+  isSpec: "True"
+  fullName: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync
+  nameWithType: AvaloniaObjectExtensions.WaitForPropertyChangeAsync
+- uid: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync``1(``0,Avalonia.AvaloniaProperty,System.Object,System.Threading.CancellationToken)
+  name: WaitForPropertyChangeAsync<TObj>(TObj, AvaloniaProperty, object?, CancellationToken)
+  href: api/CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__1___0_Avalonia_AvaloniaProperty_System_Object_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync``1(``0,Avalonia.AvaloniaProperty,System.Object,System.Threading.CancellationToken)
+  name.vb: WaitForPropertyChangeAsync(Of TObj)(TObj, AvaloniaProperty, Object, CancellationToken)
+  fullName: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync<TObj>(TObj, Avalonia.AvaloniaProperty, object?, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync(Of TObj)(TObj, Avalonia.AvaloniaProperty, Object, System.Threading.CancellationToken)
+  nameWithType: AvaloniaObjectExtensions.WaitForPropertyChangeAsync<TObj>(TObj, AvaloniaProperty, object?, CancellationToken)
+  nameWithType.vb: AvaloniaObjectExtensions.WaitForPropertyChangeAsync(Of TObj)(TObj, AvaloniaProperty, Object, CancellationToken)
+- uid: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync``2(``0,Avalonia.AvaloniaProperty{``1},``1,System.Threading.CancellationToken)
+  name: WaitForPropertyChangeAsync<TObj, TValue>(TObj, AvaloniaProperty<TValue>, TValue?, CancellationToken)
+  href: api/CarinaStudio.AvaloniaObjectExtensions.html#CarinaStudio_AvaloniaObjectExtensions_WaitForPropertyChangeAsync__2___0_Avalonia_AvaloniaProperty___1____1_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync``2(``0,Avalonia.AvaloniaProperty{``1},``1,System.Threading.CancellationToken)
+  name.vb: WaitForPropertyChangeAsync(Of TObj, TValue)(TObj, AvaloniaProperty(Of TValue), TValue, CancellationToken)
+  fullName: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync<TObj, TValue>(TObj, Avalonia.AvaloniaProperty<TValue>, TValue?, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.AvaloniaObjectExtensions.WaitForPropertyChangeAsync(Of TObj, TValue)(TObj, Avalonia.AvaloniaProperty(Of TValue), TValue, System.Threading.CancellationToken)
+  nameWithType: AvaloniaObjectExtensions.WaitForPropertyChangeAsync<TObj, TValue>(TObj, AvaloniaProperty<TValue>, TValue?, CancellationToken)
+  nameWithType.vb: AvaloniaObjectExtensions.WaitForPropertyChangeAsync(Of TObj, TValue)(TObj, AvaloniaProperty(Of TValue), TValue, CancellationToken)
 - uid: CarinaStudio.BaseApplicationObject
   name: BaseApplicationObject
   href: api/CarinaStudio.BaseApplicationObject.html
@@ -5174,6 +5212,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.BaseApplicationObject.CheckAccess
   nameWithType: BaseApplicationObject.CheckAccess
+- uid: CarinaStudio.BaseApplicationObject.Logger
+  name: Logger
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Logger
+  commentId: P:CarinaStudio.BaseApplicationObject.Logger
+  fullName: CarinaStudio.BaseApplicationObject.Logger
+  nameWithType: BaseApplicationObject.Logger
+- uid: CarinaStudio.BaseApplicationObject.Logger*
+  name: Logger
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Logger_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.Logger
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.Logger
+  nameWithType: BaseApplicationObject.Logger
+- uid: CarinaStudio.BaseApplicationObject.LoggerCategoryName
+  name: LoggerCategoryName
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_LoggerCategoryName
+  commentId: P:CarinaStudio.BaseApplicationObject.LoggerCategoryName
+  fullName: CarinaStudio.BaseApplicationObject.LoggerCategoryName
+  nameWithType: BaseApplicationObject.LoggerCategoryName
+- uid: CarinaStudio.BaseApplicationObject.LoggerCategoryName*
+  name: LoggerCategoryName
+  href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_LoggerCategoryName_
+  commentId: Overload:CarinaStudio.BaseApplicationObject.LoggerCategoryName
+  isSpec: "True"
+  fullName: CarinaStudio.BaseApplicationObject.LoggerCategoryName
+  nameWithType: BaseApplicationObject.LoggerCategoryName
 - uid: CarinaStudio.BaseApplicationObject.PersistentState
   name: PersistentState
   href: api/CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState
@@ -9203,6 +9267,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler
   nameWithType: NotifyPropertyChangedExtensions.AddWeakPropertyChangedEventHandler
+- uid: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync*
+  name: WaitForPropertyChangeAsync
+  href: api/CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync_
+  commentId: Overload:CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync
+  isSpec: "True"
+  fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync
+  nameWithType: NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync
+- uid: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync``1(``0,System.String,System.Predicate{``0},System.Threading.CancellationToken)
+  name: WaitForPropertyChangeAsync<T>(T, string, Predicate<T>, CancellationToken)
+  href: api/CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync``1(``0,System.String,System.Predicate{``0},System.Threading.CancellationToken)
+  name.vb: WaitForPropertyChangeAsync(Of T)(T, String, Predicate(Of T), CancellationToken)
+  fullName: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync<T>(T, string, System.Predicate<T>, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync(Of T)(T, String, System.Predicate(Of T), System.Threading.CancellationToken)
+  nameWithType: NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync<T>(T, string, Predicate<T>, CancellationToken)
+  nameWithType.vb: NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync(Of T)(T, String, Predicate(Of T), CancellationToken)
 - uid: CarinaStudio.Configuration
   name: CarinaStudio.Configuration
   href: api/CarinaStudio.Configuration.html
@@ -9758,21 +9838,21 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Configuration.PersistentSettings.Save
   nameWithType: PersistentSettings.Save
-- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
-  name: SaveAsync(Stream)
-  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_IO_Stream_
-  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
-  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream)
-  nameWithType: PersistentSettings.SaveAsync(Stream)
-- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)
-  name: SaveAsync(string)
-  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_
-  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String)
-  name.vb: SaveAsync(String)
-  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(string)
-  fullName.vb: CarinaStudio.Configuration.PersistentSettings.SaveAsync(String)
-  nameWithType: PersistentSettings.SaveAsync(string)
-  nameWithType.vb: PersistentSettings.SaveAsync(String)
+- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
+  name: SaveAsync(Stream, CancellationToken)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_IO_Stream_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream,System.Threading.CancellationToken)
+  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.IO.Stream, System.Threading.CancellationToken)
+  nameWithType: PersistentSettings.SaveAsync(Stream, CancellationToken)
+- uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String,System.Threading.CancellationToken)
+  name: SaveAsync(string, CancellationToken)
+  href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Configuration.PersistentSettings.SaveAsync(System.String,System.Threading.CancellationToken)
+  name.vb: SaveAsync(String, CancellationToken)
+  fullName: CarinaStudio.Configuration.PersistentSettings.SaveAsync(string, System.Threading.CancellationToken)
+  fullName.vb: CarinaStudio.Configuration.PersistentSettings.SaveAsync(String, System.Threading.CancellationToken)
+  nameWithType: PersistentSettings.SaveAsync(string, CancellationToken)
+  nameWithType.vb: PersistentSettings.SaveAsync(String, CancellationToken)
 - uid: CarinaStudio.Configuration.PersistentSettings.SaveAsync*
   name: SaveAsync
   href: api/CarinaStudio.Configuration.PersistentSettings.html#CarinaStudio_Configuration_PersistentSettings_SaveAsync_
@@ -10589,6 +10669,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.ApplicationWindow.Logger
   nameWithType: ApplicationWindow.Logger
+- uid: CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_LoggerCategoryName
+  commentId: P:CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName
+  fullName: CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName
+  nameWithType: ApplicationWindow.LoggerCategoryName
+- uid: CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName*
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_LoggerCategoryName_
+  commentId: Overload:CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.ApplicationWindow.LoggerCategoryName
+  nameWithType: ApplicationWindow.LoggerCategoryName
 - uid: CarinaStudio.Controls.ApplicationWindow.PersistentState
   name: PersistentState
   href: api/CarinaStudio.Controls.ApplicationWindow.html#CarinaStudio_Controls_ApplicationWindow_PersistentState
@@ -14059,6 +14152,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Controls.UserControl.Logger
   nameWithType: UserControl.Logger
+- uid: CarinaStudio.Controls.UserControl.LoggerCategoryName
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_LoggerCategoryName
+  commentId: P:CarinaStudio.Controls.UserControl.LoggerCategoryName
+  fullName: CarinaStudio.Controls.UserControl.LoggerCategoryName
+  nameWithType: UserControl.LoggerCategoryName
+- uid: CarinaStudio.Controls.UserControl.LoggerCategoryName*
+  name: LoggerCategoryName
+  href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_LoggerCategoryName_
+  commentId: Overload:CarinaStudio.Controls.UserControl.LoggerCategoryName
+  isSpec: "True"
+  fullName: CarinaStudio.Controls.UserControl.LoggerCategoryName
+  nameWithType: UserControl.LoggerCategoryName
 - uid: CarinaStudio.Controls.UserControl.PersistentState
   name: PersistentState
   href: api/CarinaStudio.Controls.UserControl.html#CarinaStudio_Controls_UserControl_PersistentState
@@ -15640,6 +15746,65 @@ references:
   commentId: T:CarinaStudio.DisposableExtensions
   fullName: CarinaStudio.DisposableExtensions
   nameWithType: DisposableExtensions
+- uid: CarinaStudio.DisposableExtensions.DisposeAll*
+  name: DisposeAll
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll_
+  commentId: Overload:CarinaStudio.DisposableExtensions.DisposeAll
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.DisposeAll
+  nameWithType: DisposableExtensions.DisposeAll
+- uid: CarinaStudio.DisposableExtensions.DisposeAllAndClear*
+  name: DisposeAllAndClear
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAllAndClear_
+  commentId: Overload:CarinaStudio.DisposableExtensions.DisposeAllAndClear
+  isSpec: "True"
+  fullName: CarinaStudio.DisposableExtensions.DisposeAllAndClear
+  nameWithType: DisposableExtensions.DisposeAllAndClear
+- uid: CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.ICollection{``0})
+  name: DisposeAllAndClear<T>(ICollection<T?>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_ICollection___0__
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.ICollection{``0})
+  name.vb: DisposeAllAndClear(Of T)(ICollection(Of T))
+  fullName: CarinaStudio.DisposableExtensions.DisposeAllAndClear<T>(System.Collections.Generic.ICollection<T?>)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAllAndClear(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: DisposableExtensions.DisposeAllAndClear<T>(ICollection<T?>)
+  nameWithType.vb: DisposableExtensions.DisposeAllAndClear(Of T)(ICollection(Of T))
+- uid: CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.IList{``0})
+  name: DisposeAllAndClear<T>(IList<T?>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAllAndClear__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAllAndClear``1(System.Collections.Generic.IList{``0})
+  name.vb: DisposeAllAndClear(Of T)(IList(Of T))
+  fullName: CarinaStudio.DisposableExtensions.DisposeAllAndClear<T>(System.Collections.Generic.IList<T?>)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAllAndClear(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: DisposableExtensions.DisposeAllAndClear<T>(IList<T?>)
+  nameWithType.vb: DisposableExtensions.DisposeAllAndClear(Of T)(IList(Of T))
+- uid: CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IEnumerable{``0})
+  name: DisposeAll<T>(IEnumerable<T?>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: DisposeAll(Of T)(IEnumerable(Of T))
+  fullName: CarinaStudio.DisposableExtensions.DisposeAll<T>(System.Collections.Generic.IEnumerable<T?>)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAll(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: DisposableExtensions.DisposeAll<T>(IEnumerable<T?>)
+  nameWithType.vb: DisposableExtensions.DisposeAll(Of T)(IEnumerable(Of T))
+- uid: CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IList{``0})
+  name: DisposeAll<T>(IList<T?>)
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll__1_System_Collections_Generic_IList___0__
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAll``1(System.Collections.Generic.IList{``0})
+  name.vb: DisposeAll(Of T)(IList(Of T))
+  fullName: CarinaStudio.DisposableExtensions.DisposeAll<T>(System.Collections.Generic.IList<T?>)
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAll(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: DisposableExtensions.DisposeAll<T>(IList<T?>)
+  nameWithType.vb: DisposableExtensions.DisposeAll(Of T)(IList(Of T))
+- uid: CarinaStudio.DisposableExtensions.DisposeAll``1(``0[])
+  name: DisposeAll<T>(T?[])
+  href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAll__1___0___
+  commentId: M:CarinaStudio.DisposableExtensions.DisposeAll``1(``0[])
+  name.vb: DisposeAll(Of T)(T())
+  fullName: CarinaStudio.DisposableExtensions.DisposeAll<T>(T?[])
+  fullName.vb: CarinaStudio.DisposableExtensions.DisposeAll(Of T)(T())
+  nameWithType: DisposableExtensions.DisposeAll<T>(T?[])
+  nameWithType.vb: DisposableExtensions.DisposeAll(Of T)(T())
 - uid: CarinaStudio.DisposableExtensions.DisposeAndReturnNull*
   name: DisposeAndReturnNull
   href: api/CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull_
@@ -20100,6 +20265,109 @@ references:
   commentId: F:CarinaStudio.MacOS.AppKit.NSControlTint.Graphite
   fullName: CarinaStudio.MacOS.AppKit.NSControlTint.Graphite
   nameWithType: NSControlTint.Graphite
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary
+  name: NSDictionary
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSDictionary
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary
+  nameWithType: NSDictionary
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys
+  name: AllKeys
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_AllKeys
+  commentId: P:CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys
+  nameWithType: NSDictionary.AllKeys
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys*
+  name: AllKeys
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_AllKeys_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.AllKeys
+  nameWithType: NSDictionary.AllKeys
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects
+  name: AllObjects
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_AllObjects
+  commentId: P:CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects
+  nameWithType: NSDictionary.AllObjects
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects*
+  name: AllObjects
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_AllObjects_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.AllObjects
+  nameWithType: NSDictionary.AllObjects
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.Count
+  name: Count
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_Count
+  commentId: P:CarinaStudio.MacOS.AppKit.NSDictionary.Count
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.Count
+  nameWithType: NSDictionary.Count
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.Count*
+  name: Count
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_Count_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.Count
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.Count
+  nameWithType: NSDictionary.Count
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject*
+  name: GetCFObject
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetCFObject_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject
+  nameWithType: NSDictionary.GetCFObject
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject``1(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: GetCFObject<T>(NSObject)
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetCFObject__1_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject``1(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name.vb: GetCFObject(Of T)(NSObject)
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject<T>(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName.vb: CarinaStudio.MacOS.AppKit.NSDictionary.GetCFObject(Of T)(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSDictionary.GetCFObject<T>(NSObject)
+  nameWithType.vb: NSDictionary.GetCFObject(Of T)(NSObject)
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator
+  name: GetKeyEnumerator()
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetKeyEnumerator
+  commentId: M:CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator()
+  nameWithType: NSDictionary.GetKeyEnumerator()
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator*
+  name: GetKeyEnumerator
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetKeyEnumerator_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetKeyEnumerator
+  nameWithType: NSDictionary.GetKeyEnumerator
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetObject*
+  name: GetObject
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetObject_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.GetObject
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetObject
+  nameWithType: NSDictionary.GetObject
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator
+  name: GetObjectEnumerator()
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetObjectEnumerator
+  commentId: M:CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator()
+  nameWithType: NSDictionary.GetObjectEnumerator()
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator*
+  name: GetObjectEnumerator
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetObjectEnumerator_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetObjectEnumerator
+  nameWithType: NSDictionary.GetObjectEnumerator
+- uid: CarinaStudio.MacOS.AppKit.NSDictionary.GetObject``1(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name: GetObject<T>(NSObject)
+  href: api/CarinaStudio.MacOS.AppKit.NSDictionary.html#CarinaStudio_MacOS_AppKit_NSDictionary_GetObject__1_CarinaStudio_MacOS_ObjectiveC_NSObject_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSDictionary.GetObject``1(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  name.vb: GetObject(Of T)(NSObject)
+  fullName: CarinaStudio.MacOS.AppKit.NSDictionary.GetObject<T>(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  fullName.vb: CarinaStudio.MacOS.AppKit.NSDictionary.GetObject(Of T)(CarinaStudio.MacOS.ObjectiveC.NSObject)
+  nameWithType: NSDictionary.GetObject<T>(NSObject)
+  nameWithType.vb: NSDictionary.GetObject(Of T)(NSObject)
 - uid: CarinaStudio.MacOS.AppKit.NSDockTile
   name: NSDockTile
   href: api/CarinaStudio.MacOS.AppKit.NSDockTile.html
@@ -20229,6 +20497,481 @@ references:
   commentId: F:CarinaStudio.MacOS.AppKit.NSEdgeInsets.Top
   fullName: CarinaStudio.MacOS.AppKit.NSEdgeInsets.Top
   nameWithType: NSEdgeInsets.Top
+- uid: CarinaStudio.MacOS.AppKit.NSFont
+  name: NSFont
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSFont
+  fullName: CarinaStudio.MacOS.AppKit.NSFont
+  nameWithType: NSFont
+- uid: CarinaStudio.MacOS.AppKit.NSFont.DisplayName
+  name: DisplayName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_DisplayName
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.DisplayName
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.DisplayName
+  nameWithType: NSFont.DisplayName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.DisplayName*
+  name: DisplayName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_DisplayName_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.DisplayName
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.DisplayName
+  nameWithType: NSFont.DisplayName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FamilyName
+  name: FamilyName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FamilyName
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.FamilyName
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FamilyName
+  nameWithType: NSFont.FamilyName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FamilyName*
+  name: FamilyName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FamilyName_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.FamilyName
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FamilyName
+  nameWithType: NSFont.FamilyName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor
+  name: FontDescriptor
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FontDescriptor
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor
+  nameWithType: NSFont.FontDescriptor
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor*
+  name: FontDescriptor
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FontDescriptor_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FontDescriptor
+  nameWithType: NSFont.FontDescriptor
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FontName
+  name: FontName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FontName
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.FontName
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FontName
+  nameWithType: NSFont.FontName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.FontName*
+  name: FontName
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_FontName_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.FontName
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.FontName
+  nameWithType: NSFont.FontName
+- uid: CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont(CarinaStudio.MacOS.AppKit.NSFont.TextStyle,CarinaStudio.MacOS.AppKit.NSDictionary)
+  name: GetPreferredFont(TextStyle, NSDictionary?)
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_GetPreferredFont_CarinaStudio_MacOS_AppKit_NSFont_TextStyle_CarinaStudio_MacOS_AppKit_NSDictionary_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont(CarinaStudio.MacOS.AppKit.NSFont.TextStyle,CarinaStudio.MacOS.AppKit.NSDictionary)
+  name.vb: GetPreferredFont(TextStyle, NSDictionary)
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont(CarinaStudio.MacOS.AppKit.NSFont.TextStyle, CarinaStudio.MacOS.AppKit.NSDictionary?)
+  fullName.vb: CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont(CarinaStudio.MacOS.AppKit.NSFont.TextStyle, CarinaStudio.MacOS.AppKit.NSDictionary)
+  nameWithType: NSFont.GetPreferredFont(NSFont.TextStyle, NSDictionary?)
+  nameWithType.vb: NSFont.GetPreferredFont(NSFont.TextStyle, NSDictionary)
+- uid: CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont*
+  name: GetPreferredFont
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_GetPreferredFont_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.GetPreferredFont
+  nameWithType: NSFont.GetPreferredFont
+- uid: CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize
+  name: LabelFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_LabelFontSize
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize
+  nameWithType: NSFont.LabelFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize*
+  name: LabelFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_LabelFontSize_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.LabelFontSize
+  nameWithType: NSFont.LabelFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.PointSize
+  name: PointSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_PointSize
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.PointSize
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.PointSize
+  nameWithType: NSFont.PointSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.PointSize*
+  name: PointSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_PointSize_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.PointSize
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.PointSize
+  nameWithType: NSFont.PointSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize
+  name: SmallSystemFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_SmallSystemFontSize
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize
+  nameWithType: NSFont.SmallSystemFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize*
+  name: SmallSystemFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_SmallSystemFontSize_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.SmallSystemFontSize
+  nameWithType: NSFont.SmallSystemFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize
+  name: SystemFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_SystemFontSize
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize
+  nameWithType: NSFont.SystemFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize*
+  name: SystemFontSize
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.html#CarinaStudio_MacOS_AppKit_NSFont_SystemFontSize_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.SystemFontSize
+  nameWithType: NSFont.SystemFontSize
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle
+  name: NSFont.TextStyle
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSFont.TextStyle
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle
+  nameWithType: NSFont.TextStyle
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body
+  name: Body
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Body
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body
+  nameWithType: NSFont.TextStyle.Body
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body*
+  name: Body
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Body_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Body
+  nameWithType: NSFont.TextStyle.Body
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout
+  name: Callout
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Callout
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout
+  nameWithType: NSFont.TextStyle.Callout
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout*
+  name: Callout
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Callout_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Callout
+  nameWithType: NSFont.TextStyle.Callout
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1
+  name: Caption1
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Caption1
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1
+  nameWithType: NSFont.TextStyle.Caption1
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1*
+  name: Caption1
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Caption1_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption1
+  nameWithType: NSFont.TextStyle.Caption1
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2
+  name: Caption2
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Caption2
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2
+  nameWithType: NSFont.TextStyle.Caption2
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2*
+  name: Caption2
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Caption2_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Caption2
+  nameWithType: NSFont.TextStyle.Caption2
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote
+  name: Footnote
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Footnote
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote
+  nameWithType: NSFont.TextStyle.Footnote
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote*
+  name: Footnote
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Footnote_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Footnote
+  nameWithType: NSFont.TextStyle.Footnote
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline
+  name: Headline
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Headline
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline
+  nameWithType: NSFont.TextStyle.Headline
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline*
+  name: Headline
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Headline_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Headline
+  nameWithType: NSFont.TextStyle.Headline
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle
+  name: LargeTitle
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_LargeTitle
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle
+  nameWithType: NSFont.TextStyle.LargeTitle
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle*
+  name: LargeTitle
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_LargeTitle_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.LargeTitle
+  nameWithType: NSFont.TextStyle.LargeTitle
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline
+  name: Subheadline
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Subheadline
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline
+  nameWithType: NSFont.TextStyle.Subheadline
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline*
+  name: Subheadline
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Subheadline_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Subheadline
+  nameWithType: NSFont.TextStyle.Subheadline
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1
+  name: Title1
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title1
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1
+  nameWithType: NSFont.TextStyle.Title1
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1*
+  name: Title1
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title1_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title1
+  nameWithType: NSFont.TextStyle.Title1
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2
+  name: Title2
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title2
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2
+  nameWithType: NSFont.TextStyle.Title2
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2*
+  name: Title2
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title2_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title2
+  nameWithType: NSFont.TextStyle.Title2
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3
+  name: Title3
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title3
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3
+  nameWithType: NSFont.TextStyle.Title3
+- uid: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3*
+  name: Title3
+  href: api/CarinaStudio.MacOS.AppKit.NSFont.TextStyle.html#CarinaStudio_MacOS_AppKit_NSFont_TextStyle_Title3_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFont.TextStyle.Title3
+  nameWithType: NSFont.TextStyle.Title3
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor
+  name: NSFontDescriptor
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSFontDescriptor
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor
+  nameWithType: NSFontDescriptor
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName
+  name: NSFontDescriptor.AttributeName
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html
+  commentId: T:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName
+  nameWithType: NSFontDescriptor.AttributeName
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList
+  name: CascadeList
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_CascadeList
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList
+  nameWithType: NSFontDescriptor.AttributeName.CascadeList
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList*
+  name: CascadeList
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_CascadeList_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CascadeList
+  nameWithType: NSFontDescriptor.AttributeName.CascadeList
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet
+  name: CharacterSet
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_CharacterSet
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet
+  nameWithType: NSFontDescriptor.AttributeName.CharacterSet
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet*
+  name: CharacterSet
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_CharacterSet_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.CharacterSet
+  nameWithType: NSFontDescriptor.AttributeName.CharacterSet
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face
+  name: Face
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Face
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face
+  nameWithType: NSFontDescriptor.AttributeName.Face
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face*
+  name: Face
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Face_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Face
+  nameWithType: NSFontDescriptor.AttributeName.Face
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family
+  name: Family
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Family
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family
+  nameWithType: NSFontDescriptor.AttributeName.Family
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family*
+  name: Family
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Family_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Family
+  nameWithType: NSFontDescriptor.AttributeName.Family
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings
+  name: FeatureSettings
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_FeatureSettings
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings
+  nameWithType: NSFontDescriptor.AttributeName.FeatureSettings
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings*
+  name: FeatureSettings
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_FeatureSettings_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FeatureSettings
+  nameWithType: NSFontDescriptor.AttributeName.FeatureSettings
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance
+  name: FixedAdvance
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_FixedAdvance
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance
+  nameWithType: NSFontDescriptor.AttributeName.FixedAdvance
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance*
+  name: FixedAdvance
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_FixedAdvance_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.FixedAdvance
+  nameWithType: NSFontDescriptor.AttributeName.FixedAdvance
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix
+  name: Matrix
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Matrix
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix
+  nameWithType: NSFontDescriptor.AttributeName.Matrix
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix*
+  name: Matrix
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Matrix_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Matrix
+  nameWithType: NSFontDescriptor.AttributeName.Matrix
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name
+  name: Name
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Name
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name
+  nameWithType: NSFontDescriptor.AttributeName.Name
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name*
+  name: Name
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Name_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Name
+  nameWithType: NSFontDescriptor.AttributeName.Name
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size
+  name: Size
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Size
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size
+  nameWithType: NSFontDescriptor.AttributeName.Size
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size*
+  name: Size
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Size_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Size
+  nameWithType: NSFontDescriptor.AttributeName.Size
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits
+  name: Traits
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Traits
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits
+  nameWithType: NSFontDescriptor.AttributeName.Traits
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits*
+  name: Traits
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Traits_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Traits
+  nameWithType: NSFontDescriptor.AttributeName.Traits
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation
+  name: Variation
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Variation
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation
+  nameWithType: NSFontDescriptor.AttributeName.Variation
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation*
+  name: Variation
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_Variation_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.Variation
+  nameWithType: NSFontDescriptor.AttributeName.Variation
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName
+  name: VisibleName
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_VisibleName
+  commentId: P:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName
+  nameWithType: NSFontDescriptor.AttributeName.VisibleName
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName*
+  name: VisibleName
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_VisibleName_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName.VisibleName
+  nameWithType: NSFontDescriptor.AttributeName.VisibleName
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject*
+  name: GetCFObject
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_GetCFObject_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject
+  nameWithType: NSFontDescriptor.GetCFObject
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject``1(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  name: GetCFObject<T>(AttributeName)
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_GetCFObject__1_CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject``1(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  name.vb: GetCFObject(Of T)(AttributeName)
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject<T>(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  fullName.vb: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetCFObject(Of T)(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  nameWithType: NSFontDescriptor.GetCFObject<T>(NSFontDescriptor.AttributeName)
+  nameWithType.vb: NSFontDescriptor.GetCFObject(Of T)(NSFontDescriptor.AttributeName)
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject*
+  name: GetObject
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_GetObject_
+  commentId: Overload:CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject
+  nameWithType: NSFontDescriptor.GetObject
+- uid: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject``1(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  name: GetObject<T>(AttributeName)
+  href: api/CarinaStudio.MacOS.AppKit.NSFontDescriptor.html#CarinaStudio_MacOS_AppKit_NSFontDescriptor_GetObject__1_CarinaStudio_MacOS_AppKit_NSFontDescriptor_AttributeName_
+  commentId: M:CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject``1(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  name.vb: GetObject(Of T)(AttributeName)
+  fullName: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject<T>(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  fullName.vb: CarinaStudio.MacOS.AppKit.NSFontDescriptor.GetObject(Of T)(CarinaStudio.MacOS.AppKit.NSFontDescriptor.AttributeName)
+  nameWithType: NSFontDescriptor.GetObject<T>(NSFontDescriptor.AttributeName)
+  nameWithType.vb: NSFontDescriptor.GetObject(Of T)(NSFontDescriptor.AttributeName)
 - uid: CarinaStudio.MacOS.AppKit.NSImage
   name: NSImage
   href: api/CarinaStudio.MacOS.AppKit.NSImage.html
@@ -23510,6 +24253,31 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.CoreFoundation.CFObject.~CFObject
   nameWithType: CFObject.~CFObject
+- uid: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport*
+  name: FromExport
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport_
+  commentId: Overload:CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport
+  nameWithType: CFObject.FromExport
+- uid: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport``1(System.IntPtr,System.String)
+  name: FromExport<T>(IntPtr, string)
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1_System_IntPtr_System_String_
+  commentId: M:CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport``1(System.IntPtr,System.String)
+  name.vb: FromExport(Of T)(IntPtr, String)
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport<T>(System.IntPtr, string)
+  fullName.vb: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport(Of T)(System.IntPtr, String)
+  nameWithType: CFObject.FromExport<T>(IntPtr, string)
+  nameWithType.vb: CFObject.FromExport(Of T)(IntPtr, String)
+- uid: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport``1(``0@,System.IntPtr,System.String)
+  name: FromExport<T>(ref T?, IntPtr, string)
+  href: api/CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromExport__1___0__System_IntPtr_System_String_
+  commentId: M:CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport``1(``0@,System.IntPtr,System.String)
+  name.vb: FromExport(Of T)(T, IntPtr, String)
+  fullName: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport<T>(ref T?, System.IntPtr, string)
+  fullName.vb: CarinaStudio.MacOS.CoreFoundation.CFObject.FromExport(Of T)(T, System.IntPtr, String)
+  nameWithType: CFObject.FromExport<T>(ref T?, IntPtr, string)
+  nameWithType.vb: CFObject.FromExport(Of T)(T, IntPtr, String)
 - uid: CarinaStudio.MacOS.CoreFoundation.CFObject.FromHandle(System.IntPtr,System.Boolean)
   name: FromHandle(IntPtr, bool)
   href: api/CarinaStudio.MacOS.CoreFoundation.CFObject.html#CarinaStudio_MacOS_CoreFoundation_CFObject_FromHandle_System_IntPtr_System_Boolean_
@@ -26734,6 +27502,31 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.~NSObject
   nameWithType: NSObject.~NSObject
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport*
+  name: FromExport
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromExport_
+  commentId: Overload:CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport
+  isSpec: "True"
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport
+  nameWithType: NSObject.FromExport
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport``1(System.IntPtr,System.String)
+  name: FromExport<T>(IntPtr, string)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromExport__1_System_IntPtr_System_String_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport``1(System.IntPtr,System.String)
+  name.vb: FromExport(Of T)(IntPtr, String)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport<T>(System.IntPtr, string)
+  fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport(Of T)(System.IntPtr, String)
+  nameWithType: NSObject.FromExport<T>(IntPtr, string)
+  nameWithType.vb: NSObject.FromExport(Of T)(IntPtr, String)
+- uid: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport``1(``0@,System.IntPtr,System.String)
+  name: FromExport<T>(ref T?, IntPtr, string)
+  href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromExport__1___0__System_IntPtr_System_String_
+  commentId: M:CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport``1(``0@,System.IntPtr,System.String)
+  name.vb: FromExport(Of T)(T, IntPtr, String)
+  fullName: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport<T>(ref T?, System.IntPtr, string)
+  fullName.vb: CarinaStudio.MacOS.ObjectiveC.NSObject.FromExport(Of T)(T, System.IntPtr, String)
+  nameWithType: NSObject.FromExport<T>(ref T?, IntPtr, string)
+  nameWithType.vb: NSObject.FromExport(Of T)(T, IntPtr, String)
 - uid: CarinaStudio.MacOS.ObjectiveC.NSObject.FromHandle(System.IntPtr,System.Boolean)
   name: FromHandle(IntPtr, bool)
   href: api/CarinaStudio.MacOS.ObjectiveC.NSObject.html#CarinaStudio_MacOS_ObjectiveC_NSObject_FromHandle_System_IntPtr_System_Boolean_
@@ -28724,6 +29517,15 @@ references:
   fullName.vb: CarinaStudio.Net.Http.HttpResponseStreamProvider.New(System.Func(Of System.Net.Http.HttpRequestMessage), System.TimeSpan?, System.Net.Http.HttpMessageHandler, Long?)
   nameWithType: HttpResponseStreamProvider.HttpResponseStreamProvider(Func<HttpRequestMessage>, TimeSpan?, HttpMessageHandler?, long?)
   nameWithType.vb: HttpResponseStreamProvider.New(Func(Of HttpRequestMessage), TimeSpan?, HttpMessageHandler, Long?)
+- uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(System.Net.Http.HttpRequestMessage,System.Nullable{System.TimeSpan},System.Net.Http.HttpMessageHandler,System.Nullable{System.Int64})
+  name: HttpResponseStreamProvider(HttpRequestMessage, TimeSpan?, HttpMessageHandler?, long?)
+  href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_System_Net_Http_HttpRequestMessage_System_Nullable_System_TimeSpan__System_Net_Http_HttpMessageHandler_System_Nullable_System_Int64__
+  commentId: M:CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor(System.Net.Http.HttpRequestMessage,System.Nullable{System.TimeSpan},System.Net.Http.HttpMessageHandler,System.Nullable{System.Int64})
+  name.vb: New(HttpRequestMessage, TimeSpan?, HttpMessageHandler, Long?)
+  fullName: CarinaStudio.Net.Http.HttpResponseStreamProvider.HttpResponseStreamProvider(System.Net.Http.HttpRequestMessage, System.TimeSpan?, System.Net.Http.HttpMessageHandler?, long?)
+  fullName.vb: CarinaStudio.Net.Http.HttpResponseStreamProvider.New(System.Net.Http.HttpRequestMessage, System.TimeSpan?, System.Net.Http.HttpMessageHandler, Long?)
+  nameWithType: HttpResponseStreamProvider.HttpResponseStreamProvider(HttpRequestMessage, TimeSpan?, HttpMessageHandler?, long?)
+  nameWithType.vb: HttpResponseStreamProvider.New(HttpRequestMessage, TimeSpan?, HttpMessageHandler, Long?)
 - uid: CarinaStudio.Net.Http.HttpResponseStreamProvider.#ctor*
   name: HttpResponseStreamProvider
   href: api/CarinaStudio.Net.Http.HttpResponseStreamProvider.html#CarinaStudio_Net_Http_HttpResponseStreamProvider__ctor_
@@ -31224,6 +32026,40 @@ references:
   commentId: N:CarinaStudio.Threading
   fullName: CarinaStudio.Threading
   nameWithType: CarinaStudio.Threading
+- uid: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute
+  name: CalledOnBackgroundThreadAttribute
+  href: api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.html
+  commentId: T:CarinaStudio.Threading.CalledOnBackgroundThreadAttribute
+  fullName: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute
+  nameWithType: CalledOnBackgroundThreadAttribute
+- uid: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor
+  name: CalledOnBackgroundThreadAttribute()
+  href: api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.html#CarinaStudio_Threading_CalledOnBackgroundThreadAttribute__ctor
+  commentId: M:CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor
+  name.vb: New()
+  fullName: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute()
+  fullName.vb: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.New()
+  nameWithType: CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute()
+  nameWithType.vb: CalledOnBackgroundThreadAttribute.New()
+- uid: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor(System.String[])
+  name: CalledOnBackgroundThreadAttribute(params string[])
+  href: api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.html#CarinaStudio_Threading_CalledOnBackgroundThreadAttribute__ctor_System_String___
+  commentId: M:CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor(System.String[])
+  name.vb: New(ParamArray String())
+  fullName: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute(params string[])
+  fullName.vb: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.New(ParamArray String())
+  nameWithType: CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute(params string[])
+  nameWithType.vb: CalledOnBackgroundThreadAttribute.New(ParamArray String())
+- uid: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor*
+  name: CalledOnBackgroundThreadAttribute
+  href: api/CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.html#CarinaStudio_Threading_CalledOnBackgroundThreadAttribute__ctor_
+  commentId: Overload:CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute
+  fullName.vb: CarinaStudio.Threading.CalledOnBackgroundThreadAttribute.New
+  nameWithType: CalledOnBackgroundThreadAttribute.CalledOnBackgroundThreadAttribute
+  nameWithType.vb: CalledOnBackgroundThreadAttribute.New
 - uid: CarinaStudio.Threading.DispatcherScheduledAction
   name: DispatcherScheduledAction
   href: api/CarinaStudio.Threading.DispatcherScheduledAction.html
@@ -31308,6 +32144,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.DispatcherScheduledAction.PostAction
   nameWithType: DispatcherScheduledAction.PostAction
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.SendAction(System.Threading.SendOrPostCallback,System.Object)
+  name: SendAction(SendOrPostCallback, object?)
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_SendAction_System_Threading_SendOrPostCallback_System_Object_
+  commentId: M:CarinaStudio.Threading.DispatcherScheduledAction.SendAction(System.Threading.SendOrPostCallback,System.Object)
+  name.vb: SendAction(SendOrPostCallback, Object)
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.SendAction(System.Threading.SendOrPostCallback, object?)
+  fullName.vb: CarinaStudio.Threading.DispatcherScheduledAction.SendAction(System.Threading.SendOrPostCallback, Object)
+  nameWithType: DispatcherScheduledAction.SendAction(SendOrPostCallback, object?)
+  nameWithType.vb: DispatcherScheduledAction.SendAction(SendOrPostCallback, Object)
+- uid: CarinaStudio.Threading.DispatcherScheduledAction.SendAction*
+  name: SendAction
+  href: api/CarinaStudio.Threading.DispatcherScheduledAction.html#CarinaStudio_Threading_DispatcherScheduledAction_SendAction_
+  commentId: Overload:CarinaStudio.Threading.DispatcherScheduledAction.SendAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.DispatcherScheduledAction.SendAction
+  nameWithType: DispatcherScheduledAction.SendAction
 - uid: CarinaStudio.Threading.DispatcherSynchronizationContext
   name: DispatcherSynchronizationContext
   href: api/CarinaStudio.Threading.DispatcherSynchronizationContext.html
@@ -31500,39 +32352,233 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.IThreadDependent.CheckAccess
   nameWithType: IThreadDependent.CheckAccess
+- uid: CarinaStudio.Threading.ReaderLockScope
+  name: ReaderLockScope
+  href: api/CarinaStudio.Threading.ReaderLockScope.html
+  commentId: T:CarinaStudio.Threading.ReaderLockScope
+  fullName: CarinaStudio.Threading.ReaderLockScope
+  nameWithType: ReaderLockScope
+- uid: CarinaStudio.Threading.ReaderLockScope.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.ReaderLockScope.html#CarinaStudio_Threading_ReaderLockScope_Dispose
+  commentId: M:CarinaStudio.Threading.ReaderLockScope.Dispose
+  fullName: CarinaStudio.Threading.ReaderLockScope.Dispose()
+  nameWithType: ReaderLockScope.Dispose()
+- uid: CarinaStudio.Threading.ReaderLockScope.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.ReaderLockScope.html#CarinaStudio_Threading_ReaderLockScope_Dispose_
+  commentId: Overload:CarinaStudio.Threading.ReaderLockScope.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ReaderLockScope.Dispose
+  nameWithType: ReaderLockScope.Dispose
+- uid: CarinaStudio.Threading.ReaderLockScopeSlim
+  name: ReaderLockScopeSlim
+  href: api/CarinaStudio.Threading.ReaderLockScopeSlim.html
+  commentId: T:CarinaStudio.Threading.ReaderLockScopeSlim
+  fullName: CarinaStudio.Threading.ReaderLockScopeSlim
+  nameWithType: ReaderLockScopeSlim
+- uid: CarinaStudio.Threading.ReaderLockScopeSlim.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.ReaderLockScopeSlim.html#CarinaStudio_Threading_ReaderLockScopeSlim_Dispose
+  commentId: M:CarinaStudio.Threading.ReaderLockScopeSlim.Dispose
+  fullName: CarinaStudio.Threading.ReaderLockScopeSlim.Dispose()
+  nameWithType: ReaderLockScopeSlim.Dispose()
+- uid: CarinaStudio.Threading.ReaderLockScopeSlim.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.ReaderLockScopeSlim.html#CarinaStudio_Threading_ReaderLockScopeSlim_Dispose_
+  commentId: Overload:CarinaStudio.Threading.ReaderLockScopeSlim.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ReaderLockScopeSlim.Dispose
+  nameWithType: ReaderLockScopeSlim.Dispose
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions
+  name: ReaderWriterLockExtensions
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html
+  commentId: T:CarinaStudio.Threading.ReaderWriterLockExtensions
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions
+  nameWithType: ReaderWriterLockExtensions
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock,System.Int32)
+  name: EnterReadScope(ReaderWriterLock, int)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterReadScope_System_Threading_ReaderWriterLock_System_Int32_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock,System.Int32)
+  name.vb: EnterReadScope(ReaderWriterLock, Integer)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock, int)
+  fullName.vb: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock, Integer)
+  nameWithType: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLock, int)
+  nameWithType.vb: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLock, Integer)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock,System.TimeSpan)
+  name: EnterReadScope(ReaderWriterLock, TimeSpan)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterReadScope_System_Threading_ReaderWriterLock_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock,System.TimeSpan)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLock, System.TimeSpan)
+  nameWithType: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLock, TimeSpan)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name: EnterReadScope(ReaderWriterLockSlim, int)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterReadScope_System_Threading_ReaderWriterLockSlim_System_Int32_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name.vb: EnterReadScope(ReaderWriterLockSlim, Integer)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim, int)
+  fullName.vb: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim, Integer)
+  nameWithType: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLockSlim, int)
+  nameWithType.vb: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLockSlim, Integer)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  name: EnterReadScope(ReaderWriterLockSlim, TimeSpan)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterReadScope_System_Threading_ReaderWriterLockSlim_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope(System.Threading.ReaderWriterLockSlim, System.TimeSpan)
+  nameWithType: ReaderWriterLockExtensions.EnterReadScope(ReaderWriterLockSlim, TimeSpan)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope*
+  name: EnterReadScope
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterReadScope_
+  commentId: Overload:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterReadScope
+  nameWithType: ReaderWriterLockExtensions.EnterReadScope
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name: EnterUpgradeableReadScope(ReaderWriterLockSlim, int)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterUpgradeableReadScope_System_Threading_ReaderWriterLockSlim_System_Int32_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name.vb: EnterUpgradeableReadScope(ReaderWriterLockSlim, Integer)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim, int)
+  fullName.vb: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim, Integer)
+  nameWithType: ReaderWriterLockExtensions.EnterUpgradeableReadScope(ReaderWriterLockSlim, int)
+  nameWithType.vb: ReaderWriterLockExtensions.EnterUpgradeableReadScope(ReaderWriterLockSlim, Integer)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  name: EnterUpgradeableReadScope(ReaderWriterLockSlim, TimeSpan)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterUpgradeableReadScope_System_Threading_ReaderWriterLockSlim_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope(System.Threading.ReaderWriterLockSlim, System.TimeSpan)
+  nameWithType: ReaderWriterLockExtensions.EnterUpgradeableReadScope(ReaderWriterLockSlim, TimeSpan)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope*
+  name: EnterUpgradeableReadScope
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterUpgradeableReadScope_
+  commentId: Overload:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterUpgradeableReadScope
+  nameWithType: ReaderWriterLockExtensions.EnterUpgradeableReadScope
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock,System.Int32)
+  name: EnterWriteScope(ReaderWriterLock, int)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterWriteScope_System_Threading_ReaderWriterLock_System_Int32_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock,System.Int32)
+  name.vb: EnterWriteScope(ReaderWriterLock, Integer)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock, int)
+  fullName.vb: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock, Integer)
+  nameWithType: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLock, int)
+  nameWithType.vb: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLock, Integer)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock,System.TimeSpan)
+  name: EnterWriteScope(ReaderWriterLock, TimeSpan)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterWriteScope_System_Threading_ReaderWriterLock_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock,System.TimeSpan)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLock, System.TimeSpan)
+  nameWithType: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLock, TimeSpan)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name: EnterWriteScope(ReaderWriterLockSlim, int)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterWriteScope_System_Threading_ReaderWriterLockSlim_System_Int32_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim,System.Int32)
+  name.vb: EnterWriteScope(ReaderWriterLockSlim, Integer)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim, int)
+  fullName.vb: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim, Integer)
+  nameWithType: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLockSlim, int)
+  nameWithType.vb: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLockSlim, Integer)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  name: EnterWriteScope(ReaderWriterLockSlim, TimeSpan)
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterWriteScope_System_Threading_ReaderWriterLockSlim_System_TimeSpan_
+  commentId: M:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim,System.TimeSpan)
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope(System.Threading.ReaderWriterLockSlim, System.TimeSpan)
+  nameWithType: ReaderWriterLockExtensions.EnterWriteScope(ReaderWriterLockSlim, TimeSpan)
+- uid: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope*
+  name: EnterWriteScope
+  href: api/CarinaStudio.Threading.ReaderWriterLockExtensions.html#CarinaStudio_Threading_ReaderWriterLockExtensions_EnterWriteScope_
+  commentId: Overload:CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ReaderWriterLockExtensions.EnterWriteScope
+  nameWithType: ReaderWriterLockExtensions.EnterWriteScope
 - uid: CarinaStudio.Threading.ScheduledAction
   name: ScheduledAction
   href: api/CarinaStudio.Threading.ScheduledAction.html
   commentId: T:CarinaStudio.Threading.ScheduledAction
   fullName: CarinaStudio.Threading.ScheduledAction
   nameWithType: ScheduledAction
-- uid: CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)
-  name: ScheduledAction(ISynchronizable, Action)
-  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_
-  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action)
-  name.vb: New(ISynchronizable, Action)
-  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(CarinaStudio.Threading.ISynchronizable, System.Action)
-  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(CarinaStudio.Threading.ISynchronizable, System.Action)
-  nameWithType: ScheduledAction.ScheduledAction(ISynchronizable, Action)
-  nameWithType.vb: ScheduledAction.New(ISynchronizable, Action)
-- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)
-  name: ScheduledAction(Action)
-  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Action_
-  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Action)
-  name.vb: New(Action)
-  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Action)
-  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Action)
-  nameWithType: ScheduledAction.ScheduledAction(Action)
-  nameWithType.vb: ScheduledAction.New(Action)
-- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)
-  name: ScheduledAction(SynchronizationContext, Action)
-  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_
-  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action)
-  name.vb: New(SynchronizationContext, Action)
-  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Threading.SynchronizationContext, System.Action)
-  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Threading.SynchronizationContext, System.Action)
-  nameWithType: ScheduledAction.ScheduledAction(SynchronizationContext, Action)
-  nameWithType.vb: ScheduledAction.New(SynchronizationContext, Action)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action,System.Boolean)
+  name: ScheduledAction(ISynchronizable, Action, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Action_System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Action,System.Boolean)
+  name.vb: New(ISynchronizable, Action, Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(CarinaStudio.Threading.ISynchronizable, System.Action, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(CarinaStudio.Threading.ISynchronizable, System.Action, Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(ISynchronizable, Action, bool)
+  nameWithType.vb: ScheduledAction.New(ISynchronizable, Action, Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(ISynchronizable, Func<CancellationToken, Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(ISynchronizable, Func(Of CancellationToken, Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(CarinaStudio.Threading.ISynchronizable, System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(CarinaStudio.Threading.ISynchronizable, System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(ISynchronizable, Func<CancellationToken, Task>, bool)
+  nameWithType.vb: ScheduledAction.New(ISynchronizable, Func(Of CancellationToken, Task), Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(ISynchronizable, Func<Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_CarinaStudio_Threading_ISynchronizable_System_Func_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(CarinaStudio.Threading.ISynchronizable,System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(ISynchronizable, Func(Of Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(CarinaStudio.Threading.ISynchronizable, System.Func<System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(CarinaStudio.Threading.ISynchronizable, System.Func(Of System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(ISynchronizable, Func<Task>, bool)
+  nameWithType.vb: ScheduledAction.New(ISynchronizable, Func(Of Task), Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Action,System.Boolean)
+  name: ScheduledAction(Action, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Action_System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Action,System.Boolean)
+  name.vb: New(Action, Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Action, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Action, Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(Action, bool)
+  nameWithType.vb: ScheduledAction.New(Action, Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(Func<CancellationToken, Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(Func(Of CancellationToken, Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(Func<CancellationToken, Task>, bool)
+  nameWithType.vb: ScheduledAction.New(Func(Of CancellationToken, Task), Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(Func<Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Func_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(Func(Of Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Func<System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Func(Of System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(Func<Task>, bool)
+  nameWithType.vb: ScheduledAction.New(Func(Of Task), Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action,System.Boolean)
+  name: ScheduledAction(SynchronizationContext, Action, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Action_System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Action,System.Boolean)
+  name.vb: New(SynchronizationContext, Action, Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Threading.SynchronizationContext, System.Action, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Threading.SynchronizationContext, System.Action, Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(SynchronizationContext, Action, bool)
+  nameWithType.vb: ScheduledAction.New(SynchronizationContext, Action, Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(SynchronizationContext, Func<CancellationToken, Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(SynchronizationContext, Func(Of CancellationToken, Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Threading.SynchronizationContext, System.Func<System.Threading.CancellationToken, System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Threading.SynchronizationContext, System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(SynchronizationContext, Func<CancellationToken, Task>, bool)
+  nameWithType.vb: ScheduledAction.New(SynchronizationContext, Func(Of CancellationToken, Task), Boolean)
+- uid: CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name: ScheduledAction(SynchronizationContext, Func<Task>, bool)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_System_Threading_SynchronizationContext_System_Func_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.#ctor(System.Threading.SynchronizationContext,System.Func{System.Threading.Tasks.Task},System.Boolean)
+  name.vb: New(SynchronizationContext, Func(Of Task), Boolean)
+  fullName: CarinaStudio.Threading.ScheduledAction.ScheduledAction(System.Threading.SynchronizationContext, System.Func<System.Threading.Tasks.Task>, bool)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.New(System.Threading.SynchronizationContext, System.Func(Of System.Threading.Tasks.Task), Boolean)
+  nameWithType: ScheduledAction.ScheduledAction(SynchronizationContext, Func<Task>, bool)
+  nameWithType.vb: ScheduledAction.New(SynchronizationContext, Func(Of Task), Boolean)
 - uid: CarinaStudio.Threading.ScheduledAction.#ctor*
   name: ScheduledAction
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction__ctor_
@@ -31585,6 +32631,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ScheduledAction.Execute
   nameWithType: ScheduledAction.Execute
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: ScheduledAction.ExecuteAsync(CancellationToken)
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteAsync_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.ExecuteAsync
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteAsync
+  nameWithType: ScheduledAction.ExecuteAsync
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled(System.Threading.CancellationToken)
+  name: ExecuteAsyncIfScheduled(CancellationToken)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteAsyncIfScheduled_System_Threading_CancellationToken_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled(System.Threading.CancellationToken)
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled(System.Threading.CancellationToken)
+  nameWithType: ScheduledAction.ExecuteAsyncIfScheduled(CancellationToken)
+- uid: CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled*
+  name: ExecuteAsyncIfScheduled
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteAsyncIfScheduled_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.ExecuteAsyncIfScheduled
+  nameWithType: ScheduledAction.ExecuteAsyncIfScheduled
 - uid: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
   name: ExecuteIfScheduled()
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_ExecuteIfScheduled
@@ -31598,6 +32670,32 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ScheduledAction.ExecuteIfScheduled
   nameWithType: ScheduledAction.ExecuteIfScheduled
+- uid: CarinaStudio.Threading.ScheduledAction.IsAsynchronous
+  name: IsAsynchronous
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsAsynchronous
+  commentId: P:CarinaStudio.Threading.ScheduledAction.IsAsynchronous
+  fullName: CarinaStudio.Threading.ScheduledAction.IsAsynchronous
+  nameWithType: ScheduledAction.IsAsynchronous
+- uid: CarinaStudio.Threading.ScheduledAction.IsAsynchronous*
+  name: IsAsynchronous
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsAsynchronous_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.IsAsynchronous
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.IsAsynchronous
+  nameWithType: ScheduledAction.IsAsynchronous
+- uid: CarinaStudio.Threading.ScheduledAction.IsExecuting
+  name: IsExecuting
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsExecuting
+  commentId: P:CarinaStudio.Threading.ScheduledAction.IsExecuting
+  fullName: CarinaStudio.Threading.ScheduledAction.IsExecuting
+  nameWithType: ScheduledAction.IsExecuting
+- uid: CarinaStudio.Threading.ScheduledAction.IsExecuting*
+  name: IsExecuting
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsExecuting_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.IsExecuting
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.IsExecuting
+  nameWithType: ScheduledAction.IsExecuting
 - uid: CarinaStudio.Threading.ScheduledAction.IsScheduled
   name: IsScheduled
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_IsScheduled
@@ -31683,6 +32781,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ScheduledAction.Schedule
   nameWithType: ScheduledAction.Schedule
+- uid: CarinaStudio.Threading.ScheduledAction.SendAction(System.Threading.SendOrPostCallback,System.Object)
+  name: SendAction(SendOrPostCallback, object?)
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SendAction_System_Threading_SendOrPostCallback_System_Object_
+  commentId: M:CarinaStudio.Threading.ScheduledAction.SendAction(System.Threading.SendOrPostCallback,System.Object)
+  name.vb: SendAction(SendOrPostCallback, Object)
+  fullName: CarinaStudio.Threading.ScheduledAction.SendAction(System.Threading.SendOrPostCallback, object?)
+  fullName.vb: CarinaStudio.Threading.ScheduledAction.SendAction(System.Threading.SendOrPostCallback, Object)
+  nameWithType: ScheduledAction.SendAction(SendOrPostCallback, object?)
+  nameWithType.vb: ScheduledAction.SendAction(SendOrPostCallback, Object)
+- uid: CarinaStudio.Threading.ScheduledAction.SendAction*
+  name: SendAction
+  href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SendAction_
+  commentId: Overload:CarinaStudio.Threading.ScheduledAction.SendAction
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.ScheduledAction.SendAction
+  nameWithType: ScheduledAction.SendAction
 - uid: CarinaStudio.Threading.ScheduledAction.SynchronizationContext
   name: SynchronizationContext
   href: api/CarinaStudio.Threading.ScheduledAction.html#CarinaStudio_Threading_ScheduledAction_SynchronizationContext
@@ -32207,6 +33321,103 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.Threading.ThreadDependentExtensions.VerifyAccess
   nameWithType: ThreadDependentExtensions.VerifyAccess
+- uid: CarinaStudio.Threading.ThreadSafeAttribute
+  name: ThreadSafeAttribute
+  href: api/CarinaStudio.Threading.ThreadSafeAttribute.html
+  commentId: T:CarinaStudio.Threading.ThreadSafeAttribute
+  fullName: CarinaStudio.Threading.ThreadSafeAttribute
+  nameWithType: ThreadSafeAttribute
+- uid: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim
+  name: UpgradeableReaderLockScopeSlim
+  href: api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.html
+  commentId: T:CarinaStudio.Threading.UpgradeableReaderLockScopeSlim
+  fullName: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim
+  nameWithType: UpgradeableReaderLockScopeSlim
+- uid: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.html#CarinaStudio_Threading_UpgradeableReaderLockScopeSlim_Dispose
+  commentId: M:CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose
+  fullName: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose()
+  nameWithType: UpgradeableReaderLockScopeSlim.Dispose()
+- uid: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.html#CarinaStudio_Threading_UpgradeableReaderLockScopeSlim_Dispose_
+  commentId: Overload:CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.UpgradeableReaderLockScopeSlim.Dispose
+  nameWithType: UpgradeableReaderLockScopeSlim.Dispose
+- uid: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute
+  name: UsedOnBackgroundThreadAttribute
+  href: api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.html
+  commentId: T:CarinaStudio.Threading.UsedOnBackgroundThreadAttribute
+  fullName: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute
+  nameWithType: UsedOnBackgroundThreadAttribute
+- uid: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor
+  name: UsedOnBackgroundThreadAttribute()
+  href: api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.html#CarinaStudio_Threading_UsedOnBackgroundThreadAttribute__ctor
+  commentId: M:CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor
+  name.vb: New()
+  fullName: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute()
+  fullName.vb: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.New()
+  nameWithType: UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute()
+  nameWithType.vb: UsedOnBackgroundThreadAttribute.New()
+- uid: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor(System.String[])
+  name: UsedOnBackgroundThreadAttribute(params string[])
+  href: api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.html#CarinaStudio_Threading_UsedOnBackgroundThreadAttribute__ctor_System_String___
+  commentId: M:CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor(System.String[])
+  name.vb: New(ParamArray String())
+  fullName: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute(params string[])
+  fullName.vb: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.New(ParamArray String())
+  nameWithType: UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute(params string[])
+  nameWithType.vb: UsedOnBackgroundThreadAttribute.New(ParamArray String())
+- uid: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor*
+  name: UsedOnBackgroundThreadAttribute
+  href: api/CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.html#CarinaStudio_Threading_UsedOnBackgroundThreadAttribute__ctor_
+  commentId: Overload:CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute
+  fullName.vb: CarinaStudio.Threading.UsedOnBackgroundThreadAttribute.New
+  nameWithType: UsedOnBackgroundThreadAttribute.UsedOnBackgroundThreadAttribute
+  nameWithType.vb: UsedOnBackgroundThreadAttribute.New
+- uid: CarinaStudio.Threading.WriterLockScope
+  name: WriterLockScope
+  href: api/CarinaStudio.Threading.WriterLockScope.html
+  commentId: T:CarinaStudio.Threading.WriterLockScope
+  fullName: CarinaStudio.Threading.WriterLockScope
+  nameWithType: WriterLockScope
+- uid: CarinaStudio.Threading.WriterLockScope.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.WriterLockScope.html#CarinaStudio_Threading_WriterLockScope_Dispose
+  commentId: M:CarinaStudio.Threading.WriterLockScope.Dispose
+  fullName: CarinaStudio.Threading.WriterLockScope.Dispose()
+  nameWithType: WriterLockScope.Dispose()
+- uid: CarinaStudio.Threading.WriterLockScope.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.WriterLockScope.html#CarinaStudio_Threading_WriterLockScope_Dispose_
+  commentId: Overload:CarinaStudio.Threading.WriterLockScope.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.WriterLockScope.Dispose
+  nameWithType: WriterLockScope.Dispose
+- uid: CarinaStudio.Threading.WriterLockScopeSlim
+  name: WriterLockScopeSlim
+  href: api/CarinaStudio.Threading.WriterLockScopeSlim.html
+  commentId: T:CarinaStudio.Threading.WriterLockScopeSlim
+  fullName: CarinaStudio.Threading.WriterLockScopeSlim
+  nameWithType: WriterLockScopeSlim
+- uid: CarinaStudio.Threading.WriterLockScopeSlim.Dispose
+  name: Dispose()
+  href: api/CarinaStudio.Threading.WriterLockScopeSlim.html#CarinaStudio_Threading_WriterLockScopeSlim_Dispose
+  commentId: M:CarinaStudio.Threading.WriterLockScopeSlim.Dispose
+  fullName: CarinaStudio.Threading.WriterLockScopeSlim.Dispose()
+  nameWithType: WriterLockScopeSlim.Dispose()
+- uid: CarinaStudio.Threading.WriterLockScopeSlim.Dispose*
+  name: Dispose
+  href: api/CarinaStudio.Threading.WriterLockScopeSlim.html#CarinaStudio_Threading_WriterLockScopeSlim_Dispose_
+  commentId: Overload:CarinaStudio.Threading.WriterLockScopeSlim.Dispose
+  isSpec: "True"
+  fullName: CarinaStudio.Threading.WriterLockScopeSlim.Dispose
+  nameWithType: WriterLockScopeSlim.Dispose
 - uid: CarinaStudio.ViewModels
   name: CarinaStudio.ViewModels
   href: api/CarinaStudio.ViewModels.html
@@ -32441,6 +33652,22 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.AddResource
   nameWithType: ViewModel.AddResource
+- uid: CarinaStudio.ViewModels.ViewModel.AddResourceAsync(System.Func{System.Threading.Tasks.Task},System.Func{System.Threading.Tasks.Task})
+  name: AddResourceAsync(Func<Task>, Func<Task>)
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_AddResourceAsync_System_Func_System_Threading_Tasks_Task__System_Func_System_Threading_Tasks_Task__
+  commentId: M:CarinaStudio.ViewModels.ViewModel.AddResourceAsync(System.Func{System.Threading.Tasks.Task},System.Func{System.Threading.Tasks.Task})
+  name.vb: AddResourceAsync(Func(Of Task), Func(Of Task))
+  fullName: CarinaStudio.ViewModels.ViewModel.AddResourceAsync(System.Func<System.Threading.Tasks.Task>, System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: CarinaStudio.ViewModels.ViewModel.AddResourceAsync(System.Func(Of System.Threading.Tasks.Task), System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: ViewModel.AddResourceAsync(Func<Task>, Func<Task>)
+  nameWithType.vb: ViewModel.AddResourceAsync(Func(Of Task), Func(Of Task))
+- uid: CarinaStudio.ViewModels.ViewModel.AddResourceAsync*
+  name: AddResourceAsync
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_AddResourceAsync_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.AddResourceAsync
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.AddResourceAsync
+  nameWithType: ViewModel.AddResourceAsync
 - uid: CarinaStudio.ViewModels.ViewModel.AddResources(System.IAsyncDisposable[])
   name: AddResources(params IAsyncDisposable[])
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_AddResources_System_IAsyncDisposable___
@@ -32601,6 +33828,19 @@ references:
   isSpec: "True"
   fullName: CarinaStudio.ViewModels.ViewModel.Logger
   nameWithType: ViewModel.Logger
+- uid: CarinaStudio.ViewModels.ViewModel.LoggerCategoryName
+  name: LoggerCategoryName
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_LoggerCategoryName
+  commentId: P:CarinaStudio.ViewModels.ViewModel.LoggerCategoryName
+  fullName: CarinaStudio.ViewModels.ViewModel.LoggerCategoryName
+  nameWithType: ViewModel.LoggerCategoryName
+- uid: CarinaStudio.ViewModels.ViewModel.LoggerCategoryName*
+  name: LoggerCategoryName
+  href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_LoggerCategoryName_
+  commentId: Overload:CarinaStudio.ViewModels.ViewModel.LoggerCategoryName
+  isSpec: "True"
+  fullName: CarinaStudio.ViewModels.ViewModel.LoggerCategoryName
+  nameWithType: ViewModel.LoggerCategoryName
 - uid: CarinaStudio.ViewModels.ViewModel.OnApplicationPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)
   name: OnApplicationPropertyChanged(PropertyChangedEventArgs)
   href: api/CarinaStudio.ViewModels.ViewModel.html#CarinaStudio_ViewModels_ViewModel_OnApplicationPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_

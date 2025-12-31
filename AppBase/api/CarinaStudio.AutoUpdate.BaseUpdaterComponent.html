@@ -85,7 +85,7 @@
 
 
   <h1 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent" class="text-break">
-Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,6 +153,12 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_CheckAccess">BaseApplicationObject.CheckAccess()</a>
     </div>
     <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_Logger">BaseApplicationObject.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_LoggerCategoryName">BaseApplicationObject.LoggerCategoryName</a>
+    </div>
+    <div>
       <a class="xref" href="CarinaStudio.BaseApplicationObject.html#CarinaStudio_BaseApplicationObject_PersistentState">BaseApplicationObject.PersistentState</a>
     </div>
     <div>
@@ -187,6 +193,9 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
   <dl class="typelist extensionMethods">
     <dt>Extension Methods</dt>
     <dd>
+  <div>
+      <a class="xref" href="CarinaStudio.ComponentModel.NotifyPropertyChangedExtensions.html#CarinaStudio_ComponentModel_NotifyPropertyChangedExtensions_WaitForPropertyChangeAsync__1___0_System_String_System_Predicate___0__System_Threading_CancellationToken_">NotifyPropertyChangedExtensions.WaitForPropertyChangeAsync&lt;T&gt;(T, string, Predicate&lt;T&gt;, CancellationToken)</a>
+  </div>
   <div>
       <a class="xref" href="CarinaStudio.DisposableExtensions.html#CarinaStudio_DisposableExtensions_DisposeAndReturnNull__1___0_">DisposableExtensions.DisposeAndReturnNull&lt;T&gt;(T?)</a>
   </div>
@@ -351,7 +360,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent__ctor_CarinaStudio_IApplication_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.#ctor(CarinaStudio.IApplication)">
   BaseUpdaterComponent(IApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize new <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html">BaseUpdaterComponent</a> instance.</p>
@@ -388,7 +397,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Exception" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Exception">
   Exception
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_Exception">Exception</a> occurred when performing operation.</p>
@@ -416,43 +425,11 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger*"></a>
-
-  <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Logger" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Logger">
-  Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L100"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Get logger.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ILogger Logger { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Progress_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Progress*"></a>
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Progress" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Progress">
   Progress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get progress of operation performed by this component. The range is [0.0, 1.0] or <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double.nan">NaN</a> if progress is unknown.</p>
@@ -484,7 +461,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_State" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.State">
   State
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get current state.</p>
@@ -520,7 +497,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Cancel" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Cancel">
   Cancel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cancel the operation performed by this component.</p>
@@ -553,7 +530,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Dispose_System_Boolean_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Dispose(System.Boolean)">
   Dispose(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Dispose the instance.</p>
@@ -586,7 +563,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnCompletedOrCancelled_System_Exception_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.OnCompletedOrCancelled(System.Exception)">
   OnCompletedOrCancelled(Exception?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when operation completed or cancelled.</p>
@@ -619,7 +596,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_OnPropertyChanged_System_String_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.OnPropertyChanged(System.String)">
   OnPropertyChanged(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raise <a class="xref" href="CarinaStudio.AutoUpdate.BaseUpdaterComponent.html#CarinaStudio_AutoUpdate_BaseUpdaterComponent_PropertyChanged">PropertyChanged</a> event.</p>
@@ -652,7 +629,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_PerformOperationAsync_System_Threading_CancellationToken_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.PerformOperationAsync(System.Threading.CancellationToken)">
   PerformOperationAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Perform operation asynchronously.</p>
@@ -691,7 +668,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_ReportProgress_System_Double_" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.ReportProgress(System.Double)">
   ReportProgress(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Report progress of operation.</p>
@@ -727,7 +704,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_Start" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Start performing operation.</p>
@@ -760,7 +737,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_ValidateParametersToStart" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.ValidateParametersToStart">
   ValidateParametersToStart()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate parameters to start performing operation.</p>
@@ -793,7 +770,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_VerifyInitializing" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.VerifyInitializing">
   VerifyInitializing()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Throw <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> if current state is not <a class="xref" href="CarinaStudio.AutoUpdate.UpdaterComponentState.html#CarinaStudio_AutoUpdate_UpdaterComponentState_Initializing">Initializing</a>.</p>
@@ -823,7 +800,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 
   <h3 id="CarinaStudio_AutoUpdate_BaseUpdaterComponent_PropertyChanged" data-uid="CarinaStudio.AutoUpdate.BaseUpdaterComponent.PropertyChanged">
   PropertyChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Raise when property changed.</p>
@@ -855,7 +832,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/carina-studio/AppBase/blob/master/AutoUpdate/BaseUpdaterComponent.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -870,7 +847,7 @@ Class BaseUpdaterComponent  <a class="header-action link-secondary" title="View 
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          ©2021-2025 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          ©2021-2026 Carina Studio&nbsp;|&nbsp;Logo icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
       </div>
     </footer>
